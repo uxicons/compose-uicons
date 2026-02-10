@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MugMarshmallows: ImageVector? = null
+
+val Icons.Tr.MugMarshmallows: ImageVector
+    get() = _MugMarshmallows ?: UXIcon(name = "MugMarshmallows") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.0f, 10.0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.36f, -1.09f, -2.46f, -2.43f, -2.5f)
+                lineToRelative(0.47f, -0.47f)
+                curveToRelative(0.38f, -0.38f, 0.59f, -0.88f, 0.59f, -1.41f)
+                reflectiveCurveToRelative(-0.21f, -1.04f, -0.59f, -1.41f)
+                lineToRelative(-2.12f, -2.12f)
+                curveToRelative(-0.76f, -0.76f, -2.07f, -0.76f, -2.83f, 0f)
+                lineToRelative(-1.11f, 1.11f)
+                curveTo(9.83f, 0.74f, 9.0f, 0f, 8.0f, 0f)
+                horizontalLineToRelative(-3f)
+                curveTo(3.9f, 0f, 3.0f, 0.9f, 3.0f, 2.0f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.37f, 0.1f, 0.71f, 0.28f, 1.01f)
+                curveToRelative(-1.27f, 0.12f, -2.27f, 1.19f, -2.27f, 2.49f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(2.31f, 0f, 4.22f, -1.75f, 4.47f, -4f)
+                horizontalLineToRelative(2.03f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(11.79f, 1.29f)
+                curveToRelative(0.38f, -0.38f, 1.04f, -0.38f, 1.41f, 0f)
+                lineToRelative(2.12f, 2.12f)
+                curveToRelative(0.19f, 0.19f, 0.29f, 0.44f, 0.29f, 0.71f)
+                reflectiveCurveToRelative(-0.1f, 0.52f, -0.29f, 0.71f)
+                lineToRelative(-1.11f, 1.11f)
+                curveToRelative(-0.02f, 0.02f, -0.04f, 0.04f, -0.05f, 0.06f)
+                horizontalLineToRelative(-3.33f)
+                curveToRelative(-0.02f, -0.02f, -1.16f, -1.17f, -1.16f, -1.17f)
+                curveToRelative(-0.19f, -0.19f, -0.29f, -0.44f, -0.29f, -0.71f)
+                reflectiveCurveToRelative(0.1f, -0.52f, 0.29f, -0.71f)
+                lineToRelative(2.12f, -2.12f)
+                close()
+                moveTo(4.0f, 2.0f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(0.67f)
+                lineToRelative(-0.04f, 0.04f)
+                curveToRelative(-0.38f, 0.38f, -0.59f, 0.88f, -0.59f, 1.41f)
+                reflectiveCurveToRelative(0.21f, 1.04f, 0.59f, 1.41f)
+                lineToRelative(0.47f, 0.47f)
+                horizontalLineToRelative(-4.41f)
+                curveToRelative(-0.01f, 0f, -0.01f, 0f, -0.02f, 0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13.5f, 23.0f)
+                lineTo(5.5f, 23.0f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-11f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(22.0f, 17.0f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _MugMarshmallows = it}

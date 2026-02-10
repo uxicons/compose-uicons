@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Binoculars: ImageVector? = null
+
+val Icons.Rr.Binoculars: ImageVector
+    get() = _Binoculars ?: UXIcon(name = "Binoculars") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.54f, 6.46f)
+                curveToRelative(-0.7f, -0.7f, -1.58f, -1.17f, -2.54f, -1.36f)
+                lineTo(20f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-4f)
+                lineTo(10f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2.1f)
+                curveToRelative(-0.95f, 0.19f, -1.83f, 0.66f, -2.54f, 1.36f)
+                curveToRelative(-0.94f, 0.94f, -1.46f, 2.2f, -1.46f, 3.54f)
+                verticalLineToRelative(8.5f)
+                curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+                curveToRelative(2.98f, 0f, 5.41f, -2.38f, 5.49f, -5.34f)
+                curveToRelative(0f, -0.01f, 0.01f, -0.03f, 0.01f, -0.04f)
+                verticalLineToRelative(-5.62f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(5.62f)
+                curveToRelative(0f, 0.01f, 0.01f, 0.03f, 0.01f, 0.04f)
+                curveToRelative(0.09f, 2.96f, 2.51f, 5.34f, 5.49f, 5.34f)
+                curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+                lineTo(24f, 10f)
+                curveToRelative(0f, -1.33f, -0.52f, -2.59f, -1.46f, -3.54f)
+                close()
+                moveTo(16f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                lineTo(16f, 3f)
+                close()
+                moveTo(7f, 2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                lineTo(6f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(5.5f, 22f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(12f, 10f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1.26f)
+                curveToRelative(-0.95f, -0.79f, -2.17f, -1.26f, -3.5f, -1.26f)
+                reflectiveCurveToRelative(-2.55f, 0.47f, -3.5f, 1.26f)
+                verticalLineToRelative(-4.26f)
+                curveToRelative(0f, -0.8f, 0.31f, -1.55f, 0.88f, -2.12f)
+                curveToRelative(0.57f, -0.57f, 1.32f, -0.88f, 2.12f, -0.88f)
+                horizontalLineToRelative(14.0f)
+                curveToRelative(0.8f, 0f, 1.55f, 0.31f, 2.12f, 0.88f)
+                reflectiveCurveToRelative(0.88f, 1.32f, 0.88f, 2.12f)
+                verticalLineToRelative(4.26f)
+                curveToRelative(-0.95f, -0.79f, -2.17f, -1.26f, -3.5f, -1.26f)
+                reflectiveCurveToRelative(-2.55f, 0.47f, -3.5f, 1.26f)
+                verticalLineToRelative(-1.26f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(18.5f, 22f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+            }
+        }.also { _Binoculars = it}

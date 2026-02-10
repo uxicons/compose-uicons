@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PlaceOfWorship: ImageVector? = null
+
+val Icons.Ts.PlaceOfWorship: ImageVector
+    get() = _PlaceOfWorship ?: UXIcon(name = "PlaceOfWorship") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 12.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+                moveTo(16f, 8.06f)
+                lineTo(16f, 3.14f)
+                lineTo(12f, 0.14f)
+                lineToRelative(-4f, 3f)
+                verticalLineToRelative(4.99f)
+                lineTo(0f, 14.14f)
+                verticalLineToRelative(9.86f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.28f, 0.23f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.28f, 0.23f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-10.12f)
+                lineToRelative(-8f, -5.82f)
+                close()
+                moveTo(9f, 8.63f)
+                lineTo(9f, 3.64f)
+                lineToRelative(3f, -2.25f)
+                lineToRelative(3f, 2.25f)
+                verticalLineToRelative(4.94f)
+                lineToRelative(2f, 1.46f)
+                verticalLineToRelative(12.97f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-12.87f)
+                lineToRelative(2f, -1.5f)
+                close()
+                moveTo(14f, 23.0f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(3.5f, 19.0f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-8.36f)
+                lineToRelative(5f, -3.76f)
+                verticalLineToRelative(12.12f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(23f, 23.0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-12.24f)
+                lineToRelative(5f, 3.64f)
+                verticalLineToRelative(8.61f)
+                close()
+            }
+        }.also { _PlaceOfWorship = it}

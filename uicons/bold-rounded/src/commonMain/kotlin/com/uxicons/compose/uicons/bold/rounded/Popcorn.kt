@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Popcorn: ImageVector? = null
+
+val Icons.Br.Popcorn: ImageVector
+    get() = _Popcorn ?: UXIcon(name = "Popcorn") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(7f, 8.5f)
+            arcTo(2.39f, 2.39f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9.5f, 6f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.41f, 2.94f)
+            arcTo(1.52f, 1.52f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8.5f, 9.96f)
+            lineTo(8.47f, 9.96f)
+            arcTo(1.47f, 1.47f, 0f, isMoreThanHalf = false, isPositiveArc = true, 7f, 8.5f)
+            close()
+            moveTo(14.06f, 9.91f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 17f, 9.5f)
+            arcTo(2.39f, 2.39f, 0f, isMoreThanHalf = false, isPositiveArc = false, 14.5f, 7f)
+            arcToRelative(1.47f, 1.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.46f, 1.47f)
+            arcTo(1.52f, 1.52f, 0f, isMoreThanHalf = false, isPositiveArc = false, 14.06f, 9.91f)
+            close()
+            moveTo(22.48f, 13.71f)
+            curveToRelative(-0.01f, 0.04f, -1.34f, 5.94f, -1.34f, 5.94f)
+            arcTo(5.52f, 5.52f, 0f, isMoreThanHalf = false, isPositiveArc = true, 15.75f, 24f)
+            lineTo(8.25f, 24f)
+            arcToRelative(5.52f, 5.52f, 0f, isMoreThanHalf = false, isPositiveArc = true, -5.38f, -4.37f)
+            lineTo(1.54f, 13.87f)
+            arcToRelative(4.46f, 4.46f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.48f, -7.11f)
+            arcTo(4.26f, 4.26f, 0f, isMoreThanHalf = false, isPositiveArc = true, 5.68f, 3.04f)
+            arcTo(3.74f, 3.74f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8.7f, 1.5f)
+            horizontalLineToRelative(0.38f)
+            arcTo(5.2f, 5.2f, 0f, isMoreThanHalf = false, isPositiveArc = true, 12.75f, 0f)
+            arcToRelative(5.26f, 5.26f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.74f, 3.01f)
+            arcToRelative(4.72f, 4.72f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.25f, 3.2f)
+            arcToRelative(4.72f, 4.72f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.74f, 7.51f)
+            close()
+            moveTo(3f, 10.5f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4.5f, 12f)
+            lineTo(6f, 12f)
+            arcToRelative(4.46f, 4.46f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 1.17f)
+            arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6f, 0f)
+            arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = true, 18f, 12f)
+            horizontalLineToRelative(1.25f)
+            arcToRelative(1.75f, 1.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.64f, -3.37f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.93f, -1.16f)
+            arcTo(1.74f, 1.74f, 0f, isMoreThanHalf = false, isPositiveArc = false, 17.25f, 6f)
+            horizontalLineToRelative(-0.83f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.47f, -1.2f)
+            arcToRelative(2.24f, 2.24f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.99f, -0.9f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.2f, 0.6f)
+            lineTo(8.7f, 4.5f)
+            arcTo(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8f, 5f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6.59f, 6f)
+            lineTo(6.25f, 6f)
+            arcTo(1.25f, 1.25f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5f, 7.25f)
+            verticalLineToRelative(0.44f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4f, 9.1f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 10.5f)
+            close()
+            moveTo(7.82f, 20.96f)
+            reflectiveCurveTo(7.5f, 16.54f, 7.5f, 16.5f)
+            arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 15f)
+            lineTo(4.88f, 15f)
+            lineToRelative(0.91f, 3.99f)
+            arcTo(2.52f, 2.52f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7.82f, 20.96f)
+            close()
+            moveTo(13.02f, 21f)
+            lineTo(13.49f, 16.46f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.99f, 0.02f)
+            lineTo(10.83f, 21f)
+            close()
+            moveTo(19.12f, 15f)
+            lineTo(18f, 15f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.5f, 1.5f)
+            curveToRelative(0f, 0.05f, -0.46f, 4.48f, -0.46f, 4.48f)
+            arcTo(2.51f, 2.51f, 0f, isMoreThanHalf = false, isPositiveArc = false, 18.2f, 19.02f)
+            close()
+        }
+    }.also { _Popcorn = it }

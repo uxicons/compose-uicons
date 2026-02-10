@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CloudsSun: ImageVector? = null
+
+val Icons.Rr.CloudsSun: ImageVector
+    get() = _CloudsSun ?: UXIcon(name = "CloudsSun") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2.78f, 15.51f)
+                arcToRelative(1.28f, 1.28f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.73f, 1.54f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.71f, 1.22f)
+                arcToRelative(1.02f, 1.02f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.26f, 0.03f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.97f, -0.74f)
+                arcToRelative(3.29f, 3.29f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.87f, -3.89f)
+                arcToRelative(5.31f, 5.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.04f, -2.44f)
+                arcTo(5.53f, 5.53f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9.63f, 7.46f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.8f, 1.83f)
+                arcTo(3.6f, 3.6f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.86f, 9.04f)
+                arcToRelative(3.58f, 3.58f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.92f, 4.27f)
+                arcTo(1.96f, 1.96f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.78f, 15.51f)
+                close()
+                moveTo(19.88f, 20.41f)
+                arcToRelative(4.62f, 4.62f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3.45f, 3.44f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.99f, 0.12f)
+                curveToRelative(-1.38f, 0.03f, -7.8f, 0.04f, -9.24f, 0f)
+                arcToRelative(3.46f, 3.46f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.78f, -0.11f)
+                arcToRelative(3.29f, 3.29f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.42f, -6.19f)
+                arcToRelative(5.31f, 5.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.04f, -2.44f)
+                arcToRelative(5.55f, 5.55f, 0f, isMoreThanHalf = false, isPositiveArc = true, 10.52f, -0.79f)
+                curveToRelative(0.08f, 0.19f, 0.41f, 0.26f, 0.74f, 0.32f)
+                curveToRelative(0.11f, 0.02f, 0.2f, 0.04f, 0.27f, 0.06f)
+                horizontalLineToRelative(0f)
+                arcTo(4.67f, 4.67f, 0f, isMoreThanHalf = false, isPositiveArc = true, 19.88f, 20.41f)
+                close()
+                moveTo(16.04f, 16.76f)
+                arcToRelative(2.95f, 2.95f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.34f, -1.54f)
+                arcTo(3.59f, 3.59f, 0f, isMoreThanHalf = false, isPositiveArc = false, 9.86f, 13.04f)
+                arcToRelative(3.58f, 3.58f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.92f, 4.27f)
+                arcToRelative(1.96f, 1.96f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.17f, 2.2f)
+                arcToRelative(1.28f, 1.28f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.73f, 1.54f)
+                arcToRelative(1.26f, 1.26f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.87f, 0.87f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.33f, 0.05f)
+                curveToRelative(1.21f, 0.03f, 7.67f, 0.03f, 9.14f, 0f)
+                arcToRelative(2.89f, 2.89f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.58f, -0.07f)
+                arcToRelative(2.64f, 2.64f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.95f, -1.94f)
+                arcTo(2.68f, 2.68f, 0f, isMoreThanHalf = false, isPositiveArc = false, 16.04f, 16.75f)
+                close()
+                moveTo(23f, 9f)
+                lineTo(20.42f, 9f)
+                curveToRelative(-0.01f, -0.11f, -0.03f, -0.21f, -0.05f, -0.31f)
+                arcTo(6.1f, 6.1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 20.05f, 7.6f)
+                lineToRelative(2.23f, -1.31f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, -1.02f, -1.72f)
+                lineToRelative(-2.24f, 1.32f)
+                arcToRelative(6.68f, 6.68f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.94f, -0.91f)
+                lineToRelative(1.3f, -2.26f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, -1.73f, -1f)
+                lineTo(16.34f, 3.97f)
+                arcTo(6.74f, 6.74f, 0f, isMoreThanHalf = false, isPositiveArc = false, 15f, 3.6f)
+                lineTo(15f, 1f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 0f)
+                lineTo(13f, 3.56f)
+                lineToRelative(-0.05f, 0.01f)
+                arcToRelative(5.26f, 5.26f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.26f, 0.34f)
+                lineToRelative(-1.42f, -2.2f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8.6f, 2.79f)
+                lineToRelative(1.53f, 2.38f)
+                arcToRelative(1.75f, 1.75f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.21f, 0.65f)
+                arcToRelative(3.16f, 3.16f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.91f, -0.26f)
+                arcToRelative(4.59f, 4.59f, 0f, isMoreThanHalf = false, isPositiveArc = true, 5.17f, 3.53f)
+                arcToRelative(6.25f, 6.25f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.29f, 2.68f)
+                arcToRelative(1.89f, 1.89f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.84f, 2.25f)
+                lineToRelative(2.36f, 1.36f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1f, -1.73f)
+                lineToRelative(-2.27f, -1.31f)
+                arcTo(8.69f, 8.69f, 0f, isMoreThanHalf = false, isPositiveArc = false, 20.35f, 11f)
+                lineTo(23f, 11f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 23f, 9f)
+                close()
+            }
+        }.also { _CloudsSun = it}

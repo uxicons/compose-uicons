@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BulbSpeechBubble: ImageVector? = null
+
+val Icons.Tr.BulbSpeechBubble: ImageVector
+    get() = _BulbSpeechBubble ?: UXIcon(name = "BulbSpeechBubble") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(9.28f, 10.26f)
+                curveToRelative(0.45f, 0.25f, 0.72f, 0.77f, 0.72f, 1.34f)
+                verticalLineToRelative(0.6f)
+                curveToRelative(0f, 1.03f, 0.73f, 1.8f, 1.7f, 1.8f)
+                horizontalLineToRelative(0.6f)
+                curveToRelative(0.94f, 0f, 1.7f, -0.76f, 1.7f, -1.7f)
+                verticalLineToRelative(-0.72f)
+                curveToRelative(0f, -0.56f, 0.27f, -1.07f, 0.71f, -1.31f)
+                curveToRelative(1.72f, -0.97f, 2.79f, -2.8f, 2.79f, -4.76f)
+                curveToRelative(0f, -1.67f, -0.74f, -3.22f, -2.04f, -4.27f)
+                curveTo(14.17f, 0.18f, 12.47f, -0.22f, 10.81f, 0.13f)
+                curveToRelative(-2.11f, 0.45f, -3.8f, 2.18f, -4.21f, 4.31f)
+                curveToRelative(-0.45f, 2.36f, 0.6f, 4.64f, 2.68f, 5.82f)
+                close()
+                moveTo(13f, 11.58f)
+                verticalLineToRelative(0.72f)
+                curveToRelative(0f, 0.39f, -0.31f, 0.7f, -0.7f, 0.7f)
+                horizontalLineToRelative(-0.6f)
+                curveToRelative(-0.41f, 0f, -0.7f, -0.34f, -0.7f, -0.8f)
+                verticalLineToRelative(-0.6f)
+                curveToRelative(0f, -0.2f, -0.03f, -0.4f, -0.07f, -0.6f)
+                horizontalLineToRelative(2.15f)
+                curveToRelative(-0.04f, 0.19f, -0.07f, 0.38f, -0.07f, 0.58f)
+                close()
+                moveTo(7.58f, 4.62f)
+                curveToRelative(0.38f, -2.08f, 2.31f, -3.65f, 4.41f, -3.62f)
+                curveToRelative(2.42f, -0.05f, 4.56f, 2.07f, 4.51f, 4.5f)
+                curveToRelative(0f, 1.6f, -0.88f, 3.1f, -2.28f, 3.89f)
+                curveToRelative(-0.27f, 0.15f, -0.48f, 0.37f, -0.67f, 0.61f)
+                horizontalLineToRelative(-1.05f)
+                verticalLineToRelative(-3.57f)
+                curveToRelative(0.86f, -0.22f, 1.5f, -1f, 1.5f, -1.93f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                curveToRelative(0f, 0.93f, 0.64f, 1.71f, 1.5f, 1.93f)
+                verticalLineToRelative(3.57f)
+                horizontalLineToRelative(-1.05f)
+                curveToRelative(-0.19f, -0.24f, -0.4f, -0.46f, -0.67f, -0.61f)
+                curveToRelative(-1.7f, -0.96f, -2.56f, -2.84f, -2.19f, -4.77f)
+                close()
+                moveTo(23f, 6.5f)
+                verticalLineToRelative(10f)
+                curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+                lineTo(7.65f, 21f)
+                lineToRelative(-4.09f, 2.72f)
+                curveToRelative(-0.28f, 0.18f, -0.59f, 0.28f, -0.91f, 0.28f)
+                curveToRelative(-0.27f, 0f, -0.53f, -0.06f, -0.78f, -0.2f)
+                curveToRelative(-0.54f, -0.29f, -0.87f, -0.84f, -0.87f, -1.45f)
+                lineTo(1.0f, 6.5f)
+                curveToRelative(0f, -2.05f, 1.39f, -3.85f, 3.38f, -4.36f)
+                curveToRelative(0.27f, -0.07f, 0.54f, 0.09f, 0.61f, 0.36f)
+                reflectiveCurveToRelative(-0.09f, 0.54f, -0.36f, 0.61f)
+                curveToRelative(-1.54f, 0.4f, -2.62f, 1.79f, -2.62f, 3.39f)
+                verticalLineToRelative(15.85f)
+                curveToRelative(0f, 0.24f, 0.13f, 0.46f, 0.34f, 0.57f)
+                curveToRelative(0.21f, 0.12f, 0.46f, 0.1f, 0.67f, -0.03f)
+                lineToRelative(4.21f, -2.81f)
+                curveToRelative(0.08f, -0.06f, 0.18f, -0.08f, 0.28f, -0.08f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                lineTo(22.0f, 6.5f)
+                curveToRelative(0f, -1.6f, -1.08f, -2.99f, -2.62f, -3.39f)
+                curveToRelative(-0.27f, -0.07f, -0.43f, -0.34f, -0.36f, -0.61f)
+                curveToRelative(0.07f, -0.27f, 0.34f, -0.43f, 0.61f, -0.36f)
+                curveToRelative(1.99f, 0.51f, 3.38f, 2.31f, 3.38f, 4.36f)
+                close()
+            }
+        }.also { _BulbSpeechBubble = it}

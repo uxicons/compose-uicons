@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Appendicitis: ImageVector? = null
+
+val Icons.Rs.Appendicitis: ImageVector
+    get() = _Appendicitis ?: UXIcon(name = "Appendicitis") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 5.24f)
+                verticalLineToRelative(5.88f)
+                curveToRelative(0f, 1.87f, -0.85f, 3.59f, -2.32f, 4.74f)
+                curveToRelative(-0.49f, 0.4f, -1.1f, 0.68f, -1.68f, 0.96f)
+                verticalLineToRelative(0.68f)
+                curveToRelative(0f, 1.58f, -1.06f, 2.9f, -2.5f, 3.34f)
+                verticalLineToRelative(3.16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3.16f)
+                curveToRelative(-1.44f, -0.43f, -2.5f, -1.76f, -2.5f, -3.34f)
+                verticalLineToRelative(-1.4f)
+                curveToRelative(0f, -1.61f, 0.66f, -3.18f, 1.82f, -4.3f)
+                curveToRelative(0.61f, -0.64f, 1.44f, -1.02f, 2.18f, -1.4f)
+                verticalLineToRelative(-2.72f)
+                curveToRelative(-1.11f, 0.15f, -2.9f, 0.32f, -5f, 0.32f)
+                reflectiveCurveToRelative(-3.88f, -0.17f, -5f, -0.32f)
+                verticalLineToRelative(2.32f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -1.5f, 1.27f, -0.96f, 1.27f, -0.96f)
+                curveToRelative(0.32f, 0.07f, 2.71f, 0.46f, 5.73f, 0.46f)
+                reflectiveCurveToRelative(5.41f, -0.39f, 5.72f, -0.46f)
+                curveToRelative(0f, 0f, 1.28f, -0.41f, 1.28f, 1.02f)
+                verticalLineToRelative(4.14f)
+                curveToRelative(0f, 0.56f, -0.3f, 1.06f, -0.79f, 1.32f)
+                curveToRelative(-0.65f, 0.35f, -1.52f, 0.71f, -1.97f, 1.18f)
+                curveToRelative(-0.8f, 0.78f, -1.24f, 1.83f, -1.24f, 2.9f)
+                verticalLineToRelative(1.4f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-0.99f)
+                curveToRelative(0f, -0.56f, 0.3f, -1.06f, 0.78f, -1.32f)
+                curveToRelative(0.52f, -0.28f, 1.25f, -0.58f, 1.65f, -0.91f)
+                curveToRelative(1f, -0.78f, 1.56f, -1.93f, 1.56f, -3.17f)
+                verticalLineToRelative(-5.88f)
+                curveToRelative(0f, -1.02f, -0.47f, -1.95f, -1.28f, -2.56f)
+                curveToRelative(-0.83f, -0.62f, -1.89f, -0.81f, -2.89f, -0.52f)
+                curveToRelative(-1.75f, 0.51f, -4.09f, 0.85f, -5.83f, 0.85f)
+                reflectiveCurveToRelative(-4.08f, -0.34f, -5.83f, -0.85f)
+                curveToRelative(-1.0f, -0.29f, -2.06f, -0.1f, -2.89f, 0.52f)
+                curveToRelative(-0.81f, 0.61f, -1.28f, 1.54f, -1.28f, 2.56f)
+                verticalLineToRelative(5.84f)
+                curveToRelative(-0.75f, 0.44f, -1.43f, 0.99f, -2f, 1.64f)
+                verticalLineToRelative(-7.49f)
+                curveToRelative(0.0f, -1.65f, 0.76f, -3.17f, 2.08f, -4.16f)
+                curveToRelative(1.34f, -1.0f, 3.03f, -1.31f, 4.65f, -0.84f)
+                curveToRelative(1.56f, 0.45f, 3.73f, 0.77f, 5.27f, 0.77f)
+                reflectiveCurveToRelative(3.71f, -0.32f, 5.27f, -0.77f)
+                curveToRelative(1.62f, -0.47f, 3.31f, -0.16f, 4.65f, 0.84f)
+                curveToRelative(1.32f, 0.99f, 2.08f, 2.51f, 2.08f, 4.16f)
+                close()
+                moveTo(12f, 18f)
+                curveToRelative(0f, 3.31f, -2.69f, 6f, -6f, 6f)
+                reflectiveCurveToRelative(-6f, -2.69f, -6f, -6f)
+                reflectiveCurveToRelative(2.69f, -6f, 6f, -6f)
+                reflectiveCurveToRelative(6f, 2.69f, 6f, 6f)
+                close()
+                moveTo(10f, 18f)
+                curveToRelative(0f, -1.86f, -1.28f, -3.41f, -3f, -3.86f)
+                verticalLineToRelative(1.55f)
+                curveToRelative(0.5f, 0.69f, 1f, 1.56f, 1f, 2.31f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                curveToRelative(0f, -0.75f, 0.5f, -1.62f, 1f, -2.31f)
+                verticalLineToRelative(-1.55f)
+                curveToRelative(-1.72f, 0.45f, -3f, 2f, -3f, 3.86f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                reflectiveCurveToRelative(4f, -1.79f, 4f, -4f)
+                close()
+            }
+        }.also { _Appendicitis = it}

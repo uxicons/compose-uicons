@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Cyborg: ImageVector? = null
+
+val Icons.Rr.Cyborg: ImageVector
+    get() = _Cyborg ?: UXIcon(name = "Cyborg") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.8f, 4.42f)
+                curveToRelative(-2.07f, -2.77f, -5.36f, -4.42f, -8.8f, -4.42f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                curveToRelative(2.81f, 0f, 5.5f, 1.35f, 7.22f, 3.65f)
+                curveToRelative(0.42f, 0.53f, 0.96f, 1.39f, 1.49f, 2.35f)
+                horizontalLineToRelative(-2.71f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(3.76f)
+                curveToRelative(0.68f, 1.39f, 1.21f, 2.63f, 1.24f, 3f)
+                horizontalLineToRelative(-1.21f)
+                curveToRelative(-0.5f, 0f, -0.93f, 0.37f, -0.99f, 0.87f)
+                lineToRelative(-0.33f, 2.52f)
+                curveToRelative(-0.2f, 1.49f, -1.48f, 2.61f, -2.98f, 2.61f)
+                horizontalLineToRelative(-1.49f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-12.0f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-1.18f)
+                curveToRelative(-0.41f, -1.16f, -1.51f, -2f, -2.82f, -2f)
+                curveToRelative(-1.66f, 0f, -3.0f, 1.35f, -3.0f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                curveToRelative(1.3f, 0f, 2.4f, -0.84f, 2.82f, -2f)
+                horizontalLineToRelative(1.18f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.27f, -0.1f, -0.52f, -0.29f, -0.71f)
+                lineToRelative(-1.71f, -1.71f)
+                verticalLineToRelative(-0.77f)
+                curveToRelative(1.16f, -0.41f, 2f, -1.51f, 2f, -2.82f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                curveToRelative(0f, 1.3f, 0.84f, 2.4f, 2f, 2.82f)
+                verticalLineToRelative(1.18f)
+                curveToRelative(0f, 0.27f, 0.1f, 0.52f, 0.29f, 0.71f)
+                lineToRelative(1.71f, 1.71f)
+                verticalLineToRelative(3.59f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                horizontalLineToRelative(0.49f)
+                curveToRelative(2.5f, 0f, 4.63f, -1.87f, 4.96f, -4.34f)
+                lineToRelative(0.22f, -1.66f)
+                horizontalLineToRelative(0.33f)
+                curveToRelative(1.3f, 0f, 2f, -1.03f, 2f, -2f)
+                curveToRelative(0f, -1.42f, -2.93f, -7.01f, -4.2f, -8.58f)
+                close()
+                moveTo(3f, 4f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(3f, 10f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+            }
+        }.also { _Cyborg = it}

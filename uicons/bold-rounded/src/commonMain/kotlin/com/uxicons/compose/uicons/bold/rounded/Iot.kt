@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Iot: ImageVector? = null
+
+val Icons.Br.Iot: ImageVector
+    get() = _Iot ?: UXIcon(name = "Iot") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(16.72f, 8.0f)
+            curveToRelative(-0.29f, 0.41f, -0.75f, 0.62f, -1.22f, 0.62f)
+            curveToRelative(-0.3f, 0f, -0.61f, -0.09f, -0.88f, -0.28f)
+            curveToRelative(-1.57f, -1.13f, -3.68f, -1.13f, -5.25f, 0f)
+            curveToRelative(-0.67f, 0.48f, -1.61f, 0.33f, -2.09f, -0.34f)
+            curveToRelative(-0.48f, -0.67f, -0.33f, -1.61f, 0.34f, -2.09f)
+            curveToRelative(2.62f, -1.88f, 6.13f, -1.88f, 8.75f, 0f)
+            curveToRelative(0.67f, 0.48f, 0.82f, 1.42f, 0.34f, 2.09f)
+            close()
+            moveTo(9f, 12f)
+            curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+            reflectiveCurveToRelative(3f, 1.35f, 3f, 3f)
+            reflectiveCurveToRelative(-1.35f, 3f, -3f, 3f)
+            reflectiveCurveToRelative(-3f, -1.35f, -3f, -3f)
+            close()
+            moveTo(10.6f, 12f)
+            curveToRelative(0f, 0.77f, 0.63f, 1.4f, 1.4f, 1.4f)
+            reflectiveCurveToRelative(1.4f, -0.63f, 1.4f, -1.4f)
+            reflectiveCurveToRelative(-0.63f, -1.4f, -1.4f, -1.4f)
+            reflectiveCurveToRelative(-1.4f, 0.63f, -1.4f, 1.4f)
+            close()
+            moveTo(6.43f, 4.93f)
+            curveToRelative(3.28f, -2.59f, 7.86f, -2.59f, 11.14f, 0f)
+            curveToRelative(0.28f, 0.22f, 0.6f, 0.32f, 0.93f, 0.32f)
+            curveToRelative(0.44f, 0f, 0.88f, -0.2f, 1.18f, -0.57f)
+            curveToRelative(0.51f, -0.65f, 0.4f, -1.59f, -0.25f, -2.11f)
+            curveTo(15.05f, -0.88f, 8.95f, -0.88f, 4.57f, 2.58f)
+            curveToRelative(-0.65f, 0.51f, -0.76f, 1.46f, -0.25f, 2.11f)
+            reflectiveCurveToRelative(1.46f, 0.76f, 2.11f, 0.25f)
+            close()
+            moveTo(22.0f, 8f)
+            horizontalLineToRelative(-4f)
+            curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+            reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(5f)
+            curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+            reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+            verticalLineToRelative(-5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+            reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+            close()
+            moveTo(5f, 15f)
+            verticalLineToRelative(-6f)
+            curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+            reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+            verticalLineToRelative(6f)
+            curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+            reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+            close()
+            moveTo(7.28f, 16.0f)
+            curveToRelative(-0.48f, 0.67f, -0.33f, 1.61f, 0.34f, 2.09f)
+            curveToRelative(1.31f, 0.94f, 2.84f, 1.41f, 4.38f, 1.41f)
+            reflectiveCurveToRelative(3.07f, -0.47f, 4.38f, -1.41f)
+            curveToRelative(0.67f, -0.48f, 0.82f, -1.42f, 0.34f, -2.09f)
+            curveToRelative(-0.48f, -0.67f, -1.42f, -0.83f, -2.09f, -0.34f)
+            curveToRelative(-1.57f, 1.13f, -3.68f, 1.13f, -5.25f, 0f)
+            curveToRelative(-0.67f, -0.48f, -1.61f, -0.33f, -2.09f, 0.34f)
+            close()
+            moveTo(17.57f, 19.07f)
+            curveToRelative(-3.28f, 2.59f, -7.86f, 2.59f, -11.14f, 0f)
+            curveToRelative(-0.65f, -0.51f, -1.59f, -0.4f, -2.11f, 0.25f)
+            curveToRelative(-0.51f, 0.65f, -0.4f, 1.59f, 0.25f, 2.11f)
+            curveToRelative(2.19f, 1.73f, 4.81f, 2.59f, 7.43f, 2.59f)
+            reflectiveCurveToRelative(5.24f, -0.86f, 7.43f, -2.59f)
+            curveToRelative(0.65f, -0.51f, 0.76f, -1.46f, 0.25f, -2.11f)
+            curveToRelative(-0.51f, -0.65f, -1.46f, -0.76f, -2.11f, -0.25f)
+            close()
+        }
+    }.also { _Iot = it }

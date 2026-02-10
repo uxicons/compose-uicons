@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ReservationSmartphone: ImageVector? = null
+
+val Icons.Tr.ReservationSmartphone: ImageVector
+    get() = _ReservationSmartphone ?: UXIcon(name = "ReservationSmartphone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.5f, 14f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(1f, 17f)
+                lineTo(1f, 4.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                horizontalLineToRelative(-7f)
+                curveTo(2.02f, 0f, 0f, 2.02f, 0f, 4.5f)
+                verticalLineToRelative(15f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(11.5f, 23f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(24f, 19.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                curveToRelative(-2.06f, 0f, -3.81f, -1.24f, -4.56f, -3.24f)
+                lineToRelative(-1.78f, -4.76f)
+                horizontalLineToRelative(-4.55f)
+                curveToRelative(-1.27f, 0f, -2.38f, -0.9f, -2.57f, -2.08f)
+                curveToRelative(-0.12f, -0.73f, 0.09f, -1.48f, 0.56f, -2.04f)
+                reflectiveCurveToRelative(1.17f, -0.88f, 1.91f, -0.88f)
+                horizontalLineToRelative(7.42f)
+                lineToRelative(0.07f, -0.14f)
+                reflectiveCurveToRelative(-1.35f, -1.7f, -1.35f, -1.7f)
+                curveToRelative(-0.9f, -1.01f, -0.84f, -2.56f, 0.15f, -3.49f)
+                curveToRelative(1.01f, -0.94f, 2.59f, -0.89f, 3.52f, 0.11f)
+                lineToRelative(1.55f, 1.64f)
+                curveToRelative(0.09f, 0.09f, 0.14f, 0.21f, 0.14f, 0.34f)
+                curveToRelative(0f, 0.45f, -0.55f, 0.67f, -0.86f, 0.34f)
+                lineToRelative(-1.55f, -1.63f)
+                curveToRelative(-0.56f, -0.6f, -1.51f, -0.63f, -2.12f, -0.06f)
+                curveToRelative(-0.6f, 0.56f, -0.64f, 1.51f, -0.07f, 2.12f)
+                curveToRelative(0.0f, 0.0f, 1.37f, 1.72f, 1.37f, 1.72f)
+                curveToRelative(0.26f, 0.33f, 0.31f, 0.77f, 0.13f, 1.15f)
+                curveToRelative(-0.18f, 0.38f, -0.56f, 0.61f, -0.98f, 0.61f)
+                horizontalLineToRelative(-7.42f)
+                curveToRelative(-0.44f, 0f, -0.86f, 0.19f, -1.14f, 0.53f)
+                curveToRelative(-0.29f, 0.34f, -0.41f, 0.78f, -0.34f, 1.23f)
+                curveToRelative(0.12f, 0.71f, 0.8f, 1.24f, 1.59f, 1.24f)
+                horizontalLineToRelative(4.89f)
+                curveToRelative(0.21f, 0f, 0.4f, 0.13f, 0.47f, 0.32f)
+                lineToRelative(1.91f, 5.08f)
+                curveToRelative(0.6f, 1.6f, 1.99f, 2.6f, 3.63f, 2.6f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(9.5f, 21f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                close()
+            }
+        }.also { _ReservationSmartphone = it}

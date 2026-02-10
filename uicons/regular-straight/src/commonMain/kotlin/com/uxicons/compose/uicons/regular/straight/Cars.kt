@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Cars: ImageVector? = null
+
+val Icons.Rs.Cars: ImageVector
+    get() = _Cars ?: UXIcon(name = "Cars") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 17.73f)
+                arcToRelative(10.96f, 10.96f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.64f, -3.7f)
+                lineTo(21.92f, 9.99f)
+                arcTo(3.01f, 3.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 19.09f, 8f)
+                horizontalLineTo(11.91f)
+                arcTo(3.01f, 3.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 9.08f, 9.99f)
+                lineTo(7.64f, 14.03f)
+                arcTo(10.96f, 10.96f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7f, 17.73f)
+                verticalLineTo(22f)
+                horizontalLineTo(9f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                verticalLineTo(22f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                verticalLineTo(22f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(11.91f, 10f)
+                horizontalLineToRelative(7.18f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.94f, 0.66f)
+                lineTo(21.22f, 14f)
+                horizontalLineTo(9.78f)
+                lineToRelative(1.19f, -3.34f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 11.91f, 10f)
+                close()
+                moveTo(22f, 20f)
+                horizontalLineTo(9f)
+                verticalLineTo(17.73f)
+                arcTo(8.96f, 8.96f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9.17f, 16f)
+                horizontalLineTo(11f)
+                verticalLineToRelative(1f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 0f)
+                verticalLineTo(16f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 0f)
+                verticalLineTo(16f)
+                horizontalLineToRelative(1.83f)
+                arcTo(8.96f, 8.96f, 0f, isMoreThanHalf = false, isPositiveArc = true, 22f, 17.73f)
+                close()
+                moveTo(4f, 9f)
+                verticalLineTo(8f)
+                horizontalLineTo(2.17f)
+                arcTo(9.04f, 9.04f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 9.73f)
+                verticalLineTo(12f)
+                horizontalLineTo(6f)
+                verticalLineToRelative(4f)
+                horizontalLineTo(2f)
+                verticalLineTo(14f)
+                horizontalLineTo(0f)
+                curveToRelative(0.06f, -2.3f, -0.27f, -5.81f, 0.64f, -7.97f)
+                lineTo(2.08f, 1.99f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.91f, 0f)
+                horizontalLineToRelative(7.18f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.83f, 1.99f)
+                lineTo(16.35f, 6f)
+                horizontalLineTo(14.22f)
+                lineTo(13.03f, 2.66f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12.09f, 2f)
+                horizontalLineTo(4.91f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.94f, 0.66f)
+                lineTo(2.78f, 6f)
+                horizontalLineTo(11.91f)
+                arcTo(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7.92f, 8f)
+                horizontalLineTo(6f)
+                verticalLineTo(9f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4f, 9f)
+                close()
+            }
+        }.also { _Cars = it}

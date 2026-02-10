@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LassoSparkles: ImageVector? = null
+
+val Icons.Ts.LassoSparkles: ImageVector
+    get() = _LassoSparkles ?: UXIcon(name = "LassoSparkles") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.53f, 16.48f)
+                curveToRelative(-1.1f, 0.33f, -2.29f, 0.52f, -3.53f, 0.52f)
+                curveToRelative(-1.63f, 0f, -3.22f, -0.32f, -4.65f, -0.92f)
+                curveToRelative(-0.34f, -0.66f, -1.39f, -2.64f, -2.1f, -3.35f)
+                curveToRelative(-0.64f, -0.64f, -1.61f, -0.85f, -2.46f, -0.61f)
+                curveToRelative(-0.52f, -0.99f, -0.79f, -2.04f, -0.79f, -3.12f)
+                curveTo(3f, 4.59f, 7.49f, 1f, 13f, 1f)
+                reflectiveCurveToRelative(10f, 3.59f, 10f, 8f)
+                curveToRelative(0f, 1.75f, -0.72f, 3.37f, -1.92f, 4.69f)
+                lineToRelative(0.48f, 0.95f)
+                curveToRelative(1.53f, -1.55f, 2.45f, -3.51f, 2.45f, -5.65f)
+                curveTo(24f, 4.04f, 19.07f, 0f, 13f, 0f)
+                reflectiveCurveTo(2f, 4.04f, 2f, 9f)
+                curveToRelative(0f, 1.24f, 0.3f, 2.45f, 0.9f, 3.57f)
+                curveToRelative(-0.06f, 0.05f, -0.12f, 0.1f, -0.17f, 0.15f)
+                curveToRelative(-0.47f, 0.47f, -0.73f, 1.09f, -0.73f, 1.76f)
+                curveToRelative(0f, 0.46f, 0.13f, 0.91f, 0.36f, 1.29f)
+                curveToRelative(-1f, 0.92f, -2.36f, 2.57f, -2.36f, 4.72f)
+                curveToRelative(0f, 2.77f, 2.29f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.26f, 0f, -2.5f, -0.09f, -2.5f, -2.5f)
+                curveToRelative(0f, -1.84f, 1.3f, -3.3f, 2.07f, -4.01f)
+                curveToRelative(0.87f, 0.45f, 2.62f, 0.53f, 3.85f, 0.53f)
+                curveToRelative(0.42f, 0f, 0.79f, -0.01f, 1.03f, -0.02f)
+                curveToRelative(1.55f, 0.65f, 3.28f, 1f, 5.04f, 1f)
+                curveToRelative(0.2f, 0f, 0.39f, -0.02f, 0.58f, -0.02f)
+                lineToRelative(2.93f, -1.46f)
+                lineToRelative(0.02f, -0.04f)
+                close()
+                moveTo(3.44f, 15.55f)
+                curveToRelative(-0.28f, -0.28f, -0.44f, -0.66f, -0.44f, -1.05f)
+                reflectiveCurveToRelative(0.15f, -0.77f, 0.44f, -1.05f)
+                reflectiveCurveToRelative(0.66f, -0.44f, 1.05f, -0.44f)
+                reflectiveCurveToRelative(0.77f, 0.16f, 1.05f, 0.44f)
+                curveToRelative(0.45f, 0.45f, 1.16f, 1.69f, 1.64f, 2.58f)
+                curveToRelative(-1.7f, 0f, -3.43f, -0.16f, -3.75f, -0.48f)
+                close()
+                moveTo(13.34f, 8.32f)
+                lineToRelative(-2.35f, 1.17f)
+                lineToRelative(2.35f, 1.17f)
+                lineToRelative(1.17f, 2.35f)
+                lineToRelative(1.17f, -2.35f)
+                lineToRelative(2.35f, -1.17f)
+                lineToRelative(-2.35f, -1.17f)
+                lineToRelative(-1.17f, -2.34f)
+                lineToRelative(-1.17f, 2.34f)
+                close()
+                moveTo(19.51f, 15.02f)
+                lineToRelative(-1.5f, 3f)
+                lineToRelative(-3f, 1.5f)
+                lineToRelative(3f, 1.5f)
+                lineToRelative(1.5f, 3f)
+                lineToRelative(1.5f, -3f)
+                lineToRelative(3f, -1.5f)
+                lineToRelative(-3f, -1.5f)
+                lineToRelative(-1.5f, -3f)
+                close()
+                moveTo(20.26f, 20.27f)
+                lineToRelative(-0.75f, 1.5f)
+                lineToRelative(-0.75f, -1.5f)
+                lineToRelative(-1.5f, -0.75f)
+                lineToRelative(1.5f, -0.75f)
+                lineToRelative(0.75f, -1.5f)
+                lineToRelative(0.75f, 1.5f)
+                lineToRelative(1.5f, 0.75f)
+                lineToRelative(-1.5f, 0.75f)
+                close()
+            }
+        }.also { _LassoSparkles = it}

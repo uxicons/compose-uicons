@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RingsWedding: ImageVector? = null
+
+val Icons.Tr.RingsWedding: ImageVector
+    get() = _RingsWedding ?: UXIcon(name = "RingsWedding") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16f, 8f)
+                curveToRelative(-2.37f, 0f, -4.51f, 1.04f, -5.98f, 2.69f)
+                curveToRelative(-0.67f, -0.32f, -1.39f, -0.54f, -2.16f, -0.63f)
+                lineToRelative(2.06f, -3.29f)
+                curveToRelative(0.13f, -0.21f, 0.09f, -0.47f, -0.09f, -0.64f)
+                curveToRelative(-0.05f, -0.05f, -1.28f, -1.13f, -2.83f, -1.13f)
+                reflectiveCurveToRelative(-2.78f, 1.08f, -2.83f, 1.13f)
+                curveToRelative(-0.18f, 0.16f, -0.22f, 0.43f, -0.09f, 0.64f)
+                lineToRelative(2.06f, 3.29f)
+                curveToRelative(-3.45f, 0.43f, -6.13f, 3.38f, -6.13f, 6.95f)
+                curveToRelative(0f, 3.86f, 3.14f, 7f, 7f, 7f)
+                curveToRelative(1.64f, 0f, 3.14f, -0.56f, 4.33f, -1.51f)
+                curveToRelative(1.31f, 0.95f, 2.93f, 1.51f, 4.67f, 1.51f)
+                curveToRelative(4.41f, 0f, 8f, -3.59f, 8f, -8f)
+                reflectiveCurveToRelative(-3.59f, -8f, -8f, -8f)
+                close()
+                moveTo(7f, 6f)
+                curveToRelative(0.76f, 0f, 1.45f, 0.37f, 1.83f, 0.62f)
+                lineToRelative(-1.83f, 2.93f)
+                lineToRelative(-1.83f, -2.93f)
+                curveToRelative(0.39f, -0.26f, 1.07f, -0.62f, 1.83f, -0.62f)
+                close()
+                moveTo(7f, 23f)
+                curveToRelative(-3.31f, 0f, -6f, -2.69f, -6f, -6f)
+                reflectiveCurveToRelative(2.69f, -6f, 6f, -6f)
+                curveToRelative(0.85f, 0f, 1.66f, 0.18f, 2.39f, 0.5f)
+                curveToRelative(-0.88f, 1.28f, -1.39f, 2.83f, -1.39f, 4.5f)
+                curveToRelative(0f, 2.3f, 0.98f, 4.38f, 2.54f, 5.84f)
+                curveToRelative(-0.99f, 0.73f, -2.22f, 1.16f, -3.54f, 1.16f)
+                close()
+                moveTo(9f, 16f)
+                curveToRelative(0f, -1.5f, 0.47f, -2.88f, 1.28f, -4.02f)
+                curveToRelative(1.64f, 1.07f, 2.72f, 2.92f, 2.72f, 5.02f)
+                curveToRelative(0f, 1.62f, -0.65f, 3.1f, -1.7f, 4.18f)
+                curveToRelative(-1.41f, -1.28f, -2.3f, -3.13f, -2.3f, -5.18f)
+                close()
+                moveTo(16f, 23f)
+                curveToRelative(-1.45f, 0f, -2.79f, -0.44f, -3.91f, -1.2f)
+                curveToRelative(1.19f, -1.25f, 1.91f, -2.94f, 1.91f, -4.8f)
+                curveToRelative(0f, -2.41f, -1.23f, -4.54f, -3.09f, -5.8f)
+                curveToRelative(1.28f, -1.35f, 3.09f, -2.2f, 5.09f, -2.2f)
+                curveToRelative(3.86f, 0f, 7f, 3.14f, 7f, 7f)
+                reflectiveCurveToRelative(-3.14f, 7f, -7f, 7f)
+                close()
+                moveTo(10.05f, 3.28f)
+                lineToRelative(1f, -2f)
+                curveToRelative(0.12f, -0.25f, 0.42f, -0.35f, 0.67f, -0.22f)
+                curveToRelative(0.25f, 0.12f, 0.35f, 0.42f, 0.22f, 0.67f)
+                lineToRelative(-1f, 2f)
+                curveToRelative(-0.09f, 0.17f, -0.26f, 0.28f, -0.45f, 0.28f)
+                curveToRelative(-0.07f, 0f, -0.15f, -0.02f, -0.22f, -0.05f)
+                curveToRelative(-0.25f, -0.12f, -0.35f, -0.42f, -0.22f, -0.67f)
+                close()
+                moveTo(2.05f, 1.72f)
+                curveToRelative(-0.12f, -0.25f, -0.02f, -0.55f, 0.22f, -0.67f)
+                reflectiveCurveToRelative(0.55f, -0.02f, 0.67f, 0.22f)
+                lineToRelative(1f, 2f)
+                curveToRelative(0.12f, 0.25f, 0.02f, 0.55f, -0.22f, 0.67f)
+                curveToRelative(-0.07f, 0.04f, -0.15f, 0.05f, -0.22f, 0.05f)
+                curveToRelative(-0.18f, 0f, -0.36f, -0.1f, -0.45f, -0.28f)
+                lineToRelative(-1f, -2f)
+                close()
+                moveTo(6.5f, 2.5f)
+                lineTo(6.5f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+            }
+        }.also { _RingsWedding = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SnowflakeDroplets: ImageVector? = null
+
+val Icons.Bs.SnowflakeDroplets: ImageVector
+    get() = _SnowflakeDroplets ?: UXIcon(name = "SnowflakeDroplets") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5.12f, 18.88f)
+                curveToRelative(1.17f, 1.17f, 1.17f, 3.07f, 0f, 4.24f)
+                curveToRelative(-0.59f, 0.59f, -1.35f, 0.88f, -2.12f, 0.88f)
+                curveToRelative(-0.77f, 0f, -1.53f, -0.29f, -2.12f, -0.88f)
+                curveToRelative(-1.17f, -1.17f, -1.17f, -3.07f, 0f, -4.24f)
+                lineToRelative(2.12f, -2.08f)
+                lineToRelative(2.12f, 2.08f)
+                close()
+                moveTo(23.12f, 18.88f)
+                lineToRelative(-2.12f, -2.08f)
+                lineToRelative(-2.12f, 2.08f)
+                curveToRelative(-1.17f, 1.17f, -1.17f, 3.07f, 0f, 4.24f)
+                curveToRelative(0.59f, 0.59f, 1.35f, 0.88f, 2.12f, 0.88f)
+                curveToRelative(0.77f, 0f, 1.53f, -0.29f, 2.12f, -0.88f)
+                curveToRelative(1.17f, -1.17f, 1.17f, -3.07f, 0f, -4.24f)
+                close()
+                moveTo(13.5f, 16.84f)
+                lineToRelative(1.93f, -1.11f)
+                lineToRelative(2.41f, 1.38f)
+                lineToRelative(2.23f, -2.18f)
+                lineToRelative(-3.06f, -1.76f)
+                verticalLineToRelative(-2.27f)
+                lineToRelative(1.96f, -1.12f)
+                lineToRelative(4.18f, 1.13f)
+                lineToRelative(0.79f, -2.9f)
+                lineToRelative(-3.33f, -0.9f)
+                lineToRelative(0.9f, -3.33f)
+                lineToRelative(-2.9f, -0.79f)
+                lineToRelative(-1.13f, 4.18f)
+                lineToRelative(-1.87f, 1.07f)
+                lineToRelative(-2.1f, -1.21f)
+                verticalLineToRelative(-1.8f)
+                lineToRelative(3.06f, -3.06f)
+                lineTo(14.44f, 0.04f)
+                lineToRelative(-2.44f, 2.44f)
+                lineTo(9.56f, 0.04f)
+                lineToRelative(-2.12f, 2.12f)
+                lineToRelative(3.06f, 3.06f)
+                verticalLineToRelative(1.8f)
+                lineToRelative(-2.1f, 1.21f)
+                lineToRelative(-1.86f, -1.07f)
+                lineToRelative(-1.13f, -4.18f)
+                lineToRelative(-2.9f, 0.79f)
+                lineToRelative(0.9f, 3.33f)
+                lineTo(0.08f, 8.0f)
+                lineToRelative(0.79f, 2.9f)
+                lineToRelative(4.18f, -1.13f)
+                lineToRelative(1.96f, 1.12f)
+                verticalLineToRelative(2.27f)
+                lineToRelative(-3.06f, 1.76f)
+                lineToRelative(2.23f, 2.18f)
+                lineToRelative(2.41f, -1.38f)
+                lineToRelative(1.93f, 1.11f)
+                verticalLineToRelative(1.94f)
+                lineToRelative(-3.06f, 3.06f)
+                lineToRelative(2.12f, 2.12f)
+                lineToRelative(2.44f, -2.44f)
+                lineToRelative(2.44f, 2.44f)
+                lineToRelative(2.12f, -2.12f)
+                lineToRelative(-3.06f, -3.06f)
+                verticalLineToRelative(-1.94f)
+                close()
+                moveTo(10f, 13.08f)
+                verticalLineToRelative(-2.31f)
+                lineToRelative(2f, -1.15f)
+                lineToRelative(2f, 1.15f)
+                verticalLineToRelative(2.31f)
+                lineToRelative(-2f, 1.15f)
+                lineToRelative(-2f, -1.15f)
+                close()
+            }
+        }.also { _SnowflakeDroplets = it}

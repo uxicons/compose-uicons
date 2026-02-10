@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ElectricBus: ImageVector? = null
+
+val Icons.Rs.ElectricBus: ImageVector
+    get() = _ElectricBus ?: UXIcon(name = "ElectricBus") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 10f)
+                verticalLineToRelative(-5.77f)
+                curveToRelative(0f, -1.21f, -0.71f, -2.29f, -1.82f, -2.76f)
+                curveToRelative(-1.1f, -0.47f, -2.76f, -0.99f, -4.96f, -1.26f)
+                curveToRelative(0.7f, 0.6f, 1.24f, 1.38f, 1.52f, 2.28f)
+                curveToRelative(1.11f, 0.24f, 2.0f, 0.55f, 2.66f, 0.82f)
+                curveToRelative(0.36f, 0.15f, 0.6f, 0.52f, 0.6f, 0.92f)
+                verticalLineToRelative(0.77f)
+                horizontalLineToRelative(-3.1f)
+                curveToRelative(-0.15f, 0.74f, -0.48f, 1.42f, -0.92f, 2f)
+                horizontalLineToRelative(4.02f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-7.0f)
+                verticalLineToRelative(-6.0f)
+                horizontalLineToRelative(4.02f)
+                curveToRelative(-0.44f, -0.58f, -0.77f, -1.26f, -0.92f, -2f)
+                horizontalLineToRelative(-3.1f)
+                verticalLineToRelative(-0.77f)
+                curveToRelative(0f, -0.4f, 0.23f, -0.76f, 0.6f, -0.92f)
+                curveToRelative(0.66f, -0.28f, 1.55f, -0.58f, 2.66f, -0.82f)
+                curveToRelative(0.29f, -0.9f, 0.82f, -1.69f, 1.52f, -2.28f)
+                curveToRelative(-2.2f, 0.28f, -3.86f, 0.8f, -4.96f, 1.26f)
+                curveToRelative(-1.11f, 0.47f, -1.82f, 1.55f, -1.82f, 2.76f)
+                verticalLineToRelative(5.77f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-7f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(4f, 20f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(8.99f, 4.2f)
+                lineTo(10.33f, 0.03f)
+                horizontalLineToRelative(2.92f)
+                lineToRelative(-0.93f, 3f)
+                lineToRelative(2.04f, 0.01f)
+                curveToRelative(0.48f, 0.0f, 0.77f, 0.54f, 0.5f, 0.94f)
+                lineToRelative(-3.26f, 4.03f)
+                lineToRelative(-0.63f, -0.0f)
+                lineToRelative(0.66f, -2.97f)
+                horizontalLineToRelative(-2.05f)
+                curveToRelative(-0.41f, -0.0f, -0.71f, -0.44f, -0.58f, -0.83f)
+                close()
+            }
+        }.also { _ElectricBus = it}

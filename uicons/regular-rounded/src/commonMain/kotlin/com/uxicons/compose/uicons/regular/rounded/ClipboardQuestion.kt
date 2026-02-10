@@ -1,0 +1,72 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ClipboardQuestion: ImageVector? = null
+
+val Icons.Rr.ClipboardQuestion: ImageVector
+    get() = _ClipboardQuestion ?: UXIcon(name = "ClipboardQuestion") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16f, 2f)
+                horizontalLineToRelative(-0.17f)
+                curveToRelative(-0.41f, -1.16f, -1.52f, -2f, -2.83f, -2f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.3f, 0f, -2.42f, 0.84f, -2.83f, 2f)
+                horizontalLineToRelative(-0.17f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                lineTo(21f, 7f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(19f, 19f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                lineTo(8f, 22f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                lineTo(5f, 7f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(15.38f, 9.58f)
+                curveToRelative(0.43f, 1.66f, -0.38f, 3.38f, -1.91f, 4.09f)
+                curveToRelative(-0.28f, 0.13f, -0.47f, 0.47f, -0.47f, 0.85f)
+                verticalLineToRelative(0.47f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-0.47f)
+                curveToRelative(0f, -1.16f, 0.64f, -2.21f, 1.63f, -2.67f)
+                curveToRelative(0.55f, -0.25f, 1.04f, -0.92f, 0.82f, -1.78f)
+                curveToRelative(-0.13f, -0.49f, -0.54f, -0.9f, -1.03f, -1.03f)
+                curveToRelative(-0.48f, -0.13f, -0.96f, -0.03f, -1.33f, 0.26f)
+                curveToRelative(-0.37f, 0.29f, -0.58f, 0.72f, -0.58f, 1.19f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                curveToRelative(0f, -1.09f, 0.49f, -2.1f, 1.36f, -2.77f)
+                curveToRelative(0.86f, -0.67f, 1.98f, -0.89f, 3.06f, -0.61f)
+                curveToRelative(1.19f, 0.31f, 2.16f, 1.27f, 2.46f, 2.47f)
+                close()
+                moveTo(13.5f, 18.49f)
+                verticalLineToRelative(0.01f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.01f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+            }
+        }.also { _ClipboardQuestion = it}

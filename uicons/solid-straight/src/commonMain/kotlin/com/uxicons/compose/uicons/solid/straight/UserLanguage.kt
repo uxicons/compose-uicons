@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserLanguage: ImageVector? = null
+
+val Icons.Ss.UserLanguage: ImageVector
+    get() = _UserLanguage ?: UXIcon(name = "UserLanguage") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11f, 15f)
+                horizontalLineToRelative(-2.33f)
+                lineToRelative(-0.45f, 3.39f)
+                curveToRelative(-0.2f, 1.49f, -1.48f, 2.61f, -2.97f, 2.61f)
+                lineTo(3f, 21f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 24f)
+                lineTo(0f, 0f)
+                curveTo(2.67f, 0.48f, 5.07f, 1.92f, 6.78f, 4.19f)
+                horizontalLineToRelative(0f)
+                curveToRelative(1.37f, 1.62f, 3.07f, 6.0f, 4.22f, 8.6f)
+                verticalLineToRelative(2.21f)
+                close()
+                moveTo(18.44f, 2.9f)
+                curveToRelative(-0.04f, 0f, -0.07f, 0.03f, -0.08f, 0.06f)
+                lineToRelative(-0.79f, 3.44f)
+                horizontalLineToRelative(1.76f)
+                lineToRelative(-0.81f, -3.44f)
+                curveToRelative(-0.01f, -0.04f, -0.04f, -0.06f, -0.08f, -0.06f)
+                close()
+                moveTo(24f, 2f)
+                lineTo(24f, 11f)
+                lineTo(13f, 11f)
+                lineTo(13f, 4.15f)
+                lineToRelative(-1.82f, -2.46f)
+                curveToRelative(-0.49f, -0.69f, 0.06f, -1.72f, 0.9f, -1.69f)
+                horizontalLineToRelative(9.91f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(21.5f, 9.5f)
+                lineToRelative(-1.62f, -6.85f)
+                curveToRelative(-0.2f, -0.87f, -1.14f, -1.41f, -2.06f, -1.02f)
+                curveToRelative(-0.44f, 0.18f, -0.73f, 0.61f, -0.84f, 1.07f)
+                lineToRelative(-1.56f, 6.8f)
+                horizontalLineToRelative(1.44f)
+                lineToRelative(0.39f, -1.7f)
+                horizontalLineToRelative(2.41f)
+                lineToRelative(0.4f, 1.7f)
+                horizontalLineToRelative(1.44f)
+                close()
+                moveTo(24f, 15f)
+                verticalLineToRelative(9f)
+                lineTo(12.09f, 24f)
+                curveToRelative(-0.84f, 0.03f, -1.39f, -1.0f, -0.9f, -1.69f)
+                lineToRelative(1.82f, -2.46f)
+                verticalLineToRelative(-4.85f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(22f, 15.5f)
+                horizontalLineToRelative(-2.87f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1.25f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2.87f)
+                verticalLineToRelative(1.25f)
+                horizontalLineToRelative(4.81f)
+                curveToRelative(-0.11f, 0.96f, -0.48f, 2.15f, -1.3f, 3.07f)
+                curveToRelative(-0.36f, -0.41f, -0.64f, -0.86f, -0.85f, -1.32f)
+                horizontalLineToRelative(-1.34f)
+                curveToRelative(0.27f, 0.75f, 0.67f, 1.49f, 1.22f, 2.12f)
+                curveToRelative(-0.66f, 0.4f, -1.5f, 0.66f, -2.54f, 0.66f)
+                verticalLineToRelative(1.25f)
+                curveToRelative(1.46f, 0f, 2.62f, -0.41f, 3.51f, -1.05f)
+                curveToRelative(0.89f, 0.64f, 2.03f, 1.05f, 3.49f, 1.05f)
+                verticalLineToRelative(-1.25f)
+                curveToRelative(-1.05f, 0f, -1.88f, -0.26f, -2.54f, -0.67f)
+                curveToRelative(0.99f, -1.14f, 1.49f, -2.59f, 1.61f, -3.87f)
+                horizontalLineToRelative(0.93f)
+                verticalLineToRelative(-1.25f)
+                close()
+            }
+        }.also { _UserLanguage = it}

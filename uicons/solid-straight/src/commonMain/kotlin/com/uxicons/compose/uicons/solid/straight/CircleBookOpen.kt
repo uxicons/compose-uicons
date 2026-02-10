@@ -1,0 +1,54 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleBookOpen: ImageVector? = null
+
+val Icons.Ss.CircleBookOpen: ImageVector
+    get() = _CircleBookOpen ?: UXIcon(name = "CircleBookOpen") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16f, 8.73f)
+                verticalLineToRelative(6.09f)
+                lineToRelative(-3f, 0.86f)
+                verticalLineToRelative(-6.26f)
+                curveToRelative(0f, -0.46f, 0.31f, -0.88f, 0.76f, -1.01f)
+                lineToRelative(1.32f, -0.38f)
+                curveToRelative(0.22f, -0.06f, 0.45f, -0.02f, 0.64f, 0.12f)
+                curveToRelative(0.18f, 0.14f, 0.29f, 0.35f, 0.29f, 0.58f)
+                close()
+                moveTo(10.24f, 8.41f)
+                lineToRelative(-1.32f, -0.38f)
+                curveToRelative(-0.22f, -0.06f, -0.45f, -0.02f, -0.64f, 0.12f)
+                curveToRelative(-0.18f, 0.14f, -0.29f, 0.35f, -0.29f, 0.58f)
+                verticalLineToRelative(6.09f)
+                lineToRelative(3f, 0.86f)
+                verticalLineToRelative(-6.26f)
+                curveToRelative(0f, -0.46f, -0.31f, -0.88f, -0.76f, -1.01f)
+                close()
+                moveTo(24f, 12f)
+                curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+                reflectiveCurveTo(0f, 18.62f, 0f, 12f)
+                reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                close()
+                moveTo(18f, 8.73f)
+                curveToRelative(0f, -0.86f, -0.4f, -1.66f, -1.09f, -2.18f)
+                curveToRelative(-0.69f, -0.52f, -1.56f, -0.68f, -2.4f, -0.44f)
+                lineToRelative(-1.32f, 0.38f)
+                curveToRelative(-0.46f, 0.13f, -0.86f, 0.37f, -1.2f, 0.67f)
+                curveToRelative(-0.34f, -0.31f, -0.74f, -0.54f, -1.2f, -0.67f)
+                lineToRelative(-1.32f, -0.38f)
+                curveToRelative(-0.83f, -0.24f, -1.7f, -0.08f, -2.4f, 0.44f)
+                curveToRelative(-0.69f, 0.52f, -1.09f, 1.31f, -1.09f, 2.18f)
+                verticalLineToRelative(7.59f)
+                lineToRelative(6f, 1.72f)
+                lineToRelative(6f, -1.72f)
+                verticalLineToRelative(-7.59f)
+                close()
+            }
+        }.also { _CircleBookOpen = it}

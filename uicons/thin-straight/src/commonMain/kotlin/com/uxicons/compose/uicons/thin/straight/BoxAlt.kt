@@ -1,0 +1,60 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BoxAlt: ImageVector? = null
+
+val Icons.Ts.BoxAlt: ImageVector
+    get() = _BoxAlt ?: UXIcon(name = "BoxAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                verticalLineToRelative(21.5f)
+                horizontalLineToRelative(24f)
+                lineTo(24f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 2.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-8f)
+                lineTo(15f, 1f)
+                horizontalLineToRelative(6.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(10f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-4f)
+                lineTo(10f, 1f)
+                close()
+                moveTo(2.5f, 1f)
+                horizontalLineToRelative(6.5f)
+                verticalLineToRelative(4f)
+                lineTo(1f, 5f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(1f, 23f)
+                lineTo(1f, 6f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(17f)
+                lineTo(1f, 23f)
+                close()
+                moveTo(15f, 19f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-1f)
+                close()
+            }
+        }.also { _BoxAlt = it}

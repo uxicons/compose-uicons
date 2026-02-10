@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PeopleArrowsLeftRight: ImageVector? = null
+
+val Icons.Rs.PeopleArrowsLeftRight: ImageVector
+    get() = _PeopleArrowsLeftRight ?: UXIcon(name = "PeopleArrowsLeftRight") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.63f, 2.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(24.13f, 9f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.4f, 0f, -0.78f, 0.08f, -1.13f, 0.22f)
+                lineToRelative(1.78f, 1.78f)
+                horizontalLineToRelative(3.35f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-3.35f)
+                lineToRelative(-2.65f, 2.65f)
+                verticalLineToRelative(6.35f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                lineTo(24.13f, 9f)
+                close()
+                moveTo(5f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveTo(6.38f, 0f, 5f, 0f)
+                reflectiveCurveTo(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(17.42f, 10.59f)
+                lineToRelative(-2.92f, -2.92f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(1.92f, 1.91f)
+                horizontalLineToRelative(-6f)
+                lineToRelative(1.91f, -1.91f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(-2.92f, 2.92f)
+                curveToRelative(-0.77f, 0.77f, -0.77f, 2.04f, 0f, 2.81f)
+                lineToRelative(2.91f, 2.91f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-1.91f, -1.9f)
+                horizontalLineToRelative(6f)
+                lineToRelative(-1.9f, 1.9f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(2.91f, -2.91f)
+                curveToRelative(0.77f, -0.78f, 0.77f, -2.04f, 0f, -2.81f)
+                close()
+                moveTo(2f, 15f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3.35f)
+                lineToRelative(1.78f, -1.78f)
+                curveToRelative(-0.35f, -0.14f, -0.73f, -0.22f, -1.13f, -0.22f)
+                lineTo(3f, 6f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(8f)
+                lineTo(2f, 17f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-6.35f)
+                lineToRelative(-2.65f, -2.65f)
+                lineTo(2f, 15f)
+                close()
+            }
+        }.also { _PeopleArrowsLeftRight = it}

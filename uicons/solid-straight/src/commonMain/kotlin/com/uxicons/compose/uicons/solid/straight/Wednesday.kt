@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Wednesday: ImageVector? = null
+
+val Icons.Ss.Wednesday: ImageVector
+    get() = _Wednesday ?: UXIcon(name = "Wednesday") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(0f, 8f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(3f)
+                lineTo(6f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                lineTo(16f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 8f)
+                close()
+                moveTo(24f, 18.3f)
+                verticalLineToRelative(3.4f)
+                curveToRelative(0f, 1.27f, -1.03f, 2.3f, -2.3f, 2.3f)
+                horizontalLineToRelative(-2.3f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2.3f)
+                curveToRelative(1.27f, 0f, 2.3f, 1.03f, 2.3f, 2.3f)
+                close()
+                moveTo(22.4f, 18.3f)
+                curveToRelative(0f, -0.39f, -0.31f, -0.7f, -0.7f, -0.7f)
+                reflectiveCurveToRelative(-0.7f, 0f, -0.7f, 0f)
+                verticalLineToRelative(4.8f)
+                reflectiveCurveToRelative(0.31f, 0f, 0.7f, 0f)
+                reflectiveCurveToRelative(0.7f, -0.31f, 0.7f, -0.7f)
+                verticalLineToRelative(-3.4f)
+                close()
+                moveTo(16.6f, 17.6f)
+                horizontalLineToRelative(1.9f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-1.9f)
+                verticalLineToRelative(-1.55f)
+                horizontalLineToRelative(1.9f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-1.9f)
+                verticalLineToRelative(-1.65f)
+                close()
+                moveTo(12.39f, 16f)
+                lineToRelative(-0.32f, 4.4f)
+                lineToRelative(-1.58f, -3.47f)
+                lineToRelative(-1.58f, 3.47f)
+                lineToRelative(-0.32f, -4.4f)
+                horizontalLineToRelative(-1.6f)
+                lineToRelative(0.51f, 7f)
+                curveToRelative(0.04f, 0.7f, 0.47f, 1f, 0.99f, 1f)
+                curveToRelative(0.34f, 0f, 0.66f, -0.24f, 0.84f, -0.64f)
+                lineToRelative(1.16f, -2.56f)
+                lineToRelative(1.16f, 2.56f)
+                curveToRelative(0.18f, 0.4f, 0.5f, 0.64f, 0.84f, 0.64f)
+                curveToRelative(0.52f, 0f, 0.94f, -0.29f, 0.99f, -1f)
+                lineToRelative(0.51f, -7f)
+                horizontalLineToRelative(-1.6f)
+                close()
+                moveTo(5.51f, 23.12f)
+                lineToRelative(-0.66f, -9.12f)
+                horizontalLineToRelative(16.85f)
+                curveToRelative(0.85f, 0f, 1.63f, 0.26f, 2.3f, 0.68f)
+                verticalLineToRelative(-4.68f)
+                lineTo(0f, 10f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(5.68f)
+                curveToRelative(-0.09f, -0.27f, -0.15f, -0.57f, -0.17f, -0.88f)
+                close()
+            }
+        }.also { _Wednesday = it}

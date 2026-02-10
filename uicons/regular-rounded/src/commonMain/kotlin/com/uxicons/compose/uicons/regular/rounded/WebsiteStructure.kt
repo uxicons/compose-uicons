@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WebsiteStructure: ImageVector? = null
+
+val Icons.Rr.WebsiteStructure: ImageVector
+    get() = _WebsiteStructure ?: UXIcon(name = "WebsiteStructure") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 21f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(4.5f, 3f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(8.5f, 3f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(24f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.82f, -0.99f, 3.49f, -2.58f, 4.38f)
+                curveToRelative(-0.47f, 0.27f, -1.09f, 0.1f, -1.36f, -0.39f)
+                curveToRelative(-0.27f, -0.48f, -0.09f, -1.09f, 0.39f, -1.36f)
+                curveToRelative(0.95f, -0.53f, 1.55f, -1.53f, 1.55f, -2.62f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(-20.0f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 1.09f, 0.59f, 2.1f, 1.55f, 2.62f)
+                curveToRelative(0.48f, 0.27f, 0.66f, 0.88f, 0.39f, 1.36f)
+                curveToRelative(-0.27f, 0.48f, -0.88f, 0.66f, -1.36f, 0.39f)
+                curveToRelative(-1.59f, -0.88f, -2.58f, -2.56f, -2.58f, -4.38f)
+                verticalLineToRelative(-12f)
+                curveToRelative(-0.0f, -2.76f, 2.24f, -5f, 5.0f, -5f)
+                horizontalLineToRelative(14f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                close()
+                moveTo(22f, 7f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-14f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _WebsiteStructure = it}

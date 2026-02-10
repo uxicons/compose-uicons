@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PasswordSmartphone: ImageVector? = null
+
+val Icons.Ss.PasswordSmartphone: ImageVector
+    get() = _PasswordSmartphone ?: UXIcon(name = "PasswordSmartphone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5f, 7f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(19f)
+                lineTo(24f, 7f)
+                lineTo(5f, 7f)
+                close()
+                moveTo(11.41f, 12.53f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(1.03f, 1.03f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(1.03f, 1.03f)
+                close()
+                moveTo(16.97f, 12.53f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(1.03f, 1.03f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(1.03f, 1.03f)
+                close()
+                moveTo(22.53f, 12.53f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(-1.03f, -1.03f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(1.03f, 1.03f)
+                lineToRelative(1.03f, -1.03f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-1.03f, 1.03f)
+                lineToRelative(1.03f, 1.03f)
+                close()
+                moveTo(3.0f, 16f)
+                lineTo(0f, 16f)
+                lineTo(0f, 0f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(5f)
+                lineTo(3f, 5f)
+                verticalLineToRelative(11f)
+                close()
+                moveTo(0.0f, 18f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.66f, -1.34f, 3f, -3f, 3f)
+                lineTo(3f, 24f)
+                curveToRelative(-1.66f, 0f, -3f, -1.34f, -3f, -3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(6.0f, 22f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _PasswordSmartphone = it}

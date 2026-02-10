@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HouseTurret: ImageVector? = null
+
+val Icons.Rr.HouseTurret: ImageVector
+    get() = _HouseTurret ?: UXIcon(name = "HouseTurret") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 0f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                lineTo(20f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                lineTo(16f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                lineTo(12f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                lineTo(22f, 7.46f)
+                curveToRelative(1.2f, -0.69f, 2f, -1.99f, 2f, -3.46f)
+                lineTo(24f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(20f, 6f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                horizontalLineToRelative(10f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(14.08f, 11.41f)
+                lineToRelative(-3f, -2.35f)
+                curveToRelative(-1.81f, -1.42f, -4.35f, -1.42f, -6.16f, 0f)
+                lineToRelative(-3f, 2.35f)
+                curveToRelative(-1.22f, 0.95f, -1.92f, 2.39f, -1.92f, 3.94f)
+                verticalLineToRelative(4.15f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-4.15f)
+                curveToRelative(0f, -1.55f, -0.7f, -2.98f, -1.92f, -3.94f)
+                close()
+                moveTo(14f, 19.5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                lineTo(4.5f, 22f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-4.15f)
+                curveToRelative(0f, -0.93f, 0.42f, -1.79f, 1.15f, -2.36f)
+                lineToRelative(3f, -2.35f)
+                curveToRelative(0.54f, -0.43f, 1.2f, -0.64f, 1.85f, -0.64f)
+                reflectiveCurveToRelative(1.3f, 0.21f, 1.85f, 0.64f)
+                lineToRelative(3f, 2.35f)
+                curveToRelative(0.73f, 0.57f, 1.15f, 1.44f, 1.15f, 2.36f)
+                verticalLineToRelative(4.15f)
+                close()
+                moveTo(10f, 16f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _HouseTurret = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StomachAche: ImageVector? = null
+
+val Icons.Ts.StomachAche: ImageVector
+    get() = _StomachAche ?: UXIcon(name = "StomachAche") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.5f, 3.04f)
+                horizontalLineToRelative(-8f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(10.0f)
+                curveToRelative(0f, 2.41f, -3.08f, 3.79f, -3.6f, 4.0f)
+                horizontalLineToRelative(-0.9f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(0.86f)
+                curveToRelative(2.47f, 1.47f, 5.05f, 2.97f, 10.14f, 3.0f)
+                curveToRelative(1.71f, 0.01f, 3.34f, -0.66f, 4.57f, -1.88f)
+                curveToRelative(1.24f, -1.24f, 1.93f, -2.88f, 1.93f, -4.62f)
+                verticalLineToRelative(-6.0f)
+                curveToRelative(0f, -3.58f, -2.92f, -6.5f, -6.5f, -6.5f)
+                close()
+                moveTo(15.5f, 4.04f)
+                curveToRelative(3.03f, 0f, 5.5f, 2.47f, 5.5f, 5.5f)
+                verticalLineToRelative(2.1f)
+                curveToRelative(-0.6f, -0.29f, -1.52f, -0.6f, -2.77f, -0.6f)
+                curveToRelative(-1.18f, 0f, -1.94f, 0.27f, -2.68f, 0.53f)
+                curveToRelative(-0.69f, 0.24f, -1.34f, 0.47f, -2.35f, 0.47f)
+                curveToRelative(-1.54f, 0f, -2.73f, -0.54f, -3.19f, -0.79f)
+                verticalLineToRelative(-7.21f)
+                horizontalLineToRelative(5.5f)
+                close()
+                moveTo(19.37f, 19.45f)
+                curveToRelative(-1.04f, 1.03f, -2.41f, 1.6f, -3.86f, 1.59f)
+                curveToRelative(-4.35f, -0.02f, -6.69f, -1.14f, -8.94f, -2.44f)
+                curveToRelative(1.27f, -0.67f, 3.43f, -2.17f, 3.43f, -4.55f)
+                verticalLineToRelative(-1.68f)
+                curveToRelative(0.7f, 0.31f, 1.81f, 0.68f, 3.19f, 0.68f)
+                curveToRelative(1.18f, 0f, 1.94f, -0.27f, 2.68f, -0.53f)
+                curveToRelative(0.69f, -0.24f, 1.34f, -0.47f, 2.35f, -0.47f)
+                curveToRelative(1.52f, 0f, 2.43f, 0.51f, 2.77f, 0.75f)
+                verticalLineToRelative(2.75f)
+                curveToRelative(0f, 1.47f, -0.58f, 2.86f, -1.63f, 3.91f)
+                close()
+                moveTo(2.54f, 12.64f)
+                curveToRelative(0.33f, 0.1f, 0.69f, 0.04f, 0.94f, -0.16f)
+                lineToRelative(1.1f, -0.74f)
+                lineToRelative(1.55f, 2.94f)
+                lineToRelative(0.86f, -0.44f)
+                verticalLineToRelative(-6.21f)
+                curveToRelative(-0.02f, -0.4f, -0.26f, -0.75f, -0.63f, -0.92f)
+                curveToRelative(-0.36f, -0.17f, -0.79f, -0.12f, -1.12f, 0.13f)
+                lineToRelative(-1.01f, 0.81f)
+                lineToRelative(-0.8f, -2.35f)
+                lineToRelative(-3.06f, 2.3f)
+                lineToRelative(1.44f, 3.98f)
+                curveToRelative(0.12f, 0.33f, 0.38f, 0.57f, 0.72f, 0.67f)
+                close()
+                moveTo(1.58f, 8.34f)
+                lineTo(2.94f, 7.32f)
+                lineTo(3.76f, 9.71f)
+                reflectiveCurveToRelative(2.13f, -1.66f, 2.16f, -1.68f)
+                reflectiveCurveToRelative(0.08f, -0.01f, 0.08f, 0.05f)
+                verticalLineToRelative(4.18f)
+                lineToRelative(-1.05f, -1.98f)
+                reflectiveCurveToRelative(-1.88f, 1.26f, -2.02f, 1.36f)
+                reflectiveCurveToRelative(-0.16f, -0.03f, -0.16f, -0.03f)
+                close()
+            }
+        }.also { _StomachAche = it}

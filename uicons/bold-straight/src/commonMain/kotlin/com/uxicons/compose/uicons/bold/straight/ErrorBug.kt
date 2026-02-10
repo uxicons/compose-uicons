@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ErrorBug: ImageVector? = null
+
+val Icons.Bs.ErrorBug: ImageVector
+    get() = _ErrorBug ?: UXIcon(name = "ErrorBug") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 7f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-4.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3.43f)
+                curveToRelative(-1.23f, -1.83f, -3.3f, -2.99f, -5.56f, -3.0f)
+                curveToRelative(-0.0f, 0f, -0.01f, 0f, -0.01f, 0f)
+                reflectiveCurveToRelative(0f, 0f, -0.0f, 0f)
+                curveToRelative(-2.26f, 0.0f, -4.34f, 1.17f, -5.57f, 3f)
+                horizontalLineToRelative(-3.43f)
+                verticalLineToRelative(-4.0f)
+                horizontalLineToRelative(-3.0f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(2.79f)
+                lineToRelative(-1.02f, 4f)
+                horizontalLineToRelative(-4.26f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3.57f)
+                curveToRelative(-0.02f, 0.24f, -0.03f, 0.48f, -0.04f, 0.7f)
+                curveToRelative(0.0f, 0.8f, 0.12f, 1.57f, 0.33f, 2.3f)
+                horizontalLineToRelative(-1.36f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(4.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2.44f)
+                curveToRelative(1.54f, 1.84f, 3.89f, 3.0f, 6.56f, 3f)
+                curveToRelative(2.67f, -0.0f, 5.01f, -1.16f, 6.55f, -3f)
+                horizontalLineToRelative(2.44f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-1.36f)
+                curveToRelative(0.21f, -0.73f, 0.33f, -1.51f, 0.33f, -2.32f)
+                curveToRelative(-0.0f, -0.22f, -0.01f, -0.44f, -0.04f, -0.68f)
+                horizontalLineToRelative(3.57f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-4.26f)
+                lineToRelative(-1.02f, -4f)
+                horizontalLineToRelative(2.78f)
+                close()
+                moveTo(8.54f, 6.36f)
+                curveToRelative(0.56f, -1.41f, 1.94f, -2.36f, 3.46f, -2.36f)
+                curveToRelative(1.52f, 0.0f, 2.91f, 0.95f, 3.46f, 2.36f)
+                lineToRelative(1.96f, 7.7f)
+                curveToRelative(0.05f, 0.27f, 0.06f, 0.66f, 0.01f, 0.97f)
+                lineToRelative(-5.43f, -9.32f)
+                lineToRelative(-5.44f, 9.32f)
+                curveToRelative(-0.05f, -0.27f, -0.03f, -0.78f, 0.01f, -0.94f)
+                lineToRelative(1.97f, -7.74f)
+                close()
+                moveTo(11f, 12f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(13f, 13f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(12.0f, 20f)
+                curveToRelative(-2.6f, -0.0f, -4.71f, -1.69f, -5.3f, -4f)
+                horizontalLineToRelative(10.58f)
+                curveToRelative(-0.59f, 2.32f, -2.69f, 4.0f, -5.29f, 4f)
+                close()
+            }
+        }.also { _ErrorBug = it}

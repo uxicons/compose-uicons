@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BadgeLeaf: ImageVector? = null
+
+val Icons.Ts.BadgeLeaf: ImageVector
+    get() = _BadgeLeaf ?: UXIcon(name = "BadgeLeaf") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 12f)
+                curveToRelative(0f, -1.62f, -0.76f, -3.15f, -2.04f, -4.13f)
+                curveToRelative(0.21f, -1.6f, -0.33f, -3.21f, -1.48f, -4.36f)
+                curveToRelative(-1.15f, -1.15f, -2.76f, -1.69f, -4.36f, -1.48f)
+                curveToRelative(-0.98f, -1.28f, -2.5f, -2.04f, -4.13f, -2.04f)
+                reflectiveCurveToRelative(-3.15f, 0.76f, -4.13f, 2.04f)
+                curveToRelative(-1.6f, -0.21f, -3.21f, 0.33f, -4.36f, 1.48f)
+                curveToRelative(-1.15f, 1.15f, -1.69f, 2.76f, -1.48f, 4.36f)
+                curveToRelative(-1.28f, 0.98f, -2.04f, 2.5f, -2.04f, 4.13f)
+                reflectiveCurveToRelative(0.76f, 3.15f, 2.04f, 4.13f)
+                curveToRelative(-0.21f, 1.6f, 0.33f, 3.21f, 1.48f, 4.36f)
+                curveToRelative(1.15f, 1.15f, 2.76f, 1.69f, 4.36f, 1.48f)
+                curveToRelative(0.98f, 1.28f, 2.5f, 2.04f, 4.13f, 2.04f)
+                reflectiveCurveToRelative(3.15f, -0.76f, 4.13f, -2.04f)
+                curveToRelative(1.6f, 0.21f, 3.21f, -0.33f, 4.36f, -1.48f)
+                curveToRelative(1.15f, -1.15f, 1.69f, -2.76f, 1.48f, -4.36f)
+                curveToRelative(1.28f, -0.98f, 2.04f, -2.5f, 2.04f, -4.13f)
+                close()
+                moveTo(21.14f, 15.49f)
+                lineToRelative(-0.27f, 0.18f)
+                lineToRelative(0.06f, 0.33f)
+                curveToRelative(0.27f, 1.38f, -0.16f, 2.79f, -1.15f, 3.78f)
+                curveToRelative(-0.99f, 0.99f, -2.4f, 1.42f, -3.78f, 1.15f)
+                lineToRelative(-0.33f, -0.06f)
+                lineToRelative(-0.18f, 0.27f)
+                curveToRelative(-0.78f, 1.16f, -2.09f, 1.86f, -3.49f, 1.86f)
+                reflectiveCurveToRelative(-2.7f, -0.69f, -3.49f, -1.86f)
+                lineToRelative(-0.18f, -0.27f)
+                lineToRelative(-0.33f, 0.06f)
+                curveToRelative(-1.38f, 0.27f, -2.79f, -0.16f, -3.78f, -1.15f)
+                curveToRelative(-0.99f, -0.99f, -1.42f, -2.4f, -1.15f, -3.78f)
+                lineToRelative(0.06f, -0.33f)
+                lineToRelative(-0.27f, -0.18f)
+                curveToRelative(-1.16f, -0.78f, -1.86f, -2.09f, -1.86f, -3.49f)
+                reflectiveCurveToRelative(0.69f, -2.7f, 1.86f, -3.49f)
+                lineToRelative(0.27f, -0.18f)
+                lineToRelative(-0.06f, -0.33f)
+                curveToRelative(-0.27f, -1.38f, 0.16f, -2.79f, 1.15f, -3.78f)
+                curveToRelative(0.99f, -0.99f, 2.4f, -1.42f, 3.78f, -1.15f)
+                lineToRelative(0.33f, 0.06f)
+                lineToRelative(0.18f, -0.27f)
+                curveToRelative(0.78f, -1.16f, 2.09f, -1.86f, 3.49f, -1.86f)
+                reflectiveCurveToRelative(2.7f, 0.69f, 3.49f, 1.86f)
+                lineToRelative(0.18f, 0.27f)
+                lineToRelative(0.33f, -0.06f)
+                curveToRelative(1.38f, -0.27f, 2.79f, 0.16f, 3.78f, 1.15f)
+                curveToRelative(0.99f, 0.99f, 1.42f, 2.4f, 1.15f, 3.78f)
+                lineToRelative(-0.06f, 0.33f)
+                lineToRelative(0.27f, 0.18f)
+                curveToRelative(1.16f, 0.78f, 1.86f, 2.09f, 1.86f, 3.49f)
+                reflectiveCurveToRelative(-0.69f, 2.7f, -1.86f, 3.49f)
+                close()
+                moveTo(12.3f, 4.85f)
+                lineToRelative(-0.3f, -0.23f)
+                lineToRelative(-0.3f, 0.23f)
+                curveToRelative(-0.19f, 0.14f, -4.7f, 3.57f, -4.7f, 7.15f)
+                curveToRelative(0f, 2.59f, 1.98f, 4.69f, 4.5f, 4.95f)
+                verticalLineToRelative(2.05f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2.05f)
+                curveToRelative(2.52f, -0.26f, 4.5f, -2.36f, 4.5f, -4.95f)
+                curveToRelative(0f, -3.58f, -4.51f, -7.01f, -4.7f, -7.15f)
+                close()
+                moveTo(12.5f, 15.95f)
+                verticalLineToRelative(-4.95f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(4.95f)
+                curveToRelative(-1.97f, -0.25f, -3.5f, -1.92f, -3.5f, -3.95f)
+                curveToRelative(0f, -2.6f, 3.02f, -5.3f, 4f, -6.11f)
+                curveToRelative(0.98f, 0.81f, 4f, 3.51f, 4f, 6.11f)
+                curveToRelative(0f, 2.03f, -1.53f, 3.7f, -3.5f, 3.95f)
+                close()
+            }
+        }.also { _BadgeLeaf = it}

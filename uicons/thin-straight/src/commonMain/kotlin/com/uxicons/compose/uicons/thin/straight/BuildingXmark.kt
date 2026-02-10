@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BuildingXmark: ImageVector? = null
+
+val Icons.Ts.BuildingXmark: ImageVector
+    get() = _BuildingXmark ?: UXIcon(name = "BuildingXmark") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 14.77f)
+                lineToRelative(-4.28f, 4.25f)
+                lineToRelative(4.25f, 4.25f)
+                lineToRelative(-0.71f, 0.74f)
+                lineToRelative(-4.25f, -4.28f)
+                lineToRelative(-4.25f, 4.28f)
+                lineToRelative(-0.71f, -0.74f)
+                lineToRelative(4.25f, -4.25f)
+                lineToRelative(-4.25f, -4.25f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(4.25f, 4.25f)
+                lineToRelative(4.25f, -4.25f)
+                lineToRelative(0.74f, 0.71f)
+                close()
+                moveTo(13.5f, 1f)
+                horizontalLineToRelative(-11f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(20.5f)
+                horizontalLineToRelative(9.97f)
+                lineToRelative(1f, 1f)
+                horizontalLineToRelative(-11.97f)
+                verticalLineToRelative(-21.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(9.96f)
+                lineToRelative(-1f, -1f)
+                verticalLineToRelative(-8.96f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(7f, 14f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(9f, 13f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(4f, 17f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(9f, 17f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(7f, 6f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(9f, 5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(7f, 10f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(9f, 9f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                close()
+            }
+        }.also { _BuildingXmark = it}

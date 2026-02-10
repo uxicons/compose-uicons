@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WagonCovered: ImageVector? = null
+
+val Icons.Ts.WagonCovered: ImageVector
+    get() = _WagonCovered ?: UXIcon(name = "WagonCovered") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.38f, 1.68f)
+                curveToRelative(-0.51f, -0.54f, -1.25f, -0.78f, -1.98f, -0.64f)
+                curveToRelative(-0.2f, 0.04f, -0.42f, 0.15f, -0.69f, 0.29f)
+                curveToRelative(-0.54f, 0.28f, -1.28f, 0.66f, -2.21f, 0.66f)
+                curveToRelative(-1.27f, 0f, -2.63f, -1.34f, -2.65f, -1.35f)
+                lineToRelative(-0.35f, -0.35f)
+                lineToRelative(-0.35f, 0.35f)
+                curveToRelative(-0.01f, 0.01f, -1.37f, 1.35f, -3.15f, 1.35f)
+                curveToRelative(-1.76f, 0f, -3.13f, -1.34f, -3.15f, -1.35f)
+                lineToRelative(-0.35f, -0.35f)
+                lineToRelative(-0.35f, 0.35f)
+                curveToRelative(-0.01f, 0.01f, -1.38f, 1.35f, -2.65f, 1.35f)
+                curveToRelative(-0.93f, 0f, -1.67f, -0.38f, -2.21f, -0.66f)
+                curveToRelative(-0.27f, -0.14f, -0.49f, -0.26f, -0.7f, -0.29f)
+                curveToRelative(-0.73f, -0.14f, -1.47f, 0.1f, -1.98f, 0.64f)
+                curveTo(0.1f, 2.23f, -0.11f, 2.99f, 0.05f, 3.71f)
+                lineToRelative(1.95f, 9.84f)
+                verticalLineToRelative(6.95f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                curveToRelative(1.76f, 0f, 3.22f, -1.31f, 3.46f, -3f)
+                horizontalLineToRelative(6.07f)
+                curveToRelative(0.24f, 1.69f, 1.7f, 3f, 3.46f, 3f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-6.95f)
+                lineToRelative(1.94f, -9.82f)
+                curveToRelative(0.17f, -0.73f, -0.04f, -1.5f, -0.56f, -2.04f)
+                close()
+                moveTo(5.5f, 23f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                close()
+                moveTo(18.5f, 23f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                close()
+                moveTo(18.5f, 17f)
+                curveToRelative(-1.76f, 0f, -3.22f, 1.31f, -3.46f, 3f)
+                horizontalLineToRelative(-6.07f)
+                curveToRelative(-0.24f, -1.69f, -1.7f, -3f, -3.46f, -3f)
+                curveToRelative(-0.98f, 0f, -1.86f, 0.4f, -2.5f, 1.05f)
+                verticalLineToRelative(-4.05f)
+                lineTo(21f, 14f)
+                verticalLineToRelative(4.05f)
+                curveToRelative(-0.64f, -0.65f, -1.52f, -1.05f, -2.5f, -1.05f)
+                close()
+                moveTo(22.96f, 3.52f)
+                lineToRelative(-1.88f, 9.48f)
+                lineTo(2.91f, 13f)
+                lineTo(1.03f, 3.5f)
+                curveToRelative(-0.09f, -0.4f, 0.02f, -0.82f, 0.31f, -1.12f)
+                curveToRelative(0.28f, -0.29f, 0.68f, -0.42f, 1.07f, -0.35f)
+                curveToRelative(0.07f, 0.01f, 0.26f, 0.12f, 0.42f, 0.2f)
+                curveToRelative(0.59f, 0.31f, 1.49f, 0.77f, 2.67f, 0.77f)
+                curveToRelative(0.95f, 0f, 1.86f, -0.5f, 2.5f, -0.94f)
+                verticalLineToRelative(7.94f)
+                horizontalLineToRelative(1f)
+                lineTo(9f, 2.03f)
+                curveToRelative(0.69f, 0.46f, 1.75f, 0.97f, 3f, 0.97f)
+                reflectiveCurveToRelative(2.31f, -0.52f, 3f, -0.97f)
+                verticalLineToRelative(7.97f)
+                horizontalLineToRelative(1f)
+                lineTo(16f, 2.06f)
+                curveToRelative(0.64f, 0.45f, 1.55f, 0.94f, 2.5f, 0.94f)
+                curveToRelative(1.17f, 0f, 2.07f, -0.47f, 2.67f, -0.77f)
+                curveToRelative(0.16f, -0.08f, 0.35f, -0.18f, 0.42f, -0.2f)
+                curveToRelative(0.4f, -0.07f, 0.79f, 0.05f, 1.07f, 0.35f)
+                curveToRelative(0.29f, 0.3f, 0.4f, 0.72f, 0.31f, 1.14f)
+                close()
+            }
+        }.also { _WagonCovered = it}

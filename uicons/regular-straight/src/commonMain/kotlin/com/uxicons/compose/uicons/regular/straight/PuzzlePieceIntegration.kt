@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PuzzlePieceIntegration: ImageVector? = null
+
+val Icons.Rs.PuzzlePieceIntegration: ImageVector
+    get() = _PuzzlePieceIntegration ?: UXIcon(name = "PuzzlePieceIntegration") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.28f, 19.31f)
+                lineToRelative(1.42f, 0.82f)
+                lineToRelative(-1.0f, 1.73f)
+                lineToRelative(-1.41f, -0.81f)
+                curveToRelative(-0.6f, 0.65f, -1.39f, 1.13f, -2.29f, 1.33f)
+                verticalLineToRelative(1.62f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1.62f)
+                curveToRelative(-0.9f, -0.2f, -1.69f, -0.68f, -2.29f, -1.33f)
+                lineToRelative(-1.41f, 0.81f)
+                lineToRelative(-1.0f, -1.73f)
+                lineToRelative(1.42f, -0.82f)
+                curveToRelative(-0.13f, -0.42f, -0.22f, -0.85f, -0.22f, -1.31f)
+                reflectiveCurveToRelative(0.09f, -0.9f, 0.22f, -1.31f)
+                lineToRelative(-1.42f, -0.82f)
+                lineToRelative(1.0f, -1.73f)
+                lineToRelative(1.41f, 0.81f)
+                curveToRelative(0.6f, -0.65f, 1.39f, -1.13f, 2.29f, -1.33f)
+                verticalLineToRelative(-1.62f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1.62f)
+                curveToRelative(0.9f, 0.2f, 1.69f, 0.68f, 2.29f, 1.33f)
+                lineToRelative(1.41f, -0.81f)
+                lineToRelative(1.0f, 1.73f)
+                lineToRelative(-1.42f, 0.82f)
+                curveToRelative(0.13f, 0.42f, 0.22f, 0.85f, 0.22f, 1.31f)
+                reflectiveCurveToRelative(-0.09f, 0.9f, -0.22f, 1.31f)
+                close()
+                moveTo(20.5f, 18.0f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                close()
+                moveTo(9.32f, 11.02f)
+                curveToRelative(-1.08f, 0.08f, -1.89f, 1.01f, -1.82f, 2.1f)
+                curveToRelative(0.01f, 0.18f, 0.07f, 0.54f, 0.14f, 0.89f)
+                horizontalLineToRelative(-1.64f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-7f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(5.08f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                curveToRelative(0.62f, -0.36f, 1.29f, -0.63f, 2f, -0.82f)
+                curveToRelative(0f, 0f, 0f, 0f, 0f, 0f)
+                verticalLineToRelative(-4.26f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-1.66f)
+                curveToRelative(0.08f, -0.52f, 0.16f, -1.05f, 0.16f, -1.08f)
+                curveTo(11.48f, 0.83f, 10.7f, 0.04f, 9.32f, 0f)
+                curveToRelative(-1.08f, 0.08f, -1.89f, 1.01f, -1.82f, 2.1f)
+                curveToRelative(0.02f, 0.18f, 0.07f, 0.55f, 0.14f, 0.9f)
+                horizontalLineToRelative(-1.64f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1.66f)
+                curveToRelative(-0.52f, -0.08f, -1.04f, -0.16f, -1.08f, -0.16f)
+                curveToRelative(-1.08f, 0.02f, -1.94f, 0.92f, -1.92f, 2f)
+                curveToRelative(-0.04f, 1.27f, 1.02f, 2.07f, 2.1f, 2.0f)
+                curveToRelative(0.18f, -0.01f, 0.54f, -0.07f, 0.9f, -0.14f)
+                verticalLineToRelative(1.64f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(4.26f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                curveToRelative(0.18f, -0.71f, 0.46f, -1.38f, 0.82f, -2f)
+                curveToRelative(0f, 0f, 0f, 0f, 0f, 0f)
+                curveToRelative(0.11f, -0.19f, 0.22f, -0.37f, 0.35f, -0.55f)
+                curveToRelative(0.04f, -0.28f, 0.07f, -0.5f, 0.07f, -0.52f)
+                curveToRelative(-0.02f, -1.08f, -0.8f, -1.88f, -2.18f, -1.92f)
+                close()
+            }
+        }.also { _PuzzlePieceIntegration = it}

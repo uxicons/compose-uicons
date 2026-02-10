@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FamilyLaw: ImageVector? = null
+
+val Icons.Bs.FamilyLaw: ImageVector
+    get() = _FamilyLaw ?: UXIcon(name = "FamilyLaw") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 15f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(8.05f, 8f)
+                curveToRelative(1.06f, 0f, 1.93f, -0.8f, 2.04f, -1.83f)
+                horizontalLineToRelative(0.01f)
+                verticalLineToRelative(-0.57f)
+                lineToRelative(-0.93f, -2.6f)
+                horizontalLineToRelative(1.82f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(1.84f)
+                lineToRelative(-0.84f, 2.66f)
+                verticalLineToRelative(0.34f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-0.34f)
+                lineToRelative(-1.5f, -4.66f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3.5f)
+                lineToRelative(-1.5f, 4.61f)
+                verticalLineToRelative(0.33f)
+                curveToRelative(0f, 1.13f, 0.92f, 2.05f, 2.05f, 2.05f)
+                close()
+                moveTo(16.5f, 14f)
+                curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.34f, 3f, -3f)
+                reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+                close()
+                moveTo(4.5f, 17f)
+                curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+                reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+                reflectiveCurveToRelative(1.34f, 3f, 3f, 3f)
+                close()
+                moveTo(21.5f, 19f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+            }
+        }.also { _FamilyLaw = it}

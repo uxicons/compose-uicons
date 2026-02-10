@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BlockBrickFire: ImageVector? = null
+
+val Icons.Sr.BlockBrickFire: ImageVector
+    get() = _BlockBrickFire ?: UXIcon(name = "BlockBrickFire") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.08f, 10.29f)
+                curveToRelative(-0.45f, -0.4f, -0.85f, -0.33f, -1.08f, 0.21f)
+                curveToRelative(-0.94f, 2.19f, -0.55f, 5.49f, -2.37f, 5.49f)
+                curveToRelative(-0.68f, 0f, -0.9f, -1.53f, -1.1f, -2.04f)
+                curveToRelative(-0.25f, -0.6f, -0.74f, -0.67f, -1.06f, -0.1f)
+                curveToRelative(-0.58f, 1.03f, -1.47f, 3f, -1.47f, 4.14f)
+                curveToRelative(0f, 3.19f, 2.49f, 5.8f, 5.64f, 5.99f)
+                curveToRelative(2.23f, 0.13f, 4.33f, -1.15f, 5.48f, -3.06f)
+                curveToRelative(2.7f, -4.47f, -1.44f, -8.33f, -4.04f, -10.64f)
+                close()
+                moveTo(19.52f, 21.3f)
+                curveToRelative(-0.8f, 0.94f, -2.24f, 0.94f, -3.04f, 0f)
+                curveToRelative(-0.69f, -0.81f, -0.56f, -2.05f, 0.2f, -2.8f)
+                lineToRelative(0.77f, -1.1f)
+                curveToRelative(0.31f, -0.31f, 0.81f, -0.31f, 1.11f, 0f)
+                lineToRelative(0.77f, 1.1f)
+                curveToRelative(0.75f, 0.75f, 0.89f, 1.99f, 0.2f, 2.8f)
+                close()
+                moveTo(24f, 11.0f)
+                horizontalLineToRelative(-1.29f)
+                curveToRelative(-0.84f, -0.9f, -1.68f, -1.65f, -2.31f, -2.21f)
+                curveToRelative(-0.97f, -0.86f, -1.92f, -0.8f, -2.4f, -0.7f)
+                curveToRelative(-0.48f, 0.11f, -1.35f, 0.46f, -1.85f, 1.62f)
+                curveToRelative(-0.18f, 0.42f, -0.31f, 0.85f, -0.42f, 1.28f)
+                horizontalLineToRelative(-2.74f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(24f, 5.0f)
+                horizontalLineToRelative(-6f)
+                lineTo(18f, 0f)
+                horizontalLineToRelative(1f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                close()
+                moveTo(11.66f, 13.0f)
+                curveToRelative(-0.28f, 0.52f, -1.23f, 2.33f, -1.55f, 4f)
+                horizontalLineToRelative(-2.11f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(3.66f)
+                close()
+                moveTo(6f, 17.0f)
+                lineTo(0f, 17.0f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(16f, 5.0f)
+                horizontalLineToRelative(-8f)
+                lineTo(8f, 0f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(11f, 21.86f)
+                verticalLineToRelative(2.14f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                horizontalLineToRelative(10.07f)
+                curveToRelative(0.13f, 1.02f, 0.45f, 1.99f, 0.93f, 2.86f)
+                close()
+                moveTo(6f, 5f)
+                lineTo(0f, 5f)
+                curveTo(0f, 2.24f, 2.24f, 0f, 5f, 0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(11f, 11f)
+                lineTo(0f, 11f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _BlockBrickFire = it}

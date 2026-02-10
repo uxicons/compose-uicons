@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TowerChain: ImageVector? = null
+
+val Icons.Br.TowerChain: ImageVector
+    get() = _TowerChain ?: UXIcon(name = "TowerChain") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(8f, 6f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 1.09f, -0.88f, 1.98f, -1.97f, 2.0f)
+            lineToRelative(0.36f, 5.04f)
+            curveToRelative(0.91f, 0.18f, 1.6f, 0.99f, 1.6f, 1.96f)
+            curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+            lineTo(2f, 19f)
+            curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+            curveToRelative(0f, -0.97f, 0.69f, -1.78f, 1.6f, -1.96f)
+            lineToRelative(0.36f, -5.04f)
+            curveToRelative(-1.09f, -0.02f, -1.97f, -0.91f, -1.97f, -2.0f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(21f, 6f)
+            curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+            reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+            reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+            reflectiveCurveToRelative(1.34f, 3f, 3f, 3f)
+            close()
+            moveTo(21f, 9f)
+            curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+            reflectiveCurveToRelative(1.34f, 3f, 3f, 3f)
+            reflectiveCurveToRelative(3f, -1.34f, 3f, -3f)
+            reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+            close()
+            moveTo(21f, 18f)
+            curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+            reflectiveCurveToRelative(1.34f, 3f, 3f, 3f)
+            reflectiveCurveToRelative(3f, -1.34f, 3f, -3f)
+            reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+            close()
+            moveTo(14.5f, 4.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+            verticalLineToRelative(5.5f)
+            horizontalLineToRelative(-0.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(0.5f)
+            verticalLineToRelative(5.5f)
+            curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+            verticalLineToRelative(-5.5f)
+            horizontalLineToRelative(1.5f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-1.5f)
+            lineTo(14f, 5f)
+            curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+            close()
+        }
+    }.also { _TowerChain = it }

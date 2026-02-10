@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleDashed: ImageVector? = null
+
+val Icons.Rs.CircleDashed: ImageVector
+    get() = _CircleDashed ?: UXIcon(name = "CircleDashed") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2f, 12f)
+                lineTo(0f, 12f)
+                curveToRelative(0f, -1.1f, 0.15f, -2.19f, 0.44f, -3.24f)
+                lineToRelative(1.93f, 0.54f)
+                curveToRelative(-0.24f, 0.87f, -0.37f, 1.78f, -0.37f, 2.7f)
+                close()
+                moveTo(6.95f, 3.37f)
+                lineToRelative(-1.01f, -1.72f)
+                curveToRelative(-1.77f, 1.04f, -3.26f, 2.53f, -4.3f, 4.3f)
+                lineToRelative(1.73f, 1.01f)
+                curveToRelative(0.87f, -1.48f, 2.11f, -2.72f, 3.58f, -3.59f)
+                close()
+                moveTo(12f, 2f)
+                lineTo(12f, 0f)
+                curveToRelative(-1.1f, 0f, -2.19f, 0.15f, -3.24f, 0.44f)
+                lineToRelative(0.54f, 1.93f)
+                curveToRelative(0.87f, -0.24f, 1.78f, -0.37f, 2.7f, -0.37f)
+                close()
+                moveTo(12f, 22f)
+                curveToRelative(-0.92f, 0f, -1.83f, -0.12f, -2.7f, -0.37f)
+                lineToRelative(-0.54f, 1.93f)
+                curveToRelative(1.05f, 0.29f, 2.14f, 0.44f, 3.24f, 0.44f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(6.95f, 20.63f)
+                curveToRelative(-1.48f, -0.87f, -2.72f, -2.11f, -3.59f, -3.58f)
+                lineToRelative(-1.72f, 1.01f)
+                curveToRelative(1.04f, 1.77f, 2.53f, 3.26f, 4.3f, 4.3f)
+                lineToRelative(1.01f, -1.73f)
+                close()
+                moveTo(2.37f, 14.7f)
+                curveToRelative(-0.24f, -0.87f, -0.37f, -1.78f, -0.37f, -2.7f)
+                lineTo(0f, 12f)
+                curveToRelative(0f, 1.1f, 0.15f, 2.19f, 0.44f, 3.24f)
+                lineToRelative(1.93f, -0.54f)
+                close()
+                moveTo(24f, 12f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, 0.92f, -0.12f, 1.83f, -0.37f, 2.7f)
+                lineToRelative(1.93f, 0.54f)
+                curveToRelative(0.29f, -1.05f, 0.44f, -2.14f, 0.44f, -3.24f)
+                close()
+                moveTo(22.36f, 18.06f)
+                lineToRelative(-1.73f, -1.01f)
+                curveToRelative(-0.87f, 1.48f, -2.11f, 2.72f, -3.58f, 3.59f)
+                lineToRelative(1.01f, 1.72f)
+                curveToRelative(1.77f, -1.04f, 3.26f, -2.53f, 4.3f, -4.3f)
+                close()
+                moveTo(15.24f, 23.56f)
+                lineToRelative(-0.54f, -1.93f)
+                curveToRelative(-0.87f, 0.24f, -1.78f, 0.37f, -2.7f, 0.37f)
+                verticalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2.19f, -0.15f, 3.24f, -0.44f)
+                close()
+                moveTo(15.24f, 0.44f)
+                curveToRelative(-1.05f, -0.29f, -2.14f, -0.44f, -3.24f, -0.44f)
+                lineTo(12f, 2f)
+                curveToRelative(0.92f, 0f, 1.83f, 0.12f, 2.7f, 0.37f)
+                lineToRelative(0.54f, -1.93f)
+                close()
+                moveTo(22.36f, 5.94f)
+                curveToRelative(-1.04f, -1.77f, -2.53f, -3.26f, -4.3f, -4.3f)
+                lineToRelative(-1.01f, 1.73f)
+                curveToRelative(1.48f, 0.87f, 2.72f, 2.11f, 3.59f, 3.58f)
+                lineToRelative(1.72f, -1.01f)
+                close()
+                moveTo(23.56f, 8.76f)
+                lineToRelative(-1.93f, 0.54f)
+                curveToRelative(0.24f, 0.87f, 0.37f, 1.78f, 0.37f, 2.7f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, -1.1f, -0.15f, -2.19f, -0.44f, -3.24f)
+                close()
+            }
+        }.also { _CircleDashed = it}

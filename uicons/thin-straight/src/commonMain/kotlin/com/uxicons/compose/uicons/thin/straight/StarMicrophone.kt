@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StarMicrophone: ImageVector? = null
+
+val Icons.Ts.StarMicrophone: ImageVector
+    get() = _StarMicrophone ?: UXIcon(name = "StarMicrophone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.36f, 18.8f)
+                lineToRelative(2.12f, 1.18f)
+                curveToRelative(-0.16f, 0.01f, -0.32f, 0.02f, -0.48f, 0.02f)
+                curveToRelative(-4.41f, 0f, -8f, -3.59f, -8f, -8f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -4.41f, 3.59f, -8f, 8f, -8f)
+                reflectiveCurveToRelative(8f, 3.59f, 8f, 8f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.34f, -0.03f, -0.67f, -0.08f, -1f)
+                horizontalLineToRelative(-4.92f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4.71f)
+                curveToRelative(-0.86f, -2.89f, -3.54f, -5f, -6.71f, -5f)
+                reflectiveCurveToRelative(-5.84f, 2.11f, -6.71f, 5f)
+                horizontalLineToRelative(4.71f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4.92f)
+                curveToRelative(-0.05f, 0.33f, -0.08f, 0.66f, -0.08f, 1f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.34f, 0.04f, 0.67f, 0.09f, 1f)
+                horizontalLineToRelative(4.91f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4.69f)
+                curveToRelative(0.71f, 2.37f, 2.62f, 4.21f, 5.04f, 4.8f)
+                close()
+                moveTo(1f, 13f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, 6.07f, 4.89f, 11f, 10.9f, 11f)
+                horizontalLineToRelative(0.8f)
+                lineToRelative(0.32f, -1f)
+                horizontalLineToRelative(-1.12f)
+                curveToRelative(-5.46f, 0f, -9.9f, -4.49f, -9.9f, -10f)
+                close()
+                moveTo(24f, 17.42f)
+                lineTo(20.7f, 19.33f)
+                lineTo(22.03f, 23.36f)
+                lineTo(21.27f, 23.88f)
+                lineTo(18.01f, 21.36f)
+                lineTo(14.74f, 23.89f)
+                lineTo(14.02f, 23.35f)
+                lineTo(15.32f, 19.27f)
+                lineTo(12f, 17.42f)
+                verticalLineToRelative(-0.92f)
+                horizontalLineToRelative(4.35f)
+                lineToRelative(1.18f, -4.5f)
+                horizontalLineToRelative(0.97f)
+                lineToRelative(1.18f, 4.5f)
+                horizontalLineToRelative(4.33f)
+                verticalLineToRelative(0.92f)
+                close()
+                moveTo(21.86f, 17.5f)
+                horizontalLineToRelative(-2.96f)
+                lineToRelative(-0.89f, -3.4f)
+                lineToRelative(-0.89f, 3.4f)
+                horizontalLineToRelative(-2.93f)
+                lineToRelative(2.33f, 1.3f)
+                lineToRelative(-1.04f, 3.25f)
+                lineToRelative(2.53f, -1.96f)
+                lineToRelative(2.53f, 1.96f)
+                lineToRelative(-1.05f, -3.18f)
+                lineToRelative(2.36f, -1.37f)
+                close()
+            }
+        }.also { _StarMicrophone = it}

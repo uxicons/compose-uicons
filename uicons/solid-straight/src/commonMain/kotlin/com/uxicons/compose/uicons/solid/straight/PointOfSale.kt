@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PointOfSale: ImageVector? = null
+
+val Icons.Ss.PointOfSale: ImageVector
+    get() = _PointOfSale ?: UXIcon(name = "PointOfSale") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(6f, 0f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(21f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2f)
+                lineTo(23f, 4f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(9f, 20f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(9f, 16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(9f, 12f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13f, 20f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13f, 16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13f, 12f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 20f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 12f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 8f)
+                lineTo(7f, 8f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _PointOfSale = it}

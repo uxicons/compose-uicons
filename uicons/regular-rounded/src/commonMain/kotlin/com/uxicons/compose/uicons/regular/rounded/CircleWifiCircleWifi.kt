@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleWifiCircleWifi: ImageVector? = null
+
+val Icons.Rr.CircleWifiCircleWifi: ImageVector
+    get() = _CircleWifiCircleWifi ?: UXIcon(name = "CircleWifiCircleWifi") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12f, 14.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(7.37f, 10.6f)
+                curveToRelative(-0.43f, 0.35f, -0.5f, 0.97f, -0.15f, 1.41f)
+                curveToRelative(0.34f, 0.43f, 0.98f, 0.5f, 1.41f, 0.15f)
+                curveToRelative(1.09f, -0.87f, 2.66f, -0.87f, 3.75f, 0f)
+                curveToRelative(0.18f, 0.15f, 0.41f, 0.22f, 0.62f, 0.22f)
+                curveToRelative(0.29f, 0f, 0.58f, -0.13f, 0.78f, -0.37f)
+                curveToRelative(0.35f, -0.43f, 0.28f, -1.06f, -0.15f, -1.41f)
+                curveToRelative(-1.81f, -1.45f, -4.44f, -1.46f, -6.25f, 0f)
+                close()
+                moveTo(15.6f, 10.0f)
+                curveToRelative(0.27f, 0f, 0.54f, -0.11f, 0.73f, -0.32f)
+                curveToRelative(0.38f, -0.41f, 0.35f, -1.04f, -0.05f, -1.41f)
+                curveToRelative(-3.24f, -3.01f, -8.32f, -3.01f, -11.56f, 0f)
+                curveToRelative(-0.41f, 0.38f, -0.43f, 1.01f, -0.05f, 1.41f)
+                curveToRelative(0.38f, 0.41f, 1.01f, 0.43f, 1.41f, 0.05f)
+                curveToRelative(2.48f, -2.3f, 6.36f, -2.3f, 8.84f, 0f)
+                curveToRelative(0.19f, 0.18f, 0.44f, 0.27f, 0.68f, 0.27f)
+                close()
+                moveTo(9.16f, 18.89f)
+                curveToRelative(-4.15f, -0.66f, -7.16f, -4.19f, -7.16f, -8.39f)
+                curveTo(2f, 5.81f, 5.81f, 2f, 10.5f, 2f)
+                curveToRelative(4.21f, 0f, 7.74f, 3.01f, 8.39f, 7.16f)
+                curveToRelative(0.09f, 0.55f, 0.59f, 0.92f, 1.15f, 0.83f)
+                curveToRelative(0.55f, -0.09f, 0.92f, -0.6f, 0.83f, -1.15f)
+                curveTo(20.06f, 3.72f, 15.7f, 0f, 10.5f, 0f)
+                curveTo(4.71f, 0f, 0f, 4.71f, 0f, 10.5f)
+                curveToRelative(0f, 5.2f, 3.72f, 9.56f, 8.84f, 10.37f)
+                curveToRelative(0.05f, 0.01f, 0.11f, 0.01f, 0.16f, 0.01f)
+                curveToRelative(0.48f, 0f, 0.91f, -0.35f, 0.99f, -0.84f)
+                curveToRelative(0.09f, -0.55f, -0.29f, -1.06f, -0.83f, -1.15f)
+                close()
+                moveTo(24f, 18.0f)
+                curveToRelative(0f, 3.31f, -2.69f, 6f, -6f, 6f)
+                reflectiveCurveToRelative(-6f, -2.69f, -6f, -6f)
+                reflectiveCurveToRelative(2.69f, -6f, 6f, -6f)
+                reflectiveCurveToRelative(6f, 2.69f, 6f, 6f)
+                close()
+                moveTo(19.25f, 20.75f)
+                curveToRelative(0f, -0.69f, -0.56f, -1.25f, -1.25f, -1.25f)
+                reflectiveCurveToRelative(-1.25f, 0.56f, -1.25f, 1.25f)
+                reflectiveCurveToRelative(0.56f, 1.25f, 1.25f, 1.25f)
+                reflectiveCurveToRelative(1.25f, -0.56f, 1.25f, -1.25f)
+                close()
+                moveTo(20.07f, 17.57f)
+                curveToRelative(-1.27f, -0.77f, -2.87f, -0.77f, -4.14f, 0f)
+                curveToRelative(-0.43f, 0.26f, -0.49f, 0.86f, -0.14f, 1.22f)
+                lineToRelative(0.03f, 0.03f)
+                curveToRelative(0.26f, 0.25f, 0.65f, 0.29f, 0.96f, 0.11f)
+                curveToRelative(0.75f, -0.44f, 1.69f, -0.44f, 2.44f, 0f)
+                curveToRelative(0.31f, 0.18f, 0.7f, 0.14f, 0.96f, -0.11f)
+                lineToRelative(0.03f, -0.03f)
+                curveToRelative(0.36f, -0.36f, 0.29f, -0.96f, -0.14f, -1.22f)
+                close()
+                moveTo(21.92f, 15.81f)
+                curveToRelative(-1.12f, -0.85f, -2.48f, -1.31f, -3.92f, -1.31f)
+                reflectiveCurveToRelative(-2.79f, 0.46f, -3.92f, 1.31f)
+                curveToRelative(-0.38f, 0.29f, -0.43f, 0.85f, -0.09f, 1.19f)
+                lineToRelative(0.02f, 0.02f)
+                curveToRelative(0.28f, 0.28f, 0.71f, 0.31f, 1.02f, 0.07f)
+                curveToRelative(0.85f, -0.64f, 1.88f, -0.99f, 2.96f, -0.99f)
+                reflectiveCurveToRelative(2.11f, 0.35f, 2.96f, 0.99f)
+                curveToRelative(0.31f, 0.24f, 0.75f, 0.2f, 1.02f, -0.07f)
+                lineToRelative(0.02f, -0.02f)
+                curveToRelative(0.34f, -0.34f, 0.3f, -0.9f, -0.09f, -1.19f)
+                close()
+            }
+        }.also { _CircleWifiCircleWifi = it}

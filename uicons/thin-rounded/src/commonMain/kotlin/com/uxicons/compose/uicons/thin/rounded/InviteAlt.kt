@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _InviteAlt: ImageVector? = null
+
+val Icons.Tr.InviteAlt: ImageVector
+    get() = _InviteAlt ?: UXIcon(name = "InviteAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.5f, 2f)
+                horizontalLineToRelative(-1.5f)
+                lineTo(18f, 0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                lineTo(7f, 2f)
+                lineTo(7f, 0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1.5f)
+                curveTo(2.02f, 2f, 0f, 4.02f, 0f, 6.5f)
+                verticalLineToRelative(13f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-10.5f)
+                horizontalLineToRelative(22f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(23f, 8f)
+                lineTo(1f, 8f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(18f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(18f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(18f, 12f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(20f, 22.58f)
+                curveToRelative(-0.61f, 0.27f, -1.29f, 0.42f, -2f, 0.42f)
+                reflectiveCurveToRelative(-1.39f, -0.15f, -2f, -0.42f)
+                verticalLineToRelative(-0.58f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(0.58f)
+                close()
+                moveTo(21f, 22.0f)
+                curveToRelative(-0.0f, -1.65f, -1.35f, -3.0f, -3f, -3.0f)
+                reflectiveCurveToRelative(-3.0f, 1.34f, -3f, 3.0f)
+                curveToRelative(-1.21f, -0.91f, -2f, -2.37f, -2f, -4.0f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                curveToRelative(0f, 1.63f, -0.79f, 3.08f, -2f, 4.0f)
+                close()
+            }
+        }.also { _InviteAlt = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _QrcodeBox: ImageVector? = null
+
+val Icons.Rs.QrcodeBox: ImageVector
+    get() = _QrcodeBox ?: UXIcon(name = "QrcodeBox") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 22f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(22f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(19f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(13f, 13f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(13f, 19f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 22f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(19f, 13f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(21f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(24f, 3f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-18f)
+                verticalLineToRelative(13f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(-15f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(2f, 7f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-18f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                close()
+            }
+        }.also { _QrcodeBox = it}

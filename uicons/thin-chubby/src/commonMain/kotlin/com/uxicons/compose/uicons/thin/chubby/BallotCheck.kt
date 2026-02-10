@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BallotCheck: ImageVector? = null
+
+val Icons.Tc.BallotCheck: ImageVector
+    get() = _BallotCheck ?: UXIcon(name = "BallotCheck") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.93f, 2.43f)
+                curveToRelative(-0.04f, -0.18f, -0.18f, -0.32f, -0.36f, -0.36f)
+                curveToRelative(-0.17f, -0.04f, -4.33f, -1.06f, -8.56f, -1.06f)
+                reflectiveCurveToRelative(-8.39f, 1.02f, -8.56f, 1.06f)
+                curveToRelative(-0.18f, 0.04f, -0.32f, 0.18f, -0.36f, 0.36f)
+                curveToRelative(-0.04f, 0.17f, -1.07f, 4.32f, -1.07f, 9.57f)
+                reflectiveCurveToRelative(1.03f, 9.4f, 1.07f, 9.57f)
+                curveToRelative(0.04f, 0.18f, 0.18f, 0.32f, 0.36f, 0.36f)
+                curveToRelative(0.17f, 0.04f, 4.33f, 1.06f, 8.56f, 1.06f)
+                reflectiveCurveToRelative(8.39f, -1.02f, 8.56f, -1.06f)
+                curveToRelative(0.18f, -0.04f, 0.32f, -0.18f, 0.36f, -0.36f)
+                curveToRelative(0.04f, -0.17f, 1.07f, -4.32f, 1.07f, -9.57f)
+                reflectiveCurveToRelative(-1.03f, -9.4f, -1.07f, -9.57f)
+                close()
+                moveTo(20.03f, 21.03f)
+                curveToRelative(-1.02f, 0.23f, -4.55f, 0.97f, -8.03f, 0.97f)
+                reflectiveCurveToRelative(-7.0f, -0.73f, -8.03f, -0.97f)
+                curveToRelative(-0.23f, -1.04f, -0.97f, -4.69f, -0.97f, -9.03f)
+                reflectiveCurveToRelative(0.74f, -8.0f, 0.97f, -9.03f)
+                curveToRelative(1.02f, -0.23f, 4.55f, -0.97f, 8.03f, -0.97f)
+                reflectiveCurveToRelative(7.0f, 0.73f, 8.03f, 0.97f)
+                curveToRelative(0.23f, 1.04f, 0.97f, 4.69f, 0.97f, 9.03f)
+                reflectiveCurveToRelative(-0.74f, 8.0f, -0.97f, 9.03f)
+                close()
+                moveTo(18f, 6.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(6.75f, 6.5f)
+                curveToRelative(0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f)
+                reflectiveCurveToRelative(0.75f, 0.34f, 0.75f, 0.75f)
+                reflectiveCurveToRelative(-0.34f, 0.75f, -0.75f, 0.75f)
+                reflectiveCurveToRelative(-0.75f, -0.34f, -0.75f, -0.75f)
+                close()
+                moveTo(18f, 17.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(8.25f, 17.5f)
+                curveToRelative(0f, 0.41f, -0.34f, 0.75f, -0.75f, 0.75f)
+                reflectiveCurveToRelative(-0.75f, -0.34f, -0.75f, -0.75f)
+                reflectiveCurveToRelative(0.34f, -0.75f, 0.75f, -0.75f)
+                reflectiveCurveToRelative(0.75f, 0.34f, 0.75f, 0.75f)
+                close()
+                moveTo(11.42f, 10.82f)
+                curveToRelative(-0.96f, 1.15f, -2.05f, 2.18f, -3.25f, 3.08f)
+                curveToRelative(-0.18f, 0.13f, -0.42f, 0.13f, -0.6f, 0f)
+                curveToRelative(-0.69f, -0.51f, -1.34f, -1.08f, -1.95f, -1.67f)
+                curveToRelative(-0.2f, -0.19f, -0.2f, -0.51f, -0.01f, -0.71f)
+                curveToRelative(0.19f, -0.2f, 0.51f, -0.2f, 0.71f, -0.01f)
+                curveToRelative(0.49f, 0.48f, 1.01f, 0.94f, 1.55f, 1.36f)
+                curveToRelative(1.02f, -0.8f, 1.95f, -1.7f, 2.78f, -2.69f)
+                curveToRelative(0.18f, -0.21f, 0.49f, -0.24f, 0.7f, -0.06f)
+                curveToRelative(0.21f, 0.18f, 0.24f, 0.49f, 0.06f, 0.7f)
+                close()
+                moveTo(18f, 12f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _BallotCheck = it}

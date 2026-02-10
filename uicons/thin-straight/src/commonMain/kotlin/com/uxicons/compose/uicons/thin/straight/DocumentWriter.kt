@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DocumentWriter: ImageVector? = null
+
+val Icons.Ts.DocumentWriter: ImageVector
+    get() = _DocumentWriter ?: UXIcon(name = "DocumentWriter") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(13.39f, 13.04f)
+                horizontalLineToRelative(-5.39f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(6.46f)
+                curveToRelative(-0.37f, 0.31f, -0.73f, 0.64f, -1.08f, 1f)
+                close()
+                moveTo(8f, 16.04f)
+                horizontalLineToRelative(3.21f)
+                curveToRelative(0.2f, -0.35f, 0.41f, -0.67f, 0.62f, -1f)
+                horizontalLineToRelative(-3.83f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(5.22f, 23f)
+                horizontalLineToRelative(3.78f)
+                verticalLineToRelative(1f)
+                lineTo(3f, 24f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-3f)
+                lineTo(5f, 18f)
+                lineTo(5f, 3f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(13f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(3.33f)
+                curveToRelative(-0.33f, 0.08f, -0.66f, 0.16f, -1f, 0.27f)
+                verticalLineToRelative(-3.6f)
+                lineTo(10f, 6f)
+                lineTo(10f, 3f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                lineTo(6f, 21f)
+                curveToRelative(0f, 0.77f, -0.3f, 1.47f, -0.78f, 2f)
+                close()
+                moveTo(10.23f, 1f)
+                curveToRelative(0.48f, 0.53f, 0.77f, 1.23f, 0.77f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(12f)
+                lineTo(23f, 3f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                lineTo(10.23f, 1f)
+                close()
+                moveTo(3f, 23f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-2f)
+                lineTo(1f, 19f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(24.02f, 10.93f)
+                curveToRelative(-0.69f, 2.54f, -1.16f, 5.8f, -4.25f, 8.43f)
+                curveToRelative(-2.23f, 1.79f, -4.58f, 2.6f, -7.59f, 2.63f)
+                curveToRelative(-0.12f, 0.68f, -0.18f, 1.35f, -0.18f, 2.0f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, -3.83f, 2.02f, -8.24f, 4.81f, -10.49f)
+                curveToRelative(2.97f, -2.33f, 5.75f, -2.6f, 8.21f, -2.58f)
+                close()
+                moveTo(22.74f, 11.95f)
+                curveToRelative(-1.79f, 0.09f, -4.16f, 0.61f, -6.3f, 2.34f)
+                curveToRelative(-1.63f, 1.32f, -2.98f, 3.44f, -3.75f, 5.73f)
+                curveToRelative(1.27f, -1.39f, 4.04f, -4.13f, 7.81f, -6.01f)
+                curveToRelative(-2.43f, 1.82f, -6.07f, 5.69f, -7.24f, 6.95f)
+                curveToRelative(2.28f, -0.19f, 4.09f, -0.93f, 5.89f, -2.36f)
+                curveToRelative(2.3f, -1.84f, 3.14f, -4.84f, 3.59f, -6.63f)
+                close()
+                moveTo(17.0f, 9.0f)
+                lineTo(8f, 9.0f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(-1f)
+                close()
+            }
+        }.also { _DocumentWriter = it}

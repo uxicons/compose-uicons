@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Dumpster: ImageVector? = null
+
+val Icons.Ts.Dumpster: ImageVector
+    get() = _Dumpster ?: UXIcon(name = "Dumpster") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                verticalLineToRelative(5f)
+                lineToRelative(1.04f, 12.5f)
+                horizontalLineToRelative(1.96f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(1.96f)
+                lineToRelative(1.04f, -12.5f)
+                lineTo(24f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 2.5f)
+                lineToRelative(0.0f, 4.5f)
+                horizontalLineToRelative(-3.0f)
+                lineTo(20f, 1f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(5f, 7f)
+                lineTo(5f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(10f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-4f)
+                lineTo(10f, 1f)
+                close()
+                moveTo(15f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-4f)
+                lineTo(15f, 1f)
+                close()
+                moveTo(2.5f, 1f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(6f)
+                lineTo(1f, 7f)
+                lineTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(8f, 21f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(20f, 21f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(1.96f, 19f)
+                lineToRelative(-0.92f, -11f)
+                horizontalLineToRelative(21.91f)
+                lineToRelative(-0.92f, 11f)
+                lineTo(1.96f, 19f)
+                close()
+            }
+        }.also { _Dumpster = it}

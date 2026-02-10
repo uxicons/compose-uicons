@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HotTub: ImageVector? = null
+
+val Icons.Bs.HotTub: ImageVector
+    get() = _HotTub ?: UXIcon(name = "HotTub") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11.83f, 8.44f)
+                curveToRelative(-0.66f, -0.9f, -1.71f, -1.44f, -2.83f, -1.44f)
+                horizontalLineToRelative(-2.99f)
+                curveToRelative(-0.84f, -0.01f, -1.56f, 0.3f, -2.13f, 0.87f)
+                curveToRelative(-0.57f, 0.57f, -0.88f, 1.32f, -0.88f, 2.13f)
+                lineToRelative(0.0f, 2.0f)
+                lineTo(0f, 12.0f)
+                verticalLineToRelative(8.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                lineTo(20.5f, 24.0f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                lineTo(24f, 12f)
+                lineTo(14.42f, 12f)
+                lineToRelative(-2.59f, -3.56f)
+                close()
+                moveTo(14f, 15f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(6f, 10f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.16f, 0.0f, 0.31f, 0.08f, 0.4f, 0.21f)
+                lineToRelative(1.3f, 1.79f)
+                lineTo(6f, 12f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(3f, 20.5f)
+                verticalLineToRelative(-5.5f)
+                lineTo(7f, 15f)
+                verticalLineToRelative(6f)
+                lineTo(3.5f, 21f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+                moveTo(21f, 20.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(5.5f)
+                close()
+                moveTo(5f, 2.5f)
+                curveTo(5f, 1.12f, 6.12f, 0f, 7.5f, 0f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(15.44f, 5.06f)
+                curveToRelative(-0.93f, -0.93f, -1.44f, -2.16f, -1.44f, -3.48f)
+                lineTo(14f, 0f)
+                horizontalLineToRelative(3f)
+                lineTo(17f, 1.59f)
+                curveToRelative(0f, 0.5f, 0.2f, 1.0f, 0.56f, 1.35f)
+                curveToRelative(0.93f, 0.93f, 1.44f, 2.16f, 1.44f, 3.48f)
+                verticalLineToRelative(1.58f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.58f)
+                curveToRelative(0f, -0.51f, -0.2f, -0.99f, -0.56f, -1.35f)
+                close()
+                moveTo(24f, 5.41f)
+                verticalLineToRelative(1.58f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.58f)
+                curveToRelative(0f, -0.51f, -0.2f, -0.99f, -0.56f, -1.35f)
+                curveToRelative(-0.93f, -0.93f, -1.44f, -2.16f, -1.44f, -3.48f)
+                lineTo(19f, 0f)
+                horizontalLineToRelative(3f)
+                lineTo(22f, 0.59f)
+                curveToRelative(0f, 0.5f, 0.2f, 1.0f, 0.56f, 1.35f)
+                curveToRelative(0.93f, 0.93f, 1.44f, 2.16f, 1.44f, 3.48f)
+                close()
+            }
+        }.also { _HotTub = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FloppyDisks: ImageVector? = null
+
+val Icons.Tc.FloppyDisks: ImageVector
+    get() = _FloppyDisks ?: UXIcon(name = "FloppyDisks") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13.5f, 9f)
+                curveToRelative(-2.42f, 0f, -3.5f, 1.08f, -3.5f, 3.5f)
+                reflectiveCurveToRelative(1.08f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.08f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(-1.08f, -3.5f, -3.5f, -3.5f)
+                close()
+                moveTo(13.5f, 15f)
+                curveToRelative(-1.87f, 0f, -2.5f, -0.63f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(0.63f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 0.63f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-0.63f, 2.5f, -2.5f, 2.5f)
+                close()
+                moveTo(22.64f, 5.58f)
+                curveToRelative(-0.01f, -0.11f, -0.06f, -0.21f, -0.14f, -0.29f)
+                lineToRelative(-3.79f, -3.79f)
+                curveToRelative(-0.08f, -0.08f, -0.18f, -0.13f, -0.29f, -0.14f)
+                curveToRelative(-1.8f, -0.24f, -3.46f, -0.36f, -4.92f, -0.36f)
+                curveToRelative(-4.01f, 0f, -8.04f, 0.88f, -8.21f, 0.91f)
+                curveToRelative(-0.19f, 0.04f, -0.34f, 0.19f, -0.38f, 0.38f)
+                curveToRelative(-0.04f, 0.17f, -0.91f, 4.2f, -0.91f, 8.21f)
+                reflectiveCurveToRelative(0.88f, 8.04f, 0.91f, 8.21f)
+                curveToRelative(0.04f, 0.19f, 0.19f, 0.34f, 0.38f, 0.38f)
+                curveToRelative(0.17f, 0.04f, 4.2f, 0.91f, 8.21f, 0.91f)
+                reflectiveCurveToRelative(8.04f, -0.88f, 8.21f, -0.91f)
+                curveToRelative(0.19f, -0.04f, 0.34f, -0.19f, 0.38f, -0.38f)
+                curveToRelative(0.04f, -0.17f, 0.91f, -4.2f, 0.91f, -8.21f)
+                curveToRelative(0f, -1.47f, -0.12f, -3.12f, -0.36f, -4.92f)
+                close()
+                moveTo(17.46f, 2.25f)
+                curveToRelative(-0.07f, 0.99f, -0.24f, 1.92f, -0.34f, 2.39f)
+                curveToRelative(-0.7f, 0.11f, -2.44f, 0.35f, -4.12f, 0.35f)
+                reflectiveCurveToRelative(-3.42f, -0.24f, -4.12f, -0.35f)
+                curveToRelative(-0.1f, -0.45f, -0.26f, -1.32f, -0.34f, -2.27f)
+                curveToRelative(1.44f, -0.2f, 3.21f, -0.37f, 4.96f, -0.37f)
+                curveToRelative(1.19f, 0f, 2.53f, 0.09f, 3.96f, 0.26f)
+                close()
+                moveTo(21.18f, 18.18f)
+                curveToRelative(-1.03f, 0.2f, -4.41f, 0.82f, -7.68f, 0.82f)
+                reflectiveCurveToRelative(-6.65f, -0.62f, -7.68f, -0.82f)
+                curveToRelative(-0.2f, -1.03f, -0.82f, -4.41f, -0.82f, -7.68f)
+                reflectiveCurveToRelative(0.62f, -6.65f, 0.82f, -7.68f)
+                curveToRelative(0.34f, -0.07f, 0.96f, -0.18f, 1.73f, -0.3f)
+                curveToRelative(0.12f, 1.42f, 0.42f, 2.63f, 0.43f, 2.69f)
+                curveToRelative(0.05f, 0.19f, 0.2f, 0.33f, 0.4f, 0.37f)
+                curveToRelative(0.1f, 0.02f, 2.37f, 0.42f, 4.62f, 0.42f)
+                reflectiveCurveToRelative(4.53f, -0.41f, 4.62f, -0.42f)
+                curveToRelative(0.19f, -0.04f, 0.35f, -0.18f, 0.4f, -0.37f)
+                curveToRelative(0.01f, -0.06f, 0.3f, -1.19f, 0.42f, -2.56f)
+                lineToRelative(3.23f, 3.23f)
+                curveToRelative(0.22f, 1.69f, 0.33f, 3.25f, 0.33f, 4.62f)
+                curveToRelative(0f, 3.27f, -0.62f, 6.65f, -0.82f, 7.68f)
+                close()
+                moveTo(18.0f, 22.22f)
+                curveToRelative(0.03f, 0.27f, -0.17f, 0.52f, -0.44f, 0.55f)
+                curveToRelative(-1.44f, 0.15f, -2.81f, 0.23f, -4.05f, 0.23f)
+                curveToRelative(-4.33f, 0f, -8.67f, -0.94f, -8.85f, -0.98f)
+                lineToRelative(-1.88f, -0.41f)
+                curveToRelative(-0.19f, -0.04f, -0.34f, -0.19f, -0.38f, -0.38f)
+                lineToRelative(-0.41f, -1.88f)
+                curveToRelative(-0.04f, -0.18f, -0.98f, -4.52f, -0.98f, -8.85f)
+                curveToRelative(0f, -1.25f, 0.08f, -2.61f, 0.23f, -4.05f)
+                curveToRelative(0.03f, -0.28f, 0.27f, -0.47f, 0.55f, -0.44f)
+                curveToRelative(0.28f, 0.03f, 0.47f, 0.28f, 0.44f, 0.55f)
+                curveToRelative(-0.15f, 1.41f, -0.23f, 2.74f, -0.23f, 3.95f)
+                curveToRelative(0f, 4.22f, 0.92f, 8.46f, 0.96f, 8.64f)
+                lineToRelative(0.34f, 1.56f)
+                lineToRelative(1.56f, 0.34f)
+                curveToRelative(0.18f, 0.04f, 4.41f, 0.96f, 8.64f, 0.96f)
+                curveToRelative(1.21f, 0f, 2.54f, -0.08f, 3.95f, -0.23f)
+                curveToRelative(0.27f, -0.03f, 0.52f, 0.17f, 0.55f, 0.44f)
+                close()
+            }
+        }.also { _FloppyDisks = it}

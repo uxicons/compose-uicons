@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Germany: ImageVector? = null
+
+val Icons.Bs.Germany: ImageVector
+    get() = _Germany ?: UXIcon(name = "Germany") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.61f, 24f)
+                horizontalLineToRelative(-1.13f)
+                lineToRelative(-2.29f, -1f)
+                horizontalLineToRelative(-3.31f)
+                lineToRelative(-0.85f, -2.93f)
+                lineToRelative(0.52f, -1.49f)
+                lineToRelative(-1.07f, -0.25f)
+                lineToRelative(-0.33f, -0.52f)
+                curveToRelative(-0.38f, -0.6f, -1.32f, -2.33f, -1.42f, -2.52f)
+                lineToRelative(-0.44f, -0.81f)
+                lineToRelative(0.74f, -1.07f)
+                lineToRelative(-0.36f, -0.66f)
+                lineToRelative(0.45f, -4.45f)
+                lineToRelative(1.36f, -0.32f)
+                lineToRelative(0.73f, -4.96f)
+                horizontalLineToRelative(2.68f)
+                lineToRelative(0.46f, -0.46f)
+                lineToRelative(0.35f, -2.54f)
+                horizontalLineToRelative(1.78f)
+                lineToRelative(1.5f, 1f)
+                horizontalLineToRelative(2.03f)
+                verticalLineToRelative(0.93f)
+                lineToRelative(2.58f, -0.81f)
+                lineToRelative(3.92f, 3.16f)
+                verticalLineToRelative(2.26f)
+                lineToRelative(1.21f, 1.81f)
+                lineToRelative(-0.82f, 1.85f)
+                lineToRelative(1.04f, 2.8f)
+                horizontalLineToRelative(-2.68f)
+                lineToRelative(-1.5f, 2f)
+                horizontalLineToRelative(-0.64f)
+                lineToRelative(2.88f, 2.86f)
+                lineToRelative(-1.97f, 2.49f)
+                lineToRelative(-0.03f, 2.65f)
+                horizontalLineToRelative(-2.29f)
+                lineToRelative(-1.88f, 0.5f)
+                lineToRelative(-0.61f, -0.1f)
+                curveToRelative(-0.07f, 0.09f, -0.6f, 0.6f, -0.6f, 0.6f)
+                close()
+                moveTo(8.22f, 20f)
+                horizontalLineToRelative(1.59f)
+                lineToRelative(1.55f, 0.67f)
+                lineToRelative(0.31f, -0.56f)
+                lineToRelative(2.0f, 0.32f)
+                lineToRelative(1.35f, -0.36f)
+                lineToRelative(0.01f, -0.79f)
+                lineToRelative(0.93f, -1.18f)
+                lineToRelative(-1.06f, -1.06f)
+                lineToRelative(-1.9f, -2.56f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(3.25f)
+                lineToRelative(2.04f, -3.35f)
+                lineToRelative(-0.8f, -1.19f)
+                verticalLineToRelative(-1.74f)
+                lineToRelative(-1.55f, -1.25f)
+                lineToRelative(-1.72f, 0.54f)
+                horizontalLineToRelative(-3.23f)
+                verticalLineToRelative(-0.87f)
+                lineToRelative(-1.88f, 1.87f)
+                horizontalLineToRelative(-1.32f)
+                lineToRelative(-0.65f, 4.42f)
+                lineToRelative(-1.26f, 0.29f)
+                lineToRelative(-0.14f, 1.41f)
+                lineToRelative(0.79f, 1.47f)
+                lineToRelative(-0.73f, 1.06f)
+                curveToRelative(0.19f, 0.35f, 0.4f, 0.73f, 0.58f, 1.04f)
+                lineToRelative(3.08f, 0.73f)
+                lineToRelative(-1.24f, 3.58f)
+                close()
+            }
+        }.also { _Germany = it}

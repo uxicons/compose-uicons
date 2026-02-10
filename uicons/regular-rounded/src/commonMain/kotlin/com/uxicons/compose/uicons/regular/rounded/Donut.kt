@@ -1,0 +1,66 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Donut: ImageVector? = null
+
+val Icons.Rr.Donut: ImageVector
+    get() = _Donut ?: UXIcon(name = "Donut") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveTo(5.4f, 0f, 0.03f, 5.36f, 0.0f, 11.95f)
+                curveToRelative(0f, 0.01f, -0.0f, 0.01f, -0.0f, 0.01f)
+                curveToRelative(0f, 0.0f, 0.0f, 0.01f, 0.0f, 0.01f)
+                curveToRelative(0f, 0.01f, -0.0f, 0.02f, -0.0f, 0.03f)
+                curveToRelative(0f, 6.62f, 5.38f, 12f, 12f, 12f)
+                curveToRelative(2.11f, 0f, 4.18f, -0.56f, 6f, -1.61f)
+                curveToRelative(0.48f, -0.28f, 0.64f, -0.89f, 0.36f, -1.37f)
+                curveToRelative(-0.28f, -0.48f, -0.89f, -0.64f, -1.37f, -0.36f)
+                curveToRelative(-1.51f, 0.87f, -3.24f, 1.34f, -5f, 1.34f)
+                curveToRelative(-5.16f, 0f, -9.41f, -3.92f, -9.94f, -8.94f)
+                curveToRelative(0.22f, 0.07f, 0.43f, 0.17f, 0.62f, 0.32f)
+                curveToRelative(0.51f, 0.4f, 1.16f, 0.61f, 1.82f, 0.61f)
+                reflectiveCurveToRelative(1.31f, -0.22f, 1.82f, -0.61f)
+                curveToRelative(0.23f, -0.18f, 0.51f, -0.28f, 0.79f, -0.35f)
+                curveToRelative(0.48f, 2.26f, 2.49f, 3.96f, 4.89f, 3.96f)
+                curveToRelative(2.41f, 0f, 4.43f, -1.72f, 4.9f, -4f)
+                horizontalLineToRelative(0.1f)
+                curveToRelative(0.54f, 0f, 0.98f, 0.44f, 1f, 1.0f)
+                verticalLineToRelative(4.0f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-4.0f)
+                curveToRelative(0.02f, -0.56f, 0.46f, -1.0f, 1f, -1.0f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-9f)
+                curveTo(24f, 5.38f, 18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(12f, 15f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                reflectiveCurveToRelative(1.35f, -3f, 3f, -3f)
+                reflectiveCurveToRelative(3f, 1.35f, 3f, 3f)
+                reflectiveCurveToRelative(-1.35f, 3f, -3f, 3f)
+                close()
+                moveTo(21f, 11f)
+                curveToRelative(-0.77f, 0f, -1.47f, 0.3f, -2.0f, 0.78f)
+                curveToRelative(-0.53f, -0.48f, -1.23f, -0.78f, -2.0f, -0.78f)
+                horizontalLineToRelative(-0.1f)
+                curveToRelative(-0.47f, -2.28f, -2.48f, -4f, -4.9f, -4f)
+                reflectiveCurveToRelative(-4.43f, 1.72f, -4.9f, 4.0f)
+                curveToRelative(-0.73f, 0.08f, -1.42f, 0.35f, -2.01f, 0.81f)
+                curveToRelative(-0.32f, 0.25f, -0.86f, 0.25f, -1.19f, 0f)
+                curveToRelative(-0.55f, -0.42f, -1.18f, -0.69f, -1.86f, -0.79f)
+                curveTo(2.55f, 5.96f, 6.82f, 2f, 12f, 2f)
+                curveToRelative(5.23f, 0f, 9.53f, 4.04f, 9.96f, 9.17f)
+                curveToRelative(-0.3f, -0.1f, -0.62f, -0.17f, -0.96f, -0.17f)
+                close()
+            }
+        }.also { _Donut = it}

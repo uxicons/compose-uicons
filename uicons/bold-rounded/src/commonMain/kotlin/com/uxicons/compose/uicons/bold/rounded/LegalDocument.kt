@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LegalDocument: ImageVector? = null
+
+val Icons.Br.LegalDocument: ImageVector
+    get() = _LegalDocument ?: UXIcon(name = "LegalDocument") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(24f, 18.66f)
+            verticalLineToRelative(0.34f)
+            reflectiveCurveToRelative(0f, 2f, -2f, 2f)
+            reflectiveCurveToRelative(-2f, -2.11f, -2f, -2.11f)
+            verticalLineToRelative(-0.23f)
+            lineToRelative(0.84f, -2.66f)
+            horizontalLineToRelative(-1.84f)
+            verticalLineToRelative(6f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-6f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(2f)
+            verticalLineToRelative(-6f)
+            horizontalLineToRelative(-1.84f)
+            lineToRelative(0.84f, 2.66f)
+            verticalLineToRelative(0.34f)
+            reflectiveCurveToRelative(0f, 2f, -2f, 2f)
+            reflectiveCurveToRelative(-2f, -2f, -2f, -2f)
+            verticalLineToRelative(-0.34f)
+            lineToRelative(1.05f, -3.28f)
+            curveToRelative(0.27f, -0.83f, 1.03f, -1.39f, 1.9f, -1.39f)
+            horizontalLineToRelative(2.04f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            horizontalLineToRelative(2.04f)
+            curveToRelative(0.87f, 0f, 1.64f, 0.56f, 1.9f, 1.39f)
+            lineToRelative(1.05f, 3.28f)
+            close()
+            moveTo(17f, 9f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(-0.1f, -1.19f, -0.71f, -2.32f, -1.61f, -3.23f)
+            lineToRelative(-2.66f, -2.66f)
+            curveToRelative(-1.04f, -1.04f, -2.42f, -1.61f, -3.89f, -1.61f)
+            horizontalLineToRelative(-6.34f)
+            curveToRelative(-3.03f, 0f, -5.5f, 2.47f, -5.5f, 5.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(4f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-4f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            verticalLineToRelative(-13f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            horizontalLineToRelative(5.5f)
+            verticalLineToRelative(4f)
+            curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+            close()
+            moveTo(9.5f, 15f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(9.5f, 10f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+        }
+    }.also { _LegalDocument = it }

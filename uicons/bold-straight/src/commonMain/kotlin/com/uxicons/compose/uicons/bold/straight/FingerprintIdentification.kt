@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FingerprintIdentification: ImageVector? = null
+
+val Icons.Bs.FingerprintIdentification: ImageVector
+    get() = _FingerprintIdentification ?: UXIcon(name = "FingerprintIdentification") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13f, 16f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0f, 2.24f, -0.77f, 4.37f, -2.16f, 5.98f)
+                lineToRelative(-2.27f, -1.96f)
+                curveToRelative(0.92f, -1.07f, 1.43f, -2.5f, 1.43f, -4.02f)
+                close()
+                moveTo(7.62f, 16.86f)
+                curveToRelative(-0.14f, 0.09f, -0.38f, 0.14f, -0.62f, 0.14f)
+                verticalLineToRelative(3f)
+                curveToRelative(0.46f, 0f, 1.34f, -0.07f, 2.17f, -0.57f)
+                curveToRelative(1.22f, -0.73f, 1.83f, -1.89f, 1.83f, -3.43f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(0f, 0.6f, -0.14f, 0.72f, -0.38f, 0.86f)
+                close()
+                moveTo(18.7f, 7f)
+                lineTo(16.47f, 9.0f)
+                curveToRelative(0.53f, 0.59f, 0.92f, 1.27f, 1.18f, 2f)
+                horizontalLineToRelative(-1.91f)
+                curveToRelative(-0.81f, -1.21f, -2.18f, -2f, -3.74f, -2f)
+                reflectiveCurveToRelative(-2.93f, 0.8f, -3.74f, 2f)
+                horizontalLineToRelative(-1.91f)
+                curveToRelative(0.83f, -2.33f, 3.04f, -4f, 5.65f, -4f)
+                curveToRelative(1.14f, 0f, 2.24f, 0.32f, 3.2f, 0.93f)
+                lineToRelative(1.6f, -2.53f)
+                curveToRelative(-1.44f, -0.91f, -3.1f, -1.39f, -4.8f, -1.39f)
+                curveToRelative(-4.27f, 0f, -7.86f, 3.0f, -8.77f, 7f)
+                horizontalLineToRelative(-3.23f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3.23f)
+                curveToRelative(-0.34f, -1.48f, -1.03f, -2.85f, -2.06f, -4f)
+                close()
+                moveTo(3f, 20.5f)
+                verticalLineToRelative(-3.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+                moveTo(21f, 20.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3.5f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-3.5f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(20.5f, 0f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                close()
+                moveTo(3f, 3.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3.5f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(3f)
+                close()
+            }
+        }.also { _FingerprintIdentification = it}

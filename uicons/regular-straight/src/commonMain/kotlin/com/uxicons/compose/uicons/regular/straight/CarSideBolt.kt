@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CarSideBolt: ImageVector? = null
+
+val Icons.Rs.CarSideBolt: ImageVector
+    get() = _CarSideBolt ?: UXIcon(name = "CarSideBolt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 13f)
+                curveToRelative(0f, -1.63f, -1.34f, -3f, -2.92f, -3f)
+                horizontalLineToRelative(-0.56f)
+                lineTo(15.84f, 3.29f)
+                curveToRelative(-0.56f, -0.8f, -1.48f, -1.28f, -2.46f, -1.28f)
+                lineTo(6.38f, 2f)
+                curveToRelative(-1.24f, 0f, -2.37f, 0.78f, -2.81f, 1.94f)
+                lineTo(0.98f, 10.78f)
+                curveToRelative(-0.6f, 0.55f, -0.98f, 1.34f, -0.98f, 2.22f)
+                verticalLineToRelative(5f)
+                lineTo(2f, 18f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-5f)
+                close()
+                moveTo(7f, 18.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(20f, 18.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(22f, 16f)
+                lineTo(2f, 16f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.58f)
+                lineToRelative(2.03f, -5.35f)
+                curveToRelative(0.15f, -0.39f, 0.52f, -0.65f, 0.94f, -0.65f)
+                horizontalLineToRelative(7.0f)
+                curveToRelative(0.33f, 0f, 0.63f, 0.16f, 0.82f, 0.43f)
+                lineToRelative(3.88f, 5.57f)
+                horizontalLineToRelative(-3.08f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(6.08f)
+                curveToRelative(0.49f, 0f, 0.92f, 0.47f, 0.92f, 1f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(12.81f, 9.85f)
+                curveToRelative(0.27f, 0.5f, 0.25f, 1.1f, -0.04f, 1.58f)
+                lineToRelative(-1.76f, 3.53f)
+                lineToRelative(-1.79f, -0.89f)
+                lineToRelative(1.53f, -3.07f)
+                horizontalLineToRelative(-2.13f)
+                curveToRelative(-0.51f, 0f, -0.99f, -0.24f, -1.3f, -0.65f)
+                reflectiveCurveToRelative(-0.4f, -0.94f, -0.25f, -1.43f)
+                lineToRelative(2.22f, -4.16f)
+                lineToRelative(1.76f, 0.95f)
+                lineToRelative(-1.78f, 3.29f)
+                horizontalLineToRelative(2.12f)
+                curveToRelative(0.59f, 0f, 1.13f, 0.32f, 1.41f, 0.85f)
+                close()
+            }
+        }.also { _CarSideBolt = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Leaderboard: ImageVector? = null
+
+val Icons.Ts.Leaderboard: ImageVector
+    get() = _Leaderboard ?: UXIcon(name = "Leaderboard") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 7f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                lineTo(1f, 11f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(14.5f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-14.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(9.5f, 16f)
+                horizontalLineToRelative(13.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-13.5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(8.5f, 19f)
+                lineTo(1f, 19f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7.5f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(9.5f, 15f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(13.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-13.5f)
+                close()
+                moveTo(8.5f, 12f)
+                verticalLineToRelative(3f)
+                lineTo(1f, 15f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7.5f)
+                close()
+                moveTo(1f, 23f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7.5f)
+                verticalLineToRelative(3f)
+                lineTo(1f, 23f)
+                close()
+                moveTo(9.5f, 23f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(13.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-13.5f)
+                close()
+                moveTo(17f, 0.04f)
+                lineToRelative(-2.71f, 2.7f)
+                lineTo(12f, 0.0f)
+                lineToRelative(-2.29f, 2.74f)
+                lineTo(7f, 0.04f)
+                verticalLineToRelative(7.96f)
+                horizontalLineToRelative(10f)
+                lineTo(17f, 0.04f)
+                close()
+                moveTo(16f, 7f)
+                horizontalLineToRelative(-8f)
+                lineTo(8f, 2.45f)
+                lineToRelative(1.78f, 1.77f)
+                lineToRelative(2.21f, -2.66f)
+                lineToRelative(2.21f, 2.66f)
+                lineToRelative(1.78f, -1.77f)
+                verticalLineToRelative(4.55f)
+                close()
+            }
+        }.also { _Leaderboard = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SafeBox: ImageVector? = null
+
+val Icons.Rs.SafeBox: ImageVector
+    get() = _SafeBox ?: UXIcon(name = "SafeBox") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 20f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                lineTo(3f, 2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(4.67f)
+                curveToRelative(-0.76f, 0.28f, -1.43f, 0.65f, -2f, 1.08f)
+                lineTo(0f, 3f)
+                curveToRelative(0f, -0.02f, 0f, -0.04f, 0.0f, -0.05f)
+                curveTo(0.03f, 1.32f, 1.36f, 0f, 3f, 0f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(17f)
+                close()
+                moveTo(12f, 12.5f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 2.0f, -2.58f, 3.5f, -6f, 3.5f)
+                reflectiveCurveToRelative(-6f, -1.5f, -6f, -3.5f)
+                verticalLineToRelative(-8f)
+                curveToRelative(0f, -2.0f, 2.58f, -3.5f, 6f, -3.5f)
+                reflectiveCurveToRelative(6f, 1.5f, 6f, 3.5f)
+                close()
+                moveTo(10f, 20.5f)
+                verticalLineToRelative(-1.35f)
+                curveToRelative(-1.05f, 0.53f, -2.44f, 0.85f, -4f, 0.85f)
+                reflectiveCurveToRelative(-2.95f, -0.32f, -4f, -0.85f)
+                verticalLineToRelative(1.35f)
+                curveToRelative(0f, 0.53f, 1.52f, 1.5f, 4f, 1.5f)
+                reflectiveCurveToRelative(4f, -0.97f, 4f, -1.5f)
+                close()
+                moveTo(10f, 16.5f)
+                verticalLineToRelative(-1.35f)
+                curveToRelative(-1.05f, 0.53f, -2.44f, 0.85f, -4f, 0.85f)
+                reflectiveCurveToRelative(-2.95f, -0.32f, -4f, -0.85f)
+                verticalLineToRelative(1.35f)
+                curveToRelative(0f, 0.53f, 1.52f, 1.5f, 4f, 1.5f)
+                reflectiveCurveToRelative(4f, -0.97f, 4f, -1.5f)
+                close()
+                moveTo(10f, 12.5f)
+                curveToRelative(0f, -0.53f, -1.52f, -1.5f, -4f, -1.5f)
+                reflectiveCurveToRelative(-4f, 0.97f, -4f, 1.5f)
+                reflectiveCurveToRelative(1.52f, 1.5f, 4f, 1.5f)
+                reflectiveCurveToRelative(4f, -0.97f, 4f, -1.5f)
+                close()
+                moveTo(14f, 12.62f)
+                verticalLineToRelative(2.57f)
+                curveToRelative(1.79f, -1.04f, 3f, -2.97f, 3f, -5.19f)
+                curveToRelative(0f, -3.31f, -2.69f, -6f, -6f, -6f)
+                curveToRelative(-2.22f, 0f, -4.15f, 1.21f, -5.19f, 3.01f)
+                curveToRelative(0.07f, 0f, 0.13f, -0.01f, 0.19f, -0.01f)
+                curveToRelative(0.76f, 0f, 1.48f, 0.07f, 2.16f, 0.19f)
+                curveToRelative(0.72f, -0.73f, 1.73f, -1.19f, 2.84f, -1.19f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                curveToRelative(0f, 1.0f, -0.39f, 1.91f, -1f, 2.62f)
+                close()
+            }
+        }.also { _SafeBox = it}

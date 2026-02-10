@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CloudMoonRain: ImageVector? = null
+
+val Icons.Rs.CloudMoonRain: ImageVector
+    get() = _CloudMoonRain ?: UXIcon(name = "CloudMoonRain", viewportWidth = 512f, viewportHeight = 512f) {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(320.39f, 128.65f)
+                curveToRelative(0f, -11.75f, 9.53f, -21.28f, 21.28f, -21.28f)
+                reflectiveCurveToRelative(21.28f, 9.53f, 21.28f, 21.28f)
+                reflectiveCurveToRelative(-9.53f, 21.28f, -21.28f, 21.28f)
+                reflectiveCurveTo(320.39f, 140.4f, 320.39f, 128.65f)
+                close()
+                moveTo(426.77f, 86.09f)
+                curveToRelative(11.75f, 0f, 21.28f, -9.53f, 21.28f, -21.28f)
+                reflectiveCurveToRelative(-9.53f, -21.28f, -21.28f, -21.28f)
+                reflectiveCurveToRelative(-21.28f, 9.53f, -21.28f, 21.28f)
+                reflectiveCurveTo(415.02f, 86.09f, 426.77f, 86.09f)
+                close()
+                moveTo(469.33f, 213.76f)
+                curveToRelative(11.75f, 0f, 21.28f, -9.53f, 21.28f, -21.28f)
+                reflectiveCurveToRelative(-9.53f, -21.28f, -21.28f, -21.28f)
+                reflectiveCurveToRelative(-21.28f, 9.53f, -21.28f, 21.28f)
+                reflectiveCurveTo(457.58f, 213.76f, 469.33f, 213.76f)
+                close()
+                moveTo(43.78f, 192.48f)
+                curveToRelative(0.09f, -82.22f, 66.72f, -148.85f, 148.94f, -148.94f)
+                curveToRelative(13.19f, -0.02f, 26.33f, 1.75f, 39.04f, 5.26f)
+                curveToRelative(-48.65f, 44.03f, -70.04f, 110.72f, -56.06f, 174.83f)
+                curveToRelative(10.24f, -15.95f, 23.2f, -29.97f, 38.3f, -41.43f)
+                curveToRelative(1f, -49.78f, 28.09f, -95.37f, 71.32f, -120.07f)
+                lineToRelative(32.94f, -18.75f)
+                lineToRelative(-33.02f, -18.34f)
+                curveTo(193.17f, -26.83f, 76.48f, 5.74f, 24.6f, 97.8f)
+                curveToRelative(-50.29f, 89.24f, -21.39f, 202.25f, 65.57f, 256.38f)
+                curveToRelative(3.36f, -14.12f, 9.12f, -27.57f, 17.02f, -39.75f)
+                curveTo(67.42f, 286.57f, 43.75f, 241.04f, 43.78f, 192.48f)
+                close()
+                moveTo(383.92f, 511.63f)
+                horizontalLineToRelative(42.55f)
+                verticalLineTo(405.25f)
+                horizontalLineTo(383.92f)
+                verticalLineTo(511.63f)
+                close()
+                moveTo(414.47f, 256.67f)
+                curveToRelative(-29.07f, -57.72f, -99.43f, -80.96f, -157.15f, -51.89f)
+                curveToRelative(-36.97f, 18.62f, -61.36f, 55.39f, -64.13f, 96.7f)
+                curveToRelative(-45.49f, 11.57f, -72.98f, 57.82f, -61.41f, 103.31f)
+                curveToRelative(5.63f, 22.13f, 19.92f, 41.05f, 39.66f, 52.52f)
+                verticalLineToRelative(-73.34f)
+                curveToRelative(0.23f, -23.74f, 19.67f, -42.79f, 43.4f, -42.56f)
+                curveToRelative(0.02f, 0f, 0.03f, 0f, 0.05f, 0f)
+                horizontalLineToRelative(23.75f)
+                lineToRelative(-2.6f, -23.6f)
+                curveToRelative(-0.32f, -2.76f, -0.47f, -5.54f, -0.47f, -8.32f)
+                curveToRelative(-0.01f, -41.13f, 33.32f, -74.48f, 74.45f, -74.49f)
+                curveToRelative(31.57f, -0.01f, 59.71f, 19.89f, 70.23f, 49.66f)
+                lineToRelative(5.02f, 14.19f)
+                horizontalLineToRelative(20.51f)
+                curveToRelative(35.25f, 0f, 63.83f, 28.58f, 63.83f, 63.83f)
+                curveToRelative(-0.01f, 2.85f, -0.21f, 5.69f, -0.6f, 8.51f)
+                verticalLineToRelative(76.92f)
+                curveToRelative(47.21f, -34.98f, 57.11f, -101.61f, 22.13f, -148.82f)
+                curveToRelative(-18.23f, -24.6f, -46.17f, -40.15f, -76.68f, -42.68f)
+                verticalLineTo(256.67f)
+                close()
+                moveTo(298.81f, 511.63f)
+                horizontalLineToRelative(42.55f)
+                verticalLineTo(405.25f)
+                horizontalLineToRelative(-42.55f)
+                verticalLineTo(511.63f)
+                close()
+                moveTo(213.7f, 511.63f)
+                horizontalLineToRelative(42.55f)
+                verticalLineTo(405.25f)
+                horizontalLineToRelative(-42.55f)
+                verticalLineTo(511.63f)
+                close()
+            }
+        }.also { _CloudMoonRain = it}

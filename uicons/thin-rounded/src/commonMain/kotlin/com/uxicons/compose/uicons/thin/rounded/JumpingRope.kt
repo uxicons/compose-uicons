@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _JumpingRope: ImageVector? = null
+
+val Icons.Tr.JumpingRope: ImageVector
+    get() = _JumpingRope ?: UXIcon(name = "JumpingRope") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.62f, 18.5f)
+                curveToRelative(3.61f, -4.27f, 4.38f, -8.32f, 4.38f, -10.99f)
+                curveToRelative(0f, -5.15f, -3.63f, -7.5f, -7f, -7.5f)
+                curveTo(11.04f, 0f, 6f, 4.58f, 6f, 10f)
+                curveToRelative(0f, 3.31f, 2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                curveToRelative(0f, -2.55f, -1.15f, -5.09f, -3.16f, -6.97f)
+                curveToRelative(-0.2f, -0.19f, -0.52f, -0.18f, -0.71f, 0.02f)
+                curveToRelative(-0.19f, 0.2f, -0.18f, 0.52f, 0.02f, 0.71f)
+                curveToRelative(1.81f, 1.69f, 2.84f, 3.96f, 2.84f, 6.24f)
+                curveToRelative(0f, 2.76f, -2.24f, 5f, -5f, 5f)
+                reflectiveCurveToRelative(-5f, -2.24f, -5f, -5f)
+                curveTo(7f, 5.12f, 11.58f, 1f, 17f, 1f)
+                curveToRelative(2.99f, 0f, 6f, 2.01f, 6f, 6.5f)
+                curveToRelative(0f, 2.49f, -0.73f, 6.26f, -4.09f, 10.29f)
+                lineToRelative(-0.35f, -0.35f)
+                curveToRelative(-0.58f, -0.58f, -1.54f, -0.58f, -2.12f, 0f)
+                reflectiveCurveToRelative(-0.58f, 1.54f, 0f, 2.12f)
+                lineToRelative(0.4f, 0.4f)
+                lineToRelative(-3.19f, 3.19f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                lineToRelative(3.19f, -3.19f)
+                lineToRelative(0.4f, 0.4f)
+                curveToRelative(0.29f, 0.29f, 0.68f, 0.44f, 1.06f, 0.44f)
+                reflectiveCurveToRelative(0.77f, -0.15f, 1.06f, -0.44f)
+                curveToRelative(0.58f, -0.58f, 0.58f, -1.54f, 0f, -2.12f)
+                lineToRelative(-0.44f, -0.44f)
+                close()
+                moveTo(19.35f, 20.35f)
+                curveToRelative(-0.2f, 0.2f, -0.51f, 0.2f, -0.71f, 0f)
+                lineToRelative(-1.5f, -1.5f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(0.1f, -0.1f, 0.23f, -0.15f, 0.35f, -0.15f)
+                reflectiveCurveToRelative(0.26f, 0.05f, 0.35f, 0.15f)
+                lineToRelative(1.5f, 1.5f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                close()
+                moveTo(7.16f, 19.96f)
+                lineToRelative(0.4f, -0.4f)
+                curveToRelative(0.58f, -0.58f, 0.58f, -1.54f, 0f, -2.12f)
+                reflectiveCurveToRelative(-1.54f, -0.58f, -2.12f, 0f)
+                lineToRelative(-0.35f, 0.35f)
+                curveTo(1.73f, 13.77f, 1f, 9.99f, 1f, 7.5f)
+                curveTo(1f, 3.01f, 4.01f, 1f, 7f, 1f)
+                curveToRelative(0.48f, 0f, 0.96f, 0.03f, 1.44f, 0.09f)
+                curveToRelative(0.27f, 0.03f, 0.53f, -0.16f, 0.56f, -0.43f)
+                curveToRelative(0.04f, -0.27f, -0.16f, -0.53f, -0.43f, -0.56f)
+                curveToRelative(-0.51f, -0.07f, -1.04f, -0.1f, -1.56f, -0.1f)
+                curveTo(3.63f, 0f, 0f, 2.35f, 0f, 7.5f)
+                curveToRelative(0f, 2.67f, 0.78f, 6.72f, 4.38f, 10.99f)
+                lineToRelative(-0.44f, 0.44f)
+                curveToRelative(-0.58f, 0.58f, -0.58f, 1.54f, 0f, 2.12f)
+                curveToRelative(0.29f, 0.29f, 0.68f, 0.44f, 1.06f, 0.44f)
+                reflectiveCurveToRelative(0.77f, -0.15f, 1.06f, -0.44f)
+                lineToRelative(0.4f, -0.4f)
+                lineToRelative(3.19f, 3.19f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(-3.19f, -3.19f)
+                close()
+                moveTo(4.65f, 20.35f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(1.5f, -1.5f)
+                curveToRelative(0.1f, -0.1f, 0.23f, -0.15f, 0.35f, -0.15f)
+                reflectiveCurveToRelative(0.26f, 0.05f, 0.35f, 0.15f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(-1.5f, 1.5f)
+                curveToRelative(-0.2f, 0.2f, -0.51f, 0.2f, -0.71f, 0f)
+                close()
+            }
+        }.also { _JumpingRope = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TaskChecklist: ImageVector? = null
+
+val Icons.Ts.TaskChecklist: ImageVector
+    get() = _TaskChecklist ?: UXIcon(name = "TaskChecklist") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 11.36f)
+                lineToRelative(1f, -1f)
+                verticalLineToRelative(13.64f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(-21.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(15.14f)
+                lineToRelative(-1f, 1f)
+                horizontalLineToRelative(-14.14f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(20.5f)
+                horizontalLineToRelative(18f)
+                close()
+                moveTo(24f, 2.5f)
+                curveToRelative(0f, 0.67f, -0.26f, 1.3f, -0.73f, 1.77f)
+                lineToRelative(-8.73f, 8.73f)
+                horizontalLineToRelative(-3.54f)
+                verticalLineToRelative(-3.54f)
+                lineToRelative(8.73f, -8.73f)
+                curveToRelative(0.97f, -0.98f, 2.56f, -0.97f, 3.54f, 0f)
+                curveToRelative(0.47f, 0.47f, 0.73f, 1.1f, 0.73f, 1.77f)
+                close()
+                moveTo(23f, 2.5f)
+                curveToRelative(0f, -0.4f, -0.16f, -0.78f, -0.44f, -1.06f)
+                curveToRelative(-0.58f, -0.58f, -1.54f, -0.58f, -2.12f, 0f)
+                lineToRelative(-8.44f, 8.44f)
+                verticalLineToRelative(2.12f)
+                horizontalLineToRelative(2.12f)
+                lineToRelative(8.44f, -8.44f)
+                curveToRelative(0.28f, -0.28f, 0.44f, -0.66f, 0.44f, -1.06f)
+                close()
+                moveTo(8.65f, 4.64f)
+                lineTo(5.28f, 7.95f)
+                curveToRelative(-0.06f, 0.06f, -0.18f, 0.06f, -0.24f, -0.01f)
+                lineToRelative(-1.78f, -1.72f)
+                lineToRelative(-0.69f, 0.72f)
+                lineToRelative(1.77f, 1.72f)
+                curveToRelative(0.22f, 0.22f, 0.51f, 0.34f, 0.82f, 0.34f)
+                reflectiveCurveToRelative(0.6f, -0.12f, 0.82f, -0.34f)
+                lineToRelative(3.36f, -3.31f)
+                close()
+                moveTo(8.65f, 9.64f)
+                lineTo(5.28f, 12.95f)
+                curveToRelative(-0.04f, 0.04f, -0.09f, 0.05f, -0.12f, 0.05f)
+                curveToRelative(-0.03f, 0f, -0.07f, -0.01f, -0.12f, -0.06f)
+                lineToRelative(-1.78f, -1.72f)
+                lineToRelative(-0.69f, 0.72f)
+                lineToRelative(1.77f, 1.72f)
+                curveToRelative(0.22f, 0.22f, 0.51f, 0.34f, 0.82f, 0.34f)
+                curveToRelative(0.31f, 0f, 0.6f, -0.12f, 0.82f, -0.34f)
+                lineToRelative(3.36f, -3.31f)
+                lineToRelative(-0.7f, -0.71f)
+                close()
+                moveTo(16f, 17f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(6f)
+                close()
+                moveTo(5.17f, 18f)
+                curveToRelative(-0.03f, 0f, -0.07f, -0.01f, -0.12f, -0.06f)
+                lineToRelative(-1.78f, -1.72f)
+                lineToRelative(-0.69f, 0.72f)
+                lineToRelative(1.77f, 1.72f)
+                curveToRelative(0.22f, 0.22f, 0.51f, 0.34f, 0.82f, 0.34f)
+                curveToRelative(0.31f, 0f, 0.6f, -0.12f, 0.82f, -0.34f)
+                lineToRelative(3.36f, -3.31f)
+                lineToRelative(-0.7f, -0.71f)
+                lineToRelative(-3.37f, 3.31f)
+                curveToRelative(-0.04f, 0.04f, -0.09f, 0.05f, -0.12f, 0.05f)
+                close()
+            }
+        }.also { _TaskChecklist = it}

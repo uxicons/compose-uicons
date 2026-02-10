@@ -1,0 +1,74 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FileBinary: ImageVector? = null
+
+val Icons.Tc.FileBinary: ImageVector
+    get() = _FileBinary ?: UXIcon(name = "FileBinary") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.64f, 7.42f)
+                curveToRelative(-0.02f, -0.11f, -0.07f, -0.21f, -0.15f, -0.28f)
+                lineToRelative(-6.04f, -5.75f)
+                curveToRelative(-0.07f, -0.06f, -0.15f, -0.11f, -0.25f, -0.13f)
+                curveToRelative(-0.87f, -0.18f, -1.95f, -0.27f, -3.21f, -0.27f)
+                curveToRelative(-4.56f, 0f, -8.34f, 0.8f, -8.5f, 0.84f)
+                curveToRelative(-0.18f, 0.04f, -0.33f, 0.18f, -0.38f, 0.36f)
+                curveToRelative(-0.05f, 0.17f, -1.12f, 4.3f, -1.12f, 9.8f)
+                reflectiveCurveToRelative(1.08f, 9.25f, 1.12f, 9.41f)
+                curveToRelative(0.05f, 0.16f, 0.17f, 0.29f, 0.33f, 0.34f)
+                curveToRelative(0.16f, 0.05f, 4.04f, 1.25f, 8.64f, 1.25f)
+                reflectiveCurveToRelative(8.47f, -1.2f, 8.64f, -1.25f)
+                curveToRelative(0.17f, -0.05f, 0.29f, -0.19f, 0.34f, -0.36f)
+                curveToRelative(0.04f, -0.16f, 0.94f, -3.89f, 0.94f, -9.39f)
+                curveToRelative(0f, -1.54f, -0.12f, -3.03f, -0.36f, -4.58f)
+                close()
+                moveTo(20.35f, 7.43f)
+                curveToRelative(-2.19f, 0.18f, -4.32f, -0.06f, -5.13f, -0.18f)
+                curveToRelative(-0.1f, -0.66f, -0.28f, -2.31f, -0.18f, -4.88f)
+                close()
+                moveTo(20.15f, 20.87f)
+                curveToRelative(-0.96f, 0.27f, -4.31f, 1.13f, -8.06f, 1.13f)
+                curveToRelative(-3.77f, 0f, -7.14f, -0.87f, -8.08f, -1.13f)
+                curveToRelative(-0.24f, -0.94f, -1.01f, -4.32f, -1.01f, -8.87f)
+                reflectiveCurveToRelative(0.77f, -8.2f, 1.01f, -9.25f)
+                curveToRelative(0.99f, -0.19f, 4.26f, -0.75f, 7.99f, -0.75f)
+                curveToRelative(0.75f, 0f, 1.44f, 0.04f, 2.05f, 0.1f)
+                curveToRelative(-0.17f, 3.7f, 0.23f, 5.62f, 0.25f, 5.7f)
+                curveToRelative(0.04f, 0.2f, 0.2f, 0.35f, 0.4f, 0.39f)
+                curveToRelative(0.1f, 0.02f, 1.82f, 0.32f, 3.99f, 0.32f)
+                curveToRelative(0.66f, 0f, 1.36f, -0.04f, 2.07f, -0.11f)
+                curveToRelative(0.15f, 1.21f, 0.25f, 2.4f, 0.25f, 3.61f)
+                curveToRelative(0f, 4.53f, -0.64f, 7.91f, -0.85f, 8.87f)
+                close()
+                moveTo(16.82f, 11.12f)
+                curveToRelative(0.11f, 0.1f, 0.18f, 0.23f, 0.18f, 0.38f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-6.32f)
+                curveToRelative(-0.63f, 0.28f, -1.19f, 0.83f, -1.54f, 1.55f)
+                curveToRelative(-0.12f, 0.25f, -0.42f, 0.35f, -0.67f, 0.22f)
+                curveToRelative(-0.25f, -0.12f, -0.35f, -0.42f, -0.22f, -0.67f)
+                curveToRelative(0.61f, -1.23f, 1.65f, -2.06f, 2.85f, -2.27f)
+                curveToRelative(0.14f, -0.03f, 0.29f, 0.01f, 0.41f, 0.11f)
+                close()
+                moveTo(9f, 11f)
+                curveToRelative(-2.66f, 0f, -3f, 2.14f, -3f, 4f)
+                reflectiveCurveToRelative(0.34f, 4f, 3f, 4f)
+                reflectiveCurveToRelative(3f, -2.14f, 3f, -4f)
+                reflectiveCurveToRelative(-0.34f, -4f, -3f, -4f)
+                close()
+                moveTo(9f, 18f)
+                curveToRelative(-1.27f, 0f, -2f, -0.49f, -2f, -3f)
+                reflectiveCurveToRelative(0.73f, -3f, 2f, -3f)
+                reflectiveCurveToRelative(2f, 0.49f, 2f, 3f)
+                reflectiveCurveToRelative(-0.73f, 3f, -2f, 3f)
+                close()
+            }
+        }.also { _FileBinary = it}

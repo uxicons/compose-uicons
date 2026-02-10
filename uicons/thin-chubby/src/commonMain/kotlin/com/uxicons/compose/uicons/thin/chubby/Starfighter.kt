@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Starfighter: ImageVector? = null
+
+val Icons.Tc.Starfighter: ImageVector
+    get() = _Starfighter ?: UXIcon(name = "Starfighter") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.5f, 9.23f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3.65f)
+                curveToRelative(-0.69f, -0.3f, -1.78f, -0.66f, -3.1f, -0.66f)
+                curveToRelative(-1.27f, 0f, -2.26f, 0.33f, -2.89f, 0.62f)
+                verticalLineToRelative(-5.04f)
+                curveToRelative(0f, -5.27f, -3.67f, -6.74f, -3.83f, -6.8f)
+                curveToRelative(-0.12f, -0.04f, -0.24f, -0.04f, -0.36f, 0f)
+                curveToRelative(-0.16f, 0.06f, -3.83f, 1.56f, -3.83f, 6.8f)
+                verticalLineToRelative(5.04f)
+                curveToRelative(-0.63f, -0.29f, -1.62f, -0.62f, -2.89f, -0.62f)
+                curveToRelative(-1.32f, 0f, -2.42f, 0.36f, -3.1f, 0.66f)
+                verticalLineToRelative(-3.65f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(10.0f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-0.55f)
+                lineToRelative(4.38f, 3.05f)
+                curveToRelative(0.28f, 0.2f, 0.62f, 0.3f, 0.95f, 0.3f)
+                curveToRelative(0.26f, 0f, 0.53f, -0.06f, 0.77f, -0.19f)
+                curveToRelative(0.55f, -0.29f, 0.9f, -0.86f, 0.9f, -1.48f)
+                verticalLineToRelative(-0.08f)
+                curveToRelative(0.65f, 0.19f, 1.7f, 0.43f, 3.01f, 0.43f)
+                curveToRelative(1.31f, 0f, 2.37f, -0.23f, 3.01f, -0.42f)
+                verticalLineToRelative(0.08f)
+                curveToRelative(0f, 0.63f, 0.34f, 1.2f, 0.9f, 1.48f)
+                curveToRelative(0.24f, 0.13f, 0.51f, 0.19f, 0.77f, 0.19f)
+                curveToRelative(0.33f, 0f, 0.66f, -0.1f, 0.95f, -0.3f)
+                lineToRelative(4.38f, -3.05f)
+                verticalLineToRelative(0.55f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(23.0f, 9.73f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(12f, 2.52f)
+                curveToRelative(0.65f, 0.34f, 2.86f, 1.74f, 3.0f, 5.4f)
+                curveToRelative(-0.07f, -0.08f, -1.12f, -1.37f, -2.99f, -1.37f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-1.09f, 0.0f, -2.22f, 0.48f, -3.0f, 1.38f)
+                curveToRelative(0.14f, -3.68f, 2.34f, -5.08f, 3.0f, -5.41f)
+                close()
+                moveTo(7.99f, 20.86f)
+                curveToRelative(0f, 0.26f, -0.14f, 0.48f, -0.36f, 0.6f)
+                curveToRelative(-0.22f, 0.12f, -0.48f, 0.1f, -0.68f, -0.04f)
+                lineToRelative(-4.95f, -3.45f)
+                verticalLineToRelative(-3.47f)
+                curveToRelative(0.47f, -0.25f, 1.63f, -0.77f, 3.1f, -0.77f)
+                reflectiveCurveToRelative(2.48f, 0.51f, 2.89f, 0.75f)
+                verticalLineToRelative(6.39f)
+                close()
+                moveTo(12f, 20.2f)
+                curveToRelative(-1.41f, 0f, -2.51f, -0.31f, -3.01f, -0.48f)
+                lineTo(8.99f, 10.83f)
+                curveToRelative(0f, -2.15f, 1.51f, -3.27f, 3.01f, -3.28f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(1.0f, 0f, 3f, 0.72f, 3f, 3.28f)
+                verticalLineToRelative(8.9f)
+                curveToRelative(-0.5f, 0.17f, -1.58f, 0.48f, -3.01f, 0.48f)
+                close()
+                moveTo(17.05f, 21.41f)
+                curveToRelative(-0.21f, 0.14f, -0.46f, 0.16f, -0.68f, 0.04f)
+                curveToRelative(-0.23f, -0.12f, -0.36f, -0.34f, -0.36f, -0.6f)
+                verticalLineToRelative(-6.39f)
+                curveToRelative(0.41f, -0.24f, 1.43f, -0.75f, 2.89f, -0.75f)
+                reflectiveCurveToRelative(2.63f, 0.52f, 3.1f, 0.77f)
+                verticalLineToRelative(3.47f)
+                lineToRelative(-4.95f, 3.45f)
+                close()
+            }
+        }.also { _Starfighter = it}

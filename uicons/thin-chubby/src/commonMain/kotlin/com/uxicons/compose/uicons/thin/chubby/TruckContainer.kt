@@ -1,0 +1,117 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckContainer: ImageVector? = null
+
+val Icons.Tc.TruckContainer: ImageVector
+    get() = _TruckContainer ?: UXIcon(name = "TruckContainer") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.4f, 7.39f)
+                curveToRelative(-0.05f, -0.16f, -0.17f, -0.29f, -0.34f, -0.34f)
+                curveToRelative(-0.09f, -0.03f, -2.17f, -0.64f, -4.62f, -0.64f)
+                curveToRelative(-0.2f, 0f, -0.4f, 0.0f, -0.59f, 0.01f)
+                curveToRelative(-0.27f, 0.01f, -0.48f, 0.23f, -0.48f, 0.5f)
+                verticalLineToRelative(9.56f)
+                lineTo(1.51f, 16.49f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(1.05f)
+                verticalLineToRelative(1.02f)
+                curveToRelative(0f, 1.35f, 1.1f, 2.46f, 2.46f, 2.46f)
+                curveToRelative(0.8f, 0f, 1.51f, -0.38f, 1.96f, -0.97f)
+                curveToRelative(0.45f, 0.59f, 1.16f, 0.97f, 1.96f, 0.97f)
+                curveToRelative(1.35f, 0f, 2.46f, -1.1f, 2.46f, -2.46f)
+                verticalLineToRelative(-1.02f)
+                horizontalLineToRelative(4.18f)
+                verticalLineToRelative(1.02f)
+                curveToRelative(0f, 1.35f, 1.1f, 2.46f, 2.46f, 2.46f)
+                reflectiveCurveToRelative(2.46f, -1.1f, 2.46f, -2.46f)
+                verticalLineToRelative(-1.02f)
+                horizontalLineToRelative(1.45f)
+                curveToRelative(0.22f, 0f, 0.42f, -0.15f, 0.48f, -0.36f)
+                curveToRelative(0.02f, -0.09f, 0.6f, -2.13f, 0.6f, -4.87f)
+                curveToRelative(0f, -2.76f, -0.58f, -4.78f, -0.6f, -4.87f)
+                close()
+                moveTo(6.47f, 18.51f)
+                curveToRelative(0f, 0.8f, -0.65f, 1.46f, -1.46f, 1.46f)
+                reflectiveCurveToRelative(-1.46f, -0.65f, -1.46f, -1.46f)
+                verticalLineToRelative(-1.02f)
+                horizontalLineToRelative(2.91f)
+                verticalLineToRelative(1.02f)
+                close()
+                moveTo(10.38f, 18.51f)
+                curveToRelative(0f, 0.8f, -0.65f, 1.46f, -1.46f, 1.46f)
+                reflectiveCurveToRelative(-1.46f, -0.65f, -1.46f, -1.46f)
+                verticalLineToRelative(-1.02f)
+                horizontalLineToRelative(2.91f)
+                verticalLineToRelative(1.02f)
+                close()
+                moveTo(17.36f, 7.41f)
+                curveToRelative(1.84f, -0.01f, 3.51f, 0.36f, 4.14f, 0.52f)
+                curveToRelative(0.12f, 0.5f, 0.36f, 1.65f, 0.46f, 3.15f)
+                horizontalLineToRelative(-4.6f)
+                verticalLineToRelative(-3.67f)
+                close()
+                moveTo(19.47f, 18.51f)
+                curveToRelative(0f, 0.8f, -0.65f, 1.46f, -1.46f, 1.46f)
+                reflectiveCurveToRelative(-1.46f, -0.65f, -1.46f, -1.46f)
+                verticalLineToRelative(-1.02f)
+                horizontalLineToRelative(2.91f)
+                verticalLineToRelative(1.02f)
+                close()
+                moveTo(21.53f, 16.49f)
+                horizontalLineToRelative(-4.16f)
+                verticalLineToRelative(-4.41f)
+                horizontalLineToRelative(4.64f)
+                curveToRelative(0f, 0.06f, 0f, 0.12f, 0f, 0.18f)
+                curveToRelative(0f, 1.94f, -0.31f, 3.54f, -0.47f, 4.23f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2.23f, 14.25f)
+                curveToRelative(0.09f, 0.07f, 0.2f, 0.1f, 0.31f, 0.1f)
+                lineTo(13.69f, 14.35f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineToRelative(0.03f, -9.26f)
+                curveToRelative(0f, -0.13f, -0.05f, -0.26f, -0.15f, -0.35f)
+                curveToRelative(-0.12f, -0.12f, -1.33f, -1.2f, -5.95f, -1.2f)
+                reflectiveCurveToRelative(-5.79f, 1.08f, -5.92f, 1.21f)
+                curveToRelative(-0.12f, 0.13f, -1.2f, 1.38f, -1.2f, 4.98f)
+                curveToRelative(0f, 3.88f, 1.02f, 4.87f, 1.23f, 5.03f)
+                close()
+                moveTo(2.91f, 4.95f)
+                curveToRelative(0.02f, -0.02f, 1.09f, -0.91f, 5.22f, -0.91f)
+                curveToRelative(3.33f, 0f, 4.68f, 0.58f, 5.09f, 0.81f)
+                lineToRelative(-0.03f, 8.51f)
+                lineTo(2.76f, 13.35f)
+                curveToRelative(-0.22f, -0.33f, -0.76f, -1.4f, -0.76f, -4.13f)
+                curveToRelative(0f, -3.18f, 0.91f, -4.27f, 0.91f, -4.27f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(5.42f, 10.76f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-3.06f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3.06f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(9.8f, 10.76f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-3.06f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3.06f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _TruckContainer = it}

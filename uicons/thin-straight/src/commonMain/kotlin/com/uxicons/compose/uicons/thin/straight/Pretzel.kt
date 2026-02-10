@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Pretzel: ImageVector? = null
+
+val Icons.Ts.Pretzel: ImageVector
+    get() = _Pretzel ?: UXIcon(name = "Pretzel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16f, 2f)
+                curveToRelative(-1.52f, 0f, -2.89f, 0.44f, -4.02f, 1.2f)
+                curveToRelative(-1.15f, -0.77f, -2.51f, -1.2f, -3.98f, -1.2f)
+                curveToRelative(-4.56f, 0f, -8f, 3.44f, -8f, 8f)
+                curveToRelative(0f, 6.62f, 5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                curveToRelative(0f, -4.56f, -3.44f, -8f, -8f, -8f)
+                close()
+                moveTo(12f, 21f)
+                curveToRelative(-6.07f, 0f, -11f, -4.93f, -11f, -11f)
+                curveToRelative(0f, -3.99f, 3.01f, -7f, 7f, -7f)
+                curveToRelative(1.16f, 0f, 2.23f, 0.31f, 3.16f, 0.86f)
+                curveToRelative(-0.25f, 0.24f, -0.49f, 0.49f, -0.7f, 0.76f)
+                curveToRelative(-0.74f, -0.4f, -1.58f, -0.62f, -2.46f, -0.62f)
+                curveToRelative(-3.42f, 0f, -6f, 2.58f, -6f, 6f)
+                curveToRelative(0f, 5.51f, 4.49f, 10f, 10f, 10f)
+                reflectiveCurveToRelative(10f, -4.49f, 10f, -10f)
+                curveToRelative(0f, -3.42f, -2.58f, -6f, -6f, -6f)
+                curveToRelative(-2.85f, 0f, -5f, 2.15f, -5f, 5f)
+                curveToRelative(0f, 0.74f, 0.15f, 1.44f, 0.43f, 2.09f)
+                curveToRelative(-0.19f, 0.32f, -0.42f, 0.61f, -0.69f, 0.87f)
+                curveToRelative(-0.47f, -0.88f, -0.74f, -1.89f, -0.74f, -2.95f)
+                curveToRelative(0f, -3.42f, 2.58f, -6f, 6f, -6f)
+                curveToRelative(3.99f, 0f, 7f, 3.01f, 7f, 7f)
+                curveToRelative(0f, 6.07f, -4.93f, 11f, -11f, 11f)
+                close()
+                moveTo(13f, 9f)
+                curveToRelative(0f, -0.74f, -0.15f, -1.44f, -0.43f, -2.09f)
+                curveToRelative(0.19f, -0.32f, 0.42f, -0.61f, 0.69f, -0.87f)
+                curveToRelative(0.47f, 0.88f, 0.74f, 1.89f, 0.74f, 2.95f)
+                curveToRelative(0f, 3.42f, -2.58f, 6f, -6f, 6f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.23f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(2.85f, 0f, 5f, -2.15f, 5f, -5f)
+                close()
+                moveTo(13.54f, 13.38f)
+                curveToRelative(0.74f, 0.4f, 1.58f, 0.62f, 2.46f, 0.62f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-1.16f, 0f, -2.23f, -0.31f, -3.16f, -0.86f)
+                curveToRelative(0.25f, -0.24f, 0.49f, -0.49f, 0.7f, -0.77f)
+                close()
+                moveTo(8f, 13f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(1.52f, 0f, 2.89f, -0.44f, 4.02f, -1.2f)
+                curveToRelative(1.15f, 0.77f, 2.51f, 1.2f, 3.98f, 1.2f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.69f, 0f, -1.34f, -0.16f, -1.91f, -0.46f)
+                curveToRelative(0.58f, -1.03f, 0.91f, -2.23f, 0.91f, -3.54f)
+                curveToRelative(0f, -1.27f, -0.32f, -2.47f, -0.91f, -3.52f)
+                curveToRelative(0.56f, -0.29f, 1.21f, -0.48f, 1.91f, -0.48f)
+                curveToRelative(2.85f, 0f, 5f, 2.15f, 5f, 5f)
+                curveToRelative(0f, 4.96f, -4.04f, 9f, -9f, 9f)
+                reflectiveCurveToRelative(-9f, -4.04f, -9f, -9f)
+                curveToRelative(0f, -2.85f, 2.15f, -5f, 5f, -5f)
+                curveToRelative(0.69f, 0f, 1.34f, 0.16f, 1.91f, 0.46f)
+                curveToRelative(-0.58f, 1.03f, -0.91f, 2.23f, -0.91f, 3.54f)
+                curveToRelative(0f, 1.27f, 0.32f, 2.47f, 0.91f, 3.52f)
+                curveToRelative(-0.56f, 0.29f, -1.21f, 0.48f, -1.91f, 0.48f)
+                close()
+            }
+        }.also { _Pretzel = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LightbulbOn: ImageVector? = null
+
+val Icons.Rc.LightbulbOn: ImageVector
+    get() = _LightbulbOn ?: UXIcon(name = "LightbulbOn") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 4f)
+                curveToRelative(-4.96f, 0f, -7.8f, 2.69f, -7.8f, 7.38f)
+                curveToRelative(0f, 4.14f, 2.17f, 5.92f, 4.02f, 6.69f)
+                curveToRelative(0.12f, 0.04f, 0.26f, 0.15f, 0.25f, 0.3f)
+                curveToRelative(0.03f, 0.83f, 0.1f, 1.6f, 0.19f, 2.27f)
+                curveToRelative(0.17f, 1.17f, 1.08f, 2.08f, 2.25f, 2.28f)
+                curveToRelative(0.36f, 0.06f, 0.72f, 0.09f, 1.09f, 0.09f)
+                curveToRelative(0.35f, 0f, 0.71f, -0.03f, 1.06f, -0.08f)
+                curveToRelative(1.18f, -0.19f, 2.08f, -1.1f, 2.25f, -2.27f)
+                curveToRelative(0.11f, -0.73f, 0.18f, -1.5f, 0.21f, -2.29f)
+                curveToRelative(0.0f, -0.13f, 0.1f, -0.23f, 0.21f, -0.27f)
+                curveToRelative(1.86f, -0.76f, 4.07f, -2.54f, 4.07f, -6.71f)
+                curveToRelative(0f, -4.69f, -2.84f, -7.38f, -7.8f, -7.38f)
+                close()
+                moveTo(13.33f, 20.36f)
+                curveToRelative(-0.04f, 0.3f, -0.28f, 0.53f, -0.59f, 0.58f)
+                curveToRelative(-0.5f, 0.08f, -1.01f, 0.08f, -1.51f, -0.0f)
+                curveToRelative(-0.31f, -0.05f, -0.55f, -0.29f, -0.59f, -0.59f)
+                curveToRelative(-0.07f, -0.45f, -0.11f, -0.97f, -0.14f, -1.51f)
+                curveToRelative(0.47f, 0.1f, 0.98f, 0.17f, 1.5f, 0.17f)
+                curveToRelative(0.51f, 0f, 1.01f, -0.07f, 1.48f, -0.17f)
+                curveToRelative(-0.03f, 0.52f, -0.08f, 1.04f, -0.15f, 1.52f)
+                close()
+                moveTo(14.95f, 16.25f)
+                curveToRelative(-0.11f, 0.05f, -0.85f, 0.42f, -1.95f, 0.65f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0.57f, -0.21f, 1.13f, -0.58f, 1.71f, -1.16f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(-1.02f, -0.39f, -1.41f, 0f)
+                curveToRelative(-1.03f, 1.03f, -1.55f, 1.03f, -2.59f, 0f)
+                curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                reflectiveCurveToRelative(-0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(0.57f, 0.57f, 1.14f, 0.94f, 1.71f, 1.16f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(-1.1f, -0.23f, -1.86f, -0.6f, -1.96f, -0.65f)
+                curveToRelative(-1.88f, -0.76f, -2.84f, -2.4f, -2.84f, -4.87f)
+                curveToRelative(0f, -3.57f, 1.95f, -5.38f, 5.8f, -5.38f)
+                reflectiveCurveToRelative(5.8f, 1.81f, 5.8f, 5.38f)
+                curveToRelative(0f, 2.48f, -0.96f, 4.12f, -2.85f, 4.87f)
+                close()
+                moveTo(22.21f, 5.71f)
+                lineTo(21.71f, 6.21f)
+                curveToRelative(-0.39f, 0.39f, -1.02f, 0.39f, -1.41f, 0f)
+                reflectiveCurveToRelative(-0.39f, -1.02f, 0f, -1.41f)
+                lineToRelative(0.5f, -0.5f)
+                curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+                reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+                close()
+                moveTo(16.79f, 2.26f)
+                lineTo(17.09f, 1.59f)
+                curveToRelative(0.23f, -0.5f, 0.81f, -0.73f, 1.32f, -0.51f)
+                curveToRelative(0.5f, 0.23f, 0.73f, 0.82f, 0.51f, 1.32f)
+                lineToRelative(-0.3f, 0.67f)
+                curveToRelative(-0.23f, 0.51f, -0.83f, 0.73f, -1.32f, 0.51f)
+                curveToRelative(-0.5f, -0.23f, -0.73f, -0.82f, -0.51f, -1.32f)
+                close()
+                moveTo(3.71f, 4.79f)
+                curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+                reflectiveCurveToRelative(-1.02f, 0.39f, -1.41f, 0f)
+                lineToRelative(-0.5f, -0.5f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                close()
+                moveTo(5.09f, 2.41f)
+                curveToRelative(-0.23f, -0.5f, 0.0f, -1.1f, 0.51f, -1.32f)
+                curveToRelative(0.5f, -0.23f, 1.09f, 0.0f, 1.32f, 0.51f)
+                lineToRelative(0.3f, 0.67f)
+                curveToRelative(0.23f, 0.5f, -0.0f, 1.1f, -0.51f, 1.32f)
+                curveToRelative(-0.49f, 0.22f, -1.09f, 0.0f, -1.32f, -0.51f)
+                close()
+            }
+        }.also { _LightbulbOn = it}

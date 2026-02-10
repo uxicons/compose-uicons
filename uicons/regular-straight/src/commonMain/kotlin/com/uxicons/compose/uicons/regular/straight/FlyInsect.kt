@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FlyInsect: ImageVector? = null
+
+val Icons.Rs.FlyInsect: ImageVector
+    get() = _FlyInsect ?: UXIcon(name = "FlyInsect") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7.5f, 7.12f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, -0.01f, 0f, -0.02f, 0f, 0f)
+                close()
+                moveTo(16.5f, 7.13f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, -0.01f, 0f, -0.02f, 0f, 0f)
+                close()
+                moveTo(24.0f, 14.95f)
+                curveToRelative(-0.04f, 1.12f, -0.51f, 2.16f, -1.32f, 2.92f)
+                curveToRelative(-0.81f, 0.76f, -1.84f, 1.13f, -2.86f, 1.13f)
+                curveToRelative(-1.12f, 0f, -2.23f, -0.44f, -3.06f, -1.32f)
+                curveToRelative(-0.09f, -0.1f, -0.25f, -0.27f, -0.57f, -0.75f)
+                curveToRelative(-0.73f, 3.86f, -1.83f, 7.08f, -4.18f, 7.08f)
+                reflectiveCurveToRelative(-3.45f, -3.22f, -4.18f, -7.08f)
+                curveToRelative(-0.14f, 0.22f, -0.27f, 0.4f, -0.37f, 0.52f)
+                curveToRelative(-0.83f, 1.02f, -2.04f, 1.56f, -3.27f, 1.56f)
+                curveToRelative(-0.92f, 0f, -1.85f, -0.3f, -2.63f, -0.93f)
+                curveToRelative(-1.8f, -1.45f, -2.08f, -4.09f, -0.63f, -5.89f)
+                curveToRelative(0.69f, -0.86f, 3.31f, -3.51f, 6.57f, -5.05f)
+                curveToRelative(0f, 0.01f, 0f, 0.02f, 0f, 0f)
+                curveToRelative(0f, -1.19f, 0.65f, -2.42f, 1.65f, -3.17f)
+                curveToRelative(-0.35f, -1.04f, -0.11f, -2.24f, 0.72f, -3.07f)
+                curveToRelative(1.17f, -1.17f, 3.07f, -1.17f, 4.24f, 0f)
+                curveToRelative(0.83f, 0.83f, 1.07f, 2.03f, 0.72f, 3.07f)
+                curveToRelative(1.0f, 0.75f, 1.65f, 1.98f, 1.65f, 3.17f)
+                curveToRelative(0f, 0.02f, 0f, 0.01f, 0f, 0f)
+                curveToRelative(3.0f, 1.43f, 5.43f, 3.81f, 6.37f, 4.82f)
+                curveToRelative(0.77f, 0.82f, 1.17f, 1.88f, 1.13f, 3.0f)
+                close()
+                moveTo(9.41f, 9.88f)
+                curveToRelative(-0.4f, -0.26f, -0.78f, -0.57f, -1.1f, -0.93f)
+                curveToRelative(-2.69f, 1.28f, -5.06f, 3.53f, -5.82f, 4.48f)
+                curveToRelative(-0.76f, 0.94f, -0.61f, 2.32f, 0.33f, 3.08f)
+                curveToRelative(0.94f, 0.76f, 2.32f, 0.61f, 3.08f, -0.33f)
+                curveToRelative(0.22f, -0.27f, 1.0f, -1.44f, 3.52f, -6.3f)
+                close()
+                moveTo(13.34f, 20.0f)
+                horizontalLineToRelative(-2.67f)
+                curveToRelative(0.65f, 1.86f, 1.19f, 2f, 1.34f, 2f)
+                reflectiveCurveToRelative(0.68f, -0.14f, 1.34f, -2f)
+                close()
+                moveTo(14.32f, 16.0f)
+                horizontalLineToRelative(-4.63f)
+                curveToRelative(0.14f, 0.76f, 0.28f, 1.42f, 0.41f, 2f)
+                horizontalLineToRelative(3.81f)
+                curveToRelative(0.14f, -0.58f, 0.28f, -1.24f, 0.41f, -2f)
+                close()
+                moveTo(14.48f, 14.0f)
+                curveToRelative(-0.46f, -0.85f, -1.02f, -1.91f, -1.69f, -3.21f)
+                curveToRelative(-0.24f, 0.09f, -0.42f, 0.15f, -0.49f, 0.17f)
+                lineToRelative(-0.29f, 0.09f)
+                lineToRelative(-0.29f, -0.09f)
+                curveToRelative(-0.08f, -0.02f, -0.26f, -0.08f, -0.51f, -0.18f)
+                curveToRelative(-0.64f, 1.24f, -1.21f, 2.31f, -1.7f, 3.22f)
+                horizontalLineToRelative(4.98f)
+                close()
+                moveTo(14.5f, 7.0f)
+                curveToRelative(0f, -0.93f, -1.09f, -2f, -2.5f, -2f)
+                reflectiveCurveToRelative(-2.5f, 1.07f, -2.5f, 2f)
+                curveToRelative(0f, 0.71f, 1.37f, 1.54f, 2.5f, 1.95f)
+                curveToRelative(1.13f, -0.41f, 2.5f, -1.24f, 2.5f, -1.95f)
+                close()
+                moveTo(21.41f, 13.31f)
+                curveToRelative(-0.67f, -0.71f, -2.96f, -3.03f, -5.72f, -4.36f)
+                curveToRelative(-0.32f, 0.36f, -0.71f, 0.67f, -1.11f, 0.93f)
+                curveToRelative(2.66f, 5.19f, 3.45f, 6.22f, 3.64f, 6.42f)
+                curveToRelative(0.83f, 0.88f, 2.21f, 0.93f, 3.1f, 0.1f)
+                curveToRelative(0.43f, -0.4f, 0.67f, -0.94f, 0.69f, -1.53f)
+                curveToRelative(0.02f, -0.58f, -0.19f, -1.14f, -0.59f, -1.57f)
+                close()
+            }
+        }.also { _FlyInsect = it}

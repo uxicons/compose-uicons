@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HumanitarianMission: ImageVector? = null
+
+val Icons.Br.HumanitarianMission: ImageVector
+    get() = _HumanitarianMission ?: UXIcon(name = "HumanitarianMission") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(23.95f, 9.52f)
+            curveTo(23.22f, 3.95f, 18.25f, 0.04f, 12f, 0f)
+            curveToRelative(-0.01f, 0f, 0.03f, 0f, 0f, 0f)
+            curveTo(5.68f, 0f, 0.76f, 3.93f, 0.03f, 9.55f)
+            curveToRelative(-0.03f, 0.24f, 0.0f, 1.39f, 0.16f, 1.68f)
+            curveToRelative(0.19f, 0.6f, 0.52f, 1.16f, 0.97f, 1.62f)
+            curveToRelative(0f, 0f, 5.81f, 5.76f, 5.83f, 5.78f)
+            verticalLineToRelative(3.37f)
+            curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+            horizontalLineToRelative(6f)
+            curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+            verticalLineToRelative(-3.4f)
+            curveToRelative(0.02f, -0.02f, 5.81f, -5.79f, 5.81f, -5.79f)
+            curveToRelative(0.42f, -0.42f, 0.73f, -0.93f, 0.93f, -1.47f)
+            curveToRelative(0.23f, -0.35f, 0.23f, -1.61f, 0.21f, -1.82f)
+            close()
+            moveTo(19.97f, 7.04f)
+            curveToRelative(-0.16f, -0.02f, -0.31f, -0.04f, -0.47f, -0.04f)
+            curveToRelative(-0.88f, 0f, -1.67f, 0.26f, -2.34f, 0.61f)
+            curveToRelative(-0.36f, -1.57f, -0.97f, -2.93f, -1.62f, -4.03f)
+            curveToRelative(1.92f, 0.67f, 3.48f, 1.88f, 4.43f, 3.46f)
+            close()
+            moveTo(9.93f, 10.85f)
+            curveToRelative(0.61f, -0.43f, 1.39f, -0.85f, 2.07f, -0.85f)
+            reflectiveCurveToRelative(1.46f, 0.43f, 2.07f, 0.85f)
+            lineToRelative(-1.96f, 5.15f)
+            horizontalLineToRelative(-0.22f)
+            lineToRelative(-1.96f, -5.15f)
+            close()
+            moveTo(10.0f, 7.42f)
+            curveToRelative(0.52f, -1.6f, 1.34f, -2.86f, 2.0f, -3.69f)
+            curveToRelative(0.65f, 0.83f, 1.48f, 2.09f, 2.0f, 3.69f)
+            curveToRelative(-0.62f, -0.24f, -1.3f, -0.41f, -2.0f, -0.41f)
+            reflectiveCurveToRelative(-1.38f, 0.17f, -2.0f, 0.41f)
+            close()
+            moveTo(8.46f, 3.58f)
+            curveToRelative(-0.65f, 1.1f, -1.26f, 2.45f, -1.62f, 4.02f)
+            curveToRelative(-0.67f, -0.35f, -1.46f, -0.61f, -2.34f, -0.61f)
+            curveToRelative(-0.17f, 0f, -0.32f, 0.03f, -0.48f, 0.04f)
+            curveToRelative(0.96f, -1.58f, 2.52f, -2.79f, 4.44f, -3.46f)
+            close()
+            moveTo(3.23f, 10.64f)
+            curveToRelative(0.29f, -0.31f, 0.72f, -0.64f, 1.27f, -0.64f)
+            curveToRelative(1.5f, 0f, 2.51f, 1.62f, 2.52f, 1.63f)
+            lineToRelative(1.68f, 4.4f)
+            curveToRelative(-0.02f, 0.0f, -5.44f, -5.36f, -5.46f, -5.39f)
+            close()
+            moveTo(14f, 21f)
+            horizontalLineToRelative(-1f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+            close()
+            moveTo(15.31f, 16.03f)
+            reflectiveCurveToRelative(1.69f, -4.42f, 1.69f, -4.42f)
+            curveToRelative(0.05f, -0.04f, 1.5f, -1.61f, 2.5f, -1.61f)
+            curveToRelative(0.53f, 0f, 0.95f, 0.31f, 1.24f, 0.61f)
+            curveToRelative(-0.02f, 0.02f, -5.42f, 5.42f, -5.43f, 5.42f)
+            close()
+        }
+    }.also { _HumanitarianMission = it }

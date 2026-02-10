@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SimCard: ImageVector? = null
+
+val Icons.Tc.SimCard: ImageVector
+    get() = _SimCard ?: UXIcon(name = "SimCard") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.25f, 11.22f)
+                curveToRelative(-1.09f, -0.13f, -2.83f, -0.22f, -4.25f, -0.22f)
+                curveToRelative(-1.3f, -0.01f, -3.11f, 0.08f, -4.25f, 0.22f)
+                curveToRelative(-1.01f, 0.12f, -1.76f, 0.98f, -1.75f, 2.0f)
+                curveToRelative(0.03f, 1.48f, 0.17f, 3.42f, 0.38f, 4.84f)
+                curveToRelative(0.13f, 0.88f, 0.81f, 1.55f, 1.7f, 1.69f)
+                curveToRelative(0.97f, 0.14f, 2.62f, 0.25f, 3.93f, 0.25f)
+                curveToRelative(1.19f, 0.01f, 2.87f, -0.09f, 3.92f, -0.25f)
+                curveToRelative(0.88f, -0.13f, 1.56f, -0.81f, 1.7f, -1.69f)
+                curveToRelative(0.21f, -1.42f, 0.36f, -3.36f, 0.38f, -4.84f)
+                curveToRelative(0.02f, -1.02f, -0.73f, -1.88f, -1.75f, -2.0f)
+                close()
+                moveTo(12.01f, 12f)
+                curveToRelative(1.36f, 0f, 3.09f, 0.09f, 4.13f, 0.21f)
+                curveToRelative(0.5f, 0.06f, 0.87f, 0.49f, 0.86f, 0.99f)
+                curveToRelative(-0.01f, 0.64f, -0.03f, 1.2f, -0.08f, 1.79f)
+                horizontalLineToRelative(-5.92f)
+                verticalLineToRelative(-2.99f)
+                curveToRelative(0.35f, -0.01f, 0.69f, -0.01f, 1.0f, -0.01f)
+                close()
+                moveTo(7.86f, 12.21f)
+                curveToRelative(0.56f, -0.07f, 1.33f, -0.12f, 2.14f, -0.16f)
+                verticalLineToRelative(2.95f)
+                horizontalLineToRelative(-2.92f)
+                curveToRelative(-0.05f, -0.59f, -0.07f, -1.17f, -0.08f, -1.79f)
+                curveToRelative(-0.01f, -0.51f, 0.36f, -0.94f, 0.86f, -0.99f)
+                close()
+                moveTo(8.22f, 18.76f)
+                curveToRelative(-0.45f, -0.07f, -0.79f, -0.4f, -0.85f, -0.84f)
+                curveToRelative(-0.08f, -0.54f, -0.17f, -1.29f, -0.21f, -1.92f)
+                horizontalLineToRelative(5.85f)
+                verticalLineToRelative(2.98f)
+                curveToRelative(-0.35f, 0.01f, -0.69f, 0.02f, -1f, 0.02f)
+                curveToRelative(-1.25f, 0f, -2.87f, -0.1f, -3.78f, -0.24f)
+                close()
+                moveTo(16.63f, 17.92f)
+                curveToRelative(-0.07f, 0.44f, -0.41f, 0.78f, -0.85f, 0.84f)
+                curveToRelative(-0.46f, 0.07f, -1.1f, 0.13f, -1.78f, 0.17f)
+                verticalLineToRelative(-2.93f)
+                horizontalLineToRelative(2.84f)
+                curveToRelative(-0.04f, 0.63f, -0.13f, 1.38f, -0.21f, 1.92f)
+                close()
+                moveTo(20.66f, 6.35f)
+                curveToRelative(-0.01f, -0.11f, -0.07f, -0.21f, -0.14f, -0.29f)
+                lineToRelative(-4.77f, -4.71f)
+                curveToRelative(-0.08f, -0.08f, -0.18f, -0.13f, -0.29f, -0.14f)
+                curveToRelative(-1.14f, -0.14f, -2.3f, -0.21f, -3.45f, -0.21f)
+                curveToRelative(-4.57f, 0f, -7.42f, 1.04f, -7.54f, 1.08f)
+                curveToRelative(-0.14f, 0.05f, -0.25f, 0.16f, -0.3f, 0.3f)
+                curveToRelative(-0.05f, 0.13f, -1.16f, 3.31f, -1.16f, 9.62f)
+                reflectiveCurveToRelative(1.11f, 9.49f, 1.16f, 9.62f)
+                curveToRelative(0.05f, 0.14f, 0.16f, 0.25f, 0.3f, 0.3f)
+                curveToRelative(0.12f, 0.04f, 2.97f, 1.08f, 7.54f, 1.08f)
+                reflectiveCurveToRelative(7.42f, -1.04f, 7.54f, -1.08f)
+                curveToRelative(0.14f, -0.05f, 0.25f, -0.16f, 0.3f, -0.3f)
+                curveToRelative(0.05f, -0.13f, 1.16f, -3.31f, 1.16f, -9.62f)
+                curveToRelative(0f, -2.0f, -0.12f, -3.9f, -0.34f, -5.65f)
+                close()
+                moveTo(18.97f, 21.06f)
+                curveToRelative(-0.75f, 0.23f, -3.3f, 0.94f, -6.97f, 0.94f)
+                reflectiveCurveToRelative(-6.22f, -0.71f, -6.97f, -0.94f)
+                curveToRelative(-0.24f, -0.82f, -1.03f, -3.86f, -1.03f, -9.06f)
+                reflectiveCurveToRelative(0.79f, -8.24f, 1.03f, -9.06f)
+                curveToRelative(0.75f, -0.23f, 3.3f, -0.94f, 6.97f, -0.94f)
+                curveToRelative(1.06f, 0f, 2.12f, 0.06f, 3.17f, 0.18f)
+                lineToRelative(4.52f, 4.47f)
+                curveToRelative(0.21f, 1.66f, 0.31f, 3.45f, 0.31f, 5.35f)
+                curveToRelative(0f, 5.19f, -0.79f, 8.24f, -1.03f, 9.06f)
+                close()
+            }
+        }.also { _SimCard = it}

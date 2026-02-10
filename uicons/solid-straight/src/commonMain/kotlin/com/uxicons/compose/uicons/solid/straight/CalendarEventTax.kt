@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CalendarEventTax: ImageVector? = null
+
+val Icons.Ss.CalendarEventTax: ImageVector
+    get() = _CalendarEventTax ?: UXIcon(name = "CalendarEventTax") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(14.56f, 16f)
+                curveToRelative(-1.19f, 0f, -1.76f, 1.0f, -1.88f, 1.58f)
+                lineToRelative(-1.38f, 5.98f)
+                verticalLineToRelative(0.43f)
+                horizontalLineToRelative(1.51f)
+                lineToRelative(0.33f, -1.4f)
+                horizontalLineToRelative(2.83f)
+                lineToRelative(0.33f, 1.4f)
+                horizontalLineToRelative(1.61f)
+                lineToRelative(-1.45f, -6.37f)
+                curveToRelative(-0.15f, -0.67f, -0.7f, -1.63f, -1.89f, -1.63f)
+                close()
+                moveTo(13.51f, 21f)
+                lineToRelative(0.73f, -3.08f)
+                curveToRelative(0.03f, -0.13f, 0.14f, -0.32f, 0.32f, -0.32f)
+                reflectiveCurveToRelative(0.29f, 0.17f, 0.33f, 0.38f)
+                lineToRelative(0.7f, 3.02f)
+                horizontalLineToRelative(-2.08f)
+                close()
+                moveTo(24f, 5f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 8f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(3f)
+                lineTo(6f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                lineTo(16f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(24f, 16f)
+                lineToRelative(-1.99f, 4f)
+                lineToRelative(1.99f, 4f)
+                horizontalLineToRelative(-1.81f)
+                lineToRelative(-1.09f, -2.18f)
+                lineToRelative(-1.09f, 2.18f)
+                horizontalLineToRelative(-1.81f)
+                lineToRelative(1.99f, -4f)
+                lineToRelative(-1.99f, -4f)
+                horizontalLineToRelative(1.81f)
+                lineToRelative(1.09f, 2.18f)
+                lineToRelative(1.09f, -2.18f)
+                horizontalLineToRelative(1.81f)
+                close()
+                moveTo(0f, 10f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(4f)
+                lineTo(3.8f, 14f)
+                verticalLineToRelative(5.6f)
+                horizontalLineToRelative(1.9f)
+                verticalLineToRelative(4.4f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-14f)
+                close()
+                moveTo(9.3f, 17.6f)
+                verticalLineToRelative(6.4f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-6.4f)
+                horizontalLineToRelative(-1.9f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(5.5f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(-2f)
+                close()
+            }
+        }.also { _CalendarEventTax = it}

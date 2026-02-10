@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ShuttleVan: ImageVector? = null
+
+val Icons.Rc.ShuttleVan: ImageVector
+    get() = _ShuttleVan ?: UXIcon(name = "ShuttleVan") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.2f, 10.51f)
+                curveToRelative(-1.43f, -3.89f, -3.33f, -6.72f, -3.41f, -6.84f)
+                curveToRelative(-0.11f, -0.17f, -0.27f, -0.29f, -0.46f, -0.37f)
+                curveToRelative(-0.11f, -0.04f, -2.76f, -1.09f, -7.53f, -1.09f)
+                reflectiveCurveTo(3.4f, 3.26f, 3.29f, 3.3f)
+                curveToRelative(-0.25f, 0.1f, -0.45f, 0.3f, -0.55f, 0.55f)
+                curveToRelative(-0.05f, 0.13f, -1.27f, 3.18f, -1.58f, 6.97f)
+                curveToRelative(-0.02f, 0.17f, -0.15f, 1.45f, -0.15f, 3.13f)
+                curveToRelative(0f, 1.98f, 0.81f, 3.46f, 0.84f, 3.52f)
+                curveToRelative(0.15f, 0.26f, 0.4f, 0.45f, 0.7f, 0.5f)
+                curveToRelative(0.04f, 0.01f, 0.3f, 0.05f, 0.74f, 0.12f)
+                verticalLineToRelative(0.63f)
+                curveToRelative(0f, 1.69f, 1.37f, 3.06f, 3.04f, 3.06f)
+                reflectiveCurveToRelative(3.05f, -1.37f, 3.05f, -3.06f)
+                verticalLineToRelative(-0.04f)
+                curveToRelative(0.84f, 0.04f, 1.72f, 0.06f, 2.63f, 0.06f)
+                reflectiveCurveToRelative(1.79f, -0.02f, 2.62f, -0.06f)
+                verticalLineToRelative(0.04f)
+                curveToRelative(0f, 1.69f, 1.37f, 3.06f, 3.05f, 3.06f)
+                reflectiveCurveToRelative(3.04f, -1.37f, 3.04f, -3.06f)
+                verticalLineToRelative(-0.63f)
+                curveToRelative(0.44f, -0.07f, 0.7f, -0.11f, 0.74f, -0.12f)
+                curveToRelative(0.3f, -0.05f, 0.56f, -0.24f, 0.7f, -0.51f)
+                curveToRelative(0.03f, -0.06f, 0.83f, -1.55f, 0.83f, -3.52f)
+                curveToRelative(0f, -1.75f, -0.63f, -3.11f, -0.8f, -3.44f)
+                close()
+                moveTo(19.72f, 9.67f)
+                curveToRelative(-1.42f, -0.18f, -3.59f, -0.41f, -6.06f, -0.49f)
+                lineTo(13.66f, 4.36f)
+                curveToRelative(1.88f, 0.19f, 3.13f, 0.54f, 3.65f, 0.7f)
+                curveToRelative(0.41f, 0.64f, 1.44f, 2.36f, 2.41f, 4.61f)
+                close()
+                moveTo(11.66f, 4.23f)
+                verticalLineToRelative(4.93f)
+                curveToRelative(-1.05f, 0.01f, -2.09f, 0.04f, -3.07f, 0.1f)
+                lineTo(8.59f, 4.3f)
+                curveToRelative(0.67f, -0.05f, 1.41f, -0.09f, 2.21f, -0.09f)
+                curveToRelative(0.29f, 0f, 0.58f, 0.0f, 0.86f, 0.01f)
+                close()
+                moveTo(4.44f, 5.02f)
+                curveToRelative(0.41f, -0.13f, 1.14f, -0.32f, 2.15f, -0.48f)
+                verticalLineToRelative(4.87f)
+                curveToRelative(-1.34f, 0.11f, -2.49f, 0.24f, -3.31f, 0.35f)
+                curveToRelative(0.31f, -2.16f, 0.88f, -3.95f, 1.15f, -4.73f)
+                close()
+                moveTo(7.38f, 18.73f)
+                curveToRelative(0f, 0.58f, -0.47f, 1.06f, -1.05f, 1.06f)
+                reflectiveCurveToRelative(-1.04f, -0.47f, -1.04f, -1.06f)
+                verticalLineToRelative(-0.37f)
+                curveToRelative(0.62f, 0.07f, 1.32f, 0.14f, 2.09f, 0.2f)
+                verticalLineToRelative(0.17f)
+                close()
+                moveTo(18.72f, 18.73f)
+                curveToRelative(0f, 0.58f, -0.47f, 1.06f, -1.04f, 1.06f)
+                reflectiveCurveToRelative(-1.05f, -0.47f, -1.05f, -1.06f)
+                verticalLineToRelative(-0.17f)
+                curveToRelative(0.77f, -0.06f, 1.47f, -0.13f, 2.09f, -0.2f)
+                verticalLineToRelative(0.37f)
+                close()
+                moveTo(20.59f, 16.09f)
+                curveToRelative(-1.28f, 0.19f, -4.74f, 0.66f, -8.59f, 0.66f)
+                reflectiveCurveToRelative(-7.32f, -0.47f, -8.6f, -0.66f)
+                curveToRelative(-0.17f, -0.45f, -0.41f, -1.22f, -0.41f, -2.14f)
+                curveToRelative(0f, -0.87f, 0.04f, -1.63f, 0.07f, -2.16f)
+                curveToRelative(1.56f, -0.21f, 5.23f, -0.64f, 8.93f, -0.64f)
+                curveToRelative(3.86f, 0f, 7.32f, 0.47f, 8.59f, 0.66f)
+                curveToRelative(0.17f, 0.45f, 0.41f, 1.22f, 0.41f, 2.13f)
+                curveToRelative(0f, 0.91f, -0.23f, 1.68f, -0.41f, 2.14f)
+                close()
+            }
+        }.also { _ShuttleVan = it}

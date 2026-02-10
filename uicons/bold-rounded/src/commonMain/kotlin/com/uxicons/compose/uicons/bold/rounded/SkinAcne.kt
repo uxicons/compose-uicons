@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SkinAcne: ImageVector? = null
+
+val Icons.Br.SkinAcne: ImageVector
+    get() = _SkinAcne ?: UXIcon(name = "SkinAcne") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(3f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(6.5f, 21f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(17.5f, 21f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(12f, 18f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(22.5f, 18f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(9f, 8f)
+            curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+            reflectiveCurveToRelative(3f, -1.34f, 3f, -3f)
+            reflectiveCurveToRelative(-1.34f, -3f, -3f, -3f)
+            reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+            close()
+            moveTo(1.73f, 9.98f)
+            curveToRelative(2.46f, -0.38f, 4.63f, -1.98f, 5.83f, -4.29f)
+            curveToRelative(0.87f, -1.66f, 2.57f, -2.69f, 4.44f, -2.69f)
+            reflectiveCurveToRelative(3.57f, 1.03f, 4.45f, 2.71f)
+            curveToRelative(1.19f, 2.29f, 3.37f, 3.89f, 5.82f, 4.27f)
+            curveToRelative(0.08f, 0.01f, 0.15f, 0.02f, 0.23f, 0.02f)
+            curveToRelative(0.73f, 0f, 1.37f, -0.53f, 1.48f, -1.27f)
+            curveToRelative(0.13f, -0.82f, -0.43f, -1.58f, -1.25f, -1.71f)
+            curveToRelative(-1.51f, -0.23f, -2.87f, -1.24f, -3.63f, -2.71f)
+            curveTo(17.71f, 1.65f, 14.99f, 0f, 12f, 0f)
+            reflectiveCurveToRelative(-5.71f, 1.65f, -7.11f, 4.33f)
+            curveToRelative(-0.75f, 1.45f, -2.1f, 2.45f, -3.62f, 2.69f)
+            curveToRelative(-0.82f, 0.13f, -1.38f, 0.89f, -1.25f, 1.71f)
+            curveToRelative(0.13f, 0.82f, 0.9f, 1.38f, 1.71f, 1.25f)
+            close()
+            moveTo(23.8f, 14.59f)
+            curveToRelative(0.42f, -0.72f, 0.17f, -1.63f, -0.54f, -2.05f)
+            curveToRelative(-1.53f, -0.89f, -3.57f, -0.75f, -5.05f, 0.3f)
+            curveToRelative(-0.13f, 0.09f, -0.28f, 0.09f, -0.41f, 0f)
+            curveToRelative(-1.64f, -1.17f, -3.96f, -1.17f, -5.59f, 0f)
+            curveToRelative(-0.13f, 0.09f, -0.28f, 0.09f, -0.41f, 0f)
+            curveToRelative(-1.64f, -1.17f, -3.96f, -1.17f, -5.59f, 0f)
+            curveToRelative(-0.13f, 0.09f, -0.28f, 0.09f, -0.41f, 0f)
+            curveToRelative(-1.48f, -1.05f, -3.52f, -1.19f, -5.05f, -0.3f)
+            curveToRelative(-0.72f, 0.42f, -0.96f, 1.33f, -0.54f, 2.05f)
+            curveToRelative(0.42f, 0.72f, 1.33f, 0.96f, 2.05f, 0.55f)
+            curveToRelative(0.54f, -0.31f, 1.26f, -0.24f, 1.81f, 0.15f)
+            curveToRelative(1.16f, 0.82f, 2.72f, 0.82f, 3.88f, 0f)
+            curveToRelative(0.62f, -0.44f, 1.49f, -0.44f, 2.12f, 0f)
+            curveToRelative(1.16f, 0.82f, 2.72f, 0.82f, 3.88f, 0f)
+            curveToRelative(0.62f, -0.44f, 1.49f, -0.44f, 2.12f, 0f)
+            curveToRelative(0.58f, 0.41f, 1.26f, 0.62f, 1.94f, 0.62f)
+            curveToRelative(0.68f, 0f, 1.36f, -0.21f, 1.94f, -0.62f)
+            curveToRelative(0.54f, -0.39f, 1.27f, -0.46f, 1.81f, -0.15f)
+            curveToRelative(0.72f, 0.41f, 1.63f, 0.17f, 2.05f, -0.55f)
+            close()
+        }
+    }.also { _SkinAcne = it }

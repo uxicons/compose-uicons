@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _InfoGuide: ImageVector? = null
+
+val Icons.Rs.InfoGuide: ImageVector
+    get() = _InfoGuide ?: UXIcon(name = "InfoGuide") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 3.98f)
+                verticalLineToRelative(16.83f)
+                lineToRelative(-12f, 2.18f)
+                lineTo(0f, 20.81f)
+                lineTo(0f, 3.97f)
+                horizontalLineToRelative(0f)
+                curveTo(0f, 3.08f, 0.39f, 2.24f, 1.08f, 1.67f)
+                curveToRelative(0.69f, -0.57f, 1.58f, -0.81f, 2.46f, -0.65f)
+                lineToRelative(0.46f, 0.08f)
+                verticalLineToRelative(2.03f)
+                lineToRelative(-0.82f, -0.15f)
+                curveToRelative(-0.41f, -0.07f, -0.69f, 0.1f, -0.82f, 0.22f)
+                curveToRelative(-0.13f, 0.11f, -0.36f, 0.36f, -0.36f, 0.77f)
+                curveToRelative(0f, 0f, 0f, 0.01f, 0f, 0.01f)
+                verticalLineToRelative(15.16f)
+                lineToRelative(9f, 1.64f)
+                verticalLineToRelative(-4.77f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4.77f)
+                lineToRelative(9f, -1.64f)
+                lineTo(22f, 3.97f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, -0.41f, -0.23f, -0.66f, -0.36f, -0.77f)
+                curveToRelative(-0.13f, -0.11f, -0.42f, -0.29f, -0.82f, -0.22f)
+                lineToRelative(-0.82f, 0.15f)
+                lineTo(20f, 1.11f)
+                lineToRelative(0.46f, -0.08f)
+                curveToRelative(0.88f, -0.16f, 1.77f, 0.08f, 2.46f, 0.65f)
+                curveToRelative(0.69f, 0.57f, 1.08f, 1.41f, 1.08f, 2.3f)
+                curveToRelative(0f, 0f, 0f, 0.01f, 0f, 0.01f)
+                close()
+                moveTo(13f, 3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(13f, 6f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(6f, 9f)
+                lineTo(6f, 3f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                horizontalLineToRelative(-0.38f)
+                lineToRelative(-1.59f, 1.57f)
+                curveToRelative(-0.29f, 0.28f, -0.67f, 0.43f, -1.04f, 0.43f)
+                curveToRelative(-0.38f, 0f, -0.76f, -0.14f, -1.05f, -0.43f)
+                lineToRelative(-1.56f, -1.56f)
+                horizontalLineToRelative(-0.38f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                close()
+                moveTo(8f, 9f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(1.21f)
+                lineToRelative(1.78f, 1.79f)
+                lineToRelative(1.81f, -1.79f)
+                horizontalLineToRelative(1.21f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                lineTo(16.0f, 3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(6f)
+                close()
+            }
+        }.also { _InfoGuide = it}

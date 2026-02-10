@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BearMarket: ImageVector? = null
+
+val Icons.Ts.BearMarket: ImageVector
+    get() = _BearMarket ?: UXIcon(name = "BearMarket") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7f, 8f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(14f, 8f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(18f, 19.72f)
+                verticalLineToRelative(-5.22f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5.25f)
+                lineToRelative(-2.12f, -2.12f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(2.21f, 2.21f)
+                curveToRelative(0.31f, 0.31f, 0.71f, 0.46f, 1.11f, 0.46f)
+                reflectiveCurveToRelative(0.8f, -0.15f, 1.11f, -0.46f)
+                lineToRelative(2.22f, -2.22f)
+                lineToRelative(-0.71f, -0.71f)
+                lineToRelative(-2.11f, 2.11f)
+                close()
+                moveTo(24f, 17.5f)
+                curveToRelative(0f, 3.58f, -2.92f, 6.5f, -6.5f, 6.5f)
+                reflectiveCurveToRelative(-6.5f, -2.92f, -6.5f, -6.5f)
+                reflectiveCurveToRelative(2.92f, -6.5f, 6.5f, -6.5f)
+                reflectiveCurveToRelative(6.5f, 2.92f, 6.5f, 6.5f)
+                close()
+                moveTo(23f, 17.5f)
+                curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+                reflectiveCurveToRelative(-5.5f, 2.47f, -5.5f, 5.5f)
+                reflectiveCurveToRelative(2.47f, 5.5f, 5.5f, 5.5f)
+                reflectiveCurveToRelative(5.5f, -2.47f, 5.5f, -5.5f)
+                close()
+                moveTo(1f, 13.53f)
+                verticalLineToRelative(-3.9f)
+                lineToRelative(1.56f, -2.62f)
+                curveToRelative(-0.35f, -0.42f, -1.41f, -1.16f, -1.56f, -3.02f)
+                curveToRelative(0f, -1.68f, 1.25f, -3f, 2.83f, -3f)
+                curveToRelative(1.37f, 0.03f, 2.18f, 0.96f, 2.67f, 1.91f)
+                lineToRelative(0.41f, -0.17f)
+                curveToRelative(2.27f, -0.97f, 4.9f, -0.97f, 7.17f, 0f)
+                lineToRelative(0.41f, 0.17f)
+                curveToRelative(0.49f, -0.95f, 1.3f, -1.88f, 2.67f, -1.91f)
+                curveToRelative(1.59f, 0f, 2.83f, 1.32f, 2.83f, 3f)
+                curveToRelative(-0.15f, 1.86f, -1.2f, 2.59f, -1.56f, 3.02f)
+                lineToRelative(1.38f, 2.31f)
+                curveToRelative(0.41f, 0.12f, 0.8f, 0.26f, 1.18f, 0.43f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.31f, -2.2f)
+                curveToRelative(0.45f, -0.54f, 1.31f, -1.74f, 1.31f, -3.16f)
+                curveToRelative(0f, -2.24f, -1.68f, -4f, -3.83f, -4f)
+                curveToRelative(-1.19f, 0f, -2.34f, 0.62f, -3.08f, 1.66f)
+                curveToRelative(-2.29f, -0.87f, -4.88f, -0.87f, -7.17f, 0f)
+                curveToRelative(-0.74f, -1.03f, -1.89f, -1.66f, -3.08f, -1.66f)
+                curveToRelative(-2.15f, 0f, -3.83f, 1.76f, -3.83f, 4f)
+                curveToRelative(0f, 1.42f, 0.86f, 2.62f, 1.31f, 3.16f)
+                lineToRelative(-1.31f, 2.2f)
+                verticalLineToRelative(4.28f)
+                curveToRelative(0.12f, 0.45f, 1.76f, 4.43f, 10.26f, 8.3f)
+                curveToRelative(-0.28f, -0.45f, -0.52f, -0.93f, -0.7f, -1.44f)
+                curveToRelative(-6.41f, -3.13f, -8.28f, -6.43f, -8.56f, -6.97f)
+                close()
+                moveTo(8.5f, 12.95f)
+                curveToRelative(0f, 0.39f, 0.39f, 1.05f, 1.12f, 1.37f)
+                curveToRelative(0.34f, -0.84f, 0.81f, -1.61f, 1.38f, -2.29f)
+                curveToRelative(-0.16f, -0.02f, -0.32f, -0.03f, -0.5f, -0.03f)
+                curveToRelative(-1.29f, 0f, -2f, 0.42f, -2f, 0.95f)
+                close()
+            }
+        }.also { _BearMarket = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckPlow: ImageVector? = null
+
+val Icons.Tr.TruckPlow: ImageVector
+    get() = _TruckPlow ?: UXIcon(name = "TruckPlow") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 15.67f)
+                verticalLineToRelative(-4.34f)
+                curveToRelative(0f, -1.69f, 0.66f, -3.28f, 1.85f, -4.47f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                reflectiveCurveToRelative(-0.51f, -0.2f, -0.71f, 0f)
+                curveToRelative(-1.38f, 1.39f, -2.15f, 3.23f, -2.15f, 5.18f)
+                verticalLineToRelative(1.67f)
+                horizontalLineToRelative(-3.04f)
+                curveToRelative(-0.17f, -1.19f, -0.94f, -2.19f, -2.0f, -2.68f)
+                curveToRelative(-0.01f, -0.04f, -4.44f, -6.4f, -4.44f, -6.4f)
+                curveToRelative(-0.87f, -1.25f, -2.81f, -1.93f, -4.19f, -1.93f)
+                horizontalLineToRelative(-0.84f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(5.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.65f, 0.42f, 1.21f, 1f, 1.41f)
+                verticalLineToRelative(1.09f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-1.09f)
+                curveToRelative(0.58f, -0.21f, 1f, -0.76f, 1f, -1.41f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1.67f)
+                curveToRelative(0f, 1.96f, 0.76f, 3.8f, 2.15f, 5.18f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(-1.2f, -1.2f, -1.85f, -2.79f, -1.85f, -4.47f)
+                close()
+                moveTo(5f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(0.84f)
+                curveToRelative(1.14f, 0f, 2.72f, 0.56f, 3.37f, 1.5f)
+                curveToRelative(0f, 0f, 3.81f, 5.5f, 3.79f, 5.5f)
+                lineTo(5f, 10f)
+                lineTo(5f, 4.5f)
+                close()
+                moveTo(6f, 18f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-1f)
+                lineTo(6f, 17f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(14f, 20f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(17f, 15.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                lineTo(1.5f, 16f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                lineTo(14.5f, 11f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _TruckPlow = it}

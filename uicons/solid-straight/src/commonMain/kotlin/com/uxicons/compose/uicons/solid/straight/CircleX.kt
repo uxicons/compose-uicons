@@ -1,0 +1,36 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleX: ImageVector? = null
+
+val Icons.Ss.CircleX: ImageVector
+    get() = _CircleX ?: UXIcon(name = "CircleX") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveTo(18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(15.03f, 17.75f)
+                lineToRelative(-3.0f, -4.06f)
+                lineToRelative(-2.99f, 4.06f)
+                horizontalLineToRelative(-2.48f)
+                lineToRelative(4.23f, -5.75f)
+                lineToRelative(-4.18f, -5.75f)
+                horizontalLineToRelative(2.48f)
+                lineToRelative(2.94f, 4.06f)
+                lineToRelative(2.96f, -4.06f)
+                horizontalLineToRelative(2.48f)
+                lineToRelative(-4.2f, 5.75f)
+                lineToRelative(4.25f, 5.75f)
+                horizontalLineToRelative(-2.48f)
+                close()
+            }
+        }.also { _CircleX = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BuildingCircleArrowRight: ImageVector? = null
+
+val Icons.Ss.BuildingCircleArrowRight: ImageVector
+    get() = _BuildingCircleArrowRight ?: UXIcon(name = "BuildingCircleArrowRight") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 12f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(20.69f, 18.74f)
+                lineToRelative(-2.69f, 2.69f)
+                verticalLineToRelative(-2.43f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2.45f)
+                lineToRelative(2.69f, 2.69f)
+                curveToRelative(0.42f, 0.42f, 0.42f, 1.09f, 0f, 1.51f)
+                close()
+                moveTo(10.07f, 19f)
+                horizontalLineToRelative(-1.07f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1.07f)
+                curveToRelative(0.09f, -0.7f, 0.26f, -1.37f, 0.52f, -2f)
+                horizontalLineToRelative(-1.59f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.76f)
+                curveToRelative(1.06f, -1.33f, 2.54f, -2.3f, 4.24f, -2.74f)
+                lineTo(16f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                verticalLineToRelative(21f)
+                horizontalLineToRelative(12.72f)
+                curveToRelative(-1.43f, -1.26f, -2.4f, -3.01f, -2.65f, -5f)
+                close()
+                moveTo(9f, 5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(9f, 9f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(7f, 19f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(7f, 15f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(7f, 11f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(7f, 7f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _BuildingCircleArrowRight = it}

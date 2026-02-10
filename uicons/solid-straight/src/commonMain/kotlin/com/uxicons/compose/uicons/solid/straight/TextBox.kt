@@ -1,0 +1,64 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TextBox: ImageVector? = null
+
+val Icons.Ss.TextBox: ImageVector
+    get() = _TextBox ?: UXIcon(name = "TextBox") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 6f)
+                verticalLineToRelative(-3.67f)
+                curveToRelative(0f, -1.29f, -1.05f, -2.33f, -2.33f, -2.33f)
+                horizontalLineToRelative(-3.67f)
+                verticalLineToRelative(2f)
+                lineTo(6f, 2f)
+                lineTo(6f, 0f)
+                horizontalLineToRelative(-3.67f)
+                curveTo(1.05f, 0f, 0f, 1.05f, 0f, 2.33f)
+                verticalLineToRelative(3.67f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                lineTo(0f, 18f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-2f)
+                lineTo(22f, 6f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(20f, 18f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                lineTo(6f, 20f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                lineTo(4f, 6f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(8f, 8f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _TextBox = it}

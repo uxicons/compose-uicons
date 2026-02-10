@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SchoolBus: ImageVector? = null
+
+val Icons.Rs.SchoolBus: ImageVector
+    get() = _SchoolBus ?: UXIcon(name = "SchoolBus") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 14f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3f, -3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-7f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3f, -3f)
+                horizontalLineToRelative(-13f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3f, 3f)
+                verticalLineToRelative(15f)
+                horizontalLineToRelative(2.04f)
+                arcToRelative(3.46f, 3.46f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.04f, 0.5f)
+                arcToRelative(3.5f, 3.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7f, 0f)
+                arcToRelative(3.46f, 3.46f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.04f, -0.5f)
+                horizontalLineToRelative(6.08f)
+                arcToRelative(3.46f, 3.46f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.04f, 0.5f)
+                arcToRelative(3.5f, 3.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7f, 0f)
+                arcToRelative(3.46f, 3.46f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.04f, -0.5f)
+                horizontalLineToRelative(2.04f)
+                close()
+                moveTo(13f, 13f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(2f, 11f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(6f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(15f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(3f, 3f)
+                horizontalLineToRelative(13f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-15f)
+                verticalLineToRelative(-1f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, -1f)
+                close()
+                moveTo(2f, 13f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(7f, 19.5f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+                arcToRelative(1.41f, 1.41f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.09f, -0.5f)
+                horizontalLineToRelative(2.81f)
+                arcToRelative(1.41f, 1.41f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.09f, 0.5f)
+                close()
+                moveTo(20f, 19.5f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+                arcToRelative(1.41f, 1.41f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.09f, -0.5f)
+                horizontalLineToRelative(2.81f)
+                arcToRelative(1.41f, 1.41f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.09f, 0.5f)
+                close()
+                moveTo(22f, 17f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(6f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, 1f)
+                close()
+            }
+        }.also { _SchoolBus = it}

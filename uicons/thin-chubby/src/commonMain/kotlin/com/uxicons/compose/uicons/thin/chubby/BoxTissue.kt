@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BoxTissue: ImageVector? = null
+
+val Icons.Tc.BoxTissue: ImageVector
+    get() = _BoxTissue ?: UXIcon(name = "BoxTissue") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(1f, 15.44f)
+                curveToRelative(0f, 3.15f, 1.21f, 5.5f, 1.26f, 5.6f)
+                curveToRelative(0.07f, 0.14f, 0.21f, 0.24f, 0.36f, 0.26f)
+                curveToRelative(0.04f, 0.01f, 4.4f, 0.7f, 9.37f, 0.7f)
+                reflectiveCurveToRelative(9.33f, -0.7f, 9.37f, -0.7f)
+                curveToRelative(0.15f, -0.03f, 0.29f, -0.12f, 0.36f, -0.26f)
+                curveToRelative(0.05f, -0.1f, 1.27f, -2.43f, 1.27f, -5.6f)
+                reflectiveCurveToRelative(-1.21f, -5.5f, -1.26f, -5.6f)
+                curveToRelative(-0.07f, -0.14f, -0.21f, -0.24f, -0.36f, -0.26f)
+                curveToRelative(-0.04f, -0.01f, -1.01f, -0.16f, -2.57f, -0.33f)
+                lineToRelative(1.13f, -6.38f)
+                curveToRelative(0.03f, -0.19f, -0.04f, -0.38f, -0.2f, -0.49f)
+                curveToRelative(-0.15f, -0.11f, -0.36f, -0.13f, -0.53f, -0.04f)
+                curveToRelative(-0.44f, 0.24f, -0.77f, 0.55f, -1.08f, 0.86f)
+                curveToRelative(-0.52f, 0.51f, -0.93f, 0.91f, -1.8f, 0.91f)
+                reflectiveCurveToRelative(-1.28f, -0.4f, -1.8f, -0.91f)
+                curveToRelative(-0.57f, -0.56f, -1.22f, -1.2f, -2.51f, -1.2f)
+                reflectiveCurveToRelative(-1.93f, 0.64f, -2.51f, 1.2f)
+                curveToRelative(-0.52f, 0.51f, -0.93f, 0.91f, -1.81f, 0.91f)
+                reflectiveCurveToRelative(-1.29f, -0.4f, -1.81f, -0.91f)
+                curveToRelative(-0.32f, -0.31f, -0.64f, -0.63f, -1.09f, -0.86f)
+                curveToRelative(-0.17f, -0.09f, -0.37f, -0.07f, -0.53f, 0.04f)
+                curveToRelative(-0.15f, 0.11f, -0.23f, 0.3f, -0.2f, 0.49f)
+                lineToRelative(1.13f, 6.38f)
+                curveToRelative(-1.56f, 0.17f, -2.53f, 0.32f, -2.57f, 0.33f)
+                curveToRelative(-0.15f, 0.03f, -0.29f, 0.12f, -0.36f, 0.26f)
+                curveToRelative(-0.05f, 0.1f, -1.27f, 2.43f, -1.27f, 5.6f)
+                close()
+                moveTo(18.71f, 4.02f)
+                lineTo(17.29f, 12.06f)
+                curveToRelative(-0.49f, 0.09f, -1.5f, 0.25f, -2.79f, 0.36f)
+                verticalLineToRelative(-3.42f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3.49f)
+                curveToRelative(-0.48f, 0.03f, -0.98f, 0.04f, -1.5f, 0.04f)
+                reflectiveCurveToRelative(-1.02f, -0.01f, -1.5f, -0.04f)
+                verticalLineToRelative(-4.49f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(4.42f)
+                curveToRelative(-1.28f, -0.11f, -2.3f, -0.27f, -2.79f, -0.36f)
+                lineToRelative(-1.42f, -8.05f)
+                curveToRelative(0.55f, 0.53f, 1.2f, 1.1f, 2.4f, 1.1f)
+                curveToRelative(1.28f, 0f, 1.93f, -0.64f, 2.51f, -1.2f)
+                curveToRelative(0.52f, -0.51f, 0.93f, -0.91f, 1.81f, -0.91f)
+                reflectiveCurveToRelative(1.28f, 0.4f, 1.81f, 0.91f)
+                curveToRelative(0.57f, 0.56f, 1.22f, 1.2f, 2.5f, 1.2f)
+                curveToRelative(1.2f, 0f, 1.85f, -0.56f, 2.39f, -1.09f)
+                close()
+                moveTo(2.19f, 17.5f)
+                horizontalLineToRelative(19.63f)
+                curveToRelative(-0.24f, 1.38f, -0.67f, 2.42f, -0.86f, 2.85f)
+                curveToRelative(-0.99f, 0.15f, -4.74f, 0.65f, -8.96f, 0.65f)
+                reflectiveCurveToRelative(-7.96f, -0.51f, -8.95f, -0.65f)
+                curveToRelative(-0.2f, -0.43f, -0.61f, -1.48f, -0.86f, -2.85f)
+                close()
+                moveTo(2.05f, 16.5f)
+                curveToRelative(-0.03f, -0.34f, -0.05f, -0.7f, -0.05f, -1.06f)
+                curveToRelative(0f, -2.38f, 0.76f, -4.28f, 1.04f, -4.91f)
+                curveToRelative(0.39f, -0.06f, 1.22f, -0.17f, 2.33f, -0.29f)
+                lineToRelative(0.41f, 2.34f)
+                curveToRelative(0.04f, 0.2f, 0.19f, 0.36f, 0.39f, 0.4f)
+                curveToRelative(0.11f, 0.02f, 2.67f, 0.55f, 5.83f, 0.55f)
+                reflectiveCurveToRelative(5.72f, -0.53f, 5.83f, -0.55f)
+                curveToRelative(0.2f, -0.04f, 0.35f, -0.2f, 0.39f, -0.4f)
+                lineToRelative(0.41f, -2.34f)
+                curveToRelative(1.11f, 0.12f, 1.93f, 0.23f, 2.33f, 0.29f)
+                curveToRelative(0.28f, 0.63f, 1.05f, 2.55f, 1.05f, 4.91f)
+                curveToRelative(0f, 0.37f, -0.02f, 0.72f, -0.05f, 1.06f)
+                horizontalLineToRelative(-19.9f)
+                close()
+            }
+        }.also { _BoxTissue = it}

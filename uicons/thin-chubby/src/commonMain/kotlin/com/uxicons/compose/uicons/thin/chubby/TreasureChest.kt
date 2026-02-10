@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TreasureChest: ImageVector? = null
+
+val Icons.Tc.TreasureChest: ImageVector
+    get() = _TreasureChest ?: UXIcon(name = "TreasureChest") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.66f, 7.41f)
+                curveToRelative(-0.37f, -2.71f, -2.53f, -4.81f, -5.25f, -5.12f)
+                curveToRelative(-3.35f, -0.38f, -7.48f, -0.38f, -10.83f, 0f)
+                curveToRelative(-2.72f, 0.31f, -4.88f, 2.42f, -5.25f, 5.12f)
+                curveToRelative(-0.22f, 1.64f, -0.34f, 3.19f, -0.34f, 4.59f)
+                curveToRelative(0f, 4.24f, 1.03f, 8.39f, 1.07f, 8.56f)
+                curveToRelative(0.04f, 0.17f, 0.16f, 0.3f, 0.32f, 0.35f)
+                curveToRelative(0.13f, 0.04f, 3.26f, 1.08f, 9.61f, 1.08f)
+                reflectiveCurveToRelative(9.47f, -1.04f, 9.61f, -1.08f)
+                curveToRelative(0.16f, -0.06f, 0.28f, -0.19f, 0.32f, -0.35f)
+                curveToRelative(0.04f, -0.17f, 1.07f, -4.33f, 1.07f, -8.56f)
+                curveToRelative(0f, -1.4f, -0.11f, -2.95f, -0.34f, -4.59f)
+                close()
+                moveTo(19f, 3.8f)
+                curveToRelative(1.42f, 0.72f, 2.45f, 2.1f, 2.67f, 3.75f)
+                curveToRelative(0.07f, 0.5f, 0.11f, 0.97f, 0.15f, 1.46f)
+                horizontalLineToRelative(-2.83f)
+                close()
+                moveTo(6f, 3.42f)
+                curveToRelative(0.23f, -0.06f, 0.46f, -0.11f, 0.7f, -0.14f)
+                curveToRelative(3.27f, -0.37f, 7.33f, -0.37f, 10.6f, 0f)
+                curveToRelative(0.24f, 0.03f, 0.47f, 0.08f, 0.7f, 0.14f)
+                verticalLineToRelative(5.58f)
+                horizontalLineToRelative(-3.54f)
+                curveToRelative(-0.12f, -1.53f, -0.47f, -2.6f, -0.48f, -2.66f)
+                curveToRelative(-0.07f, -0.2f, -0.26f, -0.34f, -0.47f, -0.34f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.21f, 0f, -0.41f, 0.14f, -0.47f, 0.34f)
+                curveToRelative(-0.02f, 0.05f, -0.36f, 1.12f, -0.48f, 2.66f)
+                horizontalLineToRelative(-3.54f)
+                verticalLineToRelative(-5.58f)
+                close()
+                moveTo(13.5f, 10f)
+                curveToRelative(0f, 1.34f, -0.24f, 2.46f, -0.38f, 3f)
+                horizontalLineToRelative(-2.25f)
+                curveToRelative(-0.14f, -0.54f, -0.38f, -1.66f, -0.38f, -3f)
+                reflectiveCurveToRelative(0.24f, -2.46f, 0.38f, -3f)
+                horizontalLineToRelative(2.25f)
+                curveToRelative(0.14f, 0.54f, 0.38f, 1.66f, 0.38f, 3f)
+                close()
+                moveTo(2.33f, 7.54f)
+                curveToRelative(0.22f, -1.65f, 1.25f, -3.02f, 2.67f, -3.75f)
+                verticalLineToRelative(5.2f)
+                horizontalLineToRelative(-2.83f)
+                curveToRelative(0.05f, -0.48f, 0.09f, -0.95f, 0.15f, -1.46f)
+                close()
+                moveTo(21.02f, 20.05f)
+                curveToRelative(-0.34f, 0.09f, -1.02f, 0.26f, -2.02f, 0.43f)
+                verticalLineToRelative(-6.98f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(7.13f)
+                curveToRelative(-1.49f, 0.2f, -3.49f, 0.37f, -6f, 0.37f)
+                reflectiveCurveToRelative(-4.51f, -0.17f, -6f, -0.37f)
+                verticalLineToRelative(-7.13f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(6.98f)
+                curveToRelative(-1.0f, -0.17f, -1.69f, -0.34f, -2.02f, -0.43f)
+                curveToRelative(-0.23f, -1.0f, -0.98f, -4.55f, -0.98f, -8.05f)
+                curveToRelative(0f, -0.64f, 0.03f, -1.31f, 0.08f, -2f)
+                horizontalLineToRelative(7.42f)
+                curveToRelative(0f, 2.06f, 0.5f, 3.59f, 0.53f, 3.66f)
+                curveToRelative(0.07f, 0.2f, 0.26f, 0.34f, 0.47f, 0.34f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.21f, 0f, 0.41f, -0.14f, 0.47f, -0.34f)
+                curveToRelative(0.02f, -0.06f, 0.53f, -1.6f, 0.53f, -3.66f)
+                horizontalLineToRelative(7.42f)
+                curveToRelative(0.05f, 0.69f, 0.08f, 1.36f, 0.08f, 2f)
+                curveToRelative(0f, 3.5f, -0.75f, 7.05f, -0.98f, 8.05f)
+                close()
+            }
+        }.also { _TreasureChest = it}

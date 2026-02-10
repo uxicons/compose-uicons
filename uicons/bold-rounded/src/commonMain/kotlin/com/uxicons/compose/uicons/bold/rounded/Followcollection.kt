@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Followcollection: ImageVector? = null
+
+val Icons.Br.Followcollection: ImageVector
+    get() = _Followcollection ?: UXIcon(name = "Followcollection") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(6.5f, 0f)
+            horizontalLineToRelative(-2f)
+            curveTo(2.02f, 0f, 0f, 2.02f, 0f, 4.5f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-2f)
+            curveTo(11f, 2.02f, 8.98f, 0f, 6.5f, 0f)
+            close()
+            moveTo(8f, 6.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(19.5f, 13f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+            close()
+            moveTo(21f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(6.5f, 13f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+            close()
+            moveTo(8f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(13f, 3.02f)
+            curveToRelative(0f, -1.67f, 1.23f, -3.02f, 2.75f, -3.02f)
+            curveToRelative(1.34f, 0f, 2.5f, 1.05f, 2.74f, 2.44f)
+            horizontalLineToRelative(0f)
+            curveToRelative(0.25f, -1.39f, 1.42f, -2.44f, 2.76f, -2.44f)
+            curveToRelative(1.52f, 0f, 2.75f, 1.35f, 2.75f, 3.02f)
+            curveToRelative(0f, 2.38f, -3.1f, 5.44f, -4.65f, 6.68f)
+            curveToRelative(-0.5f, 0.4f, -1.21f, 0.4f, -1.71f, 0f)
+            curveToRelative(-1.54f, -1.24f, -4.65f, -4.3f, -4.65f, -6.68f)
+            close()
+        }
+    }.also { _Followcollection = it }

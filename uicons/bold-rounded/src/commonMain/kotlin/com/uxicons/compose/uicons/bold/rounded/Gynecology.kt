@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Gynecology: ImageVector? = null
+
+val Icons.Br.Gynecology: ImageVector
+    get() = _Gynecology ?: UXIcon(name = "Gynecology") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(12f, 0f)
+            curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+            reflectiveCurveToRelative(2.24f, 5f, 5f, 5f)
+            reflectiveCurveToRelative(5f, -2.24f, 5f, -5f)
+            reflectiveCurveToRelative(-2.24f, -5f, -5f, -5f)
+            close()
+            moveTo(14f, 6f)
+            horizontalLineToRelative(-1f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+            close()
+            moveTo(16f, 11f)
+            curveToRelative(0f, -0.1f, 0.02f, -0.2f, 0.03f, -0.31f)
+            curveToRelative(-1.14f, 0.81f, -2.52f, 1.31f, -4.03f, 1.31f)
+            reflectiveCurveToRelative(-2.89f, -0.5f, -4.03f, -1.31f)
+            curveToRelative(0.13f, 1.01f, -0.25f, 2.02f, -0.84f, 2.77f)
+            curveToRelative(0.47f, 0.78f, 1.01f, 1.44f, 1.58f, 1.98f)
+            curveToRelative(-0.55f, 0.75f, -0.78f, 1.68f, -0.61f, 2.69f)
+            lineToRelative(0.78f, 3.38f)
+            curveToRelative(0.34f, 1.47f, 1.62f, 2.5f, 3.13f, 2.5f)
+            curveToRelative(1.48f, 0f, 2.77f, -1.01f, 3.12f, -2.45f)
+            lineToRelative(0.83f, -3.41f)
+            curveToRelative(0.01f, -0.04f, 0.02f, -0.07f, 0.02f, -0.11f)
+            curveToRelative(0.15f, -0.93f, -0.09f, -1.87f, -0.65f, -2.62f)
+            curveToRelative(0.55f, -0.53f, 1.07f, -1.18f, 1.53f, -1.95f)
+            curveToRelative(-0.54f, -0.68f, -0.87f, -1.53f, -0.87f, -2.47f)
+            close()
+            moveTo(12.22f, 20.84f)
+            curveToRelative(-0.05f, 0.19f, -0.37f, 0.19f, -0.41f, -0.0f)
+            lineToRelative(-0.76f, -3.3f)
+            curveToRelative(-0.01f, -0.35f, 0.11f, -0.49f, 0.46f, -0.54f)
+            horizontalLineToRelative(1.07f)
+            curveToRelative(0.34f, 0.05f, 0.44f, 0.17f, 0.46f, 0.5f)
+            lineToRelative(-0.82f, 3.34f)
+            close()
+            moveTo(24f, 7f)
+            curveToRelative(0f, 2.41f, -1.06f, 6f, -4f, 6f)
+            curveToRelative(-1.08f, -0.01f, -2.01f, -0.89f, -2f, -2f)
+            curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+            curveToRelative(0.22f, 0f, 0.42f, 0.04f, 0.62f, 0.11f)
+            curveToRelative(0.21f, -0.58f, 0.38f, -1.36f, 0.38f, -2.11f)
+            curveToRelative(0f, -0.73f, 0f, -1f, -1.5f, -1f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            curveToRelative(3.72f, 0f, 4.5f, 2.17f, 4.5f, 4f)
+            close()
+            moveTo(3f, 7f)
+            curveToRelative(0f, 0.74f, 0.17f, 1.53f, 0.38f, 2.11f)
+            curveToRelative(0.2f, -0.07f, 0.4f, -0.11f, 0.62f, -0.11f)
+            curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+            curveToRelative(0.01f, 1.11f, -0.92f, 1.99f, -2f, 2f)
+            curveToRelative(-2.94f, 0f, -4f, -3.59f, -4f, -6f)
+            curveToRelative(0f, -1.82f, 0.78f, -4f, 4.5f, -4f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            curveToRelative(-1.5f, 0f, -1.5f, 0.27f, -1.5f, 1f)
+            close()
+        }
+    }.also { _Gynecology = it }

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BrowserCss: ImageVector? = null
+
+val Icons.Ss.BrowserCss: ImageVector
+    get() = _BrowserCss ?: UXIcon(name = "BrowserCss") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0f, 23f)
+                lineTo(24f, 23f)
+                lineTo(24f, 10f)
+                lineTo(0f, 10f)
+                verticalLineToRelative(13f)
+                close()
+                moveTo(17.29f, 17.15f)
+                curveToRelative(-0.79f, -0.38f, -1.88f, -0.9f, -1.88f, -2.15f)
+                curveToRelative(0f, -1.14f, 0.91f, -2.0f, 2.13f, -2.0f)
+                curveToRelative(1.23f, 0f, 2.15f, 0.98f, 2.33f, 1.13f)
+                lineToRelative(-1.01f, 1.19f)
+                reflectiveCurveToRelative(-0.7f, -0.76f, -1.32f, -0.76f)
+                curveToRelative(-0.06f, 0f, -0.57f, 0.01f, -0.57f, 0.44f)
+                curveToRelative(0f, 0.25f, 0.4f, 0.46f, 1.0f, 0.74f)
+                curveToRelative(0.8f, 0.38f, 1.9f, 0.91f, 1.9f, 2.18f)
+                curveToRelative(0f, 1.35f, -1.17f, 2.08f, -2.28f, 2.08f)
+                curveToRelative(-1.14f, 0f, -2.48f, -1.12f, -2.59f, -1.22f)
+                lineToRelative(1.03f, -1.16f)
+                curveToRelative(0.26f, 0.23f, 1.14f, 0.82f, 1.55f, 0.82f)
+                curveToRelative(0.07f, 0f, 0.72f, -0.01f, 0.72f, -0.52f)
+                curveToRelative(0f, -0.25f, -0.3f, -0.43f, -1.01f, -0.77f)
+                close()
+                moveTo(11.94f, 17.15f)
+                curveToRelative(-0.79f, -0.38f, -1.88f, -0.9f, -1.88f, -2.15f)
+                curveToRelative(0f, -1.14f, 0.91f, -2.0f, 2.13f, -2.0f)
+                curveToRelative(1.23f, 0f, 2.15f, 0.96f, 2.33f, 1.1f)
+                lineToRelative(-1.01f, 1.19f)
+                curveToRelative(-0.29f, -0.24f, -0.79f, -0.74f, -1.32f, -0.74f)
+                curveToRelative(-0.06f, 0f, -0.57f, 0.01f, -0.57f, 0.44f)
+                curveToRelative(0f, 0.25f, 0.4f, 0.46f, 1.0f, 0.74f)
+                curveToRelative(0.8f, 0.38f, 1.9f, 0.91f, 1.9f, 2.18f)
+                curveToRelative(0f, 1.35f, -1.17f, 2.08f, -2.28f, 2.08f)
+                curveToRelative(-1.14f, 0f, -2.45f, -1.08f, -2.56f, -1.19f)
+                lineToRelative(1.03f, -1.16f)
+                curveToRelative(0.26f, 0.23f, 1.11f, 0.79f, 1.53f, 0.79f)
+                curveToRelative(0.07f, 0f, 0.72f, -0.01f, 0.72f, -0.52f)
+                curveToRelative(0f, -0.25f, -0.3f, -0.43f, -1.01f, -0.77f)
+                close()
+                moveTo(4f, 15.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                horizontalLineToRelative(-1.6f)
+                curveToRelative(0f, -0.5f, -0.4f, -0.9f, -0.9f, -0.9f)
+                reflectiveCurveToRelative(-0.9f, 0.4f, -0.9f, 0.9f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.5f, 0.4f, 0.9f, 0.9f, 0.9f)
+                reflectiveCurveToRelative(0.9f, -0.4f, 0.9f, -0.9f)
+                horizontalLineToRelative(1.6f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(21f, 1f)
+                lineTo(3f, 1f)
+                curveTo(1.35f, 1f, 0f, 2.35f, 0f, 4f)
+                verticalLineToRelative(4f)
+                lineTo(24f, 8f)
+                lineTo(24f, 4f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(3.5f, 6f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(7.5f, 6f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _BrowserCss = it}

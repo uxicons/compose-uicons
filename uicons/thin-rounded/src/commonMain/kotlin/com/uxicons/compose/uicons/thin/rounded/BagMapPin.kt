@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BagMapPin: ImageVector? = null
+
+val Icons.Tr.BagMapPin: ImageVector
+    get() = _BagMapPin ?: UXIcon(name = "BagMapPin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15.54f, 14.47f)
+                curveToRelative(-0.94f, -0.94f, -2.2f, -1.47f, -3.54f, -1.47f)
+                reflectiveCurveToRelative(-2.59f, 0.52f, -3.54f, 1.47f)
+                curveToRelative(-0.94f, 0.94f, -1.47f, 2.2f, -1.47f, 3.54f)
+                reflectiveCurveToRelative(0.52f, 2.59f, 1.47f, 3.54f)
+                lineToRelative(1.78f, 1.74f)
+                curveToRelative(0.48f, 0.47f, 1.12f, 0.71f, 1.75f, 0.71f)
+                reflectiveCurveToRelative(1.27f, -0.24f, 1.75f, -0.71f)
+                lineToRelative(1.78f, -1.74f)
+                curveToRelative(0.94f, -0.94f, 1.47f, -2.2f, 1.47f, -3.54f)
+                reflectiveCurveToRelative(-0.52f, -2.59f, -1.47f, -3.54f)
+                close()
+                moveTo(14.83f, 20.83f)
+                lineToRelative(-1.78f, 1.74f)
+                curveToRelative(-0.58f, 0.57f, -1.53f, 0.57f, -2.11f, 0f)
+                lineToRelative(-1.77f, -1.74f)
+                curveToRelative(-0.76f, -0.76f, -1.17f, -1.76f, -1.17f, -2.83f)
+                reflectiveCurveToRelative(0.42f, -2.07f, 1.17f, -2.83f)
+                curveToRelative(0.76f, -0.76f, 1.76f, -1.17f, 2.83f, -1.17f)
+                reflectiveCurveToRelative(2.07f, 0.42f, 2.83f, 1.17f)
+                reflectiveCurveToRelative(1.17f, 1.76f, 1.17f, 2.83f)
+                reflectiveCurveToRelative(-0.42f, 2.07f, -1.17f, 2.83f)
+                close()
+                moveTo(13f, 18.01f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(21.5f, 6f)
+                horizontalLineToRelative(-3.5f)
+                curveToRelative(0f, -3.31f, -2.69f, -6f, -6f, -6f)
+                reflectiveCurveTo(6f, 2.69f, 6f, 6f)
+                lineTo(2.5f, 6f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                lineTo(1f, 8.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(3.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-3.5f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(3.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-3.5f)
+                horizontalLineToRelative(3.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                lineTo(24f, 8.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(7f, 6f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                lineTo(7f, 6f)
+                close()
+            }
+        }.also { _BagMapPin = it}

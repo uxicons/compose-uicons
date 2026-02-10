@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _OilTank: ImageVector? = null
+
+val Icons.Tr.OilTank: ImageVector
+    get() = _OilTank ?: UXIcon(name = "OilTank") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.71f, 5.77f)
+                curveToRelative(-0.35f, -2.19f, -2.22f, -3.77f, -4.44f, -3.77f)
+                horizontalLineToRelative(-3.27f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                horizontalLineToRelative(-3.27f)
+                curveToRelative(-2.22f, 0f, -4.09f, 1.58f, -4.44f, 3.77f)
+                curveToRelative(-0.39f, 2.36f, -0.39f, 5.1f, 0f, 7.46f)
+                curveToRelative(0.35f, 2.19f, 2.22f, 3.77f, 4.44f, 3.77f)
+                horizontalLineToRelative(14.54f)
+                curveToRelative(2.22f, 0f, 4.09f, -1.58f, 4.44f, -3.77f)
+                curveToRelative(0.39f, -2.35f, 0.39f, -5.11f, 0f, -7.46f)
+                close()
+                moveTo(10f, 1f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(22.73f, 13.07f)
+                curveToRelative(-0.27f, 1.7f, -1.73f, 2.93f, -3.46f, 2.93f)
+                horizontalLineToRelative(-14.54f)
+                curveToRelative(-1.73f, 0f, -3.18f, -1.23f, -3.46f, -2.93f)
+                curveToRelative(-0.37f, -2.25f, -0.37f, -4.89f, 0f, -7.14f)
+                curveToRelative(0.27f, -1.7f, 1.73f, -2.93f, 3.46f, -2.93f)
+                horizontalLineToRelative(14.54f)
+                curveToRelative(1.73f, 0f, 3.18f, 1.23f, 3.46f, 2.93f)
+                curveToRelative(0.37f, 2.25f, 0.37f, 4.89f, 0f, 7.14f)
+                close()
+                moveTo(12.93f, 6.36f)
+                curveToRelative(-0.51f, -0.5f, -1.34f, -0.5f, -1.9f, 0.05f)
+                lineToRelative(-1.15f, 1.47f)
+                curveToRelative(-1.17f, 1.17f, -1.17f, 3.07f, 0f, 4.24f)
+                curveToRelative(1.12f, 1.16f, 3.13f, 1.16f, 4.24f, 0f)
+                curveToRelative(1.15f, -1.08f, 1.16f, -3.13f, 0.04f, -4.2f)
+                lineToRelative(-1.23f, -1.56f)
+                close()
+                moveTo(13.41f, 11.41f)
+                curveToRelative(-0.76f, 0.76f, -2.07f, 0.76f, -2.83f, 0f)
+                curveToRelative(-0.78f, -0.78f, -0.78f, -2.05f, 0.04f, -2.87f)
+                lineToRelative(1.15f, -1.47f)
+                curveToRelative(0.11f, -0.11f, 0.3f, -0.14f, 0.41f, -0.05f)
+                lineToRelative(1.23f, 1.56f)
+                curveToRelative(0.78f, 0.74f, 0.78f, 2.08f, 0f, 2.83f)
+                close()
+                moveTo(19f, 18f)
+                curveToRelative(-1.48f, 0f, -2.71f, 1.08f, -2.95f, 2.5f)
+                horizontalLineToRelative(-8.1f)
+                curveToRelative(-0.24f, -1.42f, -1.47f, -2.5f, -2.95f, -2.5f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                curveToRelative(1.48f, 0f, 2.71f, -1.08f, 2.95f, -2.5f)
+                horizontalLineToRelative(8.1f)
+                curveToRelative(0.24f, 1.42f, 1.47f, 2.5f, 2.95f, 2.5f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(5f, 23f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(19f, 23f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+            }
+        }.also { _OilTank = it}

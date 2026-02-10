@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MosquitoNet: ImageVector? = null
+
+val Icons.Bs.MosquitoNet: ImageVector
+    get() = _MosquitoNet ?: UXIcon(name = "MosquitoNet") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11.5f, 11f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-4.8f)
+                lineToRelative(-2.5f, 3.76f)
+                verticalLineToRelative(3.12f)
+                lineToRelative(-2.6f, 1.95f)
+                lineToRelative(-1.8f, -2.4f)
+                lineToRelative(1.4f, -1.05f)
+                verticalLineToRelative(-2.53f)
+                lineToRelative(3.6f, -5.41f)
+                curveToRelative(-1.13f, 1.11f, -2.26f, 2.09f, -2.88f, 2.26f)
+                curveToRelative(-1.56f, 0.43f, -3.18f, -0.49f, -3.61f, -2.06f)
+                curveToRelative(-0.43f, -1.56f, 0.49f, -3.18f, 2.06f, -3.61f)
+                curveToRelative(0.59f, -0.16f, 1.84f, -0.23f, 3.17f, -0.27f)
+                lineToRelative(-3.33f, -2.42f)
+                verticalLineToRelative(-2.52f)
+                lineTo(0.33f, 1.94f)
+                lineTo(2.67f, 0.06f)
+                lineToRelative(2.33f, 2.91f)
+                verticalLineToRelative(2.04f)
+                lineToRelative(3.5f, 2.54f)
+                verticalLineToRelative(-0.06f)
+                curveToRelative(-0.61f, -0.46f, -1f, -1.18f, -1f, -2f)
+                curveToRelative(0f, -1.07f, 0.67f, -1.99f, 1.62f, -2.34f)
+                lineToRelative(0.88f, -3.16f)
+                lineToRelative(0.88f, 3.16f)
+                curveToRelative(0.95f, 0.36f, 1.62f, 1.27f, 1.62f, 2.34f)
+                curveToRelative(0f, 0.82f, -0.39f, 1.54f, -1f, 2f)
+                verticalLineToRelative(0.06f)
+                lineToRelative(3.5f, -2.54f)
+                verticalLineToRelative(-2.04f)
+                lineTo(17.33f, 0.06f)
+                lineToRelative(2.34f, 1.88f)
+                lineToRelative(-1.67f, 2.09f)
+                verticalLineToRelative(2.52f)
+                lineToRelative(-3.36f, 2.44f)
+                curveToRelative(1.55f, 0.04f, 2.9f, 0.11f, 3.42f, 0.25f)
+                curveToRelative(0.93f, 0.26f, 1.61f, 0.93f, 1.94f, 1.76f)
+                horizontalLineToRelative(-8.5f)
+                close()
+                moveTo(24f, 13f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-11f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(11f)
+                close()
+                moveTo(21f, 16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(16f, 16f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(16f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(21f, 21f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                close()
+            }
+        }.also { _MosquitoNet = it}

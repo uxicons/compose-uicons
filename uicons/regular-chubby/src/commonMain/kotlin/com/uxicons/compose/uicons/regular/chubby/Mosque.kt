@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Mosque: ImageVector? = null
+
+val Icons.Rc.Mosque: ImageVector
+    get() = _Mosque ?: UXIcon(name = "Mosque") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.72f, 13.3f)
+                curveToRelative(-0.19f, -0.19f, -0.45f, -0.3f, -0.72f, -0.3f)
+                horizontalLineToRelative(-0.89f)
+                curveToRelative(0.59f, -0.88f, 0.92f, -1.82f, 0.92f, -2.73f)
+                curveToRelative(0f, -3.53f, -2.76f, -5.16f, -4.78f, -6.34f)
+                curveToRelative(-1.14f, -0.67f, -2.22f, -1.31f, -2.22f, -1.93f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                curveToRelative(0f, 0.62f, -1.08f, 1.25f, -2.22f, 1.93f)
+                curveToRelative(-1.18f, 0.7f, -2.62f, 1.55f, -3.61f, 2.85f)
+                curveToRelative(-0.82f, -1.56f, -1.97f, -2.5f, -2.04f, -2.56f)
+                curveToRelative(-0.36f, -0.29f, -0.88f, -0.29f, -1.25f, 0f)
+                curveToRelative(-0.12f, 0.09f, -2.88f, 2.34f, -2.88f, 5.78f)
+                curveToRelative(0f, 5.48f, 0.5f, 11.52f, 0.5f, 11.58f)
+                curveToRelative(0.04f, 0.46f, 0.38f, 0.83f, 0.84f, 0.9f)
+                curveToRelative(0.12f, 0.02f, 3.13f, 0.5f, 7.66f, 0.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1.99f)
+                curveToRelative(0f, -0.88f, 0.12f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.12f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.88f, 0.12f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.12f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.28f, 0.12f, 0.55f, 0.32f, 0.74f)
+                curveToRelative(0.19f, 0.17f, 0.43f, 0.26f, 0.68f, 0.26f)
+                curveToRelative(0.03f, 0f, 0.06f, 0f, 0.08f, -0.0f)
+                curveToRelative(1.9f, -0.16f, 3.57f, -0.54f, 3.64f, -0.56f)
+                curveToRelative(0.42f, -0.1f, 0.73f, -0.45f, 0.77f, -0.88f)
+                curveToRelative(0.0f, -0.04f, 0.36f, -3.82f, 0.47f, -7.53f)
+                curveToRelative(0.01f, -0.27f, -0.09f, -0.53f, -0.28f, -0.73f)
+                close()
+                moveTo(11.82f, 5.65f)
+                curveToRelative(0.79f, -0.47f, 1.6f, -0.94f, 2.21f, -1.53f)
+                curveToRelative(0.61f, 0.58f, 1.41f, 1.06f, 2.21f, 1.53f)
+                curveToRelative(1.86f, 1.1f, 3.79f, 2.24f, 3.79f, 4.62f)
+                curveToRelative(0f, 0.86f, -0.6f, 1.89f, -1.57f, 2.73f)
+                horizontalLineToRelative(-8.86f)
+                curveToRelative(-0.97f, -0.84f, -1.57f, -1.86f, -1.57f, -2.73f)
+                curveToRelative(0f, -2.38f, 1.93f, -3.52f, 3.79f, -4.62f)
+                close()
+                moveTo(4.53f, 6.4f)
+                curveToRelative(0.49f, 0.56f, 1.12f, 1.46f, 1.38f, 2.6f)
+                horizontalLineToRelative(-2.76f)
+                curveToRelative(0.26f, -1.13f, 0.89f, -2.04f, 1.38f, -2.6f)
+                close()
+                moveTo(5.58f, 20.82f)
+                curveToRelative(-0.9f, -0.07f, -1.62f, -0.14f, -2.12f, -0.2f)
+                curveToRelative(-0.12f, -1.67f, -0.39f, -5.69f, -0.43f, -9.62f)
+                horizontalLineToRelative(2.99f)
+                curveToRelative(-0.04f, 4.1f, -0.33f, 8.3f, -0.45f, 9.82f)
+                close()
+                moveTo(20.6f, 20.63f)
+                curveToRelative(-0.41f, 0.08f, -0.95f, 0.17f, -1.57f, 0.25f)
+                verticalLineToRelative(-0.89f)
+                curveToRelative(0f, -1.99f, -1.01f, -3f, -3f, -3f)
+                curveToRelative(-0.84f, 0f, -1.51f, 0.18f, -2f, 0.54f)
+                curveToRelative(-0.49f, -0.36f, -1.16f, -0.54f, -2f, -0.54f)
+                curveToRelative(-1.99f, 0f, -3f, 1.01f, -3f, 3f)
+                verticalLineToRelative(0.98f)
+                curveToRelative(-0.51f, -0.01f, -0.99f, -0.02f, -1.45f, -0.04f)
+                curveToRelative(0.08f, -1.06f, 0.23f, -3.32f, 0.34f, -5.94f)
+                horizontalLineToRelative(10.91f)
+                reflectiveCurveToRelative(0.0f, 0f, 0.0f, 0f)
+                horizontalLineToRelative(0.0f)
+                horizontalLineToRelative(2.13f)
+                curveToRelative(-0.1f, 2.32f, -0.27f, 4.53f, -0.36f, 5.63f)
+                close()
+            }
+        }.also { _Mosque = it}

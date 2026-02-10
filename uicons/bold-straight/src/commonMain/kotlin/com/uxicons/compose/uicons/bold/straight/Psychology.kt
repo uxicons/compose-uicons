@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Psychology: ImageVector? = null
+
+val Icons.Bs.Psychology: ImageVector
+    get() = _Psychology ?: UXIcon(name = "Psychology") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13.79f, 5.1f)
+                curveToRelative(1.07f, 0.28f, 1.91f, 1.17f, 2.14f, 2.26f)
+                curveToRelative(0.28f, 1.34f, -0.34f, 2.66f, -1.54f, 3.29f)
+                curveToRelative(-0.4f, 0.21f, -0.4f, 0.28f, -0.4f, 0.35f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, -1.34f, 1.06f, -1.9f, 1.47f, -2.12f)
+                curveToRelative(0.73f, -0.29f, 0.7f, -1.66f, -0.18f, -1.85f)
+                curveToRelative(-0.79f, -0.15f, -1.24f, 0.32f, -1.29f, 0.96f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, -0.93f, 0.44f, -1.8f, 1.18f, -2.38f)
+                reflectiveCurveToRelative(1.7f, -0.76f, 2.61f, -0.52f)
+                close()
+                moveTo(12f, 14f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(22.18f, 7.32f)
+                lineTo(20.41f, 9.09f)
+                lineTo(18.65f, 7.32f)
+                lineTo(17.23f, 8.73f)
+                lineTo(19f, 10.5f)
+                lineTo(17.23f, 12.27f)
+                lineTo(18.65f, 13.68f)
+                lineTo(20.41f, 11.91f)
+                lineTo(22.18f, 13.68f)
+                lineTo(23.6f, 12.27f)
+                lineTo(21.83f, 10.5f)
+                lineTo(23.6f, 8.73f)
+                close()
+                moveTo(20.39f, 4.83f)
+                lineTo(20.39f, 4.82f)
+                lineTo(23.64f, 1.49f)
+                lineTo(22.24f, 0.06f)
+                lineTo(18.99f, 3.4f)
+                lineTo(17.01f, 1.34f)
+                lineTo(15.63f, 2.78f)
+                lineTo(17.57f, 4.81f)
+                curveToRelative(0.77f, 0.77f, 2.08f, 0.76f, 2.82f, 0.02f)
+                close()
+                moveTo(19.23f, 15.85f)
+                curveToRelative(-0.09f, 0.16f, -0.16f, 0.28f, -0.17f, 0.29f)
+                curveToRelative(-0.68f, 0.81f, -1.05f, 1.83f, -1.05f, 2.88f)
+                verticalLineToRelative(1.99f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3.89f)
+                curveToRelative(-0.25f, 0f, -0.46f, -0.19f, -0.5f, -0.43f)
+                lineToRelative(-0.7f, -5.07f)
+                horizontalLineToRelative(-1.56f)
+                curveToRelative(0.99f, -2.28f, 2.16f, -5.04f, 3.16f, -6.26f)
+                curveToRelative(1.54f, -2.06f, 3.88f, -3.23f, 6.44f, -3.23f)
+                horizontalLineToRelative(1.03f)
+                verticalLineToRelative(-3.0f)
+                horizontalLineToRelative(-1.04f)
+                curveToRelative(-3.5f, 0f, -6.72f, 1.61f, -8.8f, 4.39f)
+                curveToRelative(-1.45f, 1.76f, -2.92f, 5.55f, -4.15f, 8.29f)
+                verticalLineToRelative(2.82f)
+                horizontalLineToRelative(2.3f)
+                lineToRelative(0.34f, 2.48f)
+                curveToRelative(0.24f, 1.72f, 1.73f, 3.02f, 3.47f, 3.02f)
+                horizontalLineToRelative(0.89f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(-4.99f)
+                curveToRelative(0f, -0.34f, 0.12f, -0.68f, 0.35f, -0.95f)
+                curveToRelative(0.69f, -0.83f, 1.24f, -1.73f, 1.66f, -2.67f)
+                curveToRelative(-0.75f, 0.39f, -1.61f, 0.61f, -2.51f, 0.61f)
+                curveToRelative(-0.44f, 0f, -0.86f, -0.06f, -1.27f, -0.15f)
+                close()
+            }
+        }.also { _Psychology = it}

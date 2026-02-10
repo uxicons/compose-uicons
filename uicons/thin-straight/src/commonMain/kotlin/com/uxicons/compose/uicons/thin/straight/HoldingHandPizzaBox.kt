@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HoldingHandPizzaBox: ImageVector? = null
+
+val Icons.Ts.HoldingHandPizzaBox: ImageVector
+    get() = _HoldingHandPizzaBox ?: UXIcon(name = "HoldingHandPizzaBox") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 21.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -4.14f, -3.36f, -7.5f, -7.5f, -7.5f)
+                horizontalLineToRelative(-4.86f)
+                curveToRelative(-0.91f, 0f, -1.64f, 0.74f, -1.64f, 1.64f)
+                curveToRelative(0.0f, 0.52f, 0.25f, 1.02f, 0.66f, 1.3f)
+                lineToRelative(-0.0f, 0.01f)
+                curveToRelative(0.22f, 0.16f, 0.47f, 0.28f, 0.75f, 0.32f)
+                lineToRelative(5.65f, 0.74f)
+                lineToRelative(-0.13f, 0.99f)
+                lineToRelative(-5.66f, -0.74f)
+                curveToRelative(-0.43f, -0.06f, -0.81f, -0.23f, -1.15f, -0.47f)
+                lineToRelative(-5.83f, -3.57f)
+                curveToRelative(-0.69f, -0.44f, -1.67f, -0.2f, -2.08f, 0.5f)
+                curveToRelative(-0.43f, 0.7f, -0.21f, 1.63f, 0.49f, 2.07f)
+                lineToRelative(7.59f, 4.77f)
+                curveToRelative(1.52f, 0.95f, 3.26f, 1.45f, 5.05f, 1.45f)
+                curveToRelative(0.06f, 0f, 1.59f, -0.01f, 1.65f, -0.01f)
+                lineToRelative(0.0f, 1f)
+                curveToRelative(-0.07f, 0f, -1.58f, 0.01f, -1.65f, 0.01f)
+                curveToRelative(-1.98f, 0f, -3.9f, -0.56f, -5.58f, -1.6f)
+                lineToRelative(-7.59f, -4.77f)
+                curveToRelative(-1.16f, -0.73f, -1.52f, -2.27f, -0.81f, -3.44f)
+                curveToRelative(0.68f, -1.17f, 2.32f, -1.56f, 3.45f, -0.83f)
+                lineToRelative(4.2f, 2.58f)
+                curveToRelative(-0.01f, -0.1f, -0.03f, -0.2f, -0.03f, -0.3f)
+                curveToRelative(0f, -1.46f, 1.19f, -2.64f, 2.64f, -2.64f)
+                horizontalLineToRelative(4.86f)
+                curveToRelative(4.69f, 0f, 8.5f, 3.81f, 8.5f, 8.5f)
+                close()
+                moveTo(24f, 2.5f)
+                verticalLineToRelative(8.5f)
+                horizontalLineToRelative(-24f)
+                verticalLineToRelative(-8.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(19f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(9.09f, 1f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.65f, 0f, 1.2f, -0.42f, 1.41f, -1f)
+                close()
+                moveTo(23f, 6f)
+                horizontalLineToRelative(-7.05f)
+                curveToRelative(-0.23f, 1.14f, -1.24f, 2f, -2.45f, 2f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.21f, 0f, -2.22f, -0.86f, -2.45f, -2f)
+                horizontalLineToRelative(-7.05f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(22f)
+                close()
+                moveTo(10.5f, 7f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.65f, 0f, 1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(-5.82f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                close()
+                moveTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-5.55f)
+                curveToRelative(-0.23f, 1.14f, -1.24f, 2f, -2.45f, 2f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.21f, 0f, -2.22f, -0.86f, -2.45f, -2f)
+                horizontalLineToRelative(-5.55f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(22f)
+                close()
+            }
+        }.also { _HoldingHandPizzaBox = it}

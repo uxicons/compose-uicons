@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Goals: ImageVector? = null
+
+val Icons.Ts.Goals: ImageVector
+    get() = _Goals ?: UXIcon(name = "Goals") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15f, 13f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-3.02f)
+                lineToRelative(-3.22f, -0.99f)
+                lineToRelative(1.54f, -5.99f)
+                horizontalLineToRelative(2.32f)
+                lineToRelative(3.36f, -2.1f)
+                verticalLineToRelative(-1.18f)
+                lineToRelative(-3.64f, 2.28f)
+                horizontalLineToRelative(-4.89f)
+                curveToRelative(-0.94f, 0f, -1.76f, 0.66f, -1.95f, 1.56f)
+                lineToRelative(-0.73f, 2.85f)
+                curveToRelative(-0.25f, 1.12f, 0.3f, 2.24f, 1.3f, 2.75f)
+                lineToRelative(-0.95f, 2.84f)
+                horizontalLineToRelative(-4.14f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(4.86f)
+                lineToRelative(1.17f, -3.5f)
+                lineToRelative(3.97f, 1.22f)
+                verticalLineToRelative(2.28f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(10f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-11f)
+                close()
+                moveTo(4.76f, 10.64f)
+                lineTo(5.49f, 7.79f)
+                curveToRelative(0.1f, -0.46f, 0.51f, -0.79f, 0.98f, -0.79f)
+                horizontalLineToRelative(1.82f)
+                lineToRelative(-1.47f, 5.7f)
+                lineToRelative(-1.07f, -0.33f)
+                curveToRelative(-0.73f, -0.24f, -1.16f, -0.99f, -1.0f, -1.73f)
+                close()
+                moveTo(8.5f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(8.5f, 1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(18f, 6f)
+                lineTo(23.55f, 3f)
+                lineTo(18.03f, 0f)
+                horizontalLineToRelative(-1.03f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(21.45f, 3f)
+                lineTo(18f, 4.88f)
+                verticalLineToRelative(-3.75f)
+                close()
+            }
+        }.also { _Goals = it}

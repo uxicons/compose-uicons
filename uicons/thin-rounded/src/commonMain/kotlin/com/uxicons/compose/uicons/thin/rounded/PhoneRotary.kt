@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PhoneRotary: ImageVector? = null
+
+val Icons.Tr.PhoneRotary: ImageVector
+    get() = _PhoneRotary ?: UXIcon(name = "PhoneRotary") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.2f, 10f)
+                horizontalLineToRelative(0.42f)
+                curveToRelative(1.86f, 0f, 3.38f, -1.46f, 3.38f, -3.25f)
+                curveToRelative(0f, -1.28f, -0.54f, -2.51f, -1.51f, -3.44f)
+                curveTo(17.88f, -1.1f, 6.12f, -1.1f, 1.51f, 3.31f)
+                curveTo(0.54f, 4.24f, 0f, 5.46f, 0f, 6.75f)
+                curveToRelative(0f, 1.79f, 1.51f, 3.25f, 3.38f, 3.25f)
+                horizontalLineToRelative(0.42f)
+                lineToRelative(-2.19f, 3.67f)
+                curveToRelative(-1.05f, 1.76f, -1.61f, 3.78f, -1.61f, 5.83f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                curveToRelative(0f, -2.05f, -0.56f, -4.07f, -1.61f, -5.83f)
+                lineToRelative(-2.19f, -3.67f)
+                close()
+                moveTo(1f, 6.75f)
+                curveToRelative(0f, -1.01f, 0.43f, -1.98f, 1.21f, -2.72f)
+                curveTo(6.42f, 0.0f, 17.58f, 0.0f, 21.8f, 4.03f)
+                curveToRelative(0.78f, 0.74f, 1.21f, 1.71f, 1.21f, 2.72f)
+                curveToRelative(0f, 1.24f, -1.06f, 2.25f, -2.38f, 2.25f)
+                horizontalLineToRelative(-1.03f)
+                lineToRelative(-0.97f, -1.55f)
+                curveToRelative(-0.38f, -0.6f, -0.92f, -1.08f, -1.57f, -1.36f)
+                curveToRelative(-1.13f, -0.5f, -2.92f, -1.09f, -5.05f, -1.09f)
+                reflectiveCurveToRelative(-3.92f, 0.59f, -5.05f, 1.09f)
+                curveToRelative(-0.65f, 0.28f, -1.19f, 0.76f, -1.57f, 1.36f)
+                lineToRelative(-0.97f, 1.55f)
+                horizontalLineToRelative(-1.03f)
+                curveToRelative(-1.31f, 0f, -2.38f, -1.01f, -2.38f, -2.25f)
+                close()
+                moveTo(19.5f, 23f)
+                lineTo(4.5f, 23f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                curveToRelative(0f, -1.87f, 0.51f, -3.71f, 1.47f, -5.32f)
+                lineToRelative(2.64f, -4.42f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                lineToRelative(1.11f, -1.77f)
+                curveToRelative(0.27f, -0.44f, 0.66f, -0.77f, 1.13f, -0.98f)
+                curveToRelative(1.04f, -0.46f, 2.69f, -1.01f, 4.65f, -1.01f)
+                reflectiveCurveToRelative(3.61f, 0.55f, 4.65f, 1.01f)
+                curveToRelative(0.46f, 0.2f, 0.85f, 0.54f, 1.13f, 0.98f)
+                lineToRelative(1.11f, 1.77f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                lineToRelative(2.64f, 4.42f)
+                curveToRelative(0.96f, 1.61f, 1.47f, 3.45f, 1.47f, 5.32f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(12f, 9f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(12f, 20f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                reflectiveCurveToRelative(2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                reflectiveCurveToRelative(-2.24f, 5f, -5f, 5f)
+                close()
+                moveTo(12f, 13f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(12f, 16f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _PhoneRotary = it}

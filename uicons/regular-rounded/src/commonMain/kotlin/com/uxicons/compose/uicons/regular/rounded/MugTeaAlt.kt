@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MugTeaAlt: ImageVector? = null
+
+val Icons.Rr.MugTeaAlt: ImageVector
+    get() = _MugTeaAlt ?: UXIcon(name = "MugTeaAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20f, 9f)
+                horizontalLineToRelative(-2.01f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(4.99f, 6f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                lineTo(14.99f, 8f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 2.45f, -1.75f, 4.52f, -4.16f, 4.93f)
+                curveToRelative(-0.54f, 0.09f, -0.91f, 0.61f, -0.82f, 1.15f)
+                curveToRelative(0.09f, 0.55f, 0.62f, 0.91f, 1.15f, 0.82f)
+                curveToRelative(2.32f, -0.39f, 4.21f, -1.89f, 5.16f, -3.9f)
+                horizontalLineToRelative(2.68f)
+                curveToRelative(2.28f, 0f, 4f, -1.52f, 4f, -3.54f)
+                curveToRelative(0f, -2.01f, -1.68f, -3.46f, -4f, -3.46f)
+                close()
+                moveTo(20f, 14f)
+                horizontalLineToRelative(-2.08f)
+                curveToRelative(0.05f, -0.33f, 0.08f, -0.66f, 0.08f, -1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.01f)
+                curveToRelative(0.74f, 0f, 2f, 0.31f, 2f, 1.46f)
+                curveToRelative(0f, 1.01f, -1.01f, 1.54f, -2f, 1.54f)
+                close()
+                moveTo(9.03f, 3f)
+                lineTo(9.03f, 1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                lineTo(11.03f, 3f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(13.03f, 3f)
+                lineTo(13.03f, 1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                lineTo(15.03f, 3f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(5.03f, 3f)
+                lineTo(5.03f, 1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                lineTo(7.03f, 3f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(20f, 23f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                lineTo(1f, 24f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                lineTo(19f, 22f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(0.0f, 14.99f)
+                curveToRelative(-0.04f, -0.59f, 0.5f, -1.07f, 1.08f, -0.97f)
+                curveToRelative(2.77f, 0.47f, 3.95f, 2.63f, 4.43f, 4.19f)
+                curveToRelative(0.43f, -1.19f, 1.38f, -2.74f, 3.31f, -3.19f)
+                curveToRelative(0.65f, -0.15f, 1.25f, 0.38f, 1.17f, 1.05f)
+                curveToRelative(-0.35f, 3.05f, -2.88f, 3.78f, -4.14f, 3.9f)
+                curveToRelative(0.05f, 0.02f, -0.76f, 0.03f, -0.73f, 0.01f)
+                curveTo(3.62f, 19.86f, 0.27f, 19.09f, 0.0f, 14.99f)
+                close()
+            }
+        }.also { _MugTeaAlt = it}

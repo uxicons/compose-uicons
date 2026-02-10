@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Football: ImageVector? = null
+
+val Icons.Sr.Football: ImageVector
+    get() = _Football ?: UXIcon(name = "Football") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(0.02f, 11.52f)
+                arcToRelative(11.94f, 11.94f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.73f, -7.16f)
+                lineToRelative(1.11f, 3.6f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.38f, 1.11f)
+                close()
+                moveTo(11.41f, 2.81f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.17f, 0f)
+                lineToRelative(3.04f, -2.25f)
+                arcToRelative(11.95f, 11.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, -7.28f, 0.01f)
+                close()
+                moveTo(20.51f, 9.07f)
+                lineTo(23.97f, 11.52f)
+                arcToRelative(11.94f, 11.94f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.73f, -7.16f)
+                lineToRelative(-1.1f, 3.59f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.38f, 1.11f)
+                close()
+                moveTo(6.7f, 18.68f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.95f, -0.69f)
+                lineToRelative(-4.14f, -0.01f)
+                arcToRelative(12.05f, 12.05f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.57f, 5.38f)
+                close()
+                moveTo(18.24f, 17.99f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.95f, 0.69f)
+                lineToRelative(-1.52f, 4.7f)
+                arcToRelative(12.06f, 12.06f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.62f, -5.4f)
+                close()
+                moveTo(13.66f, 13.65f)
+                lineTo(14.39f, 11.4f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.18f, -0.56f)
+                lineToRelative(-1.91f, -1.39f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.59f, 0f)
+                lineToRelative(-1.92f, 1.39f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.18f, 0.56f)
+                lineToRelative(0.73f, 2.25f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.47f, 0.35f)
+                horizontalLineToRelative(2.37f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.48f, -0.35f)
+                close()
+                moveTo(13.5f, 23.9f)
+                arcToRelative(11.84f, 11.84f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.5f, 0.1f)
+                arcToRelative(11.93f, 11.93f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.56f, -0.11f)
+                lineToRelative(-1.84f, -5.81f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.85f, -2.08f)
+                lineToRelative(-5.07f, -0.01f)
+                arcToRelative(11.92f, 11.92f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.53f, -2.11f)
+                lineToRelative(4.47f, -3.18f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.14f, -3.33f)
+                lineToRelative(-1.42f, -4.61f)
+                arcToRelative(12.01f, 12.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.86f, -1.26f)
+                lineToRelative(4.02f, 2.93f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.53f, 0f)
+                lineToRelative(3.99f, -2.95f)
+                arcToRelative(12.03f, 12.03f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.89f, 1.28f)
+                lineToRelative(-1.42f, 4.6f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.14f, 3.34f)
+                lineToRelative(4.47f, 3.18f)
+                arcToRelative(11.89f, 11.89f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.53f, 2.1f)
+                lineToRelative(-5.07f, 0.01f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.85f, 2.08f)
+                close()
+                moveTo(13.19f, 16f)
+                arcToRelative(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.38f, -1.73f)
+                lineToRelative(0.73f, -2.25f)
+                arcToRelative(2.49f, 2.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.91f, -2.79f)
+                lineToRelative(-1.92f, -1.39f)
+                arcToRelative(2.49f, 2.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.94f, 0f)
+                lineToRelative(-1.92f, 1.39f)
+                arcToRelative(2.49f, 2.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.91f, 2.8f)
+                lineToRelative(0.73f, 2.25f)
+                arcToRelative(2.49f, 2.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.38f, 1.72f)
+                close()
+            }
+        }.also { _Football = it}

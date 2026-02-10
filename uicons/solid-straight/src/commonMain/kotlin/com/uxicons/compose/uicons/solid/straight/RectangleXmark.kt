@@ -1,0 +1,38 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RectangleXmark: ImageVector? = null
+
+val Icons.Ss.RectangleXmark: ImageVector
+    get() = _RectangleXmark ?: UXIcon(name = "RectangleXmark") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21f, 2f)
+                lineTo(3f, 2f)
+                curveTo(1.35f, 2f, 0f, 3.35f, 0f, 5f)
+                lineTo(0f, 22f)
+                lineTo(24f, 22f)
+                lineTo(24f, 5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(16.46f, 15.04f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-3.04f, -3.04f)
+                lineToRelative(-3.04f, 3.04f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(3.04f, -3.04f)
+                lineToRelative(-3.04f, -3.04f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(3.04f, 3.04f)
+                lineToRelative(3.04f, -3.04f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-3.04f, 3.04f)
+                lineToRelative(3.04f, 3.04f)
+                close()
+            }
+        }.also { _RectangleXmark = it}

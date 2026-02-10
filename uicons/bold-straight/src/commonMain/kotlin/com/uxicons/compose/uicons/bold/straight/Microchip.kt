@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Microchip: ImageVector? = null
+
+val Icons.Bs.Microchip: ImageVector
+    get() = _Microchip ?: UXIcon(name = "Microchip") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(7f, 17f)
+                horizontalLineToRelative(10f)
+                lineTo(17f, 7f)
+                lineTo(7f, 7f)
+                verticalLineToRelative(10f)
+                close()
+                moveTo(10f, 10f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(24f, 8f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2.05f)
+                curveToRelative(-0.22f, -1.53f, -1.42f, -2.73f, -2.95f, -2.95f)
+                lineTo(19f, 0f)
+                horizontalLineToRelative(-3f)
+                lineTo(16f, 2f)
+                horizontalLineToRelative(-2.5f)
+                lineTo(13.5f, 0f)
+                horizontalLineToRelative(-3f)
+                lineTo(10.5f, 2f)
+                horizontalLineToRelative(-2.5f)
+                lineTo(8f, 0f)
+                horizontalLineToRelative(-3f)
+                lineTo(5f, 2.05f)
+                curveToRelative(-1.53f, 0.22f, -2.73f, 1.42f, -2.95f, 2.95f)
+                lineTo(0f, 5f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 8f)
+                verticalLineToRelative(2.5f)
+                lineTo(0f, 10.5f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 13.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(0f, 16f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 19f)
+                curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(19f, 19f)
+                lineTo(5f, 19f)
+                lineTo(5f, 5.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(13f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(13.5f)
+                close()
+            }
+        }.also { _Microchip = it}

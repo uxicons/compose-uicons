@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WishlistHeart: ImageVector? = null
+
+val Icons.Ts.WishlistHeart: ImageVector
+    get() = _WishlistHeart ?: UXIcon(name = "WishlistHeart") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15f, 6f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(15f, 10f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(5f, 14.5f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(5f, 4.5f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(5f, 9.5f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(24f, 16.55f)
+                curveToRelative(0f, 3.43f, -5.5f, 6.93f, -5.73f, 7.08f)
+                lineToRelative(-0.27f, 0.17f)
+                lineToRelative(-0.27f, -0.17f)
+                curveToRelative(-0.23f, -0.15f, -5.73f, -3.64f, -5.73f, -7.08f)
+                curveToRelative(0f, -1.96f, 1.46f, -3.55f, 3.25f, -3.55f)
+                curveToRelative(1.21f, 0f, 2.19f, 0.66f, 2.75f, 1.75f)
+                curveToRelative(0.56f, -1.08f, 1.54f, -1.75f, 2.75f, -1.75f)
+                curveToRelative(1.79f, 0f, 3.25f, 1.59f, 3.25f, 3.55f)
+                close()
+                moveTo(23f, 16.55f)
+                curveToRelative(0f, -1.41f, -1.01f, -2.55f, -2.25f, -2.55f)
+                curveToRelative(-1.35f, 0f, -2.25f, 1.21f, -2.25f, 3f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, -1.79f, -0.9f, -3f, -2.25f, -3f)
+                curveToRelative(-1.24f, 0f, -2.25f, 1.14f, -2.25f, 2.55f)
+                curveToRelative(0f, 2.26f, 3.39f, 4.98f, 5f, 6.06f)
+                curveToRelative(1.61f, -1.07f, 5f, -3.8f, 5f, -6.06f)
+                close()
+                moveTo(1f, 23f)
+                lineTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(14f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(9.11f)
+                curveToRelative(0.32f, -0.17f, 0.66f, -0.3f, 1f, -0.4f)
+                lineTo(19f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                verticalLineToRelative(21.5f)
+                horizontalLineToRelative(14.81f)
+                curveToRelative(-0.37f, -0.29f, -0.77f, -0.63f, -1.17f, -1f)
+                lineTo(1f, 23f)
+                close()
+                moveTo(8f, 16f)
+                horizontalLineToRelative(2.02f)
+                curveToRelative(0.02f, -0.34f, 0.06f, -0.68f, 0.13f, -1f)
+                horizontalLineToRelative(-2.15f)
+                verticalLineToRelative(1f)
+                close()
+            }
+        }.also { _WishlistHeart = it}

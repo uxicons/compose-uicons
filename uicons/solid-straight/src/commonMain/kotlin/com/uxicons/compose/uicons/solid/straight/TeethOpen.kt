@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TeethOpen: ImageVector? = null
+
+val Icons.Ss.TeethOpen: ImageVector
+    get() = _TeethOpen ?: UXIcon(name = "TeethOpen") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 0f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(24f)
+                lineTo(24f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(18f, 9f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(13f, 9f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(3f, 9f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(8f, 9f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(24f, 21f)
+                verticalLineToRelative(-8f)
+                lineTo(0f, 13f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                close()
+                moveTo(21f, 15f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(16f, 15f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(6f, 15f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                reflectiveCurveToRelative(3f, 0f, 3f, 0f)
+                close()
+                moveTo(11f, 15f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                reflectiveCurveToRelative(3f, 0f, 3f, 0f)
+                close()
+            }
+        }.also { _TeethOpen = it}

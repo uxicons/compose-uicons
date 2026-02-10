@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BoxDollar: ImageVector? = null
+
+val Icons.Tr.BoxDollar: ImageVector
+    get() = _BoxDollar ?: UXIcon(name = "BoxDollar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19.5f, 0f)
+                lineTo(4.5f, 0f)
+                curveTo(2.02f, 0f, 0f, 2.02f, 0f, 4.5f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.81f, 0.4f, 1.53f, 1f, 1.99f)
+                curveToRelative(0f, 0f, 0f, 0f, 0f, 0.01f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(13f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                lineTo(23f, 7.5f)
+                reflectiveCurveToRelative(0f, 0f, 0f, -0.01f)
+                curveToRelative(0.6f, -0.46f, 1f, -1.17f, 1f, -1.99f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(22f, 19.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                lineTo(5.5f, 23f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                lineTo(2f, 7.95f)
+                curveToRelative(0.16f, 0.03f, 0.33f, 0.05f, 0.5f, 0.05f)
+                lineTo(21.5f, 8f)
+                curveToRelative(0.17f, 0f, 0.34f, -0.02f, 0.5f, -0.05f)
+                verticalLineToRelative(11.55f)
+                close()
+                moveTo(23f, 5.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                lineTo(2.5f, 7f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(15.5f, 17.76f)
+                curveToRelative(0f, 1.24f, -1.01f, 2.24f, -2.24f, 2.24f)
+                horizontalLineToRelative(-0.76f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(-0.55f)
+                curveToRelative(-0.98f, 0f, -1.89f, -0.53f, -2.38f, -1.38f)
+                curveToRelative(-0.14f, -0.24f, -0.06f, -0.54f, 0.18f, -0.68f)
+                curveToRelative(0.24f, -0.14f, 0.54f, -0.06f, 0.68f, 0.18f)
+                curveToRelative(0.31f, 0.54f, 0.89f, 0.88f, 1.52f, 0.88f)
+                horizontalLineToRelative(2.31f)
+                curveToRelative(0.69f, 0f, 1.24f, -0.56f, 1.24f, -1.24f)
+                curveToRelative(0f, -0.54f, -0.34f, -1.01f, -0.85f, -1.18f)
+                lineToRelative(-3.62f, -1.21f)
+                curveToRelative(-0.92f, -0.31f, -1.53f, -1.16f, -1.53f, -2.13f)
+                curveToRelative(0f, -1.24f, 1.01f, -2.24f, 2.24f, -2.24f)
+                horizontalLineToRelative(0.76f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.55f)
+                curveToRelative(0.98f, 0f, 1.89f, 0.53f, 2.38f, 1.38f)
+                curveToRelative(0.14f, 0.24f, 0.06f, 0.54f, -0.18f, 0.68f)
+                curveToRelative(-0.24f, 0.14f, -0.55f, 0.06f, -0.68f, -0.18f)
+                curveToRelative(-0.31f, -0.54f, -0.89f, -0.88f, -1.52f, -0.88f)
+                horizontalLineToRelative(-2.31f)
+                curveToRelative(-0.69f, 0f, -1.24f, 0.56f, -1.24f, 1.24f)
+                curveToRelative(0f, 0.54f, 0.34f, 1.01f, 0.85f, 1.18f)
+                lineToRelative(3.62f, 1.21f)
+                curveToRelative(0.92f, 0.31f, 1.53f, 1.16f, 1.53f, 2.13f)
+                close()
+            }
+        }.also { _BoxDollar = it}

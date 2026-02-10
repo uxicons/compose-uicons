@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StrategyChessRisk: ImageVector? = null
+
+val Icons.Ss.StrategyChessRisk: ImageVector
+    get() = _StrategyChessRisk ?: UXIcon(name = "StrategyChessRisk") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.41f, 15.58f)
+                lineToRelative(2.51f, 2.51f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-1.5f, -1.5f)
+                verticalLineToRelative(3.0f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3.01f)
+                lineToRelative(-1.5f, 1.51f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(2.51f, -2.51f)
+                curveToRelative(0.78f, -0.78f, 2.04f, -0.78f, 2.81f, 0f)
+                close()
+                moveTo(4f, 9f)
+                curveToRelative(0.51f, 0f, 1.02f, -0.19f, 1.41f, -0.58f)
+                lineToRelative(2.51f, -2.51f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(-1.5f, 1.51f)
+                verticalLineToRelative(-3.01f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(6f)
+                lineTo(12.0f, 0f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(3.0f)
+                lineToRelative(-1.5f, -1.5f)
+                lineTo(0.09f, 5.91f)
+                lineToRelative(2.51f, 2.51f)
+                curveToRelative(0.39f, 0.39f, 0.9f, 0.58f, 1.41f, 0.58f)
+                close()
+                moveTo(7f, 13f)
+                curveToRelative(0f, -0.72f, -0.84f, -1.75f, -1.44f, -2.69f)
+                curveToRelative(-0.26f, -0.41f, -0.87f, -0.41f, -1.13f, 0f)
+                curveToRelative(-0.59f, 0.94f, -1.44f, 1.97f, -1.44f, 2.69f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                close()
+                moveTo(23f, 10f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(0f)
+                verticalLineToRelative(-1.18f)
+                reflectiveCurveToRelative(0f, -4.82f, -5.42f, -4.82f)
+                curveToRelative(-0.51f, 2.03f, -1.42f, 2.78f, -2.77f, 3.33f)
+                curveToRelative(-0.48f, 0.19f, -0.8f, 0.66f, -0.8f, 1.17f)
+                verticalLineToRelative(1.5f)
+                reflectiveCurveToRelative(4f, 0f, 4f, 0f)
+                curveToRelative(-0.35f, 3.46f, -2.5f, 5f, -4f, 5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-2f)
+                reflectiveCurveToRelative(-1f, 0f, -1f, -1f)
+                close()
+                moveTo(6.5f, 17f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(-2f)
+                lineTo(2f, 15f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0f, 3f, -2f, 5f, -2f, 5f)
+                lineTo(0f, 22f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.5f)
+                reflectiveCurveToRelative(-2f, -2f, -2f, -5f)
+                close()
+            }
+        }.also { _StrategyChessRisk = it}

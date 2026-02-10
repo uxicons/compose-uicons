@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DocumentPaid: ImageVector? = null
+
+val Icons.Bs.DocumentPaid: ImageVector
+    get() = _DocumentPaid ?: UXIcon(name = "DocumentPaid") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8.1f, 11f)
+                horizontalLineToRelative(-2.1f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(8.1f, 14.4f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(-1.8f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.5f, 0f, 0.9f, 0.4f, 0.9f, 0.9f)
+                reflectiveCurveToRelative(-0.4f, 0.9f, -0.9f, 0.9f)
+                close()
+                moveTo(16.8f, 11f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(12.24f, 17.53f)
+                horizontalLineToRelative(2.01f)
+                lineToRelative(0.26f, 1.47f)
+                horizontalLineToRelative(1.49f)
+                lineToRelative(-1.4f, -6.81f)
+                curveToRelative(-0.12f, -0.67f, -0.59f, -1.19f, -1.35f, -1.19f)
+                reflectiveCurveToRelative(-1.28f, 0.59f, -1.39f, 1.17f)
+                lineToRelative(-1.37f, 6.83f)
+                horizontalLineToRelative(1.47f)
+                lineToRelative(0.28f, -1.47f)
+                close()
+                moveTo(13.24f, 12.71f)
+                lineToRelative(0.64f, 3.29f)
+                horizontalLineToRelative(-1.26f)
+                lineToRelative(0.62f, -3.29f)
+                close()
+                moveTo(21.7f, 11f)
+                horizontalLineToRelative(-2.3f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(2.3f)
+                curveToRelative(1.27f, 0f, 2.3f, -1.03f, 2.3f, -2.3f)
+                verticalLineToRelative(-3.4f)
+                curveToRelative(0f, -1.27f, -1.03f, -2.3f, -2.3f, -2.3f)
+                close()
+                moveTo(22.4f, 16.7f)
+                curveToRelative(0f, 0.39f, -0.31f, 0.7f, -0.7f, 0.7f)
+                reflectiveCurveToRelative(-0.7f, 0f, -0.7f, 0f)
+                verticalLineToRelative(-4.8f)
+                reflectiveCurveToRelative(0.31f, 0f, 0.7f, 0f)
+                reflectiveCurveToRelative(0.7f, 0.31f, 0.7f, 0.7f)
+                verticalLineToRelative(3.4f)
+                close()
+                moveTo(3f, 21f)
+                horizontalLineToRelative(17f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 24f)
+                lineTo(0f, 2.99f)
+                curveTo(0f, 1.34f, 1.35f, -0.01f, 3f, -0.01f)
+                horizontalLineToRelative(11.38f)
+                lineToRelative(5.62f, 5.67f)
+                verticalLineToRelative(3.34f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.01f)
+                horizontalLineToRelative(-5f)
+                lineTo(12f, 2.99f)
+                lineTo(3f, 2.99f)
+                verticalLineToRelative(18.01f)
+                close()
+            }
+        }.also { _DocumentPaid = it}

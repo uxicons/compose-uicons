@@ -1,0 +1,64 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LaptopMedical: ImageVector? = null
+
+val Icons.Rs.LaptopMedical: ImageVector
+    get() = _LaptopMedical ?: UXIcon(name = "LaptopMedical") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 15f)
+                lineTo(22f, 3f)
+                lineTo(2f, 3f)
+                verticalLineToRelative(12f)
+                lineTo(0f, 15f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(4f, 5f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(10f)
+                horizontalLineToRelative(-4.91f)
+                lineToRelative(-1f, 1f)
+                horizontalLineToRelative(-4.17f)
+                lineToRelative(-1f, -1f)
+                horizontalLineToRelative(-4.91f)
+                lineTo(4f, 5f)
+                close()
+                moveTo(22f, 18f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                lineTo(3f, 19f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(6.09f)
+                lineToRelative(1f, 1f)
+                horizontalLineToRelative(5.83f)
+                lineToRelative(1f, -1f)
+                horizontalLineToRelative(6.09f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(11f, 11f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _LaptopMedical = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PrescriptionBottlePill: ImageVector? = null
+
+val Icons.Tc.PrescriptionBottlePill: ImageVector
+    get() = _PrescriptionBottlePill ?: UXIcon(name = "PrescriptionBottlePill") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.52f, 21.97f)
+                curveToRelative(-2.94f, -0.11f, -4.97f, -0.52f, -5.69f, -0.68f)
+                curveToRelative(-0.08f, -0.38f, -0.24f, -1.17f, -0.39f, -2.29f)
+                horizontalLineToRelative(3.06f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-3.18f)
+                curveToRelative(-0.09f, -0.85f, -0.18f, -1.86f, -0.24f, -3f)
+                horizontalLineToRelative(3.42f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-3.46f)
+                curveToRelative(-0.02f, -0.67f, -0.04f, -1.37f, -0.04f, -2.12f)
+                curveToRelative(0f, -0.3f, 0.01f, -0.58f, 0.02f, -0.88f)
+                horizontalLineToRelative(3.48f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-3.46f)
+                curveToRelative(0.03f, -1.03f, 0.08f, -2.04f, 0.16f, -3f)
+                horizontalLineToRelative(15.6f)
+                curveToRelative(0.07f, 0.81f, 0.12f, 1.66f, 0.15f, 2.52f)
+                curveToRelative(0.01f, 0.28f, 0.24f, 0.49f, 0.52f, 0.48f)
+                curveToRelative(0.28f, -0.01f, 0.49f, -0.24f, 0.48f, -0.52f)
+                curveToRelative(-0.03f, -0.85f, -0.09f, -1.68f, -0.15f, -2.48f)
+                horizontalLineToRelative(1.69f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                curveToRelative(0f, -1.13f, -0.2f, -2.09f, -0.38f, -2.93f)
+                curveToRelative(-0.22f, -1.05f, -1.08f, -1.86f, -2.15f, -2.02f)
+                curveToRelative(-1.7f, -0.25f, -4.55f, -0.55f, -8.48f, -0.55f)
+                reflectiveCurveToRelative(-6.78f, 0.3f, -8.48f, 0.55f)
+                curveToRelative(-1.06f, 0.16f, -1.93f, 0.97f, -2.15f, 2.02f)
+                curveToRelative(-0.18f, 0.84f, -0.38f, 1.79f, -0.38f, 2.93f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(1.7f)
+                curveToRelative(-0.13f, 1.56f, -0.18f, 3.26f, -0.2f, 4.88f)
+                curveToRelative(0f, 6.37f, 0.89f, 9.81f, 0.93f, 9.96f)
+                curveToRelative(0.04f, 0.17f, 0.18f, 0.31f, 0.35f, 0.35f)
+                curveToRelative(0.1f, 0.03f, 2.39f, 0.65f, 6.2f, 0.79f)
+                horizontalLineToRelative(0.02f)
+                curveToRelative(0.27f, 0f, 0.49f, -0.21f, 0.5f, -0.48f)
+                curveToRelative(0.01f, -0.28f, -0.2f, -0.51f, -0.48f, -0.52f)
+                close()
+                moveTo(2.35f, 3.78f)
+                curveToRelative(0.14f, -0.64f, 0.66f, -1.14f, 1.31f, -1.24f)
+                curveToRelative(1.67f, -0.25f, 4.46f, -0.54f, 8.33f, -0.54f)
+                reflectiveCurveToRelative(6.66f, 0.29f, 8.33f, 0.54f)
+                curveToRelative(0.65f, 0.1f, 1.18f, 0.59f, 1.31f, 1.24f)
+                curveToRelative(0.15f, 0.69f, 0.3f, 1.41f, 0.34f, 2.22f)
+                horizontalLineToRelative(-19.97f)
+                curveToRelative(0.04f, -0.82f, 0.2f, -1.53f, 0.34f, -2.22f)
+                close()
+                moveTo(17.5f, 12f)
+                curveToRelative(-3.85f, 0f, -5.5f, 1.65f, -5.5f, 5.5f)
+                reflectiveCurveToRelative(1.65f, 5.5f, 5.5f, 5.5f)
+                reflectiveCurveToRelative(5.5f, -1.65f, 5.5f, -5.5f)
+                reflectiveCurveToRelative(-1.65f, -5.5f, -5.5f, -5.5f)
+                close()
+                moveTo(13f, 17.5f)
+                curveToRelative(0f, -3.28f, 1.22f, -4.5f, 4.5f, -4.5f)
+                curveToRelative(1.37f, 0f, 2.36f, 0.23f, 3.08f, 0.72f)
+                lineToRelative(-6.86f, 6.86f)
+                curveToRelative(-0.49f, -0.71f, -0.72f, -1.71f, -0.72f, -3.08f)
+                close()
+                moveTo(17.5f, 22f)
+                curveToRelative(-1.37f, 0f, -2.36f, -0.23f, -3.08f, -0.72f)
+                lineToRelative(6.86f, -6.86f)
+                curveToRelative(0.49f, 0.71f, 0.72f, 1.71f, 0.72f, 3.08f)
+                curveToRelative(0f, 3.28f, -1.22f, 4.5f, -4.5f, 4.5f)
+                close()
+            }
+        }.also { _PrescriptionBottlePill = it}

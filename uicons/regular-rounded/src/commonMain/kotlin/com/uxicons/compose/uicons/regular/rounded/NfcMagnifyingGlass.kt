@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _NfcMagnifyingGlass: ImageVector? = null
+
+val Icons.Rr.NfcMagnifyingGlass: ImageVector
+    get() = _NfcMagnifyingGlass ?: UXIcon(name = "NfcMagnifyingGlass") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.71f, 22.29f)
+                lineToRelative(-2.54f, -2.54f)
+                curveToRelative(0.52f, -0.79f, 0.83f, -1.74f, 0.83f, -2.76f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                reflectiveCurveToRelative(-5f, 2.24f, -5f, 5f)
+                reflectiveCurveToRelative(2.24f, 5f, 5f, 5f)
+                curveToRelative(1.02f, 0f, 1.97f, -0.31f, 2.76f, -0.83f)
+                lineToRelative(2.54f, 2.54f)
+                curveToRelative(0.2f, 0.2f, 0.45f, 0.29f, 0.71f, 0.29f)
+                reflectiveCurveToRelative(0.51f, -0.1f, 0.71f, -0.29f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                close()
+                moveTo(14f, 17f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                reflectiveCurveToRelative(3f, 1.35f, 3f, 3f)
+                reflectiveCurveToRelative(-1.35f, 3f, -3f, 3f)
+                reflectiveCurveToRelative(-3f, -1.35f, -3f, -3f)
+                close()
+                moveTo(11f, 21f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                lineTo(5f, 22f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                lineTo(0f, 5f)
+                curveTo(0f, 2.24f, 2.24f, 0f, 5f, 0f)
+                horizontalLineToRelative(12f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                verticalLineToRelative(5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                lineTo(20f, 5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(5f, 2f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(6f, 8.41f)
+                verticalLineToRelative(7.59f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                lineTo(4f, 6f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.4f, 0f, 0.77f, 0.24f, 0.92f, 0.62f)
+                curveToRelative(0.16f, 0.37f, 0.07f, 0.8f, -0.22f, 1.09f)
+                lineToRelative(-2.71f, 2.71f)
+                close()
+                moveTo(11f, 13f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-1.67f)
+                curveToRelative(0f, -0.8f, 0.31f, -1.56f, 0.88f, -2.12f)
+                lineToRelative(3.33f, -3.33f)
+                curveToRelative(0.57f, -0.57f, 1.32f, -0.88f, 2.12f, -0.88f)
+                horizontalLineToRelative(1.67f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-1.67f)
+                curveToRelative(-0.26f, 0f, -0.52f, 0.11f, -0.71f, 0.29f)
+                lineToRelative(-3.33f, 3.33f)
+                curveToRelative(-0.19f, 0.19f, -0.29f, 0.44f, -0.29f, 0.71f)
+                verticalLineToRelative(1.67f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _NfcMagnifyingGlass = it}

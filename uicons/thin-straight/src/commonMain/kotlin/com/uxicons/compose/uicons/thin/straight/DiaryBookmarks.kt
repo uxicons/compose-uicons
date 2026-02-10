@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DiaryBookmarks: ImageVector? = null
+
+val Icons.Ts.DiaryBookmarks: ImageVector
+    get() = _DiaryBookmarks ?: UXIcon(name = "DiaryBookmarks") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 7f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(4.5f, 0f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(19f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(16f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-3.54f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-0.96f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(23f, 3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(4.5f, 1f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(18f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.56f, 0f, -1.08f, 0.2f, -1.5f, 0.51f)
+                lineTo(3f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(21f, 22.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                lineTo(4.5f, 23f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(16.5f)
+                verticalLineToRelative(2.5f)
+                close()
+                moveTo(23f, 14.96f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(23f, 8.96f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(21f, 19f)
+                lineTo(7f, 19f)
+                lineTo(7f, 1f)
+                horizontalLineToRelative(13.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(17.5f)
+                close()
+            }
+        }.also { _DiaryBookmarks = it}

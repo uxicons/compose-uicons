@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GrateDroplet: ImageVector? = null
+
+val Icons.Rr.GrateDroplet: ImageVector
+    get() = _GrateDroplet ?: UXIcon(name = "GrateDroplet") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.53f, 15.46f)
+                lineToRelative(-1.81f, -1.77f)
+                curveToRelative(-0.94f, -0.92f, -2.48f, -0.92f, -3.43f, 0f)
+                lineToRelative(-1.82f, 1.78f)
+                curveToRelative(-0.94f, 0.94f, -1.47f, 2.2f, -1.47f, 3.54f)
+                reflectiveCurveToRelative(0.52f, 2.59f, 1.46f, 3.54f)
+                reflectiveCurveToRelative(2.2f, 1.47f, 3.54f, 1.47f)
+                reflectiveCurveToRelative(2.59f, -0.52f, 3.54f, -1.47f)
+                reflectiveCurveToRelative(1.47f, -2.2f, 1.47f, -3.54f)
+                reflectiveCurveToRelative(-0.52f, -2.59f, -1.47f, -3.54f)
+                close()
+                moveTo(21.12f, 21.12f)
+                curveToRelative(-1.13f, 1.13f, -3.11f, 1.13f, -4.24f, 0f)
+                curveToRelative(-0.57f, -0.57f, -0.88f, -1.32f, -0.88f, -2.12f)
+                reflectiveCurveToRelative(0.31f, -1.55f, 0.87f, -2.11f)
+                lineToRelative(1.81f, -1.77f)
+                curveToRelative(0.09f, -0.09f, 0.2f, -0.13f, 0.32f, -0.13f)
+                curveToRelative(0.11f, 0f, 0.23f, 0.04f, 0.32f, 0.13f)
+                lineToRelative(1.81f, 1.77f)
+                curveToRelative(0.57f, 0.57f, 0.88f, 1.32f, 0.88f, 2.12f)
+                reflectiveCurveToRelative(-0.31f, 1.55f, -0.88f, 2.12f)
+                close()
+                moveTo(16f, 12f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                lineTo(17f, 2f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(5f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                lineTo(5f, 0f)
+                curveTo(2.24f, 0f, 0f, 2.24f, 0f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-9f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(15f, 2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-3f)
+                lineTo(12f, 2f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(10f, 10f)
+                horizontalLineToRelative(-3f)
+                lineTo(7f, 2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(8f)
+                close()
+                moveTo(5f, 2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+                moveTo(2f, 17f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(8f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                close()
+                moveTo(10f, 20f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(8f)
+                close()
+            }
+        }.also { _GrateDroplet = it}

@@ -20,7 +20,20 @@ kotlin {
             implementation(libs.compose.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
-            implementation(project(":uicons"))
+            // Icon packages (all 11 styles)
+            implementation(project(":uicons-core"))
+            implementation(project(":uicons-brand"))
+            implementation(project(":uicons-bold-rounded"))
+            implementation(project(":uicons-bold-straight"))
+            implementation(project(":uicons-regular-chubby"))
+            implementation(project(":uicons-regular-rounded"))
+            implementation(project(":uicons-regular-straight"))
+            implementation(project(":uicons-solid-chubby"))
+            implementation(project(":uicons-solid-rounded"))
+            implementation(project(":uicons-solid-straight"))
+            implementation(project(":uicons-thin-chubby"))
+            implementation(project(":uicons-thin-rounded"))
+            implementation(project(":uicons-thin-straight"))
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -30,6 +43,8 @@ kotlin {
             implementation(libs.kotlinx.coroutinesSwing)
         }
     }
+
+    jvmToolchain(17)
 }
 
 

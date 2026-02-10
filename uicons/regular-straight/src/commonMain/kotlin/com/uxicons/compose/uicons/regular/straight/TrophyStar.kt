@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrophyStar: ImageVector? = null
+
+val Icons.Rs.TrophyStar: ImageVector
+    get() = _TrophyStar ?: UXIcon(name = "TrophyStar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15.07f, 16.0f)
+                curveToRelative(6.59f, -0.02f, 8.93f, -3.51f, 8.93f, -6.5f)
+                curveToRelative(0f, -1.68f, -1.19f, -3.08f, -2.76f, -3.42f)
+                curveToRelative(0.31f, -0.88f, 0.55f, -1.73f, 0.7f, -2.49f)
+                curveToRelative(0.18f, -0.88f, -0.04f, -1.78f, -0.61f, -2.48f)
+                curveToRelative(-0.58f, -0.71f, -1.44f, -1.12f, -2.35f, -1.12f)
+                lineTo(5.02f, -0f)
+                curveToRelative(-0.92f, 0f, -1.77f, 0.41f, -2.35f, 1.12f)
+                curveToRelative(-0.57f, 0.7f, -0.79f, 1.6f, -0.61f, 2.48f)
+                curveToRelative(0.16f, 0.76f, 0.39f, 1.61f, 0.7f, 2.49f)
+                curveToRelative(-1.57f, 0.34f, -2.76f, 1.74f, -2.76f, 3.42f)
+                curveToRelative(0f, 2.99f, 2.34f, 6.47f, 8.93f, 6.5f)
+                curveToRelative(0.03f, 0.21f, 0.07f, 0.42f, 0.07f, 0.64f)
+                verticalLineToRelative(3.36f)
+                curveToRelative(0f, 1.83f, -1.54f, 1.99f, -2f, 2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.99f)
+                curveToRelative(-0.47f, -0.01f, -2.01f, -0.17f, -2.01f, -2f)
+                verticalLineToRelative(-3.36f)
+                curveToRelative(0f, -0.22f, 0.04f, -0.43f, 0.07f, -0.64f)
+                close()
+                moveTo(20.5f, 8f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                curveToRelative(0f, 2.05f, -1.63f, 4.22f, -6.12f, 4.47f)
+                curveToRelative(0.18f, -0.23f, 0.38f, -0.45f, 0.61f, -0.63f)
+                curveToRelative(1.72f, -1.37f, 3.02f, -3.35f, 3.96f, -5.35f)
+                horizontalLineToRelative(0.06f)
+                close()
+                moveTo(2f, 9.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(0.06f)
+                curveToRelative(0.94f, 2.0f, 2.24f, 3.98f, 3.96f, 5.35f)
+                curveToRelative(0.23f, 0.18f, 0.43f, 0.39f, 0.61f, 0.63f)
+                curveToRelative(-4.49f, -0.25f, -6.12f, -2.43f, -6.12f, -4.47f)
+                close()
+                moveTo(13f, 16.64f)
+                verticalLineToRelative(3.36f)
+                curveToRelative(0f, 0.81f, 0.19f, 1.46f, 0.49f, 2f)
+                horizontalLineToRelative(-2.97f)
+                curveToRelative(0.29f, -0.54f, 0.49f, -1.19f, 0.49f, -2f)
+                verticalLineToRelative(-3.36f)
+                curveToRelative(0f, -1.95f, -0.81f, -3.71f, -2.24f, -4.85f)
+                curveToRelative(-2.46f, -1.97f, -4.16f, -5.74f, -4.75f, -8.6f)
+                curveToRelative(-0.08f, -0.39f, 0.09f, -0.67f, 0.2f, -0.81f)
+                curveToRelative(0.2f, -0.24f, 0.49f, -0.38f, 0.8f, -0.38f)
+                horizontalLineToRelative(13.95f)
+                curveToRelative(0.31f, 0f, 0.6f, 0.14f, 0.8f, 0.38f)
+                curveToRelative(0.11f, 0.14f, 0.28f, 0.42f, 0.2f, 0.81f)
+                curveToRelative(-0.59f, 2.86f, -2.28f, 6.63f, -4.75f, 8.6f)
+                curveToRelative(-1.42f, 1.14f, -2.24f, 2.9f, -2.24f, 4.85f)
+                close()
+                moveTo(12.52f, 4f)
+                lineToRelative(0.65f, 2.0f)
+                horizontalLineToRelative(2.11f)
+                lineToRelative(0.3f, 0.92f)
+                lineToRelative(-1.71f, 1.24f)
+                lineToRelative(0.65f, 2.01f)
+                lineToRelative(-0.78f, 0.57f)
+                lineToRelative(-1.71f, -1.24f)
+                lineToRelative(-1.71f, 1.24f)
+                lineToRelative(-0.78f, -0.57f)
+                lineToRelative(0.65f, -2.01f)
+                lineToRelative(-1.71f, -1.24f)
+                lineToRelative(0.3f, -0.92f)
+                horizontalLineToRelative(2.11f)
+                lineToRelative(0.65f, -2f)
+                lineToRelative(0.96f, -0.01f)
+                close()
+            }
+        }.also { _TrophyStar = it}

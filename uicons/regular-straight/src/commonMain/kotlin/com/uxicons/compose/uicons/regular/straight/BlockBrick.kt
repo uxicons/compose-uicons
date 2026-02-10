@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BlockBrick: ImageVector? = null
+
+val Icons.Rs.BlockBrick: ImageVector
+    get() = _BlockBrick ?: UXIcon(name = "BlockBrick") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21f, 0f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                lineTo(0f, 24f)
+                lineTo(24f, 24f)
+                lineTo(24f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(22f, 3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-4f)
+                lineTo(18f, 2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(8f, 17f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(4f)
+                lineTo(8f, 17f)
+                close()
+                moveTo(8f, 5f)
+                lineTo(8f, 2f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(3f)
+                lineTo(8f, 5f)
+                close()
+                moveTo(11f, 7f)
+                verticalLineToRelative(4f)
+                lineTo(2f, 11f)
+                lineTo(2f, 7f)
+                lineTo(11f, 7f)
+                close()
+                moveTo(6f, 13f)
+                verticalLineToRelative(4f)
+                lineTo(2f, 17f)
+                verticalLineToRelative(-4f)
+                lineTo(6f, 13f)
+                close()
+                moveTo(18f, 13f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(13f, 11f)
+                lineTo(13f, 7f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(4f)
+                lineTo(13f, 11f)
+                close()
+                moveTo(3f, 2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 5f)
+                lineTo(2f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(2f, 19f)
+                lineTo(11f, 19f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 22f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13f, 22f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(3f)
+                lineTo(13f, 22f)
+                close()
+            }
+        }.also { _BlockBrick = it}

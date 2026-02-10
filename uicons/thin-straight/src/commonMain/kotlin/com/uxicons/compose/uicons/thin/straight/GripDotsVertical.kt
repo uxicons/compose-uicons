@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GripDotsVertical: ImageVector? = null
+
+val Icons.Ts.GripDotsVertical: ImageVector
+    get() = _GripDotsVertical ?: UXIcon(name = "GripDotsVertical") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17f, 6f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                close()
+                moveTo(17f, 1f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(17f, 18f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(17f, 23f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(17f, 9f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(17f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(7f, 0f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(7f, 5f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(7f, 18f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(7f, 23f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(7f, 9f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(7f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+            }
+        }.also { _GripDotsVertical = it}

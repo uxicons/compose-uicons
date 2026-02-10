@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SensorFire: ImageVector? = null
+
+val Icons.Ts.SensorFire: ImageVector
+    get() = _SensorFire ?: UXIcon(name = "SensorFire") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 2.5f)
+                lineTo(24f, 11.84f)
+                curveToRelative(-0.32f, -0.39f, -0.65f, -0.75f, -1f, -1.09f)
+                lineTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 1f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                lineTo(1f, 23f)
+                lineTo(10.31f, 23f)
+                curveToRelative(0.32f, 0.36f, 0.67f, 0.7f, 1.05f, 1f)
+                lineTo(0f, 24f)
+                lineTo(0f, 2.5f)
+                curveTo(0f, 1.12f, 1.12f, 0f, 2.5f, 0f)
+                lineTo(21.5f, 0f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(3f, 4f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(7f, 4f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(24f, 17f)
+                curveToRelative(0f, 3.65f, -3f, 7.04f, -7f, 7.04f)
+                reflectiveCurveToRelative(-7f, -3.39f, -7f, -7.04f)
+                curveToRelative(0f, -2.15f, 1.31f, -3.76f, 2.3f, -4.78f)
+                lineToRelative(0.56f, -0.58f)
+                lineToRelative(0.27f, 0.76f)
+                curveToRelative(0.26f, 0.73f, 0.68f, 1.48f, 0.89f, 1.59f)
+                curveToRelative(0.31f, -0.04f, 0.54f, -0.82f, 0.78f, -1.64f)
+                curveToRelative(0.34f, -1.16f, 0.77f, -2.59f, 1.81f, -3.8f)
+                lineToRelative(0.35f, -0.41f)
+                lineToRelative(0.38f, 0.38f)
+                curveToRelative(0.49f, 0.49f, 1.15f, 1.01f, 1.84f, 1.56f)
+                curveToRelative(2.14f, 1.71f, 4.81f, 3.84f, 4.81f, 6.9f)
+                close()
+                moveTo(16.53f, 22.98f)
+                curveToRelative(0.15f, 0.01f, 0.31f, 0.02f, 0.47f, 0.02f)
+                reflectiveCurveToRelative(0.31f, -0.01f, 0.47f, -0.02f)
+                curveToRelative(0.35f, -0.08f, 0.68f, -0.26f, 0.95f, -0.53f)
+                curveToRelative(0.38f, -0.38f, 0.59f, -0.88f, 0.59f, -1.41f)
+                reflectiveCurveToRelative(-0.21f, -1.04f, -0.59f, -1.42f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(-1.41f, 1.41f)
+                curveToRelative(-0.38f, 0.38f, -0.59f, 0.88f, -0.59f, 1.42f)
+                reflectiveCurveToRelative(0.21f, 1.04f, 0.59f, 1.41f)
+                curveToRelative(0.27f, 0.27f, 0.6f, 0.45f, 0.95f, 0.53f)
+                close()
+                moveTo(23f, 17f)
+                curveToRelative(0f, -2.58f, -2.35f, -4.46f, -4.43f, -6.12f)
+                curveToRelative(-0.54f, -0.43f, -1.06f, -0.84f, -1.51f, -1.25f)
+                curveToRelative(-0.68f, 0.96f, -1.01f, 2.09f, -1.29f, 3.02f)
+                curveToRelative(-0.38f, 1.26f, -0.7f, 2.35f, -1.77f, 2.35f)
+                curveToRelative(-0.65f, 0f, -1.16f, -0.77f, -1.5f, -1.51f)
+                curveToRelative(-0.78f, 0.9f, -1.5f, 2.06f, -1.5f, 3.51f)
+                curveToRelative(0f, 2.34f, 1.35f, 4.37f, 3.31f, 5.36f)
+                curveToRelative(-0.2f, -0.41f, -0.31f, -0.86f, -0.31f, -1.32f)
+                curveToRelative(0f, -0.8f, 0.31f, -1.55f, 0.88f, -2.12f)
+                lineToRelative(2.12f, -2.12f)
+                lineToRelative(2.12f, 2.12f)
+                curveToRelative(0.57f, 0.57f, 0.88f, 1.32f, 0.88f, 2.12f)
+                curveToRelative(0f, 0.47f, -0.11f, 0.92f, -0.31f, 1.32f)
+                curveToRelative(1.96f, -0.99f, 3.31f, -3.02f, 3.31f, -5.36f)
+                close()
+            }
+        }.also { _SensorFire = it}

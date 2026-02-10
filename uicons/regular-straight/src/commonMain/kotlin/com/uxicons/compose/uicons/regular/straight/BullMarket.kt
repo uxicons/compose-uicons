@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BullMarket: ImageVector? = null
+
+val Icons.Rs.BullMarket: ImageVector
+    get() = _BullMarket ?: UXIcon(name = "BullMarket") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17f, 10f)
+                curveToRelative(-3.86f, 0f, -7f, 3.14f, -7f, 7f)
+                reflectiveCurveToRelative(3.14f, 7f, 7f, 7f)
+                reflectiveCurveToRelative(7f, -3.14f, 7f, -7f)
+                reflectiveCurveToRelative(-3.14f, -7f, -7f, -7f)
+                close()
+                moveTo(17f, 22f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                reflectiveCurveToRelative(2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                reflectiveCurveToRelative(-2.24f, 5f, -5f, 5f)
+                close()
+                moveTo(20.43f, 17f)
+                horizontalLineToRelative(-2.43f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2.45f)
+                lineToRelative(2.69f, -2.69f)
+                curveToRelative(0.42f, -0.42f, 1.09f, -0.42f, 1.51f, 0f)
+                close()
+                moveTo(8f, 20f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(0.06f)
+                curveToRelative(-0.04f, -0.33f, -0.06f, -0.66f, -0.06f, -1f)
+                curveToRelative(0f, -0.32f, 0.02f, -0.64f, 0.06f, -0.96f)
+                curveToRelative(0.19f, -1.77f, 0.88f, -3.38f, 1.94f, -4.7f)
+                verticalLineToRelative(-0.35f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                horizontalLineToRelative(-0.37f)
+                curveToRelative(0.32f, -0.41f, 0.82f, -0.74f, 1.56f, -1f)
+                horizontalLineToRelative(8.63f)
+                curveToRelative(0.69f, 0.25f, 1.2f, 0.57f, 1.55f, 1f)
+                horizontalLineToRelative(-0.37f)
+                curveToRelative(-2.5f, 0f, -4.55f, 1.84f, -4.92f, 4.24f)
+                curveToRelative(1.58f, -1.39f, 3.65f, -2.23f, 5.92f, -2.23f)
+                horizontalLineToRelative(1.98f)
+                curveToRelative(0f, -1.2f, -0.29f, -2.2f, -0.87f, -3.01f)
+                curveToRelative(1.6f, -0.06f, 2.88f, -1.37f, 2.88f, -2.99f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-15.0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.62f, 1.29f, 2.93f, 2.89f, 2.99f)
+                curveToRelative(-0.94f, 1.38f, -0.89f, 2.92f, -0.89f, 4.19f)
+                lineToRelative(3.27f, 8.59f)
+                curveToRelative(-0.17f, 0.38f, -0.27f, 0.79f, -0.27f, 1.23f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(1.52f)
+                curveToRelative(-0.41f, -0.62f, -0.74f, -1.29f, -0.99f, -2f)
+                horizontalLineToRelative(-0.52f)
+                close()
+                moveTo(4.03f, 8f)
+                horizontalLineToRelative(0.97f)
+                curveToRelative(0.36f, 0f, 0.71f, 0.07f, 1.03f, 0.19f)
+                curveToRelative(-0.02f, 0.1f, -0.03f, 0.2f, -0.03f, 0.31f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                curveToRelative(0.1f, 0f, 0.21f, -0.01f, 0.31f, -0.03f)
+                curveToRelative(0.12f, 0.32f, 0.19f, 0.67f, 0.19f, 1.03f)
+                verticalLineToRelative(5f)
+                curveToRelative(-0.42f, 0f, -0.81f, 0.09f, -1.17f, 0.24f)
+                lineToRelative(-2.83f, -7.42f)
+                curveToRelative(0.0f, -0.29f, 0.01f, -0.56f, 0.02f, -0.82f)
+                close()
+            }
+        }.also { _BullMarket = it}

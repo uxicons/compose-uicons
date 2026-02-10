@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RevenueAlt: ImageVector? = null
+
+val Icons.Ts.RevenueAlt: ImageVector
+    get() = _RevenueAlt ?: UXIcon(name = "RevenueAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.77f, 11.06f)
+                lineToRelative(-2.77f, -2.77f)
+                verticalLineToRelative(15.71f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-15.71f)
+                lineToRelative(-2.77f, 2.77f)
+                lineToRelative(-0.71f, -0.71f)
+                lineToRelative(2.91f, -2.91f)
+                curveToRelative(0.58f, -0.58f, 1.54f, -0.58f, 2.12f, 0f)
+                lineToRelative(2.92f, 2.92f)
+                lineToRelative(-0.71f, 0.71f)
+                close()
+                moveTo(11.5f, 1.29f)
+                verticalLineToRelative(6.71f)
+                horizontalLineToRelative(1f)
+                lineTo(12.5f, 1.29f)
+                lineToRelative(2.77f, 2.77f)
+                lineToRelative(0.71f, -0.71f)
+                lineTo(13.06f, 0.44f)
+                curveToRelative(-0.58f, -0.58f, -1.54f, -0.58f, -2.12f, 0f)
+                lineToRelative(-2.91f, 2.91f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(2.77f, -2.77f)
+                close()
+                moveTo(8.48f, 8.36f)
+                lineToRelative(-2.92f, -2.92f)
+                curveToRelative(-0.58f, -0.58f, -1.54f, -0.58f, -2.12f, 0f)
+                lineToRelative(-2.91f, 2.91f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(2.77f, -2.77f)
+                verticalLineToRelative(17.71f)
+                horizontalLineToRelative(1f)
+                lineTo(5.0f, 6.29f)
+                lineToRelative(2.77f, 2.77f)
+                lineToRelative(0.71f, -0.71f)
+                close()
+                moveTo(13.51f, 12f)
+                horizontalLineToRelative(-1.0f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.0f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                curveToRelative(0f, 1.11f, 0.74f, 2.1f, 1.81f, 2.4f)
+                lineToRelative(4.11f, 1.17f)
+                curveToRelative(0.64f, 0.18f, 1.08f, 0.77f, 1.08f, 1.44f)
+                curveToRelative(0f, 0.82f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-3.01f)
+                curveToRelative(-0.82f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.51f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(0.51f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1.0f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1.0f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -1.11f, -0.74f, -2.1f, -1.81f, -2.4f)
+                lineToRelative(-4.11f, -1.17f)
+                curveToRelative(-0.64f, -0.18f, -1.08f, -0.77f, -1.08f, -1.44f)
+                curveToRelative(0f, -0.82f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(3.01f)
+                curveToRelative(0.82f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(0.51f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-0.51f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+            }
+        }.also { _RevenueAlt = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Pumpkin: ImageVector? = null
+
+val Icons.Tr.Pumpkin: ImageVector
+    get() = _Pumpkin ?: UXIcon(name = "Pumpkin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17.09f, 6f)
+                curveToRelative(-0.41f, 0f, -1.18f, 0.1f, -1.63f, 0.38f)
+                curveToRelative(-0.56f, -0.25f, -1.11f, -0.38f, -1.61f, -0.38f)
+                horizontalLineToRelative(-1.34f)
+                curveToRelative(0.14f, -3.93f, 1.92f, -5f, 2.99f, -5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                curveToRelative(-1.12f, 0f, -2.84f, 0.79f, -3.61f, 3.4f)
+                curveToRelative(-0.62f, -1.45f, -1.71f, -2.61f, -3.17f, -3.35f)
+                curveToRelative(-0.25f, -0.12f, -0.55f, -0.02f, -0.67f, 0.22f)
+                curveToRelative(-0.12f, 0.25f, -0.02f, 0.55f, 0.22f, 0.67f)
+                curveToRelative(1.94f, 0.97f, 3.07f, 2.75f, 3.21f, 5.05f)
+                horizontalLineToRelative(-1.33f)
+                curveToRelative(-0.51f, 0f, -1.05f, 0.13f, -1.61f, 0.38f)
+                curveToRelative(-0.45f, -0.28f, -1.22f, -0.38f, -1.63f, -0.38f)
+                curveTo(3.51f, 6f, 0f, 9.37f, 0f, 15f)
+                reflectiveCurveToRelative(3.51f, 9f, 6.91f, 9f)
+                curveToRelative(0.47f, 0f, 0.97f, -0.12f, 1.42f, -0.34f)
+                curveToRelative(0.5f, 0.22f, 1.01f, 0.34f, 1.52f, 0.34f)
+                curveToRelative(0.37f, 0f, 0.72f, -0.08f, 1.04f, -0.23f)
+                curveToRelative(0.34f, 0.15f, 0.71f, 0.23f, 1.11f, 0.23f)
+                reflectiveCurveToRelative(0.77f, -0.08f, 1.11f, -0.23f)
+                curveToRelative(0.32f, 0.15f, 0.67f, 0.23f, 1.04f, 0.23f)
+                curveToRelative(0.51f, 0f, 1.02f, -0.12f, 1.52f, -0.34f)
+                curveToRelative(0.45f, 0.22f, 0.95f, 0.34f, 1.42f, 0.34f)
+                curveToRelative(3.4f, 0f, 6.91f, -3.37f, 6.91f, -9f)
+                reflectiveCurveToRelative(-3.52f, -9f, -6.91f, -9f)
+                close()
+                moveTo(6.91f, 23f)
+                curveToRelative(-2.91f, 0f, -5.91f, -2.99f, -5.91f, -8f)
+                reflectiveCurveTo(4.01f, 7f, 6.91f, 7f)
+                curveToRelative(0.16f, 0f, 0.34f, 0.02f, 0.52f, 0.05f)
+                curveToRelative(-1.82f, 1.38f, -3.43f, 4.09f, -3.43f, 7.95f)
+                curveToRelative(0f, 3.68f, 1.42f, 6.54f, 3.21f, 7.97f)
+                curveToRelative(-0.1f, 0.02f, -0.2f, 0.03f, -0.3f, 0.03f)
+                close()
+                moveTo(5f, 15f)
+                curveToRelative(0f, -4.74f, 2.75f, -7.74f, 4.87f, -7.98f)
+                curveToRelative(-1.21f, 1.38f, -1.87f, 4.13f, -1.87f, 7.98f)
+                curveToRelative(0f, 3.91f, 0.65f, 6.64f, 1.85f, 8f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-1.98f, 0f, -4.85f, -2.85f, -4.85f, -8f)
+                close()
+                moveTo(11.28f, 22.84f)
+                curveToRelative(-0.06f, -0.07f, -0.14f, -0.11f, -0.23f, -0.13f)
+                curveToRelative(-1.3f, -0.87f, -2.05f, -3.61f, -2.05f, -7.7f)
+                curveToRelative(0f, -4.93f, 1.15f, -8f, 3f, -8f)
+                reflectiveCurveToRelative(3f, 3.06f, 3f, 8f)
+                curveToRelative(0f, 4.09f, -0.75f, 6.84f, -2.05f, 7.71f)
+                curveToRelative(-0.09f, 0.02f, -0.16f, 0.07f, -0.23f, 0.13f)
+                curveToRelative(-0.23f, 0.11f, -0.47f, 0.17f, -0.72f, 0.17f)
+                reflectiveCurveToRelative(-0.5f, -0.06f, -0.72f, -0.16f)
+                close()
+                moveTo(14.14f, 23f)
+                curveToRelative(1.21f, -1.36f, 1.85f, -4.09f, 1.85f, -8f)
+                curveToRelative(0f, -3.85f, -0.66f, -6.6f, -1.87f, -7.98f)
+                curveToRelative(2.12f, 0.25f, 4.87f, 3.24f, 4.87f, 7.98f)
+                curveToRelative(0f, 5.15f, -2.87f, 8f, -4.85f, 8f)
+                horizontalLineToRelative(-0.01f)
+                close()
+                moveTo(17.09f, 23f)
+                curveToRelative(-0.1f, 0f, -0.2f, -0.01f, -0.3f, -0.03f)
+                curveToRelative(1.8f, -1.44f, 3.21f, -4.29f, 3.21f, -7.97f)
+                curveToRelative(0f, -3.86f, -1.61f, -6.57f, -3.43f, -7.95f)
+                curveToRelative(0.18f, -0.03f, 0.36f, -0.05f, 0.52f, -0.05f)
+                curveToRelative(2.91f, 0f, 5.91f, 2.99f, 5.91f, 8f)
+                reflectiveCurveToRelative(-3.01f, 8f, -5.91f, 8f)
+                close()
+            }
+        }.also { _Pumpkin = it}

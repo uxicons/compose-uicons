@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Skin: ImageVector? = null
+
+val Icons.Sr.Skin: ImageVector
+    get() = _Skin ?: UXIcon(name = "Skin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 8f)
+                verticalLineToRelative(4.15f)
+                curveToRelative(0f, 0.71f, -0.84f, 1.09f, -1.37f, 0.62f)
+                curveToRelative(-0.21f, -0.19f, -0.39f, -0.34f, -0.46f, -0.39f)
+                curveToRelative(-0.67f, -0.51f, -1.66f, -0.51f, -2.33f, 0f)
+                curveToRelative(-0.51f, 0.39f, -1.14f, 0.62f, -1.83f, 0.62f)
+                reflectiveCurveToRelative(-1.33f, -0.23f, -1.83f, -0.62f)
+                curveToRelative(-0.67f, -0.51f, -1.66f, -0.51f, -2.33f, 0f)
+                curveToRelative(-0.51f, 0.39f, -1.14f, 0.62f, -1.83f, 0.62f)
+                reflectiveCurveToRelative(-1.33f, -0.23f, -1.83f, -0.62f)
+                curveToRelative(-0.67f, -0.51f, -1.66f, -0.51f, -2.33f, 0f)
+                curveToRelative(-0.51f, 0.39f, -1.14f, 0.62f, -1.83f, 0.62f)
+                reflectiveCurveToRelative(-1.33f, -0.23f, -1.83f, -0.62f)
+                curveToRelative(-0.67f, -0.51f, -1.66f, -0.51f, -2.33f, 0f)
+                curveToRelative(-0.07f, 0.05f, -0.22f, 0.18f, -0.41f, 0.35f)
+                curveToRelative(-0.55f, 0.48f, -1.41f, 0.09f, -1.41f, -0.63f)
+                lineTo(0.0f, 8.0f)
+                curveToRelative(-0.0f, -1.11f, 0.89f, -2.0f, 2f, -2.0f)
+                horizontalLineToRelative(20.0f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(1.5f, 15f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(6.5f, 18f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(17.5f, 18f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(12f, 15f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(22.5f, 15f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(1.5f, 21f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(12f, 21f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(22.5f, 21f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _Skin = it}

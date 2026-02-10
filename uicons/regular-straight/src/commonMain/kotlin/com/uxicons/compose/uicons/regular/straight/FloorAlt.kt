@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FloorAlt: ImageVector? = null
+
+val Icons.Rs.FloorAlt: ImageVector
+    get() = _FloorAlt ?: UXIcon(name = "FloorAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.25f, 8f)
+                horizontalLineToRelative(-1.25f)
+                verticalLineToRelative(-1.25f)
+                curveToRelative(0f, -1.52f, -1.23f, -2.75f, -2.75f, -2.75f)
+                horizontalLineToRelative(-1.25f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                verticalLineToRelative(13f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(-13.25f)
+                curveToRelative(0f, -1.52f, -1.23f, -2.75f, -2.75f, -2.75f)
+                close()
+                moveTo(2f, 9.29f)
+                lineToRelative(4.25f, -4.25f)
+                lineToRelative(1.65f, 1.65f)
+                lineToRelative(-5.9f, 5.9f)
+                verticalLineToRelative(-3.3f)
+                close()
+                moveTo(14f, 6.71f)
+                lineToRelative(-4.47f, 4.47f)
+                lineToRelative(-1.65f, -1.65f)
+                lineToRelative(6.12f, -6.12f)
+                verticalLineToRelative(3.3f)
+                close()
+                moveTo(9.31f, 5.27f)
+                lineToRelative(-1.65f, -1.65f)
+                lineToRelative(1.62f, -1.62f)
+                horizontalLineToRelative(3.3f)
+                lineToRelative(-3.27f, 3.27f)
+                close()
+                moveTo(6.47f, 10.95f)
+                lineToRelative(1.65f, 1.65f)
+                lineToRelative(-1.41f, 1.41f)
+                horizontalLineToRelative(-3.3f)
+                lineToRelative(3.06f, -3.06f)
+                close()
+                moveTo(14.0f, 9.54f)
+                verticalLineToRelative(4.46f)
+                horizontalLineToRelative(-4.46f)
+                lineToRelative(4.46f, -4.46f)
+                close()
+                moveTo(3f, 2f)
+                horizontalLineToRelative(3.46f)
+                lineTo(2f, 6.46f)
+                verticalLineToRelative(-3.46f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(6f, 16f)
+                horizontalLineToRelative(10f)
+                lineTo(16f, 6f)
+                horizontalLineToRelative(1.25f)
+                curveToRelative(0.41f, 0f, 0.75f, 0.34f, 0.75f, 0.75f)
+                verticalLineToRelative(11.25f)
+                lineTo(6f, 18f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(22f, 22f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(1.25f)
+                curveToRelative(0.41f, 0f, 0.75f, 0.34f, 0.75f, 0.75f)
+                verticalLineToRelative(11.25f)
+                close()
+            }
+        }.also { _FloorAlt = it}

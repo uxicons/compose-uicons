@@ -1,0 +1,66 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Brain: ImageVector? = null
+
+val Icons.Rc.Brain: ImageVector
+    get() = _Brain ?: UXIcon(name = "Brain") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 13.09f)
+                curveToRelative(-0.03f, -1.41f, -0.42f, -2.54f, -1.18f, -3.36f)
+                curveToRelative(0.06f, -0.3f, 0.09f, -0.62f, 0.1f, -0.96f)
+                curveToRelative(-0.04f, -2.05f, -1.04f, -3.04f, -2.06f, -3.53f)
+                curveToRelative(-0.23f, -1.43f, -1.17f, -3.22f, -4.4f, -3.24f)
+                curveToRelative(-1.73f, 0.01f, -2.8f, 0.53f, -3.46f, 1.23f)
+                curveToRelative(-0.66f, -0.7f, -1.73f, -1.22f, -3.47f, -1.23f)
+                curveToRelative(-3.22f, 0.02f, -4.16f, 1.81f, -4.39f, 3.24f)
+                curveToRelative(-1.03f, 0.48f, -2.02f, 1.49f, -2.06f, 3.57f)
+                curveToRelative(0.01f, 0.32f, 0.04f, 0.63f, 0.1f, 0.92f)
+                curveToRelative(-0.75f, 0.83f, -1.15f, 1.96f, -1.18f, 3.4f)
+                curveToRelative(0.04f, 2.22f, 1.05f, 3.42f, 2.09f, 4.08f)
+                curveToRelative(-0.01f, 0.12f, -0.01f, 0.24f, -0.02f, 0.37f)
+                curveToRelative(0.06f, 2.8f, 1.86f, 4.41f, 4.97f, 4.43f)
+                curveToRelative(1.78f, -0.01f, 3.12f, -0.52f, 3.96f, -1.49f)
+                curveToRelative(0.83f, 0.96f, 2.18f, 1.48f, 3.97f, 1.49f)
+                curveToRelative(3.09f, -0.02f, 4.9f, -1.63f, 4.96f, -4.47f)
+                curveToRelative(-0.0f, -0.11f, -0.01f, -0.22f, -0.01f, -0.33f)
+                curveToRelative(1.04f, -0.65f, 2.05f, -1.86f, 2.09f, -4.12f)
+                close()
+                moveTo(8.04f, 20f)
+                curveToRelative(-2.59f, -0.01f, -2.94f, -1.33f, -2.97f, -2.43f)
+                curveToRelative(0.01f, -0.26f, 0.03f, -0.51f, 0.08f, -0.73f)
+                curveToRelative(0.1f, -0.47f, -0.15f, -0.94f, -0.59f, -1.12f)
+                curveToRelative(-1.04f, -0.44f, -1.53f, -1.27f, -1.56f, -2.59f)
+                curveToRelative(0.02f, -1.08f, 0.32f, -1.84f, 0.92f, -2.3f)
+                curveToRelative(0.35f, -0.27f, 0.48f, -0.74f, 0.32f, -1.15f)
+                curveToRelative(-0.1f, -0.25f, -0.15f, -0.56f, -0.16f, -0.87f)
+                curveToRelative(0.03f, -1.35f, 0.66f, -1.72f, 1.27f, -1.89f)
+                curveToRelative(0.42f, -0.12f, 0.71f, -0.49f, 0.72f, -0.93f)
+                curveToRelative(0.04f, -1.19f, 0.47f, -1.98f, 2.46f, -1.99f)
+                curveToRelative(2.01f, 0.01f, 2.44f, 0.82f, 2.47f, 2.03f)
+                verticalLineToRelative(11.5f)
+                curveToRelative(-0.02f, 1.21f, -0.4f, 2.46f, -2.96f, 2.47f)
+                close()
+                moveTo(19.44f, 15.72f)
+                curveToRelative(-0.44f, 0.18f, -0.69f, 0.66f, -0.59f, 1.12f)
+                curveToRelative(0.05f, 0.22f, 0.07f, 0.47f, 0.08f, 0.69f)
+                curveToRelative(-0.02f, 1.14f, -0.38f, 2.45f, -2.96f, 2.47f)
+                curveToRelative(-2.57f, -0.01f, -2.94f, -1.26f, -2.97f, -2.45f)
+                lineTo(13f, 6.03f)
+                curveToRelative(0.03f, -1.21f, 0.46f, -2.02f, 2.46f, -2.03f)
+                curveToRelative(1.99f, 0.01f, 2.43f, 0.8f, 2.47f, 1.99f)
+                curveToRelative(0.01f, 0.43f, 0.31f, 0.81f, 0.72f, 0.93f)
+                curveToRelative(0.61f, 0.17f, 1.24f, 0.54f, 1.27f, 1.85f)
+                curveToRelative(-0.01f, 0.35f, -0.06f, 0.66f, -0.16f, 0.91f)
+                curveToRelative(-0.16f, 0.41f, -0.03f, 0.88f, 0.32f, 1.15f)
+                curveToRelative(0.6f, 0.46f, 0.9f, 1.22f, 0.92f, 2.26f)
+                curveToRelative(-0.03f, 1.36f, -0.52f, 2.19f, -1.56f, 2.63f)
+                close()
+            }
+        }.also { _Brain = it}

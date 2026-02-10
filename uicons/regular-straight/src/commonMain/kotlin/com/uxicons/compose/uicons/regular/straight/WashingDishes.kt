@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WashingDishes: ImageVector? = null
+
+val Icons.Rs.WashingDishes: ImageVector
+    get() = _WashingDishes ?: UXIcon(name = "WashingDishes") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(6.03f, 20.88f)
+                curveToRelative(0.01f, -0.12f, 0.03f, -0.24f, 0.05f, -0.36f)
+                curveToRelative(-2.45f, -1.61f, -4.08f, -4.38f, -4.08f, -7.52f)
+                curveToRelative(0f, -4.96f, 4.04f, -9f, 9f, -9f)
+                curveToRelative(3.15f, 0f, 5.92f, 1.62f, 7.52f, 4.08f)
+                curveToRelative(0.97f, 0.16f, 1.88f, 0.61f, 2.59f, 1.32f)
+                curveToRelative(0.17f, 0.17f, 0.31f, 0.36f, 0.45f, 0.55f)
+                curveToRelative(-0.51f, -1.76f, -1.45f, -3.34f, -2.69f, -4.61f)
+                curveToRelative(0.69f, -0.55f, 1.14f, -1.38f, 1.14f, -2.33f)
+                curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                curveToRelative(-0.9f, 0f, -1.71f, 0.41f, -2.26f, 1.04f)
+                curveToRelative(-0.34f, -0.62f, -0.99f, -1.04f, -1.74f, -1.04f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                curveToRelative(-1.62f, 0f, -3.15f, 0.36f, -4.53f, 0.99f)
+                curveToRelative(-0.46f, -0.6f, -1.16f, -0.99f, -1.97f, -0.99f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                curveToRelative(0f, 0.18f, 0.04f, 0.34f, 0.07f, 0.51f)
+                curveToRelative(-1.12f, -0.07f, -2.08f, 0.87f, -2.07f, 1.99f)
+                curveToRelative(0f, 0.69f, 0.36f, 1.3f, 0.9f, 1.65f)
+                curveToRelative(-0.58f, 1.33f, -0.9f, 2.8f, -0.9f, 4.35f)
+                curveToRelative(0f, 4.38f, 2.58f, 8.16f, 6.3f, 9.93f)
+                curveToRelative(-0.23f, -0.65f, -0.33f, -1.35f, -0.27f, -2.05f)
+                close()
+                moveTo(21.25f, 12.0f)
+                curveToRelative(-0.29f, 0f, -0.56f, 0.06f, -0.83f, 0.14f)
+                curveToRelative(-0.25f, -1.22f, -1.42f, -2.16f, -2.67f, -2.14f)
+                curveToRelative(-0.97f, 0f, -1.82f, 0.51f, -2.31f, 1.27f)
+                curveToRelative(-0.36f, -0.17f, -0.76f, -0.27f, -1.17f, -0.27f)
+                curveToRelative(-1.51f, 0f, -2.75f, 1.23f, -2.75f, 2.74f)
+                lineToRelative(-0.01f, 4.61f)
+                curveToRelative(-0.77f, -0.13f, -1.58f, 0.02f, -2.24f, 0.49f)
+                curveToRelative(-1.5f, 1.03f, -1.69f, 3.32f, -0.36f, 4.58f)
+                lineToRelative(0.61f, 0.58f)
+                horizontalLineToRelative(2.9f)
+                lineToRelative(-2.11f, -2.01f)
+                curveToRelative(-0.44f, -0.42f, -0.37f, -1.18f, 0.13f, -1.53f)
+                curveToRelative(0.38f, -0.27f, 0.97f, -0.19f, 1.36f, 0.19f)
+                lineToRelative(1.7f, 1.7f)
+                lineToRelative(0.03f, -8.61f)
+                curveToRelative(0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f)
+                curveToRelative(0.39f, -0.01f, 0.73f, 0.32f, 0.74f, 0.71f)
+                lineToRelative(-0.01f, 5.29f)
+                horizontalLineToRelative(2.01f)
+                lineToRelative(-0.01f, -6.26f)
+                curveToRelative(0f, -0.41f, 0.33f, -0.74f, 0.74f, -0.74f)
+                curveToRelative(0.41f, -0.01f, 0.76f, 0.35f, 0.75f, 0.75f)
+                lineToRelative(0.01f, 6.25f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-4.25f)
+                curveToRelative(0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f)
+                curveToRelative(0.41f, -0.01f, 0.76f, 0.35f, 0.75f, 0.76f)
+                verticalLineToRelative(9.24f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-9.24f)
+                curveToRelative(0.04f, -1.48f, -1.27f, -2.79f, -2.75f, -2.76f)
+                close()
+                moveTo(8.1f, 17.21f)
+                curveToRelative(0.37f, -0.27f, 0.78f, -0.45f, 1.2f, -0.6f)
+                curveToRelative(-1.36f, -0.64f, -2.3f, -2.01f, -2.3f, -3.61f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                verticalLineToRelative(-2f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                curveToRelative(0f, 1.97f, 0.95f, 3.71f, 2.42f, 4.8f)
+                curveToRelative(0.2f, -0.21f, 0.42f, -0.41f, 0.67f, -0.59f)
+                curveToRelative(0.01f, -0.0f, 0.01f, -0.01f, 0.01f, -0.01f)
+                close()
+            }
+        }.also { _WashingDishes = it}

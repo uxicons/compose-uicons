@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LeaderboardAlt: ImageVector? = null
+
+val Icons.Ss.LeaderboardAlt: ImageVector
+    get() = _LeaderboardAlt ?: UXIcon(name = "LeaderboardAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 0f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                verticalLineToRelative(21f)
+                horizontalLineToRelative(24f)
+                lineTo(24f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(5.5f, 4f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(8f, 20f)
+                lineTo(3f, 20f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(4f, 14.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(8f, 11f)
+                lineTo(3f, 11f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(13f, 18f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13f, 9f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(18.5f, 19f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                close()
+                moveTo(18.82f, 4.75f)
+                lineToRelative(0.62f, 1.9f)
+                horizontalLineToRelative(2.0f)
+                lineToRelative(0.2f, 0.6f)
+                lineToRelative(-1.62f, 1.17f)
+                lineToRelative(0.62f, 1.9f)
+                lineToRelative(-0.51f, 0.37f)
+                lineToRelative(-1.62f, -1.17f)
+                lineToRelative(-1.62f, 1.17f)
+                lineToRelative(-0.51f, -0.37f)
+                lineToRelative(0.62f, -1.9f)
+                lineToRelative(-1.62f, -1.17f)
+                lineToRelative(0.2f, -0.6f)
+                horizontalLineToRelative(2.0f)
+                lineToRelative(0.62f, -1.9f)
+                horizontalLineToRelative(0.63f)
+                close()
+            }
+        }.also { _LeaderboardAlt = it}

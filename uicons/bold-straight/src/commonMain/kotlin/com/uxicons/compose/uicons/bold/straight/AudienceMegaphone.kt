@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AudienceMegaphone: ImageVector? = null
+
+val Icons.Bs.AudienceMegaphone: ImageVector
+    get() = _AudienceMegaphone ?: UXIcon(name = "AudienceMegaphone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(21f, 3f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+                moveTo(22f, 12.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(22.5f, 10f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(22f, 21f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(22.5f, 18.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(16f, 12f)
+                curveToRelative(0f, 1.16f, -0.88f, 2.1f, -2f, 2.23f)
+                verticalLineToRelative(4.78f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(0f, -0.75f, 0f, -2f, -3f, -2f)
+                horizontalLineToRelative(-1.5f)
+                lineToRelative(1.31f, 2.94f)
+                curveToRelative(0.3f, 0.68f, 0.24f, 1.45f, -0.16f, 2.07f)
+                curveToRelative(-0.4f, 0.62f, -1.08f, 0.99f, -1.82f, 0.99f)
+                horizontalLineToRelative(-1.11f)
+                lineToRelative(-2.86f, -6.43f)
+                curveToRelative(-1.1f, -0.59f, -1.86f, -1.74f, -1.86f, -3.07f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(3f, 0f, 3f, -1.25f, 3f, -2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(4.78f)
+                curveToRelative(1.12f, 0.13f, 2f, 1.07f, 2f, 2.23f)
+                close()
+                moveTo(11f, 14.49f)
+                verticalLineToRelative(-4.98f)
+                curveToRelative(-0.78f, 0.3f, -1.76f, 0.49f, -3f, 0.49f)
+                lineTo(3.5f, 10f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(1.24f, 0f, 2.22f, 0.19f, 3f, 0.49f)
+                close()
+            }
+        }.also { _AudienceMegaphone = it}

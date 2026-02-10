@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Ballot: ImageVector? = null
+
+val Icons.Ts.Ballot: ImageVector
+    get() = _Ballot ?: UXIcon(name = "Ballot") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 24f)
+                lineTo(2f, 24f)
+                lineTo(2f, 2.5f)
+                curveTo(2f, 1.12f, 3.12f, 0f, 4.5f, 0f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                lineTo(22f, 24f)
+                close()
+                moveTo(3f, 23f)
+                lineTo(21f, 23f)
+                lineTo(21f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(4.5f, 1f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                lineTo(3f, 23f)
+                close()
+                moveTo(18f, 5f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(18f, 11f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(18f, 17f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(9f, 7f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(7f, 6f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(9f, 13f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(7f, 12f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(9f, 19f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(7f, 18f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                close()
+            }
+        }.also { _Ballot = it}

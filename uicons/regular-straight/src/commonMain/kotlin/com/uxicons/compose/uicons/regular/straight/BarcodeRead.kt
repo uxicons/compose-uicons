@@ -1,0 +1,89 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BarcodeRead: ImageVector? = null
+
+val Icons.Rs.BarcodeRead: ImageVector
+    get() = _BarcodeRead ?: UXIcon(name = "BarcodeRead") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(4f, 6f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(4f, 6f)
+                close()
+                moveTo(8f, 18f)
+                horizontalLineToRelative(2f)
+                lineTo(10f, 6f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(20f, 6f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(2f)
+                lineTo(20f, 6f)
+                close()
+                moveTo(11f, 18f)
+                horizontalLineToRelative(3f)
+                lineTo(14f, 6f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(2f, 19f)
+                verticalLineToRelative(-3f)
+                lineTo(0f, 16f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                lineTo(3f, 20f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(22f, 19f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(21f, 2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(0f, 5f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 8f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                lineTo(6f, 2f)
+                lineTo(3f, 2f)
+                curveTo(1.35f, 2f, 0f, 3.35f, 0f, 5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16f, 6f)
+                lineToRelative(-1f, 0f)
+                lineToRelative(0f, 12f)
+                lineToRelative(1f, 0f)
+                lineToRelative(0f, -12f)
+                lineToRelative(0f, 0f)
+                close()
+            }
+        }.also { _BarcodeRead = it}

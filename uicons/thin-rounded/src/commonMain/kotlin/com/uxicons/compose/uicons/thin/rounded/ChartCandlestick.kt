@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ChartCandlestick: ImageVector? = null
+
+val Icons.Tr.ChartCandlestick: ImageVector
+    get() = _ChartCandlestick ?: UXIcon(name = "ChartCandlestick") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 23.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(4.5f, 24f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 0.5f)
+                curveTo(0f, 0.22f, 0.22f, 0f, 0.5f, 0f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                lineTo(1f, 19.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                lineTo(23.5f, 23f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(15f, 11.5f)
+                lineTo(15f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(0.5f)
+                lineTo(17f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                lineTo(18f, 3f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(16f, 11.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(19f, 4.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(7f)
+                close()
+                moveTo(6f, 14.5f)
+                lineTo(6f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(0.5f)
+                lineTo(8f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                lineTo(9f, 3f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                lineTo(11f, 14.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(7f, 14.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(10f, 4.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                lineTo(7f, 14.5f)
+                close()
+            }
+        }.also { _ChartCandlestick = it}

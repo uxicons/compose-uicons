@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PayrollCheck: ImageVector? = null
+
+val Icons.Br.PayrollCheck: ImageVector
+    get() = _PayrollCheck ?: UXIcon(name = "PayrollCheck") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(18.5f, 2f)
+            lineTo(5.5f, 2f)
+            curveTo(2.47f, 2f, 0f, 4.47f, 0f, 7.5f)
+            verticalLineToRelative(9f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            lineTo(24f, 7.5f)
+            curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+            close()
+            moveTo(21f, 16.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            lineTo(5.5f, 19f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            lineTo(3f, 7.5f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            verticalLineToRelative(9f)
+            close()
+            moveTo(19.27f, 13.94f)
+            curveToRelative(-0.15f, 1.08f, -1.11f, 1.86f, -2.2f, 1.86f)
+            horizontalLineToRelative(-0.28f)
+            verticalLineToRelative(0.4f)
+            curveToRelative(0f, 0.44f, -0.36f, 0.8f, -0.8f, 0.8f)
+            reflectiveCurveToRelative(-0.8f, -0.36f, -0.8f, -0.8f)
+            verticalLineToRelative(-0.4f)
+            horizontalLineToRelative(-0.2f)
+            curveToRelative(-0.71f, 0f, -1.35f, -0.33f, -1.77f, -0.83f)
+            curveToRelative(-0.42f, -0.5f, -0.06f, -1.27f, 0.59f, -1.27f)
+            horizontalLineToRelative(0.08f)
+            curveToRelative(0.23f, 0f, 0.43f, 0.11f, 0.59f, 0.27f)
+            curveToRelative(0.13f, 0.14f, 0.31f, 0.23f, 0.52f, 0.23f)
+            horizontalLineToRelative(2.1f)
+            curveToRelative(0.28f, 0f, 0.53f, -0.19f, 0.59f, -0.46f)
+            curveToRelative(0.06f, -0.32f, -0.15f, -0.61f, -0.45f, -0.68f)
+            lineToRelative(-2.79f, -0.56f)
+            curveToRelative(-1.11f, -0.22f, -1.89f, -1.28f, -1.73f, -2.44f)
+            curveToRelative(0.15f, -1.08f, 1.11f, -1.87f, 2.2f, -1.87f)
+            horizontalLineToRelative(0.28f)
+            verticalLineToRelative(-0.4f)
+            curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+            reflectiveCurveToRelative(0.8f, 0.36f, 0.8f, 0.8f)
+            verticalLineToRelative(0.4f)
+            horizontalLineToRelative(0.2f)
+            curveToRelative(0.71f, 0f, 1.35f, 0.32f, 1.77f, 0.83f)
+            curveToRelative(0.42f, 0.5f, 0.06f, 1.27f, -0.59f, 1.27f)
+            curveToRelative(-0.25f, 0f, -0.49f, -0.09f, -0.66f, -0.27f)
+            curveToRelative(-0.13f, -0.14f, -0.31f, -0.23f, -0.52f, -0.23f)
+            horizontalLineToRelative(-2.1f)
+            curveToRelative(-0.28f, 0f, -0.53f, 0.19f, -0.59f, 0.46f)
+            curveToRelative(-0.06f, 0.32f, 0.15f, 0.62f, 0.45f, 0.68f)
+            lineToRelative(2.79f, 0.56f)
+            curveToRelative(1.11f, 0.22f, 1.89f, 1.28f, 1.73f, 2.44f)
+            close()
+            moveTo(11f, 9.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(11f, 14.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+        }
+    }.also { _PayrollCheck = it }

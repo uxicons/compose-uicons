@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GalaxyStar: ImageVector? = null
+
+val Icons.Ss.GalaxyStar: ImageVector
+    get() = _GalaxyStar ?: UXIcon(name = "GalaxyStar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.68f, 7.02f)
+                horizontalLineToRelative(-2.06f)
+                curveToRelative(0.58f, -1.96f, 0.48f, -3.51f, -0.31f, -4.3f)
+                curveToRelative(-0.46f, -0.46f, -1.17f, -0.69f, -2.06f, -0.69f)
+                curveToRelative(-2.67f, 0f, -6.98f, 2.04f, -11.09f, 6.15f)
+                curveToRelative(-0.56f, 0.56f, -1.06f, 1.11f, -1.54f, 1.67f)
+                lineToRelative(-0.61f, -2.32f)
+                curveToRelative(0.24f, -0.26f, 0.48f, -0.52f, 0.73f, -0.77f)
+                curveTo(12.75f, 0.75f, 19.77f, -1.65f, 22.72f, 1.3f)
+                curveToRelative(1.28f, 1.28f, 1.55f, 3.32f, 0.96f, 5.72f)
+                close()
+                moveTo(18.5f, 4.52f)
+                lineToRelative(1.18f, 4.5f)
+                horizontalLineToRelative(4.33f)
+                verticalLineToRelative(0.92f)
+                lineToRelative(-3.3f, 1.91f)
+                lineToRelative(1.33f, 4.03f)
+                lineToRelative(-0.75f, 0.52f)
+                lineToRelative(-3.26f, -2.52f)
+                lineToRelative(-3.27f, 2.53f)
+                lineToRelative(-0.72f, -0.54f)
+                lineToRelative(1.3f, -4.08f)
+                lineToRelative(-3.32f, -1.85f)
+                verticalLineToRelative(-0.92f)
+                horizontalLineToRelative(4.35f)
+                lineToRelative(1.18f, -4.5f)
+                horizontalLineToRelative(0.97f)
+                close()
+                moveTo(19.5f, 19.02f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(1.5f, 3.02f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(6.5f, 0.02f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveTo(7.33f, 0.02f, 6.5f, 0.02f)
+                close()
+                moveTo(8f, 12.69f)
+                lineToRelative(-2.84f, -0.83f)
+                lineToRelative(-0.83f, -2.84f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.84f, 2.84f)
+                lineToRelative(-2.84f, 0.83f)
+                verticalLineToRelative(0.65f)
+                lineToRelative(2.84f, 0.84f)
+                lineToRelative(0.84f, 2.84f)
+                horizontalLineToRelative(0.65f)
+                lineToRelative(0.83f, -2.84f)
+                lineToRelative(2.84f, -0.84f)
+                verticalLineToRelative(-0.65f)
+                close()
+                moveTo(13.49f, 17.98f)
+                curveToRelative(-2.32f, 1.87f, -4.59f, 3.08f, -6.49f, 3.65f)
+                curveToRelative(-1.96f, 0.58f, -3.54f, 0.51f, -4.33f, -0.28f)
+                curveToRelative(-0.46f, -0.46f, -0.69f, -1.17f, -0.69f, -2.06f)
+                curveToRelative(0f, -0.23f, 0.04f, -0.49f, 0.07f, -0.74f)
+                lineToRelative(-0.82f, -2.76f)
+                lineToRelative(-0.49f, -0.15f)
+                curveToRelative(-1.09f, 2.99f, -1.0f, 5.6f, 0.52f, 7.12f)
+                curveToRelative(1.28f, 1.28f, 3.35f, 1.52f, 5.74f, 0.93f)
+                curveToRelative(2.49f, -0.61f, 5.35f, -2.16f, 8.13f, -4.47f)
+                lineToRelative(-1.64f, -1.24f)
+                close()
+            }
+        }.also { _GalaxyStar = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PizzaWholeSlice: ImageVector? = null
+
+val Icons.Sr.PizzaWholeSlice: ImageVector
+    get() = _PizzaWholeSlice ?: UXIcon(name = "PizzaWholeSlice") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(2.3f, 15.51f)
+                curveToRelative(-1.3f, 0.32f, -1.9f, 1.79f, -1.23f, 2.95f)
+                curveToRelative(0.52f, 0.91f, 1.15f, 1.76f, 1.91f, 2.51f)
+                curveToRelative(0.74f, 0.76f, 1.59f, 1.39f, 2.5f, 1.92f)
+                curveToRelative(1.16f, 0.67f, 2.63f, 0.08f, 2.96f, -1.22f)
+                lineToRelative(2.07f, -7.43f)
+                curveToRelative(0.12f, -0.47f, -0.3f, -0.89f, -0.77f, -0.77f)
+                lineToRelative(-7.44f, 2.04f)
+                close()
+                moveTo(5.5f, 20f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(12.47f, -0.01f)
+                curveToRelative(-6.84f, -0.26f, -12.47f, 5.21f, -12.47f, 11.99f)
+                curveToRelative(0f, 0.25f, 0.01f, 0.49f, 0.03f, 0.74f)
+                curveToRelative(0.05f, 0.66f, 0.7f, 1.12f, 1.35f, 0.96f)
+                lineToRelative(8.86f, -2.19f)
+                curveToRelative(1.37f, -0.34f, 2.6f, 0.9f, 2.26f, 2.27f)
+                lineToRelative(-2.23f, 8.85f)
+                curveToRelative(-0.16f, 0.65f, 0.29f, 1.3f, 0.95f, 1.35f)
+                curveToRelative(0.26f, 0.02f, 0.52f, 0.03f, 0.78f, 0.03f)
+                curveToRelative(6.78f, 0f, 12.25f, -5.63f, 11.99f, -12.47f)
+                curveToRelative(-0.24f, -6.18f, -5.35f, -11.29f, -11.53f, -11.52f)
+                close()
+                moveTo(4.5f, 9.98f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(8.5f, 5.48f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(13f, 4.48f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(15.5f, 20.98f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(15.5f, 10.98f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(19.5f, 15.98f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(20.5f, 10.98f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _PizzaWholeSlice = it}

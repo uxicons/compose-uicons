@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UtilityPoleDouble: ImageVector? = null
+
+val Icons.Tc.UtilityPoleDouble: ImageVector
+    get() = _UtilityPoleDouble ?: UXIcon(name = "UtilityPoleDouble") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.5f, 4.0f)
+                curveToRelative(5.62f, 0.05f, 9.85f, 0.97f, 9.89f, 0.98f)
+                curveToRelative(0.3f, 0.07f, 0.62f, -0.18f, 0.61f, -0.49f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.89f)
+                curveToRelative(-0.6f, -0.11f, -1.66f, -0.29f, -3f, -0.45f)
+                verticalLineToRelative(-1.94f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.82f)
+                curveToRelative(-1.56f, -0.17f, -3.44f, -0.29f, -5.5f, -0.32f)
+                verticalLineToRelative(-1.51f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.51f)
+                curveToRelative(-2.06f, 0.02f, -3.94f, 0.15f, -5.5f, 0.32f)
+                verticalLineToRelative(-1.82f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.94f)
+                curveToRelative(-1.34f, 0.17f, -2.4f, 0.34f, -3f, 0.45f)
+                verticalLineToRelative(-1.89f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(-0.01f, 0.31f, 0.31f, 0.56f, 0.61f, 0.49f)
+                curveToRelative(0.04f, -0.01f, 4.26f, -0.93f, 9.89f, -0.98f)
+                verticalLineToRelative(5.0f)
+                curveToRelative(-2.06f, 0.02f, -3.94f, 0.15f, -5.5f, 0.32f)
+                verticalLineToRelative(-1.82f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.94f)
+                curveToRelative(-1.34f, 0.17f, -2.4f, 0.34f, -3f, 0.45f)
+                verticalLineToRelative(-1.89f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(-0.01f, 0.31f, 0.31f, 0.56f, 0.61f, 0.49f)
+                curveToRelative(0.03f, -0.01f, 1.39f, -0.3f, 3.59f, -0.57f)
+                curveToRelative(1.81f, 2.38f, 3.93f, 4.51f, 6.3f, 6.32f)
+                verticalLineToRelative(5.76f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-5.76f)
+                curveToRelative(2.38f, -1.81f, 4.5f, -3.94f, 6.3f, -6.32f)
+                curveToRelative(2.19f, 0.27f, 3.56f, 0.56f, 3.59f, 0.57f)
+                curveToRelative(0.3f, 0.07f, 0.62f, -0.18f, 0.61f, -0.49f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.89f)
+                curveToRelative(-0.6f, -0.11f, -1.66f, -0.29f, -3f, -0.45f)
+                verticalLineToRelative(-1.94f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.82f)
+                curveToRelative(-1.56f, -0.17f, -3.44f, -0.29f, -5.5f, -0.32f)
+                verticalLineToRelative(-5.0f)
+                close()
+                moveTo(6.37f, 10.29f)
+                curveToRelative(1.48f, -0.15f, 3.22f, -0.26f, 5.13f, -0.28f)
+                verticalLineToRelative(5.46f)
+                curveToRelative(-1.9f, -1.52f, -3.62f, -3.26f, -5.13f, -5.17f)
+                close()
+                moveTo(17.63f, 10.29f)
+                curveToRelative(-1.51f, 1.92f, -3.23f, 3.65f, -5.13f, 5.17f)
+                verticalLineToRelative(-5.46f)
+                curveToRelative(1.91f, 0.02f, 3.65f, 0.13f, 5.13f, 0.28f)
+                close()
+            }
+        }.also { _UtilityPoleDouble = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Marketplace: ImageVector? = null
+
+val Icons.Rr.Marketplace: ImageVector
+    get() = _Marketplace ?: UXIcon(name = "Marketplace") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.41f, 15.87f)
+                curveToRelative(-0.37f, -0.43f, -0.87f, -0.71f, -1.41f, -0.81f)
+                verticalLineToRelative(-0.55f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                reflectiveCurveToRelative(-4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(0.55f)
+                curveToRelative(-0.54f, 0.11f, -1.04f, 0.39f, -1.41f, 0.81f)
+                curveToRelative(-0.47f, 0.55f, -0.69f, 1.28f, -0.58f, 2.0f)
+                lineToRelative(0.52f, 3.57f)
+                curveToRelative(0.21f, 1.46f, 1.49f, 2.56f, 2.97f, 2.56f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.48f, 0f, 2.75f, -1.1f, 2.97f, -2.56f)
+                lineToRelative(0.52f, -3.57f)
+                curveToRelative(0.1f, -0.72f, -0.11f, -1.45f, -0.58f, -2.0f)
+                close()
+                moveTo(17.5f, 12f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                close()
+                moveTo(21.49f, 21.14f)
+                curveToRelative(-0.07f, 0.49f, -0.5f, 0.85f, -0.99f, 0.85f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.49f, 0f, -0.92f, -0.37f, -0.99f, -0.85f)
+                lineToRelative(-0.52f, -3.57f)
+                curveToRelative(-0.03f, -0.2f, 0.06f, -0.34f, 0.12f, -0.4f)
+                curveToRelative(0.06f, -0.06f, 0.18f, -0.17f, 0.38f, -0.17f)
+                horizontalLineToRelative(8.04f)
+                curveToRelative(0.2f, 0f, 0.32f, 0.11f, 0.38f, 0.17f)
+                curveToRelative(0.06f, 0.07f, 0.15f, 0.2f, 0.12f, 0.4f)
+                lineToRelative(-0.52f, 3.57f)
+                close()
+                moveTo(4f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(8f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(8f, 20f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                lineTo(5f, 0f)
+                curveTo(2.24f, 0f, 0f, 2.24f, 0f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(5f, 2f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(2f)
+                lineTo(2f, 7f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+            }
+        }.also { _Marketplace = it}

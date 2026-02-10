@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FolderMusic: ImageVector? = null
+
+val Icons.Tc.FolderMusic: ImageVector
+    get() = _FolderMusic ?: UXIcon(name = "FolderMusic") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 8.0f)
+                curveToRelative(5.9f, 0f, 9.24f, 0.87f, 9.95f, 1.07f)
+                curveToRelative(0.01f, 0.15f, 0.02f, 0.3f, 0.02f, 0.45f)
+                curveToRelative(0.01f, 0.28f, 0.25f, 0.5f, 0.52f, 0.48f)
+                curveToRelative(0.28f, -0.01f, 0.49f, -0.24f, 0.48f, -0.52f)
+                curveToRelative(-0.09f, -2.31f, -0.37f, -4.11f, -0.53f, -4.97f)
+                curveToRelative(-0.03f, -0.18f, -0.17f, -0.33f, -0.34f, -0.39f)
+                curveToRelative(-0.36f, -0.12f, -3.72f, -1.12f, -10.1f, -1.12f)
+                curveToRelative(-0.49f, 0f, -0.96f, 0.01f, -1.41f, 0.02f)
+                lineToRelative(-0.63f, -1.51f)
+                curveToRelative(-0.07f, -0.16f, -0.2f, -0.27f, -0.37f, -0.3f)
+                curveToRelative(-0.69f, -0.13f, -1.83f, -0.26f, -3.38f, -0.17f)
+                curveToRelative(-2.56f, 0.14f, -3.85f, 0.91f, -3.9f, 0.94f)
+                curveToRelative(-0.1f, 0.06f, -0.18f, 0.17f, -0.22f, 0.28f)
+                curveToRelative(-0.04f, 0.15f, -1.1f, 3.69f, -1.1f, 8.75f)
+                reflectiveCurveToRelative(1.03f, 8.46f, 1.07f, 8.6f)
+                curveToRelative(0.05f, 0.15f, 0.17f, 0.28f, 0.32f, 0.33f)
+                curveToRelative(0.11f, 0.04f, 2.78f, 0.91f, 8.09f, 1.05f)
+                curveToRelative(0.27f, 0.01f, 0.51f, -0.21f, 0.51f, -0.49f)
+                curveToRelative(0.01f, -0.28f, -0.21f, -0.51f, -0.49f, -0.51f)
+                curveToRelative(-4.25f, -0.12f, -6.79f, -0.72f, -7.56f, -0.93f)
+                curveToRelative(-0.23f, -0.87f, -0.96f, -3.92f, -0.96f, -8.05f)
+                curveToRelative(0f, -0.68f, 0.03f, -1.31f, 0.06f, -1.93f)
+                curveToRelative(0.72f, -0.21f, 4.06f, -1.07f, 9.94f, -1.07f)
+                close()
+                moveTo(3.0f, 2.74f)
+                curveToRelative(0.39f, -0.18f, 1.48f, -0.61f, 3.27f, -0.71f)
+                curveToRelative(1.26f, -0.07f, 2.23f, 0.01f, 2.88f, 0.12f)
+                lineToRelative(0.65f, 1.58f)
+                curveToRelative(0.08f, 0.19f, 0.24f, 0.29f, 0.48f, 0.31f)
+                curveToRelative(0.55f, -0.02f, 1.12f, -0.03f, 1.72f, -0.03f)
+                curveToRelative(5.41f, 0f, 8.55f, 0.73f, 9.51f, 0.99f)
+                curveToRelative(0.12f, 0.67f, 0.27f, 1.72f, 0.37f, 3.02f)
+                curveToRelative(-1.2f, -0.32f, -4.47f, -1.01f, -9.88f, -1.01f)
+                reflectiveCurveToRelative(-8.66f, 0.69f, -9.87f, 1.01f)
+                curveToRelative(0.23f, -2.71f, 0.71f, -4.67f, 0.87f, -5.27f)
+                close()
+                moveTo(22.72f, 12.55f)
+                curveToRelative(-0.04f, -0.02f, -1.12f, -0.55f, -2.22f, -0.55f)
+                curveToRelative(-3.27f, 0f, -4.4f, 2.18f, -4.45f, 2.28f)
+                curveToRelative(-0.03f, 0.07f, -0.05f, 0.15f, -0.05f, 0.22f)
+                verticalLineToRelative(4.68f)
+                curveToRelative(-0.28f, -0.11f, -0.6f, -0.18f, -1f, -0.18f)
+                curveToRelative(-1.35f, 0f, -2f, 0.65f, -2f, 2f)
+                reflectiveCurveToRelative(0.65f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.65f, 2f, -2f)
+                verticalLineToRelative(-6.37f)
+                curveToRelative(0.23f, -0.36f, 1.2f, -1.63f, 3.5f, -1.63f)
+                curveToRelative(0.57f, 0f, 1.17f, 0.2f, 1.5f, 0.33f)
+                verticalLineToRelative(4.85f)
+                curveToRelative(-0.28f, -0.11f, -0.6f, -0.18f, -1f, -0.18f)
+                curveToRelative(-1.35f, 0f, -2f, 0.65f, -2f, 2f)
+                reflectiveCurveToRelative(0.65f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.65f, 2f, -2f)
+                verticalLineToRelative(-7f)
+                curveToRelative(0f, -0.19f, -0.11f, -0.36f, -0.28f, -0.45f)
+                close()
+                moveTo(15f, 22f)
+                curveToRelative(-0.79f, 0f, -1f, -0.21f, -1f, -1f)
+                reflectiveCurveToRelative(0.21f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.21f, 1f, 1f)
+                reflectiveCurveToRelative(-0.21f, 1f, -1f, 1f)
+                close()
+                moveTo(21f, 21f)
+                curveToRelative(-0.79f, 0f, -1f, -0.21f, -1f, -1f)
+                reflectiveCurveToRelative(0.21f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.21f, 1f, 1f)
+                reflectiveCurveToRelative(-0.21f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _FolderMusic = it}

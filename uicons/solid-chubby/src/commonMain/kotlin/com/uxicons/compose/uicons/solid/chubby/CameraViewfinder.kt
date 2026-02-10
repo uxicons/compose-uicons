@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CameraViewfinder: ImageVector? = null
+
+val Icons.Sc.CameraViewfinder: ImageVector
+    get() = _CameraViewfinder ?: UXIcon(name = "CameraViewfinder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.51f, 15.83f)
+                curveToRelative(0.02f, -0.09f, 0.54f, -2.11f, 0.54f, -3.83f)
+                reflectiveCurveToRelative(-0.51f, -3.74f, -0.54f, -3.83f)
+                curveToRelative(-0.09f, -0.37f, -0.39f, -0.65f, -0.76f, -0.73f)
+                curveToRelative(-0.05f, -0.01f, -0.71f, -0.15f, -1.72f, -0.28f)
+                curveToRelative(-0.35f, -1.02f, -0.64f, -1.51f, -0.67f, -1.57f)
+                curveToRelative(-0.15f, -0.24f, -0.39f, -0.41f, -0.67f, -0.47f)
+                curveToRelative(-0.04f, -0.01f, -0.91f, -0.17f, -1.69f, -0.17f)
+                reflectiveCurveToRelative(-1.65f, 0.17f, -1.69f, 0.17f)
+                curveToRelative(-0.28f, 0.05f, -0.52f, 0.22f, -0.67f, 0.47f)
+                curveToRelative(-0.04f, 0.06f, -0.32f, 0.55f, -0.67f, 1.57f)
+                curveToRelative(-1.01f, 0.12f, -1.67f, 0.27f, -1.72f, 0.28f)
+                curveToRelative(-0.37f, 0.08f, -0.66f, 0.37f, -0.76f, 0.73f)
+                curveToRelative(-0.02f, 0.09f, -0.54f, 2.11f, -0.54f, 3.83f)
+                reflectiveCurveToRelative(0.51f, 3.74f, 0.54f, 3.83f)
+                curveToRelative(0.09f, 0.37f, 0.39f, 0.65f, 0.76f, 0.73f)
+                curveToRelative(0.09f, 0.02f, 2.15f, 0.47f, 4.75f, 0.47f)
+                reflectiveCurveToRelative(4.66f, -0.45f, 4.75f, -0.47f)
+                curveToRelative(0.37f, -0.08f, 0.66f, -0.37f, 0.76f, -0.73f)
+                close()
+                moveTo(12f, 14.01f)
+                curveToRelative(-1.44f, 0f, -2.01f, -0.57f, -2.01f, -2.01f)
+                reflectiveCurveToRelative(0.57f, -2.01f, 2.01f, -2.01f)
+                reflectiveCurveToRelative(2.01f, 0.57f, 2.01f, 2.01f)
+                reflectiveCurveToRelative(-0.57f, 2.01f, -2.01f, 2.01f)
+                close()
+                moveTo(1.01f, 6.26f)
+                curveToRelative(0.28f, -2.02f, 0.58f, -3.44f, 0.6f, -3.49f)
+                curveToRelative(0.13f, -0.58f, 0.58f, -1.02f, 1.15f, -1.15f)
+                curveToRelative(0.06f, -0.01f, 1.47f, -0.32f, 3.49f, -0.6f)
+                curveToRelative(0.82f, -0.11f, 1.59f, 0.47f, 1.7f, 1.29f)
+                reflectiveCurveToRelative(-0.47f, 1.59f, -1.29f, 1.7f)
+                curveToRelative(-0.93f, 0.13f, -1.72f, 0.26f, -2.29f, 0.37f)
+                curveToRelative(-0.1f, 0.57f, -0.24f, 1.37f, -0.37f, 2.29f)
+                curveToRelative(-0.11f, 0.83f, -0.89f, 1.41f, -1.7f, 1.29f)
+                curveToRelative(-0.83f, -0.11f, -1.41f, -0.88f, -1.29f, -1.7f)
+                close()
+                moveTo(7.96f, 21.69f)
+                curveToRelative(-0.11f, 0.83f, -0.89f, 1.41f, -1.7f, 1.29f)
+                curveToRelative(-2.02f, -0.28f, -3.44f, -0.58f, -3.49f, -0.6f)
+                curveToRelative(-0.57f, -0.13f, -1.02f, -0.58f, -1.15f, -1.15f)
+                curveToRelative(-0.01f, -0.06f, -0.32f, -1.47f, -0.6f, -3.49f)
+                curveToRelative(-0.11f, -0.83f, 0.47f, -1.59f, 1.29f, -1.7f)
+                curveToRelative(0.82f, -0.11f, 1.59f, 0.47f, 1.7f, 1.29f)
+                curveToRelative(0.13f, 0.93f, 0.26f, 1.72f, 0.37f, 2.29f)
+                curveToRelative(0.57f, 0.1f, 1.37f, 0.24f, 2.29f, 0.37f)
+                curveToRelative(0.83f, 0.11f, 1.41f, 0.88f, 1.29f, 1.7f)
+                close()
+                moveTo(22.99f, 17.74f)
+                curveToRelative(-0.28f, 2.02f, -0.58f, 3.44f, -0.6f, 3.49f)
+                curveToRelative(-0.13f, 0.57f, -0.58f, 1.02f, -1.15f, 1.15f)
+                curveToRelative(-0.06f, 0.01f, -1.47f, 0.32f, -3.49f, 0.6f)
+                curveToRelative(-0.81f, 0.12f, -1.59f, -0.46f, -1.7f, -1.29f)
+                curveToRelative(-0.11f, -0.83f, 0.47f, -1.59f, 1.29f, -1.7f)
+                curveToRelative(0.93f, -0.13f, 1.72f, -0.26f, 2.29f, -0.37f)
+                curveToRelative(0.1f, -0.57f, 0.24f, -1.37f, 0.37f, -2.29f)
+                curveToRelative(0.11f, -0.83f, 0.88f, -1.4f, 1.7f, -1.29f)
+                curveToRelative(0.83f, 0.11f, 1.41f, 0.88f, 1.29f, 1.7f)
+                close()
+                moveTo(16.04f, 2.31f)
+                curveToRelative(0.11f, -0.83f, 0.88f, -1.4f, 1.7f, -1.29f)
+                curveToRelative(2.02f, 0.28f, 3.44f, 0.58f, 3.49f, 0.6f)
+                curveToRelative(0.58f, 0.13f, 1.02f, 0.58f, 1.15f, 1.15f)
+                curveToRelative(0.01f, 0.06f, 0.32f, 1.47f, 0.6f, 3.49f)
+                curveToRelative(0.11f, 0.83f, -0.47f, 1.59f, -1.29f, 1.7f)
+                curveToRelative(-0.81f, 0.12f, -1.59f, -0.46f, -1.7f, -1.29f)
+                curveToRelative(-0.13f, -0.93f, -0.26f, -1.72f, -0.37f, -2.29f)
+                curveToRelative(-0.57f, -0.1f, -1.37f, -0.24f, -2.29f, -0.37f)
+                curveToRelative(-0.83f, -0.11f, -1.41f, -0.88f, -1.29f, -1.7f)
+                close()
+            }
+        }.also { _CameraViewfinder = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HamburgerSoda: ImageVector? = null
+
+val Icons.Ts.HamburgerSoda: ImageVector
+    get() = _HamburgerSoda ?: UXIcon(name = "HamburgerSoda") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20f, 13f)
+                horizontalLineToRelative(-4.14f)
+                lineToRelative(0.58f, -5.94f)
+                curveToRelative(0.17f, -0.74f, -0.01f, -1.51f, -0.49f, -2.11f)
+                reflectiveCurveToRelative(-1.19f, -0.94f, -1.95f, -0.94f)
+                lineToRelative(-3.43f, -0.0f)
+                lineToRelative(0.38f, -3.01f)
+                horizontalLineToRelative(6.06f)
+                lineTo(17.0f, 0f)
+                horizontalLineToRelative(-6.94f)
+                lineToRelative(-0.5f, 4.01f)
+                lineToRelative(-7.06f, -0.01f)
+                curveToRelative(-0.76f, 0f, -1.47f, 0.34f, -1.95f, 0.94f)
+                curveTo(0.07f, 5.53f, -0.1f, 6.3f, 0.05f, 6.99f)
+                lineTo(2.06f, 24f)
+                lineTo(20f, 24f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                close()
+                moveTo(23f, 17f)
+                verticalLineToRelative(1f)
+                lineTo(10f, 18f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(19.44f, 19f)
+                lineToRelative(-1.94f, 1.38f)
+                lineToRelative(-1.91f, -1.38f)
+                horizontalLineToRelative(3.85f)
+                close()
+                moveTo(14.0f, 5.01f)
+                curveToRelative(0.46f, 0f, 0.88f, 0.2f, 1.17f, 0.56f)
+                curveToRelative(0.29f, 0.36f, 0.39f, 0.82f, 0.28f, 1.33f)
+                lineToRelative(-0.11f, 1.1f)
+                lineToRelative(-5.28f, -0.0f)
+                lineToRelative(0.37f, -2.99f)
+                lineToRelative(3.56f, 0.0f)
+                close()
+                moveTo(1.33f, 5.56f)
+                curveToRelative(0.29f, -0.36f, 0.71f, -0.56f, 1.17f, -0.56f)
+                lineToRelative(6.93f, 0.01f)
+                lineToRelative(-0.37f, 2.99f)
+                lineToRelative(-7.89f, -0.01f)
+                lineToRelative(-0.14f, -1.16f)
+                curveToRelative(-0.1f, -0.45f, 0.01f, -0.91f, 0.29f, -1.26f)
+                close()
+                moveTo(2.94f, 23f)
+                lineTo(1.29f, 8.99f)
+                lineToRelative(13.96f, 0.01f)
+                lineToRelative(-0.39f, 4.0f)
+                horizontalLineToRelative(-1.86f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.19f, 0.53f, 2.27f, 1.36f, 3f)
+                lineTo(2.94f, 23f)
+                close()
+                moveTo(20.0f, 23f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3.89f)
+                lineToRelative(3.61f, 2.62f)
+                lineToRelative(3.66f, -2.62f)
+                horizontalLineToRelative(1.84f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                close()
+            }
+        }.also { _HamburgerSoda = it}

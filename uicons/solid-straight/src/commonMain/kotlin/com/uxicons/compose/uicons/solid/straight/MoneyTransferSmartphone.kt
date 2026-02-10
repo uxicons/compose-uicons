@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MoneyTransferSmartphone: ImageVector? = null
+
+val Icons.Ss.MoneyTransferSmartphone: ImageVector
+    get() = _MoneyTransferSmartphone ?: UXIcon(name = "MoneyTransferSmartphone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.45f, 5.6f)
+                lineToRelative(-2.66f, -2.66f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(1.65f, 1.65f)
+                horizontalLineToRelative(-3.03f)
+                verticalLineToRelative(-3.02f)
+                lineToRelative(2f, -2f)
+                verticalLineToRelative(-0.98f)
+                lineTo(4f, 0.0f)
+                verticalLineToRelative(6.98f)
+                lineToRelative(2f, 2f)
+                verticalLineToRelative(3.02f)
+                horizontalLineToRelative(-3.03f)
+                lineToRelative(1.65f, -1.65f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(-2.66f, 2.66f)
+                curveToRelative(-0.73f, 0.73f, -0.73f, 1.92f, 0f, 2.65f)
+                lineToRelative(2.66f, 2.66f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-1.49f, -1.49f)
+                horizontalLineToRelative(2.87f)
+                verticalLineToRelative(2.87f)
+                lineToRelative(-2f, 2f)
+                verticalLineToRelative(2.13f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(10f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-8.13f)
+                lineToRelative(-2f, -2f)
+                verticalLineToRelative(-2.87f)
+                horizontalLineToRelative(2.87f)
+                lineToRelative(-1.49f, 1.49f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(2.66f, -2.66f)
+                curveToRelative(0.73f, -0.73f, 0.73f, -1.92f, 0f, -2.65f)
+                close()
+                moveTo(13.92f, 21f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13.13f, 14.8f)
+                horizontalLineToRelative(-0.33f)
+                verticalLineToRelative(1.2f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-1.2f)
+                horizontalLineToRelative(-0.2f)
+                curveToRelative(-1.2f, 0f, -2.19f, -0.93f, -2.29f, -2.1f)
+                horizontalLineToRelative(1.62f)
+                curveToRelative(0.09f, 0.29f, 0.35f, 0.5f, 0.67f, 0.5f)
+                horizontalLineToRelative(2.13f)
+                curveToRelative(0.32f, 0f, 0.57f, -0.26f, 0.57f, -0.57f)
+                curveToRelative(0f, -0.27f, -0.19f, -0.51f, -0.46f, -0.56f)
+                lineToRelative(-2.79f, -0.56f)
+                curveToRelative(-1.01f, -0.2f, -1.75f, -1.1f, -1.75f, -2.13f)
+                curveToRelative(0f, -1.2f, 0.97f, -2.17f, 2.17f, -2.17f)
+                horizontalLineToRelative(0.33f)
+                verticalLineToRelative(-1.2f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(1.2f)
+                horizontalLineToRelative(0.2f)
+                curveToRelative(1.2f, 0f, 2.19f, 0.93f, 2.29f, 2.1f)
+                horizontalLineToRelative(-1.62f)
+                curveToRelative(-0.09f, -0.29f, -0.35f, -0.5f, -0.67f, -0.5f)
+                horizontalLineToRelative(-2.13f)
+                curveToRelative(-0.32f, 0f, -0.57f, 0.26f, -0.57f, 0.57f)
+                curveToRelative(0f, 0.27f, 0.19f, 0.51f, 0.46f, 0.56f)
+                lineToRelative(2.79f, 0.56f)
+                curveToRelative(1.01f, 0.2f, 1.75f, 1.1f, 1.75f, 2.13f)
+                curveToRelative(0f, 1.2f, -0.97f, 2.17f, -2.17f, 2.17f)
+                close()
+            }
+        }.also { _MoneyTransferSmartphone = it}

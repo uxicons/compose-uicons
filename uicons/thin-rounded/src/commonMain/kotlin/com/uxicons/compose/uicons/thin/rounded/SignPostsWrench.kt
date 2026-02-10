@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SignPostsWrench: ImageVector? = null
+
+val Icons.Tr.SignPostsWrench: ImageVector
+    get() = _SignPostsWrench ?: UXIcon(name = "SignPostsWrench") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 6.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                lineTo(4.5f, 3f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.17f, 0f, -0.33f, -0.03f, -0.5f, -0.05f)
+                verticalLineToRelative(5.55f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-5.78f)
+                curveToRelative(-1.74f, -0.62f, -3f, -2.27f, -3f, -4.22f)
+                verticalLineToRelative(-7f)
+                curveToRelative(0f, -1.95f, 1.26f, -3.6f, 3f, -4.22f)
+                lineTo(3f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(1.55f)
+                curveToRelative(0.17f, -0.02f, 0.33f, -0.05f, 0.5f, -0.05f)
+                horizontalLineToRelative(15f)
+                curveToRelative(0.17f, 0f, 0.33f, 0.03f, 0.5f, 0.05f)
+                lineTo(20f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(1.78f)
+                curveToRelative(1.74f, 0.62f, 3f, 2.27f, 3f, 4.22f)
+                close()
+                moveTo(21.55f, 11.16f)
+                curveToRelative(-0.3f, -0.2f, -0.69f, -0.22f, -1.01f, -0.04f)
+                curveToRelative(-0.33f, 0.18f, -0.54f, 0.52f, -0.54f, 0.9f)
+                verticalLineToRelative(2.38f)
+                curveToRelative(0f, 0.79f, -0.53f, 1.48f, -1.24f, 1.59f)
+                curveToRelative(-0.45f, 0.07f, -0.89f, -0.05f, -1.23f, -0.34f)
+                curveToRelative(-0.34f, -0.29f, -0.53f, -0.7f, -0.53f, -1.14f)
+                verticalLineToRelative(-2.49f)
+                curveToRelative(0f, -0.38f, -0.21f, -0.72f, -0.54f, -0.9f)
+                curveToRelative(-0.32f, -0.17f, -0.71f, -0.16f, -1.01f, 0.04f)
+                curveToRelative(-1.47f, 0.98f, -2.45f, 2.92f, -2.45f, 4.84f)
+                curveToRelative(0f, 1.95f, 1.05f, 3.77f, 2.73f, 4.75f)
+                curveToRelative(0.17f, 0.1f, 0.27f, 0.25f, 0.27f, 0.4f)
+                verticalLineToRelative(2.34f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-2.34f)
+                curveToRelative(0f, -0.52f, -0.28f, -0.99f, -0.76f, -1.27f)
+                curveToRelative(-1.38f, -0.81f, -2.24f, -2.3f, -2.24f, -3.89f)
+                curveToRelative(0f, -1.57f, 0.82f, -3.22f, 2f, -3.99f)
+                verticalLineToRelative(2.49f)
+                curveToRelative(0f, 0.73f, 0.32f, 1.43f, 0.88f, 1.91f)
+                curveToRelative(0.56f, 0.48f, 1.31f, 0.68f, 2.04f, 0.56f)
+                curveToRelative(1.19f, -0.2f, 2.08f, -1.3f, 2.08f, -2.58f)
+                lineToRelative(-0.0f, -2.4f)
+                curveToRelative(1.18f, 0.79f, 2.0f, 2.44f, 2.0f, 4.01f)
+                curveToRelative(0f, 1.6f, -0.86f, 3.09f, -2.24f, 3.89f)
+                curveToRelative(-0.48f, 0.28f, -0.76f, 0.75f, -0.76f, 1.27f)
+                verticalLineToRelative(2.34f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-2.34f)
+                curveToRelative(0f, -0.16f, 0.1f, -0.31f, 0.27f, -0.4f)
+                curveToRelative(1.69f, -0.98f, 2.73f, -2.81f, 2.73f, -4.75f)
+                curveToRelative(0f, -1.92f, -0.98f, -3.87f, -2.45f, -4.84f)
+                close()
+            }
+        }.also { _SignPostsWrench = it}

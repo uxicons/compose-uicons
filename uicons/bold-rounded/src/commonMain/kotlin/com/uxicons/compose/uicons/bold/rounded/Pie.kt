@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Pie: ImageVector? = null
+
+val Icons.Br.Pie: ImageVector
+    get() = _Pie ?: UXIcon(name = "Pie") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(24f, 13.5f)
+            curveTo(24f, 9.51f, 18.39f, 6f, 12f, 6f)
+            reflectiveCurveTo(0f, 9.51f, 0f, 13.57f)
+            arcToRelative(3.64f, 3.64f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.04f, 3.13f)
+            lineToRelative(0.49f, 2.77f)
+            arcTo(5.49f, 5.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7.95f, 24f)
+            horizontalLineToRelative(8.1f)
+            arcToRelative(5.49f, 5.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.41f, -4.54f)
+            lineToRelative(0.49f, -2.77f)
+            arcTo(3.69f, 3.69f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 13.5f)
+            close()
+            moveTo(12f, 9f)
+            curveToRelative(5.14f, 0f, 9f, 2.73f, 9f, 4.41f)
+            curveToRelative(-0.05f, 0.59f, -0.34f, 0.59f, -0.5f, 0.59f)
+            arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.12f, 0.51f)
+            arcToRelative(1.71f, 1.71f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.41f, 0.58f)
+            arcToRelative(1.31f, 1.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.49f, 0f)
+            arcToRelative(1.74f, 1.74f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.23f, 0f)
+            arcToRelative(1.31f, 1.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.49f, 0f)
+            arcToRelative(1.74f, 1.74f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.23f, 0f)
+            arcTo(1.37f, 1.37f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6.27f, 16f)
+            arcToRelative(1.37f, 1.37f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.24f, -0.9f)
+            arcToRelative(1.71f, 1.71f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.4f, -0.58f)
+            arcTo(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.5f, 14f)
+            curveToRelative(-0.16f, 0f, -0.45f, 0f, -0.5f, -0.5f)
+            curveTo(3f, 11.73f, 6.86f, 9f, 12f, 9f)
+            close()
+            moveTo(16.05f, 21f)
+            horizontalLineToRelative(-8.1f)
+            arcToRelative(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.46f, -2.06f)
+            lineToRelative(0f, -0.02f)
+            arcTo(4.2f, 4.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.27f, 19f)
+            arcToRelative(4.27f, 4.27f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.87f, -1.11f)
+            arcToRelative(4.26f, 4.26f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.73f, 0f)
+            arcTo(4.26f, 4.26f, 0f, isMoreThanHalf = false, isPositiveArc = false, 17.73f, 19f)
+            arcToRelative(4.2f, 4.2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.79f, -0.08f)
+            lineToRelative(0f, 0.02f)
+            arcTo(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16.05f, 21f)
+            close()
+            moveTo(10.5f, 2.5f)
+            verticalLineToRelative(-1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 0f)
+            verticalLineToRelative(1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+            close()
+            moveTo(16f, 2.5f)
+            verticalLineToRelative(-1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 0f)
+            verticalLineToRelative(1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+            close()
+            moveTo(5f, 2.5f)
+            verticalLineToRelative(-1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 0f)
+            verticalLineToRelative(1f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+            close()
+            moveTo(8.38f, 12.62f)
+            arcToRelative(1.31f, 1.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, -1.85f)
+            arcToRelative(5.4f, 5.4f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.97f, -0.75f)
+            arcToRelative(0.53f, 0.53f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.64f, 0.64f)
+            arcToRelative(5.4f, 5.4f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.75f, 1.97f)
+            arcTo(1.31f, 1.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8.38f, 12.62f)
+            close()
+            moveTo(13.77f, 12.62f)
+            arcToRelative(5.4f, 5.4f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.75f, -1.97f)
+            arcToRelative(0.53f, 0.53f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.64f, -0.64f)
+            arcToRelative(5.4f, 5.4f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.97f, 0.75f)
+            arcToRelative(1.31f, 1.31f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.85f, 1.85f)
+            close()
+        }
+    }.also { _Pie = it }

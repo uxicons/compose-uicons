@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RugbyHelmet: ImageVector? = null
+
+val Icons.Ts.RugbyHelmet: ImageVector
+    get() = _RugbyHelmet ?: UXIcon(name = "RugbyHelmet") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.97f, 15.33f)
+                lineToRelative(-0.12f, -0.33f)
+                horizontalLineToRelative(-4.71f)
+                lineToRelative(-0.61f, -5.29f)
+                lineToRelative(0.7f, -0.11f)
+                curveToRelative(0.62f, -0.09f, 1.16f, -0.45f, 1.48f, -0.99f)
+                curveToRelative(0.32f, -0.54f, 0.38f, -1.19f, 0.17f, -1.78f)
+                curveTo(18.33f, 2.62f, 14.71f, 0f, 10.43f, 0f)
+                curveTo(4.68f, 0f, 0f, 4.68f, 0f, 10.43f)
+                curveToRelative(0f, 1.53f, 0.52f, 4.81f, 0.83f, 6.63f)
+                curveToRelative(0.17f, 0.98f, 0.87f, 1.76f, 1.84f, 2.05f)
+                curveToRelative(3.84f, 1.13f, 6.72f, 2.33f, 9.07f, 3.77f)
+                lineToRelative(0.34f, 0.21f)
+                lineToRelative(3.09f, -3.09f)
+                horizontalLineToRelative(2.55f)
+                lineToRelative(0.33f, 2.84f)
+                lineToRelative(0.26f, 0.12f)
+                curveToRelative(1.51f, 0.69f, 3.26f, 1.05f, 5.21f, 1.05f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -5.25f, -0.99f, -8.05f, -1.03f, -8.17f)
+                close()
+                moveTo(22.13f, 16f)
+                curveToRelative(0.14f, 0.48f, 0.39f, 1.5f, 0.59f, 3f)
+                horizontalLineToRelative(-4.12f)
+                lineToRelative(-0.35f, -3f)
+                horizontalLineToRelative(3.88f)
+                close()
+                moveTo(17.13f, 15f)
+                horizontalLineToRelative(-4.06f)
+                lineToRelative(-0.24f, -0.43f)
+                curveToRelative(-0.2f, -0.35f, -0.25f, -0.77f, -0.15f, -1.16f)
+                lineToRelative(0.51f, -2.02f)
+                curveToRelative(0.16f, -0.63f, 0.67f, -1.09f, 1.32f, -1.19f)
+                lineToRelative(2.03f, -0.33f)
+                lineToRelative(0.59f, 5.13f)
+                close()
+                moveTo(11.92f, 21.82f)
+                curveToRelative(-2.37f, -1.4f, -5.23f, -2.57f, -8.98f, -3.67f)
+                curveToRelative(-0.6f, -0.17f, -1.03f, -0.66f, -1.14f, -1.25f)
+                curveToRelative(-0.3f, -1.79f, -0.81f, -5.0f, -0.81f, -6.46f)
+                curveTo(1f, 5.23f, 5.23f, 1f, 10.43f, 1f)
+                curveToRelative(3.85f, 0f, 7.11f, 2.37f, 8.5f, 6.17f)
+                curveToRelative(0.11f, 0.31f, 0.08f, 0.64f, -0.09f, 0.92f)
+                curveToRelative(-0.17f, 0.28f, -0.45f, 0.47f, -0.78f, 0.52f)
+                lineToRelative(-3.71f, 0.6f)
+                curveToRelative(-1.04f, 0.15f, -1.89f, 0.91f, -2.14f, 1.94f)
+                lineToRelative(-0.51f, 2.02f)
+                curveToRelative(-0.16f, 0.64f, -0.07f, 1.31f, 0.25f, 1.88f)
+                lineToRelative(2.4f, 4.33f)
+                lineToRelative(-2.44f, 2.44f)
+                close()
+                moveTo(15.3f, 19f)
+                lineToRelative(-1.67f, -3f)
+                horizontalLineToRelative(3.62f)
+                lineToRelative(0.35f, 3f)
+                horizontalLineToRelative(-2.3f)
+                close()
+                moveTo(18.96f, 22.16f)
+                lineToRelative(-0.25f, -2.16f)
+                horizontalLineToRelative(4.12f)
+                curveToRelative(0.09f, 0.87f, 0.15f, 1.87f, 0.16f, 2.99f)
+                curveToRelative(-1.49f, -0.05f, -2.85f, -0.33f, -4.03f, -0.83f)
+                close()
+                moveTo(10.0f, 16f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _RugbyHelmet = it}

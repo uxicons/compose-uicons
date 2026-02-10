@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Database: ImageVector? = null
+
+val Icons.Bs.Database: ImageVector
+    get() = _Database ?: UXIcon(name = "Database") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 3.5f)
+                arcToRelative(3.5f, 3.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.5f, -3.5f)
+                horizontalLineToRelative(-17f)
+                arcToRelative(3.5f, 3.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.5f, 3.5f)
+                verticalLineToRelative(3f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.64f, 2f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.64f, 2f)
+                verticalLineToRelative(3f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.64f, 2f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.64f, 2f)
+                verticalLineToRelative(6.5f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-6.5f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.64f, -2f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.64f, -2f)
+                verticalLineToRelative(-3f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.64f, -2f)
+                arcToRelative(3.48f, 3.48f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.64f, -2f)
+                close()
+                moveTo(3f, 3.5f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, -0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(7.5f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, 0.5f)
+                verticalLineToRelative(3f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.5f, 0.5f)
+                horizontalLineToRelative(-17f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.5f, -0.5f)
+                close()
+                moveTo(21f, 10.5f)
+                verticalLineToRelative(3f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.5f, 0.5f)
+                horizontalLineToRelative(-17f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.5f, -0.5f)
+                verticalLineToRelative(-3f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, -0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(7.5f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, 0.5f)
+                close()
+                moveTo(21f, 21f)
+                horizontalLineToRelative(-18f)
+                verticalLineToRelative(-3.5f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, -0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(7.5f)
+                arcToRelative(0.5f, 0.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _Database = it}

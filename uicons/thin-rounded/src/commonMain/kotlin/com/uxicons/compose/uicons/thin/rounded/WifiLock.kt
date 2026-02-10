@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WifiLock: ImageVector? = null
+
+val Icons.Tr.WifiLock: ImageVector
+    get() = _WifiLock ?: UXIcon(name = "WifiLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 15.35f)
+                verticalLineToRelative(-1.85f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(1.85f)
+                curveToRelative(-1.18f, 0.56f, -2f, 1.76f, -2f, 3.15f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.39f, -0.82f, -2.58f, -2f, -3.15f)
+                close()
+                moveTo(16f, 13.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.55f)
+                curveToRelative(-0.17f, -0.02f, -0.33f, -0.05f, -0.5f, -0.05f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.17f, 0f, -0.34f, 0.03f, -0.5f, 0.05f)
+                close()
+                moveTo(23f, 20.5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(19.5f, 19.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(13.41f, 10.12f)
+                curveToRelative(-2.58f, -0.46f, -5.22f, 0.37f, -7.07f, 2.22f)
+                curveToRelative(-0.15f, 0.15f, -0.3f, 0.32f, -0.44f, 0.48f)
+                curveToRelative(-0.18f, 0.21f, -0.49f, 0.24f, -0.7f, 0.06f)
+                curveToRelative(-0.21f, -0.18f, -0.24f, -0.49f, -0.06f, -0.7f)
+                curveToRelative(0.16f, -0.18f, 0.32f, -0.36f, 0.5f, -0.54f)
+                curveToRelative(2.08f, -2.08f, 5.05f, -3.02f, 7.95f, -2.5f)
+                curveToRelative(0.27f, 0.05f, 0.45f, 0.31f, 0.4f, 0.58f)
+                curveToRelative(-0.05f, 0.27f, -0.31f, 0.45f, -0.58f, 0.4f)
+                close()
+                moveTo(12f, 3f)
+                curveToRelative(-4.01f, 0f, -7.77f, 1.56f, -10.61f, 4.39f)
+                curveToRelative(-0.18f, 0.18f, -0.35f, 0.36f, -0.52f, 0.55f)
+                curveToRelative(-0.19f, 0.2f, -0.5f, 0.22f, -0.71f, 0.04f)
+                curveToRelative(-0.2f, -0.19f, -0.22f, -0.5f, -0.04f, -0.71f)
+                curveToRelative(0.18f, -0.2f, 0.37f, -0.39f, 0.56f, -0.59f)
+                curveToRelative(3.02f, -3.02f, 7.04f, -4.69f, 11.31f, -4.69f)
+                reflectiveCurveToRelative(8.29f, 1.67f, 11.31f, 4.69f)
+                curveToRelative(0.19f, 0.19f, 0.38f, 0.39f, 0.56f, 0.59f)
+                curveToRelative(0.19f, 0.21f, 0.17f, 0.52f, -0.04f, 0.71f)
+                curveToRelative(-0.21f, 0.18f, -0.52f, 0.17f, -0.71f, -0.04f)
+                curveToRelative(-0.17f, -0.19f, -0.34f, -0.37f, -0.52f, -0.55f)
+                curveToRelative(-2.83f, -2.83f, -6.6f, -4.39f, -10.61f, -4.39f)
+                close()
+                moveTo(11.29f, 17.29f)
+                curveToRelative(-0.19f, 0.19f, -0.29f, 0.44f, -0.29f, 0.71f)
+                reflectiveCurveToRelative(0.1f, 0.52f, 0.29f, 0.71f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                reflectiveCurveToRelative(-0.51f, 0.2f, -0.71f, 0f)
+                curveToRelative(-0.38f, -0.38f, -0.59f, -0.88f, -0.59f, -1.41f)
+                reflectiveCurveToRelative(0.21f, -1.04f, 0.59f, -1.41f)
+                curveToRelative(0.2f, -0.2f, 0.51f, -0.2f, 0.71f, 0f)
+                reflectiveCurveToRelative(0.2f, 0.51f, 0f, 0.71f)
+                close()
+            }
+        }.also { _WifiLock = it}

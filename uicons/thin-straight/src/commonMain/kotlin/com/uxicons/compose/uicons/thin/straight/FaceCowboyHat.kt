@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FaceCowboyHat: ImageVector? = null
+
+val Icons.Ts.FaceCowboyHat: ImageVector
+    get() = _FaceCowboyHat ?: UXIcon(name = "FaceCowboyHat") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.83f, 4.55f)
+                lineToRelative(-0.7f, -0.71f)
+                curveToRelative(-0.02f, 0.02f, -1.32f, 1.29f, -3.63f, 2.42f)
+                curveToRelative(-0.37f, -0.89f, -1.32f, -3.16f, -1.67f, -3.96f)
+                curveToRelative(-0.63f, -1.44f, -1.85f, -2.3f, -3.27f, -2.3f)
+                curveToRelative(-0.92f, 0f, -1.95f, 0.49f, -2.55f, 1.22f)
+                curveToRelative(-0.61f, -0.73f, -1.67f, -1.22f, -2.6f, -1.22f)
+                curveToRelative(-1.46f, 0f, -2.54f, 0.77f, -3.21f, 2.3f)
+                curveToRelative(-0.35f, 0.81f, -1.3f, 3.08f, -1.67f, 3.97f)
+                curveTo(2.17f, 5.14f, 0.85f, 3.87f, 0.83f, 3.84f)
+                lineToRelative(-0.7f, 0.71f)
+                curveToRelative(0.18f, 0.18f, 4.6f, 4.44f, 11.88f, 4.44f)
+                reflectiveCurveToRelative(11.65f, -4.26f, 11.83f, -4.45f)
+                close()
+                moveTo(7.1f, 2.7f)
+                curveToRelative(0.51f, -1.16f, 1.24f, -1.7f, 2.3f, -1.7f)
+                curveToRelative(0.9f, 0f, 2.1f, 0.74f, 2.1f, 1.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.76f, 1.17f, -1.5f, 2.05f, -1.5f)
+                curveToRelative(1.02f, 0f, 1.88f, 0.62f, 2.35f, 1.7f)
+                curveToRelative(0.36f, 0.81f, 1.31f, 3.11f, 1.67f, 3.97f)
+                curveToRelative(-1.76f, 0.73f, -3.98f, 1.32f, -6.58f, 1.32f)
+                reflectiveCurveToRelative(-4.81f, -0.59f, -6.58f, -1.32f)
+                curveToRelative(0.36f, -0.86f, 1.32f, -3.16f, 1.68f, -3.98f)
+                close()
+                moveTo(20.65f, 9.01f)
+                curveToRelative(0.85f, 1.47f, 1.35f, 3.17f, 1.35f, 4.99f)
+                curveToRelative(0f, 5.51f, -4.49f, 10f, -10f, 10f)
+                reflectiveCurveTo(2f, 19.51f, 2f, 14f)
+                curveToRelative(0f, -1.81f, 0.49f, -3.51f, 1.34f, -4.98f)
+                curveToRelative(0.29f, 0.14f, 0.6f, 0.28f, 0.92f, 0.41f)
+                curveToRelative(-0.79f, 1.34f, -1.26f, 2.9f, -1.26f, 4.57f)
+                curveToRelative(0f, 4.96f, 4.04f, 9f, 9f, 9f)
+                reflectiveCurveToRelative(9f, -4.04f, 9f, -9f)
+                curveToRelative(0f, -1.67f, -0.47f, -3.23f, -1.26f, -4.57f)
+                curveToRelative(0.32f, -0.14f, 0.62f, -0.27f, 0.92f, -0.42f)
+                close()
+                moveTo(8.0f, 13.0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(16.0f, 13.0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(7.27f, 15.96f)
+                curveToRelative(0.05f, 0.17f, 1.31f, 4.04f, 4.72f, 4.04f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(3.4f, 0f, 4.67f, -3.88f, 4.73f, -4.04f)
+                lineToRelative(0.29f, -0.92f)
+                lineToRelative(-0.92f, 0.29f)
+                curveToRelative(-0.02f, 0.01f, -2.15f, 0.67f, -4.1f, 0.67f)
+                reflectiveCurveToRelative(-4.08f, -0.66f, -4.1f, -0.67f)
+                lineToRelative(-0.92f, -0.29f)
+                lineToRelative(0.29f, 0.92f)
+                close()
+                moveTo(12.0f, 17.0f)
+                curveToRelative(1.24f, 0f, 2.52f, -0.24f, 3.38f, -0.44f)
+                curveToRelative(-0.53f, 0.99f, -1.6f, 2.44f, -3.37f, 2.44f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-1.77f, 0f, -2.84f, -1.45f, -3.37f, -2.44f)
+                curveToRelative(0.86f, 0.2f, 2.13f, 0.44f, 3.37f, 0.44f)
+                close()
+            }
+        }.also { _FaceCowboyHat = it}

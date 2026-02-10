@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DroneAlt: ImageVector? = null
+
+val Icons.Tr.DroneAlt: ImageVector
+    get() = _DroneAlt ?: UXIcon(name = "DroneAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.5f, 3.94f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(-2.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(5.87f)
+                curveToRelative(-2.26f, -1.85f, -5.07f, -2.87f, -8f, -2.87f)
+                reflectiveCurveToRelative(-5.74f, 1.02f, -8f, 2.87f)
+                verticalLineToRelative(-5.87f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                lineTo(0.5f, 3.94f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(6.5f)
+                curveToRelative(0f, 1.2f, 0.59f, 2.29f, 1.59f, 2.93f)
+                curveToRelative(0.37f, 0.24f, 0.79f, 0.48f, 1.22f, 0.73f)
+                curveToRelative(-0.61f, 0.87f, -1.81f, 2.79f, -1.81f, 4.4f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.16f, 0.88f, -2.77f, 1.7f, -3.93f)
+                curveToRelative(1.59f, 0.78f, 3.45f, 1.43f, 5.3f, 1.43f)
+                reflectiveCurveToRelative(3.71f, -0.65f, 5.3f, -1.43f)
+                curveToRelative(0.83f, 1.15f, 1.7f, 2.77f, 1.7f, 3.93f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.6f, -1.2f, -3.52f, -1.81f, -4.4f)
+                curveToRelative(0.44f, -0.24f, 0.85f, -0.49f, 1.22f, -0.73f)
+                curveToRelative(0.99f, -0.64f, 1.59f, -1.73f, 1.59f, -2.93f)
+                verticalLineToRelative(-6.5f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(15.68f, 9.55f)
+                lineToRelative(-1.39f, 1.39f)
+                horizontalLineToRelative(-4.59f)
+                lineToRelative(-1.39f, -1.39f)
+                curveToRelative(1.18f, -0.39f, 2.42f, -0.61f, 3.68f, -0.61f)
+                reflectiveCurveToRelative(2.51f, 0.22f, 3.68f, 0.61f)
+                close()
+                moveTo(18.87f, 13.53f)
+                curveToRelative(-1.43f, 0.92f, -4.23f, 2.46f, -6.87f, 2.46f)
+                reflectiveCurveToRelative(-5.44f, -1.54f, -6.87f, -2.46f)
+                curveToRelative(-0.53f, -0.34f, -0.9f, -0.86f, -1.05f, -1.47f)
+                curveToRelative(0.96f, -0.89f, 2.05f, -1.6f, 3.22f, -2.12f)
+                lineToRelative(1.85f, 1.85f)
+                curveToRelative(0.09f, 0.09f, 0.22f, 0.15f, 0.35f, 0.15f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.13f, 0f, 0.26f, -0.05f, 0.35f, -0.15f)
+                lineToRelative(1.85f, -1.85f)
+                curveToRelative(1.17f, 0.52f, 2.26f, 1.23f, 3.22f, 2.12f)
+                curveToRelative(-0.15f, 0.6f, -0.52f, 1.13f, -1.05f, 1.47f)
+                close()
+            }
+        }.also { _DroneAlt = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Shirt: ImageVector? = null
+
+val Icons.Rr.Shirt: ImageVector
+    get() = _Shirt ?: UXIcon(name = "Shirt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.77f, 3.98f)
+                lineToRelative(-1.14f, -0.76f)
+                lineToRelative(-1.76f, -1.76f)
+                curveTo(17.94f, 0.53f, 16.65f, -0.01f, 15.34f, -0.01f)
+                horizontalLineToRelative(-0.01f)
+                lineTo(8.65f, -0.0f)
+                curveToRelative(-1.32f, 0f, -2.61f, 0.54f, -3.54f, 1.47f)
+                lineToRelative(-1.75f, 1.75f)
+                lineToRelative(-1.14f, 0.76f)
+                curveToRelative(-1.39f, 0.93f, -2.23f, 2.48f, -2.23f, 4.16f)
+                verticalLineToRelative(10.86f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-10.86f)
+                curveToRelative(0f, -1.0f, 0.5f, -1.94f, 1.34f, -2.5f)
+                lineToRelative(0.54f, -0.36f)
+                lineToRelative(5.89f, 5.89f)
+                lineToRelative(-1.65f, 7.34f)
+                curveToRelative(-0.3f, 1.05f, -0.01f, 2.18f, 0.73f, 2.91f)
+                lineToRelative(1.78f, 1.96f)
+                curveToRelative(0.35f, 0.39f, 0.85f, 0.61f, 1.38f, 0.61f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(0.52f, 0f, 1.03f, -0.22f, 1.38f, -0.61f)
+                lineToRelative(1.71f, -1.88f)
+                curveToRelative(0.74f, -0.72f, 1.07f, -1.8f, 0.84f, -2.81f)
+                lineToRelative(-1.69f, -7.52f)
+                lineToRelative(5.89f, -5.89f)
+                lineToRelative(0.54f, 0.36f)
+                curveToRelative(0.84f, 0.56f, 1.34f, 1.49f, 1.34f, 2.5f)
+                verticalLineToRelative(10.86f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                verticalLineToRelative(-10.86f)
+                curveToRelative(0f, -1.68f, -0.83f, -3.23f, -2.23f, -4.16f)
+                close()
+                moveTo(14.59f, 1.99f)
+                lineToRelative(-2.59f, 2.59f)
+                lineToRelative(-2.59f, -2.59f)
+                lineToRelative(5.18f, -0.0f)
+                close()
+                moveTo(6.52f, 2.88f)
+                curveToRelative(0.16f, -0.16f, 0.34f, -0.3f, 0.52f, -0.42f)
+                lineToRelative(3.81f, 3.81f)
+                lineToRelative(-0.79f, 2.38f)
+                lineTo(5.41f, 4.0f)
+                lineToRelative(1.11f, -1.12f)
+                close()
+                moveTo(13.65f, 20.11f)
+                lineToRelative(-1.65f, 1.82f)
+                lineToRelative(-1.71f, -1.89f)
+                curveToRelative(-0.26f, -0.26f, -0.35f, -0.63f, -0.24f, -1.04f)
+                lineToRelative(1.95f, -8.67f)
+                lineToRelative(1.98f, 8.79f)
+                curveToRelative(0.08f, 0.34f, -0.03f, 0.7f, -0.33f, 0.98f)
+                close()
+                moveTo(13.94f, 8.65f)
+                lineToRelative(-0.79f, -2.38f)
+                lineToRelative(3.81f, -3.81f)
+                curveToRelative(0.18f, 0.12f, 0.35f, 0.25f, 0.51f, 0.41f)
+                lineToRelative(1.13f, 1.13f)
+                lineToRelative(-4.65f, 4.65f)
+                close()
+            }
+        }.also { _Shirt = it}

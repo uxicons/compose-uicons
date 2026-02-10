@@ -1,0 +1,50 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BracketsSquare: ImageVector? = null
+
+val Icons.Tc.BracketsSquare: ImageVector
+    get() = _BracketsSquare ?: UXIcon(name = "BracketsSquare") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 12f)
+                curveToRelative(0f, 4.83f, -1.17f, 9.7f, -1.21f, 9.9f)
+                curveToRelative(-0.05f, 0.19f, -0.2f, 0.33f, -0.39f, 0.37f)
+                curveToRelative(-0.02f, 0.0f, -2.07f, 0.41f, -4.84f, 0.72f)
+                curveToRelative(-0.02f, 0.0f, -0.04f, 0.0f, -0.06f, 0.0f)
+                curveToRelative(-0.25f, 0f, -0.47f, -0.19f, -0.5f, -0.44f)
+                curveToRelative(-0.03f, -0.27f, 0.17f, -0.52f, 0.44f, -0.55f)
+                curveToRelative(2.1f, -0.24f, 3.77f, -0.53f, 4.44f, -0.65f)
+                curveToRelative(0.26f, -1.16f, 1.11f, -5.32f, 1.11f, -9.35f)
+                reflectiveCurveToRelative(-0.86f, -8.2f, -1.11f, -9.35f)
+                curveToRelative(-0.67f, -0.12f, -2.35f, -0.41f, -4.44f, -0.65f)
+                curveToRelative(-0.27f, -0.03f, -0.47f, -0.28f, -0.44f, -0.55f)
+                curveToRelative(0.03f, -0.27f, 0.27f, -0.47f, 0.55f, -0.44f)
+                curveToRelative(2.77f, 0.31f, 4.82f, 0.72f, 4.84f, 0.72f)
+                curveToRelative(0.19f, 0.04f, 0.34f, 0.18f, 0.39f, 0.37f)
+                curveToRelative(0.05f, 0.2f, 1.21f, 5.07f, 1.21f, 9.9f)
+                close()
+                moveTo(7.56f, 2.0f)
+                curveToRelative(0.27f, -0.03f, 0.47f, -0.28f, 0.44f, -0.55f)
+                reflectiveCurveToRelative(-0.28f, -0.47f, -0.55f, -0.44f)
+                curveToRelative(-2.77f, 0.31f, -4.82f, 0.72f, -4.84f, 0.72f)
+                curveToRelative(-0.19f, 0.04f, -0.34f, 0.18f, -0.39f, 0.37f)
+                curveToRelative(-0.05f, 0.2f, -1.21f, 5.07f, -1.21f, 9.9f)
+                reflectiveCurveToRelative(1.17f, 9.7f, 1.21f, 9.9f)
+                curveToRelative(0.05f, 0.19f, 0.2f, 0.33f, 0.39f, 0.37f)
+                curveToRelative(0.02f, 0.0f, 2.07f, 0.41f, 4.84f, 0.72f)
+                curveToRelative(0.02f, 0.0f, 0.04f, 0.0f, 0.06f, 0.0f)
+                curveToRelative(0.25f, 0f, 0.47f, -0.19f, 0.5f, -0.44f)
+                curveToRelative(0.03f, -0.27f, -0.17f, -0.52f, -0.44f, -0.55f)
+                curveToRelative(-2.1f, -0.24f, -3.77f, -0.53f, -4.44f, -0.65f)
+                curveToRelative(-0.26f, -1.16f, -1.11f, -5.32f, -1.11f, -9.35f)
+                reflectiveCurveToRelative(0.86f, -8.2f, 1.11f, -9.35f)
+                curveToRelative(0.67f, -0.12f, 2.35f, -0.41f, 4.44f, -0.65f)
+                close()
+            }
+        }.also { _BracketsSquare = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GalaxyPlanet: ImageVector? = null
+
+val Icons.Br.GalaxyPlanet: ImageVector
+    get() = _GalaxyPlanet ?: UXIcon(name = "GalaxyPlanet") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(3f, 2.5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            close()
+            moveTo(3.5f, 17f)
+            curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+            reflectiveCurveToRelative(-1.57f, -3.5f, -3.5f, -3.5f)
+            reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+            reflectiveCurveToRelative(1.57f, 3.5f, 3.5f, 3.5f)
+            close()
+            moveTo(17.5f, 21f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(22.5f, 18f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(21.5f, 14.79f)
+            curveToRelative(-0.87f, 1.9f, -2.78f, 3.21f, -5.0f, 3.21f)
+            reflectiveCurveToRelative(-4.13f, -1.32f, -5.0f, -3.21f)
+            curveToRelative(-1.11f, -0.52f, -1.82f, -1.03f, -1.88f, -1.07f)
+            curveToRelative(-0.4f, -0.29f, -0.63f, -0.76f, -0.62f, -1.25f)
+            reflectiveCurveToRelative(0.27f, -0.95f, 0.69f, -1.22f)
+            curveToRelative(0.08f, -0.05f, 0.71f, -0.45f, 1.7f, -0.76f)
+            curveToRelative(0.81f, -2.04f, 2.8f, -3.48f, 5.12f, -3.48f)
+            reflectiveCurveToRelative(4.31f, 1.45f, 5.12f, 3.48f)
+            curveToRelative(0.99f, 0.31f, 1.61f, 0.7f, 1.7f, 0.76f)
+            curveToRelative(0.42f, 0.27f, 0.67f, 0.73f, 0.69f, 1.22f)
+            reflectiveCurveToRelative(-0.22f, 0.96f, -0.62f, 1.25f)
+            curveToRelative(-0.06f, 0.04f, -0.77f, 0.55f, -1.88f, 1.07f)
+            close()
+            moveTo(14f, 12.5f)
+            curveToRelative(0f, 0.02f, 0.0f, 0.04f, 0.0f, 0.06f)
+            curveToRelative(0.75f, 0.25f, 1.61f, 0.44f, 2.5f, 0.44f)
+            reflectiveCurveToRelative(1.75f, -0.19f, 2.5f, -0.44f)
+            curveToRelative(0f, -0.02f, 0.0f, -0.04f, 0.0f, -0.06f)
+            curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+            reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+            close()
+            moveTo(10.68f, 18.68f)
+            curveToRelative(-3.64f, 2.38f, -6.41f, 2.76f, -7.27f, 1.9f)
+            curveToRelative(-0.19f, -0.19f, -0.31f, -0.46f, -0.37f, -0.83f)
+            curveToRelative(-0.13f, -0.82f, -0.9f, -1.38f, -1.72f, -1.24f)
+            curveToRelative(-0.82f, 0.13f, -1.37f, 0.9f, -1.24f, 1.72f)
+            curveToRelative(0.16f, 1.0f, 0.57f, 1.83f, 1.21f, 2.47f)
+            curveToRelative(0.87f, 0.87f, 2.05f, 1.29f, 3.46f, 1.29f)
+            curveToRelative(2.11f, 0f, 4.72f, -0.95f, 7.57f, -2.81f)
+            curveToRelative(0.69f, -0.45f, 0.89f, -1.38f, 0.43f, -2.08f)
+            curveToRelative(-0.45f, -0.69f, -1.38f, -0.89f, -2.08f, -0.43f)
+            close()
+            moveTo(7.87f, 9.37f)
+            curveToRelative(0.38f, 0f, 0.77f, -0.15f, 1.06f, -0.44f)
+            curveToRelative(2.44f, -2.44f, 5.11f, -4.31f, 7.53f, -5.28f)
+            curveToRelative(1.92f, -0.77f, 3.51f, -0.86f, 4.13f, -0.23f)
+            curveToRelative(0.55f, 0.55f, 0.43f, 1.68f, 0.31f, 2.31f)
+            curveToRelative(-0.15f, 0.81f, 0.39f, 1.6f, 1.2f, 1.75f)
+            curveToRelative(0.81f, 0.15f, 1.6f, -0.39f, 1.75f, -1.2f)
+            curveToRelative(0.5f, -2.68f, -0.35f, -4.19f, -1.14f, -4.98f)
+            curveToRelative(-1.55f, -1.56f, -4.17f, -1.71f, -7.37f, -0.43f)
+            curveToRelative(-2.79f, 1.11f, -5.82f, 3.23f, -8.54f, 5.94f)
+            curveToRelative(-0.59f, 0.59f, -0.59f, 1.53f, 0f, 2.12f)
+            curveToRelative(0.29f, 0.29f, 0.68f, 0.44f, 1.06f, 0.44f)
+            close()
+        }
+    }.also { _GalaxyPlanet = it }

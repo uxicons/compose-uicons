@@ -1,0 +1,76 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Stroopwafel: ImageVector? = null
+
+val Icons.Tr.Stroopwafel: ImageVector
+    get() = _Stroopwafel ?: UXIcon(name = "Stroopwafel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveTo(18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(12f, 23f)
+                curveToRelative(-6.07f, 0f, -11f, -4.93f, -11f, -11f)
+                reflectiveCurveTo(5.93f, 1f, 12f, 1f)
+                reflectiveCurveToRelative(11f, 4.93f, 11f, 11f)
+                reflectiveCurveToRelative(-4.93f, 11f, -11f, 11f)
+                close()
+                moveTo(16.71f, 12.01f)
+                lineToRelative(3.15f, -3.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                reflectiveCurveToRelative(-0.51f, -0.2f, -0.71f, 0f)
+                lineToRelative(-3.15f, 3.15f)
+                lineToRelative(-3.29f, -3.29f)
+                lineToRelative(3.15f, -3.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(-0.2f, -0.2f, -0.51f, -0.2f, -0.71f, 0f)
+                lineToRelative(-3.15f, 3.15f)
+                lineToRelative(-3.15f, -3.15f)
+                curveToRelative(-0.2f, -0.19f, -0.51f, -0.2f, -0.71f, 0f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(3.15f, 3.15f)
+                lineToRelative(-3.29f, 3.29f)
+                lineToRelative(-3.15f, -3.15f)
+                curveToRelative(-0.2f, -0.2f, -0.51f, -0.2f, -0.71f, 0f)
+                reflectiveCurveToRelative(-0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(3.15f, 3.15f)
+                lineToRelative(-3.15f, 3.14f)
+                curveToRelative(-0.2f, 0.19f, -0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                lineToRelative(3.15f, -3.14f)
+                lineToRelative(3.29f, 3.29f)
+                lineToRelative(-3.15f, 3.15f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                lineToRelative(3.15f, -3.15f)
+                lineToRelative(3.15f, 3.15f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(-3.15f, -3.15f)
+                lineToRelative(3.29f, -3.29f)
+                lineToRelative(3.15f, 3.14f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(-3.15f, -3.14f)
+                close()
+                moveTo(12.01f, 15.3f)
+                lineToRelative(-3.29f, -3.29f)
+                lineToRelative(3.29f, -3.29f)
+                lineToRelative(3.29f, 3.29f)
+                lineToRelative(-3.29f, 3.29f)
+                close()
+            }
+        }.also { _Stroopwafel = it}

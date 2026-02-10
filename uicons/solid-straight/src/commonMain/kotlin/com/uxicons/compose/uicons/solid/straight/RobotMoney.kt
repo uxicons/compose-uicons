@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RobotMoney: ImageVector? = null
+
+val Icons.Ss.RobotMoney: ImageVector
+    get() = _RobotMoney ?: UXIcon(name = "RobotMoney") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 22f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-18f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                horizontalLineToRelative(10f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                close()
+                moveTo(17f, 14f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-15f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.66f, 1.34f, -3f, 3f, -3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(10f)
+                curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                close()
+                moveTo(9f, 10f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(24f, 2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-2.7f)
+                verticalLineToRelative(1.2f)
+                horizontalLineToRelative(0.2f)
+                curveToRelative(1.2f, 0f, 2.19f, 0.93f, 2.29f, 2.1f)
+                horizontalLineToRelative(-1.62f)
+                curveToRelative(-0.09f, -0.29f, -0.35f, -0.5f, -0.67f, -0.5f)
+                horizontalLineToRelative(-2.13f)
+                curveToRelative(-0.32f, 0f, -0.57f, 0.26f, -0.57f, 0.57f)
+                curveToRelative(0f, 0.27f, 0.19f, 0.51f, 0.46f, 0.56f)
+                lineToRelative(2.79f, 0.56f)
+                curveToRelative(1.01f, 0.2f, 1.75f, 1.1f, 1.75f, 2.13f)
+                curveToRelative(0f, 1.2f, -0.97f, 2.17f, -2.17f, 2.17f)
+                horizontalLineToRelative(-0.33f)
+                verticalLineToRelative(1.2f)
+                horizontalLineToRelative(4.7f)
+                close()
+                moveTo(19.74f, 6.06f)
+                lineTo(16.95f, 5.5f)
+                curveToRelative(-1.01f, -0.2f, -1.75f, -1.1f, -1.75f, -2.13f)
+                curveToRelative(0f, -1.2f, 0.97f, -2.17f, 2.17f, -2.17f)
+                horizontalLineToRelative(0.33f)
+                verticalLineToRelative(-1.2f)
+                horizontalLineToRelative(-2.7f)
+                curveToRelative(-1.1f, 0.0f, -2f, 0.9f, -2.0f, 2.0f)
+                lineToRelative(0.0f, 8.77f)
+                curveToRelative(0f, 0.64f, 0.52f, 1.09f, 1.09f, 1.09f)
+                curveToRelative(0.2f, 0f, 0.4f, -0.05f, 0.58f, -0.17f)
+                lineToRelative(2.45f, -1.69f)
+                horizontalLineToRelative(0.57f)
+                verticalLineToRelative(-1.2f)
+                horizontalLineToRelative(-0.2f)
+                curveToRelative(-1.2f, 0f, -2.19f, -0.93f, -2.29f, -2.1f)
+                horizontalLineToRelative(1.62f)
+                curveToRelative(0.09f, 0.29f, 0.35f, 0.5f, 0.67f, 0.5f)
+                horizontalLineToRelative(2.13f)
+                curveToRelative(0.32f, 0f, 0.57f, -0.26f, 0.57f, -0.57f)
+                curveToRelative(0f, -0.27f, -0.19f, -0.51f, -0.46f, -0.56f)
+                close()
+            }
+        }.also { _RobotMoney = it}

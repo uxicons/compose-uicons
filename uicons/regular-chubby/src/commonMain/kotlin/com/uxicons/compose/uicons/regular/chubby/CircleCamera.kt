@@ -1,0 +1,64 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleCamera: ImageVector? = null
+
+val Icons.Rc.CircleCamera: ImageVector
+    get() = _CircleCamera ?: UXIcon(name = "CircleCamera") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.72f, 7.47f)
+                curveToRelative(-0.05f, -0.01f, -0.7f, -0.15f, -1.71f, -0.28f)
+                curveToRelative(-0.35f, -1.01f, -0.63f, -1.5f, -0.67f, -1.56f)
+                curveToRelative(-0.15f, -0.24f, -0.39f, -0.41f, -0.66f, -0.46f)
+                curveToRelative(-0.04f, -0.01f, -0.9f, -0.17f, -1.68f, -0.17f)
+                reflectiveCurveToRelative(-1.64f, 0.17f, -1.68f, 0.17f)
+                curveToRelative(-0.28f, 0.05f, -0.52f, 0.22f, -0.66f, 0.46f)
+                curveToRelative(-0.04f, 0.06f, -0.32f, 0.55f, -0.67f, 1.56f)
+                curveToRelative(-1.0f, 0.12f, -1.66f, 0.27f, -1.71f, 0.28f)
+                curveToRelative(-0.37f, 0.08f, -0.66f, 0.36f, -0.75f, 0.73f)
+                curveToRelative(-0.02f, 0.08f, -0.53f, 2.1f, -0.53f, 3.8f)
+                reflectiveCurveToRelative(0.51f, 3.72f, 0.53f, 3.8f)
+                curveToRelative(0.09f, 0.36f, 0.38f, 0.65f, 0.75f, 0.73f)
+                curveToRelative(0.09f, 0.02f, 2.14f, 0.47f, 4.72f, 0.47f)
+                reflectiveCurveToRelative(4.63f, -0.45f, 4.72f, -0.47f)
+                curveToRelative(0.37f, -0.08f, 0.66f, -0.36f, 0.75f, -0.73f)
+                curveToRelative(0.02f, -0.08f, 0.53f, -2.1f, 0.53f, -3.8f)
+                reflectiveCurveToRelative(-0.51f, -3.72f, -0.53f, -3.8f)
+                curveToRelative(-0.09f, -0.36f, -0.38f, -0.65f, -0.75f, -0.73f)
+                close()
+                moveTo(15.67f, 14.69f)
+                curveToRelative(-0.75f, 0.12f, -2.12f, 0.31f, -3.67f, 0.31f)
+                reflectiveCurveToRelative(-2.92f, -0.18f, -3.67f, -0.31f)
+                curveToRelative(-0.14f, -0.67f, -0.33f, -1.76f, -0.33f, -2.69f)
+                reflectiveCurveToRelative(0.19f, -2.03f, 0.33f, -2.69f)
+                curveToRelative(0.75f, -0.12f, 2.12f, -0.31f, 3.67f, -0.31f)
+                reflectiveCurveToRelative(2.92f, 0.18f, 3.67f, 0.31f)
+                curveToRelative(0.14f, 0.67f, 0.33f, 1.76f, 0.33f, 2.69f)
+                reflectiveCurveToRelative(-0.19f, 2.03f, -0.33f, 2.69f)
+                close()
+                moveTo(12f, 1f)
+                curveToRelative(-7.71f, 0f, -11f, 3.29f, -11f, 11f)
+                reflectiveCurveToRelative(3.29f, 11f, 11f, 11f)
+                reflectiveCurveToRelative(11f, -3.29f, 11f, -11f)
+                reflectiveCurveToRelative(-3.29f, -11f, -11f, -11f)
+                close()
+                moveTo(12f, 21f)
+                curveToRelative(-6.56f, 0f, -9f, -2.44f, -9f, -9f)
+                reflectiveCurveToRelative(2.44f, -9f, 9f, -9f)
+                reflectiveCurveToRelative(9f, 2.44f, 9f, 9f)
+                reflectiveCurveToRelative(-2.44f, 9f, -9f, 9f)
+                close()
+                moveTo(14f, 12f)
+                curveToRelative(0f, 1.43f, -0.57f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.57f, -2f, -2f)
+                reflectiveCurveToRelative(0.57f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.57f, 2f, 2f)
+                close()
+            }
+        }.also { _CircleCamera = it}

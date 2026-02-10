@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserExperience: ImageVector? = null
+
+val Icons.Bs.UserExperience: ImageVector
+    get() = _UserExperience ?: UXIcon(name = "UserExperience") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(10.21f, 4.85f)
+                lineToRelative(-2.21f, -1.23f)
+                verticalLineToRelative(-0.61f)
+                horizontalLineToRelative(2.9f)
+                lineToRelative(0.78f, -3f)
+                horizontalLineToRelative(0.65f)
+                lineToRelative(0.78f, 3f)
+                horizontalLineToRelative(2.88f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(-2.2f, 1.27f)
+                lineToRelative(0.88f, 2.69f)
+                lineToRelative(-0.5f, 0.35f)
+                lineToRelative(-2.17f, -1.68f)
+                lineToRelative(-2.18f, 1.69f)
+                lineToRelative(-0.48f, -0.36f)
+                lineToRelative(0.87f, -2.72f)
+                close()
+                moveTo(6.69f, 10.57f)
+                lineToRelative(-0.88f, -2.69f)
+                lineToRelative(2.2f, -1.27f)
+                verticalLineToRelative(-0.61f)
+                horizontalLineToRelative(-2.88f)
+                lineToRelative(-0.78f, -3f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.78f, 3f)
+                lineTo(0.0f, 6f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(2.21f, 1.23f)
+                lineToRelative(-0.87f, 2.72f)
+                lineToRelative(0.48f, 0.36f)
+                lineToRelative(2.18f, -1.69f)
+                lineToRelative(2.17f, 1.68f)
+                lineToRelative(0.5f, -0.35f)
+                close()
+                moveTo(24.0f, 6f)
+                horizontalLineToRelative(-2.88f)
+                lineToRelative(-0.78f, -3f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.78f, 3f)
+                horizontalLineToRelative(-2.9f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(2.21f, 1.23f)
+                lineToRelative(-0.87f, 2.72f)
+                lineToRelative(0.48f, 0.36f)
+                lineToRelative(2.18f, -1.69f)
+                lineToRelative(2.17f, 1.68f)
+                lineToRelative(0.5f, -0.35f)
+                lineToRelative(-0.88f, -2.69f)
+                lineToRelative(2.2f, -1.27f)
+                verticalLineToRelative(-0.61f)
+                close()
+                moveTo(15.5f, 18f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                close()
+                moveTo(12f, 17f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                reflectiveCurveToRelative(-1.79f, -4f, -4f, -4f)
+                reflectiveCurveToRelative(-4f, 1.79f, -4f, 4f)
+                reflectiveCurveToRelative(1.79f, 4f, 4f, 4f)
+                close()
+            }
+        }.also { _UserExperience = it}

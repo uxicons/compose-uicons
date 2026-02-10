@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HelicopterSide: ImageVector? = null
+
+val Icons.Tc.HelicopterSide: ImageVector
+    get() = _HelicopterSide ?: UXIcon(name = "HelicopterSide") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.5f, 19.34f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                curveToRelative(0f, 0.99f, -0.81f, 1.8f, -1.8f, 1.8f)
+                horizontalLineToRelative(-1.03f)
+                curveToRelative(0f, -0.01f, 0.0f, -0.02f, 0.0f, -0.03f)
+                verticalLineToRelative(-3.29f)
+                curveToRelative(1.59f, -0.9f, 2.73f, -2.61f, 2.73f, -5.81f)
+                curveToRelative(0f, -5.99f, -3.99f, -6.76f, -7.47f, -6.76f)
+                curveToRelative(-0.45f, 0f, -0.95f, 0.01f, -1.47f, 0.04f)
+                lineTo(12.96f, 3.4f)
+                horizontalLineToRelative(5.83f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-5.83f)
+                verticalLineToRelative(-0.55f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(0.55f)
+                lineTo(6.14f, 2.4f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(5.83f)
+                verticalLineToRelative(2.45f)
+                curveToRelative(-3.69f, 0.27f, -8.34f, 0.98f, -9.96f, 1.24f)
+                verticalLineToRelative(-1.88f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3.81f)
+                curveToRelative(0f, 0.14f, 0.06f, 0.28f, 0.17f, 0.37f)
+                curveToRelative(0.16f, 0.14f, 3.86f, 3.42f, 5.87f, 4.45f)
+                curveToRelative(0.3f, 2.66f, 1.56f, 4.04f, 3.17f, 4.74f)
+                verticalLineToRelative(3.07f)
+                lineTo(5.44f, 21.65f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(14.76f)
+                curveToRelative(1.54f, 0f, 2.8f, -1.26f, 2.8f, -2.8f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(20.91f, 12.51f)
+                curveToRelative(0f, 0.29f, -0.01f, 0.56f, -0.03f, 0.82f)
+                curveToRelative(-0.6f, 0.05f, -1.19f, 0.07f, -1.76f, 0.07f)
+                curveToRelative(-2.5f, 0f, -4.74f, -0.49f, -5.5f, -0.68f)
+                curveToRelative(-0.19f, -0.72f, -0.67f, -2.84f, -0.67f, -5.49f)
+                curveToRelative(0f, -0.15f, 0.0f, -0.3f, 0.01f, -0.45f)
+                curveToRelative(0.53f, -0.03f, 1.03f, -0.04f, 1.48f, -0.04f)
+                curveToRelative(4.66f, 0f, 6.47f, 1.62f, 6.47f, 5.76f)
+                close()
+                moveTo(8.01f, 13.46f)
+                curveToRelative(-0.02f, -0.18f, -0.13f, -0.34f, -0.3f, -0.42f)
+                curveToRelative(-1.57f, -0.69f, -4.92f, -3.57f, -5.71f, -4.26f)
+                verticalLineToRelative(-0.69f)
+                curveToRelative(1.43f, -0.23f, 6.22f, -0.97f, 9.95f, -1.25f)
+                curveToRelative(-0.0f, 0.13f, -0.0f, 0.25f, -0.0f, 0.38f)
+                curveToRelative(0f, 3.43f, 0.76f, 5.94f, 0.79f, 6.05f)
+                curveToRelative(0.05f, 0.16f, 0.18f, 0.29f, 0.34f, 0.34f)
+                curveToRelative(0.11f, 0.03f, 2.83f, 0.79f, 6.04f, 0.79f)
+                curveToRelative(0.53f, 0f, 1.07f, -0.02f, 1.63f, -0.06f)
+                curveToRelative(-0.54f, 2.77f, -2.48f, 3.93f, -6.31f, 3.93f)
+                curveToRelative(-4.28f, 0f, -6.14f, -1.39f, -6.43f, -4.81f)
+                close()
+                moveTo(11.2f, 18.92f)
+                curveToRelative(1.04f, 0.28f, 2.17f, 0.35f, 3.23f, 0.35f)
+                curveToRelative(1.25f, 0f, 2.56f, -0.1f, 3.73f, -0.5f)
+                verticalLineToRelative(2.85f)
+                curveToRelative(0f, 0.01f, 0f, 0.02f, 0.0f, 0.03f)
+                horizontalLineToRelative(-6.97f)
+                verticalLineToRelative(-2.73f)
+                close()
+            }
+        }.also { _HelicopterSide = it}

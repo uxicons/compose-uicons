@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Recipe: ImageVector? = null
+
+val Icons.Ts.Recipe: ImageVector
+    get() = _Recipe ?: UXIcon(name = "Recipe") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20f, 13f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(20f, 8f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(8f, 17f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(2f, 10f)
+                verticalLineToRelative(-5.05f)
+                curveToRelative(-1.14f, -0.23f, -2f, -1.24f, -2f, -2.45f)
+                curveTo(0f, 1.12f, 1.12f, 0f, 2.5f, 0f)
+                curveToRelative(0.62f, 0f, 1.21f, 0.23f, 1.66f, 0.64f)
+                curveToRelative(1.05f, -0.82f, 2.62f, -0.82f, 3.67f, 0f)
+                curveToRelative(0.45f, -0.41f, 1.05f, -0.64f, 1.66f, -0.64f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                curveToRelative(0f, 1.21f, -0.86f, 2.22f, -2f, 2.45f)
+                verticalLineToRelative(5.05f)
+                lineTo(2f, 10f)
+                close()
+                moveTo(2.5f, 4f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                curveToRelative(-0.48f, 0f, -0.94f, 0.24f, -1.23f, 0.64f)
+                lineToRelative(-0.36f, 0.52f)
+                lineToRelative(-0.42f, -0.47f)
+                curveToRelative(-0.78f, -0.88f, -2.21f, -0.88f, -2.98f, 0f)
+                lineToRelative(-0.42f, 0.47f)
+                lineToRelative(-0.36f, -0.52f)
+                curveToRelative(-0.28f, -0.4f, -0.74f, -0.64f, -1.23f, -0.64f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+                moveTo(24f, 2.5f)
+                verticalLineToRelative(14.21f)
+                lineToRelative(-7.29f, 7.29f)
+                lineTo(4f, 24f)
+                verticalLineToRelative(-12f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(7f)
+                lineTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-7.5f)
+                lineTo(14f, 0f)
+                horizontalLineToRelative(7.5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(17f, 17f)
+                verticalLineToRelative(5.29f)
+                lineToRelative(5.29f, -5.29f)
+                horizontalLineToRelative(-5.29f)
+                close()
+            }
+        }.also { _Recipe = it}

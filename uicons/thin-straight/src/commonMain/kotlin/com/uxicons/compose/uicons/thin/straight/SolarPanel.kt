@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SolarPanel: ImageVector? = null
+
+val Icons.Ts.SolarPanel: ImageVector
+    get() = _SolarPanel ?: UXIcon(name = "SolarPanel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.5f, 19f)
+                horizontalLineToRelative(11.5f)
+                lineToRelative(-2.09f, -16.81f)
+                curveToRelative(-0.15f, -1.25f, -1.22f, -2.19f, -2.48f, -2.19f)
+                lineTo(4.57f, 0f)
+                curveToRelative(-1.26f, 0f, -2.33f, 0.94f, -2.48f, 2.19f)
+                lineTo(-0.0f, 19f)
+                horizontalLineToRelative(11.5f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-5.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-5.5f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(16.2f, 18f)
+                lineToRelative(-0.16f, -5f)
+                horizontalLineToRelative(6.2f)
+                lineToRelative(0.62f, 5f)
+                horizontalLineToRelative(-6.67f)
+                close()
+                moveTo(9.14f, 7f)
+                horizontalLineToRelative(5.71f)
+                lineToRelative(0.16f, 5f)
+                horizontalLineToRelative(-6.03f)
+                lineToRelative(0.16f, -5f)
+                close()
+                moveTo(7.99f, 12f)
+                lineTo(1.88f, 12f)
+                lineToRelative(0.62f, -5f)
+                horizontalLineToRelative(5.64f)
+                lineToRelative(-0.16f, 5f)
+                close()
+                moveTo(9.18f, 6f)
+                lineToRelative(0.16f, -5f)
+                horizontalLineToRelative(5.34f)
+                lineToRelative(0.16f, 5f)
+                horizontalLineToRelative(-5.65f)
+                close()
+                moveTo(15.86f, 7f)
+                horizontalLineToRelative(5.64f)
+                lineToRelative(0.62f, 5f)
+                horizontalLineToRelative(-6.11f)
+                lineToRelative(-0.16f, -5f)
+                close()
+                moveTo(20.92f, 2.31f)
+                lineToRelative(0.46f, 3.69f)
+                horizontalLineToRelative(-5.55f)
+                lineToRelative(-0.16f, -5f)
+                horizontalLineToRelative(3.76f)
+                curveToRelative(0.76f, 0f, 1.4f, 0.56f, 1.49f, 1.31f)
+                close()
+                moveTo(3.08f, 2.31f)
+                curveToRelative(0.09f, -0.75f, 0.73f, -1.31f, 1.49f, -1.31f)
+                horizontalLineToRelative(3.76f)
+                lineToRelative(-0.16f, 5f)
+                lineTo(2.62f, 6f)
+                lineToRelative(0.46f, -3.69f)
+                close()
+                moveTo(1.75f, 13f)
+                horizontalLineToRelative(6.2f)
+                lineToRelative(-0.16f, 5f)
+                lineTo(1.13f, 18f)
+                lineToRelative(0.62f, -5f)
+                close()
+                moveTo(8.8f, 18f)
+                lineToRelative(0.16f, -5f)
+                horizontalLineToRelative(6.09f)
+                lineToRelative(0.16f, 5f)
+                horizontalLineToRelative(-6.4f)
+                close()
+            }
+        }.also { _SolarPanel = it}

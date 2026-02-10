@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Dungeon: ImageVector? = null
+
+val Icons.Br.Dungeon: ImageVector
+    get() = _Dungeon ?: UXIcon(name = "Dungeon") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(14f, 12f)
+            verticalLineToRelative(10f)
+            curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+            reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+            lineTo(10f, 12f)
+            curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+            reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+            close()
+            moveTo(24f, 12.35f)
+            verticalLineToRelative(8.15f)
+            curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+            lineTo(16f, 12f)
+            curveToRelative(0f, -1.12f, -0.48f, -2.2f, -1.31f, -2.96f)
+            curveToRelative(-0.84f, -0.77f, -1.95f, -1.13f, -3.09f, -1.02f)
+            curveToRelative(-2.02f, 0.19f, -3.6f, 2.04f, -3.6f, 4.22f)
+            verticalLineToRelative(8.26f)
+            curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+            lineTo(-0.0f, 12f)
+            curveTo(0f, 8.75f, 1.28f, 5.71f, 3.59f, 3.44f)
+            curveTo(5.91f, 1.16f, 8.94f, -0.06f, 12.22f, 0.0f)
+            curveToRelative(6.49f, 0.12f, 11.78f, 5.66f, 11.78f, 12.35f)
+            close()
+            moveTo(19f, 12.0f)
+            verticalLineToRelative(2f)
+            horizontalLineToRelative(2f)
+            verticalLineToRelative(-1.65f)
+            curveToRelative(0f, -1.28f, -0.25f, -2.5f, -0.71f, -3.61f)
+            lineToRelative(-1.67f, 1.01f)
+            curveToRelative(0.24f, 0.72f, 0.38f, 1.48f, 0.38f, 2.25f)
+            close()
+            moveTo(5.43f, 9.78f)
+            lineToRelative(-1.8f, -1.09f)
+            curveToRelative(-0.41f, 1.04f, -0.63f, 2.15f, -0.63f, 3.31f)
+            verticalLineToRelative(2f)
+            horizontalLineToRelative(2f)
+            verticalLineToRelative(-1.76f)
+            curveToRelative(0f, -0.86f, 0.15f, -1.69f, 0.43f, -2.46f)
+            close()
+            moveTo(5f, 20.5f)
+            verticalLineToRelative(-3.5f)
+            lineTo(3f, 17.0f)
+            verticalLineToRelative(3.5f)
+            curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+            close()
+            moveTo(10.5f, 5.17f)
+            lineTo(10.5f, 3.13f)
+            curveToRelative(-1.8f, 0.3f, -3.47f, 1.14f, -4.8f, 2.44f)
+            curveToRelative(-0.18f, 0.18f, -0.34f, 0.36f, -0.51f, 0.55f)
+            lineToRelative(1.8f, 1.09f)
+            curveToRelative(0.94f, -1.01f, 2.15f, -1.74f, 3.52f, -2.04f)
+            close()
+            moveTo(16.71f, 6.82f)
+            curveToRelative(0.13f, 0.12f, 0.24f, 0.24f, 0.36f, 0.36f)
+            lineToRelative(1.66f, -1.0f)
+            curveToRelative(-1.34f, -1.57f, -3.16f, -2.67f, -5.23f, -3.04f)
+            verticalLineToRelative(2.03f)
+            curveToRelative(1.19f, 0.26f, 2.3f, 0.82f, 3.21f, 1.65f)
+            close()
+            moveTo(21f, 20.5f)
+            verticalLineToRelative(-3.5f)
+            horizontalLineToRelative(-2f)
+            verticalLineToRelative(3.5f)
+            curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+            close()
+        }
+    }.also { _Dungeon = it }

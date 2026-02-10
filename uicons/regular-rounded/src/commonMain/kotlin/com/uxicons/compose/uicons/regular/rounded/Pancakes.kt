@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Pancakes: ImageVector? = null
+
+val Icons.Rr.Pancakes: ImageVector
+    get() = _Pancakes ?: UXIcon(name = "Pancakes") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5.81f, 8.41f)
+                curveToRelative(0.69f, 0.14f, 1.19f, 0.76f, 1.19f, 1.47f)
+                verticalLineToRelative(9.12f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-8.52f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.52f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3.67f)
+                curveToRelative(0f, -0.77f, 0.57f, -1.41f, 1.33f, -1.49f)
+                curveToRelative(2.03f, -0.2f, 8.67f, -1.1f, 8.67f, -4.34f)
+                curveToRelative(0f, -3.09f, -6.22f, -4.5f, -12f, -4.5f)
+                reflectiveCurveTo(0f, 1.41f, 0f, 4.5f)
+                curveToRelative(0f, 1.75f, 2.06f, 3.14f, 5.81f, 3.91f)
+                close()
+                moveTo(12f, 2f)
+                curveToRelative(6.6f, 0f, 10f, 1.75f, 10f, 2.5f)
+                curveToRelative(0f, 0.49f, -1.98f, 1.87f, -6.86f, 2.35f)
+                curveToRelative(-0.89f, 0.09f, -1.66f, 0.5f, -2.22f, 1.11f)
+                curveToRelative(-0.63f, -0.6f, -1.48f, -0.98f, -2.41f, -0.98f)
+                curveToRelative(-0.84f, 0f, -1.6f, 0.31f, -2.21f, 0.81f)
+                curveToRelative(-0.5f, -0.67f, -1.22f, -1.16f, -2.08f, -1.34f)
+                curveToRelative(-3.15f, -0.65f, -4.21f, -1.61f, -4.21f, -1.95f)
+                curveToRelative(0f, -0.75f, 3.4f, -2.5f, 10f, -2.5f)
+                close()
+                moveTo(23.91f, 20.41f)
+                curveToRelative(-1.13f, 2.48f, -6.8f, 3.58f, -11.91f, 3.58f)
+                reflectiveCurveTo(1.22f, 22.89f, 0.09f, 20.41f)
+                curveToRelative(-0.23f, -0.5f, -0.01f, -1.1f, 0.49f, -1.32f)
+                curveToRelative(0.5f, -0.23f, 1.1f, -0.01f, 1.32f, 0.49f)
+                curveToRelative(0.46f, 1.01f, 4.22f, 2.42f, 10.09f, 2.42f)
+                reflectiveCurveToRelative(9.63f, -1.4f, 10.09f, -2.42f)
+                curveToRelative(0.23f, -0.5f, 0.82f, -0.72f, 1.32f, -0.49f)
+                curveToRelative(0.5f, 0.23f, 0.72f, 0.82f, 0.49f, 1.32f)
+                close()
+                moveTo(23.91f, 15.41f)
+                curveToRelative(-1.13f, 2.48f, -6.8f, 3.58f, -11.91f, 3.58f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                curveToRelative(5.87f, 0f, 9.63f, -1.4f, 10.09f, -2.42f)
+                curveToRelative(0.23f, -0.5f, 0.82f, -0.72f, 1.32f, -0.49f)
+                curveToRelative(0.5f, 0.23f, 0.72f, 0.82f, 0.49f, 1.32f)
+                close()
+                moveTo(4.95f, 17.24f)
+                curveToRelative(-0.14f, 0.42f, -0.53f, 0.69f, -0.95f, 0.69f)
+                curveToRelative(-0.1f, 0f, -0.21f, -0.02f, -0.31f, -0.05f)
+                curveToRelative(-1.93f, -0.63f, -3.14f, -1.46f, -3.6f, -2.46f)
+                curveToRelative(-0.23f, -0.5f, -0.01f, -1.1f, 0.5f, -1.32f)
+                curveToRelative(0.5f, -0.23f, 1.09f, -0.01f, 1.32f, 0.5f)
+                curveToRelative(0.15f, 0.33f, 0.87f, 0.89f, 2.4f, 1.39f)
+                curveToRelative(0.53f, 0.17f, 0.81f, 0.74f, 0.64f, 1.26f)
+                close()
+                moveTo(23.41f, 9.09f)
+                curveToRelative(0.5f, 0.23f, 0.72f, 0.82f, 0.49f, 1.32f)
+                curveToRelative(-0.91f, 2.0f, -4.62f, 2.86f, -6.75f, 3.2f)
+                curveToRelative(-0.05f, 0.01f, -0.98f, 0.16f, -1.15f, -0.83f)
+                curveToRelative(-0.09f, -0.55f, 0.28f, -1.06f, 0.83f, -1.15f)
+                curveToRelative(3.68f, -0.58f, 5.04f, -1.6f, 5.25f, -2.05f)
+                curveToRelative(0.23f, -0.5f, 0.82f, -0.72f, 1.32f, -0.5f)
+                close()
+                moveTo(4.95f, 12.24f)
+                curveToRelative(-0.14f, 0.42f, -0.53f, 0.69f, -0.95f, 0.69f)
+                curveToRelative(-0.1f, 0f, -0.21f, -0.02f, -0.31f, -0.05f)
+                curveToRelative(-1.93f, -0.63f, -3.14f, -1.46f, -3.6f, -2.46f)
+                curveToRelative(-0.23f, -0.5f, -0.01f, -1.1f, 0.5f, -1.32f)
+                curveToRelative(0.5f, -0.23f, 1.09f, -0.01f, 1.32f, 0.5f)
+                curveToRelative(0.15f, 0.33f, 0.87f, 0.89f, 2.4f, 1.39f)
+                curveToRelative(0.53f, 0.17f, 0.81f, 0.74f, 0.64f, 1.26f)
+                close()
+            }
+        }.also { _Pancakes = it}

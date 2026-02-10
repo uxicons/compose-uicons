@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StoryBook: ImageVector? = null
+
+val Icons.Ss.StoryBook: ImageVector
+    get() = _StoryBook ?: UXIcon(name = "StoryBook") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 19f)
+                verticalLineToRelative(5f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.78f, 0f, 4.24f, 1.33f, 4.94f, 2.75f)
+                curveToRelative(0.7f, -1.41f, 2.17f, -2.75f, 4.94f, -2.75f)
+                horizontalLineToRelative(7.11f)
+                close()
+                moveTo(22.23f, 2.77f)
+                lineToRelative(-0.52f, -1.77f)
+                horizontalLineToRelative(-0.4f)
+                lineToRelative(-0.53f, 1.77f)
+                lineToRelative(-1.78f, 0.52f)
+                verticalLineToRelative(0.4f)
+                lineToRelative(1.78f, 0.53f)
+                lineToRelative(0.53f, 1.78f)
+                horizontalLineToRelative(0.4f)
+                lineToRelative(0.52f, -1.78f)
+                lineToRelative(1.77f, -0.53f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.77f, -0.52f)
+                close()
+                moveTo(2.71f, 4f)
+                horizontalLineToRelative(-0.4f)
+                lineToRelative(-0.53f, 1.77f)
+                lineToRelative(-1.78f, 0.52f)
+                verticalLineToRelative(0.4f)
+                lineToRelative(1.78f, 0.53f)
+                lineToRelative(0.53f, 1.78f)
+                horizontalLineToRelative(0.4f)
+                lineToRelative(0.52f, -1.78f)
+                lineToRelative(1.77f, -0.53f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.77f, -0.52f)
+                lineToRelative(-0.52f, -1.77f)
+                close()
+                moveTo(11.71f, 12f)
+                horizontalLineToRelative(-0.4f)
+                lineToRelative(-0.53f, 1.77f)
+                lineToRelative(-1.78f, 0.52f)
+                verticalLineToRelative(0.4f)
+                lineToRelative(1.78f, 0.53f)
+                lineToRelative(0.53f, 1.78f)
+                horizontalLineToRelative(0.4f)
+                lineToRelative(0.52f, -1.78f)
+                lineToRelative(1.77f, -0.53f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.77f, -0.52f)
+                lineToRelative(-0.52f, -1.77f)
+                close()
+                moveTo(16.43f, 5.39f)
+                lineToRelative(0.01f, -0.76f)
+                lineToRelative(-3.37f, -1.06f)
+                lineToRelative(0.31f, -3.16f)
+                lineToRelative(-0.62f, -0.45f)
+                lineToRelative(-2.1f, 2.93f)
+                lineToRelative(-3.62f, -1.39f)
+                lineToRelative(-0.47f, 0.66f)
+                lineToRelative(2.47f, 2.98f)
+                lineToRelative(-2.12f, 2.94f)
+                lineToRelative(0.62f, 0.45f)
+                lineToRelative(2.87f, -1.35f)
+                lineToRelative(2.12f, 2.86f)
+                lineToRelative(0.72f, -0.22f)
+                lineToRelative(-0.08f, -2.16f)
+                lineToRelative(9.53f, 6.35f)
+                lineToRelative(1.11f, -1.66f)
+                lineToRelative(-9.49f, -6.33f)
+                lineToRelative(2.1f, -0.62f)
+                close()
+            }
+        }.also { _StoryBook = it}

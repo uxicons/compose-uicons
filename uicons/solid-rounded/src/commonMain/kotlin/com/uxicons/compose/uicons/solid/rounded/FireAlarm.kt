@@ -1,0 +1,63 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FireAlarm: ImageVector? = null
+
+val Icons.Sr.FireAlarm: ImageVector
+    get() = _FireAlarm ?: UXIcon(name = "FireAlarm") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.56f, 12.43f)
+                curveToRelative(-0.28f, 0.46f, -0.65f, 0.83f, -1.07f, 1.1f)
+                curveToRelative(0.05f, -0.47f, -0.13f, -0.97f, -0.48f, -1.33f)
+                lineToRelative(-0.58f, -0.52f)
+                curveToRelative(-0.23f, -0.23f, -0.61f, -0.23f, -0.85f, 0f)
+                lineToRelative(-0.58f, 0.52f)
+                curveToRelative(-0.38f, 0.38f, -0.54f, 0.91f, -0.47f, 1.4f)
+                curveToRelative(-0.91f, -0.52f, -1.53f, -1.49f, -1.53f, -2.61f)
+                curveToRelative(0f, -0.37f, 0.13f, -0.94f, 0.31f, -1.41f)
+                curveToRelative(0.34f, 0.25f, 0.75f, 0.42f, 1.2f, 0.42f)
+                curveToRelative(1.5f, 0f, 1.72f, -1.47f, 1.85f, -2.35f)
+                curveToRelative(0.03f, -0.22f, 0.07f, -0.44f, 0.11f, -0.66f)
+                curveToRelative(1.85f, 1.74f, 3.22f, 3.59f, 2.1f, 5.44f)
+                close()
+                moveTo(24f, 10f)
+                curveToRelative(0.01f, 6.9f, -5.22f, 13.17f, -12.01f, 14f)
+                curveToRelative(-0.69f, 0f, -1.36f, -0.24f, -1.9f, -0.69f)
+                curveToRelative(-0.69f, -0.58f, -1.08f, -1.42f, -1.08f, -2.32f)
+                verticalLineToRelative(-1.04f)
+                curveToRelative(-5.05f, -0.5f, -9f, -4.77f, -9f, -9.95f)
+                curveToRelative(0f, -5.51f, 4.49f, -10f, 10f, -10f)
+                curveToRelative(3.88f, 0f, 7.25f, 2.23f, 8.9f, 5.47f)
+                curveToRelative(-1.71f, 0.79f, -2.9f, 2.52f, -2.9f, 4.53f)
+                reflectiveCurveToRelative(1.19f, 3.73f, 2.9f, 4.53f)
+                curveToRelative(-1.51f, 2.96f, -4.45f, 5.05f, -7.91f, 5.4f)
+                verticalLineToRelative(1.06f)
+                curveToRelative(0f, 0.3f, 0.13f, 0.59f, 0.37f, 0.78f)
+                curveToRelative(0.13f, 0.11f, 0.41f, 0.28f, 0.79f, 0.21f)
+                curveToRelative(4.64f, -0.84f, 8.33f, -4.52f, 9.47f, -9.05f)
+                curveToRelative(-0.2f, 0.04f, -0.41f, 0.07f, -0.63f, 0.07f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                reflectiveCurveToRelative(1.35f, -3f, 3f, -3f)
+                reflectiveCurveToRelative(3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(14.28f, 13.46f)
+                curveToRelative(2.28f, -3.77f, -1.5f, -7.12f, -3.11f, -8.54f)
+                curveToRelative(-0.54f, -0.47f, -1.05f, -0.45f, -1.31f, -0.39f)
+                curveToRelative(-0.26f, 0.06f, -0.73f, 0.25f, -1.0f, 0.89f)
+                curveToRelative(-0.29f, 0.68f, -0.4f, 1.38f, -0.48f, 1.93f)
+                curveToRelative(-0.02f, 0.11f, -0.04f, 0.23f, -0.05f, 0.35f)
+                curveToRelative(-0.21f, -0.39f, -0.51f, -0.62f, -0.89f, -0.68f)
+                curveToRelative(-0.67f, -0.12f, -1.14f, 0.39f, -1.29f, 0.56f)
+                curveToRelative(-0.72f, 0.79f, -1.16f, 2.52f, -1.16f, 3.42f)
+                curveToRelative(0f, 2.65f, 2.07f, 4.84f, 4.71f, 5f)
+                curveToRelative(0.09f, 0.01f, 0.18f, 0.01f, 0.28f, 0.01f)
+                curveToRelative(1.72f, 0f, 3.35f, -0.95f, 4.3f, -2.54f)
+                close()
+            }
+        }.also { _FireAlarm = it}

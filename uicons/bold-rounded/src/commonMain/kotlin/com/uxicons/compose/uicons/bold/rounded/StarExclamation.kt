@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StarExclamation: ImageVector? = null
+
+val Icons.Br.StarExclamation: ImageVector
+    get() = _StarExclamation ?: UXIcon(name = "StarExclamation") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(12f, 18f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            close()
+            moveTo(13.5f, 20.5f)
+            horizontalLineToRelative(0f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(0f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            horizontalLineToRelative(0f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(0f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            close()
+            moveTo(19.27f, 22.56f)
+            curveToRelative(1.28f, -0.92f, 1.81f, -2.55f, 1.33f, -4.05f)
+            lineToRelative(-1.18f, -3.71f)
+            lineToRelative(3.08f, -2.25f)
+            curveToRelative(1.29f, -0.94f, 1.8f, -2.54f, 1.31f, -4.05f)
+            curveToRelative(-0.48f, -1.5f, -1.87f, -2.5f, -3.45f, -2.5f)
+            horizontalLineToRelative(-3.78f)
+            lineToRelative(-1.14f, -3.48f)
+            curveTo(14.96f, 0.99f, 13.6f, 0f, 12.0f, 0f)
+            curveTo(10.41f, 0f, 9.03f, 1.01f, 8.55f, 2.51f)
+            lineToRelative(-1.14f, 3.49f)
+            horizontalLineToRelative(-3.78f)
+            curveToRelative(-1.6f, 0f, -2.96f, 0.98f, -3.45f, 2.5f)
+            curveToRelative(-0.49f, 1.49f, 0.04f, 3.12f, 1.3f, 4.05f)
+            lineToRelative(3.09f, 2.26f)
+            lineToRelative(-1.17f, 3.7f)
+            curveToRelative(-0.49f, 1.53f, 0.03f, 3.12f, 1.33f, 4.06f)
+            curveToRelative(0.63f, 0.45f, 1.36f, 0.69f, 2.12f, 0.69f)
+            curveToRelative(0.42f, 0f, 0.91f, -0.16f, 1.43f, -0.48f)
+            curveToRelative(0.71f, -0.43f, 0.93f, -1.35f, 0.5f, -2.05f)
+            curveToRelative(-0.42f, -0.71f, -1.35f, -0.94f, -2.06f, -0.51f)
+            curveToRelative(-0.01f, 0.0f, -0.02f, 0.01f, -0.04f, 0.02f)
+            curveToRelative(-0.07f, -0.02f, -0.14f, -0.06f, -0.21f, -0.1f)
+            curveToRelative(-0.23f, -0.17f, -0.32f, -0.42f, -0.23f, -0.71f)
+            lineToRelative(1.5f, -4.74f)
+            curveToRelative(0.2f, -0.61f, -0.02f, -1.28f, -0.54f, -1.67f)
+            lineToRelative(-3.96f, -2.89f)
+            curveToRelative(-0.23f, -0.17f, -0.32f, -0.42f, -0.23f, -0.7f)
+            curveToRelative(0.09f, -0.27f, 0.31f, -0.43f, 0.59f, -0.43f)
+            horizontalLineToRelative(4.87f)
+            curveToRelative(0.65f, 0f, 1.22f, -0.42f, 1.43f, -1.03f)
+            lineToRelative(1.48f, -4.53f)
+            curveToRelative(0.18f, -0.55f, 1.01f, -0.56f, 1.2f, 0.01f)
+            lineToRelative(1.48f, 4.52f)
+            curveToRelative(0.2f, 0.62f, 0.78f, 1.03f, 1.43f, 1.03f)
+            horizontalLineToRelative(4.87f)
+            curveToRelative(0.29f, 0f, 0.51f, 0.16f, 0.59f, 0.43f)
+            curveToRelative(0.09f, 0.27f, 0.01f, 0.53f, -0.23f, 0.7f)
+            lineToRelative(-3.96f, 2.89f)
+            curveToRelative(-0.52f, 0.38f, -0.74f, 1.05f, -0.54f, 1.67f)
+            lineToRelative(1.5f, 4.75f)
+            curveToRelative(0.09f, 0.28f, 0.01f, 0.53f, -0.23f, 0.7f)
+            curveToRelative(-0.07f, 0.05f, -0.13f, 0.08f, -0.2f, 0.1f)
+            curveToRelative(-0.69f, -0.44f, -1.6f, -0.25f, -2.06f, 0.43f)
+            curveToRelative(-0.46f, 0.69f, -0.27f, 1.62f, 0.42f, 2.08f)
+            curveToRelative(0.29f, 0.19f, 0.86f, 0.51f, 1.48f, 0.51f)
+            curveToRelative(0.76f, 0f, 1.5f, -0.24f, 2.12f, -0.7f)
+            close()
+            moveTo(6.56f, 20.3f)
+            horizontalLineToRelative(0f)
+            close()
+        }
+    }.also { _StarExclamation = it }

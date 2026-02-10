@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CrystalBall: ImageVector? = null
+
+val Icons.Ts.CrystalBall: ImageVector
+    get() = _CrystalBall ?: UXIcon(name = "CrystalBall") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.45f, 7.59f)
+                lineToRelative(-0.67f, 1.34f)
+                curveToRelative(0.14f, 0.67f, 0.22f, 1.36f, 0.22f, 2.07f)
+                curveToRelative(0f, 2.64f, -1.01f, 5.12f, -2.86f, 7f)
+                lineTo(4.86f, 18f)
+                curveToRelative(-1.84f, -1.88f, -2.86f, -4.36f, -2.86f, -7f)
+                curveTo(2f, 5.49f, 6.49f, 1f, 12f, 1f)
+                curveToRelative(1.4f, 0f, 2.74f, 0.29f, 3.95f, 0.82f)
+                lineToRelative(0.56f, -0.28f)
+                lineToRelative(0.23f, -0.45f)
+                curveToRelative(-1.44f, -0.69f, -3.04f, -1.09f, -4.74f, -1.09f)
+                curveTo(5.93f, 0f, 1f, 4.93f, 1f, 11f)
+                curveToRelative(0f, 2.79f, 1.03f, 5.42f, 2.91f, 7.45f)
+                lineToRelative(-2.91f, 3.88f)
+                verticalLineToRelative(1.67f)
+                lineTo(23f, 24f)
+                verticalLineToRelative(-1.67f)
+                lineToRelative(-2.91f, -3.88f)
+                curveToRelative(1.88f, -2.04f, 2.91f, -4.66f, 2.91f, -7.45f)
+                curveToRelative(0f, -1.19f, -0.2f, -2.34f, -0.55f, -3.41f)
+                close()
+                moveTo(22f, 23f)
+                lineTo(2f, 23f)
+                verticalLineToRelative(-0.33f)
+                lineToRelative(2.75f, -3.67f)
+                horizontalLineToRelative(14.5f)
+                lineToRelative(2.75f, 3.67f)
+                verticalLineToRelative(0.33f)
+                close()
+                moveTo(18.0f, 6.02f)
+                lineToRelative(1.5f, 2.99f)
+                lineToRelative(1.5f, -2.99f)
+                lineToRelative(2.99f, -1.5f)
+                lineToRelative(-2.99f, -1.5f)
+                lineTo(19.5f, 0.04f)
+                lineToRelative(-1.5f, 2.99f)
+                lineToRelative(-2.99f, 1.5f)
+                lineToRelative(2.99f, 1.5f)
+                close()
+                moveTo(18.75f, 3.77f)
+                lineToRelative(0.75f, -1.5f)
+                lineToRelative(0.75f, 1.5f)
+                lineToRelative(1.5f, 0.75f)
+                lineToRelative(-1.5f, 0.75f)
+                lineToRelative(-0.75f, 1.5f)
+                lineToRelative(-0.75f, -1.5f)
+                lineToRelative(-1.5f, -0.75f)
+                lineToRelative(1.5f, -0.75f)
+                close()
+                moveTo(13.52f, 6.97f)
+                lineToRelative(-1.17f, 2.33f)
+                lineToRelative(-2.33f, 1.17f)
+                lineToRelative(2.33f, 1.17f)
+                lineToRelative(1.17f, 2.33f)
+                lineToRelative(1.17f, -2.33f)
+                lineToRelative(2.33f, -1.17f)
+                lineToRelative(-2.33f, -1.17f)
+                lineToRelative(-1.17f, -2.33f)
+                close()
+                moveTo(13.95f, 10.9f)
+                lineToRelative(-0.42f, 0.84f)
+                lineToRelative(-0.42f, -0.84f)
+                lineToRelative(-0.84f, -0.42f)
+                lineToRelative(0.84f, -0.42f)
+                lineToRelative(0.42f, -0.84f)
+                lineToRelative(0.42f, 0.84f)
+                lineToRelative(0.84f, 0.42f)
+                lineToRelative(-0.84f, 0.42f)
+                close()
+            }
+        }.also { _CrystalBall = it}

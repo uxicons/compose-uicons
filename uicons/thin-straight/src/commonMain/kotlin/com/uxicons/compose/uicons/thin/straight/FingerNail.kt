@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FingerNail: ImageVector? = null
+
+val Icons.Ts.FingerNail: ImageVector
+    get() = _FingerNail ?: UXIcon(name = "FingerNail") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(18f, 7.26f)
+                curveToRelative(1.89f, 1.51f, 3f, 3.78f, 3f, 6.24f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -3.03f, -1.5f, -5.79f, -4f, -7.47f)
+                lineTo(18f, 3.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(2.53f)
+                curveToRelative(-2.5f, 1.68f, -4f, 4.44f, -4f, 7.47f)
+                verticalLineToRelative(10.5f)
+                horizontalLineToRelative(1f)
+                lineTo(3f, 13.5f)
+                curveToRelative(0f, -2.46f, 1.11f, -4.73f, 3f, -6.24f)
+                verticalLineToRelative(6.24f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                lineTo(18f, 7.26f)
+                close()
+                moveTo(10.5f, 17f)
+                curveToRelative(-0.6f, 0f, -1.16f, -0.17f, -1.65f, -0.43f)
+                curveToRelative(0.76f, -0.98f, 1.92f, -1.56f, 3.15f, -1.56f)
+                reflectiveCurveToRelative(2.4f, 0.58f, 3.15f, 1.56f)
+                curveToRelative(-0.49f, 0.27f, -1.05f, 0.43f, -1.65f, 0.43f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(17f, 13.5f)
+                curveToRelative(0f, 0.97f, -0.4f, 1.85f, -1.03f, 2.48f)
+                curveToRelative(-0.94f, -1.24f, -2.41f, -1.98f, -3.96f, -1.98f)
+                reflectiveCurveToRelative(-3.02f, 0.74f, -3.96f, 1.98f)
+                curveToRelative(-0.64f, -0.63f, -1.03f, -1.51f, -1.03f, -2.48f)
+                lineTo(7f, 3.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                lineTo(17f, 13.5f)
+                close()
+                moveTo(2.5f, 5f)
+                lineToRelative(-0.83f, -1.67f)
+                lineToRelative(-1.67f, -0.83f)
+                lineToRelative(1.67f, -0.83f)
+                lineToRelative(0.83f, -1.67f)
+                lineToRelative(0.83f, 1.67f)
+                lineToRelative(1.67f, 0.83f)
+                lineToRelative(-1.67f, 0.83f)
+                lineToRelative(-0.83f, 1.67f)
+                close()
+                moveTo(21.87f, 19.63f)
+                lineToRelative(-1.12f, -2.25f)
+                lineToRelative(-1.12f, 2.25f)
+                lineToRelative(-2.25f, 1.12f)
+                lineToRelative(2.25f, 1.12f)
+                lineToRelative(1.12f, 2.25f)
+                lineToRelative(1.12f, -2.25f)
+                lineToRelative(2.25f, -1.12f)
+                lineToRelative(-2.25f, -1.12f)
+                close()
+                moveTo(21.13f, 21.13f)
+                lineToRelative(-0.38f, 0.75f)
+                lineToRelative(-0.38f, -0.75f)
+                lineToRelative(-0.76f, -0.38f)
+                lineToRelative(0.76f, -0.38f)
+                lineToRelative(0.38f, -0.75f)
+                lineToRelative(0.38f, 0.75f)
+                lineToRelative(0.76f, 0.38f)
+                lineToRelative(-0.76f, 0.38f)
+                close()
+            }
+        }.also { _FingerNail = it}

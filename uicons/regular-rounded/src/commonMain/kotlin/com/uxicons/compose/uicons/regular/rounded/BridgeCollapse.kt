@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BridgeCollapse: ImageVector? = null
+
+val Icons.Rr.BridgeCollapse: ImageVector
+    get() = _BridgeCollapse ?: UXIcon(name = "BridgeCollapse") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2.5f, 19f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-7.67f)
+                lineTo(11.31f, 1.59f)
+                curveToRelative(0.33f, -0.45f, 0.23f, -1.07f, -0.21f, -1.4f)
+                curveToRelative(-0.45f, -0.33f, -1.07f, -0.23f, -1.4f, 0.21f)
+                curveToRelative(0f, 0f, -5.54f, 7.56f, -5.56f, 7.59f)
+                horizontalLineToRelative(-1.13f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(5.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(2f, 11f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(6.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-5.5f)
+                close()
+                moveTo(21f, 8f)
+                horizontalLineToRelative(-1.13f)
+                curveToRelative(-0.02f, -0.03f, -5.56f, -7.59f, -5.56f, -7.59f)
+                curveToRelative(-0.33f, -0.44f, -0.95f, -0.54f, -1.4f, -0.21f)
+                curveToRelative(-0.45f, 0.33f, -0.54f, 0.95f, -0.21f, 1.4f)
+                lineToRelative(5.31f, 7.24f)
+                verticalLineToRelative(7.67f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-5.5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(22f, 16.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-6.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(5.5f)
+                close()
+                moveTo(23.74f, 21.57f)
+                curveToRelative(0.37f, 0.41f, 0.34f, 1.04f, -0.08f, 1.41f)
+                curveToRelative(-0.73f, 0.66f, -1.68f, 1.02f, -2.67f, 1.02f)
+                curveToRelative(-1.13f, 0f, -2.22f, -0.48f, -3f, -1.24f)
+                curveToRelative(-0.78f, 0.76f, -1.87f, 1.24f, -3f, 1.24f)
+                reflectiveCurveToRelative(-2.22f, -0.48f, -3f, -1.24f)
+                curveToRelative(-0.78f, 0.76f, -1.87f, 1.24f, -3f, 1.24f)
+                reflectiveCurveToRelative(-2.22f, -0.48f, -3f, -1.24f)
+                curveToRelative(-0.78f, 0.76f, -1.87f, 1.24f, -3f, 1.24f)
+                curveToRelative(-0.99f, 0f, -1.94f, -0.36f, -2.67f, -1.02f)
+                curveToRelative(-0.41f, -0.37f, -0.44f, -1.0f, -0.07f, -1.41f)
+                curveToRelative(0.37f, -0.41f, 1.0f, -0.44f, 1.41f, -0.08f)
+                curveToRelative(0.37f, 0.33f, 0.84f, 0.51f, 1.33f, 0.51f)
+                curveToRelative(0.89f, 0f, 1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.32f, -0.86f, 1.56f, -0.86f, 1.89f, 0f)
+                curveToRelative(0.26f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                reflectiveCurveToRelative(1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.32f, -0.86f, 1.56f, -0.86f, 1.89f, 0f)
+                curveToRelative(0.26f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                reflectiveCurveToRelative(1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.32f, -0.86f, 1.56f, -0.86f, 1.89f, 0f)
+                curveToRelative(0.27f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                curveToRelative(0.49f, 0f, 0.97f, -0.18f, 1.33f, -0.51f)
+                curveToRelative(0.41f, -0.37f, 1.04f, -0.34f, 1.41f, 0.08f)
+                close()
+            }
+        }.also { _BridgeCollapse = it}

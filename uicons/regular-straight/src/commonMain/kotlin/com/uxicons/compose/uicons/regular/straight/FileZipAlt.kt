@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FileZipAlt: ImageVector? = null
+
+val Icons.Rs.FileZipAlt: ImageVector
+    get() = _FileZipAlt ?: UXIcon(name = "FileZipAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 0f)
+                lineTo(5f, 0f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                lineTo(2f, 24f)
+                lineTo(22f, 24f)
+                lineTo(22f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(20f, 22f)
+                lineTo(4f, 22f)
+                lineTo(4f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(14f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                lineTo(20f, 22f)
+                close()
+                moveTo(13f, 12f)
+                lineToRelative(1f, 5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                lineToRelative(1f, -5f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(7.34f, 3.65f)
+                lineToRelative(-1.45f, 1.37f)
+                lineToRelative(-1.33f, -1.41f)
+                lineToRelative(1.45f, -1.37f)
+                lineToRelative(1.33f, 1.41f)
+                close()
+                moveTo(9.34f, 5.77f)
+                lineToRelative(-1.45f, 1.37f)
+                lineToRelative(-1.33f, -1.41f)
+                lineToRelative(1.45f, -1.37f)
+                lineToRelative(1.33f, 1.41f)
+                close()
+                moveTo(10.54f, 9.96f)
+                lineToRelative(1.46f, -1.37f)
+                horizontalLineToRelative(0f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                lineToRelative(1.46f, 1.37f)
+                lineToRelative(-0.46f, 1.04f)
+                horizontalLineToRelative(-2f)
+                lineToRelative(-0.46f, -1.04f)
+                close()
+                moveTo(14.0f, 6.47f)
+                lineToRelative(1.45f, 1.37f)
+                lineToRelative(-1.33f, 1.41f)
+                lineToRelative(-1.45f, -1.37f)
+                lineToRelative(1.33f, -1.41f)
+                close()
+                moveTo(17.99f, 2.24f)
+                lineToRelative(1.45f, 1.37f)
+                lineToRelative(-1.33f, 1.41f)
+                lineToRelative(-1.45f, -1.37f)
+                lineToRelative(1.33f, -1.41f)
+                close()
+                moveTo(11.33f, 7.88f)
+                lineToRelative(-1.45f, 1.37f)
+                lineToRelative(-1.33f, -1.41f)
+                lineToRelative(1.45f, -1.37f)
+                lineToRelative(1.33f, 1.41f)
+                close()
+                moveTo(15.99f, 4.36f)
+                lineToRelative(1.45f, 1.37f)
+                lineToRelative(-1.33f, 1.41f)
+                lineToRelative(-1.45f, -1.37f)
+                lineToRelative(1.33f, -1.41f)
+                close()
+            }
+        }.also { _FileZipAlt = it}

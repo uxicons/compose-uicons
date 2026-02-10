@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Museum: ImageVector? = null
+
+val Icons.Ts.Museum: ImageVector
+    get() = _Museum ?: UXIcon(name = "Museum") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 9.0f)
+                verticalLineToRelative(-1.45f)
+                curveToRelative(0f, -1.15f, -0.64f, -2.17f, -1.66f, -2.68f)
+                lineToRelative(-9.1f, -4.55f)
+                curveToRelative(-0.78f, -0.42f, -1.7f, -0.42f, -2.46f, -0.01f)
+                lineToRelative(-9.12f, 4.55f)
+                curveToRelative(-1.02f, 0.51f, -1.66f, 1.54f, -1.66f, 2.68f)
+                verticalLineToRelative(1.45f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-11f)
+                close()
+                moveTo(1f, 7.55f)
+                curveToRelative(0f, -0.76f, 0.42f, -1.45f, 1.11f, -1.79f)
+                lineToRelative(9.13f, -4.56f)
+                curveToRelative(0.48f, -0.26f, 1.05f, -0.26f, 1.54f, 0.01f)
+                lineToRelative(9.12f, 4.55f)
+                curveToRelative(0.68f, 0.34f, 1.11f, 1.03f, 1.11f, 1.79f)
+                verticalLineToRelative(0.45f)
+                horizontalLineToRelative(-22f)
+                close()
+                moveTo(16f, 20.0f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(11f)
+                close()
+                moveTo(8f, 9.0f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-11f)
+                close()
+                moveTo(9f, 9.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(11f, 9.0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(14f, 9.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(4f, 9.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(23f, 23.0f)
+                horizontalLineToRelative(-22f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(22f)
+                close()
+                moveTo(20f, 20.0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(13f, 5.0f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _Museum = it}

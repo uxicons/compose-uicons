@@ -1,0 +1,77 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GlobeShield: ImageVector? = null
+
+val Icons.Sr.GlobeShield: ImageVector
+    get() = _GlobeShield ?: UXIcon(name = "GlobeShield") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.94f, 11.38f)
+                lineToRelative(-2.5f, -0.83f)
+                curveToRelative(-0.61f, -0.2f, -1.28f, -0.2f, -1.89f, 0f)
+                lineToRelative(-2.5f, 0.83f)
+                curveToRelative(-1.23f, 0.41f, -2.06f, 1.55f, -2.06f, 2.85f)
+                verticalLineToRelative(3.21f)
+                curveToRelative(0.06f, 2.53f, 1.75f, 4.67f, 5.05f, 6.35f)
+                curveToRelative(0.26f, 0.13f, 0.56f, 0.14f, 0.83f, 0.03f)
+                curveToRelative(3.34f, -1.38f, 5.06f, -3.52f, 5.12f, -6.4f)
+                verticalLineToRelative(-3.19f)
+                curveToRelative(0f, -1.3f, -0.83f, -2.44f, -2.06f, -2.85f)
+                close()
+                moveTo(12.97f, 23.14f)
+                curveToRelative(0.08f, -0.32f, -0.09f, -0.65f, -0.3f, -0.89f)
+                curveToRelative(-0.04f, -0.03f, -2.38f, -2.16f, -3.89f, -5.25f)
+                horizontalLineToRelative(1.23f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-2.03f)
+                curveToRelative(-0.29f, -0.95f, -0.47f, -1.96f, -0.47f, -3f)
+                reflectiveCurveToRelative(0.18f, -2.05f, 0.47f, -3f)
+                horizontalLineToRelative(8.77f)
+                reflectiveCurveToRelative(0.0f, 0f, 0.0f, 0f)
+                horizontalLineToRelative(0.0f)
+                horizontalLineToRelative(4.78f)
+                curveToRelative(0.03f, 0.09f, 0.06f, 0.18f, 0.09f, 0.27f)
+                curveToRelative(0.15f, 0.54f, 0.72f, 0.84f, 1.23f, 0.69f)
+                curveToRelative(0.53f, -0.15f, 0.84f, -0.7f, 0.69f, -1.23f)
+                curveToRelative(-1.45f, -5.12f, -6.17f, -8.7f, -11.49f, -8.73f)
+                curveToRelative(-6.63f, -0.03f, -12.06f, 5.36f, -12.06f, 12.0f)
+                curveToRelative(0f, 6.62f, 5.38f, 12f, 12.0f, 12f)
+                curveToRelative(0.48f, 0.0f, 0.93f, -0.38f, 0.97f, -0.86f)
+                close()
+                moveTo(5.9f, 15f)
+                horizontalLineToRelative(-3.44f)
+                curveToRelative(-0.3f, -0.95f, -0.46f, -1.96f, -0.46f, -3f)
+                reflectiveCurveToRelative(0.16f, -2.05f, 0.46f, -3f)
+                horizontalLineToRelative(3.44f)
+                curveToRelative(-0.25f, 0.96f, -0.4f, 1.96f, -0.4f, 3f)
+                reflectiveCurveToRelative(0.16f, 2.04f, 0.4f, 3f)
+                close()
+                moveTo(12.0f, 2.41f)
+                curveToRelative(0.81f, 0.86f, 2.21f, 2.5f, 3.23f, 4.59f)
+                horizontalLineToRelative(-6.45f)
+                curveToRelative(1.02f, -2.08f, 2.41f, -3.73f, 3.22f, -4.59f)
+                close()
+                moveTo(20.66f, 7f)
+                horizontalLineToRelative(-3.24f)
+                curveToRelative(-0.79f, -1.88f, -1.88f, -3.48f, -2.82f, -4.65f)
+                curveToRelative(2.54f, 0.69f, 4.74f, 2.37f, 6.06f, 4.65f)
+                close()
+                moveTo(9.39f, 2.36f)
+                curveToRelative(-0.94f, 1.17f, -2.02f, 2.77f, -2.81f, 4.64f)
+                horizontalLineToRelative(-3.23f)
+                curveToRelative(1.31f, -2.25f, 3.47f, -3.94f, 6.04f, -4.64f)
+                close()
+                moveTo(3.35f, 17f)
+                horizontalLineToRelative(3.23f)
+                curveToRelative(0.79f, 1.88f, 1.87f, 3.48f, 2.81f, 4.64f)
+                curveToRelative(-2.57f, -0.7f, -4.73f, -2.39f, -6.04f, -4.64f)
+                close()
+            }
+        }.also { _GlobeShield = it}

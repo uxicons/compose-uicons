@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PrayingHands: ImageVector? = null
+
+val Icons.Tr.PrayingHands: ImageVector
+    get() = _PrayingHands ?: UXIcon(name = "PrayingHands") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.85f, 21.85f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                curveToRelative(-0.74f, -0.74f, -1.15f, -1.72f, -1.15f, -2.77f)
+                verticalLineToRelative(-5.85f)
+                curveToRelative(0f, -1.36f, -0.42f, -2.66f, -1.2f, -3.77f)
+                lineTo(15.23f, 1.64f)
+                curveToRelative(-0.48f, -0.68f, -1.41f, -0.85f, -2.09f, -0.37f)
+                curveToRelative(-0.33f, 0.23f, -0.55f, 0.57f, -0.62f, 0.97f)
+                reflectiveCurveToRelative(0.02f, 0.79f, 0.25f, 1.12f)
+                lineToRelative(4.18f, 6.13f)
+                curveToRelative(0.63f, 0.48f, 1.04f, 1.25f, 1.04f, 2.11f)
+                verticalLineToRelative(5.89f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-5.89f)
+                curveToRelative(0f, -0.79f, -0.54f, -1.47f, -1.25f, -1.59f)
+                curveToRelative(-0.45f, -0.07f, -0.89f, 0.05f, -1.23f, 0.34f)
+                curveToRelative(-0.34f, 0.29f, -0.53f, 0.7f, -0.53f, 1.14f)
+                verticalLineToRelative(6.5f)
+                curveToRelative(0f, 3.23f, 1.84f, 5.13f, 1.85f, 5.15f)
+                curveToRelative(0.19f, 0.2f, 0.19f, 0.51f, -0.0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                curveToRelative(-0.09f, -0.09f, -2.15f, -2.19f, -2.15f, -5.85f)
+                verticalLineToRelative(-6.5f)
+                curveToRelative(0f, -0.73f, 0.32f, -1.43f, 0.88f, -1.91f)
+                curveToRelative(0.43f, -0.37f, 0.97f, -0.57f, 1.53f, -0.59f)
+                lineToRelative(-3.41f, -5.0f)
+                lineToRelative(-3.41f, 5.0f)
+                curveToRelative(0.56f, 0.02f, 1.1f, 0.22f, 1.53f, 0.59f)
+                curveToRelative(0.56f, 0.48f, 0.88f, 1.17f, 0.88f, 1.91f)
+                verticalLineToRelative(6.5f)
+                curveToRelative(0f, 3.67f, -2.06f, 5.77f, -2.15f, 5.85f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                curveToRelative(-0.2f, -0.19f, -0.2f, -0.51f, -0.0f, -0.71f)
+                curveToRelative(0.02f, -0.02f, 1.85f, -1.91f, 1.85f, -5.15f)
+                verticalLineToRelative(-6.5f)
+                curveToRelative(0f, -0.44f, -0.19f, -0.86f, -0.53f, -1.14f)
+                curveToRelative(-0.34f, -0.29f, -0.78f, -0.41f, -1.23f, -0.34f)
+                curveToRelative(-0.71f, 0.12f, -1.25f, 0.8f, -1.25f, 1.59f)
+                verticalLineToRelative(5.89f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-5.89f)
+                curveToRelative(0f, -0.86f, 0.41f, -1.64f, 1.04f, -2.11f)
+                lineToRelative(4.18f, -6.13f)
+                curveToRelative(0.23f, -0.33f, 0.32f, -0.73f, 0.25f, -1.12f)
+                reflectiveCurveToRelative(-0.29f, -0.74f, -0.62f, -0.97f)
+                curveToRelative(-0.68f, -0.47f, -1.61f, -0.31f, -2.09f, 0.37f)
+                lineToRelative(-5.57f, 7.83f)
+                curveToRelative(-0.79f, 1.1f, -1.2f, 2.41f, -1.2f, 3.77f)
+                verticalLineToRelative(5.85f)
+                curveToRelative(0f, 1.04f, -0.41f, 2.03f, -1.15f, 2.77f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(0.55f, -0.55f, 0.85f, -1.28f, 0.85f, -2.06f)
+                verticalLineToRelative(-5.85f)
+                curveToRelative(0f, -1.57f, 0.48f, -3.07f, 1.39f, -4.35f)
+                lineTo(7.95f, 1.06f)
+                curveToRelative(0.79f, -1.12f, 2.35f, -1.4f, 3.48f, -0.61f)
+                curveToRelative(0.22f, 0.16f, 0.41f, 0.35f, 0.57f, 0.56f)
+                curveToRelative(0.16f, -0.21f, 0.34f, -0.41f, 0.57f, -0.56f)
+                curveToRelative(1.13f, -0.79f, 2.69f, -0.51f, 3.48f, 0.61f)
+                lineToRelative(5.56f, 7.82f)
+                curveToRelative(0.91f, 1.28f, 1.39f, 2.78f, 1.39f, 4.35f)
+                verticalLineToRelative(5.85f)
+                curveToRelative(0f, 0.78f, 0.3f, 1.51f, 0.85f, 2.06f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                close()
+            }
+        }.also { _PrayingHands = it}

@@ -1,0 +1,59 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TentArrowTurnLeft: ImageVector? = null
+
+val Icons.Sr.TentArrowTurnLeft: ImageVector
+    get() = _TentArrowTurnLeft ?: UXIcon(name = "TentArrowTurnLeft") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 10f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                lineTo(2.58f, 6f)
+                lineToRelative(2.15f, 2.32f)
+                curveToRelative(0.38f, 0.41f, 0.35f, 1.04f, -0.05f, 1.41f)
+                curveToRelative(-0.19f, 0.18f, -0.44f, 0.27f, -0.68f, 0.27f)
+                curveToRelative(-0.27f, 0f, -0.54f, -0.11f, -0.73f, -0.32f)
+                lineTo(0.84f, 7.07f)
+                curveToRelative(-1.13f, -1.13f, -1.13f, -3.01f, 0.03f, -4.16f)
+                lineTo(3.27f, 0.32f)
+                curveToRelative(0.38f, -0.41f, 1.01f, -0.43f, 1.41f, -0.05f)
+                curveToRelative(0.41f, 0.38f, 0.43f, 1.01f, 0.05f, 1.41f)
+                lineToRelative(-2.15f, 2.32f)
+                horizontalLineToRelative(15.42f)
+                curveToRelative(3.31f, 0f, 6f, 2.69f, 6f, 6f)
+                close()
+                moveTo(12.0f, 19f)
+                curveToRelative(-0.1f, 0f, -0.35f, 0.03f, -0.47f, 0.3f)
+                lineToRelative(-2.54f, 4.7f)
+                horizontalLineToRelative(6.03f)
+                lineToRelative(-2.52f, -4.64f)
+                curveToRelative(-0.15f, -0.33f, -0.4f, -0.36f, -0.5f, -0.36f)
+                close()
+                moveTo(15.78f, 9.31f)
+                curveToRelative(-1.11f, -1.55f, -2.35f, -2.31f, -3.78f, -2.31f)
+                curveToRelative(-1.67f, 0f, -2.52f, 0.84f, -3.72f, 2.24f)
+                curveToRelative(-0.03f, 0.03f, -5.85f, 8.65f, -5.87f, 8.7f)
+                curveToRelative(-0.62f, 1.33f, -0.52f, 2.86f, 0.27f, 4.09f)
+                curveToRelative(0.79f, 1.24f, 2.13f, 1.98f, 3.6f, 1.98f)
+                horizontalLineToRelative(0.43f)
+                lineToRelative(3.03f, -5.6f)
+                curveToRelative(0.39f, -0.84f, 1.27f, -1.4f, 2.26f, -1.4f)
+                reflectiveCurveToRelative(1.87f, 0.56f, 2.29f, 1.46f)
+                lineToRelative(3.0f, 5.54f)
+                horizontalLineToRelative(0.43f)
+                curveToRelative(1.47f, 0f, 2.81f, -0.74f, 3.6f, -1.98f)
+                curveToRelative(0.79f, -1.23f, 0.89f, -2.76f, 0.27f, -4.09f)
+                curveToRelative(-0.02f, -0.05f, -5.82f, -8.62f, -5.82f, -8.62f)
+                close()
+            }
+        }.also { _TentArrowTurnLeft = it}

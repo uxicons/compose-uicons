@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MeterFire: ImageVector? = null
+
+val Icons.Rc.MeterFire: ImageVector
+    get() = _MeterFire ?: UXIcon(name = "MeterFire") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(6f, 7f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(10f, 7f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(13f, 8f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(10.09f, 20.92f)
+                curveToRelative(-5.1f, -0.47f, -7.09f, -2.97f, -7.09f, -8.92f)
+                curveToRelative(0f, -6.56f, 2.44f, -9f, 9f, -9f)
+                curveToRelative(5.64f, 0f, 8.11f, 1.73f, 8.8f, 6.15f)
+                curveToRelative(0.09f, 0.55f, 0.59f, 0.92f, 1.14f, 0.83f)
+                curveToRelative(0.55f, -0.09f, 0.92f, -0.6f, 0.83f, -1.14f)
+                curveToRelative(-0.85f, -5.43f, -4.17f, -7.85f, -10.78f, -7.85f)
+                curveToRelative(-7.71f, 0.0f, -11f, 3.29f, -11f, 11.0f)
+                curveToRelative(0f, 6.98f, 2.75f, 10.34f, 8.91f, 10.91f)
+                curveToRelative(0.54f, 0.05f, 1.04f, -0.35f, 1.09f, -0.9f)
+                curveToRelative(0.05f, -0.55f, -0.35f, -1.04f, -0.9f, -1.09f)
+                close()
+                moveTo(23.0f, 17.95f)
+                curveToRelative(-0.08f, 2.63f, -2.65f, 5.05f, -5.5f, 5.05f)
+                curveToRelative(-3.03f, 0f, -5.49f, -2.41f, -5.49f, -5.05f)
+                curveToRelative(0f, -2.03f, 0.66f, -3.94f, 1.81f, -5.23f)
+                curveToRelative(0.19f, -0.21f, 0.46f, -0.34f, 0.75f, -0.34f)
+                curveToRelative(0.28f, -0.01f, 0.52f, 0.1f, 0.7f, 0.29f)
+                curveToRelative(0.31f, -1.19f, 0.89f, -2.04f, 1.73f, -2.54f)
+                curveToRelative(0.2f, -0.12f, 0.45f, -0.17f, 0.68f, -0.12f)
+                curveToRelative(0.21f, 0.04f, 0.56f, 0.14f, 1.38f, 0.64f)
+                curveToRelative(1.97f, 1.19f, 4.04f, 3.72f, 3.94f, 7.29f)
+                close()
+                moveTo(17.46f, 21.0f)
+                reflectiveCurveToRelative(0.0f, 0f, 0.0f, 0f)
+                curveToRelative(0.0f, -0.01f, 0.11f, -0.05f, 0.33f, -0.27f)
+                curveToRelative(0.24f, -0.24f, 0.27f, -0.35f, 0.27f, -0.35f)
+                curveToRelative(0f, -0.27f, -0.28f, -0.68f, -0.61f, -1.03f)
+                curveToRelative(-0.33f, 0.36f, -0.6f, 0.76f, -0.6f, 1.05f)
+                curveToRelative(0.0f, 0f, 0.04f, 0.11f, 0.27f, 0.34f)
+                curveToRelative(0.21f, 0.21f, 0.32f, 0.26f, 0.34f, 0.27f)
+                close()
+                moveTo(21.0f, 17.89f)
+                curveToRelative(0.09f, -3.49f, -2.46f, -5.21f, -2.97f, -5.52f)
+                curveToRelative(-0.14f, -0.09f, -0.26f, -0.15f, -0.36f, -0.21f)
+                curveToRelative(-0.43f, 0.53f, -0.67f, 1.51f, -0.67f, 2.84f)
+                curveToRelative(0f, 0.41f, -0.26f, 0.79f, -0.64f, 0.94f)
+                curveToRelative(-0.39f, 0.15f, -0.83f, 0.04f, -1.1f, -0.27f)
+                lineToRelative(-0.59f, -0.66f)
+                curveToRelative(-0.42f, 0.84f, -0.67f, 1.88f, -0.67f, 2.94f)
+                curveToRelative(0f, 0.69f, 0.36f, 1.37f, 0.91f, 1.92f)
+                curveToRelative(0.3f, -1.38f, 1.64f, -2.45f, 1.94f, -2.67f)
+                curveToRelative(0.35f, -0.26f, 0.84f, -0.27f, 1.19f, -0.0f)
+                curveToRelative(0.3f, 0.22f, 1.66f, 1.3f, 1.95f, 2.69f)
+                curveToRelative(0.58f, -0.56f, 0.98f, -1.27f, 1.0f, -1.99f)
+                close()
+            }
+        }.also { _MeterFire = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RegionPin: ImageVector? = null
+
+val Icons.Tr.RegionPin: ImageVector
+    get() = _RegionPin ?: UXIcon(name = "RegionPin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 7.5f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(12f, 4.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(10.1f, 11.18f)
+                curveToRelative(0.51f, 0.5f, 1.19f, 0.77f, 1.9f, 0.77f)
+                reflectiveCurveToRelative(1.39f, -0.27f, 1.89f, -0.76f)
+                lineToRelative(2.0f, -1.84f)
+                curveToRelative(1.04f, -1.03f, 1.61f, -2.41f, 1.61f, -3.88f)
+                reflectiveCurveToRelative(-0.57f, -2.84f, -1.61f, -3.88f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-1.04f, -1.03f, -2.42f, -1.6f, -3.89f, -1.6f)
+                reflectiveCurveToRelative(-2.85f, 0.57f, -3.89f, 1.6f)
+                curveToRelative(-1.04f, 1.03f, -1.61f, 2.41f, -1.61f, 3.88f)
+                reflectiveCurveToRelative(0.57f, 2.84f, 1.63f, 3.89f)
+                lineToRelative(1.97f, 1.81f)
+                close()
+                moveTo(8.82f, 2.31f)
+                curveToRelative(0.85f, -0.85f, 1.98f, -1.31f, 3.18f, -1.31f)
+                reflectiveCurveToRelative(2.33f, 0.47f, 3.18f, 1.31f)
+                curveToRelative(0.85f, 0.85f, 1.32f, 1.97f, 1.32f, 3.17f)
+                reflectiveCurveToRelative(-0.47f, 2.32f, -1.3f, 3.15f)
+                lineToRelative(-1.99f, 1.83f)
+                curveToRelative(-0.65f, 0.63f, -1.75f, 0.64f, -2.42f, -0.01f)
+                lineToRelative(-1.97f, -1.81f)
+                curveToRelative(-0.85f, -0.85f, -1.32f, -1.97f, -1.32f, -3.17f)
+                reflectiveCurveToRelative(0.47f, -2.32f, 1.32f, -3.17f)
+                close()
+                moveTo(23.97f, 19.12f)
+                lineToRelative(-1.02f, -8.7f)
+                curveToRelative(-0.18f, -1.57f, -1.53f, -3.4f, -3.39f, -3.62f)
+                curveToRelative(-0.27f, -0.04f, -0.52f, 0.16f, -0.56f, 0.44f)
+                curveToRelative(-0.03f, 0.27f, 0.16f, 0.52f, 0.44f, 0.56f)
+                curveToRelative(1.31f, 0.16f, 2.38f, 1.57f, 2.51f, 2.74f)
+                lineToRelative(0.13f, 1.09f)
+                lineToRelative(-11.69f, 5.57f)
+                lineTo(2.23f, 9.88f)
+                curveToRelative(0.37f, -0.98f, 1.27f, -1.94f, 2.33f, -2.07f)
+                curveToRelative(0.27f, -0.03f, 0.47f, -0.28f, 0.44f, -0.56f)
+                curveToRelative(-0.03f, -0.27f, -0.28f, -0.48f, -0.56f, -0.44f)
+                curveToRelative(-1.85f, 0.22f, -3.2f, 2.05f, -3.39f, 3.62f)
+                lineTo(0.03f, 19.12f)
+                curveToRelative(-0.15f, 1.24f, 0.25f, 2.48f, 1.07f, 3.41f)
+                reflectiveCurveToRelative(2.02f, 1.47f, 3.26f, 1.47f)
+                horizontalLineToRelative(15.27f)
+                curveToRelative(1.25f, 0f, 2.44f, -0.53f, 3.26f, -1.47f)
+                reflectiveCurveToRelative(1.22f, -2.17f, 1.07f, -3.41f)
+                close()
+                moveTo(1.85f, 21.87f)
+                curveToRelative(-0.64f, -0.72f, -0.94f, -1.68f, -0.83f, -2.63f)
+                lineToRelative(0.97f, -8.23f)
+                lineToRelative(13.37f, 11.99f)
+                lineTo(4.37f, 23f)
+                curveToRelative(-0.96f, 0f, -1.88f, -0.41f, -2.52f, -1.13f)
+                close()
+                moveTo(22.15f, 21.87f)
+                curveToRelative(-0.64f, 0.72f, -1.55f, 1.13f, -2.52f, 1.13f)
+                horizontalLineToRelative(-2.77f)
+                lineToRelative(-5.66f, -5.08f)
+                lineToRelative(11.0f, -5.24f)
+                lineToRelative(0.77f, 6.56f)
+                curveToRelative(0.11f, 0.95f, -0.19f, 1.91f, -0.83f, 2.63f)
+                close()
+            }
+        }.also { _RegionPin = it}

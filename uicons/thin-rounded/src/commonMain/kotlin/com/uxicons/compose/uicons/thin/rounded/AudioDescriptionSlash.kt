@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AudioDescriptionSlash: ImageVector? = null
+
+val Icons.Tr.AudioDescriptionSlash: ImageVector
+    get() = _AudioDescriptionSlash ?: UXIcon(name = "AudioDescriptionSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17f, 20.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(4.5f, 21f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 7.5f)
+                curveToRelative(0f, -0.79f, 0.21f, -1.57f, 0.6f, -2.25f)
+                curveToRelative(0.14f, -0.24f, 0.45f, -0.32f, 0.68f, -0.18f)
+                reflectiveCurveToRelative(0.32f, 0.44f, 0.18f, 0.68f)
+                curveToRelative(-0.31f, 0.53f, -0.47f, 1.13f, -0.47f, 1.75f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(21.31f, 20.62f)
+                lineToRelative(2.54f, 2.52f)
+                curveToRelative(0.2f, 0.19f, 0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.25f, -0.05f, -0.35f, -0.15f)
+                lineToRelative(-6.91f, -6.86f)
+                curveToRelative(-0.08f, 0f, -0.16f, 0f, -0.24f, 0f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-7f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.71f, -1.08f, 3.17f, -2.59f, 3.74f)
+                lineToRelative(3.12f, 3.1f)
+                curveToRelative(1.46f, -0.45f, 2.47f, -1.8f, 2.47f, -3.35f)
+                lineTo(23f, 7.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                lineTo(4.71f, 4f)
+                lineToRelative(3f, 3f)
+                reflectiveCurveToRelative(0.03f, 0f, 0.04f, 0f)
+                curveToRelative(0.39f, 0f, 0.72f, 0.23f, 0.85f, 0.59f)
+                lineToRelative(2.88f, 8.76f)
+                curveToRelative(0.09f, 0.26f, -0.06f, 0.54f, -0.32f, 0.63f)
+                curveToRelative(-0.05f, 0.02f, -0.1f, 0.02f, -0.16f, 0.02f)
+                curveToRelative(-0.21f, 0f, -0.41f, -0.13f, -0.47f, -0.34f)
+                lineToRelative(-0.54f, -1.66f)
+                lineTo(5.52f, 15f)
+                lineToRelative(-0.54f, 1.66f)
+                curveToRelative(-0.08f, 0.26f, -0.37f, 0.41f, -0.63f, 0.32f)
+                curveToRelative(-0.26f, -0.09f, -0.41f, -0.37f, -0.32f, -0.63f)
+                lineTo(6.9f, 7.6f)
+                lineTo(0.15f, 0.85f)
+                curveTo(-0.05f, 0.66f, -0.05f, 0.34f, 0.15f, 0.15f)
+                reflectiveCurveTo(0.66f, -0.05f, 0.85f, 0.15f)
+                lineTo(3.77f, 3.06f)
+                curveToRelative(0.24f, -0.04f, 0.49f, -0.06f, 0.73f, -0.06f)
+                horizontalLineToRelative(15f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.81f, -1.08f, 3.41f, -2.69f, 4.12f)
+                close()
+                moveTo(7.75f, 8.21f)
+                lineToRelative(-1.9f, 5.79f)
+                horizontalLineToRelative(3.81f)
+                lineToRelative(-1.9f, -5.79f)
+                close()
+                moveTo(14.5f, 16f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _AudioDescriptionSlash = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LocationCrosshairsSlash: ImageVector? = null
+
+val Icons.Tr.LocationCrosshairsSlash: ImageVector
+    get() = _LocationCrosshairsSlash ?: UXIcon(name = "LocationCrosshairsSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.69f, 20.28f)
+                curveToRelative(0.12f, 0.25f, 0.02f, 0.55f, -0.22f, 0.67f)
+                curveToRelative(-1.25f, 0.62f, -2.58f, 0.97f, -3.97f, 1.04f)
+                verticalLineToRelative(1.51f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-1.51f)
+                curveToRelative(-5.12f, -0.25f, -9.23f, -4.37f, -9.49f, -9.49f)
+                lineTo(0.5f, 12.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1.51f)
+                curveToRelative(0.07f, -1.48f, 0.48f, -2.94f, 1.18f, -4.24f)
+                curveToRelative(0.13f, -0.24f, 0.43f, -0.33f, 0.68f, -0.2f)
+                curveToRelative(0.24f, 0.13f, 0.33f, 0.43f, 0.2f, 0.68f)
+                curveToRelative(-0.7f, 1.3f, -1.07f, 2.77f, -1.07f, 4.26f)
+                curveToRelative(0f, 4.96f, 4.04f, 9f, 9f, 9f)
+                curveToRelative(1.41f, 0f, 2.77f, -0.32f, 4.02f, -0.95f)
+                curveToRelative(0.25f, -0.12f, 0.55f, -0.02f, 0.67f, 0.22f)
+                close()
+                moveTo(7.58f, 11.0f)
+                curveToRelative(-0.28f, -0.03f, -0.52f, 0.17f, -0.55f, 0.44f)
+                curveToRelative(-0.02f, 0.18f, -0.03f, 0.37f, -0.03f, 0.56f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                curveToRelative(0.19f, 0f, 0.37f, -0.01f, 0.55f, -0.03f)
+                curveToRelative(0.27f, -0.03f, 0.47f, -0.28f, 0.44f, -0.55f)
+                curveToRelative(-0.03f, -0.27f, -0.27f, -0.47f, -0.55f, -0.44f)
+                curveToRelative(-0.15f, 0.02f, -0.3f, 0.02f, -0.45f, 0.02f)
+                curveToRelative(-2.21f, 0f, -4f, -1.79f, -4f, -4f)
+                curveToRelative(0f, -0.15f, 0.01f, -0.3f, 0.02f, -0.45f)
+                curveToRelative(0.03f, -0.27f, -0.17f, -0.52f, -0.44f, -0.55f)
+                close()
+                moveTo(23.85f, 23.15f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                lineTo(0.15f, 0.85f)
+                curveTo(-0.05f, 0.66f, -0.05f, 0.34f, 0.15f, 0.15f)
+                reflectiveCurveTo(0.66f, -0.05f, 0.85f, 0.15f)
+                lineTo(5.29f, 4.58f)
+                curveToRelative(1.72f, -1.56f, 3.9f, -2.46f, 6.21f, -2.57f)
+                lineTo(11.5f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(1.51f)
+                curveToRelative(5.12f, 0.25f, 9.23f, 4.37f, 9.49f, 9.49f)
+                horizontalLineToRelative(1.51f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-1.51f)
+                curveToRelative(-0.11f, 2.31f, -1.02f, 4.49f, -2.57f, 6.21f)
+                lineToRelative(4.44f, 4.44f)
+                close()
+                moveTo(6.0f, 5.29f)
+                lineToRelative(2.84f, 2.84f)
+                curveToRelative(0.89f, -0.73f, 2.01f, -1.13f, 3.16f, -1.13f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                curveToRelative(0f, 1.16f, -0.4f, 2.27f, -1.13f, 3.17f)
+                lineToRelative(2.84f, 2.84f)
+                curveToRelative(1.48f, -1.65f, 2.29f, -3.77f, 2.29f, -6.0f)
+                curveToRelative(0f, -4.96f, -4.04f, -9f, -9f, -9f)
+                curveToRelative(-2.23f, 0f, -4.35f, 0.81f, -6.0f, 2.29f)
+                close()
+                moveTo(15.16f, 14.45f)
+                curveToRelative(0.54f, -0.7f, 0.84f, -1.56f, 0.84f, -2.45f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                curveToRelative(-0.89f, 0f, -1.75f, 0.3f, -2.45f, 0.84f)
+                lineToRelative(5.61f, 5.61f)
+                close()
+            }
+        }.also { _LocationCrosshairsSlash = it}

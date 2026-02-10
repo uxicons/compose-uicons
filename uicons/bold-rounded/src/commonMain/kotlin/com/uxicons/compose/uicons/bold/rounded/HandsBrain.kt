@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HandsBrain: ImageVector? = null
+
+val Icons.Br.HandsBrain: ImageVector
+    get() = _HandsBrain ?: UXIcon(name = "HandsBrain") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(13f, 11f)
+            lineTo(13f, 1f)
+            curveToRelative(0f, -1f, 0.49f, -1f, 0.75f, -1f)
+            curveToRelative(1.52f, 0f, 2.75f, 1.23f, 2.75f, 2.75f)
+            curveToRelative(0f, 0.26f, -0.05f, 0.51f, -0.12f, 0.75f)
+            curveToRelative(0.95f, 0.43f, 1.62f, 1.39f, 1.62f, 2.5f)
+            curveToRelative(0f, 0.91f, -0.44f, 1.7f, -1.12f, 2.2f)
+            curveToRelative(0.07f, 0.26f, 0.12f, 0.52f, 0.12f, 0.8f)
+            curveToRelative(0f, 1.66f, -1.34f, 3f, -3f, 3f)
+            curveToRelative(-0.35f, 0f, -1f, 0f, -1f, -1f)
+            close()
+            moveTo(21.79f, 6.01f)
+            curveToRelative(-1.04f, 0.11f, -1.79f, 1.06f, -1.79f, 2.11f)
+            verticalLineToRelative(4.7f)
+            curveToRelative(-1.5f, -1.16f, -3.67f, -1.06f, -5.1f, 0.37f)
+            lineToRelative(-2.98f, 3.35f)
+            curveToRelative(-0.12f, -0.14f, -2.83f, -3.31f, -2.86f, -3.34f)
+            curveToRelative(-1.37f, -1.37f, -3.54f, -1.53f, -5.06f, -0.44f)
+            verticalLineToRelative(-4.64f)
+            curveToRelative(0f, -1.05f, -0.75f, -2.0f, -1.79f, -2.11f)
+            curveToRelative(-1.2f, -0.12f, -2.21f, 0.82f, -2.21f, 1.99f)
+            verticalLineToRelative(10.26f)
+            curveToRelative(0f, 2.0f, 0.78f, 3.89f, 2.2f, 5.3f)
+            curveToRelative(0.29f, 0.29f, 0.68f, 0.44f, 1.06f, 0.44f)
+            reflectiveCurveToRelative(0.77f, -0.15f, 1.06f, -0.44f)
+            curveToRelative(0.58f, -0.59f, 0.58f, -1.54f, 0f, -2.12f)
+            curveToRelative(-0.85f, -0.85f, -1.32f, -1.98f, -1.32f, -3.18f)
+            verticalLineToRelative(-0.47f)
+            curveToRelative(0.07f, 0.12f, 0.13f, 0.24f, 0.21f, 0.34f)
+            curveToRelative(0.03f, 0.04f, 2.19f, 2.39f, 2.19f, 2.39f)
+            curveToRelative(0.56f, 0.61f, 1.51f, 0.65f, 2.12f, 0.09f)
+            curveToRelative(0.61f, -0.56f, 0.65f, -1.51f, 0.09f, -2.12f)
+            lineToRelative(-2.03f, -2.2f)
+            curveToRelative(-0.11f, -0.17f, -0.15f, -0.38f, -0.12f, -0.58f)
+            curveToRelative(0.02f, -0.16f, 0.1f, -0.38f, 0.35f, -0.56f)
+            curveToRelative(0.3f, -0.21f, 0.78f, -0.15f, 1.1f, 0.14f)
+            curveToRelative(0f, 0f, 2.44f, 2.88f, 2.47f, 2.91f)
+            curveToRelative(1.09f, 1.09f, 1.63f, 2.24f, 1.63f, 3.49f)
+            verticalLineToRelative(0.81f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-0.81f)
+            curveToRelative(0f, -0.86f, -0.15f, -1.68f, -0.45f, -2.48f)
+            lineToRelative(3.53f, -3.97f)
+            curveToRelative(0.32f, -0.32f, 0.85f, -0.32f, 1.18f, 0f)
+            curveToRelative(0.28f, 0.28f, 0.32f, 0.72f, 0.1f, 1.04f)
+            lineToRelative(-1.98f, 2.21f)
+            curveToRelative(-0.55f, 0.62f, -0.5f, 1.56f, 0.12f, 2.12f)
+            curveToRelative(0.29f, 0.26f, 0.64f, 0.38f, 1.0f, 0.38f)
+            curveToRelative(0.41f, 0f, 0.82f, -0.17f, 1.12f, -0.5f)
+            curveToRelative(0f, 0f, 2.09f, -2.34f, 2.12f, -2.37f)
+            curveToRelative(0.1f, -0.14f, 0.18f, -0.28f, 0.27f, -0.43f)
+            verticalLineToRelative(0.56f)
+            curveToRelative(0f, 1.2f, -0.47f, 2.33f, -1.32f, 3.18f)
+            curveToRelative(-0.59f, 0.59f, -0.59f, 1.54f, 0f, 2.12f)
+            curveToRelative(0.29f, 0.29f, 0.68f, 0.44f, 1.06f, 0.44f)
+            reflectiveCurveToRelative(0.77f, -0.15f, 1.06f, -0.44f)
+            curveToRelative(1.42f, -1.42f, 2.2f, -3.3f, 2.2f, -5.3f)
+            lineTo(24.0f, 8f)
+            curveToRelative(0f, -1.17f, -1.01f, -2.11f, -2.21f, -1.99f)
+            close()
+            moveTo(7.12f, 8.21f)
+            curveToRelative(-0.07f, 0.26f, -0.12f, 0.52f, -0.12f, 0.8f)
+            curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+            curveToRelative(0.35f, 0f, 1f, -0.5f, 1f, -1f)
+            lineTo(11.0f, 1f)
+            curveToRelative(0f, -1f, -0.49f, -1f, -0.75f, -1f)
+            curveToRelative(-1.52f, 0f, -2.75f, 1.23f, -2.75f, 2.75f)
+            curveToRelative(0f, 0.26f, 0.05f, 0.51f, 0.12f, 0.75f)
+            curveToRelative(-0.95f, 0.43f, -1.62f, 1.39f, -1.62f, 2.5f)
+            curveToRelative(0f, 0.91f, 0.44f, 1.7f, 1.12f, 2.2f)
+            close()
+        }
+    }.also { _HandsBrain = it }

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Dumpster: ImageVector? = null
+
+val Icons.Rr.Dumpster: ImageVector
+    get() = _Dumpster ?: UXIcon(name = "Dumpster") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                lineTo(5f, 0f)
+                curveTo(2.24f, 0f, 0f, 2.24f, 0f, 5f)
+                curveToRelative(0f, 0f, 0.0f, 2.08f, 0.0f, 2.08f)
+                lineToRelative(0.69f, 8.33f)
+                curveToRelative(0.13f, 1.6f, 1.03f, 2.98f, 2.3f, 3.79f)
+                verticalLineToRelative(1.29f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-1.29f)
+                curveToRelative(1.28f, -0.82f, 2.17f, -2.2f, 2.3f, -3.79f)
+                lineToRelative(0.7f, -8.25f)
+                curveToRelative(0.01f, -0.05f, 0f, -2.16f, 0f, -2.16f)
+                close()
+                moveTo(22f, 5f)
+                lineToRelative(0.0f, 1f)
+                horizontalLineToRelative(-4.0f)
+                lineTo(18f, 2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(13f, 6f)
+                lineTo(13f, 2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(8f, 6f)
+                lineTo(8f, 2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(5f, 2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(4f)
+                lineTo(2f, 6f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+                moveTo(8f, 20.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.55f)
+                curveToRelative(0.22f, 0.03f, 0.45f, 0.05f, 0.68f, 0.05f)
+                horizontalLineToRelative(2.32f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(19f, 20.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(2.32f)
+                curveToRelative(0.23f, 0f, 0.46f, -0.02f, 0.68f, -0.05f)
+                verticalLineToRelative(0.55f)
+                close()
+                moveTo(21.31f, 15.25f)
+                curveToRelative(-0.13f, 1.54f, -1.44f, 2.75f, -2.99f, 2.75f)
+                lineTo(5.68f, 18f)
+                curveToRelative(-1.55f, 0f, -2.86f, -1.21f, -2.99f, -2.75f)
+                lineToRelative(-0.6f, -7.25f)
+                horizontalLineToRelative(19.83f)
+                lineToRelative(-0.6f, 7.25f)
+                close()
+            }
+        }.also { _Dumpster = it}

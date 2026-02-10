@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TextBoxEdit: ImageVector? = null
+
+val Icons.Tc.TextBoxEdit: ImageVector
+    get() = _TextBoxEdit ?: UXIcon(name = "TextBoxEdit") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 12f)
+                curveToRelative(0f, 4.03f, -0.78f, 6.54f, -0.81f, 6.65f)
+                curveToRelative(-0.05f, 0.16f, -0.18f, 0.28f, -0.34f, 0.33f)
+                curveToRelative(-0.03f, 0.01f, -0.8f, 0.23f, -2.27f, 0.47f)
+                curveToRelative(-0.27f, 0.04f, -0.53f, -0.14f, -0.57f, -0.41f)
+                curveToRelative(-0.04f, -0.27f, 0.14f, -0.53f, 0.41f, -0.57f)
+                curveToRelative(0.92f, -0.15f, 1.56f, -0.29f, 1.89f, -0.37f)
+                curveToRelative(0.19f, -0.73f, 0.69f, -2.94f, 0.69f, -6.09f)
+                reflectiveCurveToRelative(-0.5f, -5.36f, -0.69f, -6.09f)
+                curveToRelative(-0.33f, -0.08f, -0.97f, -0.23f, -1.89f, -0.37f)
+                curveToRelative(-0.27f, -0.04f, -0.46f, -0.3f, -0.41f, -0.57f)
+                curveToRelative(0.04f, -0.27f, 0.3f, -0.46f, 0.57f, -0.41f)
+                curveToRelative(1.47f, 0.24f, 2.24f, 0.46f, 2.27f, 0.47f)
+                curveToRelative(0.16f, 0.05f, 0.29f, 0.17f, 0.34f, 0.33f)
+                curveToRelative(0.03f, 0.1f, 0.81f, 2.62f, 0.81f, 6.65f)
+                close()
+                moveTo(14f, 19.47f)
+                curveToRelative(-0.01f, -0.28f, -0.24f, -0.49f, -0.51f, -0.49f)
+                curveToRelative(-0.48f, 0.01f, -0.97f, 0.02f, -1.49f, 0.02f)
+                curveToRelative(-5.17f, 0f, -8.4f, -0.69f, -9.31f, -0.91f)
+                curveToRelative(-0.19f, -0.73f, -0.69f, -2.94f, -0.69f, -6.09f)
+                reflectiveCurveToRelative(0.5f, -5.36f, 0.69f, -6.09f)
+                curveToRelative(0.91f, -0.22f, 4.14f, -0.91f, 9.31f, -0.91f)
+                curveToRelative(0.52f, 0f, 1.01f, 0.01f, 1.49f, 0.02f)
+                curveToRelative(0.28f, 0.01f, 0.51f, -0.21f, 0.51f, -0.49f)
+                curveToRelative(0.01f, -0.28f, -0.21f, -0.51f, -0.49f, -0.51f)
+                curveToRelative(-0.48f, -0.01f, -0.99f, -0.02f, -1.51f, -0.02f)
+                curveToRelative(-6.3f, 0f, -9.71f, 0.98f, -9.85f, 1.02f)
+                curveToRelative(-0.16f, 0.05f, -0.29f, 0.17f, -0.34f, 0.33f)
+                curveToRelative(-0.03f, 0.1f, -0.81f, 2.62f, -0.81f, 6.65f)
+                reflectiveCurveToRelative(0.78f, 6.54f, 0.81f, 6.65f)
+                curveToRelative(0.05f, 0.16f, 0.18f, 0.28f, 0.34f, 0.33f)
+                curveToRelative(0.14f, 0.04f, 3.55f, 1.02f, 9.85f, 1.02f)
+                curveToRelative(0.52f, 0f, 1.03f, -0.01f, 1.51f, -0.02f)
+                curveToRelative(0.28f, -0.01f, 0.49f, -0.24f, 0.49f, -0.51f)
+                close()
+                moveTo(8f, 16f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-6.49f)
+                curveToRelative(1.21f, 0.04f, 1.84f, 0.24f, 1.84f, 0.24f)
+                curveToRelative(0.26f, 0.09f, 0.55f, -0.05f, 0.63f, -0.32f)
+                curveToRelative(0.09f, -0.26f, -0.06f, -0.55f, -0.32f, -0.63f)
+                curveToRelative(-0.04f, -0.01f, -0.93f, -0.3f, -2.66f, -0.3f)
+                reflectiveCurveToRelative(-2.62f, 0.29f, -2.66f, 0.3f)
+                curveToRelative(-0.26f, 0.09f, -0.4f, 0.37f, -0.32f, 0.63f)
+                curveToRelative(0.09f, 0.26f, 0.37f, 0.4f, 0.63f, 0.32f)
+                curveToRelative(0.01f, -0.0f, 0.63f, -0.2f, 1.84f, -0.24f)
+                verticalLineToRelative(6.49f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(19.5f, 22f)
+                curveToRelative(-1.87f, 0f, -2.5f, -0.63f, -2.5f, -2.5f)
+                verticalLineToRelative(-15f)
+                curveToRelative(0f, -1.87f, 0.63f, -2.5f, 2.5f, -2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                curveToRelative(-1.49f, 0f, -2.46f, 0.41f, -3f, 1.29f)
+                curveToRelative(-0.54f, -0.88f, -1.51f, -1.29f, -3f, -1.29f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                curveToRelative(1.87f, 0f, 2.5f, 0.63f, 2.5f, 2.5f)
+                verticalLineToRelative(15f)
+                curveToRelative(0f, 1.87f, -0.63f, 2.5f, -2.5f, 2.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                curveToRelative(1.49f, 0f, 2.46f, -0.41f, 3f, -1.29f)
+                curveToRelative(0.54f, 0.88f, 1.51f, 1.29f, 3f, 1.29f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+            }
+        }.also { _TextBoxEdit = it}

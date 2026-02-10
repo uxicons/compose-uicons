@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BrokenArm: ImageVector? = null
+
+val Icons.Rs.BrokenArm: ImageVector
+    get() = _BrokenArm ?: UXIcon(name = "BrokenArm") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 19f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1.19f)
+                lineToRelative(0.61f, -0.62f)
+                curveToRelative(0.48f, -0.47f, 0.52f, -1.22f, 0.09f, -1.74f)
+                curveToRelative(-0.43f, -0.51f, -1.18f, -0.61f, -1.72f, -0.21f)
+                lineToRelative(-2.08f, 1.76f)
+                horizontalLineToRelative(-3.9f)
+                lineTo(11.0f, 5f)
+                horizontalLineToRelative(-2f)
+                lineTo(9.0f, 0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-3f)
+                lineTo(4.0f, 0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(5f)
+                lineTo(0f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 3.86f, 3.14f, 7f, 7f, 7f)
+                horizontalLineToRelative(14f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(2f, 7f)
+                horizontalLineToRelative(3.8f)
+                lineToRelative(-3.8f, 3.48f)
+                verticalLineToRelative(-3.48f)
+                close()
+                moveTo(2f, 16.46f)
+                verticalLineToRelative(-3.27f)
+                lineToRelative(6.77f, -6.19f)
+                horizontalLineToRelative(0.23f)
+                verticalLineToRelative(3.06f)
+                lineToRelative(-7f, 6.41f)
+                close()
+                moveTo(2.36f, 18.84f)
+                lineToRelative(6.64f, -6.07f)
+                verticalLineToRelative(3.23f)
+                lineToRelative(-5.13f, 4.87f)
+                curveToRelative(-0.66f, -0.54f, -1.19f, -1.22f, -1.51f, -2.03f)
+                close()
+                moveTo(7f, 22f)
+                curveToRelative(-0.43f, 0f, -0.84f, -0.07f, -1.24f, -0.17f)
+                lineToRelative(2.21f, -2.1f)
+                lineToRelative(2.44f, 2.27f)
+                horizontalLineToRelative(-3.42f)
+                close()
+                moveTo(16f, 22f)
+                horizontalLineToRelative(-2.65f)
+                lineToRelative(-3.93f, -3.65f)
+                lineToRelative(1.72f, -1.63f)
+                lineToRelative(4.86f, 4.51f)
+                verticalLineToRelative(0.77f)
+                close()
+                moveTo(13.31f, 16f)
+                horizontalLineToRelative(2.69f)
+                verticalLineToRelative(2.5f)
+                lineToRelative(-2.69f, -2.5f)
+                close()
+            }
+        }.also { _BrokenArm = it}

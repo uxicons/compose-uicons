@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FaceViewfinder: ImageVector? = null
+
+val Icons.Ts.FaceViewfinder: ImageVector
+    get() = _FaceViewfinder ?: UXIcon(name = "FaceViewfinder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(2.5f, 23f)
+                horizontalLineToRelative(5.5f)
+                verticalLineToRelative(1f)
+                lineTo(2.5f, 24f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-5.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+                moveTo(23f, 21.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-5.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(5.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-5.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5.5f)
+                close()
+                moveTo(21.5f, 0f)
+                horizontalLineToRelative(-5.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(5.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(5.5f)
+                horizontalLineToRelative(1f)
+                lineTo(24f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(5.5f)
+                lineTo(8f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                verticalLineToRelative(5.5f)
+                horizontalLineToRelative(1f)
+                lineTo(1f, 2.5f)
+                close()
+                moveTo(9f, 11f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(15f, 9f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(12f, 20f)
+                curveToRelative(-4.41f, 0f, -8f, -3.59f, -8f, -8f)
+                reflectiveCurveTo(7.59f, 4f, 12f, 4f)
+                reflectiveCurveToRelative(8f, 3.59f, 8f, 8f)
+                reflectiveCurveToRelative(-3.59f, 8f, -8f, 8f)
+                close()
+                moveTo(19f, 12f)
+                curveToRelative(0f, -3.86f, -3.14f, -7f, -7f, -7f)
+                reflectiveCurveToRelative(-7f, 3.14f, -7f, 7f)
+                reflectiveCurveToRelative(3.14f, 7f, 7f, 7f)
+                reflectiveCurveToRelative(7f, -3.14f, 7f, -7f)
+                close()
+                moveTo(12f, 15f)
+                curveToRelative(-1.76f, 0f, -3.13f, -1.34f, -3.15f, -1.35f)
+                lineToRelative(-0.71f, 0.71f)
+                curveToRelative(0.07f, 0.07f, 1.67f, 1.65f, 3.85f, 1.65f)
+                reflectiveCurveToRelative(3.79f, -1.58f, 3.85f, -1.65f)
+                lineToRelative(-0.71f, -0.71f)
+                curveToRelative(-0.01f, 0.01f, -1.39f, 1.35f, -3.15f, 1.35f)
+                close()
+            }
+        }.also { _FaceViewfinder = it}

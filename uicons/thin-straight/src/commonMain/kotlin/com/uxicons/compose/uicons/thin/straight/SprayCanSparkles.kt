@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SprayCanSparkles: ImageVector? = null
+
+val Icons.Ts.SprayCanSparkles: ImageVector
+    get() = _SprayCanSparkles ?: UXIcon(name = "SprayCanSparkles") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11f, 7f)
+                lineTo(11f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(13f)
+                horizontalLineToRelative(15f)
+                verticalLineToRelative(-13f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                close()
+                moveTo(5f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(4.5f)
+                horizontalLineToRelative(-5f)
+                lineTo(5f, 2.5f)
+                close()
+                moveTo(14f, 23f)
+                lineTo(1f, 23f)
+                verticalLineToRelative(-12f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(12f)
+                close()
+                moveTo(7.5f, 11f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                reflectiveCurveToRelative(2.02f, 4.5f, 4.5f, 4.5f)
+                reflectiveCurveToRelative(4.5f, -2.02f, 4.5f, -4.5f)
+                reflectiveCurveToRelative(-2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(7.5f, 19f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(19f, 2.5f)
+                lineToRelative(-1.67f, 0.83f)
+                lineToRelative(-0.83f, 1.67f)
+                lineToRelative(-0.83f, -1.67f)
+                lineToRelative(-1.67f, -0.83f)
+                lineToRelative(1.67f, -0.83f)
+                lineToRelative(0.83f, -1.67f)
+                lineToRelative(0.83f, 1.67f)
+                lineToRelative(1.67f, 0.83f)
+                close()
+                moveTo(19f, 5.5f)
+                lineToRelative(1.67f, -0.83f)
+                lineToRelative(0.83f, -1.67f)
+                lineToRelative(0.83f, 1.67f)
+                lineToRelative(1.67f, 0.83f)
+                lineToRelative(-1.67f, 0.83f)
+                lineToRelative(-0.83f, 1.67f)
+                lineToRelative(-0.83f, -1.67f)
+                lineToRelative(-1.67f, -0.83f)
+                close()
+                moveTo(21.33f, 10.67f)
+                lineToRelative(1.67f, 0.83f)
+                lineToRelative(-1.67f, 0.83f)
+                lineToRelative(-0.83f, 1.67f)
+                lineToRelative(-0.83f, -1.67f)
+                lineToRelative(-1.67f, -0.83f)
+                lineToRelative(1.67f, -0.83f)
+                lineToRelative(0.83f, -1.67f)
+                lineToRelative(0.83f, 1.67f)
+                close()
+            }
+        }.also { _SprayCanSparkles = it}

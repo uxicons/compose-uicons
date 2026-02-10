@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PlaceOfWorship: ImageVector? = null
+
+val Icons.Rr.PlaceOfWorship: ImageVector
+    get() = _PlaceOfWorship ?: UXIcon(name = "PlaceOfWorship") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.91f, 11.49f)
+                lineToRelative(-4.91f, -3.5f)
+                verticalLineToRelative(-3.48f)
+                curveToRelative(0f, -0.94f, -0.45f, -1.83f, -1.2f, -2.4f)
+                lineToRelative(-2f, -1.5f)
+                curveToRelative(-1.06f, -0.8f, -2.54f, -0.8f, -3.6f, 0f)
+                lineToRelative(-2.0f, 1.5f)
+                curveToRelative(-0.75f, 0.56f, -1.2f, 1.46f, -1.2f, 2.4f)
+                verticalLineToRelative(3.44f)
+                lineToRelative(-5.02f, 3.8f)
+                curveToRelative(-1.24f, 0.94f, -1.98f, 2.43f, -1.98f, 3.99f)
+                verticalLineToRelative(4.27f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                horizontalLineToRelative(16f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                verticalLineToRelative(-4.44f)
+                curveToRelative(0f, -1.61f, -0.78f, -3.13f, -2.09f, -4.07f)
+                close()
+                moveTo(8.6f, 9.24f)
+                curveToRelative(0.25f, -0.19f, 0.4f, -0.48f, 0.4f, -0.8f)
+                verticalLineToRelative(-3.94f)
+                curveToRelative(0f, -0.31f, 0.15f, -0.61f, 0.4f, -0.8f)
+                lineToRelative(2f, -1.5f)
+                curveToRelative(0.18f, -0.13f, 0.39f, -0.2f, 0.6f, -0.2f)
+                reflectiveCurveToRelative(0.42f, 0.07f, 0.6f, 0.2f)
+                lineToRelative(2.0f, 1.5f)
+                curveToRelative(0.25f, 0.19f, 0.4f, 0.49f, 0.4f, 0.8f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 0.32f, 0.16f, 0.63f, 0.42f, 0.81f)
+                lineToRelative(1.58f, 1.13f)
+                verticalLineToRelative(11.56f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-11.55f)
+                lineToRelative(1.6f, -1.21f)
+                close()
+                moveTo(13.0f, 22f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(2.0f, 20f)
+                verticalLineToRelative(-4.27f)
+                curveToRelative(0f, -0.93f, 0.44f, -1.83f, 1.19f, -2.39f)
+                lineToRelative(1.81f, -1.37f)
+                verticalLineToRelative(10.03f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                close()
+                moveTo(22.0f, 20f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-10.13f)
+                lineToRelative(1.74f, 1.25f)
+                curveToRelative(0.79f, 0.56f, 1.26f, 1.47f, 1.26f, 2.44f)
+                verticalLineToRelative(4.44f)
+                close()
+                moveTo(10.5f, 11.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _PlaceOfWorship = it}

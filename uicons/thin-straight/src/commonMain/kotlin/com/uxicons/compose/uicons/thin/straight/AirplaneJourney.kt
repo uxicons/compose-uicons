@@ -1,0 +1,98 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AirplaneJourney: ImageVector? = null
+
+val Icons.Ts.AirplaneJourney: ImageVector
+    get() = _AirplaneJourney ?: UXIcon(name = "AirplaneJourney") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 11.99f)
+                lineToRelative(3.54f, -3.46f)
+                curveToRelative(0.94f, -0.94f, 1.47f, -2.2f, 1.47f, -3.54f)
+                reflectiveCurveToRelative(-0.52f, -2.59f, -1.47f, -3.54f)
+                curveToRelative(-0.94f, -0.94f, -2.2f, -1.46f, -3.54f, -1.46f)
+                reflectiveCurveToRelative(-2.59f, 0.52f, -3.54f, 1.46f)
+                curveToRelative(-1.95f, 1.95f, -1.95f, 5.12f, 0.0f, 7.08f)
+                lineToRelative(3.53f, 3.45f)
+                close()
+                moveTo(16.17f, 2.17f)
+                curveToRelative(0.76f, -0.76f, 1.76f, -1.17f, 2.83f, -1.17f)
+                reflectiveCurveToRelative(2.07f, 0.42f, 2.83f, 1.17f)
+                curveToRelative(0.76f, 0.76f, 1.17f, 1.76f, 1.17f, 2.83f)
+                reflectiveCurveToRelative(-0.42f, 2.07f, -1.17f, 2.83f)
+                lineToRelative(-2.83f, 2.77f)
+                lineToRelative(-2.83f, -2.77f)
+                curveToRelative(-1.56f, -1.56f, -1.56f, -4.1f, 0f, -5.66f)
+                close()
+                moveTo(8.25f, 18f)
+                horizontalLineToRelative(-1.01f)
+                lineToRelative(-1.73f, -2.16f)
+                curveToRelative(-0.28f, -0.52f, -0.82f, -0.84f, -1.41f, -0.84f)
+                horizontalLineToRelative(-1.83f)
+                lineToRelative(1.18f, 3f)
+                horizontalLineToRelative(-0.35f)
+                lineToRelative(-0.91f, -0.62f)
+                curveToRelative(-0.57f, -0.57f, -1.61f, -0.43f, -2.01f, 0.26f)
+                curveToRelative(-0.23f, 0.4f, -0.23f, 0.88f, 0.05f, 1.35f)
+                lineToRelative(1.7f, 2.01f)
+                horizontalLineToRelative(1.52f)
+                lineToRelative(-1.17f, 3f)
+                horizontalLineToRelative(1.84f)
+                curveToRelative(0.59f, 0f, 1.13f, -0.32f, 1.37f, -0.77f)
+                lineToRelative(1.76f, -2.23f)
+                horizontalLineToRelative(2.76f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.88f, -0.72f, -1.5f, -1.75f, -1.5f)
+                close()
+                moveTo(9f, 20f)
+                horizontalLineToRelative(-2.24f)
+                lineToRelative(-2.11f, 2.68f)
+                curveToRelative(-0.11f, 0.2f, -0.31f, 0.32f, -0.54f, 0.32f)
+                horizontalLineToRelative(-0.38f)
+                lineToRelative(1.17f, -3f)
+                horizontalLineToRelative(-2.52f)
+                lineToRelative(-1.34f, -1.58f)
+                curveToRelative(-0.07f, -0.13f, -0.02f, -0.24f, 0f, -0.28f)
+                curveToRelative(0.04f, -0.06f, 0.15f, -0.32f, 0.51f, 0f)
+                lineToRelative(1.24f, 0.86f)
+                horizontalLineToRelative(2.13f)
+                lineToRelative(-1.18f, -3f)
+                horizontalLineToRelative(0.36f)
+                curveToRelative(0.22f, 0f, 0.43f, 0.12f, 0.58f, 0.39f)
+                lineToRelative(2.08f, 2.61f)
+                horizontalLineToRelative(1.49f)
+                curveToRelative(0.36f, 0f, 0.75f, 0.13f, 0.75f, 0.5f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(24f, 17.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-8.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(8.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-12f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(4.18f)
+                curveToRelative(0.16f, 0.34f, 0.36f, 0.68f, 0.58f, 1f)
+                horizontalLineToRelative(-4.76f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19.0f, 4.79f)
+                moveToRelative(-1f, 0f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = true, 2f, 0f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = true, -2f, 0f)
+            }
+        }.also { _AirplaneJourney = it}

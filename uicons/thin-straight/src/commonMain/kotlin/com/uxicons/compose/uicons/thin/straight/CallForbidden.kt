@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CallForbidden: ImageVector? = null
+
+val Icons.Ts.CallForbidden: ImageVector
+    get() = _CallForbidden ?: UXIcon(name = "CallForbidden") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.62f, 10.92f)
+                curveToRelative(0.25f, 0.66f, 0.38f, 1.36f, 0.38f, 2.08f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, -0.44f, -0.07f, -0.87f, -0.18f, -1.28f)
+                lineToRelative(0.8f, -0.8f)
+                close()
+                moveTo(18.88f, 8.65f)
+                lineToRelative(-0.74f, 0.74f)
+                curveToRelative(0.56f, 1.1f, 0.86f, 2.33f, 0.86f, 3.6f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -1.55f, -0.39f, -3.03f, -1.12f, -4.34f)
+                close()
+                moveTo(10.51f, 16.81f)
+                curveToRelative(0.22f, 0.11f, 0.98f, 0.43f, 0.98f, 0.43f)
+                lineToRelative(1.34f, -1.34f)
+                lineToRelative(1.77f, 1.77f)
+                lineToRelative(-0.74f, 0.74f)
+                curveToRelative(-0.38f, 0.38f, -0.89f, 0.58f, -1.44f, 0.58f)
+                curveToRelative(-0.94f, 0f, -2.01f, -0.38f, -3.07f, -1.04f)
+                lineToRelative(-0.72f, 0.72f)
+                curveToRelative(1.27f, 0.84f, 2.6f, 1.32f, 3.79f, 1.32f)
+                curveToRelative(0.82f, 0f, 1.58f, -0.31f, 2.15f, -0.88f)
+                lineToRelative(1.45f, -1.45f)
+                lineToRelative(-3.19f, -3.19f)
+                lineToRelative(-2.32f, 2.32f)
+                close()
+                moveTo(24f, 12.0f)
+                curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+                reflectiveCurveTo(0f, 18.62f, 0f, 12f)
+                reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                close()
+                moveTo(1f, 12f)
+                curveToRelative(0f, 2.85f, 1.1f, 5.45f, 2.89f, 7.4f)
+                lineToRelative(2.59f, -2.59f)
+                curveToRelative(-1.54f, -1.68f, -2.48f, -3.64f, -2.48f, -5.25f)
+                curveToRelative(0f, -0.82f, 0.31f, -1.58f, 0.88f, -2.15f)
+                lineToRelative(1.45f, -1.45f)
+                lineToRelative(3.19f, 3.19f)
+                lineToRelative(-1.58f, 1.58f)
+                curveToRelative(0.26f, 0.6f, 0.62f, 1.12f, 1.02f, 1.59f)
+                lineToRelative(3.05f, -3.05f)
+                curveToRelative(-0.3f, -0.18f, -0.64f, -0.28f, -1.01f, -0.28f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0.64f, 0f, 1.23f, 0.21f, 1.73f, 0.57f)
+                lineToRelative(1.42f, -1.42f)
+                curveToRelative(-0.89f, -0.73f, -1.99f, -1.14f, -3.15f, -1.14f)
+                verticalLineToRelative(-1f)
+                curveToRelative(1.43f, 0f, 2.78f, 0.52f, 3.86f, 1.43f)
+                lineToRelative(1.43f, -1.43f)
+                curveToRelative(-1.46f, -1.29f, -3.32f, -2.01f, -5.29f, -2.01f)
+                verticalLineToRelative(-1f)
+                curveToRelative(2.24f, 0f, 4.34f, 0.82f, 5.99f, 2.3f)
+                lineToRelative(2.41f, -2.41f)
+                curveToRelative(-1.96f, -1.79f, -4.55f, -2.89f, -7.4f, -2.89f)
+                curveTo(5.93f, 1f, 1f, 5.93f, 1f, 12f)
+                close()
+                moveTo(8.23f, 15.06f)
+                curveToRelative(-1f, -1.19f, -1.47f, -2.56f, -1.47f, -2.56f)
+                lineToRelative(1.33f, -1.33f)
+                lineToRelative(-1.78f, -1.77f)
+                lineToRelative(-0.74f, 0.74f)
+                curveToRelative(-0.38f, 0.38f, -0.58f, 0.89f, -0.58f, 1.44f)
+                curveToRelative(0f, 1.34f, 0.84f, 3.06f, 2.18f, 4.54f)
+                lineToRelative(1.05f, -1.05f)
+                close()
+                moveTo(23f, 12f)
+                curveToRelative(0f, -2.85f, -1.1f, -5.45f, -2.89f, -7.4f)
+                lineTo(4.6f, 20.11f)
+                curveToRelative(1.96f, 1.79f, 4.55f, 2.89f, 7.4f, 2.89f)
+                curveToRelative(6.07f, 0f, 11f, -4.93f, 11f, -11f)
+                close()
+            }
+        }.also { _CallForbidden = it}

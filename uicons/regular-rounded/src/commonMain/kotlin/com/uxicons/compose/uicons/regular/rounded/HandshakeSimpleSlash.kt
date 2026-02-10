@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HandshakeSimpleSlash: ImageVector? = null
+
+val Icons.Rr.HandshakeSimpleSlash: ImageVector
+    get() = _HandshakeSimpleSlash ?: UXIcon(name = "HandshakeSimpleSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.37f, 16f)
+                horizontalLineToRelative(0.67f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-0.67f)
+                curveToRelative(-0.29f, 0f, -0.59f, 0.03f, -0.87f, 0.08f)
+                lineToRelative(-6.1f, -6.1f)
+                lineToRelative(0.87f, -0.83f)
+                curveToRelative(0.4f, -0.38f, 0.41f, -1.01f, 0.03f, -1.41f)
+                curveToRelative(-0.38f, -0.4f, -1.02f, -0.41f, -1.41f, -0.03f)
+                lineToRelative(-3.96f, 3.79f)
+                lineToRelative(-1.41f, -1.41f)
+                lineTo(14.06f, 3.81f)
+                curveToRelative(0.89f, -0.84f, 2.28f, -1.04f, 3.37f, -0.5f)
+                lineToRelative(2.31f, 1.16f)
+                curveToRelative(0.69f, 0.35f, 1.46f, 0.53f, 2.24f, 0.53f)
+                horizontalLineToRelative(1.06f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1.06f)
+                curveToRelative(-0.46f, 0f, -0.93f, -0.11f, -1.34f, -0.32f)
+                lineToRelative(-2.32f, -1.16f)
+                curveToRelative(-1.83f, -0.91f, -4.15f, -0.57f, -5.64f, 0.83f)
+                lineToRelative(-0.62f, 0.58f)
+                lineToRelative(-0.7f, -0.64f)
+                curveToRelative(-0.92f, -0.84f, -2.11f, -1.3f, -3.39f, -1.3f)
+                curveToRelative(-0.77f, 0f, -1.54f, 0.18f, -2.23f, 0.53f)
+                lineToRelative(-1.87f, 0.94f)
+                lineTo(1.71f, 0.29f)
+                curveTo(1.32f, -0.1f, 0.68f, -0.1f, 0.29f, 0.29f)
+                reflectiveCurveTo(-0.1f, 1.32f, 0.29f, 1.71f)
+                lineTo(22.29f, 23.71f)
+                curveToRelative(0.2f, 0.2f, 0.45f, 0.29f, 0.71f, 0.29f)
+                reflectiveCurveToRelative(0.51f, -0.1f, 0.71f, -0.29f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                lineToRelative(-4.6f, -4.6f)
+                lineToRelative(1.46f, -1.1f)
+                curveToRelative(0.52f, -0.39f, 1.16f, -0.6f, 1.8f, -0.6f)
+                close()
+                moveTo(6.64f, 3.31f)
+                curveToRelative(1.03f, -0.51f, 2.46f, -0.37f, 3.38f, 0.46f)
+                lineToRelative(0.59f, 0.53f)
+                lineToRelative(-2.52f, 2.37f)
+                lineToRelative(-2.73f, -2.73f)
+                lineToRelative(1.28f, -0.64f)
+                close()
+                moveTo(17.68f, 16.27f)
+                lineToRelative(-5.35f, -5.35f)
+                lineToRelative(1.62f, -1.55f)
+                lineToRelative(5.55f, 5.55f)
+                curveToRelative(-0.04f, 0.03f, -1.82f, 1.35f, -1.82f, 1.35f)
+                close()
+                moveTo(15.17f, 19.4f)
+                curveToRelative(0.33f, 0.44f, 0.24f, 1.07f, -0.2f, 1.4f)
+                lineToRelative(-0.49f, 0.37f)
+                curveToRelative(-0.71f, 0.56f, -1.57f, 0.83f, -2.44f, 0.83f)
+                reflectiveCurveToRelative(-1.74f, -0.28f, -2.46f, -0.84f)
+                lineToRelative(-6.08f, -4.56f)
+                curveToRelative(-0.52f, -0.39f, -1.16f, -0.6f, -1.8f, -0.6f)
+                horizontalLineToRelative(-0.67f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(0.67f)
+                curveToRelative(1.07f, 0f, 2.14f, 0.35f, 3f, 1f)
+                lineToRelative(6.09f, 4.57f)
+                curveToRelative(0.74f, 0.57f, 1.75f, 0.57f, 2.47f, 0.01f)
+                lineToRelative(0.51f, -0.38f)
+                curveToRelative(0.44f, -0.33f, 1.07f, -0.24f, 1.4f, 0.2f)
+                close()
+            }
+        }.also { _HandshakeSimpleSlash = it}

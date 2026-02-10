@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Coriander: ImageVector? = null
+
+val Icons.Rs.Coriander: ImageVector
+    get() = _Coriander ?: UXIcon(name = "Coriander") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.8f, 12.0f)
+                lineToRelative(-0.12f, -0.69f)
+                curveToRelative(-2.88f, -0.64f, -6.08f, -0.29f, -8.84f, 0.9f)
+                curveToRelative(0.19f, 1.08f, 0.51f, 2.11f, 0.57f, 4.34f)
+                curveToRelative(-0.01f, 0.77f, -0.12f, 1.42f, -0.31f, 1.94f)
+                lineToRelative(-2.1f, 2.1f)
+                verticalLineToRelative(-8.06f)
+                curveToRelative(0.26f, -0.59f, 0.72f, -1.24f, 1.35f, -1.88f)
+                curveToRelative(1.8f, -1.71f, 2.96f, -2.34f, 3.89f, -3.0f)
+                curveToRelative(-1.25f, -3.09f, -3.49f, -5.88f, -6.24f, -7.64f)
+                curveToRelative(-2.75f, 1.77f, -4.99f, 4.55f, -6.24f, 7.65f)
+                curveToRelative(0.92f, 0.65f, 2.1f, 1.29f, 3.89f, 3.0f)
+                curveToRelative(0.63f, 0.65f, 1.09f, 1.29f, 1.35f, 1.88f)
+                verticalLineToRelative(8.06f)
+                lineToRelative(-2.08f, -2.04f)
+                curveToRelative(-0.21f, -0.52f, -0.32f, -1.2f, -0.33f, -2.0f)
+                curveToRelative(0.07f, -2.24f, 0.38f, -3.25f, 0.57f, -4.34f)
+                curveToRelative(-2.76f, -1.18f, -5.96f, -1.54f, -8.84f, -0.9f)
+                curveToRelative(-0.64f, 2.88f, -0.29f, 6.08f, 0.9f, 8.85f)
+                curveToRelative(1.08f, -0.2f, 2.1f, -0.48f, 4.34f, -0.57f)
+                curveToRelative(0.73f, 0.01f, 1.37f, 0.11f, 1.88f, 0.29f)
+                lineToRelative(3.57f, 3.54f)
+                verticalLineToRelative(0.58f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-0.58f)
+                lineToRelative(3.51f, -3.52f)
+                curveToRelative(0.51f, -0.19f, 1.17f, -0.3f, 1.94f, -0.31f)
+                curveToRelative(2.26f, 0.07f, 3.25f, 0.38f, 4.34f, 0.57f)
+                curveToRelative(1.07f, -2.53f, 1.51f, -5.51f, 1.02f, -8.16f)
+                close()
+                moveTo(6.66f, 17.66f)
+                curveToRelative(-0.4f, -0.05f, -0.77f, -0.07f, -1.09f, -0.07f)
+                curveToRelative(-0.98f, -0.0f, -2.24f, 0.16f, -3.06f, 0.29f)
+                curveToRelative(-0.11f, -0.38f, -0.21f, -0.76f, -0.28f, -1.15f)
+                lineToRelative(1.8f, -0.69f)
+                reflectiveCurveToRelative(-0.85f, -0.63f, -2.01f, -1.14f)
+                curveToRelative(-0.03f, -0.62f, -0.03f, -1.24f, 0.04f, -1.83f)
+                curveToRelative(0.6f, -0.07f, 1.22f, -0.07f, 1.83f, -0.04f)
+                curveToRelative(0.52f, 1.17f, 1.14f, 2.01f, 1.14f, 2.01f)
+                lineToRelative(0.69f, -1.8f)
+                curveToRelative(0.39f, 0.08f, 0.77f, 0.17f, 1.15f, 0.28f)
+                curveToRelative(-0.13f, 0.82f, -0.3f, 2.06f, -0.29f, 3.06f)
+                curveToRelative(0.0f, 0.32f, 0.02f, 0.69f, 0.07f, 1.09f)
+                close()
+                moveTo(12.92f, 9.24f)
+                curveToRelative(-0.28f, 0.29f, -0.61f, 0.65f, -0.92f, 1.07f)
+                curveToRelative(-0.31f, -0.42f, -0.64f, -0.78f, -0.92f, -1.07f)
+                curveToRelative(-0.82f, -0.84f, -2.02f, -1.75f, -2.78f, -2.29f)
+                curveToRelative(0.24f, -0.45f, 0.5f, -0.89f, 0.79f, -1.31f)
+                lineToRelative(1.92f, 0.85f)
+                reflectiveCurveToRelative(-0.17f, -1.13f, -0.66f, -2.44f)
+                curveToRelative(0.52f, -0.58f, 1.07f, -1.12f, 1.66f, -1.59f)
+                curveToRelative(0.59f, 0.47f, 1.14f, 1.01f, 1.66f, 1.59f)
+                curveToRelative(-0.49f, 1.31f, -0.66f, 2.44f, -0.66f, 2.44f)
+                lineToRelative(1.92f, -0.85f)
+                curveToRelative(0.29f, 0.42f, 0.55f, 0.86f, 0.79f, 1.31f)
+                curveToRelative(-0.76f, 0.54f, -1.96f, 1.45f, -2.78f, 2.29f)
+                close()
+                moveTo(21.97f, 14.9f)
+                curveToRelative(-1.17f, 0.52f, -2.01f, 1.14f, -2.01f, 1.14f)
+                lineToRelative(1.8f, 0.69f)
+                curveToRelative(-0.08f, 0.39f, -0.17f, 0.77f, -0.28f, 1.15f)
+                curveToRelative(-0.82f, -0.13f, -2.05f, -0.3f, -3.06f, -0.29f)
+                curveToRelative(-0.31f, 0.0f, -0.69f, 0.02f, -1.09f, 0.07f)
+                curveToRelative(0.05f, -0.4f, 0.07f, -0.77f, 0.07f, -1.09f)
+                curveToRelative(0.01f, -1.0f, -0.16f, -2.24f, -0.29f, -3.06f)
+                curveToRelative(0.38f, -0.11f, 0.76f, -0.21f, 1.15f, -0.28f)
+                lineToRelative(0.69f, 1.8f)
+                reflectiveCurveToRelative(0.63f, -0.85f, 1.14f, -2.01f)
+                curveToRelative(0.62f, -0.03f, 1.24f, -0.03f, 1.83f, 0.04f)
+                curveToRelative(0.07f, 0.6f, 0.07f, 1.22f, 0.04f, 1.83f)
+                close()
+            }
+        }.also { _Coriander = it}

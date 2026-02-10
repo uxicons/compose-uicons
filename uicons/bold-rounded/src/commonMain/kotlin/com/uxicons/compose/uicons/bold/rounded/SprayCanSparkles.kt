@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SprayCanSparkles: ImageVector? = null
+
+val Icons.Br.SprayCanSparkles: ImageVector
+    get() = _SprayCanSparkles ?: UXIcon(name = "SprayCanSparkles") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.46f, 3.21f)
+            lineToRelative(-0.97f, 0.28f)
+            lineToRelative(-0.28f, 0.97f)
+            curveToRelative(-0.21f, 0.72f, -1.23f, 0.72f, -1.43f, 0f)
+            lineToRelative(-0.28f, -0.97f)
+            lineToRelative(-0.97f, -0.28f)
+            curveToRelative(-0.72f, -0.21f, -0.72f, -1.23f, 0f, -1.43f)
+            lineToRelative(0.97f, -0.28f)
+            lineToRelative(0.28f, -0.97f)
+            curveToRelative(0.21f, -0.72f, 1.23f, -0.72f, 1.43f, 0f)
+            lineToRelative(0.28f, 0.97f)
+            lineToRelative(0.97f, 0.28f)
+            curveToRelative(0.72f, 0.21f, 0.72f, 1.23f, 0f, 1.43f)
+            close()
+            moveTo(23.46f, 4.78f)
+            lineToRelative(-0.97f, -0.28f)
+            lineToRelative(-0.28f, -0.97f)
+            curveToRelative(-0.21f, -0.72f, -1.23f, -0.72f, -1.43f, 0f)
+            lineToRelative(-0.28f, 0.97f)
+            lineToRelative(-0.97f, 0.28f)
+            curveToRelative(-0.72f, 0.21f, -0.72f, 1.23f, 0f, 1.43f)
+            lineToRelative(0.97f, 0.28f)
+            lineToRelative(0.28f, 0.97f)
+            curveToRelative(0.21f, 0.72f, 1.23f, 0.72f, 1.43f, 0f)
+            lineToRelative(0.28f, -0.97f)
+            lineToRelative(0.97f, -0.28f)
+            curveToRelative(0.72f, -0.21f, 0.72f, -1.23f, 0f, -1.43f)
+            close()
+            moveTo(22.46f, 10.78f)
+            lineToRelative(-0.97f, -0.28f)
+            lineToRelative(-0.28f, -0.97f)
+            curveToRelative(-0.21f, -0.72f, -1.23f, -0.72f, -1.43f, 0f)
+            lineToRelative(-0.28f, 0.97f)
+            lineToRelative(-0.97f, 0.28f)
+            curveToRelative(-0.72f, 0.21f, -0.72f, 1.23f, 0f, 1.43f)
+            lineToRelative(0.97f, 0.28f)
+            lineToRelative(0.28f, 0.97f)
+            curveToRelative(0.21f, 0.72f, 1.23f, 0.72f, 1.43f, 0f)
+            lineToRelative(0.28f, -0.97f)
+            lineToRelative(0.97f, -0.28f)
+            curveToRelative(0.72f, -0.21f, 0.72f, -1.23f, 0f, -1.43f)
+            close()
+            moveTo(17f, 12.5f)
+            verticalLineToRelative(6f)
+            curveToRelative(0f, 3.03f, -2.47f, 5.5f, -5.5f, 5.5f)
+            horizontalLineToRelative(-6f)
+            curveTo(2.47f, 24f, 0f, 21.53f, 0f, 18.5f)
+            verticalLineToRelative(-6f)
+            curveTo(0f, 9.64f, 2.2f, 7.28f, 5f, 7.03f)
+            lineTo(5f, 3f)
+            curveToRelative(0f, -1.66f, 1.34f, -3f, 3f, -3f)
+            horizontalLineToRelative(1f)
+            curveToRelative(1.66f, 0f, 3f, 1.34f, 3f, 3f)
+            verticalLineToRelative(4.03f)
+            curveToRelative(2.8f, 0.25f, 5f, 2.61f, 5f, 5.47f)
+            close()
+            moveTo(14f, 12.5f)
+            curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+            horizontalLineToRelative(-6f)
+            curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+            verticalLineToRelative(6f)
+            curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+            horizontalLineToRelative(6f)
+            curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+            verticalLineToRelative(-6f)
+            close()
+            moveTo(8.5f, 12.0f)
+            curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+            reflectiveCurveToRelative(1.57f, 3.5f, 3.5f, 3.5f)
+            reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+            reflectiveCurveToRelative(-1.57f, -3.5f, -3.5f, -3.5f)
+            close()
+        }
+    }.also { _SprayCanSparkles = it }

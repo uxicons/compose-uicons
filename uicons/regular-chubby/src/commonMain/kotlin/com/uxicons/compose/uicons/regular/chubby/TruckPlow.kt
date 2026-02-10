@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckPlow: ImageVector? = null
+
+val Icons.Rc.TruckPlow: ImageVector
+    get() = _TruckPlow ?: UXIcon(name = "TruckPlow") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.38f, 17.14f)
+                curveToRelative(-0.8f, -0.33f, -1.72f, -1.05f, -1.72f, -3.68f)
+                reflectiveCurveToRelative(0.92f, -3.34f, 1.72f, -3.67f)
+                curveToRelative(0.51f, -0.21f, 0.75f, -0.8f, 0.54f, -1.31f)
+                curveToRelative(-0.21f, -0.51f, -0.8f, -0.75f, -1.31f, -0.54f)
+                curveToRelative(-1.75f, 0.73f, -2.7f, 2.21f, -2.91f, 4.52f)
+                horizontalLineToRelative(-0.73f)
+                curveToRelative(-0.11f, -1.07f, -0.35f, -1.8f, -0.36f, -1.84f)
+                curveToRelative(-0.12f, -0.34f, -0.4f, -0.59f, -0.75f, -0.66f)
+                curveToRelative(-0.03f, -0.01f, -0.23f, -0.04f, -0.57f, -0.1f)
+                curveToRelative(-1.23f, -2.98f, -3.01f, -5.16f, -3.09f, -5.25f)
+                curveToRelative(-0.12f, -0.15f, -0.28f, -0.26f, -0.46f, -0.32f)
+                curveToRelative(-0.08f, -0.02f, -1.92f, -0.62f, -5.08f, -0.75f)
+                curveToRelative(-0.28f, -0.03f, -0.54f, 0.09f, -0.73f, 0.28f)
+                curveToRelative(-0.2f, 0.19f, -0.31f, 0.45f, -0.31f, 0.72f)
+                verticalLineToRelative(4.87f)
+                curveToRelative(-2.52f, 0.18f, -4.36f, 0.54f, -4.46f, 0.56f)
+                curveToRelative(-0.36f, 0.07f, -0.65f, 0.33f, -0.76f, 0.68f)
+                curveToRelative(-0.02f, 0.05f, -0.4f, 1.27f, -0.4f, 2.82f)
+                curveToRelative(0f, 1.57f, 0.39f, 2.72f, 0.41f, 2.77f)
+                curveToRelative(0.11f, 0.33f, 0.39f, 0.57f, 0.73f, 0.65f)
+                curveToRelative(0.04f, 0.01f, 0.33f, 0.07f, 0.82f, 0.16f)
+                verticalLineToRelative(0.62f)
+                curveToRelative(0f, 1.55f, 1.25f, 2.81f, 2.79f, 2.81f)
+                reflectiveCurveToRelative(2.79f, -1.26f, 2.79f, -2.81f)
+                verticalLineToRelative(-0.04f)
+                curveToRelative(0.32f, 0.01f, 0.64f, 0.01f, 0.96f, 0.01f)
+                curveToRelative(0.33f, 0f, 0.65f, -0.01f, 0.97f, -0.01f)
+                verticalLineToRelative(0.04f)
+                curveToRelative(0f, 1.55f, 1.25f, 2.81f, 2.79f, 2.81f)
+                reflectiveCurveToRelative(2.79f, -1.26f, 2.79f, -2.81f)
+                verticalLineToRelative(-0.62f)
+                curveToRelative(0.48f, -0.09f, 0.77f, -0.15f, 0.81f, -0.16f)
+                curveToRelative(0.34f, -0.07f, 0.62f, -0.32f, 0.73f, -0.66f)
+                curveToRelative(0.01f, -0.04f, 0.24f, -0.74f, 0.35f, -1.76f)
+                horizontalLineToRelative(0.74f)
+                curveToRelative(0.21f, 2.31f, 1.16f, 3.8f, 2.91f, 4.52f)
+                curveToRelative(0.12f, 0.05f, 0.26f, 0.08f, 0.38f, 0.08f)
+                curveToRelative(0.39f, 0f, 0.77f, -0.23f, 0.92f, -0.62f)
+                curveToRelative(0.21f, -0.51f, -0.03f, -1.09f, -0.54f, -1.31f)
+                close()
+                moveTo(8.62f, 5.6f)
+                curveToRelative(1.62f, 0.14f, 2.74f, 0.39f, 3.23f, 0.51f)
+                curveToRelative(0.39f, 0.51f, 1.3f, 1.78f, 2.11f, 3.43f)
+                curveToRelative(-1.24f, -0.14f, -2.79f, -0.25f, -4.45f, -0.25f)
+                curveToRelative(-0.3f, 0f, -0.59f, 0.0f, -0.89f, 0.01f)
+                verticalLineToRelative(-3.7f)
+                close()
+                moveTo(6.55f, 17.66f)
+                curveToRelative(0f, 0.44f, -0.36f, 0.81f, -0.8f, 0.81f)
+                reflectiveCurveToRelative(-0.8f, -0.36f, -0.8f, -0.81f)
+                verticalLineToRelative(-0.32f)
+                curveToRelative(0.49f, 0.06f, 1.02f, 0.12f, 1.59f, 0.17f)
+                verticalLineToRelative(0.16f)
+                close()
+                moveTo(3.16f, 15.04f)
+                curveToRelative(-0.08f, -0.38f, -0.16f, -0.93f, -0.16f, -1.58f)
+                curveToRelative(0f, -0.66f, 0.09f, -1.24f, 0.17f, -1.65f)
+                curveToRelative(1.12f, -0.18f, 3.6f, -0.52f, 6.34f, -0.52f)
+                curveToRelative(2.75f, 0f, 5.24f, 0.34f, 6.35f, 0.52f)
+                curveToRelative(0.08f, 0.39f, 0.17f, 0.96f, 0.17f, 1.61f)
+                curveToRelative(0f, 0.66f, -0.09f, 1.23f, -0.17f, 1.62f)
+                curveToRelative(-1.1f, 0.2f, -3.6f, 0.59f, -6.35f, 0.59f)
+                reflectiveCurveToRelative(-5.25f, -0.39f, -6.35f, -0.59f)
+                close()
+                moveTo(14.07f, 17.66f)
+                curveToRelative(0f, 0.44f, -0.36f, 0.81f, -0.8f, 0.81f)
+                reflectiveCurveToRelative(-0.8f, -0.36f, -0.8f, -0.81f)
+                verticalLineToRelative(-0.16f)
+                curveToRelative(0.57f, -0.05f, 1.1f, -0.1f, 1.59f, -0.17f)
+                verticalLineToRelative(0.32f)
+                close()
+            }
+        }.also { _TruckPlow = it}

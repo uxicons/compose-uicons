@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Gamepad: ImageVector? = null
+
+val Icons.Tr.Gamepad: ImageVector
+    get() = _Gamepad ?: UXIcon(name = "Gamepad") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.36f, 5.38f)
+                curveToRelative(-0.78f, -1.47f, -2.3f, -2.38f, -3.97f, -2.38f)
+                lineTo(5.62f, 3f)
+                curveToRelative(-1.67f, 0f, -3.19f, 0.91f, -3.97f, 2.38f)
+                curveToRelative(-0.75f, 1.42f, -1.65f, 3.71f, -1.65f, 6.6f)
+                curveToRelative(0f, 5.53f, 2.02f, 10.02f, 4.5f, 10.02f)
+                curveToRelative(1.63f, 0f, 2.6f, -2.15f, 3.13f, -3.95f)
+                curveToRelative(0.18f, -0.62f, 0.77f, -1.05f, 1.43f, -1.05f)
+                horizontalLineToRelative(5.87f)
+                curveToRelative(0.66f, 0f, 1.25f, 0.43f, 1.43f, 1.05f)
+                curveToRelative(0.53f, 1.8f, 1.5f, 3.95f, 3.13f, 3.95f)
+                curveToRelative(2.48f, 0f, 4.5f, -4.5f, 4.5f, -10.02f)
+                curveToRelative(0f, -2.89f, -0.9f, -5.18f, -1.65f, -6.6f)
+                close()
+                moveTo(19.5f, 21f)
+                curveToRelative(-0.77f, 0f, -1.58f, -1.21f, -2.17f, -3.23f)
+                curveToRelative(-0.31f, -1.04f, -1.29f, -1.77f, -2.39f, -1.77f)
+                horizontalLineToRelative(-5.87f)
+                curveToRelative(-1.1f, 0f, -2.08f, 0.73f, -2.39f, 1.77f)
+                curveToRelative(-0.6f, 2.02f, -1.41f, 3.23f, -2.17f, 3.23f)
+                curveToRelative(-1.65f, 0f, -3.5f, -3.86f, -3.5f, -9.02f)
+                curveToRelative(0f, -2.68f, 0.83f, -4.81f, 1.53f, -6.13f)
+                curveToRelative(0.6f, -1.14f, 1.78f, -1.84f, 3.09f, -1.84f)
+                horizontalLineToRelative(12.77f)
+                curveToRelative(1.3f, 0f, 2.48f, 0.71f, 3.09f, 1.84f)
+                curveToRelative(0.7f, 1.32f, 1.53f, 3.45f, 1.53f, 6.13f)
+                curveToRelative(0f, 5.16f, -1.85f, 9.02f, -3.5f, 9.02f)
+                close()
+                moveTo(9f, 9.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(16f, 8f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(16f, 10f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(20f, 10f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(18f, 12f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _Gamepad = it}

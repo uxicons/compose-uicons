@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Snowmobile: ImageVector? = null
+
+val Icons.Rr.Snowmobile: ImageVector
+    get() = _Snowmobile ?: UXIcon(name = "Snowmobile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 19f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1f, 1f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2f, 2f)
+                horizontalLineToRelative(-0.38f)
+                lineToRelative(-1.21f, -2.43f)
+                arcToRelative(7f, 7f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.29f, -2.5f)
+                lineToRelative(1.52f, -2.13f)
+                arcToRelative(3.99f, 3.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.81f, -5.49f)
+                lineToRelative(-6.8f, -5.23f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.22f, 1.58f)
+                lineToRelative(0.56f, 0.43f)
+                arcTo(11.67f, 11.67f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 10.18f)
+                arcTo(2.92f, 2.92f, 0f, isMoreThanHalf = false, isPositiveArc = true, 13.03f, 13f)
+                horizontalLineTo(11f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                horizontalLineToRelative(2.03f)
+                arcTo(4.94f, 4.94f, 0f, isMoreThanHalf = false, isPositiveArc = false, 18f, 10.13f)
+                arcToRelative(8.09f, 8.09f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.22f, -1.73f)
+                lineToRelative(3.4f, 2.62f)
+                arcToRelative(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.41f, 2.75f)
+                lineToRelative(-1.52f, 2.13f)
+                arcTo(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 18f)
+                horizontalLineTo(8.07f)
+                lineToRelative(0.69f, -1.24f)
+                arcToRelative(1.98f, 1.98f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.14f, -1.55f)
+                arcToRelative(1.94f, 1.94f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.95f, -1.15f)
+                lineToRelative(-3.4f, -2f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.5f, -1.25f)
+                lineTo(6.11f, 7.55f)
+                arcToRelative(1.01f, 1.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.34f, -0.45f)
+                curveToRelative(0.13f, 0.07f, 0.49f, 0.26f, 0.97f, 0.52f)
+                lineToRelative(-1.77f, 2.9f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, 1.71f, 1.04f)
+                lineToRelative(1.83f, -2.99f)
+                curveToRelative(1.14f, 0.62f, 2.4f, 1.3f, 3.26f, 1.77f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 14.4f, 8.58f)
+                curveToRelative(-0.22f, -0.12f, -5.42f, -2.94f, -6.06f, -3.27f)
+                arcToRelative(2.98f, 2.98f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.29f, -0.16f)
+                arcTo(2.91f, 2.91f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4.37f, 6.57f)
+                lineTo(2.32f, 9.83f)
+                arcTo(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.6f, 13.82f)
+                lineTo(7.01f, 15.8f)
+                lineTo(5.78f, 18f)
+                horizontalLineTo(3.54f)
+                lineToRelative(-1.7f, -2.56f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.66f, 1.11f)
+                lineToRelative(1.26f, 1.89f)
+                arcTo(3.01f, 3.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 24f)
+                horizontalLineTo(9f)
+                arcToRelative(3.02f, 3.02f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.83f, -4f)
+                horizontalLineTo(16f)
+                curveToRelative(0.12f, 0f, 0.25f, 0f, 0.37f, -0.01f)
+                lineTo(17.38f, 22f)
+                horizontalLineTo(15f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                horizontalLineToRelative(5f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4f, -4f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 23f, 19f)
+                close()
+                moveTo(10f, 21f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1f, 1f)
+                horizontalLineTo(3f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, -2f)
+                horizontalLineTo(9f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 10f, 21f)
+                close()
+                moveTo(8f, 2.5f)
+                arcToRelative(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 5f, 0f)
+                arcTo(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8f, 2.5f)
+                close()
+            }
+        }.also { _Snowmobile = it}

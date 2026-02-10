@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Fence: ImageVector? = null
+
+val Icons.Sr.Fence: ImageVector
+    get() = _Fence ?: UXIcon(name = "Fence") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 10f)
+                verticalLineToRelative(5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                lineTo(1f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                verticalLineToRelative(-5f)
+                lineTo(7f, 10f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(6f)
+                close()
+                moveTo(1f, 8f)
+                lineTo(23f, 8f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                lineTo(23f, 3.0f)
+                curveToRelative(0f, -0.53f, -0.21f, -1.04f, -0.59f, -1.41f)
+                lineToRelative(-1f, -1f)
+                curveToRelative(-0.78f, -0.78f, -2.05f, -0.78f, -2.83f, 0f)
+                lineToRelative(-1f, 1f)
+                curveToRelative(-0.37f, 0.37f, -0.59f, 0.89f, -0.59f, 1.41f)
+                verticalLineToRelative(3.0f)
+                horizontalLineToRelative(-2f)
+                lineTo(15f, 3.0f)
+                curveToRelative(0f, -0.53f, -0.21f, -1.04f, -0.59f, -1.41f)
+                lineToRelative(-1f, -1f)
+                curveToRelative(-0.78f, -0.78f, -2.05f, -0.78f, -2.83f, 0f)
+                lineToRelative(-1f, 1f)
+                curveToRelative(-0.37f, 0.37f, -0.59f, 0.89f, -0.59f, 1.41f)
+                verticalLineToRelative(3.0f)
+                horizontalLineToRelative(-2f)
+                lineTo(7f, 3.0f)
+                curveToRelative(0f, -0.53f, -0.21f, -1.04f, -0.59f, -1.41f)
+                lineToRelative(-1f, -1f)
+                curveTo(4.63f, -0.2f, 3.37f, -0.2f, 2.59f, 0.58f)
+                lineTo(1.59f, 1.58f)
+                curveToRelative(-0.37f, 0.37f, -0.59f, 0.89f, -0.59f, 1.41f)
+                verticalLineToRelative(3.0f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(1f, 19f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2.5f)
+                lineTo(1f, 19f)
+                close()
+                moveTo(9f, 19f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(17f, 19f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-6f)
+                close()
+            }
+        }.also { _Fence = it}

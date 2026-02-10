@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Racquet: ImageVector? = null
+
+val Icons.Ss.Racquet: ImageVector
+    get() = _Racquet ?: UXIcon(name = "Racquet") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.92f, 2.08f)
+                arcTo(7.46f, 7.46f, 0f, isMoreThanHalf = false, isPositiveArc = false, 15.73f, 0.05f)
+                arcTo(10.86f, 10.86f, 0f, isMoreThanHalf = false, isPositiveArc = false, 9.26f, 3.26f)
+                arcTo(10.86f, 10.86f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.05f, 9.73f)
+                arcToRelative(14.66f, 14.66f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.02f, 1.51f)
+                arcToRelative(8.04f, 8.04f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.16f, 1.18f)
+                curveToRelative(0.14f, 1.57f, 0.11f, 3.88f, -0.89f, 4.88f)
+                lineToRelative(-5.25f, 5.25f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(5.25f, -5.25f)
+                curveToRelative(1.01f, -1f, 3.34f, -1.03f, 4.92f, -0.89f)
+                arcToRelative(16.4f, 16.4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.7f, 0.18f)
+                arcToRelative(8.99f, 8.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.95f, -0.05f)
+                arcToRelative(10.87f, 10.87f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.47f, -3.21f)
+                arcTo(10.88f, 10.88f, 0f, isMoreThanHalf = false, isPositiveArc = false, 23.95f, 8.27f)
+                arcTo(7.45f, 7.45f, 0f, isMoreThanHalf = false, isPositiveArc = false, 21.92f, 2.08f)
+                close()
+                moveTo(21.96f, 8.06f)
+                arcToRelative(7.95f, 7.95f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.56f, 2.17f)
+                lineTo(19.92f, 8.75f)
+                lineTo(21.97f, 6.7f)
+                arcTo(6.7f, 6.7f, 0f, isMoreThanHalf = false, isPositiveArc = true, 21.96f, 8.06f)
+                close()
+                moveTo(21.3f, 4.54f)
+                lineTo(18.51f, 7.33f)
+                lineTo(16.58f, 5.41f)
+                lineToRelative(2.75f, -2.75f)
+                arcToRelative(4.87f, 4.87f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.17f, 0.84f)
+                arcTo(4.83f, 4.83f, 0f, isMoreThanHalf = false, isPositiveArc = true, 21.3f, 4.54f)
+                close()
+                moveTo(9.49f, 14.51f)
+                arcToRelative(4.87f, 4.87f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.85f, -1.16f)
+                lineToRelative(2.99f, -2.99f)
+                lineToRelative(1.93f, 1.93f)
+                lineTo(10.54f, 15.3f)
+                arcTo(4.89f, 4.89f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9.49f, 14.51f)
+                close()
+                moveTo(8.73f, 7.46f)
+                lineTo(10.22f, 8.95f)
+                lineTo(8.04f, 11.13f)
+                arcTo(6.92f, 6.92f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8.73f, 7.46f)
+                close()
+                moveTo(13.05f, 8.95f)
+                lineTo(15.17f, 6.82f)
+                lineTo(17.1f, 8.75f)
+                lineTo(14.97f, 10.87f)
+                close()
+                moveTo(15.94f, 2.04f)
+                arcToRelative(4.6f, 4.6f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.19f, 0f)
+                lineTo(15.17f, 4f)
+                lineToRelative(-1.4f, -1.4f)
+                arcTo(8.46f, 8.46f, 0f, isMoreThanHalf = false, isPositiveArc = true, 15.94f, 2.04f)
+                close()
+                moveTo(11.95f, 3.6f)
+                lineToRelative(1.81f, 1.81f)
+                lineTo(11.63f, 7.53f)
+                lineTo(9.79f, 5.69f)
+                arcTo(9.59f, 9.59f, 0f, isMoreThanHalf = false, isPositiveArc = true, 11.95f, 3.6f)
+                close()
+                moveTo(14.06f, 15.96f)
+                arcToRelative(9.71f, 9.71f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.33f, -0.02f)
+                lineToRelative(2.24f, -2.24f)
+                lineToRelative(1.57f, 1.57f)
+                arcTo(8.05f, 8.05f, 0f, isMoreThanHalf = false, isPositiveArc = true, 14.06f, 15.96f)
+                close()
+                moveTo(18.31f, 14.21f)
+                lineTo(16.39f, 12.29f)
+                lineTo(18.51f, 10.16f)
+                lineTo(20.4f, 12.05f)
+                arcToRelative(9.63f, 9.63f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.09f, 2.15f)
+                close()
+            }
+        }.also { _Racquet = it}

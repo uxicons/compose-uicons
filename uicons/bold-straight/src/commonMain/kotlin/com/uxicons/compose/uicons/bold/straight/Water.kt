@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Water: ImageVector? = null
+
+val Icons.Bs.Water: ImageVector
+    get() = _Water ?: UXIcon(name = "Water") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 14f)
+                verticalLineToRelative(3f)
+                arcToRelative(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, -1.17f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = true, -6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = true, -6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = true, -6f, 0f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 17f)
+                lineTo(0f, 14f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.41f, -1f)
+                lineTo(4.59f, 13f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.82f, 0f)
+                horizontalLineToRelative(3.18f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.82f, 0f)
+                horizontalLineToRelative(3.18f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.82f, 0f)
+                horizontalLineToRelative(3.18f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 14f)
+                close()
+                moveTo(22.59f, 19f)
+                lineTo(19.41f, 19f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(13.41f, 19f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(7.41f, 19f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(1.41f, 19f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 20f)
+                verticalLineToRelative(3f)
+                arcToRelative(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, -1.17f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 23f)
+                lineTo(24f, 20f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 22.59f, 19f)
+                close()
+                moveTo(22.59f, 1f)
+                lineTo(19.41f, 1f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(13.41f, 1f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(7.41f, 1f)
+                arcTo(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.59f, 1f)
+                lineTo(1.41f, 1f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 2f)
+                lineTo(0f, 5f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 3.83f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 5f)
+                lineTo(24f, 2f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 22.59f, 1f)
+                close()
+                moveTo(22.59f, 7f)
+                lineTo(19.41f, 7f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(13.41f, 7f)
+                arcToRelative(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2.82f, 0f)
+                lineTo(7.41f, 7f)
+                arcTo(1.49f, 1.49f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.59f, 7f)
+                lineTo(1.41f, 7f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 8f)
+                verticalLineToRelative(3f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 9.83f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcToRelative(4.43f, 4.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcTo(4.47f, 4.47f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 11f)
+                lineTo(24f, 8f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 22.59f, 7f)
+                close()
+            }
+        }.also { _Water = it}

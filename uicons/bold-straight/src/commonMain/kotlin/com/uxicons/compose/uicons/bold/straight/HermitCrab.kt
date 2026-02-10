@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HermitCrab: ImageVector? = null
+
+val Icons.Bs.HermitCrab: ImageVector
+    get() = _HermitCrab ?: UXIcon(name = "HermitCrab") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7.08f, 16.93f)
+                curveToRelative(1.23f, 1.23f, 1.23f, 3.23f, 0f, 4.47f)
+                reflectiveCurveToRelative(-4.84f, 2.61f, -4.84f, 2.61f)
+                reflectiveCurveToRelative(0.86f, -1.61f, 1.17f, -3.4f)
+                curveToRelative(-1.79f, 0.3f, -3.4f, 1.17f, -3.4f, 1.17f)
+                reflectiveCurveToRelative(1.37f, -3.61f, 2.61f, -4.84f)
+                reflectiveCurveToRelative(3.23f, -1.23f, 4.47f, 0f)
+                close()
+                moveTo(24f, 9.03f)
+                verticalLineToRelative(0.07f)
+                curveToRelative(0f, 1.12f, -0.44f, 2.16f, -1.22f, 2.93f)
+                curveToRelative(0.76f, 0.76f, 1.22f, 1.81f, 1.22f, 2.94f)
+                curveToRelative(0f, 1.07f, -0.41f, 2.07f, -1.17f, 2.83f)
+                curveToRelative(-0.17f, 0.17f, -0.37f, 0.33f, -0.57f, 0.47f)
+                curveToRelative(0.48f, 1.01f, 0.74f, 2.11f, 0.74f, 3.24f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.94f, -0.31f, -1.84f, -0.85f, -2.6f)
+                curveToRelative(-0.52f, -0.05f, -1.03f, -0.12f, -1.53f, -0.21f)
+                curveToRelative(0.25f, 0.81f, 0.38f, 1.65f, 0.38f, 2.5f)
+                verticalLineToRelative(2.81f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2.81f)
+                curveToRelative(0f, -1.37f, -0.54f, -2.69f, -1.46f, -3.7f)
+                curveToRelative(-0.41f, -0.17f, -0.82f, -0.35f, -1.21f, -0.53f)
+                curveToRelative(0.43f, 1.12f, 0.67f, 2.32f, 0.67f, 3.53f)
+                verticalLineToRelative(3.52f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3.52f)
+                curveToRelative(0f, -1.82f, -0.74f, -3.59f, -2.03f, -4.87f)
+                lineToRelative(-0.87f, -0.86f)
+                curveToRelative(-1.81f, 0.55f, -4.42f, 0.42f, -5.56f, -0.34f)
+                curveToRelative(-1.57f, -1.06f, -2.0f, -3.17f, -1.0f, -4.76f)
+                curveToRelative(-0.33f, -0.28f, -0.54f, -0.68f, -0.54f, -1.15f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                curveToRelative(0.67f, 0f, 1.24f, 0.45f, 1.43f, 1.06f)
+                curveToRelative(0.82f, -0.14f, 1.68f, 0.02f, 2.43f, 0.49f)
+                curveToRelative(0.36f, -1.0f, 1.08f, -1.81f, 2.04f, -2.27f)
+                curveToRelative(0.52f, -0.25f, 1.06f, -0.38f, 1.61f, -0.4f)
+                curveToRelative(-0.01f, -0.21f, -0.01f, -0.42f, 0.01f, -0.63f)
+                curveToRelative(0.16f, -1.45f, 1.0f, -2.62f, 2.25f, -3.21f)
+                curveToRelative(0.86f, -0.4f, 1.8f, -0.47f, 2.68f, -0.24f)
+                curveToRelative(0.83f, -0.81f, 2.38f, -1.78f, 5.04f, -1.78f)
+                horizontalLineToRelative(4.98f)
+                lineToRelative(0.02f, 1.48f)
+                curveToRelative(0.02f, 1.54f, -0.5f, 3.1f, -1.45f, 4.43f)
+                curveToRelative(0.9f, 0.77f, 1.45f, 1.89f, 1.45f, 3.12f)
+                close()
+                moveTo(19f, 3f)
+                curveToRelative(-0.91f, 0f, -1.58f, 0.16f, -2.06f, 0.37f)
+                curveToRelative(0.9f, 0.48f, 1.82f, 0.9f, 2.8f, 1.25f)
+                curveToRelative(0.44f, -0.49f, 0.78f, -1.05f, 1.0f, -1.62f)
+                close()
+                moveTo(12.32f, 6.37f)
+                curveToRelative(1.26f, 1.08f, 3.89f, 2.72f, 7.15f, 3.81f)
+                curveToRelative(0.76f, 0.21f, 1.52f, -0.19f, 1.53f, -1.15f)
+                curveToRelative(0f, -0.5f, -0.34f, -0.94f, -0.85f, -1.09f)
+                curveToRelative(-2.45f, -0.74f, -4.55f, -1.72f, -6.63f, -3.11f)
+                curveToRelative(-0.31f, -0.22f, -0.72f, -0.21f, -0.97f, -0.08f)
+                curveToRelative(-0.52f, 0.11f, -0.76f, 1.29f, -0.23f, 1.63f)
+                close()
+                moveTo(8.11f, 9.84f)
+                curveToRelative(-0.04f, 0.41f, 0.09f, 0.73f, 0.34f, 0.96f)
+                curveToRelative(1.6f, 1.42f, 5.9f, 4.76f, 11.43f, 5.17f)
+                curveToRelative(0.59f, 0.06f, 1.13f, -0.4f, 1.12f, -0.99f)
+                curveToRelative(0f, -0.53f, -0.34f, -0.99f, -0.84f, -1.13f)
+                curveToRelative(-4.88f, -1.34f, -7.28f, -2.77f, -10.4f, -4.8f)
+                curveToRelative(-0.73f, -0.38f, -1.46f, -0.16f, -1.65f, 0.8f)
+                close()
+            }
+        }.also { _HermitCrab = it}

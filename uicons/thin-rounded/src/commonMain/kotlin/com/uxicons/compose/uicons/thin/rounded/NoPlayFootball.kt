@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _NoPlayFootball: ImageVector? = null
+
+val Icons.Tr.NoPlayFootball: ImageVector
+    get() = _NoPlayFootball ?: UXIcon(name = "NoPlayFootball") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11f, 7f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(11f, 4f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(8f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(8f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(12f, 0f)
+                curveToRelative(-6.62f, 0f, -12f, 5.38f, -12f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveToRelative(-5.38f, -12f, -12f, -12f)
+                close()
+                moveTo(23f, 12f)
+                curveToRelative(0f, 2.85f, -1.1f, 5.45f, -2.89f, 7.4f)
+                lineToRelative(-3.4f, -3.4f)
+                horizontalLineToRelative(2.29f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-2.7f)
+                curveToRelative(-0.19f, 0f, -0.37f, -0.11f, -0.45f, -0.29f)
+                lineToRelative(-2.69f, -5.71f)
+                horizontalLineToRelative(4.85f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-7.3f)
+                curveToRelative(-0.54f, 0f, -1.06f, 0.18f, -1.49f, 0.5f)
+                lineToRelative(-4.61f, -4.61f)
+                curveToRelative(1.96f, -1.79f, 4.55f, -2.89f, 7.4f, -2.89f)
+                curveToRelative(6.07f, 0f, 11f, 4.93f, 11f, 11f)
+                close()
+                moveTo(12.05f, 9f)
+                lineTo(14.14f, 13.43f)
+                lineTo(9.94f, 9.23f)
+                curveToRelative(0.23f, -0.14f, 0.49f, -0.23f, 0.76f, -0.23f)
+                close()
+                moveTo(1f, 12f)
+                curveToRelative(0f, -2.85f, 1.1f, -5.45f, 2.89f, -7.4f)
+                lineToRelative(15.52f, 15.52f)
+                curveToRelative(-1.96f, 1.79f, -4.55f, 2.89f, -7.4f, 2.89f)
+                curveToRelative(-6.07f, 0f, -11f, -4.93f, -11f, -11f)
+                close()
+                moveTo(12f, 15.54f)
+                verticalLineToRelative(2.96f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-3.96f)
+                close()
+                moveTo(7.57f, 11.11f)
+                lineTo(6.0f, 12.32f)
+                curveToRelative(-0.22f, 0.17f, -0.53f, 0.13f, -0.7f, -0.09f)
+                curveToRelative(-0.17f, -0.22f, -0.13f, -0.53f, 0.09f, -0.7f)
+                lineToRelative(1.47f, -1.13f)
+                lineToRelative(0.71f, 0.71f)
+                close()
+            }
+        }.also { _NoPlayFootball = it}

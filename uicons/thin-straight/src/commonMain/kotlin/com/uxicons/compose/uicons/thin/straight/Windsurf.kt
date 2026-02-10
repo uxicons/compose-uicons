@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Windsurf: ImageVector? = null
+
+val Icons.Ts.Windsurf: ImageVector
+    get() = _Windsurf ?: UXIcon(name = "Windsurf") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.95f, 0f)
+                horizontalLineToRelative(-0.61f)
+                lineToRelative(3.63f, 18.1f)
+                lineToRelative(10.01f, -2.23f)
+                verticalLineToRelative(-0.4f)
+                curveToRelative(-0.0f, -9.39f, -9.68f, -15.47f, -13.03f, -15.47f)
+                close()
+                moveTo(14.75f, 16.9f)
+                lineTo(11.58f, 1.08f)
+                curveToRelative(3.11f, 0.69f, 11.14f, 5.82f, 11.39f, 13.98f)
+                close()
+                moveTo(2f, 6f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(2f, 3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(0.53f, 12.31f)
+                curveToRelative(0.21f, 1.11f, 0.92f, 2.42f, 2.29f, 2.77f)
+                lineToRelative(4.6f, 0.97f)
+                lineToRelative(0.77f, 4.04f)
+                lineToRelative(0.98f, -0.19f)
+                lineToRelative(-0.89f, -4.7f)
+                lineToRelative(-3.06f, -0.65f)
+                lineToRelative(-1.15f, -6.05f)
+                lineToRelative(2.5f, 0.9f)
+                lineToRelative(3.96f, -0.75f)
+                lineToRelative(-0.19f, -0.98f)
+                lineToRelative(-3.69f, 0.7f)
+                lineToRelative(-2.85f, -1.03f)
+                curveToRelative(-0.68f, -0.27f, -1.25f, -0.46f, -1.97f, -0.32f)
+                curveToRelative(-1.24f, 0.21f, -2.04f, 1.49f, -1.79f, 2.71f)
+                lineToRelative(0.49f, 2.57f)
+                close()
+                moveTo(1.21f, 8.55f)
+                curveToRelative(0.18f, -0.28f, 0.47f, -0.48f, 0.81f, -0.54f)
+                curveToRelative(0.33f, -0.06f, 0.61f, -0.01f, 0.96f, 0.1f)
+                lineToRelative(1.18f, 6.23f)
+                lineToRelative(-1.11f, -0.23f)
+                curveToRelative(-0.9f, -0.23f, -1.39f, -1.21f, -1.53f, -1.98f)
+                lineToRelative(-0.49f, -2.57f)
+                curveToRelative(-0.07f, -0.36f, -0.0f, -0.72f, 0.18f, -1.0f)
+                close()
+                moveTo(23.61f, 22.79f)
+                lineTo(23.98f, 23.72f)
+                curveToRelative(-0.47f, 0.19f, -0.97f, 0.28f, -1.48f, 0.28f)
+                curveToRelative(-1.5f, 0f, -2.82f, -0.83f, -3.5f, -2.06f)
+                curveToRelative(-0.68f, 1.23f, -2.0f, 2.06f, -3.5f, 2.06f)
+                reflectiveCurveToRelative(-2.82f, -0.83f, -3.5f, -2.06f)
+                curveToRelative(-0.68f, 1.23f, -2.0f, 2.06f, -3.5f, 2.06f)
+                reflectiveCurveToRelative(-2.82f, -0.83f, -3.5f, -2.06f)
+                curveToRelative(-0.68f, 1.23f, -2.0f, 2.06f, -3.5f, 2.06f)
+                curveToRelative(-0.51f, 0f, -1.01f, -0.1f, -1.48f, -0.28f)
+                lineToRelative(0.37f, -0.93f)
+                curveToRelative(0.35f, 0.14f, 0.72f, 0.21f, 1.11f, 0.21f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                curveToRelative(0.38f, 0f, 0.76f, -0.07f, 1.11f, -0.21f)
+                close()
+            }
+        }.also { _Windsurf = it}

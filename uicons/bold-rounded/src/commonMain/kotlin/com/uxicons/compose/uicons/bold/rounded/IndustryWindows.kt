@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _IndustryWindows: ImageVector? = null
+
+val Icons.Br.IndustryWindows: ImageVector
+    get() = _IndustryWindows ?: UXIcon(name = "IndustryWindows") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(22.75f, 7.22f)
+            curveToRelative(-0.77f, -0.37f, -1.66f, -0.27f, -2.33f, 0.27f)
+            curveToRelative(-0.04f, 0.03f, -1.44f, 1.42f, -1.44f, 1.42f)
+            curveToRelative(-0.1f, -0.73f, -0.55f, -1.36f, -1.23f, -1.69f)
+            curveToRelative(-0.77f, -0.37f, -1.66f, -0.27f, -2.33f, 0.27f)
+            curveToRelative(-0.04f, 0.03f, -1.44f, 1.42f, -1.44f, 1.42f)
+            curveToRelative(-0.1f, -0.73f, -0.55f, -1.36f, -1.23f, -1.69f)
+            curveToRelative(-0.77f, -0.37f, -1.66f, -0.27f, -2.33f, 0.27f)
+            curveToRelative(-0.06f, 0.05f, -1.69f, 1.84f, -1.69f, 1.84f)
+            lineToRelative(-1.51f, -6.96f)
+            curveToRelative(-0.3f, -1.37f, -1.53f, -2.37f, -2.93f, -2.37f)
+            horizontalLineToRelative(-1.29f)
+            curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+            verticalLineToRelative(15.5f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            lineTo(24f, 9.2f)
+            curveToRelative(0f, -0.85f, -0.48f, -1.61f, -1.25f, -1.99f)
+            close()
+            moveTo(21f, 18.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            lineTo(5.5f, 21f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            lineTo(3f, 3f)
+            horizontalLineToRelative(1.29f)
+            lineToRelative(2.13f, 9.82f)
+            curveToRelative(0.12f, 0.55f, 0.54f, 0.99f, 1.08f, 1.13f)
+            reflectiveCurveToRelative(1.12f, -0.03f, 1.5f, -0.44f)
+            lineToRelative(2.0f, -2.22f)
+            verticalLineToRelative(1.21f)
+            curveToRelative(0f, 0.61f, 0.36f, 1.15f, 0.93f, 1.39f)
+            curveToRelative(0.56f, 0.23f, 1.2f, 0.1f, 1.63f, -0.32f)
+            lineToRelative(2.44f, -2.43f)
+            verticalLineToRelative(1.37f)
+            curveToRelative(0f, 0.61f, 0.36f, 1.15f, 0.93f, 1.39f)
+            curveToRelative(0.56f, 0.23f, 1.2f, 0.1f, 1.63f, -0.32f)
+            lineToRelative(2.44f, -2.43f)
+            verticalLineToRelative(7.37f)
+            close()
+            moveTo(9f, 17f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(14f, 17f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(18f, 16f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            close()
+        }
+    }.also { _IndustryWindows = it }

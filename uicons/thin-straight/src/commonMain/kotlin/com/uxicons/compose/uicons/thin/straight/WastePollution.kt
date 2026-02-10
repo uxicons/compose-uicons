@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WastePollution: ImageVector? = null
+
+val Icons.Ts.WastePollution: ImageVector
+    get() = _WastePollution ?: UXIcon(name = "WastePollution") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 2.5f)
+                verticalLineToRelative(15.5f)
+                horizontalLineToRelative(-1f)
+                lineTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 1f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(15.5f)
+                lineTo(0f, 18f)
+                lineTo(0f, 2.5f)
+                curveTo(0f, 1.12f, 1.12f, 0f, 2.5f, 0f)
+                horizontalLineToRelative(19f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(18f, 17.27f)
+                curveToRelative(1.24f, -1.41f, 2f, -3.25f, 2f, -5.27f)
+                curveToRelative(0f, -4.41f, -3.59f, -8f, -8f, -8f)
+                reflectiveCurveTo(4f, 7.59f, 4f, 12f)
+                curveToRelative(0f, 2.02f, 0.76f, 3.86f, 2f, 5.27f)
+                verticalLineToRelative(-1.69f)
+                curveToRelative(-0.63f, -1.05f, -1f, -2.27f, -1f, -3.59f)
+                curveToRelative(0f, -3.86f, 3.14f, -7f, 7f, -7f)
+                reflectiveCurveToRelative(7f, 3.14f, 7f, 7f)
+                curveToRelative(0f, 1.31f, -0.37f, 2.54f, -1f, 3.59f)
+                verticalLineToRelative(1.69f)
+                close()
+                moveTo(24f, 22.95f)
+                verticalLineToRelative(1f)
+                curveToRelative(-1.06f, -0.15f, -1.97f, -0.78f, -2.5f, -1.67f)
+                curveToRelative(-0.61f, 1.02f, -1.72f, 1.72f, -3.0f, 1.72f)
+                curveToRelative(-1.36f, 0f, -2.52f, -0.78f, -3.1f, -1.92f)
+                curveToRelative(-0.7f, 1.14f, -1.96f, 1.92f, -3.4f, 1.92f)
+                reflectiveCurveToRelative(-2.69f, -0.77f, -3.4f, -1.92f)
+                curveToRelative(-0.58f, 1.13f, -1.75f, 1.92f, -3.1f, 1.92f)
+                curveToRelative(-1.28f, 0f, -2.38f, -0.69f, -3.0f, -1.72f)
+                curveToRelative(-0.53f, 0.88f, -1.44f, 1.51f, -2.5f, 1.67f)
+                verticalLineToRelative(-1f)
+                curveToRelative(1.14f, -0.23f, 2f, -1.24f, 2f, -2.45f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-8.02f)
+                lineToRelative(0.15f, -0.15f)
+                curveToRelative(0.05f, -0.05f, 1.34f, -1.31f, 3.85f, -1.31f)
+                reflectiveCurveToRelative(3.8f, 1.26f, 3.85f, 1.31f)
+                lineToRelative(0.15f, 0.15f)
+                verticalLineToRelative(8.02f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.21f, 0.86f, 2.22f, 2f, 2.45f)
+                close()
+                moveTo(15f, 20.0f)
+                verticalLineToRelative(-7.08f)
+                curveToRelative(-0.35f, -0.27f, -1.34f, -0.9f, -3f, -0.9f)
+                reflectiveCurveToRelative(-2.65f, 0.62f, -3f, 0.9f)
+                verticalLineToRelative(7.08f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                close()
+                moveTo(10f, 19.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(13f, 20.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(6f)
+                close()
+            }
+        }.also { _WastePollution = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CookieLock: ImageVector? = null
+
+val Icons.Ts.CookieLock: ImageVector
+    get() = _CookieLock ?: UXIcon(name = "CookieLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 15f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(6.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-6.5f)
+                close()
+                moveTo(16f, 13.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(23f, 21.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-5.5f)
+                horizontalLineToRelative(9f)
+                close()
+                moveTo(19f, 20.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(14.61f, 6.28f)
+                curveToRelative(-1.08f, -1.57f, -1.77f, -3.38f, -2.0f, -5.26f)
+                curveToRelative(-0.2f, -0.01f, -0.4f, -0.02f, -0.6f, -0.02f)
+                curveToRelative(-5.5f, 0f, -11f, 4.93f, -11f, 11f)
+                curveToRelative(0f, 4.58f, 2.88f, 8.72f, 7.17f, 10.32f)
+                curveToRelative(0.99f, 0.37f, 2.03f, 0.58f, 3.09f, 0.65f)
+                curveToRelative(0.12f, 0.36f, 0.28f, 0.72f, 0.49f, 1.03f)
+                curveToRelative(-1.35f, -0.03f, -2.67f, -0.28f, -3.93f, -0.75f)
+                curveToRelative(-4.68f, -1.74f, -7.83f, -6.26f, -7.83f, -11.25f)
+                curveToRelative(0f, -6.62f, 5.5f, -12f, 12f, -12f)
+                curveToRelative(0.5f, 0f, 1.02f, 0.05f, 1.51f, 0.09f)
+                lineToRelative(0.04f, 0.41f)
+                curveToRelative(0.17f, 1.86f, 0.82f, 3.67f, 1.88f, 5.21f)
+                curveToRelative(0.62f, 0.91f, 1.37f, 1.69f, 2.21f, 2.36f)
+                curveToRelative(-0.41f, 0.06f, -0.8f, 0.17f, -1.17f, 0.32f)
+                curveToRelative(-0.69f, -0.62f, -1.32f, -1.32f, -1.86f, -2.11f)
+                close()
+                moveTo(10f, 10f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(17f, 1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(20f, 6f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(10f, 14f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _CookieLock = it}

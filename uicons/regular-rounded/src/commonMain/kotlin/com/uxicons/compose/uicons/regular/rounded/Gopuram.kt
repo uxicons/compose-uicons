@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Gopuram: ImageVector? = null
+
+val Icons.Rr.Gopuram: ImageVector
+    get() = _Gopuram ?: UXIcon(name = "Gopuram") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 16.56f)
+                verticalLineToRelative(-3.56f)
+                curveToRelative(0f, -1.47f, -0.81f, -2.75f, -2f, -3.44f)
+                lineTo(20f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(8.56f)
+                curveToRelative(-1.19f, 0.69f, -2f, 1.97f, -2f, 3.44f)
+                verticalLineToRelative(3.56f)
+                curveToRelative(-1.19f, 0.69f, -2f, 1.97f, -2f, 3.44f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(16f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.47f, -0.81f, -2.75f, -2f, -3.44f)
+                close()
+                moveTo(6f, 4f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-5f)
+                close()
+                moveTo(14f, 16f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(12f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(14f, 22f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                close()
+            }
+        }.also { _Gopuram = it}

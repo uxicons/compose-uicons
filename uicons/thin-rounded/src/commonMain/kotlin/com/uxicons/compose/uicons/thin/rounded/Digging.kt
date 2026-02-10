@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Digging: ImageVector? = null
+
+val Icons.Tr.Digging: ImageVector
+    get() = _Digging ?: UXIcon(name = "Digging") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.8f, 20.87f)
+                lineToRelative(-2.51f, -5.53f)
+                curveToRelative(-0.34f, -0.76f, -1.04f, -1.25f, -1.87f, -1.33f)
+                curveToRelative(-0.83f, -0.07f, -1.61f, 0.28f, -2.09f, 0.96f)
+                lineToRelative(-1.75f, 2.48f)
+                lineToRelative(-10.26f, -6.23f)
+                lineToRelative(1.16f, -3.25f)
+                curveToRelative(0.14f, -0.4f, 0.45f, -0.72f, 0.85f, -0.88f)
+                curveToRelative(0.17f, -0.07f, 0.35f, -0.11f, 0.55f, -0.11f)
+                curveToRelative(0.23f, 0f, 0.46f, 0.06f, 0.67f, 0.16f)
+                lineToRelative(0.78f, 0.34f)
+                curveToRelative(0.85f, 0.42f, 1.46f, 1.1f, 1.76f, 1.94f)
+                lineToRelative(1.45f, 4.09f)
+                curveToRelative(0.09f, 0.26f, 0.38f, 0.4f, 0.64f, 0.3f)
+                curveToRelative(0.26f, -0.09f, 0.39f, -0.38f, 0.3f, -0.64f)
+                lineToRelative(-1.46f, -4.11f)
+                curveToRelative(-0.39f, -1.07f, -1.17f, -1.95f, -2.2f, -2.47f)
+                lineToRelative(-0.78f, -0.34f)
+                curveToRelative(-0.68f, -0.34f, -1.43f, -0.37f, -2.09f, -0.1f)
+                curveToRelative(-0.66f, 0.27f, -1.18f, 0.8f, -1.42f, 1.47f)
+                lineToRelative(-1.09f, 3.06f)
+                lineToRelative(-2.68f, -1.62f)
+                curveToRelative(-0.23f, -0.14f, -0.54f, -0.07f, -0.69f, 0.17f)
+                curveToRelative(-0.14f, 0.24f, -0.07f, 0.54f, 0.17f, 0.69f)
+                lineToRelative(13.75f, 8.35f)
+                lineToRelative(-1.57f, 2.22f)
+                curveToRelative(-0.49f, 0.69f, -0.55f, 1.6f, -0.16f, 2.35f)
+                curveToRelative(0.4f, 0.76f, 1.18f, 1.24f, 2.04f, 1.24f)
+                horizontalLineToRelative(6.41f)
+                curveToRelative(0.79f, 0f, 1.51f, -0.39f, 1.93f, -1.05f)
+                curveToRelative(0.42f, -0.65f, 0.48f, -1.46f, 0.16f, -2.17f)
+                close()
+                moveTo(22.8f, 22.49f)
+                curveToRelative(-0.24f, 0.37f, -0.65f, 0.59f, -1.09f, 0.59f)
+                horizontalLineToRelative(-6.41f)
+                curveToRelative(-0.49f, 0f, -0.92f, -0.26f, -1.15f, -0.69f)
+                curveToRelative(-0.22f, -0.43f, -0.19f, -0.92f, 0.09f, -1.31f)
+                lineToRelative(3.9f, -5.53f)
+                curveToRelative(0.25f, -0.35f, 0.63f, -0.55f, 1.05f, -0.55f)
+                curveToRelative(0.52f, 0f, 0.99f, 0.33f, 1.19f, 0.76f)
+                lineToRelative(2.51f, 5.53f)
+                curveToRelative(0.18f, 0.4f, 0.15f, 0.84f, -0.09f, 1.21f)
+                close()
+                moveTo(10f, 17.5f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(4.47f, 14.67f)
+                lineToRelative(-3.19f, 9f)
+                curveToRelative(-0.07f, 0.2f, -0.27f, 0.33f, -0.47f, 0.33f)
+                curveToRelative(-0.06f, 0f, -0.11f, -0.01f, -0.17f, -0.03f)
+                curveToRelative(-0.26f, -0.09f, -0.4f, -0.38f, -0.3f, -0.64f)
+                lineToRelative(3.19f, -9f)
+                curveToRelative(0.09f, -0.26f, 0.38f, -0.4f, 0.64f, -0.3f)
+                curveToRelative(0.26f, 0.09f, 0.4f, 0.38f, 0.3f, 0.64f)
+                close()
+                moveTo(11.5f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(11.5f, 1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+            }
+        }.also { _Digging = it}

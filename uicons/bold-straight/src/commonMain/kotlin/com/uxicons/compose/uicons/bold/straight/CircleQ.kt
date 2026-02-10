@@ -1,0 +1,51 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleQ: ImageVector? = null
+
+val Icons.Bs.CircleQ: ImageVector
+    get() = _CircleQ ?: UXIcon(name = "CircleQ") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.99f, 13.39f)
+                verticalLineToRelative(-2.78f)
+                curveToRelative(0f, -2.68f, -2.24f, -4.86f, -4.99f, -4.86f)
+                reflectiveCurveToRelative(-5.01f, 2.18f, -5.01f, 4.86f)
+                verticalLineToRelative(2.78f)
+                curveToRelative(0f, 2.68f, 2.25f, 4.86f, 5.01f, 4.86f)
+                curveToRelative(0.9f, 0f, 1.75f, -0.23f, 2.48f, -0.65f)
+                lineToRelative(0.96f, 0.96f)
+                lineToRelative(2.12f, -2.12f)
+                lineToRelative(-1.02f, -1.02f)
+                curveToRelative(0.29f, -0.62f, 0.46f, -1.3f, 0.46f, -2.03f)
+                close()
+                moveTo(12f, 15.25f)
+                curveToRelative(-1.11f, 0f, -2.01f, -0.83f, -2.01f, -1.86f)
+                verticalLineToRelative(-2.78f)
+                curveToRelative(0f, -1.02f, 0.9f, -1.86f, 2.01f, -1.86f)
+                curveToRelative(1.12f, 0f, 1.99f, 0.82f, 1.99f, 1.86f)
+                verticalLineToRelative(2.26f)
+                lineToRelative(-0.43f, -0.43f)
+                lineToRelative(-2.12f, 2.12f)
+                lineToRelative(0.69f, 0.69f)
+                curveToRelative(-0.04f, 0.0f, -0.08f, 0.0f, -0.12f, 0.0f)
+                close()
+                moveTo(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveTo(18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(12f, 21f)
+                curveToRelative(-4.96f, 0f, -9f, -4.04f, -9f, -9f)
+                reflectiveCurveTo(7.04f, 3f, 12f, 3f)
+                reflectiveCurveToRelative(9f, 4.04f, 9f, 9f)
+                reflectiveCurveToRelative(-4.04f, 9f, -9f, 9f)
+                close()
+            }
+        }.also { _CircleQ = it}

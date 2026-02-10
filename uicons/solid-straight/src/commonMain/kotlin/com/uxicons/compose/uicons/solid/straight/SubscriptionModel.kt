@@ -1,0 +1,82 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SubscriptionModel: ImageVector? = null
+
+val Icons.Ss.SubscriptionModel: ImageVector
+    get() = _SubscriptionModel ?: UXIcon(name = "SubscriptionModel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 7.26f)
+                curveToRelative(0f, 1.27f, -1.03f, 2.31f, -2.31f, 2.31f)
+                horizontalLineToRelative(-0.35f)
+                verticalLineToRelative(1.43f)
+                horizontalLineToRelative(-1.7f)
+                verticalLineToRelative(-1.43f)
+                horizontalLineToRelative(-0.21f)
+                curveToRelative(-1.27f, 0f, -2.32f, -0.98f, -2.43f, -2.23f)
+                horizontalLineToRelative(1.72f)
+                curveToRelative(0.09f, 0.31f, 0.38f, 0.53f, 0.71f, 0.53f)
+                horizontalLineToRelative(2.25f)
+                curveToRelative(0.34f, 0f, 0.61f, -0.27f, 0.61f, -0.61f)
+                curveToRelative(0f, -0.29f, -0.21f, -0.54f, -0.49f, -0.6f)
+                lineToRelative(-2.96f, -0.59f)
+                curveToRelative(-1.07f, -0.21f, -1.85f, -1.17f, -1.85f, -2.26f)
+                curveToRelative(0f, -1.27f, 1.03f, -2.31f, 2.31f, -2.31f)
+                horizontalLineToRelative(0.35f)
+                lineTo(19.65f, 0f)
+                horizontalLineToRelative(1.7f)
+                lineTo(21.35f, 1.51f)
+                horizontalLineToRelative(0.21f)
+                curveToRelative(1.27f, 0f, 2.32f, 0.98f, 2.43f, 2.23f)
+                horizontalLineToRelative(-1.72f)
+                curveToRelative(-0.09f, -0.31f, -0.38f, -0.53f, -0.71f, -0.53f)
+                horizontalLineToRelative(-2.26f)
+                curveToRelative(-0.34f, 0f, -0.61f, 0.27f, -0.61f, 0.61f)
+                curveToRelative(0f, 0.29f, 0.21f, 0.54f, 0.49f, 0.6f)
+                lineToRelative(2.96f, 0.59f)
+                curveToRelative(1.07f, 0.21f, 1.85f, 1.17f, 1.85f, 2.26f)
+                close()
+                moveTo(5.5f, 11f)
+                curveTo(2.46f, 11f, 0f, 8.54f, 0f, 5.5f)
+                reflectiveCurveTo(2.46f, 0f, 5.5f, 0f)
+                curveToRelative(2.7f, 0f, 4.93f, 1.94f, 5.41f, 4.5f)
+                horizontalLineToRelative(2.1f)
+                lineTo(13f, 1.75f)
+                lineToRelative(3.09f, 3.16f)
+                curveToRelative(0.33f, 0.33f, 0.33f, 0.85f, 0f, 1.18f)
+                lineToRelative(-3.09f, 3.16f)
+                verticalLineToRelative(-2.75f)
+                horizontalLineToRelative(-2.1f)
+                curveToRelative(-0.47f, 2.56f, -2.71f, 4.5f, -5.41f, 4.5f)
+                close()
+                moveTo(6.21f, 7.44f)
+                lineToRelative(0.0f, -0.0f)
+                lineToRelative(3.04f, -3.19f)
+                lineToRelative(-1.4f, -1.43f)
+                lineToRelative(-3.05f, 3.19f)
+                lineToRelative(-1.92f, -2.0f)
+                lineToRelative(-1.39f, 1.44f)
+                lineToRelative(1.88f, 1.97f)
+                curveToRelative(0.77f, 0.77f, 2.08f, 0.76f, 2.82f, 0.02f)
+                close()
+                moveTo(14f, 12.11f)
+                curveToRelative(0f, -1.0f, -0.68f, -1.92f, -1.66f, -2.08f)
+                curveToRelative(-1.25f, -0.2f, -2.34f, 0.76f, -2.34f, 1.97f)
+                verticalLineToRelative(8.82f)
+                curveToRelative(-1.08f, -0.89f, -2.11f, -1.75f, -2.15f, -1.78f)
+                curveToRelative(-0.92f, -0.86f, -2.37f, -0.81f, -3.23f, 0.11f)
+                curveToRelative(-0.86f, 0.92f, -0.82f, 2.37f, 0.1f, 3.23f)
+                lineToRelative(1.82f, 1.63f)
+                lineTo(23f, 24f)
+                verticalLineToRelative(-4f)
+                lineToRelative(-9f, -3.54f)
+                verticalLineToRelative(-4.36f)
+                close()
+            }
+        }.also { _SubscriptionModel = it}

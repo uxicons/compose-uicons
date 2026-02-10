@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HouseLaptop: ImageVector? = null
+
+val Icons.Rr.HouseLaptop: ImageVector
+    get() = _HouseLaptop ?: UXIcon(name = "HouseLaptop") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 18.77f)
+                verticalLineToRelative(-4.27f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(4.27f)
+                curveToRelative(-0.61f, 0.55f, -1f, 1.35f, -1f, 2.23f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(12f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                curveToRelative(0f, -0.89f, -0.39f, -1.68f, -1f, -2.23f)
+                close()
+                moveTo(9f, 14.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-2.59f)
+                curveToRelative(-0.53f, 0f, -1.04f, 0.21f, -1.41f, 0.59f)
+                lineToRelative(-0.41f, 0.41f)
+                horizontalLineToRelative(-3.17f)
+                lineToRelative(-0.41f, -0.41f)
+                curveToRelative(-0.37f, -0.37f, -0.89f, -0.59f, -1.41f, -0.59f)
+                horizontalLineToRelative(-2.59f)
+                verticalLineToRelative(-3.5f)
+                close()
+                moveTo(21f, 22f)
+                lineTo(9f, 22f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2.59f)
+                lineToRelative(0.41f, 0.41f)
+                curveToRelative(0.37f, 0.37f, 0.89f, 0.59f, 1.41f, 0.59f)
+                horizontalLineToRelative(3.17f)
+                curveToRelative(0.53f, 0f, 1.04f, -0.21f, 1.41f, -0.59f)
+                lineToRelative(0.41f, -0.41f)
+                horizontalLineToRelative(2.59f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(4f, 16f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-5.87f)
+                curveToRelative(0f, -0.93f, 0.42f, -1.79f, 1.15f, -2.36f)
+                lineTo(7.15f, 2.64f)
+                curveToRelative(1.09f, -0.85f, 2.61f, -0.85f, 3.7f, 0f)
+                lineToRelative(4f, 3.13f)
+                curveToRelative(0.5f, 0.39f, 0.85f, 0.91f, 1.03f, 1.51f)
+                curveToRelative(0.16f, 0.53f, 0.71f, 0.84f, 1.24f, 0.68f)
+                curveToRelative(0.53f, -0.16f, 0.83f, -0.71f, 0.68f, -1.24f)
+                curveToRelative(-0.29f, -1.01f, -0.89f, -1.88f, -1.71f, -2.53f)
+                lineToRelative(-0.08f, -0.06f)
+                lineTo(16.01f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1.56f)
+                lineToRelative(-1.92f, -1.5f)
+                curveTo(10.27f, -0.36f, 7.73f, -0.36f, 5.92f, 1.06f)
+                lineTo(1.92f, 4.19f)
+                curveToRelative(-1.22f, 0.95f, -1.92f, 2.39f, -1.92f, 3.94f)
+                verticalLineToRelative(5.87f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(15.99f, 4.12f)
+                horizontalLineToRelative(0f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                close()
+            }
+        }.also { _HouseLaptop = it}

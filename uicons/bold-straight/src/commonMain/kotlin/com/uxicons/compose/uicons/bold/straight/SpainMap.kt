@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SpainMap: ImageVector? = null
+
+val Icons.Bs.SpainMap: ImageVector
+    get() = _SpainMap ?: UXIcon(name = "SpainMap") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21f, 6f)
+                verticalLineToRelative(-1f)
+                lineToRelative(-1.9f, -0.88f)
+                lineToRelative(-3.64f, 0.17f)
+                lineToRelative(-0.52f, -1.01f)
+                reflectiveCurveToRelative(-3.17f, -0.85f, -4.44f, -1.1f)
+                curveToRelative(-0.21f, 0.38f, -1f, 1f, -1f, 1f)
+                lineToRelative(-2.5f, -0.5f)
+                lineToRelative(-2f, -0.5f)
+                lineToRelative(-1.5f, -1f)
+                lineToRelative(-1f, 1.5f)
+                lineTo(0f, 3.68f)
+                lineToRelative(0.5f, 3.01f)
+                lineToRelative(2f, 1f)
+                lineToRelative(2.5f, -0.5f)
+                lineToRelative(0.82f, 1.05f)
+                lineToRelative(-1.82f, 1.95f)
+                verticalLineToRelative(2f)
+                lineToRelative(-1f, 0.5f)
+                lineToRelative(1.5f, 3f)
+                lineToRelative(-1f, 3f)
+                lineToRelative(3.5f, 3.5f)
+                lineToRelative(2.5f, -2.19f)
+                horizontalLineToRelative(4f)
+                lineToRelative(1.5f, -1.5f)
+                lineToRelative(1.5f, -0.5f)
+                lineToRelative(1.95f, -3.0f)
+                lineToRelative(-1.38f, -1.65f)
+                lineToRelative(2.03f, -3.4f)
+                lineToRelative(2.4f, -0.44f)
+                lineToRelative(2.5f, -1.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(13.4f, 13.64f)
+                lineToRelative(1.33f, 1.59f)
+                lineToRelative(-0.17f, 0.26f)
+                lineToRelative(-1.18f, 0.39f)
+                lineToRelative(-1.12f, 1.12f)
+                horizontalLineToRelative(-3.88f)
+                lineToRelative(-1.24f, 1.08f)
+                lineToRelative(-0.2f, -0.2f)
+                lineToRelative(0.81f, -2.42f)
+                lineToRelative(-0.74f, -1.48f)
+                verticalLineToRelative(-2.61f)
+                lineToRelative(2.75f, -2.96f)
+                lineToRelative(-1.95f, -2.5f)
+                lineToRelative(2.46f, 0.49f)
+                reflectiveCurveToRelative(1.14f, -0.9f, 1.17f, -0.92f)
+                curveToRelative(0.48f, 0.12f, 0.98f, 0.25f, 1.45f, 0.37f)
+                lineToRelative(0.79f, 1.53f)
+                lineToRelative(3.72f, -0.17f)
+                lineToRelative(-4.0f, 6.43f)
+                close()
+                moveTo(21f, 15.19f)
+                lineToRelative(2.92f, 2.36f)
+                lineToRelative(-3f, 2.5f)
+                lineToRelative(-2.05f, -2.1f)
+                lineToRelative(2.13f, -2.76f)
+                close()
+                moveTo(18f, 20.19f)
+                lineToRelative(0.52f, 1.16f)
+                lineToRelative(-1.52f, 1.34f)
+                lineToRelative(-1f, -1f)
+                lineToRelative(2f, -1.5f)
+                close()
+                moveTo(22.5f, 11.69f)
+                lineToRelative(1.5f, 1.59f)
+                lineToRelative(-0.5f, 0.91f)
+                lineToRelative(-2f, -1f)
+                lineToRelative(1f, -1.5f)
+                close()
+            }
+        }.also { _SpainMap = it}

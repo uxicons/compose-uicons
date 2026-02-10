@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Chess: ImageVector? = null
+
+val Icons.Rs.Chess: ImageVector
+    get() = _Chess ?: UXIcon(name = "Chess") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 18.18f)
+                lineTo(22f, 11f)
+                horizontalLineToRelative(1f)
+                lineTo(23f, 7f)
+                lineTo(21f, 7f)
+                lineTo(21f, 9f)
+                lineTo(19f, 9f)
+                lineTo(19f, 7f)
+                lineTo(17f, 7f)
+                lineTo(17f, 9f)
+                lineTo(15f, 9f)
+                lineTo(15f, 7f)
+                lineTo(13f, 7f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(6.03f)
+                arcTo(4.99f, 4.99f, 0f, isMoreThanHalf = false, isPositiveArc = true, 15.9f, 20f)
+                horizontalLineToRelative(5.08f)
+                arcTo(0.96f, 0.96f, 0f, isMoreThanHalf = false, isPositiveArc = true, 22f, 21f)
+                verticalLineToRelative(1f)
+                lineTo(16f, 22f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                lineTo(24f, 21f)
+                arcTo(2.93f, 2.93f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22f, 18.18f)
+                close()
+                moveTo(16f, 11f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(7f)
+                lineTo(16f, 18f)
+                close()
+                moveTo(11.77f, 18.11f)
+                arcTo(42.38f, 42.38f, 0f, isMoreThanHalf = false, isPositiveArc = true, 10.03f, 9f)
+                lineTo(11f, 9f)
+                lineTo(11f, 7f)
+                horizontalLineToRelative(-0.37f)
+                lineToRelative(1.27f, -2.59f)
+                arcToRelative(1.8f, 1.8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.7f, -2.4f)
+                lineTo(8.01f, 2.01f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                lineTo(3.81f, 2.01f)
+                arcToRelative(1.8f, 1.8f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.7f, 2.4f)
+                lineTo(3.39f, 7f)
+                lineTo(3f, 7f)
+                lineTo(3f, 9f)
+                horizontalLineToRelative(0.97f)
+                arcTo(41.98f, 41.98f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.23f, 18.11f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 21f)
+                verticalLineToRelative(3f)
+                lineTo(14f, 24f)
+                lineTo(14f, 21f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 11.77f, 18.11f)
+                close()
+                moveTo(4.14f, 4.01f)
+                horizontalLineToRelative(5.74f)
+                lineTo(8.4f, 7f)
+                lineTo(5.62f, 7f)
+                close()
+                moveTo(8.03f, 9f)
+                arcToRelative(42.26f, 42.26f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.63f, 9f)
+                lineTo(4.35f, 18f)
+                arcTo(41.87f, 41.87f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.98f, 9f)
+                close()
+                moveTo(12f, 22f)
+                lineTo(2f, 22f)
+                lineTo(2f, 21f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, -1f)
+                horizontalLineToRelative(8f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, 1f)
+                close()
+            }
+        }.also { _Chess = it}

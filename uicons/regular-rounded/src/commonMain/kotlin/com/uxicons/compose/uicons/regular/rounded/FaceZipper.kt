@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FaceZipper: ImageVector? = null
+
+val Icons.Rr.FaceZipper: ImageVector
+    get() = _FaceZipper ?: UXIcon(name = "FaceZipper") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(8.5f, 11f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(15.5f, 8f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                curveToRelative(1.92f, 0f, 3.76f, -0.44f, 5.46f, -1.31f)
+                curveToRelative(0.49f, -0.25f, 0.69f, -0.85f, 0.44f, -1.35f)
+                reflectiveCurveToRelative(-0.85f, -0.69f, -1.35f, -0.44f)
+                curveToRelative(-1.42f, 0.72f, -2.94f, 1.09f, -4.54f, 1.09f)
+                curveToRelative(-5.51f, 0f, -10f, -4.49f, -10f, -10f)
+                reflectiveCurveTo(6.49f, 2f, 12f, 2f)
+                reflectiveCurveToRelative(10f, 4.49f, 10f, 10f)
+                curveToRelative(0f, 0.61f, -0.06f, 1.22f, -0.17f, 1.82f)
+                curveToRelative(-0.1f, 0.54f, 0.26f, 1.06f, 0.8f, 1.16f)
+                curveToRelative(0.55f, 0.1f, 1.06f, -0.26f, 1.16f, -0.8f)
+                curveToRelative(0.13f, -0.71f, 0.2f, -1.45f, 0.2f, -2.18f)
+                curveTo(24f, 5.38f, 18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(6f, 15f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(10f, 18f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(12f, 15f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(15f, 15f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(19.98f, 16.34f)
+                lineToRelative(-0.56f, -0.25f)
+                curveToRelative(-0.37f, -0.17f, -0.82f, -0.09f, -1.11f, 0.2f)
+                curveToRelative(-0.29f, 0.29f, -0.38f, 0.73f, -0.22f, 1.11f)
+                curveToRelative(1.15f, 2.66f, 1.38f, 2.89f, 1.5f, 3.02f)
+                curveToRelative(0.39f, 0.39f, 0.9f, 0.58f, 1.41f, 0.58f)
+                reflectiveCurveToRelative(1.02f, -0.2f, 1.41f, -0.58f)
+                curveToRelative(0.78f, -0.78f, 0.78f, -2.05f, 0f, -2.83f)
+                curveToRelative(-0.25f, -0.25f, -0.71f, -0.48f, -2.44f, -1.25f)
+                close()
+            }
+        }.also { _FaceZipper = it}

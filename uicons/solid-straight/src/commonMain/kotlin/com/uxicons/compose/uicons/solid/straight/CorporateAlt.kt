@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CorporateAlt: ImageVector? = null
+
+val Icons.Ss.CorporateAlt: ImageVector
+    get() = _CorporateAlt ?: UXIcon(name = "CorporateAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 18f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-12f)
+                close()
+                moveTo(19f, 20f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(10f, 24f)
+                lineTo(0f, 24f)
+                lineTo(0f, 3f)
+                curveTo(0f, 1.35f, 1.35f, 0f, 3f, 0f)
+                horizontalLineToRelative(10f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(7.04f)
+                curveToRelative(-1.24f, 0.18f, -2.28f, 1.01f, -2.74f, 2.14f)
+                curveToRelative(-1.88f, 0.54f, -3.26f, 2.27f, -3.26f, 4.33f)
+                verticalLineToRelative(7.5f)
+                close()
+                moveTo(9f, 7f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(9f, 11f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(7f, 17f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(7f, 13f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(7f, 9f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(7f, 5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _CorporateAlt = it}

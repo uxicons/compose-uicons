@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FaceExplode: ImageVector? = null
+
+val Icons.Br.FaceExplode: ImageVector
+    get() = _FaceExplode ?: UXIcon(name = "FaceExplode") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(8f, 16f)
+            curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+            reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+            reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+            reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+            close()
+            moveTo(12.22f, 24.0f)
+            curveToRelative(-0.07f, 0f, 0.07f, 0f, 0f, 0f)
+            horizontalLineToRelative(0f)
+            close()
+            moveTo(12.0f, 16f)
+            curveToRelative(-1.44f, 0f, -2.6f, 1.15f, -2.97f, 2.22f)
+            curveToRelative(-0.13f, 0.38f, 0.17f, 0.78f, 0.57f, 0.78f)
+            curveToRelative(1.16f, 0f, 3.64f, 0f, 4.79f, 0f)
+            curveToRelative(0.4f, 0f, 0.71f, -0.39f, 0.58f, -0.78f)
+            curveToRelative(-0.36f, -1.07f, -1.53f, -2.22f, -2.96f, -2.22f)
+            close()
+            moveTo(16f, 12f)
+            curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+            reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+            reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+            reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+            close()
+            moveTo(12.22f, 24.0f)
+            curveToRelative(-3.17f, 0f, -6.37f, -1.21f, -8.63f, -3.44f)
+            curveTo(1.28f, 18.29f, 0f, 15.25f, 0f, 12f)
+            lineToRelative(-0.0f, -3.02f)
+            curveTo(-0.0f, 8.19f, 0.47f, 7.48f, 1.2f, 7.17f)
+            curveToRelative(0.72f, -0.3f, 1.55f, -0.15f, 2.11f, 0.39f)
+            curveToRelative(0.36f, 0.35f, 1.0f, 0.44f, 1.11f, 0.45f)
+            horizontalLineToRelative(5.13f)
+            curveToRelative(0.25f, 0f, 0.46f, -0.2f, 0.46f, -0.46f)
+            verticalLineToRelative(-0.55f)
+            curveToRelative(0f, -2f, -1.64f, -2f, -1.64f, -2f)
+            curveToRelative(-0.07f, 0.04f, -0.71f, 1f, -1.86f, 1f)
+            curveToRelative(-1.56f, 0f, -2.79f, -1.44f, -2.44f, -3.06f)
+            curveToRelative(0.18f, -0.81f, 0.79f, -1.49f, 1.57f, -1.78f)
+            curveToRelative(0.72f, -0.27f, 1.38f, -0.18f, 1.94f, 0.09f)
+            curveToRelative(0.55f, -0.75f, 1.43f, -1.25f, 2.43f, -1.25f)
+            curveToRelative(0.77f, 0f, 1.47f, 0.3f, 2f, 0.78f)
+            curveToRelative(0.53f, -0.48f, 1.23f, -0.78f, 2f, -0.78f)
+            curveToRelative(1.0f, 0f, 1.88f, 0.5f, 2.43f, 1.25f)
+            curveToRelative(0.33f, -0.16f, 0.69f, -0.25f, 1.07f, -0.25f)
+            curveToRelative(1.6f, 0f, 2.85f, 1.5f, 2.41f, 3.17f)
+            curveToRelative(-0.21f, 0.79f, -0.83f, 1.45f, -1.61f, 1.7f)
+            curveToRelative(-1.03f, 0.33f, -1.99f, -0.22f, -2.61f, -0.87f)
+            curveToRelative(-0.01f, -0.0f, -1.69f, 0f, -1.69f, 2f)
+            verticalLineToRelative(0.55f)
+            curveToRelative(0f, 0.25f, 0.2f, 0.45f, 0.46f, 0.45f)
+            horizontalLineToRelative(5.18f)
+            curveToRelative(0.12f, -0.01f, 0.7f, -0.11f, 1.04f, -0.44f)
+            curveToRelative(0.57f, -0.53f, 1.4f, -0.68f, 2.12f, -0.37f)
+            curveToRelative(0.73f, 0.32f, 1.2f, 1.03f, 1.21f, 1.82f)
+            lineToRelative(0.0f, 2.63f)
+            curveToRelative(0f, 6.69f, -5.28f, 12.23f, -11.78f, 12.35f)
+            close()
+            moveTo(21f, 11.65f)
+            verticalLineToRelative(-0.9f)
+            curveToRelative(-0.67f, 0.22f, -1.21f, 0.25f, -1.31f, 0.25f)
+            horizontalLineToRelative(-5.24f)
+            curveToRelative(-0.96f, 0f, -1.83f, -0.39f, -2.46f, -1.02f)
+            curveToRelative(-0.63f, 0.63f, -1.5f, 1.02f, -2.46f, 1.02f)
+            lineTo(4.36f, 11f)
+            curveToRelative(-0.13f, -0.0f, -0.69f, -0.03f, -1.36f, -0.25f)
+            verticalLineToRelative(1.25f)
+            curveToRelative(0.0f, 2.44f, 0.96f, 4.72f, 2.7f, 6.42f)
+            curveToRelative(1.74f, 1.71f, 4.02f, 2.62f, 6.47f, 2.58f)
+            curveToRelative(4.87f, -0.09f, 8.83f, -4.28f, 8.83f, -9.35f)
+            close()
+        }
+    }.also { _FaceExplode = it }

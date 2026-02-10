@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PptFile: ImageVector? = null
+
+val Icons.Sr.PptFile: ImageVector
+    get() = _PptFile ?: UXIcon(name = "PptFile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.21f, 5.92f)
+                curveToRelative(0f, 0.4f, -0.35f, 0.73f, -0.76f, 0.73f)
+                lineToRelative(-0.71f, 0.0f)
+                lineToRelative(-0.01f, -1.47f)
+                horizontalLineToRelative(0.71f)
+                curveToRelative(0.41f, 0f, 0.76f, 0.34f, 0.76f, 0.73f)
+                close()
+                moveTo(18f, 19f)
+                verticalLineToRelative(4.54f)
+                curveToRelative(0.91f, -0.35f, 1.75f, -0.88f, 2.46f, -1.59f)
+                lineToRelative(1.48f, -1.49f)
+                curveToRelative(0.71f, -0.71f, 1.25f, -1.55f, 1.59f, -2.46f)
+                horizontalLineToRelative(-4.54f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(5.97f, 5.18f)
+                horizontalLineToRelative(-0.71f)
+                lineToRelative(0.01f, 1.47f)
+                lineToRelative(0.71f, -0.0f)
+                curveToRelative(0.41f, 0f, 0.76f, -0.34f, 0.76f, -0.73f)
+                reflectiveCurveToRelative(-0.35f, -0.73f, -0.76f, -0.73f)
+                close()
+                moveTo(24f, 5f)
+                verticalLineToRelative(10.52f)
+                curveToRelative(0f, 0.16f, -0.01f, 0.32f, -0.02f, 0.48f)
+                horizontalLineToRelative(-4.98f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(4.98f)
+                curveToRelative(-0.16f, 0.01f, -0.32f, 0.02f, -0.48f, 0.02f)
+                lineTo(5f, 24f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                lineTo(0f, 5f)
+                curveTo(0f, 2.24f, 2.24f, 0f, 5f, 0f)
+                horizontalLineToRelative(14f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                close()
+                moveTo(7.98f, 5.92f)
+                curveToRelative(0f, -1.09f, -0.9f, -1.99f, -2.01f, -1.99f)
+                horizontalLineToRelative(-1.34f)
+                curveToRelative(-0.34f, 0f, -0.62f, 0.28f, -0.62f, 0.62f)
+                verticalLineToRelative(4.82f)
+                curveToRelative(0f, 0.34f, 0.28f, 0.62f, 0.62f, 0.62f)
+                reflectiveCurveToRelative(0.62f, -0.28f, 0.62f, -0.62f)
+                verticalLineToRelative(-1.47f)
+                lineToRelative(0.72f, -0.0f)
+                curveToRelative(1.11f, 0f, 2.01f, -0.89f, 2.01f, -1.99f)
+                close()
+                moveTo(13.46f, 5.92f)
+                curveToRelative(0f, -1.09f, -0.9f, -1.99f, -2.01f, -1.99f)
+                horizontalLineToRelative(-1.34f)
+                curveToRelative(-0.34f, 0f, -0.62f, 0.28f, -0.62f, 0.62f)
+                verticalLineToRelative(4.82f)
+                curveToRelative(0f, 0.34f, 0.28f, 0.62f, 0.62f, 0.62f)
+                reflectiveCurveToRelative(0.62f, -0.28f, 0.62f, -0.62f)
+                verticalLineToRelative(-1.47f)
+                lineToRelative(0.72f, -0.0f)
+                curveToRelative(1.11f, 0f, 2.01f, -0.89f, 2.01f, -1.99f)
+                close()
+                moveTo(18.62f, 4.56f)
+                curveToRelative(0f, -0.34f, -0.28f, -0.62f, -0.62f, -0.62f)
+                horizontalLineToRelative(-2.75f)
+                curveToRelative(-0.34f, 0f, -0.62f, 0.28f, -0.62f, 0.62f)
+                reflectiveCurveToRelative(0.28f, 0.62f, 0.62f, 0.62f)
+                horizontalLineToRelative(0.75f)
+                verticalLineToRelative(4.19f)
+                curveToRelative(0f, 0.34f, 0.28f, 0.62f, 0.62f, 0.62f)
+                reflectiveCurveToRelative(0.62f, -0.28f, 0.62f, -0.62f)
+                verticalLineToRelative(-4.19f)
+                horizontalLineToRelative(0.75f)
+                curveToRelative(0.34f, 0f, 0.62f, -0.28f, 0.62f, -0.62f)
+                close()
+            }
+        }.also { _PptFile = it}

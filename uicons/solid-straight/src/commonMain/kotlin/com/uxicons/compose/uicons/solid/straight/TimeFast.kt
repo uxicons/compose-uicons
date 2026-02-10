@@ -1,0 +1,50 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TimeFast: ImageVector? = null
+
+val Icons.Ss.TimeFast: ImageVector
+    get() = _TimeFast ?: UXIcon(name = "TimeFast") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10f, 24f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10f)
+                close()
+                moveTo(8f, 18f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                close()
+                moveTo(6f, 14f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(6f)
+                close()
+                moveTo(23.99f, 11.53f)
+                arcToRelative(12.01f, 12.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, -11.99f, 12.47f)
+                verticalLineToRelative(-2f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, -2f)
+                verticalLineToRelative(-2f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, -2f)
+                verticalLineToRelative(-2f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, -2f)
+                horizontalLineToRelative(-6f)
+                arcToRelative(12.01f, 12.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 12.47f, -11.99f)
+                arcToRelative(12.11f, 12.11f, 0f, isMoreThanHalf = false, isPositiveArc = true, 11.52f, 11.52f)
+                close()
+                moveTo(11f, 5.79f)
+                verticalLineToRelative(5.41f)
+                lineToRelative(3.29f, 3.29f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-2.71f, -2.71f)
+                verticalLineToRelative(-4.59f)
+                close()
+            }
+        }.also { _TimeFast = it}

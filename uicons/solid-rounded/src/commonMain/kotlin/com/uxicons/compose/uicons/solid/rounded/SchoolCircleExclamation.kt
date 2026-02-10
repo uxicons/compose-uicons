@@ -1,0 +1,84 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SchoolCircleExclamation: ImageVector? = null
+
+val Icons.Sr.SchoolCircleExclamation: ImageVector
+    get() = _SchoolCircleExclamation ?: UXIcon(name = "SchoolCircleExclamation") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 12f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(17f, 15f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(18f, 22f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(4.34f, 11f)
+                horizontalLineToRelative(-4.34f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-4.36f)
+                curveToRelative(0f, -0.9f, 0.73f, -1.64f, 1.64f, -1.64f)
+                curveToRelative(0.24f, 0f, 0.48f, 0.05f, 0.69f, 0.15f)
+                lineToRelative(3.2f, 1.5f)
+                curveToRelative(0.63f, 0.39f, 0.63f, 1.3f, 0f, 1.7f)
+                lineToRelative(-3.53f, 1.65f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(6f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                horizontalLineToRelative(-2.14f)
+                curveToRelative(-1.15f, -0.64f, -2.46f, -1f, -3.86f, -1f)
+                curveToRelative(-0.18f, 0f, -0.37f, 0.01f, -0.55f, 0.03f)
+                lineToRelative(-2.62f, -2.86f)
+                curveToRelative(-1.51f, -1.51f, -4.12f, -1.54f, -5.69f, 0.03f)
+                lineToRelative(-2.68f, 2.92f)
+                curveToRelative(-0.56f, 0.56f, -1.33f, 0.88f, -2.12f, 0.88f)
+                close()
+                moveTo(10f, 18f)
+                curveToRelative(0f, -3.42f, 2.16f, -6.34f, 5.19f, -7.48f)
+                lineToRelative(-1.8f, -1.96f)
+                curveToRelative(-0.7f, -0.69f, -2.04f, -0.73f, -2.8f, 0.03f)
+                lineToRelative(-2.68f, 2.92f)
+                curveToRelative(-0.97f, 0.97f, -2.23f, 1.5f, -3.56f, 1.5f)
+                horizontalLineToRelative(-4.34f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(9.73f)
+                curveToRelative(-1.67f, -1.47f, -2.73f, -3.61f, -2.73f, -6f)
+                close()
+                moveTo(5f, 22f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(5f, 18f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _SchoolCircleExclamation = it}

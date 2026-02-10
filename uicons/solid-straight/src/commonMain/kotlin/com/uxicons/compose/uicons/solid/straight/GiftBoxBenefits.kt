@@ -1,0 +1,80 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GiftBoxBenefits: ImageVector? = null
+
+val Icons.Ss.GiftBoxBenefits: ImageVector
+    get() = _GiftBoxBenefits ?: UXIcon(name = "GiftBoxBenefits") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 5f)
+                horizontalLineToRelative(-2.44f)
+                curveToRelative(0.2f, -0.36f, 0.34f, -0.75f, 0.4f, -1.17f)
+                curveToRelative(0.13f, -0.89f, -0.1f, -1.77f, -0.64f, -2.49f)
+                curveToRelative(-0.54f, -0.72f, -1.32f, -1.18f, -2.21f, -1.31f)
+                curveToRelative(-0.89f, -0.12f, -1.77f, 0.1f, -2.49f, 0.64f)
+                curveToRelative(-0.7f, 0.52f, -1.23f, 1.2f, -1.63f, 1.88f)
+                curveToRelative(-0.4f, -0.69f, -0.93f, -1.36f, -1.63f, -1.88f)
+                curveTo(9.65f, 0.13f, 8.77f, -0.09f, 7.88f, 0.03f)
+                curveToRelative(-0.89f, 0.13f, -1.67f, 0.59f, -2.21f, 1.31f)
+                curveToRelative(-0.54f, 0.72f, -0.77f, 1.6f, -0.64f, 2.49f)
+                curveToRelative(0.06f, 0.42f, 0.2f, 0.81f, 0.4f, 1.17f)
+                horizontalLineToRelative(-2.43f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(14.83f, 2.27f)
+                curveToRelative(0.29f, -0.22f, 0.65f, -0.31f, 1.01f, -0.26f)
+                curveToRelative(0.36f, 0.05f, 0.68f, 0.24f, 0.89f, 0.53f)
+                curveToRelative(0.22f, 0.29f, 0.31f, 0.65f, 0.26f, 1.0f)
+                curveToRelative(-0.05f, 0.36f, -0.24f, 0.68f, -0.56f, 0.92f)
+                curveToRelative(-0.04f, 0.03f, -0.37f, 0.28f, -1.02f, 0.53f)
+                horizontalLineToRelative(-2.31f)
+                curveToRelative(0.22f, -0.76f, 0.75f, -1.99f, 1.73f, -2.73f)
+                close()
+                moveTo(7.54f, 4.44f)
+                curveToRelative(-0.29f, -0.22f, -0.48f, -0.54f, -0.53f, -0.89f)
+                curveToRelative(-0.05f, -0.36f, 0.04f, -0.71f, 0.26f, -1.01f)
+                curveToRelative(0.22f, -0.29f, 0.53f, -0.48f, 0.89f, -0.53f)
+                curveToRelative(0.35f, -0.05f, 0.72f, 0.04f, 1.01f, 0.26f)
+                curveToRelative(0.98f, 0.73f, 1.51f, 1.97f, 1.73f, 2.73f)
+                horizontalLineToRelative(-2.31f)
+                curveToRelative(-0.65f, -0.26f, -0.98f, -0.51f, -1.05f, -0.56f)
+                close()
+                moveTo(20.03f, 17f)
+                horizontalLineToRelative(3.97f)
+                verticalLineToRelative(0.84f)
+                lineToRelative(-3.02f, 1.75f)
+                lineToRelative(1.22f, 3.69f)
+                lineToRelative(-0.69f, 0.48f)
+                lineToRelative(-2.99f, -2.31f)
+                lineToRelative(-3.0f, 2.32f)
+                lineToRelative(-0.66f, -0.5f)
+                lineToRelative(1.2f, -3.74f)
+                lineToRelative(-3.05f, -1.69f)
+                verticalLineToRelative(-0.85f)
+                horizontalLineToRelative(3.99f)
+                lineToRelative(1.08f, -4.12f)
+                horizontalLineToRelative(0.89f)
+                lineToRelative(1.08f, 4.12f)
+                close()
+                moveTo(11f, 19.02f)
+                lineToRelative(2.64f, 1.47f)
+                lineToRelative(-1.12f, 3.51f)
+                lineTo(2f, 24f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(13.97f)
+                lineToRelative(-0.52f, 2f)
+                horizontalLineToRelative(-4.44f)
+                verticalLineToRelative(4.02f)
+                close()
+            }
+        }.also { _GiftBoxBenefits = it}

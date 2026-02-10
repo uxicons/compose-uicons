@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Dolphin: ImageVector? = null
+
+val Icons.Ts.Dolphin: ImageVector
+    get() = _Dolphin ?: UXIcon(name = "Dolphin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.5f, 7f)
+                horizontalLineToRelative(-0.52f)
+                curveToRelative(-0.23f, -3.56f, -2.97f, -7f, -7.98f, -7f)
+                curveToRelative(-2.06f, 0f, -4.27f, 0.54f, -6.16f, 1.8f)
+                curveTo(6.07f, 0.83f, 4.01f, 0.23f, 1.71f, 0.01f)
+                curveTo(0.97f, -0.06f, 0.34f, 0.47f, 0.11f, 1.03f)
+                curveTo(-0.11f, 1.57f, 0.01f, 2.12f, 0.42f, 2.46f)
+                curveToRelative(1.7f, 1.41f, 2.9f, 3.21f, 3.49f, 4.45f)
+                curveToRelative(-0.58f, 1.55f, -0.91f, 3.41f, -0.91f, 5.59f)
+                curveToRelative(0f, 1.99f, 0.43f, 4.16f, 0.83f, 5.77f)
+                curveToRelative(-2.25f, 0.72f, -3.83f, 2.85f, -3.83f, 5.26f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(2.83f, 0f, 4.33f, -1.3f, 5.0f, -2.13f)
+                curveToRelative(0.68f, 0.83f, 2.2f, 2.13f, 5.0f, 2.13f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -2.35f, -1.49f, -4.43f, -3.69f, -5.2f)
+                curveToRelative(0.44f, -1.81f, 1.29f, -3.87f, 2.1f, -5.04f)
+                curveToRelative(0.47f, -0.69f, 1.03f, -1.24f, 1.62f, -1.68f)
+                curveToRelative(0.38f, 0.73f, 0.94f, 1.85f, 1.43f, 3.06f)
+                lineToRelative(0.41f, 1.03f)
+                lineToRelative(0.5f, -1.0f)
+                curveToRelative(0.92f, -1.83f, 1.44f, -3.35f, 1.58f, -4.6f)
+                curveToRelative(0.57f, -0.08f, 1.13f, -0.11f, 1.64f, -0.11f)
+                horizontalLineToRelative(7.4f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(1.06f, 1.69f)
+                curveToRelative(-0.03f, -0.02f, -0.1f, -0.09f, -0.03f, -0.27f)
+                curveToRelative(0.09f, -0.22f, 0.35f, -0.43f, 0.58f, -0.41f)
+                curveToRelative(2.33f, 0.23f, 4.11f, 0.85f, 5.35f, 1.47f)
+                curveToRelative(-0.99f, 0.84f, -1.86f, 1.91f, -2.54f, 3.25f)
+                curveToRelative(-0.72f, -1.27f, -1.85f, -2.78f, -3.36f, -4.03f)
+                close()
+                moveTo(12.95f, 13.26f)
+                curveToRelative(-0.39f, -0.88f, -0.78f, -1.65f, -1.07f, -2.19f)
+                curveToRelative(0.66f, -0.36f, 1.35f, -0.6f, 2.04f, -0.77f)
+                curveToRelative(-0.14f, 0.84f, -0.46f, 1.82f, -0.97f, 2.96f)
+                close()
+                moveTo(23f, 9.0f)
+                horizontalLineToRelative(-6.4f)
+                curveToRelative(-3.56f, 0f, -6.33f, 1.28f, -8.01f, 3.72f)
+                curveToRelative(-0.96f, 1.39f, -1.92f, 3.79f, -2.36f, 5.85f)
+                lineToRelative(-0.1f, 0.47f)
+                lineToRelative(0.46f, 0.12f)
+                curveToRelative(1.83f, 0.47f, 3.16f, 2.01f, 3.37f, 3.85f)
+                curveToRelative(-2.96f, -0.21f, -3.98f, -2.14f, -4.02f, -2.23f)
+                lineToRelative(-0.45f, -0.9f)
+                lineToRelative(-0.45f, 0.91f)
+                curveToRelative(-0.04f, 0.09f, -1.03f, 2.02f, -4.02f, 2.23f)
+                curveToRelative(0.22f, -1.89f, 1.63f, -3.49f, 3.52f, -3.9f)
+                lineToRelative(0.51f, -0.11f)
+                lineToRelative(-0.14f, -0.51f)
+                curveToRelative(-0.42f, -1.58f, -0.92f, -3.9f, -0.92f, -5.99f)
+                curveTo(4f, 1.55f, 12.33f, 1f, 14f, 1f)
+                curveToRelative(4.6f, 0f, 7f, 3.27f, 7f, 6.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(19f, 6.0f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _Dolphin = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LandLocation: ImageVector? = null
+
+val Icons.Rr.LandLocation: ImageVector
+    get() = _LandLocation ?: UXIcon(name = "LandLocation") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9.55f, 14.4f)
+                curveToRelative(0.68f, 0.66f, 1.56f, 0.99f, 2.45f, 0.99f)
+                reflectiveCurveToRelative(1.77f, -0.33f, 2.45f, -0.99f)
+                lineToRelative(2.5f, -2.45f)
+                curveToRelative(1.32f, -1.32f, 2.05f, -3.08f, 2.05f, -4.95f)
+                reflectiveCurveToRelative(-0.73f, -3.63f, -2.05f, -4.95f)
+                curveToRelative(-1.32f, -1.32f, -3.08f, -2.05f, -4.95f, -2.05f)
+                reflectiveCurveToRelative(-3.63f, 0.73f, -4.95f, 2.05f)
+                curveToRelative(-2.73f, 2.73f, -2.73f, 7.17f, 0.01f, 9.91f)
+                lineToRelative(2.5f, 2.44f)
+                close()
+                moveTo(8.46f, 3.46f)
+                curveToRelative(0.94f, -0.94f, 2.2f, -1.46f, 3.54f, -1.46f)
+                reflectiveCurveToRelative(2.59f, 0.52f, 3.54f, 1.46f)
+                reflectiveCurveToRelative(1.47f, 2.2f, 1.47f, 3.54f)
+                reflectiveCurveToRelative(-0.52f, 2.59f, -1.46f, 3.53f)
+                lineToRelative(-2.49f, 2.44f)
+                curveToRelative(-0.58f, 0.56f, -1.52f, 0.56f, -2.1f, 0f)
+                lineToRelative(-2.49f, -2.43f)
+                curveToRelative(-0.94f, -0.94f, -1.46f, -2.2f, -1.46f, -3.54f)
+                reflectiveCurveToRelative(0.52f, -2.59f, 1.46f, -3.54f)
+                close()
+                moveTo(9f, 6.99f)
+                curveToRelative(0f, -1.66f, 1.34f, -3f, 3f, -3f)
+                reflectiveCurveToRelative(3f, 1.34f, 3f, 3f)
+                reflectiveCurveToRelative(-1.34f, 3f, -3f, 3f)
+                reflectiveCurveToRelative(-3f, -1.34f, -3f, -3f)
+                close()
+                moveTo(23.95f, 19.34f)
+                lineToRelative(-1f, -6f)
+                curveToRelative(-0.14f, -0.84f, -0.54f, -1.6f, -1.14f, -2.2f)
+                curveToRelative(-0.4f, -0.39f, -1.03f, -0.38f, -1.41f, 0.01f)
+                curveToRelative(-0.39f, 0.39f, -0.38f, 1.03f, 0.01f, 1.41f)
+                curveToRelative(0.3f, 0.3f, 0.5f, 0.68f, 0.57f, 1.1f)
+                lineToRelative(0.39f, 2.33f)
+                lineTo(2.64f, 16f)
+                lineToRelative(0.39f, -2.33f)
+                curveToRelative(0.07f, -0.45f, 0.3f, -0.86f, 0.64f, -1.16f)
+                curveToRelative(0.41f, -0.37f, 0.45f, -1f, 0.08f, -1.41f)
+                curveToRelative(-0.37f, -0.41f, -1f, -0.45f, -1.41f, -0.08f)
+                curveToRelative(-0.68f, 0.6f, -1.13f, 1.43f, -1.28f, 2.32f)
+                lineTo(0.06f, 19.34f)
+                curveToRelative(-0.19f, 1.16f, 0.13f, 2.34f, 0.89f, 3.24f)
+                curveToRelative(0.76f, 0.9f, 1.87f, 1.42f, 3.05f, 1.42f)
+                horizontalLineToRelative(16f)
+                curveToRelative(1.18f, 0f, 2.29f, -0.52f, 3.05f, -1.41f)
+                curveToRelative(0.76f, -0.9f, 1.09f, -2.08f, 0.89f, -3.24f)
+                close()
+                moveTo(14.95f, 18f)
+                lineToRelative(0.56f, 4f)
+                horizontalLineToRelative(-7.01f)
+                lineToRelative(0.56f, -4f)
+                horizontalLineToRelative(5.9f)
+                close()
+                moveTo(2.47f, 21.29f)
+                curveToRelative(-0.38f, -0.45f, -0.54f, -1.04f, -0.45f, -1.62f)
+                lineToRelative(0.28f, -1.67f)
+                horizontalLineToRelative(4.73f)
+                lineToRelative(-0.56f, 4f)
+                horizontalLineToRelative(-2.48f)
+                curveToRelative(-0.59f, 0f, -1.15f, -0.26f, -1.53f, -0.71f)
+                close()
+                moveTo(21.52f, 21.29f)
+                curveToRelative(-0.38f, 0.45f, -0.94f, 0.71f, -1.52f, 0.71f)
+                horizontalLineToRelative(-2.48f)
+                lineToRelative(-0.56f, -4f)
+                horizontalLineToRelative(4.73f)
+                lineToRelative(0.28f, 1.67f)
+                curveToRelative(0.1f, 0.58f, -0.07f, 1.17f, -0.45f, 1.62f)
+                close()
+            }
+        }.also { _LandLocation = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _EuropeFlag: ImageVector? = null
+
+val Icons.Ts.EuropeFlag: ImageVector
+    get() = _EuropeFlag ?: UXIcon(name = "EuropeFlag") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(9.88f, 11.12f)
+                curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(-0.39f, 0.39f, -1.02f, 0.39f, -1.41f, 0f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                close()
+                moveTo(12f, 12f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(15.54f, 6.88f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(0.39f, 0.39f, 1.02f, 0.39f, 1.41f, 0f)
+                close()
+                moveTo(9f, 9f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(8.46f, 5.46f)
+                curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(0.39f, 0.39f, 1.02f, 0.39f, 1.41f, 0f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                close()
+                moveTo(16f, 8f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(12f, 4f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(24.0f, 0.43f)
+                verticalLineToRelative(15.57f)
+                curveToRelative(-0.56f, 0.2f, -3.44f, 1.44f, -7.0f, 1.49f)
+                curveToRelative(-3.18f, 0.01f, -7.35f, -1.98f, -10.5f, -2f)
+                curveToRelative(-2.47f, 0f, -4.81f, 1.4f, -5.5f, 1.85f)
+                verticalLineToRelative(6.65f)
+                reflectiveCurveToRelative(-1f, 0f, -1f, 0f)
+                lineTo(0f, 2.34f)
+                curveTo(0.37f, 2.1f, 2.99f, 0.05f, 6.5f, 0f)
+                curveToRelative(3.18f, -0.01f, 7.35f, 1.98f, 10.5f, 2f)
+                curveToRelative(3f, 0f, 6.97f, -1.55f, 7.0f, -1.56f)
+                close()
+                moveTo(23.0f, 1.88f)
+                curveToRelative(-1.16f, 0.39f, -3.62f, 1.12f, -6.0f, 1.12f)
+                curveToRelative(-3.18f, 0.01f, -7.35f, -1.98f, -10.5f, -2f)
+                curveTo(4.03f, 1f, 1.69f, 2.4f, 1.0f, 2.85f)
+                verticalLineToRelative(13.32f)
+                curveToRelative(1.1f, -0.65f, 3.22f, -1.68f, 5.5f, -1.68f)
+                curveToRelative(3.18f, -0.01f, 7.35f, 1.98f, 10.5f, 2f)
+                curveToRelative(2.46f, 0f, 5.1f, -0.86f, 6.0f, -1.18f)
+                lineTo(23.0f, 1.88f)
+                close()
+                moveTo(14.12f, 11.12f)
+                curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(0.39f, 0.39f, 1.02f, 0.39f, 1.41f, 0f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(-1.02f, -0.39f, -1.41f, 0f)
+                close()
+            }
+        }.also { _EuropeFlag = it}

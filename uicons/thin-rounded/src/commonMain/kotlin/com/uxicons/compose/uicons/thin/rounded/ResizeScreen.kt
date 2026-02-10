@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ResizeScreen: ImageVector? = null
+
+val Icons.Tr.ResizeScreen: ImageVector
+    get() = _ResizeScreen ?: UXIcon(name = "ResizeScreen") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8f, 6.5f)
+                verticalLineToRelative(-2.31f)
+                curveToRelative(0f, -0.66f, 0.54f, -1.19f, 1.19f, -1.19f)
+                horizontalLineToRelative(2.31f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-1.79f)
+                lineToRelative(5.29f, 5.29f)
+                verticalLineToRelative(-1.79f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2.31f)
+                curveToRelative(0f, 0.66f, -0.54f, 1.19f, -1.19f, 1.19f)
+                horizontalLineToRelative(-2.31f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1.79f)
+                lineToRelative(-5.29f, -5.29f)
+                verticalLineToRelative(1.79f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+                moveTo(5f, 11.5f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(9f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-9f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(6f, 11.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(9f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-9f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(21.75f, 2.6f)
+                curveToRelative(-0.24f, -0.14f, -0.55f, -0.06f, -0.68f, 0.18f)
+                curveToRelative(-0.14f, 0.24f, -0.06f, 0.55f, 0.18f, 0.68f)
+                curveToRelative(1.08f, 0.62f, 1.75f, 1.79f, 1.75f, 3.03f)
+                verticalLineToRelative(9.0f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-15.0f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -1.25f, 0.67f, -2.41f, 1.75f, -3.03f)
+                curveToRelative(0.24f, -0.14f, 0.32f, -0.44f, 0.18f, -0.68f)
+                curveToRelative(-0.14f, -0.24f, -0.44f, -0.32f, -0.68f, -0.18f)
+                curveToRelative(-1.39f, 0.8f, -2.25f, 2.3f, -2.25f, 3.9f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -1.6f, -0.86f, -3.1f, -2.25f, -3.9f)
+                close()
+            }
+        }.also { _ResizeScreen = it}

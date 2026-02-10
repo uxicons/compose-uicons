@@ -1,0 +1,67 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Tents: ImageVector? = null
+
+val Icons.Rr.Tents: ImageVector
+    get() = _Tents ?: UXIcon(name = "Tents") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13.78f, 9.31f)
+                curveToRelative(-1.11f, -1.55f, -2.35f, -2.31f, -3.78f, -2.31f)
+                curveToRelative(-1.67f, 0f, -2.52f, 0.84f, -3.72f, 2.24f)
+                curveToRelative(-0.03f, 0.03f, -5.85f, 8.65f, -5.87f, 8.7f)
+                curveToRelative(-0.62f, 1.33f, -0.52f, 2.86f, 0.27f, 4.09f)
+                curveToRelative(0.79f, 1.24f, 2.13f, 1.98f, 3.6f, 1.98f)
+                horizontalLineToRelative(11.45f)
+                curveToRelative(1.47f, 0f, 2.81f, -0.74f, 3.6f, -1.98f)
+                curveToRelative(0.79f, -1.23f, 0.89f, -2.76f, 0.27f, -4.09f)
+                curveToRelative(-0.02f, -0.05f, -5.82f, -8.62f, -5.82f, -8.62f)
+                close()
+                moveTo(7.52f, 22f)
+                lineToRelative(2.0f, -3.7f)
+                curveToRelative(0.13f, -0.27f, 0.37f, -0.3f, 0.47f, -0.3f)
+                reflectiveCurveToRelative(0.35f, 0.03f, 0.5f, 0.36f)
+                lineToRelative(1.97f, 3.64f)
+                horizontalLineToRelative(-4.95f)
+                close()
+                moveTo(17.64f, 20.95f)
+                curveToRelative(-0.43f, 0.67f, -1.12f, 1.05f, -1.92f, 1.05f)
+                horizontalLineToRelative(-0.97f)
+                lineToRelative(-2.46f, -4.54f)
+                curveToRelative(-0.42f, -0.9f, -1.29f, -1.46f, -2.29f, -1.46f)
+                reflectiveCurveToRelative(-1.87f, 0.56f, -2.26f, 1.4f)
+                lineToRelative(-2.49f, 4.6f)
+                horizontalLineToRelative(-0.97f)
+                curveToRelative(-0.79f, 0f, -1.49f, -0.38f, -1.92f, -1.05f)
+                curveToRelative(-0.41f, -0.65f, -0.47f, -1.41f, -0.17f, -2.1f)
+                lineToRelative(5.64f, -8.35f)
+                curveToRelative(1.15f, -1.32f, 1.48f, -1.5f, 2.17f, -1.5f)
+                curveToRelative(0.51f, 0f, 1.22f, 0.17f, 2.14f, 1.45f)
+                lineToRelative(5.68f, 8.39f)
+                curveToRelative(0.3f, 0.7f, 0.24f, 1.46f, -0.17f, 2.1f)
+                close()
+                moveTo(22.04f, 16.32f)
+                curveToRelative(-0.17f, 0.11f, -0.36f, 0.16f, -0.54f, 0.16f)
+                curveToRelative(-0.33f, 0f, -0.65f, -0.16f, -0.84f, -0.46f)
+                curveToRelative(-0.3f, -0.46f, -0.17f, -1.08f, 0.3f, -1.38f)
+                curveToRelative(0.81f, -0.52f, 1.35f, -1.64f, 0.86f, -2.79f)
+                lineToRelative(-5.68f, -8.39f)
+                curveToRelative(-0.92f, -1.28f, -1.63f, -1.45f, -2.14f, -1.45f)
+                curveToRelative(-0.69f, 0f, -1.02f, 0.18f, -2.17f, 1.5f)
+                lineToRelative(-0.72f, 1.06f)
+                curveToRelative(-0.31f, 0.46f, -0.93f, 0.58f, -1.39f, 0.27f)
+                curveToRelative(-0.46f, -0.31f, -0.58f, -0.93f, -0.27f, -1.39f)
+                curveToRelative(0f, 0f, 0.8f, -1.17f, 0.82f, -1.2f)
+                curveToRelative(1.2f, -1.39f, 2.05f, -2.24f, 3.72f, -2.24f)
+                curveToRelative(1.44f, 0f, 2.67f, 0.76f, 3.78f, 2.31f)
+                curveToRelative(0f, 0f, 5.8f, 8.58f, 5.82f, 8.62f)
+                curveToRelative(0.89f, 1.92f, 0.22f, 4.23f, -1.55f, 5.38f)
+                close()
+            }
+        }.also { _Tents = it}

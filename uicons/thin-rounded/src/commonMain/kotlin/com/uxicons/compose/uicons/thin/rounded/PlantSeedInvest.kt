@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PlantSeedInvest: ImageVector? = null
+
+val Icons.Tr.PlantSeedInvest: ImageVector
+    get() = _PlantSeedInvest ?: UXIcon(name = "PlantSeedInvest") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 12f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(-0.45f)
+                curveToRelative(-0.94f, 0f, -1.74f, -0.52f, -2.02f, -1.33f)
+                curveToRelative(-0.09f, -0.26f, 0.05f, -0.55f, 0.31f, -0.64f)
+                curveToRelative(0.26f, -0.09f, 0.55f, 0.05f, 0.64f, 0.31f)
+                curveToRelative(0.14f, 0.4f, 0.56f, 0.67f, 1.08f, 0.67f)
+                horizontalLineToRelative(1.82f)
+                curveToRelative(0.62f, 0f, 1.13f, -0.51f, 1.13f, -1.13f)
+                curveToRelative(0f, -0.51f, -0.34f, -0.96f, -0.84f, -1.09f)
+                lineToRelative(-2.63f, -0.71f)
+                curveToRelative(-0.9f, -0.25f, -1.53f, -1.07f, -1.53f, -2.0f)
+                curveToRelative(0f, -1.14f, 0.93f, -2.07f, 2.07f, -2.07f)
+                horizontalLineToRelative(0.43f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.54f)
+                curveToRelative(0.86f, 0f, 1.62f, 0.52f, 1.93f, 1.32f)
+                curveToRelative(0.1f, 0.26f, -0.03f, 0.55f, -0.28f, 0.65f)
+                curveToRelative(-0.26f, 0.1f, -0.55f, -0.03f, -0.65f, -0.28f)
+                curveToRelative(-0.16f, -0.41f, -0.55f, -0.68f, -1.0f, -0.68f)
+                horizontalLineToRelative(-1.97f)
+                curveToRelative(-0.59f, 0f, -1.07f, 0.48f, -1.07f, 1.07f)
+                curveToRelative(0f, 0.48f, 0.32f, 0.91f, 0.79f, 1.03f)
+                lineToRelative(2.63f, 0.7f)
+                curveToRelative(0.93f, 0.25f, 1.58f, 1.1f, 1.58f, 2.06f)
+                curveToRelative(0f, 1.18f, -0.96f, 2.13f, -2.13f, 2.13f)
+                horizontalLineToRelative(-0.37f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                close()
+                moveTo(23.95f, 15.93f)
+                curveToRelative(-2.17f, 7.84f, -10.95f, 8.07f, -11.95f, 8.07f)
+                reflectiveCurveTo(2.22f, 23.77f, 0.05f, 15.93f)
+                curveToRelative(-0.13f, -0.48f, -0.02f, -0.99f, 0.31f, -1.38f)
+                curveToRelative(0.33f, -0.4f, 0.83f, -0.6f, 1.33f, -0.56f)
+                curveToRelative(5.58f, 0.52f, 8.47f, 4.37f, 9.81f, 6.97f)
+                verticalLineToRelative(-7.0f)
+                curveToRelative(-3.63f, -0.26f, -6.5f, -3.28f, -6.5f, -6.97f)
+                curveToRelative(0f, -3.86f, 3.14f, -7f, 7f, -7f)
+                reflectiveCurveToRelative(7f, 3.14f, 7f, 7f)
+                curveToRelative(0f, 3.69f, -2.87f, 6.72f, -6.5f, 6.97f)
+                verticalLineToRelative(7.0f)
+                curveToRelative(1.33f, -2.6f, 4.22f, -6.45f, 9.8f, -6.97f)
+                curveToRelative(0.51f, -0.04f, 1.0f, 0.16f, 1.33f, 0.56f)
+                curveToRelative(0.32f, 0.39f, 0.44f, 0.9f, 0.31f, 1.38f)
+                close()
+                moveTo(12f, 13f)
+                curveToRelative(3.31f, 0f, 6f, -2.69f, 6f, -6f)
+                reflectiveCurveTo(15.31f, 1f, 12f, 1f)
+                reflectiveCurveToRelative(-6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                close()
+                moveTo(11.31f, 22.98f)
+                curveToRelative(-0.68f, -1.91f, -3.17f, -7.37f, -9.71f, -7.98f)
+                curveToRelative(-0.02f, -0.0f, -0.03f, -0.0f, -0.05f, -0.0f)
+                curveToRelative(-0.16f, 0f, -0.32f, 0.07f, -0.43f, 0.2f)
+                curveToRelative(-0.11f, 0.14f, -0.15f, 0.31f, -0.11f, 0.47f)
+                curveToRelative(1.72f, 6.2f, 8.07f, 7.16f, 10.29f, 7.31f)
+                close()
+                moveTo(22.87f, 15.2f)
+                curveToRelative(-0.11f, -0.13f, -0.27f, -0.2f, -0.43f, -0.2f)
+                curveToRelative(-0.02f, 0f, -0.03f, 0f, -0.05f, 0.0f)
+                curveToRelative(-6.54f, 0.61f, -9.03f, 6.06f, -9.71f, 7.98f)
+                curveToRelative(2.22f, -0.14f, 8.58f, -1.1f, 10.29f, -7.31f)
+                curveToRelative(0.04f, -0.16f, 0.01f, -0.33f, -0.11f, -0.47f)
+                close()
+            }
+        }.also { _PlantSeedInvest = it}

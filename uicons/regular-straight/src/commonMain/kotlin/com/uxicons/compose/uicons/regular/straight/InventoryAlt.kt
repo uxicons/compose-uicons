@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _InventoryAlt: ImageVector? = null
+
+val Icons.Rs.InventoryAlt: ImageVector
+    get() = _InventoryAlt ?: UXIcon(name = "InventoryAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 22f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(2f)
+                lineTo(3f, 24f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                lineTo(0f, 2f)
+                horizontalLineToRelative(5.17f)
+                curveToRelative(0.41f, -1.16f, 1.52f, -2f, 2.83f, -2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.3f, 0f, 2.42f, 0.84f, 2.83f, 2f)
+                horizontalLineToRelative(5.17f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                lineTo(2f, 4f)
+                verticalLineToRelative(17f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(6.17f, 8.87f)
+                lineToRelative(-1.24f, -1.19f)
+                lineToRelative(-1.39f, 1.44f)
+                lineToRelative(1.45f, 1.39f)
+                curveToRelative(0.33f, 0.33f, 0.75f, 0.49f, 1.18f, 0.49f)
+                curveToRelative(0.42f, 0f, 0.85f, -0.16f, 1.17f, -0.48f)
+                lineToRelative(2.76f, -2.7f)
+                lineToRelative(-1.4f, -1.43f)
+                lineToRelative(-2.53f, 2.48f)
+                close()
+                moveTo(6.17f, 14.87f)
+                lineToRelative(-1.24f, -1.19f)
+                lineToRelative(-1.39f, 1.44f)
+                lineToRelative(1.45f, 1.39f)
+                curveToRelative(0.32f, 0.32f, 0.73f, 0.49f, 1.18f, 0.49f)
+                reflectiveCurveToRelative(0.86f, -0.17f, 1.17f, -0.48f)
+                lineToRelative(2.76f, -2.7f)
+                lineToRelative(-1.4f, -1.43f)
+                lineToRelative(-2.53f, 2.48f)
+                close()
+                moveTo(24f, 16f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(-8f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(22f, 16f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(16f, 19f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(14f, 9f)
+                horizontalLineToRelative(-2.45f)
+                lineToRelative(-2.04f, 2f)
+                horizontalLineToRelative(4.49f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _InventoryAlt = it}

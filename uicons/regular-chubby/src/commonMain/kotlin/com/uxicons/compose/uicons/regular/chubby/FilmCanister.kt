@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FilmCanister: ImageVector? = null
+
+val Icons.Rc.FilmCanister: ImageVector
+    get() = _FilmCanister ?: UXIcon(name = "FilmCanister") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.48f, 6.33f)
+                curveToRelative(-0.08f, -0.43f, -0.42f, -0.76f, -0.86f, -0.82f)
+                curveToRelative(-0.15f, -0.02f, -3.59f, -0.45f, -6.97f, -0.5f)
+                curveToRelative(-0.05f, -0.54f, -0.1f, -1.0f, -0.14f, -1.38f)
+                curveToRelative(0.18f, 0.03f, 0.29f, 0.05f, 0.3f, 0.06f)
+                curveToRelative(0.53f, 0.11f, 1.07f, -0.24f, 1.17f, -0.79f)
+                curveToRelative(0.1f, -0.54f, -0.25f, -1.07f, -0.79f, -1.17f)
+                curveToRelative(-0.15f, -0.03f, -3.71f, -0.72f, -6.69f, -0.72f)
+                reflectiveCurveToRelative(-6.54f, 0.69f, -6.69f, 0.72f)
+                curveToRelative(-0.54f, 0.11f, -0.9f, 0.63f, -0.79f, 1.17f)
+                curveToRelative(0.11f, 0.54f, 0.63f, 0.89f, 1.17f, 0.79f)
+                curveToRelative(0.01f, -0.0f, 0.12f, -0.02f, 0.3f, -0.06f)
+                curveToRelative(-0.18f, 1.58f, -0.49f, 4.77f, -0.49f, 8.37f)
+                reflectiveCurveToRelative(0.31f, 6.79f, 0.49f, 8.37f)
+                curveToRelative(-0.18f, -0.03f, -0.29f, -0.05f, -0.3f, -0.06f)
+                curveToRelative(-0.54f, -0.11f, -1.07f, 0.25f, -1.17f, 0.79f)
+                curveToRelative(-0.11f, 0.54f, 0.25f, 1.07f, 0.79f, 1.17f)
+                curveToRelative(0.15f, 0.03f, 3.71f, 0.72f, 6.69f, 0.72f)
+                reflectiveCurveToRelative(6.54f, -0.69f, 6.69f, -0.72f)
+                curveToRelative(0.54f, -0.11f, 0.9f, -0.63f, 0.79f, -1.17f)
+                curveToRelative(-0.11f, -0.54f, -0.62f, -0.9f, -1.17f, -0.79f)
+                curveToRelative(-0.01f, 0.0f, -0.12f, 0.02f, -0.3f, 0.06f)
+                curveToRelative(0.04f, -0.38f, 0.09f, -0.84f, 0.14f, -1.38f)
+                curveToRelative(3.38f, -0.05f, 6.82f, -0.48f, 6.97f, -0.5f)
+                curveToRelative(0.43f, -0.06f, 0.78f, -0.39f, 0.86f, -0.82f)
+                curveToRelative(0.02f, -0.12f, 0.52f, -2.95f, 0.52f, -5.67f)
+                reflectiveCurveToRelative(-0.49f, -5.55f, -0.52f, -5.67f)
+                close()
+                moveTo(14.99f, 13f)
+                curveToRelative(0.01f, -0.33f, 0.01f, -0.66f, 0.01f, -1f)
+                reflectiveCurveToRelative(-0.0f, -0.67f, -0.01f, -1f)
+                horizontalLineToRelative(5.98f)
+                curveToRelative(0.01f, 0.33f, 0.02f, 0.67f, 0.02f, 1f)
+                reflectiveCurveToRelative(-0.01f, 0.67f, -0.02f, 1f)
+                close()
+                moveTo(20.82f, 9f)
+                horizontalLineToRelative(-1.83f)
+                verticalLineToRelative(-1.75f)
+                curveToRelative(0.65f, 0.06f, 1.22f, 0.11f, 1.63f, 0.16f)
+                curveToRelative(0.06f, 0.41f, 0.13f, 0.96f, 0.2f, 1.59f)
+                close()
+                moveTo(17.0f, 7.1f)
+                verticalLineToRelative(1.9f)
+                horizontalLineToRelative(-2.07f)
+                curveToRelative(-0.03f, -0.7f, -0.07f, -1.37f, -0.11f, -1.99f)
+                curveToRelative(0.74f, 0.01f, 1.47f, 0.05f, 2.18f, 0.09f)
+                close()
+                moveTo(8.5f, 21f)
+                curveToRelative(-1.31f, 0f, -2.77f, -0.15f, -3.96f, -0.31f)
+                curveToRelative(-0.15f, -1.22f, -0.54f, -4.75f, -0.54f, -8.69f)
+                reflectiveCurveToRelative(0.39f, -7.47f, 0.54f, -8.69f)
+                curveToRelative(1.19f, -0.16f, 2.65f, -0.31f, 3.96f, -0.31f)
+                reflectiveCurveToRelative(2.77f, 0.15f, 3.96f, 0.31f)
+                curveToRelative(0.15f, 1.22f, 0.54f, 4.75f, 0.54f, 8.69f)
+                reflectiveCurveToRelative(-0.39f, 7.47f, -0.54f, 8.69f)
+                curveToRelative(-1.19f, 0.16f, -2.65f, 0.31f, -3.96f, 0.31f)
+                close()
+                moveTo(14.93f, 15f)
+                horizontalLineToRelative(2.07f)
+                verticalLineToRelative(1.9f)
+                curveToRelative(-0.7f, 0.04f, -1.44f, 0.07f, -2.18f, 0.09f)
+                curveToRelative(0.04f, -0.62f, 0.08f, -1.29f, 0.11f, -1.99f)
+                close()
+                moveTo(19.0f, 16.75f)
+                verticalLineToRelative(-1.75f)
+                horizontalLineToRelative(1.83f)
+                curveToRelative(-0.07f, 0.63f, -0.14f, 1.19f, -0.2f, 1.59f)
+                curveToRelative(-0.41f, 0.04f, -0.98f, 0.1f, -1.63f, 0.16f)
+                close()
+            }
+        }.also { _FilmCanister = it}

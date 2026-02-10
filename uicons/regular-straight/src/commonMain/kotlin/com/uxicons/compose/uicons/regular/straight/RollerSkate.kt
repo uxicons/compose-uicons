@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RollerSkate: ImageVector? = null
+
+val Icons.Rs.RollerSkate: ImageVector
+    get() = _RollerSkate ?: UXIcon(name = "RollerSkate") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 16f)
+                verticalLineToRelative(-0.9f)
+                curveToRelative(0f, -2.85f, -2.03f, -5.33f, -4.82f, -5.88f)
+                lineToRelative(-3.87f, -0.78f)
+                curveToRelative(-0.84f, -0.17f, -1.48f, -0.85f, -1.59f, -1.67f)
+                lineToRelative(-0.42f, -4.2f)
+                curveToRelative(-0.12f, -0.82f, -0.58f, -1.57f, -1.26f, -2.04f)
+                curveToRelative(-0.69f, -0.47f, -1.54f, -0.64f, -2.41f, -0.45f)
+                lineToRelative(-7.62f, 2.16f)
+                verticalLineToRelative(13.76f)
+                curveToRelative(0f, 0.85f, 0.35f, 1.61f, 0.92f, 2.15f)
+                curveToRelative(-0.57f, 0.62f, -0.92f, 1.44f, -0.92f, 2.35f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                curveToRelative(0.98f, 0f, 1.86f, -0.41f, 2.5f, -1.06f)
+                curveToRelative(0.64f, 0.65f, 1.52f, 1.06f, 2.5f, 1.06f)
+                reflectiveCurveToRelative(1.86f, -0.41f, 2.5f, -1.06f)
+                curveToRelative(0.64f, 0.65f, 1.52f, 1.06f, 2.5f, 1.06f)
+                reflectiveCurveToRelative(1.86f, -0.41f, 2.5f, -1.06f)
+                curveToRelative(0.64f, 0.65f, 1.52f, 1.06f, 2.5f, 1.06f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                curveToRelative(0f, -0.91f, -0.35f, -1.72f, -0.92f, -2.35f)
+                curveToRelative(0.57f, -0.55f, 0.92f, -1.31f, 0.92f, -2.15f)
+                close()
+                moveTo(3f, 3.76f)
+                lineTo(9.11f, 2.02f)
+                curveToRelative(0.28f, -0.06f, 0.55f, -0.01f, 0.79f, 0.15f)
+                curveToRelative(0.23f, 0.16f, 0.38f, 0.4f, 0.42f, 0.64f)
+                lineToRelative(0.22f, 2.18f)
+                horizontalLineToRelative(-2.53f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2.73f)
+                curveToRelative(0.04f, 0.32f, 0.13f, 0.62f, 0.25f, 0.92f)
+                lineToRelative(-2.34f, 1.42f)
+                lineToRelative(1.04f, 1.71f)
+                lineToRelative(2.47f, -1.5f)
+                curveToRelative(0.26f, 0.21f, 0.55f, 0.39f, 0.85f, 0.54f)
+                lineToRelative(-1.35f, 2.31f)
+                lineToRelative(1.73f, 1.01f)
+                lineToRelative(1.64f, -2.79f)
+                lineToRelative(2.78f, 0.56f)
+                curveToRelative(1.86f, 0.37f, 3.22f, 2.02f, 3.22f, 3.92f)
+                verticalLineToRelative(0.9f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-16.0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(4.5f, 22f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(9.5f, 22f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(14.5f, 22f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(19.5f, 22f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _RollerSkate = it}

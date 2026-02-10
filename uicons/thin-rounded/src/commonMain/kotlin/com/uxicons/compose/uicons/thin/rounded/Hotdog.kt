@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Hotdog: ImageVector? = null
+
+val Icons.Tr.Hotdog: ImageVector
+    get() = _Hotdog ?: UXIcon(name = "Hotdog") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16f, 4.5f)
+                lineTo(16f, 1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+                moveTo(12f, 6f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(12.5f, 1.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                lineTo(11.5f, 5.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(7.5f, 5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(8f, 1.51f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(2.99f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(23.16f, 12.25f)
+                curveToRelative(-0.08f, 0.08f, -0.72f, 0.75f, -1.92f, 1.52f)
+                curveToRelative(0.57f, 0.41f, 1.04f, 0.96f, 1.35f, 1.62f)
+                curveToRelative(0.99f, 2.09f, 0.11f, 4.61f, -1.96f, 5.61f)
+                curveToRelative(-2.15f, 1.04f, -4.69f, 2.0f, -8.63f, 2.0f)
+                reflectiveCurveToRelative(-6.48f, -0.96f, -8.63f, -2.0f)
+                curveToRelative(-2.07f, -1.0f, -2.95f, -3.52f, -1.96f, -5.61f)
+                curveToRelative(0.31f, -0.66f, 0.78f, -1.21f, 1.35f, -1.62f)
+                curveToRelative(-1.15f, -0.74f, -1.79f, -1.38f, -1.91f, -1.52f)
+                curveTo(0.28f, 11.65f, -0.02f, 10.86f, 0f, 10.03f)
+                curveToRelative(0.02f, -0.83f, 0.37f, -1.6f, 0.97f, -2.17f)
+                curveToRelative(1.23f, -1.17f, 3.2f, -1.12f, 4.38f, 0.1f)
+                curveToRelative(0.01f, 0.01f, 2.15f, 2.05f, 6.65f, 2.05f)
+                reflectiveCurveToRelative(6.64f, -2.04f, 6.66f, -2.06f)
+                curveToRelative(1.21f, -1.2f, 3.17f, -1.22f, 4.39f, -0.04f)
+                curveToRelative(1.23f, 1.2f, 1.28f, 3.12f, 0.11f, 4.36f)
+                close()
+                moveTo(19.87f, 14.18f)
+                curveToRelative(-0.8f, -0.28f, -1.65f, -0.23f, -2.42f, 0.14f)
+                curveToRelative(-1.47f, 0.71f, -2.96f, 1.19f, -5.46f, 1.19f)
+                reflectiveCurveToRelative(-3.98f, -0.47f, -5.46f, -1.19f)
+                curveToRelative(-0.43f, -0.21f, -0.9f, -0.32f, -1.37f, -0.32f)
+                curveToRelative(-0.35f, 0f, -0.71f, 0.06f, -1.05f, 0.18f)
+                curveToRelative(-0.8f, 0.28f, -1.45f, 0.87f, -1.82f, 1.64f)
+                curveToRelative(-0.76f, 1.6f, -0.09f, 3.52f, 1.49f, 4.28f)
+                curveToRelative(2.04f, 0.99f, 4.45f, 1.9f, 8.19f, 1.9f)
+                reflectiveCurveToRelative(6.15f, -0.91f, 8.19f, -1.9f)
+                curveToRelative(1.58f, -0.76f, 2.11f, -2.62f, 1.49f, -4.28f)
+                curveToRelative(-0.49f, -1.32f, -1.77f, -1.63f, -1.82f, -1.64f)
+                close()
+                moveTo(22.35f, 8.61f)
+                curveToRelative(-0.82f, -0.8f, -2.16f, -0.78f, -2.98f, 0.04f)
+                curveToRelative(-0.02f, 0.02f, -2.47f, 2.35f, -7.37f, 2.35f)
+                reflectiveCurveToRelative(-7.33f, -2.32f, -7.36f, -2.35f)
+                curveToRelative(-0.81f, -0.84f, -2.14f, -0.87f, -2.98f, -0.07f)
+                curveToRelative(-0.41f, 0.39f, -0.65f, 0.91f, -0.66f, 1.48f)
+                curveToRelative(-0.02f, 0.56f, 0.19f, 1.1f, 0.58f, 1.51f)
+                curveToRelative(0.07f, 0.08f, 0.9f, 0.88f, 2.21f, 1.67f)
+                lineToRelative(0.01f, -0.0f)
+                curveToRelative(1.05f, -0.37f, 2.18f, -0.31f, 3.18f, 0.18f)
+                curveToRelative(1.39f, 0.67f, 2.71f, 1.09f, 5.02f, 1.09f)
+                reflectiveCurveToRelative(3.63f, -0.42f, 5.02f, -1.09f)
+                curveToRelative(0.99f, -0.48f, 2.11f, -0.55f, 3.15f, -0.19f)
+                curveToRelative(0f, 0f, 1.56f, -0.92f, 2.26f, -1.66f)
+                curveToRelative(0.79f, -0.84f, 0.76f, -2.14f, -0.08f, -2.96f)
+                close()
+            }
+        }.also { _Hotdog = it}

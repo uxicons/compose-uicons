@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CarTilt: ImageVector? = null
+
+val Icons.Ts.CarTilt: ImageVector
+    get() = _CarTilt ?: UXIcon(name = "CarTilt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0.59f, 13.91f)
+                curveToRelative(0.2f, 1.89f, 0.84f, 3.74f, 1.86f, 5.35f)
+                lineToRelative(1.66f, 2.6f)
+                lineToRelative(1.81f, -1.15f)
+                lineToRelative(1.3f, 2.05f)
+                lineToRelative(3.56f, -2.27f)
+                lineToRelative(-1.3f, -2.05f)
+                lineToRelative(8.22f, -5.24f)
+                lineToRelative(1.3f, 2.05f)
+                lineToRelative(3.56f, -2.27f)
+                lineToRelative(-1.3f, -2.05f)
+                lineToRelative(1.81f, -1.16f)
+                lineToRelative(-1.66f, -2.6f)
+                curveToRelative(-1.02f, -1.61f, -2.43f, -2.97f, -4.06f, -3.95f)
+                lineTo(12.58f, 0.36f)
+                curveToRelative(-0.82f, -0.49f, -1.82f, -0.48f, -2.63f, 0.04f)
+                lineTo(1.16f, 5.99f)
+                curveTo(0.35f, 6.5f, -0.09f, 7.41f, 0.01f, 8.36f)
+                lineToRelative(0.58f, 5.55f)
+                close()
+                moveTo(9.4f, 20.18f)
+                lineToRelative(-1.88f, 1.19f)
+                lineToRelative(-0.76f, -1.2f)
+                lineToRelative(1.88f, -1.19f)
+                lineToRelative(0.76f, 1.2f)
+                close()
+                moveTo(21.18f, 12.67f)
+                lineToRelative(-1.88f, 1.19f)
+                lineToRelative(-0.76f, -1.2f)
+                lineToRelative(1.88f, -1.19f)
+                lineToRelative(0.76f, 1.2f)
+                close()
+                moveTo(20.58f, 7.71f)
+                lineToRelative(1.12f, 1.76f)
+                lineTo(4.42f, 20.48f)
+                lineToRelative(-1.12f, -1.76f)
+                curveToRelative(-0.61f, -0.96f, -1.07f, -2.02f, -1.38f, -3.11f)
+                lineToRelative(2.35f, -1.5f)
+                lineToRelative(0.99f, 1.56f)
+                curveToRelative(0.1f, 0.15f, 0.26f, 0.23f, 0.42f, 0.23f)
+                curveToRelative(0.09f, 0f, 0.19f, -0.03f, 0.27f, -0.08f)
+                curveToRelative(0.23f, -0.15f, 0.3f, -0.46f, 0.15f, -0.69f)
+                lineToRelative(-0.99f, -1.56f)
+                lineTo(15.09f, 7.22f)
+                lineToRelative(0.99f, 1.55f)
+                curveToRelative(0.1f, 0.15f, 0.26f, 0.23f, 0.42f, 0.23f)
+                curveToRelative(0.09f, 0f, 0.19f, -0.03f, 0.27f, -0.08f)
+                curveToRelative(0.23f, -0.15f, 0.3f, -0.46f, 0.15f, -0.69f)
+                lineToRelative(-0.99f, -1.55f)
+                lineToRelative(2.4f, -1.53f)
+                curveToRelative(0.87f, 0.74f, 1.63f, 1.6f, 2.24f, 2.56f)
+                close()
+                moveTo(1.69f, 6.83f)
+                lineTo(10.48f, 1.24f)
+                curveToRelative(0.25f, -0.16f, 0.53f, -0.24f, 0.81f, -0.24f)
+                curveToRelative(0.27f, 0f, 0.53f, 0.07f, 0.77f, 0.21f)
+                lineToRelative(4.79f, 2.87f)
+                curveToRelative(0.22f, 0.13f, 0.43f, 0.27f, 0.64f, 0.42f)
+                lineTo(1.69f, 14.57f)
+                curveToRelative(-0.04f, -0.25f, -0.08f, -0.51f, -0.11f, -0.76f)
+                lineToRelative(-0.58f, -5.55f)
+                curveToRelative(-0.06f, -0.57f, 0.2f, -1.11f, 0.69f, -1.42f)
+                close()
+                moveTo(24f, 23f)
+                verticalLineToRelative(1f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-1f)
+                lineTo(24f, 23f)
+                close()
+            }
+        }.also { _CarTilt = it}

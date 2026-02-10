@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CatalogMagazine: ImageVector? = null
+
+val Icons.Rs.CatalogMagazine: ImageVector
+    get() = _CatalogMagazine ?: UXIcon(name = "CatalogMagazine") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9f, 15.84f)
+                curveToRelative(-1.71f, -0.16f, -3.38f, -0.43f, -5f, -0.85f)
+                verticalLineToRelative(-2.06f)
+                curveToRelative(1.61f, 0.44f, 3.29f, 0.73f, 5f, 0.9f)
+                verticalLineToRelative(2.01f)
+                close()
+                moveTo(9f, 5.83f)
+                curveToRelative(-1.71f, -0.17f, -3.39f, -0.46f, -5f, -0.9f)
+                verticalLineToRelative(2.06f)
+                curveToRelative(1.62f, 0.41f, 3.29f, 0.69f, 5f, 0.85f)
+                verticalLineToRelative(-2.01f)
+                close()
+                moveTo(9f, 9.83f)
+                curveToRelative(-1.71f, -0.17f, -3.39f, -0.46f, -5f, -0.9f)
+                verticalLineToRelative(2.06f)
+                curveToRelative(1.62f, 0.41f, 3.29f, 0.69f, 5f, 0.85f)
+                verticalLineToRelative(-2.01f)
+                close()
+                moveTo(15f, 7.84f)
+                curveToRelative(1.71f, -0.16f, 3.38f, -0.43f, 5f, -0.85f)
+                verticalLineToRelative(-2.06f)
+                curveToRelative(-1.61f, 0.44f, -3.29f, 0.73f, -5f, 0.9f)
+                verticalLineToRelative(2.01f)
+                close()
+                moveTo(23.36f, 19.43f)
+                curveToRelative(-1.98f, 0.76f, -4.04f, 1.31f, -6.18f, 1.65f)
+                curveToRelative(2.0f, 0.49f, 4.42f, 0.91f, 6.82f, 0.91f)
+                verticalLineToRelative(2f)
+                curveToRelative(-5.32f, 0f, -10.55f, -1.86f, -12f, -2.42f)
+                curveToRelative(-1.45f, 0.56f, -6.68f, 2.42f, -12f, 2.42f)
+                verticalLineToRelative(-2f)
+                curveToRelative(2.4f, 0f, 4.82f, -0.42f, 6.82f, -0.91f)
+                curveToRelative(-2.14f, -0.34f, -4.2f, -0.89f, -6.18f, -1.65f)
+                lineToRelative(-0.64f, -0.25f)
+                lineTo(-0.0f, 3.07f)
+                curveToRelative(0f, -0.96f, 0.44f, -1.85f, 1.21f, -2.44f)
+                curveTo(1.99f, 0.04f, 2.99f, -0.15f, 3.95f, 0.12f)
+                curveToRelative(2.57f, 0.71f, 5.32f, 1.38f, 8.05f, 1.38f)
+                curveToRelative(2.72f, -0.01f, 5.48f, -0.67f, 8.05f, -1.38f)
+                curveToRelative(0.96f, -0.27f, 1.96f, -0.08f, 2.75f, 0.52f)
+                curveToRelative(0.77f, 0.58f, 1.21f, 1.47f, 1.21f, 2.44f)
+                verticalLineToRelative(16.12f)
+                lineToRelative(-0.64f, 0.25f)
+                close()
+                moveTo(11f, 3.47f)
+                curveToRelative(-2.62f, -0.14f, -5.18f, -0.76f, -7.58f, -1.43f)
+                curveToRelative(-0.35f, -0.1f, -0.72f, -0.03f, -1f, 0.18f)
+                curveToRelative(-0.15f, 0.12f, -0.42f, 0.38f, -0.42f, 0.84f)
+                verticalLineToRelative(14.73f)
+                curveToRelative(2.83f, 1.01f, 5.85f, 1.57f, 9f, 1.68f)
+                lineTo(11f, 3.47f)
+                close()
+                moveTo(22f, 3.07f)
+                curveToRelative(0f, -0.46f, -0.26f, -0.72f, -0.42f, -0.84f)
+                curveToRelative(-0.28f, -0.21f, -0.64f, -0.28f, -1f, -0.18f)
+                curveToRelative(-2.4f, 0.67f, -4.96f, 1.29f, -7.58f, 1.43f)
+                verticalLineToRelative(16.01f)
+                curveToRelative(3.15f, -0.1f, 6.17f, -0.67f, 9f, -1.68f)
+                lineTo(22f, 3.07f)
+                close()
+                moveTo(15f, 15.84f)
+                curveToRelative(1.71f, -0.16f, 3.38f, -0.43f, 5f, -0.85f)
+                verticalLineToRelative(-2.06f)
+                curveToRelative(-1.61f, 0.44f, -3.29f, 0.73f, -5f, 0.9f)
+                verticalLineToRelative(2.01f)
+                close()
+                moveTo(15f, 11.84f)
+                curveToRelative(1.71f, -0.16f, 3.38f, -0.43f, 5f, -0.85f)
+                verticalLineToRelative(-2.06f)
+                curveToRelative(-1.61f, 0.44f, -3.29f, 0.73f, -5f, 0.9f)
+                verticalLineToRelative(2.01f)
+                close()
+            }
+        }.also { _CatalogMagazine = it}

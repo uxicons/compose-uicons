@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HouseHands: ImageVector? = null
+
+val Icons.Br.HouseHands: ImageVector
+    get() = _HouseHands ?: UXIcon(name = "HouseHands") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(24.01f, 6.5f)
+            verticalLineToRelative(11.02f)
+            curveToRelative(0f, 2.0f, -0.78f, 3.89f, -2.19f, 5.3f)
+            lineToRelative(-0.74f, 0.74f)
+            curveToRelative(-0.58f, 0.58f, -1.54f, 0.58f, -2.12f, -0.0f)
+            curveToRelative(-0.58f, -0.59f, -0.58f, -1.53f, 0.0f, -2.12f)
+            lineToRelative(0.74f, -0.74f)
+            curveToRelative(0.85f, -0.85f, 1.32f, -1.98f, 1.32f, -3.18f)
+            verticalLineToRelative(-1.15f)
+            lineToRelative(-2.44f, 2.42f)
+            curveToRelative(-0.59f, 0.58f, -1.54f, 0.58f, -2.12f, -0.01f)
+            curveToRelative(-0.58f, -0.59f, -0.58f, -1.54f, 0.01f, -2.12f)
+            lineToRelative(2.42f, -2.4f)
+            curveToRelative(0.2f, -0.32f, 0.15f, -0.75f, -0.12f, -1.02f)
+            curveToRelative(-0.32f, -0.32f, -0.86f, -0.32f, -1.18f, 0f)
+            lineToRelative(-4.01f, 4.01f)
+            curveToRelative(0.28f, 0.78f, 0.43f, 1.59f, 0.43f, 2.44f)
+            verticalLineToRelative(2.81f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-2.81f)
+            curveToRelative(0f, -1.25f, -0.53f, -2.4f, -1.63f, -3.49f)
+            lineToRelative(-2.88f, -2.88f)
+            curveToRelative(-0.32f, -0.32f, -0.82f, -0.4f, -1.14f, -0.18f)
+            curveToRelative(-0.41f, 0.32f, -0.45f, 0.72f, -0.24f, 1.11f)
+            lineToRelative(2.45f, 2.43f)
+            curveToRelative(0.59f, 0.58f, 0.59f, 1.53f, 0.01f, 2.12f)
+            curveToRelative(-0.58f, 0.59f, -1.53f, 0.59f, -2.12f, 0.01f)
+            lineToRelative(-2.44f, -2.43f)
+            verticalLineToRelative(1.12f)
+            curveToRelative(0f, 1.2f, 0.47f, 2.33f, 1.32f, 3.18f)
+            lineToRelative(0.74f, 0.74f)
+            curveToRelative(0.59f, 0.59f, 0.59f, 1.53f, 0f, 2.12f)
+            reflectiveCurveToRelative(-1.53f, 0.59f, -2.12f, 0f)
+            lineToRelative(-0.74f, -0.74f)
+            curveToRelative(-1.42f, -1.42f, -2.2f, -3.3f, -2.2f, -5.3f)
+            verticalLineToRelative(-11.02f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+            verticalLineToRelative(3.6f)
+            curveToRelative(1.25f, -0.26f, 2.62f, 0.11f, 3.6f, 1.1f)
+            lineToRelative(2.88f, 2.88f)
+            curveToRelative(0.17f, 0.17f, 0.33f, 0.35f, 0.49f, 0.53f)
+            lineToRelative(3.48f, -3.48f)
+            curveToRelative(0.96f, -0.96f, 2.31f, -1.29f, 3.55f, -1.02f)
+            verticalLineToRelative(-3.6f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+            close()
+            moveTo(7.5f, 7.29f)
+            verticalLineToRelative(-3.69f)
+            curveToRelative(0f, -0.57f, 0.28f, -1.1f, 0.76f, -1.42f)
+            lineToRelative(2.79f, -1.88f)
+            curveToRelative(0.58f, -0.39f, 1.34f, -0.39f, 1.92f, 0f)
+            lineToRelative(2.79f, 1.88f)
+            curveToRelative(0.47f, 0.32f, 0.76f, 0.85f, 0.76f, 1.42f)
+            verticalLineToRelative(3.69f)
+            curveToRelative(0f, 0.95f, -0.77f, 1.71f, -1.71f, 1.71f)
+            horizontalLineToRelative(-5.57f)
+            curveToRelative(-0.95f, 0f, -1.71f, -0.77f, -1.71f, -1.71f)
+            close()
+            moveTo(11f, 6f)
+            curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+            close()
+        }
+    }.also { _HouseHands = it }

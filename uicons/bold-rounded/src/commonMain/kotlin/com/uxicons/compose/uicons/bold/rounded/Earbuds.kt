@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Earbuds: ImageVector? = null
+
+val Icons.Br.Earbuds: ImageVector
+    get() = _Earbuds ?: UXIcon(name = "Earbuds") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(7.5f, 22.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-1.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(1.5f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(17f, 3f)
+            horizontalLineToRelative(1.5f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-1.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+            moveTo(12f, 3.0f)
+            verticalLineToRelative(5.99f)
+            curveToRelative(0f, 0.87f, -0.46f, 1.69f, -1.19f, 2.13f)
+            curveToRelative(-0.66f, 0.4f, -1.77f, 0.87f, -3.31f, 0.87f)
+            curveToRelative(-0.69f, 0f, -1.33f, -0.13f, -1.9f, -0.32f)
+            curveToRelative(0.13f, 1.3f, 0.39f, 3.09f, 0.84f, 5.55f)
+            curveToRelative(0.08f, 0.44f, -0.04f, 0.89f, -0.32f, 1.23f)
+            curveToRelative(-0.28f, 0.34f, -0.71f, 0.54f, -1.15f, 0.54f)
+            horizontalLineToRelative(-1.37f)
+            curveToRelative(-0.74f, 0f, -1.36f, -0.53f, -1.48f, -1.26f)
+            curveToRelative(-0.64f, -3.93f, -1.0f, -7.28f, -1.09f, -9.99f)
+            curveToRelative(-0.02f, -0.14f, -0.02f, -0.98f, -0.02f, -1.25f)
+            curveToRelative(0f, -2.01f, 1f, -3.96f, 2.46f, -5.24f)
+            curveToRelative(0.38f, -0.34f, 1.78f, -1.26f, 4.04f, -1.26f)
+            curveToRelative(1.54f, 0f, 2.65f, 0.47f, 3.31f, 0.87f)
+            curveToRelative(0.73f, 0.45f, 1.19f, 1.26f, 1.19f, 2.13f)
+            close()
+            moveTo(9f, 3.3f)
+            curveToRelative(-0.34f, -0.16f, -0.84f, -0.3f, -1.5f, -0.3f)
+            curveToRelative(-1.3f, 0f, -1.94f, 0.56f, -1.97f, 0.59f)
+            curveToRelative(-0.88f, 0.66f, -1.53f, 1.82f, -1.53f, 2.91f)
+            curveToRelative(0f, 0.12f, 0f, 0.25f, 0.0f, 0.38f)
+            lineToRelative(1.05f, 1.05f)
+            reflectiveCurveToRelative(0.01f, 0.0f, 0.01f, 0.01f)
+            curveToRelative(0.03f, 0.03f, 1.12f, 1.06f, 2.44f, 1.06f)
+            curveToRelative(0.66f, 0f, 1.16f, -0.14f, 1.5f, -0.3f)
+            lineTo(9f, 3.3f)
+            close()
+            moveTo(22f, 17.5f)
+            curveToRelative(0f, 2.01f, -0.67f, 3.51f, -2.31f, 5.06f)
+            curveToRelative(-0.38f, 0.34f, -1.94f, 1.44f, -4.19f, 1.44f)
+            curveToRelative(-1.54f, 0f, -2.65f, -0.47f, -3.31f, -0.87f)
+            curveToRelative(-0.73f, -0.45f, -1.19f, -1.26f, -1.19f, -2.13f)
+            verticalLineToRelative(-5.99f)
+            curveToRelative(0f, -0.87f, 0.46f, -1.69f, 1.19f, -2.13f)
+            curveToRelative(0.66f, -0.4f, 1.77f, -0.87f, 3.31f, -0.87f)
+            curveToRelative(0.69f, 0f, 1.33f, 0.13f, 1.9f, 0.32f)
+            curveToRelative(-0.13f, -1.3f, -0.39f, -3.09f, -0.84f, -5.55f)
+            curveToRelative(-0.08f, -0.44f, 0.04f, -0.89f, 0.32f, -1.23f)
+            curveToRelative(0.28f, -0.34f, 0.71f, -0.54f, 1.15f, -0.54f)
+            horizontalLineToRelative(1.37f)
+            curveToRelative(0.74f, 0f, 1.36f, 0.53f, 1.48f, 1.26f)
+            curveToRelative(0.64f, 3.93f, 1.0f, 7.28f, 1.09f, 9.99f)
+            curveToRelative(0.02f, 0.14f, 0.02f, 0.98f, 0.02f, 1.25f)
+            close()
+            moveTo(19f, 17.5f)
+            curveToRelative(0f, -0.12f, 0f, -0.25f, -0.0f, -0.38f)
+            curveToRelative(0f, 0f, -1.06f, -1.06f, -1.06f, -1.06f)
+            curveToRelative(-0.03f, -0.03f, -1.12f, -1.06f, -2.44f, -1.06f)
+            curveToRelative(-0.66f, 0f, -1.16f, 0.14f, -1.5f, 0.3f)
+            verticalLineToRelative(5.39f)
+            curveToRelative(0.34f, 0.16f, 0.84f, 0.3f, 1.5f, 0.3f)
+            curveToRelative(1.3f, 0f, 1.94f, -0.56f, 1.97f, -0.59f)
+            curveToRelative(1.02f, -0.88f, 1.53f, -1.82f, 1.53f, -2.91f)
+            close()
+        }
+    }.also { _Earbuds = it }

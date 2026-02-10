@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GasPumpSlash: ImageVector? = null
+
+val Icons.Tr.GasPumpSlash: ImageVector
+    get() = _GasPumpSlash ?: UXIcon(name = "GasPumpSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15.97f, 19.55f)
+                curveToRelative(-0.28f, 2.53f, -2.42f, 4.45f, -4.97f, 4.45f)
+                lineTo(4.5f, 24f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 4.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(4.5f)
+                lineTo(5.5f, 9f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(1f, 10f)
+                verticalLineToRelative(9.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(6.5f)
+                curveToRelative(2.04f, 0f, 3.75f, -1.53f, 3.98f, -3.56f)
+                curveToRelative(0.03f, -0.28f, 0.28f, -0.47f, 0.55f, -0.44f)
+                curveToRelative(0.27f, 0.03f, 0.47f, 0.28f, 0.44f, 0.55f)
+                close()
+                moveTo(24f, 7.16f)
+                verticalLineToRelative(10.34f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-0.79f)
+                lineToRelative(3.15f, 3.15f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                lineTo(0.15f, 0.85f)
+                curveTo(-0.05f, 0.66f, -0.05f, 0.34f, 0.15f, 0.15f)
+                reflectiveCurveTo(0.66f, -0.05f, 0.85f, 0.15f)
+                lineToRelative(0.84f, 0.84f)
+                curveToRelative(0.8f, -0.64f, 1.78f, -0.98f, 2.81f, -0.98f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                lineTo(16.0f, 15.29f)
+                lineToRelative(3.71f, 3.71f)
+                horizontalLineToRelative(1.79f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                lineTo(23.0f, 8f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                lineTo(20.0f, 2.71f)
+                lineToRelative(-1.85f, -1.85f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                reflectiveCurveToRelative(0.51f, -0.2f, 0.71f, 0f)
+                lineToRelative(2.0f, 2.0f)
+                lineToRelative(0.01f, 0.01f)
+                lineToRelative(1.83f, 1.83f)
+                curveToRelative(0.85f, 0.85f, 1.32f, 1.98f, 1.32f, 3.18f)
+                close()
+                moveTo(15f, 10f)
+                horizontalLineToRelative(-4.29f)
+                lineToRelative(4.29f, 4.29f)
+                verticalLineToRelative(-4.29f)
+                close()
+                moveTo(2.4f, 1.7f)
+                lineToRelative(7.3f, 7.3f)
+                horizontalLineToRelative(5.29f)
+                lineTo(15f, 4.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                lineTo(4.5f, 1f)
+                curveToRelative(-0.76f, 0f, -1.49f, 0.25f, -2.1f, 0.7f)
+                close()
+                moveTo(21.5f, 7f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(-0.04f, -0.88f, -0.4f, -1.69f, -1.02f, -2.32f)
+                lineToRelative(-0.97f, -0.97f)
+                verticalLineToRelative(2.79f)
+                curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _GasPumpSlash = it}

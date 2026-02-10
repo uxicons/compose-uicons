@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _KeyCar: ImageVector? = null
+
+val Icons.Tr.KeyCar: ImageVector
+    get() = _KeyCar ?: UXIcon(name = "KeyCar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17.56f, 4.44f)
+                curveToRelative(-0.57f, -0.57f, -1.56f, -0.57f, -2.12f, 0f)
+                curveToRelative(-0.58f, 0.58f, -0.58f, 1.54f, 0f, 2.12f)
+                lineToRelative(2f, 2f)
+                curveToRelative(0.28f, 0.28f, 0.66f, 0.44f, 1.06f, 0.44f)
+                reflectiveCurveToRelative(0.78f, -0.16f, 1.06f, -0.44f)
+                curveToRelative(0.58f, -0.58f, 0.58f, -1.54f, 0f, -2.12f)
+                lineToRelative(-2f, -2f)
+                close()
+                moveTo(18.85f, 7.85f)
+                curveToRelative(-0.19f, 0.19f, -0.52f, 0.19f, -0.71f, 0f)
+                lineToRelative(-2f, -2f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(0.19f, -0.19f, 0.52f, -0.19f, 0.71f, 0f)
+                lineToRelative(2f, 2f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                close()
+                moveTo(23.06f, 5.05f)
+                curveToRelative(-1.18f, -1.65f, -2.27f, -2.79f, -3.82f, -3.99f)
+                curveToRelative(-2.21f, -1.71f, -5.31f, -1.35f, -7.05f, 0.81f)
+                lineToRelative(-3.31f, 4.12f)
+                curveToRelative(-1.01f, 1.25f, -1.11f, 2.94f, -0.39f, 4.29f)
+                lineTo(1.32f, 17.48f)
+                curveTo(0.47f, 18.32f, 0f, 19.45f, 0f, 20.66f)
+                verticalLineToRelative(1.34f)
+                curveToRelative(-0.02f, 1.07f, 0.92f, 2.02f, 2.0f, 2f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1.0f)
+                verticalLineToRelative(-1.0f)
+                horizontalLineToRelative(1.7f)
+                curveToRelative(0.66f, 0f, 1.29f, -0.26f, 1.76f, -0.72f)
+                lineToRelative(0.95f, -0.94f)
+                curveToRelative(1.39f, 0.92f, 3.23f, 0.86f, 4.56f, -0.18f)
+                lineToRelative(4.09f, -3.19f)
+                curveToRelative(2.14f, -1.67f, 2.58f, -4.71f, 1.01f, -6.92f)
+                close()
+                moveTo(11.76f, 15.57f)
+                curveToRelative(-0.28f, 0.28f, -0.66f, 0.43f, -1.05f, 0.43f)
+                horizontalLineToRelative(-2.2f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                reflectiveCurveToRelative(-1.5f, 0f, -1.5f, 0f)
+                curveToRelative(-0.27f, -0.01f, -0.51f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(2.0f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(2.0f, 23f)
+                curveToRelative(-0.54f, 0.01f, -1.01f, -0.46f, -1.0f, -1f)
+                verticalLineToRelative(-1.34f)
+                curveToRelative(0f, -0.93f, 0.36f, -1.81f, 1.02f, -2.48f)
+                lineToRelative(7.06f, -7.06f)
+                curveToRelative(0.03f, 0.03f, 3.55f, 3.57f, 3.55f, 3.57f)
+                lineToRelative(-0.89f, 0.88f)
+                close()
+                moveTo(21.44f, 11.18f)
+                lineToRelative(-4.09f, 3.19f)
+                curveToRelative(-1.16f, 0.9f, -2.81f, 0.8f, -3.85f, -0.24f)
+                lineToRelative(-3.63f, -3.63f)
+                curveToRelative(-1.05f, -1.05f, -1.14f, -2.72f, -0.21f, -3.88f)
+                lineToRelative(3.31f, -4.12f)
+                curveToRelative(1.41f, -1.75f, 3.9f, -2.01f, 5.66f, -0.65f)
+                curveToRelative(1.47f, 1.14f, 2.49f, 2.21f, 3.61f, 3.78f)
+                curveToRelative(1.27f, 1.77f, 0.91f, 4.21f, -0.81f, 5.55f)
+                close()
+            }
+        }.also { _KeyCar = it}

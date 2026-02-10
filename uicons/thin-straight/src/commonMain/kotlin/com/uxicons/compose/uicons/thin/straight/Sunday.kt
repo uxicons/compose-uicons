@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Sunday: ImageVector? = null
+
+val Icons.Ts.Sunday: ImageVector
+    get() = _Sunday ?: UXIcon(name = "Sunday") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 2f)
+                horizontalLineToRelative(-4f)
+                lineTo(17.5f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                lineTo(7f, 2f)
+                lineTo(7f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(19.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1f)
+                lineTo(1f, 23f)
+                verticalLineToRelative(-14f)
+                horizontalLineToRelative(22f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(1f)
+                lineTo(24f, 4.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(1f, 8f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(19f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.5f)
+                lineTo(1f, 8f)
+                close()
+                moveTo(23f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-0.79f)
+                lineToRelative(-3.21f, -5.62f)
+                verticalLineToRelative(5.62f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(0.79f)
+                lineToRelative(3.21f, 5.62f)
+                verticalLineToRelative(-5.62f)
+                close()
+                moveTo(17f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5.5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-5.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-5.5f)
+                close()
+                moveTo(11.97f, 22.06f)
+                curveToRelative(-0.18f, 1.13f, -1.16f, 1.94f, -2.33f, 1.94f)
+                curveToRelative(-0.88f, 0f, -1.95f, -0.55f, -2.47f, -1.08f)
+                lineToRelative(0.71f, -0.7f)
+                curveToRelative(0.41f, 0.42f, 1.24f, 0.79f, 1.76f, 0.79f)
+                curveToRelative(0.67f, 0f, 1.24f, -0.47f, 1.34f, -1.1f)
+                curveToRelative(0.04f, -0.23f, 0.08f, -1.01f, -0.98f, -1.43f)
+                curveToRelative(-0.11f, -0.04f, -1.21f, -0.46f, -1.7f, -0.76f)
+                curveToRelative(-0.67f, -0.47f, -0.98f, -1.16f, -0.88f, -1.92f)
+                curveToRelative(0.1f, -0.78f, 0.63f, -1.42f, 1.36f, -1.67f)
+                curveToRelative(0.9f, -0.3f, 1.82f, -0.05f, 2.74f, 0.75f)
+                lineToRelative(-0.65f, 0.76f)
+                curveToRelative(-0.65f, -0.56f, -1.21f, -0.74f, -1.77f, -0.55f)
+                curveToRelative(-0.37f, 0.12f, -0.63f, 0.45f, -0.69f, 0.85f)
+                curveToRelative(-0.05f, 0.38f, 0.1f, 0.72f, 0.43f, 0.95f)
+                curveToRelative(0.33f, 0.2f, 1.21f, 0.55f, 1.52f, 0.67f)
+                curveToRelative(1.4f, 0.56f, 1.73f, 1.71f, 1.6f, 2.52f)
+                close()
+            }
+        }.also { _Sunday = it}

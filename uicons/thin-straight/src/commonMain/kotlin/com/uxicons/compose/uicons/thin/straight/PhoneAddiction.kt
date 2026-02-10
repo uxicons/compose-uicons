@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PhoneAddiction: ImageVector? = null
+
+val Icons.Ts.PhoneAddiction: ImageVector
+    get() = _PhoneAddiction ?: UXIcon(name = "PhoneAddiction") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7f, 0f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(13f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                horizontalLineToRelative(-3.36f)
+                lineToRelative(0.68f, -1f)
+                horizontalLineToRelative(2.68f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3.09f)
+                curveToRelative(0.06f, -0.33f, 0.09f, -0.67f, 0.07f, -1f)
+                horizontalLineToRelative(3.02f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(6.41f)
+                curveToRelative(-0.35f, 0.16f, -0.69f, 0.36f, -1f, 0.62f)
+                verticalLineToRelative(-2.89f)
+                lineToRelative(-6f, 5.57f)
+                verticalLineToRelative(12.28f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-5.5f)
+                lineToRelative(3.67f, -5.41f)
+                curveToRelative(0.48f, -0.56f, 0.41f, -1.35f, -0.11f, -1.79f)
+                curveToRelative(-0.47f, -0.4f, -1.17f, -0.39f, -1.63f, 0.02f)
+                lineToRelative(-3.54f, 3.24f)
+                lineToRelative(-0.68f, -0.74f)
+                lineToRelative(3.54f, -3.25f)
+                curveToRelative(0.83f, -0.74f, 2.1f, -0.75f, 2.94f, -0.04f)
+                curveToRelative(0.94f, 0.8f, 1.06f, 2.22f, 0.26f, 3.16f)
+                lineToRelative(-3.47f, 5.11f)
+                verticalLineToRelative(6.2f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(-13.72f)
+                lineToRelative(7f, -6.5f)
+                close()
+                moveTo(10f, 24f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(15f, 24f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                close()
+                moveTo(23f, 18f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(23f, 22f)
+                curveToRelative(0f, 0.55f, -0.45f, 1.0f, -1f, 1.0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2.0f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(23.41f, 9.59f)
+                curveToRelative(-0.38f, -0.38f, -0.88f, -0.58f, -1.41f, -0.58f)
+                horizontalLineToRelative(-2.0f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2.0f)
+                curveToRelative(0.54f, -0.01f, 1.01f, 0.46f, 1.0f, 1.0f)
+                verticalLineToRelative(2.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2.0f)
+                curveToRelative(0f, -0.53f, -0.21f, -1.04f, -0.59f, -1.41f)
+                close()
+            }
+        }.also { _PhoneAddiction = it}

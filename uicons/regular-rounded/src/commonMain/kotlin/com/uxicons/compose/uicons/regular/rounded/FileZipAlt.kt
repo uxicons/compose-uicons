@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FileZipAlt: ImageVector? = null
+
+val Icons.Rr.FileZipAlt: ImageVector
+    get() = _FileZipAlt ?: UXIcon(name = "FileZipAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17f, 0f)
+                lineTo(7f, 0f)
+                curveTo(4.24f, 0f, 2f, 2.24f, 2f, 5f)
+                verticalLineToRelative(14f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(10f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                lineTo(22f, 5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(20f, 19f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                lineTo(7f, 22f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                lineTo(4f, 5f)
+                curveToRelative(0f, -0.42f, 0.09f, -0.83f, 0.25f, -1.2f)
+                lineToRelative(1.06f, 1.02f)
+                curveToRelative(0.19f, 0.19f, 0.44f, 0.28f, 0.69f, 0.28f)
+                curveToRelative(0.26f, 0f, 0.52f, -0.1f, 0.72f, -0.31f)
+                curveToRelative(0.38f, -0.4f, 0.37f, -1.03f, -0.03f, -1.41f)
+                lineToRelative(-1.07f, -1.03f)
+                curveToRelative(0.41f, -0.22f, 0.88f, -0.35f, 1.38f, -0.35f)
+                horizontalLineToRelative(10f)
+                curveToRelative(0.42f, 0f, 0.83f, 0.09f, 1.2f, 0.25f)
+                lineToRelative(-1.02f, 1.06f)
+                curveToRelative(-0.38f, 0.4f, -0.37f, 1.03f, 0.03f, 1.41f)
+                curveToRelative(0.19f, 0.19f, 0.44f, 0.28f, 0.69f, 0.28f)
+                curveToRelative(0.26f, 0f, 0.52f, -0.1f, 0.72f, -0.31f)
+                lineToRelative(1.03f, -1.07f)
+                curveToRelative(0.22f, 0.41f, 0.35f, 0.88f, 0.35f, 1.38f)
+                verticalLineToRelative(14f)
+                close()
+                moveTo(14.14f, 15.48f)
+                curveToRelative(0.23f, 0.76f, -0.34f, 1.52f, -1.13f, 1.52f)
+                horizontalLineToRelative(-1.83f)
+                curveToRelative(-0.79f, 0f, -1.36f, -0.76f, -1.13f, -1.52f)
+                lineToRelative(0.76f, -2.52f)
+                curveToRelative(0.17f, -0.57f, 0.69f, -0.96f, 1.29f, -0.96f)
+                reflectiveCurveToRelative(1.12f, 0.39f, 1.29f, 0.96f)
+                lineToRelative(0.76f, 2.52f)
+                close()
+                moveTo(9.56f, 6.19f)
+                curveToRelative(0.4f, 0.39f, 0.4f, 1.02f, 0.01f, 1.42f)
+                curveToRelative(-0.2f, 0.2f, -0.46f, 0.3f, -0.71f, 0.3f)
+                curveToRelative(-0.25f, 0f, -0.51f, -0.1f, -0.7f, -0.29f)
+                lineToRelative(-0.71f, -0.7f)
+                curveToRelative(-0.4f, -0.39f, -0.4f, -1.02f, -0.01f, -1.42f)
+                curveToRelative(0.39f, -0.4f, 1.02f, -0.4f, 1.41f, -0.01f)
+                lineToRelative(0.71f, 0.7f)
+                close()
+                moveTo(10.29f, 9.71f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                lineToRelative(0.29f, 0.29f)
+                lineToRelative(0.29f, -0.29f)
+                curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+                reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+                lineToRelative(-1f, 1f)
+                curveToRelative(-0.2f, 0.2f, -0.45f, 0.29f, -0.71f, 0.29f)
+                reflectiveCurveToRelative(-0.51f, -0.1f, -0.71f, -0.29f)
+                lineToRelative(-1f, -1f)
+                close()
+                moveTo(16.5f, 5.43f)
+                curveToRelative(0.4f, 0.39f, 0.4f, 1.02f, 0.01f, 1.41f)
+                lineToRelative(-0.7f, 0.71f)
+                curveToRelative(-0.2f, 0.2f, -0.46f, 0.3f, -0.71f, 0.3f)
+                curveToRelative(-0.25f, 0f, -0.51f, -0.1f, -0.7f, -0.29f)
+                curveToRelative(-0.4f, -0.39f, -0.4f, -1.02f, -0.01f, -1.41f)
+                lineToRelative(0.7f, -0.71f)
+                curveToRelative(0.39f, -0.4f, 1.02f, -0.4f, 1.41f, -0.01f)
+                close()
+            }
+        }.also { _FileZipAlt = it}

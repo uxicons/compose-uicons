@@ -1,0 +1,62 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DocumentGavel: ImageVector? = null
+
+val Icons.Ts.DocumentGavel: ImageVector
+    get() = _DocumentGavel ?: UXIcon(name = "DocumentGavel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(1f, 23f)
+                lineTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                lineTo(12f, 1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(1.77f)
+                lineToRelative(1f, 1f)
+                verticalLineToRelative(-3.48f)
+                lineTo(12.71f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                lineTo(0f, 24f)
+                lineTo(14.59f, 24f)
+                lineToRelative(-1f, -1f)
+                lineTo(1f, 23f)
+                close()
+                moveTo(13f, 1.71f)
+                lineToRelative(5.29f, 5.29f)
+                horizontalLineToRelative(-5.29f)
+                lineTo(13f, 1.71f)
+                close()
+                moveTo(23.26f, 23.97f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(-5.43f, -5.43f)
+                lineToRelative(2.14f, -2.14f)
+                lineToRelative(0.89f, 0.89f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(-5.57f, -5.57f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(0.89f, 0.89f)
+                lineToRelative(-5.08f, 5.08f)
+                lineToRelative(-0.89f, -0.89f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(5.57f, 5.57f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(-0.89f, -0.89f)
+                lineToRelative(2.23f, -2.23f)
+                lineToRelative(5.43f, 5.43f)
+                close()
+                moveTo(12.51f, 17.68f)
+                lineToRelative(5.08f, -5.08f)
+                lineToRelative(2.38f, 2.38f)
+                lineToRelative(-5.08f, 5.08f)
+                lineToRelative(-2.38f, -2.38f)
+                close()
+            }
+        }.also { _DocumentGavel = it}

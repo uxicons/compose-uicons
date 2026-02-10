@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BikePath: ImageVector? = null
+
+val Icons.Ts.BikePath: ImageVector
+    get() = _BikePath ?: UXIcon(name = "BikePath") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 19.5f)
+                curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+                horizontalLineToRelative(-7.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(7.5f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(-1.57f, -3.5f, -3.5f, -3.5f)
+                lineTo(4f, 16f)
+                curveToRelative(-2.21f, 0f, -4f, -1.79f, -4f, -4f)
+                reflectiveCurveToRelative(1.79f, -4f, 4f, -4f)
+                horizontalLineToRelative(7.28f)
+                curveToRelative(0.13f, 0.35f, 0.28f, 0.69f, 0.48f, 1f)
+                lineTo(4f, 9f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(15.5f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                close()
+                moveTo(6f, 24f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                lineTo(6f, 23f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(0f, 24f)
+                lineTo(4f, 24f)
+                verticalLineToRelative(-1f)
+                lineTo(0f, 23f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(13f, 6.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                curveToRelative(0.21f, 0f, 0.41f, 0.03f, 0.61f, 0.08f)
+                lineToRelative(-0.01f, -0.02f)
+                lineToRelative(0.27f, -0.15f)
+                lineToRelative(-1.15f, -1.91f)
+                horizontalLineToRelative(-1.22f)
+                lineTo(14f, 1f)
+                horizontalLineToRelative(1.78f)
+                lineToRelative(1.46f, 2.44f)
+                lineToRelative(1.9f, -1.03f)
+                lineToRelative(-0.64f, -1.28f)
+                lineTo(18.5f, 0f)
+                horizontalLineToRelative(3.5f)
+                lineTo(22.0f, 1f)
+                horizontalLineToRelative(-2.44f)
+                lineToRelative(1.52f, 3.04f)
+                curveToRelative(0.14f, -0.02f, 0.28f, -0.04f, 0.42f, -0.04f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                curveToRelative(0f, -0.88f, 0.46f, -1.65f, 1.14f, -2.1f)
+                lineToRelative(-0.56f, -1.11f)
+                lineToRelative(-2.45f, 1.33f)
+                curveToRelative(0.52f, 0.46f, 0.86f, 1.12f, 0.86f, 1.87f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(21.5f, 5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(14f, 6.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _BikePath = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SmartHomeCloud: ImageVector? = null
+
+val Icons.Tr.SmartHomeCloud: ImageVector
+    get() = _SmartHomeCloud ?: UXIcon(name = "SmartHomeCloud") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.54f, 17.46f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                reflectiveCurveToRelative(-0.51f, 0.2f, -0.71f, 0f)
+                curveToRelative(-1.51f, -1.51f, -4.15f, -1.51f, -5.66f, 0f)
+                curveToRelative(-0.2f, 0.2f, -0.51f, 0.2f, -0.71f, 0f)
+                reflectiveCurveToRelative(-0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(0.94f, -0.94f, 2.2f, -1.46f, 3.54f, -1.46f)
+                reflectiveCurveToRelative(2.59f, 0.52f, 3.54f, 1.46f)
+                close()
+                moveTo(12f, 20f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(9.88f, 18.88f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                reflectiveCurveToRelative(0.51f, 0.2f, 0.71f, 0f)
+                curveToRelative(0.78f, -0.78f, 2.05f, -0.78f, 2.83f, 0f)
+                curveToRelative(0.2f, 0.2f, 0.51f, 0.2f, 0.71f, 0f)
+                reflectiveCurveToRelative(0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(-1.17f, -1.17f, -3.07f, -1.17f, -4.24f, 0f)
+                close()
+                moveTo(18f, 16.88f)
+                verticalLineToRelative(4.62f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-4.62f)
+                curveToRelative(0f, -0.83f, 0.41f, -1.61f, 1.1f, -2.07f)
+                lineToRelative(3.5f, -2.36f)
+                curveToRelative(0.85f, -0.57f, 1.95f, -0.57f, 2.8f, 0f)
+                lineToRelative(3.5f, 2.36f)
+                curveToRelative(0.69f, 0.47f, 1.1f, 1.24f, 1.1f, 2.07f)
+                close()
+                moveTo(17f, 16.88f)
+                curveToRelative(0f, -0.5f, -0.25f, -0.96f, -0.66f, -1.24f)
+                lineToRelative(-3.5f, -2.36f)
+                curveToRelative(-0.26f, -0.17f, -0.55f, -0.26f, -0.84f, -0.26f)
+                reflectiveCurveToRelative(-0.58f, 0.09f, -0.84f, 0.26f)
+                lineToRelative(-3.5f, 2.36f)
+                curveToRelative(-0.41f, 0.28f, -0.66f, 0.74f, -0.66f, 1.24f)
+                verticalLineToRelative(4.62f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(18.15f, 5.19f)
+                curveToRelative(-0.44f, -0.1f, -0.81f, -0.38f, -1.0f, -0.77f)
+                curveToRelative(-1.61f, -3.22f, -5.1f, -4.94f, -8.67f, -4.28f)
+                curveToRelative(-3.13f, 0.58f, -5.67f, 3.08f, -6.31f, 6.22f)
+                curveToRelative(-0.19f, 0.93f, -0.22f, 1.88f, -0.08f, 2.8f)
+                curveToRelative(0.08f, 0.57f, -0.06f, 1.07f, -0.39f, 1.39f)
+                curveToRelative(-1.38f, 1.32f, -1.97f, 3.23f, -1.58f, 5.12f)
+                curveToRelative(0.35f, 1.72f, 1.54f, 3.17f, 3.18f, 3.88f)
+                curveToRelative(0.25f, 0.11f, 0.55f, -0.0f, 0.66f, -0.26f)
+                curveToRelative(0.11f, -0.25f, -0.01f, -0.55f, -0.26f, -0.66f)
+                curveToRelative(-1.32f, -0.57f, -2.31f, -1.79f, -2.6f, -3.17f)
+                curveToRelative(-0.32f, -1.55f, 0.16f, -3.12f, 1.29f, -4.2f)
+                curveToRelative(0.56f, -0.54f, 0.81f, -1.36f, 0.69f, -2.25f)
+                curveToRelative(-0.12f, -0.81f, -0.09f, -1.63f, 0.07f, -2.45f)
+                curveToRelative(0.56f, -2.74f, 2.77f, -4.93f, 5.51f, -5.43f)
+                curveToRelative(3.13f, -0.58f, 6.18f, 0.92f, 7.6f, 3.74f)
+                curveToRelative(0.33f, 0.66f, 0.94f, 1.13f, 1.68f, 1.29f)
+                curveToRelative(3.05f, 0.69f, 5.18f, 3.45f, 5.07f, 6.58f)
+                curveToRelative(-0.07f, 1.97f, -1.09f, 3.78f, -2.78f, 4.98f)
+                curveToRelative(-0.23f, 0.16f, -0.28f, 0.47f, -0.12f, 0.7f)
+                curveToRelative(0.16f, 0.23f, 0.47f, 0.28f, 0.7f, 0.12f)
+                curveToRelative(1.95f, -1.38f, 3.12f, -3.48f, 3.21f, -5.76f)
+                curveToRelative(0.13f, -3.61f, -2.33f, -6.81f, -5.85f, -7.6f)
+                close()
+            }
+        }.also { _SmartHomeCloud = it}

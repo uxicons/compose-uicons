@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Volcano: ImageVector? = null
+
+val Icons.Rs.Volcano: ImageVector
+    get() = _Volcano ?: UXIcon(name = "Volcano") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(14.97f, 10f)
+                lineTo(9.03f, 10f)
+                lineTo(0f, 22.68f)
+                lineTo(0f, 24f)
+                lineTo(24f, 24f)
+                lineTo(24f, 22.59f)
+                close()
+                moveTo(10.06f, 12f)
+                horizontalLineToRelative(3.89f)
+                lineToRelative(1.48f, 2.06f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.42f, 0.71f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, 0f)
+                arcToRelative(2.99f, 2.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.42f, -0.71f)
+                close()
+                moveTo(2.88f, 22f)
+                lineToRelative(4.3f, -6f)
+                lineTo(8f, 16f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                lineTo(11f, 17f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, 0f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                lineTo(15f, 17f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, -1f)
+                horizontalLineToRelative(0.81f)
+                lineToRelative(4.3f, 6f)
+                close()
+                moveTo(2f, 6f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.53f, 3.04f)
+                arcTo(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = true, 8f, 1f)
+                arcToRelative(3.87f, 3.87f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.17f, 0.18f)
+                arcToRelative(3.98f, 3.98f, 0f, isMoreThanHalf = false, isPositiveArc = true, 5.66f, 0f)
+                arcTo(3.87f, 3.87f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 1f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3.47f, 2.04f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 19f, 9f)
+                arcToRelative(2.97f, 2.97f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.38f, -0.34f)
+                arcTo(3.99f, 3.99f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 9f)
+                lineTo(13f, 9f)
+                lineTo(13f, 7f)
+                horizontalLineToRelative(3f)
+                arcToRelative(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.12f, -0.34f)
+                lineToRelative(0.65f, -0.44f)
+                lineToRelative(0.58f, 0.52f)
+                arcTo(0.99f, 0.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 19f, 7f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, -2f)
+                lineToRelative(-0.78f, 0.07f)
+                lineToRelative(-0.34f, -0.72f)
+                arcTo(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 15.02f, 3.27f)
+                lineToRelative(-0.83f, 0.47f)
+                lineToRelative(-0.51f, -0.8f)
+                arcToRelative(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3.37f, 0f)
+                lineToRelative(-0.51f, 0.8f)
+                lineTo(8.98f, 3.27f)
+                arcTo(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.12f, 4.35f)
+                lineToRelative(-0.26f, 0.74f)
+                lineTo(4.98f, 5f)
+                horizontalLineToRelative(0f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = true, isPositiveArc = false, 0.68f, 1.74f)
+                lineToRelative(0.58f, -0.52f)
+                lineToRelative(0.65f, 0.44f)
+                arcTo(1.99f, 1.99f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8f, 7f)
+                horizontalLineToRelative(3f)
+                lineTo(11f, 9f)
+                lineTo(8f, 9f)
+                arcToRelative(3.99f, 3.99f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.62f, -0.34f)
+                arcTo(2.97f, 2.97f, 0f, isMoreThanHalf = false, isPositiveArc = true, 5f, 9f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, 6f)
+                close()
+            }
+        }.also { _Volcano = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SunglassesAlt: ImageVector? = null
+
+val Icons.Tr.SunglassesAlt: ImageVector
+    get() = _SunglassesAlt ?: UXIcon(name = "SunglassesAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.9f, 13.32f)
+                lineToRelative(-1.4f, -9.48f)
+                curveToRelative(-0.32f, -2.19f, -2.24f, -3.84f, -4.45f, -3.84f)
+                horizontalLineToRelative(-1.55f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(1.55f)
+                curveToRelative(1.72f, 0f, 3.21f, 1.28f, 3.46f, 2.99f)
+                lineToRelative(1.33f, 9.01f)
+                horizontalLineToRelative(-5.34f)
+                curveToRelative(-1.55f, 0f, -2.92f, 0.8f, -3.73f, 2f)
+                horizontalLineToRelative(-3.55f)
+                curveToRelative(-0.17f, -0.26f, -1.22f, -2f, -3.72f, -2f)
+                lineTo(1.16f, 13f)
+                lineTo(2.49f, 3.99f)
+                curveToRelative(0.25f, -1.7f, 1.74f, -2.99f, 3.46f, -2.99f)
+                horizontalLineToRelative(1.55f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1.55f)
+                curveTo(3.74f, 0f, 1.82f, 1.65f, 1.5f, 3.84f)
+                lineTo(0.1f, 13.32f)
+                curveToRelative(-0.07f, 0.43f, -0.1f, 0.86f, -0.1f, 1.29f)
+                verticalLineToRelative(4.89f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.53f, -0.11f, -1.03f, -0.28f, -1.5f)
+                horizontalLineToRelative(2.55f)
+                curveToRelative(-0.17f, 0.47f, -0.28f, 0.97f, -0.28f, 1.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-4.89f)
+                curveToRelative(0f, -0.43f, -0.03f, -0.86f, -0.1f, -1.29f)
+                close()
+                moveTo(10f, 19.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-4.89f)
+                curveToRelative(0f, -0.2f, 0.01f, -0.41f, 0.03f, -0.61f)
+                horizontalLineToRelative(5.47f)
+                curveToRelative(0.64f, 0f, 1.24f, 0.19f, 1.75f, 0.49f)
+                lineToRelative(-5.01f, 3.09f)
+                curveToRelative(-0.23f, 0.14f, -0.31f, 0.45f, -0.16f, 0.69f)
+                curveToRelative(0.1f, 0.15f, 0.26f, 0.24f, 0.43f, 0.24f)
+                curveToRelative(0.09f, 0f, 0.18f, -0.02f, 0.26f, -0.07f)
+                lineToRelative(5.32f, -3.27f)
+                curveToRelative(0.57f, 0.62f, 0.92f, 1.44f, 0.92f, 2.35f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(23f, 19.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(4.55f)
+                lineToRelative(-5.81f, 3.57f)
+                curveToRelative(-0.23f, 0.14f, -0.31f, 0.45f, -0.16f, 0.69f)
+                curveToRelative(0.1f, 0.15f, 0.26f, 0.24f, 0.43f, 0.24f)
+                curveToRelative(0.09f, 0f, 0.18f, -0.02f, 0.26f, -0.07f)
+                lineToRelative(6.24f, -3.84f)
+                curveToRelative(0f, 0.01f, 0f, 0.02f, 0f, 0.02f)
+                verticalLineToRelative(4.89f)
+                close()
+            }
+        }.also { _SunglassesAlt = it}

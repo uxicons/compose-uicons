@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RoadLock: ImageVector? = null
+
+val Icons.Rr.RoadLock: ImageVector
+    get() = _RoadLock ?: UXIcon(name = "RoadLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.5f, 23f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-4.5f)
+                curveToRelative(-1.48f, 0f, -2.88f, -0.65f, -3.83f, -1.78f)
+                curveToRelative(-0.95f, -1.13f, -1.35f, -2.62f, -1.1f, -4.08f)
+                lineToRelative(2.45f, -14f)
+                curveToRelative(0.42f, -2.4f, 2.49f, -4.14f, 4.93f, -4.14f)
+                horizontalLineToRelative(9.09f)
+                curveToRelative(2.43f, 0f, 4.5f, 1.74f, 4.92f, 4.13f)
+                lineToRelative(0.39f, 2.19f)
+                curveToRelative(0.1f, 0.54f, -0.27f, 1.06f, -0.81f, 1.16f)
+                curveToRelative(-0.55f, 0.09f, -1.06f, -0.27f, -1.16f, -0.81f)
+                lineToRelative(-0.39f, -2.19f)
+                curveToRelative(-0.25f, -1.44f, -1.5f, -2.48f, -2.96f, -2.48f)
+                horizontalLineToRelative(-9.08f)
+                curveToRelative(-1.46f, 0f, -2.7f, 1.04f, -2.96f, 2.48f)
+                lineToRelative(-2.45f, 14f)
+                curveToRelative(-0.15f, 0.88f, 0.09f, 1.77f, 0.66f, 2.45f)
+                curveToRelative(0.57f, 0.68f, 1.41f, 1.07f, 2.3f, 1.07f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(11f, 5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(13f, 12f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(24f, 18f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-2.21f, 0f, -4f, -1.79f, -4f, -4f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.48f, 0.81f, -2.77f, 2f, -3.46f)
+                verticalLineToRelative(-1.54f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                reflectiveCurveToRelative(4f, 1.79f, 4f, 4f)
+                verticalLineToRelative(1.54f)
+                curveToRelative(1.19f, 0.69f, 2f, 1.98f, 2f, 3.46f)
+                close()
+                moveTo(16f, 14f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                close()
+                moveTo(22f, 18f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                close()
+                moveTo(18f, 17.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _RoadLock = it}

@@ -1,0 +1,98 @@
+package com.uxicons.compose.uicons.brand
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Bluetooth: ImageVector? = null
+
+val Icons.Brand.Bluetooth: ImageVector
+    get() = _Bluetooth ?: UXIcon(name = "Bluetooth") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(19.7f, 23.0f)
+            horizontalLineToRelative(0.17f)
+            curveToRelative(0.06f, 0.0f, 0.12f, -0.01f, 0.16f, -0.05f)
+            curveToRelative(0.04f, -0.04f, 0.06f, -0.09f, 0.06f, -0.14f)
+            curveToRelative(0f, -0.13f, -0.08f, -0.2f, -0.22f, -0.2f)
+            horizontalLineToRelative(-0.17f)
+            verticalLineTo(23.0f)
+            close()
+            moveTo(20.06f, 23.5f)
+            lineToRelative(-0.22f, -0.39f)
+            horizontalLineToRelative(-0.14f)
+            verticalLineToRelative(0.4f)
+            horizontalLineToRelative(-0.13f)
+            verticalLineToRelative(-0.98f)
+            horizontalLineToRelative(0.33f)
+            curveToRelative(0.04f, -0.0f, 0.09f, 0.01f, 0.13f, 0.02f)
+            curveToRelative(0.04f, 0.01f, 0.07f, 0.04f, 0.1f, 0.06f)
+            curveToRelative(0.03f, 0.03f, 0.05f, 0.06f, 0.07f, 0.09f)
+            curveToRelative(0.02f, 0.04f, 0.03f, 0.07f, 0.03f, 0.12f)
+            curveToRelative(0.0f, 0.06f, -0.02f, 0.12f, -0.06f, 0.17f)
+            curveToRelative(-0.04f, 0.05f, -0.09f, 0.09f, -0.15f, 0.1f)
+            lineToRelative(-0.04f, 0.01f)
+            lineToRelative(0.23f, 0.4f)
+            lineTo(20.06f, 23.5f)
+            close()
+            moveTo(19.86f, 22.21f)
+            curveToRelative(-0.11f, 0f, -0.21f, 0.02f, -0.31f, 0.06f)
+            curveToRelative(-0.09f, 0.04f, -0.18f, 0.1f, -0.25f, 0.17f)
+            curveToRelative(-0.07f, 0.07f, -0.13f, 0.16f, -0.17f, 0.26f)
+            curveToRelative(-0.08f, 0.2f, -0.08f, 0.43f, 0f, 0.63f)
+            curveToRelative(0.04f, 0.1f, 0.1f, 0.18f, 0.17f, 0.26f)
+            curveToRelative(0.07f, 0.07f, 0.16f, 0.13f, 0.25f, 0.17f)
+            curveToRelative(0.3f, 0.13f, 0.65f, 0.06f, 0.87f, -0.17f)
+            curveToRelative(0.07f, -0.07f, 0.13f, -0.16f, 0.17f, -0.26f)
+            curveToRelative(0.08f, -0.2f, 0.08f, -0.43f, 0f, -0.63f)
+            curveToRelative(-0.04f, -0.1f, -0.1f, -0.18f, -0.17f, -0.26f)
+            curveToRelative(-0.07f, -0.07f, -0.16f, -0.13f, -0.25f, -0.17f)
+            curveTo(20.07f, 22.23f, 19.96f, 22.21f, 19.86f, 22.21f)
+            moveTo(19.86f, 23.95f)
+            curveToRelative(-0.12f, 0.0f, -0.25f, -0.02f, -0.36f, -0.07f)
+            curveToRelative(-0.11f, -0.05f, -0.21f, -0.12f, -0.29f, -0.21f)
+            curveToRelative(-0.09f, -0.08f, -0.16f, -0.18f, -0.21f, -0.29f)
+            curveToRelative(-0.1f, -0.23f, -0.1f, -0.49f, 0f, -0.72f)
+            curveToRelative(0.1f, -0.22f, 0.27f, -0.4f, 0.49f, -0.5f)
+            curveToRelative(0.11f, -0.05f, 0.24f, -0.07f, 0.36f, -0.07f)
+            curveToRelative(0.12f, -0.0f, 0.25f, 0.02f, 0.36f, 0.07f)
+            curveToRelative(0.11f, 0.05f, 0.21f, 0.12f, 0.29f, 0.21f)
+            curveToRelative(0.09f, 0.09f, 0.16f, 0.18f, 0.21f, 0.29f)
+            curveToRelative(0.1f, 0.23f, 0.1f, 0.49f, 0f, 0.72f)
+            curveToRelative(-0.05f, 0.11f, -0.12f, 0.21f, -0.21f, 0.29f)
+            curveTo(20.33f, 23.85f, 20.1f, 23.95f, 19.86f, 23.95f)
+        }
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(12f, 24f)
+            curveToRelative(5.23f, 0f, 8.85f, -2.49f, 8.85f, -12f)
+            reflectiveCurveTo(17.24f, 0f, 12f, 0f)
+            reflectiveCurveTo(3.15f, 2.49f, 3.15f, 12f)
+            reflectiveCurveTo(6.77f, 24f, 12f, 24f)
+            moveTo(10.85f, 12f)
+            lineTo(6.56f, 7.7f)
+            lineToRelative(1.24f, -1.25f)
+            lineToRelative(3.42f, 3.43f)
+            verticalLineTo(1.68f)
+            lineToRelative(6.22f, 6.21f)
+            lineTo(13.34f, 12f)
+            lineToRelative(4.11f, 4.1f)
+            lineToRelative(-6.21f, 6.21f)
+            verticalLineToRelative(-8.19f)
+            lineToRelative(-3.41f, 3.42f)
+            lineToRelative(-1.24f, -1.25f)
+            lineTo(10.85f, 12f)
+            close()
+            moveTo(12.97f, 18.07f)
+            lineToRelative(1.98f, -1.99f)
+            lineToRelative(-1.98f, -1.98f)
+            verticalLineTo(18.07f)
+            close()
+            moveTo(12.97f, 5.92f)
+            lineToRelative(1.98f, 1.99f)
+            lineToRelative(-1.98f, 1.98f)
+            verticalLineTo(5.92f)
+            close()
+        }
+    }.also { _Bluetooth = it }

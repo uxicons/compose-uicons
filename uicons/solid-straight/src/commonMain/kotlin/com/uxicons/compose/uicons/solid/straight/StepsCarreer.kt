@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StepsCarreer: ImageVector? = null
+
+val Icons.Ss.StepsCarreer: ImageVector
+    get() = _StepsCarreer ?: UXIcon(name = "StepsCarreer") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(3f, 2.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(4.02f, 9.05f)
+                lineToRelative(-0.03f, 4.56f)
+                lineToRelative(-2.0f, 6.39f)
+                horizontalLineToRelative(2f)
+                lineToRelative(1.89f, -6f)
+                horizontalLineToRelative(3.39f)
+                lineToRelative(0.67f, 2f)
+                horizontalLineToRelative(2.11f)
+                lineToRelative(-1.33f, -4f)
+                horizontalLineToRelative(-2.72f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                lineTo(5.04f, 6f)
+                curveToRelative(-0.8f, 0f, -1.56f, 0.39f, -2.03f, 1.04f)
+                lineTo(-0.04f, 11.26f)
+                lineToRelative(1.62f, 1.17f)
+                lineToRelative(2.44f, -3.38f)
+                close()
+                moveTo(17f, 24f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 20f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(17f, 16f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(8f, 24f)
+                horizontalLineToRelative(7.05f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7.05f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(8f, 20f)
+                horizontalLineToRelative(7.05f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7.05f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(0f, 24f)
+                lineTo(6.04f, 24f)
+                verticalLineToRelative(-2f)
+                lineTo(0f, 22f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(22f, 2f)
+                lineToRelative(-4f, 2.5f)
+                lineToRelative(4f, 2.5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(2f)
+                lineTo(24f, 2f)
+                horizontalLineToRelative(-2f)
+                close()
+            }
+        }.also { _StepsCarreer = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TimeMoney: ImageVector? = null
+
+val Icons.Br.TimeMoney: ImageVector
+    get() = _TimeMoney ?: UXIcon(name = "TimeMoney") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(11.12f, 5f)
+            curveToRelative(0.29f, 0f, 0.56f, 0.14f, 0.72f, 0.38f)
+            reflectiveCurveToRelative(0.19f, 0.54f, 0.09f, 0.81f)
+            curveToRelative(-0.37f, 0.98f, -1.32f, 2.02f, -2.39f, 2.83f)
+            curveToRelative(-0.32f, 0.25f, -0.76f, 0.25f, -1.08f, 0.0f)
+            curveToRelative(-1.08f, -0.8f, -2.02f, -1.84f, -2.4f, -2.83f)
+            curveToRelative(-0.11f, -0.27f, -0.08f, -0.57f, 0.09f, -0.81f)
+            curveToRelative(0.16f, -0.24f, 0.43f, -0.38f, 0.72f, -0.38f)
+            horizontalLineToRelative(2.13f)
+            reflectiveCurveToRelative(2.13f, 0f, 2.13f, 0f)
+            close()
+            moveTo(8.5f, 21f)
+            horizontalLineToRelative(-4.13f)
+            curveToRelative(-0.8f, -0.05f, -1.43f, -0.55f, -1.35f, -1.53f)
+            curveToRelative(0.34f, -2.24f, 1.75f, -4.36f, 4.19f, -6.29f)
+            curveToRelative(0.36f, -0.28f, 0.57f, -0.72f, 0.57f, -1.18f)
+            reflectiveCurveToRelative(-0.21f, -0.89f, -0.57f, -1.18f)
+            curveToRelative(-2.44f, -1.93f, -3.85f, -4.05f, -4.19f, -6.29f)
+            curveToRelative(-0.07f, -0.98f, 0.48f, -1.53f, 1.35f, -1.53f)
+            horizontalLineToRelative(9.26f)
+            curveToRelative(0.87f, 0f, 1.43f, 0.55f, 1.35f, 1.52f)
+            curveToRelative(-0.07f, 0.49f, -0.2f, 0.98f, -0.38f, 1.45f)
+            curveToRelative(-0.29f, 0.78f, 0.11f, 1.64f, 0.89f, 1.93f)
+            curveToRelative(0.78f, 0.29f, 1.64f, -0.11f, 1.93f, -0.89f)
+            curveToRelative(0.25f, -0.67f, 0.43f, -1.36f, 0.53f, -2.05f)
+            curveToRelative(0.18f, -1.24f, -0.18f, -2.49f, -1.0f, -3.45f)
+            curveToRelative(-0.83f, -0.97f, -2.04f, -1.52f, -3.32f, -1.52f)
+            horizontalLineToRelative(-9.26f)
+            curveToRelative(-1.27f, 0f, -2.48f, 0.56f, -3.32f, 1.52f)
+            curveToRelative(-0.82f, 0.95f, -1.19f, 2.21f, -1.0f, 3.45f)
+            curveToRelative(0.38f, 2.54f, 1.7f, 4.9f, 3.94f, 7.03f)
+            curveToRelative(-2.23f, 2.12f, -3.55f, 4.48f, -3.94f, 7.03f)
+            curveToRelative(-0.19f, 1.24f, 0.18f, 2.5f, 1.0f, 3.45f)
+            curveToRelative(0.83f, 0.97f, 2.04f, 1.52f, 3.32f, 1.52f)
+            horizontalLineToRelative(4.13f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(24f, 17f)
+            curveToRelative(0f, 3.87f, -3.13f, 7f, -7f, 7f)
+            reflectiveCurveToRelative(-7f, -3.13f, -7f, -7f)
+            reflectiveCurveToRelative(3.13f, -7f, 7f, -7f)
+            reflectiveCurveToRelative(7f, 3.13f, 7f, 7f)
+            close()
+            moveTo(21f, 18.9f)
+            curveToRelative(0.01f, -1.3f, -0.92f, -2.4f, -2.19f, -2.61f)
+            lineToRelative(-3.26f, -0.54f)
+            curveToRelative(-0.29f, -0.05f, -0.52f, -0.28f, -0.54f, -0.57f)
+            curveToRelative(-0.03f, -0.36f, 0.26f, -0.67f, 0.62f, -0.67f)
+            horizontalLineToRelative(2.38f)
+            curveToRelative(0.37f, 0f, 0.69f, 0.2f, 0.86f, 0.49f)
+            curveToRelative(0.18f, 0.31f, 0.51f, 0.51f, 0.87f, 0.51f)
+            curveToRelative(0.76f, 0f, 1.25f, -0.82f, 0.87f, -1.49f)
+            curveToRelative(-0.52f, -0.9f, -1.49f, -1.51f, -2.6f, -1.51f)
+            curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+            reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+            horizontalLineToRelative(-0.32f)
+            curveToRelative(-1.45f, 0f, -2.67f, 1.15f, -2.69f, 2.6f)
+            curveToRelative(-0.01f, 1.3f, 0.92f, 2.4f, 2.19f, 2.61f)
+            lineToRelative(3.29f, 0.55f)
+            curveToRelative(0.32f, 0.05f, 0.54f, 0.33f, 0.52f, 0.66f)
+            curveToRelative(-0.02f, 0.33f, -0.32f, 0.58f, -0.65f, 0.58f)
+            horizontalLineToRelative(-2.35f)
+            curveToRelative(-0.37f, 0f, -0.69f, -0.2f, -0.86f, -0.49f)
+            curveToRelative(-0.18f, -0.31f, -0.51f, -0.51f, -0.87f, -0.51f)
+            curveToRelative(-0.76f, 0f, -1.25f, 0.82f, -0.87f, 1.49f)
+            curveToRelative(0.52f, 0.9f, 1.49f, 1.51f, 2.6f, 1.51f)
+            curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+            reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+            horizontalLineToRelative(0.32f)
+            curveToRelative(1.45f, 0f, 2.67f, -1.15f, 2.69f, -2.6f)
+            close()
+        }
+    }.also { _TimeMoney = it }

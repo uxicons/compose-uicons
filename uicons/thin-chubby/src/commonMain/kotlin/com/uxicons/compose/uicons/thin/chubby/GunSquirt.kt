@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GunSquirt: ImageVector? = null
+
+val Icons.Tc.GunSquirt: ImageVector
+    get() = _GunSquirt ?: UXIcon(name = "GunSquirt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.5f, 6f)
+                horizontalLineToRelative(-1.51f)
+                curveToRelative(-0.0f, -0.11f, -0.0f, -0.23f, -0.01f, -0.34f)
+                curveToRelative(-0.1f, -1.66f, -1.36f, -3.02f, -3.01f, -3.24f)
+                curveToRelative(-1.41f, -0.19f, -3.76f, -0.42f, -6.97f, -0.42f)
+                curveToRelative(-2.53f, 0f, -4.52f, 0.14f, -6f, 0.3f)
+                verticalLineToRelative(-0.8f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(0.92f)
+                curveToRelative(-1.4f, 0.19f, -2.14f, 0.38f, -2.2f, 0.4f)
+                curveToRelative(-0.16f, 0.04f, -0.29f, 0.16f, -0.34f, 0.31f)
+                curveToRelative(-0.02f, 0.05f, -0.46f, 1.31f, -0.46f, 3.37f)
+                reflectiveCurveToRelative(0.44f, 3.32f, 0.46f, 3.37f)
+                curveToRelative(0.06f, 0.15f, 0.18f, 0.27f, 0.34f, 0.31f)
+                curveToRelative(0.05f, 0.01f, 0.63f, 0.16f, 1.72f, 0.33f)
+                curveToRelative(-1.14f, 3.59f, -2.18f, 7.27f, -2.46f, 8.7f)
+                curveToRelative(-0.31f, 1.57f, 0.57f, 3.14f, 2.06f, 3.66f)
+                curveToRelative(0.3f, 0.09f, 0.6f, 0.13f, 0.89f, 0.13f)
+                curveToRelative(1.2f, 0f, 2.33f, -0.69f, 2.88f, -1.85f)
+                curveToRelative(0.57f, -1.21f, 1.28f, -3.01f, 2.05f, -5.16f)
+                horizontalLineToRelative(2.21f)
+                curveToRelative(-0.21f, 0.91f, -0.16f, 1.52f, -0.15f, 1.55f)
+                curveToRelative(0.03f, 0.28f, 0.28f, 0.47f, 0.55f, 0.45f)
+                curveToRelative(0.27f, -0.03f, 0.47f, -0.27f, 0.45f, -0.54f)
+                curveToRelative(0f, -0.01f, -0.07f, -0.8f, 0.33f, -1.91f)
+                curveToRelative(0.4f, -1.11f, 0.94f, -1.69f, 0.94f, -1.69f)
+                curveToRelative(0.19f, -0.2f, 0.19f, -0.51f, -0.0f, -0.71f)
+                curveToRelative(-0.2f, -0.19f, -0.51f, -0.19f, -0.71f, 0.0f)
+                curveToRelative(-0.03f, 0.03f, -0.63f, 0.65f, -1.09f, 1.85f)
+                horizontalLineToRelative(-2.17f)
+                curveToRelative(0.27f, -0.77f, 0.54f, -1.56f, 0.81f, -2.39f)
+                lineToRelative(0.49f, -1.61f)
+                curveToRelative(0.14f, 0f, 0.26f, 0.0f, 0.4f, 0.0f)
+                curveToRelative(3.21f, 0f, 5.56f, -0.23f, 6.97f, -0.42f)
+                curveToRelative(1.64f, -0.22f, 2.91f, -1.59f, 3.01f, -3.24f)
+                curveToRelative(0.01f, -0.11f, 0.01f, -0.23f, 0.01f, -0.34f)
+                horizontalLineToRelative(1.51f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(9.15f, 12.3f)
+                curveToRelative(-1.67f, 5.09f, -2.77f, 7.59f, -3.16f, 8.42f)
+                curveToRelative(-0.47f, 0.99f, -1.55f, 1.49f, -2.56f, 1.19f)
+                curveToRelative(-1.0f, -0.35f, -1.6f, -1.43f, -1.39f, -2.52f)
+                curveToRelative(0.28f, -1.4f, 1.35f, -5.2f, 2.48f, -8.76f)
+                curveToRelative(1.24f, 0.15f, 2.92f, 0.29f, 5.03f, 0.34f)
+                lineToRelative(-0.4f, 1.32f)
+                close()
+                moveTo(19.98f, 7.28f)
+                curveToRelative(-0.07f, 1.18f, -0.97f, 2.15f, -2.14f, 2.31f)
+                curveToRelative(-1.38f, 0.19f, -3.68f, 0.41f, -6.83f, 0.41f)
+                curveToRelative(-4.9f, 0f, -7.81f, -0.54f, -8.67f, -0.72f)
+                curveToRelative(-0.12f, -0.44f, -0.33f, -1.42f, -0.33f, -2.78f)
+                reflectiveCurveToRelative(0.21f, -2.34f, 0.33f, -2.78f)
+                curveToRelative(0.86f, -0.18f, 3.77f, -0.72f, 8.67f, -0.72f)
+                curveToRelative(3.15f, 0f, 5.46f, 0.22f, 6.83f, 0.41f)
+                curveToRelative(1.17f, 0.16f, 2.07f, 1.13f, 2.14f, 2.31f)
+                curveToRelative(0.01f, 0.24f, 0.02f, 0.5f, 0.02f, 0.78f)
+                reflectiveCurveToRelative(-0.01f, 0.54f, -0.02f, 0.78f)
+                close()
+                moveTo(12f, 6.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _GunSquirt = it}

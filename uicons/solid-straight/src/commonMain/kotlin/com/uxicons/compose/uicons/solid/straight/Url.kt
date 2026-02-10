@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Url: ImageVector? = null
+
+val Icons.Ss.Url: ImageVector
+    get() = _Url ?: UXIcon(name = "Url") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18.96f, 22.55f)
+                lineToRelative(-2.79f, -2.79f)
+                curveToRelative(0.52f, -0.79f, 0.83f, -1.74f, 0.83f, -2.75f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                reflectiveCurveToRelative(-5f, 2.24f, -5f, 5f)
+                reflectiveCurveToRelative(2.24f, 5f, 5f, 5f)
+                curveToRelative(1.02f, 0f, 1.96f, -0.31f, 2.75f, -0.83f)
+                lineToRelative(2.79f, 2.79f)
+                lineToRelative(1.41f, -1.41f)
+                close()
+                moveTo(21f, 0f)
+                lineTo(3f, 0f)
+                curveTo(1.35f, 0f, 0f, 1.35f, 0f, 3f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(5.29f)
+                curveToRelative(0.86f, -2.89f, 3.54f, -5f, 6.71f, -5f)
+                reflectiveCurveToRelative(5.84f, 2.11f, 6.71f, 5f)
+                horizontalLineToRelative(5.29f)
+                lineTo(24f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(8.14f, 9.22f)
+                curveToRelative(-0.03f, 0.44f, -0.34f, 0.78f, -0.71f, 0.78f)
+                curveToRelative(-0.24f, 0f, -0.47f, -0.15f, -0.6f, -0.4f)
+                lineToRelative(-0.83f, -1.6f)
+                lineToRelative(-0.83f, 1.6f)
+                curveToRelative(-0.13f, 0.25f, -0.36f, 0.4f, -0.6f, 0.4f)
+                curveToRelative(-0.37f, 0f, -0.68f, -0.34f, -0.71f, -0.78f)
+                lineToRelative(-0.36f, -4.22f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(0.25f, 3.16f)
+                lineToRelative(1.21f, -2.33f)
+                lineToRelative(1.21f, 2.33f)
+                lineToRelative(0.25f, -3.16f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(-0.36f, 4.22f)
+                close()
+                moveTo(14.14f, 9.22f)
+                curveToRelative(-0.03f, 0.44f, -0.34f, 0.78f, -0.71f, 0.78f)
+                curveToRelative(-0.24f, 0f, -0.47f, -0.15f, -0.6f, -0.4f)
+                lineToRelative(-0.83f, -1.6f)
+                lineToRelative(-0.83f, 1.6f)
+                curveToRelative(-0.13f, 0.25f, -0.36f, 0.4f, -0.6f, 0.4f)
+                curveToRelative(-0.37f, 0f, -0.68f, -0.34f, -0.71f, -0.78f)
+                lineToRelative(-0.36f, -4.22f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(0.25f, 3.16f)
+                lineToRelative(1.21f, -2.33f)
+                lineToRelative(1.21f, 2.33f)
+                lineToRelative(0.25f, -3.16f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(-0.36f, 4.22f)
+                close()
+                moveTo(20.14f, 9.22f)
+                curveToRelative(-0.03f, 0.44f, -0.34f, 0.78f, -0.71f, 0.78f)
+                curveToRelative(-0.24f, 0f, -0.47f, -0.15f, -0.6f, -0.4f)
+                lineToRelative(-0.83f, -1.6f)
+                lineToRelative(-0.83f, 1.6f)
+                curveToRelative(-0.13f, 0.25f, -0.36f, 0.4f, -0.6f, 0.4f)
+                curveToRelative(-0.37f, 0f, -0.68f, -0.34f, -0.71f, -0.78f)
+                lineToRelative(-0.36f, -4.22f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(0.25f, 3.16f)
+                lineToRelative(1.21f, -2.33f)
+                lineToRelative(1.21f, 2.33f)
+                lineToRelative(0.25f, -3.16f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(-0.36f, 4.22f)
+                close()
+            }
+        }.also { _Url = it}

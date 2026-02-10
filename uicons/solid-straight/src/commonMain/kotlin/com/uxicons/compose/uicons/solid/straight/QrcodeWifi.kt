@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _QrcodeWifi: ImageVector? = null
+
+val Icons.Ss.QrcodeWifi: ImageVector
+    get() = _QrcodeWifi ?: UXIcon(name = "QrcodeWifi") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 19f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(11f, 11.56f)
+                verticalLineToRelative(1.53f)
+                curveToRelative(-0.16f, -0.06f, -0.32f, -0.09f, -0.5f, -0.09f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                curveToRelative(0.18f, 0f, 0.34f, -0.04f, 0.5f, -0.1f)
+                verticalLineToRelative(5.08f)
+                curveToRelative(-0.17f, 0.01f, -0.33f, 0.03f, -0.5f, 0.03f)
+                curveToRelative(-5.79f, 0.0f, -10.5f, -4.71f, -10.5f, -10.5f)
+                reflectiveCurveToRelative(4.71f, -10.5f, 10.5f, -10.5f)
+                reflectiveCurveToRelative(10.5f, 4.71f, 10.5f, 10.5f)
+                curveToRelative(0f, 0.17f, -0.02f, 0.33f, -0.03f, 0.5f)
+                horizontalLineToRelative(-6.97f)
+                lineToRelative(0.04f, -0.04f)
+                curveToRelative(-1.95f, -1.95f, -5.12f, -1.95f, -7.07f, 0f)
+                lineToRelative(1.41f, 1.41f)
+                curveToRelative(0.71f, -0.71f, 1.7f, -0.98f, 2.62f, -0.82f)
+                close()
+                moveTo(5.9f, 9.9f)
+                curveToRelative(1.23f, -1.23f, 2.86f, -1.9f, 4.6f, -1.9f)
+                reflectiveCurveToRelative(3.37f, 0.68f, 4.6f, 1.9f)
+                lineToRelative(1.41f, -1.41f)
+                curveToRelative(-1.6f, -1.6f, -3.74f, -2.49f, -6.01f, -2.49f)
+                reflectiveCurveToRelative(-4.41f, 0.88f, -6.01f, 2.49f)
+                close()
+                moveTo(19f, 22.0f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(24f, 13.0f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-5f)
+                close()
+                moveTo(22f, 15.0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(13f, 19.0f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 22.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(19f, 21.0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(13f, 13.0f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 16.0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+            }
+        }.also { _QrcodeWifi = it}

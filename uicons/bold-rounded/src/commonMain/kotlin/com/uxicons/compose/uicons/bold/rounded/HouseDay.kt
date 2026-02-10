@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HouseDay: ImageVector? = null
+
+val Icons.Br.HouseDay: ImageVector
+    get() = _HouseDay ?: UXIcon(name = "HouseDay") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(22.27f, 12.57f)
+            lineToRelative(-3f, -2.35f)
+            curveToRelative(-1.63f, -1.28f, -3.91f, -1.28f, -5.55f, 0f)
+            lineToRelative(-3.0f, 2.35f)
+            curveToRelative(-1.1f, 0.86f, -1.73f, 2.15f, -1.73f, 3.54f)
+            verticalLineToRelative(3.38f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(6f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-3.38f)
+            curveToRelative(0f, -1.39f, -0.63f, -2.69f, -1.73f, -3.54f)
+            close()
+            moveTo(21f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-6f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-3.38f)
+            curveToRelative(0f, -0.46f, 0.21f, -0.9f, 0.58f, -1.18f)
+            lineToRelative(3f, -2.35f)
+            curveToRelative(0.27f, -0.21f, 0.6f, -0.32f, 0.92f, -0.32f)
+            reflectiveCurveToRelative(0.65f, 0.11f, 0.92f, 0.32f)
+            lineToRelative(3.0f, 2.35f)
+            curveToRelative(0.36f, 0.29f, 0.57f, 0.72f, 0.57f, 1.18f)
+            verticalLineToRelative(3.38f)
+            close()
+            moveTo(18f, 17f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(7.03f, 11.97f)
+            curveToRelative(0.59f, 0.58f, 0.59f, 1.54f, 0f, 2.12f)
+            lineToRelative(-2.46f, 2.46f)
+            curveToRelative(-0.29f, 0.29f, -0.68f, 0.44f, -1.06f, 0.44f)
+            reflectiveCurveToRelative(-0.77f, -0.15f, -1.06f, -0.44f)
+            curveToRelative(-0.59f, -0.58f, -0.59f, -1.53f, -0.0f, -2.12f)
+            lineToRelative(1.53f, -1.53f)
+            curveToRelative(-0.37f, -0.59f, -0.63f, -1.24f, -0.79f, -1.91f)
+            lineToRelative(-1.68f, -0.0f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(0.0f)
+            lineToRelative(1.67f, 0.0f)
+            curveToRelative(0.16f, -0.68f, 0.43f, -1.32f, 0.79f, -1.91f)
+            lineToRelative(-1.53f, -1.53f)
+            curveToRelative(-0.59f, -0.58f, -0.59f, -1.54f, 0f, -2.12f)
+            curveToRelative(0.59f, -0.59f, 1.53f, -0.59f, 2.12f, 0f)
+            lineToRelative(1.53f, 1.53f)
+            curveToRelative(0.59f, -0.37f, 1.23f, -0.63f, 1.91f, -0.79f)
+            verticalLineToRelative(-1.67f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(1.67f)
+            curveToRelative(0.68f, 0.16f, 1.32f, 0.42f, 1.92f, 0.79f)
+            lineToRelative(1.52f, -1.53f)
+            curveToRelative(0.58f, -0.59f, 1.53f, -0.59f, 2.12f, -0.0f)
+            curveToRelative(0.59f, 0.58f, 0.59f, 1.53f, 0.0f, 2.12f)
+            lineToRelative(-2.46f, 2.47f)
+            curveToRelative(-0.28f, 0.28f, -0.66f, 0.44f, -1.06f, 0.44f)
+            horizontalLineToRelative(0f)
+            curveToRelative(-0.4f, 0f, -0.78f, -0.16f, -1.06f, -0.44f)
+            curveToRelative(-1.32f, -1.32f, -3.63f, -1.32f, -4.95f, 0f)
+            curveToRelative(-1.36f, 1.36f, -1.36f, 3.58f, 0f, 4.95f)
+            close()
+        }
+    }.also { _HouseDay = it }

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrashCanClock: ImageVector? = null
+
+val Icons.Ts.TrashCanClock: ImageVector
+    get() = _TrashCanClock ?: UXIcon(name = "TrashCanClock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13f, 10.3f)
+                verticalLineToRelative(-1.3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(0.76f)
+                curveToRelative(-0.35f, 0.16f, -0.68f, 0.34f, -1f, 0.54f)
+                close()
+                moveTo(10.5f, 12.68f)
+                verticalLineToRelative(-3.68f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5.65f)
+                curveToRelative(0.25f, -0.7f, 0.58f, -1.36f, 1f, -1.97f)
+                close()
+                moveTo(24f, 17.5f)
+                curveToRelative(0f, 3.58f, -2.92f, 6.5f, -6.5f, 6.5f)
+                reflectiveCurveToRelative(-6.5f, -2.92f, -6.5f, -6.5f)
+                reflectiveCurveToRelative(2.92f, -6.5f, 6.5f, -6.5f)
+                reflectiveCurveToRelative(6.5f, 2.92f, 6.5f, 6.5f)
+                close()
+                moveTo(23f, 17.5f)
+                curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+                reflectiveCurveToRelative(-5.5f, 2.47f, -5.5f, 5.5f)
+                reflectiveCurveToRelative(2.47f, 5.5f, 5.5f, 5.5f)
+                reflectiveCurveToRelative(5.5f, -2.47f, 5.5f, -5.5f)
+                close()
+                moveTo(18f, 14.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(3.21f)
+                lineToRelative(2.15f, 2.15f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(-1.85f, -1.85f)
+                verticalLineToRelative(-2.79f)
+                close()
+                moveTo(12.03f, 24f)
+                horizontalLineToRelative(-7.53f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                lineTo(2f, 5f)
+                lineTo(0f, 5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-4f)
+                lineTo(3f, 5f)
+                verticalLineToRelative(16.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(6.53f)
+                curveToRelative(0.31f, 0.36f, 0.64f, 0.69f, 1.0f, 1f)
+                close()
+                moveTo(6f, 4f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(7f, 19f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(10f)
+                horizontalLineToRelative(1f)
+                close()
+            }
+        }.also { _TrashCanClock = it}

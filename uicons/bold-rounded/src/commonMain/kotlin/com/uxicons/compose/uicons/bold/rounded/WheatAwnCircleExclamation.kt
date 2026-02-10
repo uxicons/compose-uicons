@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WheatAwnCircleExclamation: ImageVector? = null
+
+val Icons.Br.WheatAwnCircleExclamation: ImageVector
+    get() = _WheatAwnCircleExclamation ?: UXIcon(name = "WheatAwnCircleExclamation") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(23.56f, 7.44f)
+            curveToRelative(0.58f, 0.59f, 0.58f, 1.54f, -0.0f, 2.12f)
+            lineToRelative(-1.54f, 1.53f)
+            curveToRelative(-0.96f, -0.56f, -2.04f, -0.93f, -3.2f, -1.05f)
+            lineToRelative(2.62f, -2.6f)
+            curveToRelative(0.59f, -0.59f, 1.54f, -0.58f, 2.12f, 0.0f)
+            close()
+            moveTo(10.38f, 20.44f)
+            curveToRelative(0.31f, 0.97f, 0.8f, 1.86f, 1.43f, 2.63f)
+            curveToRelative(-1.02f, 0.54f, -2.17f, 0.93f, -3.32f, 0.93f)
+            curveToRelative(-1.75f, 0f, -3.64f, -0.89f, -4.82f, -1.56f)
+            lineToRelative(-1.12f, 1.12f)
+            curveToRelative(-0.29f, 0.29f, -0.68f, 0.44f, -1.06f, 0.44f)
+            curveToRelative(-0.38f, 0f, -0.77f, -0.15f, -1.06f, -0.44f)
+            curveToRelative(-0.59f, -0.58f, -0.59f, -1.53f, -0.01f, -2.12f)
+            lineToRelative(1.1f, -1.1f)
+            curveToRelative(-0.68f, -1.17f, -1.63f, -3.13f, -1.63f, -4.93f)
+            curveToRelative(0f, -2.14f, 1.35f, -4.33f, 2.51f, -5.56f)
+            curveToRelative(0.66f, -0.7f, 1.72f, -0.94f, 2.66f, -0.73f)
+            curveToRelative(0.38f, -1.7f, 1.42f, -3.29f, 2.34f, -4.27f)
+            curveToRelative(0.78f, -0.83f, 2.12f, -1.01f, 3.16f, -0.56f)
+            lineTo(14.44f, 0.44f)
+            curveToRelative(0.59f, -0.58f, 1.54f, -0.58f, 2.12f, 0.0f)
+            curveToRelative(0.58f, 0.59f, 0.58f, 1.54f, -0.0f, 2.12f)
+            lineToRelative(-3.93f, 3.91f)
+            curveToRelative(0.34f, 0.56f, 0.66f, 1.18f, 0.89f, 1.83f)
+            lineTo(21.39f, 0.39f)
+            curveToRelative(0.59f, -0.59f, 1.53f, -0.59f, 2.12f, -0.01f)
+            curveToRelative(0.59f, 0.58f, 0.59f, 1.53f, 0.01f, 2.12f)
+            lineToRelative(-7.79f, 7.82f)
+            curveToRelative(-3.31f, 0.98f, -5.73f, 4.04f, -5.73f, 7.67f)
+            curveToRelative(0f, 0.13f, 0.01f, 0.26f, 0.02f, 0.38f)
+            curveToRelative(-0.52f, -0.23f, -1.05f, -0.38f, -1.52f, -0.38f)
+            curveToRelative(-0.16f, 0f, -0.3f, 0.01f, -0.42f, 0.02f)
+            lineToRelative(-2.19f, 2.2f)
+            curveToRelative(0.88f, 0.43f, 1.86f, 0.79f, 2.61f, 0.79f)
+            curveToRelative(0.57f, 0f, 1.25f, -0.23f, 1.88f, -0.56f)
+            close()
+            moveTo(7.91f, 10.41f)
+            curveToRelative(0f, 0.77f, 0.38f, 1.79f, 0.83f, 2.69f)
+            lineToRelative(2.14f, -2.15f)
+            curveToRelative(0.02f, -0.15f, 0.03f, -0.33f, 0.03f, -0.54f)
+            curveToRelative(0f, -1.91f, -1.47f, -3.25f, -1.5f, -3.29f)
+            curveToRelative(-0.77f, 0.9f, -1.5f, 2.25f, -1.5f, 3.29f)
+            close()
+            moveTo(5.87f, 15.98f)
+            curveToRelative(0.02f, -0.16f, 0.04f, -0.34f, 0.04f, -0.57f)
+            curveToRelative(0f, -1.04f, -0.73f, -2.39f, -1.5f, -3.29f)
+            curveToRelative(-0.77f, 0.9f, -1.5f, 2.25f, -1.5f, 3.29f)
+            curveToRelative(0f, 0.77f, 0.39f, 1.8f, 0.84f, 2.71f)
+            lineToRelative(2.13f, -2.14f)
+            close()
+            moveTo(24f, 18f)
+            curveToRelative(0f, 3.31f, -2.69f, 6f, -6f, 6f)
+            reflectiveCurveToRelative(-6f, -2.69f, -6f, -6f)
+            reflectiveCurveToRelative(2.69f, -6f, 6f, -6f)
+            reflectiveCurveToRelative(6f, 2.69f, 6f, 6f)
+            close()
+            moveTo(17f, 17f)
+            curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+            reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+            reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(19.5f, 20.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            close()
+        }
+    }.also { _WheatAwnCircleExclamation = it }

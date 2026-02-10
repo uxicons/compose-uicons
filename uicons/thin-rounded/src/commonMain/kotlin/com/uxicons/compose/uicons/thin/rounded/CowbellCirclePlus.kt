@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CowbellCirclePlus: ImageVector? = null
+
+val Icons.Tr.CowbellCirclePlus: ImageVector
+    get() = _CowbellCirclePlus ?: UXIcon(name = "CowbellCirclePlus") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.57f, 22.97f)
+                curveToRelative(-1.47f, -0.21f, -2.57f, -1.49f, -2.57f, -2.97f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                lineTo(3.5f, 19f)
+                curveToRelative(-0.74f, 0f, -1.44f, -0.33f, -1.92f, -0.9f)
+                curveToRelative(-0.48f, -0.57f, -0.68f, -1.31f, -0.54f, -2.04f)
+                lineToRelative(1.46f, -8.18f)
+                curveToRelative(0.3f, -1.67f, 1.75f, -2.88f, 3.45f, -2.88f)
+                horizontalLineToRelative(10.11f)
+                curveToRelative(1.7f, 0f, 3.15f, 1.21f, 3.45f, 2.88f)
+                lineToRelative(0.12f, 0.7f)
+                curveToRelative(0.05f, 0.27f, 0.31f, 0.45f, 0.58f, 0.4f)
+                curveToRelative(0.27f, -0.05f, 0.45f, -0.31f, 0.4f, -0.58f)
+                lineToRelative(-0.12f, -0.7f)
+                curveToRelative(-0.38f, -2.15f, -2.25f, -3.71f, -4.43f, -3.71f)
+                horizontalLineToRelative(-0.56f)
+                curveToRelative(0.32f, -0.42f, 0.5f, -0.94f, 0.5f, -1.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                curveToRelative(0f, 0.56f, 0.19f, 1.08f, 0.5f, 1.5f)
+                horizontalLineToRelative(-0.56f)
+                curveToRelative(-2.18f, 0f, -4.05f, 1.56f, -4.43f, 3.71f)
+                lineTo(0.06f, 15.88f)
+                curveToRelative(-0.18f, 1.02f, 0.1f, 2.06f, 0.76f, 2.86f)
+                curveToRelative(0.67f, 0.8f, 1.65f, 1.25f, 2.68f, 1.25f)
+                horizontalLineToRelative(3.5f)
+                curveToRelative(0f, 1.98f, 1.47f, 3.68f, 3.43f, 3.96f)
+                curveToRelative(0.02f, 0.0f, 0.05f, 0.01f, 0.07f, 0.01f)
+                curveToRelative(0.24f, 0f, 0.46f, -0.18f, 0.49f, -0.43f)
+                curveToRelative(0.04f, -0.27f, -0.15f, -0.53f, -0.42f, -0.57f)
+                close()
+                moveTo(7f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+                moveTo(17.5f, 11f)
+                curveToRelative(-3.58f, 0f, -6.5f, 2.92f, -6.5f, 6.5f)
+                reflectiveCurveToRelative(2.92f, 6.5f, 6.5f, 6.5f)
+                reflectiveCurveToRelative(6.5f, -2.92f, 6.5f, -6.5f)
+                reflectiveCurveToRelative(-2.92f, -6.5f, -6.5f, -6.5f)
+                close()
+                moveTo(17.5f, 23f)
+                curveToRelative(-3.03f, 0f, -5.5f, -2.47f, -5.5f, -5.5f)
+                reflectiveCurveToRelative(2.47f, -5.5f, 5.5f, -5.5f)
+                reflectiveCurveToRelative(5.5f, 2.47f, 5.5f, 5.5f)
+                reflectiveCurveToRelative(-2.47f, 5.5f, -5.5f, 5.5f)
+                close()
+                moveTo(21f, 17.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-2.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _CowbellCirclePlus = it}

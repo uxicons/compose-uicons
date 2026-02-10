@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BrokenLeg: ImageVector? = null
+
+val Icons.Ts.BrokenLeg: ImageVector
+    get() = _BrokenLeg ?: UXIcon(name = "BrokenLeg") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.38f, 16.5f)
+                curveToRelative(-0.16f, -0.04f, -1.71f, -0.36f, -2.38f, -0.53f)
+                verticalLineToRelative(-1.89f)
+                lineToRelative(-5f, -1f)
+                lineTo(14f, 5f)
+                horizontalLineToRelative(-2f)
+                lineTo(12f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5f)
+                lineTo(3.04f, 5f)
+                lineTo(3.04f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5f)
+                lineTo(0.04f, 5f)
+                verticalLineToRelative(7.95f)
+                lineToRelative(-0.03f, 0.03f)
+                lineToRelative(0.03f, 0.03f)
+                verticalLineToRelative(4.49f)
+                curveToRelative(0f, 3.58f, 2.92f, 6.5f, 6.5f, 6.5f)
+                horizontalLineToRelative(12.46f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.22f)
+                curveToRelative(1.52f, 0f, 2.77f, -1.23f, 2.78f, -2.75f)
+                curveToRelative(0.01f, -1.32f, -0.94f, -2.33f, -2.62f, -2.75f)
+                close()
+                moveTo(18f, 14.91f)
+                verticalLineToRelative(4.18f)
+                lineToRelative(-4.93f, -4.5f)
+                lineToRelative(0.58f, -0.55f)
+                lineToRelative(4.34f, 0.87f)
+                close()
+                moveTo(13f, 7.28f)
+                lineTo(1.08f, 18.19f)
+                curveToRelative(-0.03f, -0.23f, -0.05f, -0.45f, -0.05f, -0.69f)
+                verticalLineToRelative(-4.11f)
+                lineToRelative(8.06f, -7.38f)
+                lineToRelative(-0.01f, -0.01f)
+                horizontalLineToRelative(3.92f)
+                verticalLineToRelative(1.28f)
+                close()
+                moveTo(1.03f, 6f)
+                horizontalLineToRelative(6.59f)
+                lineTo(1.03f, 12.03f)
+                verticalLineToRelative(-6.03f)
+                close()
+                moveTo(1.34f, 19.3f)
+                lineToRelative(11.65f, -10.66f)
+                verticalLineToRelative(4.64f)
+                lineTo(3.66f, 22.14f)
+                lineToRelative(0.09f, 0.1f)
+                curveToRelative(-1.11f, -0.66f, -1.97f, -1.69f, -2.4f, -2.93f)
+                close()
+                moveTo(4.58f, 22.64f)
+                lineToRelative(4.34f, -4.11f)
+                lineToRelative(4.82f, 4.47f)
+                horizontalLineToRelative(-7.2f)
+                curveToRelative(-0.69f, 0f, -1.34f, -0.13f, -1.95f, -0.36f)
+                close()
+                moveTo(15.21f, 23f)
+                lineToRelative(-5.56f, -5.16f)
+                lineToRelative(2.7f, -2.56f)
+                lineToRelative(5.65f, 5.17f)
+                verticalLineToRelative(2.55f)
+                horizontalLineToRelative(-2.79f)
+                close()
+                moveTo(21.22f, 21f)
+                horizontalLineToRelative(-2.22f)
+                verticalLineToRelative(-3.99f)
+                curveToRelative(0.58f, 0.14f, 1.99f, 0.43f, 2.14f, 0.47f)
+                curveToRelative(0.7f, 0.17f, 1.87f, 0.64f, 1.86f, 1.77f)
+                curveToRelative(-0.01f, 0.95f, -0.82f, 1.76f, -1.78f, 1.76f)
+                close()
+            }
+        }.also { _BrokenLeg = it}

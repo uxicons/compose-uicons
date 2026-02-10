@@ -1,0 +1,96 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Snowmobile: ImageVector? = null
+
+val Icons.Sc.Snowmobile: ImageVector
+    get() = _Snowmobile ?: UXIcon(name = "Snowmobile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20.0f, 19.26f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                curveToRelative(0f, 0.41f, -0.34f, 0.74f, -0.75f, 0.74f)
+                horizontalLineToRelative(-0.18f)
+                verticalLineToRelative(-1.57f)
+                curveToRelative(0.95f, -0.44f, 1.78f, -1.16f, 2.35f, -2.1f)
+                curveToRelative(1.53f, -2.51f, 3.84f, -6.31f, 0.87f, -8.94f)
+                lineToRelative(-2.29f, -1.8f)
+                curveToRelative(-0.32f, -0.25f, -0.75f, -0.24f, -1.1f, -0.05f)
+                reflectiveCurveToRelative(-0.55f, 0.62f, -0.5f, 1.02f)
+                curveToRelative(0.02f, 0.16f, 0.08f, 0.32f, 0.17f, 0.45f)
+                curveToRelative(0.67f, 0.98f, 0.6f, 1.66f, 0.6f, 1.66f)
+                curveToRelative(0.66f, 0.46f, 1.1f, 1.15f, 1.24f, 1.93f)
+                reflectiveCurveToRelative(-0.03f, 1.59f, -0.49f, 2.24f)
+                curveToRelative(-0.56f, 0.81f, -1.48f, 1.29f, -2.46f, 1.29f)
+                curveToRelative(-0.61f, 0f, -1.21f, -0.19f, -1.71f, -0.54f)
+                lineToRelative(-1.03f, -0.72f)
+                curveToRelative(0.78f, 0.85f, 1.01f, 2.1f, 0.53f, 3.22f)
+                curveToRelative(0f, 0f, -0.11f, 0.26f, -0.31f, 0.66f)
+                horizontalLineToRelative(-2.27f)
+                curveToRelative(0.46f, -0.79f, 0.74f, -1.42f, 0.76f, -1.47f)
+                curveToRelative(0.19f, -0.42f, 0.06f, -0.91f, -0.3f, -1.19f)
+                lineToRelative(-3.76f, -2.06f)
+                curveToRelative(-0.48f, -0.27f, -0.66f, -0.87f, -0.4f, -1.36f)
+                reflectiveCurveToRelative(0.87f, -0.66f, 1.36f, -0.4f)
+                lineToRelative(2.63f, 1.44f)
+                curveToRelative(0.1f, -0.08f, 0.19f, -0.18f, 0.26f, -0.3f)
+                curveToRelative(0.34f, -0.62f, 0.6f, -1.2f, 0.8f, -1.68f)
+                lineToRelative(3.03f, 2.1f)
+                curveToRelative(0.17f, 0.12f, 0.37f, 0.18f, 0.57f, 0.18f)
+                curveToRelative(0.32f, 0f, 0.63f, -0.15f, 0.82f, -0.43f)
+                curveToRelative(0.32f, -0.45f, 0.2f, -1.08f, -0.25f, -1.39f)
+                lineToRelative(-4.02f, -2.79f)
+                curveToRelative(-0.25f, -0.27f, -1.02f, -1.02f, -2.06f, -1.59f)
+                curveToRelative(-1.25f, -0.69f, -2.53f, -0.9f, -2.58f, -0.9f)
+                curveToRelative(-0.33f, -0.06f, -0.67f, 0.07f, -0.9f, 0.32f)
+                curveToRelative(-0.04f, 0.04f, -0.98f, 1.09f, -1.84f, 2.66f)
+                curveToRelative(-0.87f, 1.59f, -1.24f, 2.93f, -1.25f, 2.99f)
+                curveToRelative(-0.09f, 0.33f, -0.01f, 0.68f, 0.22f, 0.93f)
+                curveToRelative(0.04f, 0.04f, 0.9f, 1.0f, 2.15f, 1.69f)
+                lineToRelative(3.29f, 1.8f)
+                curveToRelative(-0.23f, 0.42f, -0.54f, 0.95f, -0.9f, 1.45f)
+                horizontalLineToRelative(-2.33f)
+                curveToRelative(0.09f, -0.26f, 0.21f, -0.5f, 0.37f, -0.73f)
+                lineToRelative(-1.4f, -0.77f)
+                curveToRelative(-1.47f, -0.81f, -2.49f, -1.89f, -2.68f, -2.1f)
+                curveToRelative(-0.41f, -0.46f, -0.66f, -1.02f, -0.74f, -1.6f)
+                curveToRelative(0f, 0f, -0.62f, -0.06f, -0.99f, 0.36f)
+                curveToRelative(-0.2f, 0.23f, -0.27f, 0.54f, -0.21f, 0.83f)
+                curveToRelative(0.16f, 0.82f, 1.14f, 2.51f, 1.27f, 2.75f)
+                curveToRelative(0.31f, 0.55f, 0.71f, 1.11f, 1.19f, 1.65f)
+                curveToRelative(0.26f, 0.29f, 0.55f, 0.55f, 0.87f, 0.78f)
+                curveToRelative(-0.31f, 0.42f, -0.5f, 0.95f, -0.5f, 1.51f)
+                curveToRelative(0f, 1.4f, 1.14f, 2.54f, 2.54f, 2.54f)
+                horizontalLineToRelative(2.07f)
+                curveToRelative(1.4f, 0f, 2.54f, -1.14f, 2.54f, -2.54f)
+                curveToRelative(0f, -0.19f, -0.02f, -0.37f, -0.06f, -0.54f)
+                curveToRelative(0f, 0f, 4.78f, -0.0f, 4.85f, -0.01f)
+                verticalLineToRelative(1.09f)
+                horizontalLineToRelative(-1.53f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(3.71f)
+                curveToRelative(1.51f, 0f, 2.75f, -1.23f, 2.75f, -2.75f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(8.73f, 21.0f)
+                horizontalLineToRelative(-2.07f)
+                curveToRelative(-0.3f, 0f, -0.54f, -0.24f, -0.54f, -0.54f)
+                reflectiveCurveToRelative(0.24f, -0.54f, 0.54f, -0.54f)
+                horizontalLineToRelative(2.07f)
+                curveToRelative(0.3f, 0f, 0.54f, 0.24f, 0.54f, 0.54f)
+                reflectiveCurveToRelative(-0.24f, 0.54f, -0.54f, 0.54f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12.85f, 3.68f)
+                moveToRelative(-2.68f, 0f)
+                arcToRelative(2.68f, 2.68f, 0f, isMoreThanHalf = true, isPositiveArc = true, 5.36f, 0f)
+                arcToRelative(2.68f, 2.68f, 0f, isMoreThanHalf = true, isPositiveArc = true, -5.36f, 0f)
+            }
+        }.also { _Snowmobile = it}

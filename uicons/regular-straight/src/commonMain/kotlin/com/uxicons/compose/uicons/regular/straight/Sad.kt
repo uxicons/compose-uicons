@@ -1,0 +1,43 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Sad: ImageVector? = null
+
+val Icons.Rs.Sad: ImageVector
+    get() = _Sad ?: UXIcon(name = "Sad") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12f, 24f)
+                arcTo(12f, 12f, 0f, isMoreThanHalf = true, isPositiveArc = true, 24f, 12f)
+                arcTo(12.01f, 12.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 12f, 24f)
+                close()
+                moveTo(12f, 2f)
+                arcTo(10f, 10f, 0f, isMoreThanHalf = true, isPositiveArc = false, 22f, 12f)
+                arcTo(10.01f, 10.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 2f)
+                close()
+                moveTo(17.67f, 16.25f)
+                arcTo(9.45f, 9.45f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 14f)
+                arcToRelative(9.45f, 9.45f, 0f, isMoreThanHalf = false, isPositiveArc = false, -5.67f, 2.25f)
+                lineToRelative(1.33f, 1.49f)
+                arcTo(7.51f, 7.51f, 0f, isMoreThanHalf = false, isPositiveArc = true, 12f, 16f)
+                arcToRelative(7.51f, 7.51f, 0f, isMoreThanHalf = false, isPositiveArc = true, 4.34f, 1.75f)
+                close()
+                moveTo(6f, 10f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(4f)
+                lineTo(10f, 10f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, 0f)
+                close()
+                moveTo(14f, 10f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(4f)
+                lineTo(18f, 10f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, 0f)
+                close()
+            }
+        }.also { _Sad = it}

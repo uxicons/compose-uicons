@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckBolt: ImageVector? = null
+
+val Icons.Ts.TruckBolt: ImageVector
+    get() = _TruckBolt ?: UXIcon(name = "TruckBolt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 10.5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                lineTo(2.5f, 1f)
+                curveTo(1.12f, 1f, 0f, 2.12f, 0f, 3.5f)
+                verticalLineToRelative(15.5f)
+                horizontalLineToRelative(2.18f)
+                curveToRelative(-0.12f, 0.32f, -0.18f, 0.66f, -0.18f, 1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                curveToRelative(0f, -0.34f, -0.06f, -0.68f, -0.18f, -1f)
+                horizontalLineToRelative(8.36f)
+                curveToRelative(-0.12f, 0.32f, -0.18f, 0.66f, -0.18f, 1f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                curveToRelative(0f, -0.34f, -0.06f, -0.68f, -0.18f, -1f)
+                horizontalLineToRelative(2.18f)
+                verticalLineToRelative(-8.5f)
+                close()
+                moveTo(19.5f, 7f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(2.5f)
+                close()
+                moveTo(7f, 20f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                curveToRelative(0f, -0.35f, 0.12f, -0.69f, 0.3f, -1f)
+                horizontalLineToRelative(3.39f)
+                curveToRelative(0.18f, 0.31f, 0.3f, 0.65f, 0.3f, 1f)
+                close()
+                moveTo(16f, 18f)
+                lineTo(1f, 18f)
+                lineTo(1f, 3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(14.5f)
+                close()
+                moveTo(21f, 20f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                curveToRelative(0f, -0.35f, 0.12f, -0.69f, 0.3f, -1f)
+                horizontalLineToRelative(3.39f)
+                curveToRelative(0.18f, 0.31f, 0.3f, 0.65f, 0.3f, 1f)
+                close()
+                moveTo(17f, 18f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(11.89f, 9.88f)
+                curveToRelative(0.16f, 0.25f, 0.18f, 0.56f, 0.06f, 0.82f)
+                lineToRelative(-3.02f, 5.06f)
+                lineToRelative(-0.86f, -0.51f)
+                lineToRelative(2.84f, -4.74f)
+                horizontalLineToRelative(-5.09f)
+                curveToRelative(-0.29f, 0f, -0.56f, -0.14f, -0.7f, -0.38f)
+                curveToRelative(-0.14f, -0.23f, -0.15f, -0.52f, -0.03f, -0.77f)
+                lineToRelative(2.79f, -5.09f)
+                lineToRelative(0.88f, 0.48f)
+                lineToRelative(-2.61f, 4.76f)
+                horizontalLineToRelative(5.07f)
+                curveToRelative(0.28f, 0f, 0.53f, 0.14f, 0.68f, 0.38f)
+                close()
+            }
+        }.also { _TruckBolt = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PharmacySymbol: ImageVector? = null
+
+val Icons.Bs.PharmacySymbol: ImageVector
+    get() = _PharmacySymbol ?: UXIcon(name = "PharmacySymbol") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24.0f, 0.0f)
+                lineToRelative(-5.99f, -0.0f)
+                reflectiveCurveToRelative(-2.0f, 0.0f, -2.0f, 2.0f)
+                curveToRelative(0f, 2.34f, -1.37f, 3.3f, -2.5f, 3.71f)
+                verticalLineToRelative(-2.4f)
+                curveToRelative(0.31f, -0.35f, 0.5f, -0.8f, 0.5f, -1.31f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                curveToRelative(0f, 0.51f, 0.19f, 0.96f, 0.5f, 1.31f)
+                verticalLineToRelative(2.4f)
+                curveToRelative(-1.14f, -0.4f, -2.51f, -1.37f, -2.51f, -3.71f)
+                curveToRelative(-0.0f, -2.0f, -2.0f, -2.0f, -2.0f, -2.0f)
+                lineToRelative(-5.99f, 0.0f)
+                reflectiveCurveToRelative(-0.0f, 0.43f, -0.0f, 1.0f)
+                curveToRelative(0f, 1.45f, 0.93f, 1.9f, 1.5f, 2.0f)
+                horizontalLineToRelative(3.55f)
+                curveToRelative(0.04f, 0.35f, 0.1f, 0.69f, 0.18f, 1.0f)
+                lineToRelative(-3.23f, -0.0f)
+                curveToRelative(0f, 2.0f, 2f, 2f, 2f, 2f)
+                horizontalLineToRelative(2.14f)
+                curveToRelative(0.25f, 0.37f, 0.52f, 0.71f, 0.82f, 1f)
+                horizontalLineToRelative(-2.96f)
+                curveToRelative(0f, 2.0f, 2.0f, 2.0f, 2.0f, 2.0f)
+                horizontalLineToRelative(4.51f)
+                verticalLineToRelative(2.0f)
+                horizontalLineToRelative(-1.89f)
+                curveToRelative(-1.76f, 0f, -3.29f, 1.26f, -3.56f, 2.92f)
+                curveToRelative(-0.39f, 2.07f, 1.35f, 4.13f, 3.45f, 4.08f)
+                horizontalLineToRelative(2.0f)
+                verticalLineToRelative(0.99f)
+                horizontalLineToRelative(-0.02f)
+                curveToRelative(-1.37f, 0f, -2.48f, 1.11f, -2.48f, 2.5f)
+                curveToRelative(-0.03f, 1.33f, 1.15f, 2.52f, 2.48f, 2.49f)
+                lineToRelative(3.02f, 0.02f)
+                verticalLineToRelative(-2.01f)
+                lineToRelative(1.0f, 0.0f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(-1.57f, -3.5f, -3.5f, -3.5f)
+                horizontalLineToRelative(-1.0f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2.05f)
+                curveToRelative(1.76f, 0f, 3.2f, -1.31f, 3.45f, -3f)
+                horizontalLineToRelative(-3.45f)
+                reflectiveCurveToRelative(-0.03f, 0f, -0.05f, 0.0f)
+                verticalLineToRelative(-0.0f)
+                horizontalLineToRelative(-2.0f)
+                verticalLineToRelative(-2.0f)
+                horizontalLineToRelative(4.5f)
+                reflectiveCurveToRelative(2.0f, 0f, 2.0f, -2.0f)
+                horizontalLineToRelative(-2.96f)
+                curveToRelative(0.3f, -0.29f, 0.58f, -0.63f, 0.82f, -1f)
+                horizontalLineToRelative(2.14f)
+                reflectiveCurveToRelative(2f, -0.0f, 2f, -2f)
+                lineToRelative(-3.23f, 0.0f)
+                curveToRelative(0.08f, -0.32f, 0.14f, -0.65f, 0.18f, -1.0f)
+                horizontalLineToRelative(3.55f)
+                curveToRelative(0.57f, -0.1f, 1.5f, -0.55f, 1.5f, -2.0f)
+                curveToRelative(0f, -0.57f, -0.0f, -1.0f, -0.0f, -1.0f)
+                close()
+                moveTo(10.5f, 15.0f)
+                horizontalLineToRelative(-2.0f)
+                curveToRelative(-0.72f, -0.03f, -0.61f, -1.03f, 0.11f, -1f)
+                horizontalLineToRelative(1.89f)
+                close()
+                moveTo(14.51f, 18.0f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.23f, 0.5f, -0.5f, 0.5f)
+                lineToRelative(-1.01f, -0.0f)
+                verticalLineToRelative(-1.0f)
+                close()
+            }
+        }.also { _PharmacySymbol = it}

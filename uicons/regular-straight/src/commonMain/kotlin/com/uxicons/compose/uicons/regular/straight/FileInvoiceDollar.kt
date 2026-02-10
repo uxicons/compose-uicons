@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FileInvoiceDollar: ImageVector? = null
+
+val Icons.Rs.FileInvoiceDollar: ImageVector
+    get() = _FileInvoiceDollar ?: UXIcon(name = "FileInvoiceDollar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 20f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                curveToRelative(0f, -0.38f, -0.27f, -0.7f, -0.64f, -0.76f)
+                lineToRelative(-3.04f, -0.51f)
+                curveToRelative(-1.34f, -0.22f, -2.31f, -1.37f, -2.31f, -2.73f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                curveToRelative(0f, 0.38f, 0.27f, 0.7f, 0.64f, 0.76f)
+                lineToRelative(3.04f, 0.51f)
+                curveToRelative(1.34f, 0.22f, 2.31f, 1.37f, 2.31f, 2.73f)
+                close()
+                moveTo(14.1f, 15f)
+                curveToRelative(0.15f, -0.74f, 0.48f, -1.42f, 0.92f, -2f)
+                lineTo(5f, 13f)
+                verticalLineToRelative(7f)
+                lineTo(14f, 20f)
+                verticalLineToRelative(-2f)
+                lineTo(7f, 18f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7.1f)
+                close()
+                moveTo(5f, 11f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-2f)
+                lineTo(5f, 9f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(10f, 5f)
+                lineTo(5f, 5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(16.03f, 24f)
+                lineTo(1f, 24f)
+                lineTo(1f, 3f)
+                curveTo(1f, 1.35f, 2.35f, 0f, 4f, 0f)
+                lineTo(13.41f, 0f)
+                lineToRelative(7.59f, 7.59f)
+                verticalLineToRelative(2.41f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-7f)
+                lineTo(12f, 2f)
+                lineTo(4f, 2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                lineTo(3f, 22f)
+                lineTo(14.42f, 22f)
+                curveToRelative(0.35f, 0.8f, 0.91f, 1.48f, 1.61f, 2f)
+                close()
+                moveTo(14f, 7f)
+                horizontalLineToRelative(3.59f)
+                lineToRelative(-3.59f, -3.59f)
+                verticalLineToRelative(3.59f)
+                close()
+            }
+        }.also { _FileInvoiceDollar = it}

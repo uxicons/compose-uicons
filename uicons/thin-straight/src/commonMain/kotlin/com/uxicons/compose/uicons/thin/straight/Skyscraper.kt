@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Skyscraper: ImageVector? = null
+
+val Icons.Ts.Skyscraper: ImageVector
+    get() = _Skyscraper ?: UXIcon(name = "Skyscraper") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18.5f, 11f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(10.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-10.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(13f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(10.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-10.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(7f, 11f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.5f)
+                close()
+                moveTo(10f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(10f, 21f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(13f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(13f, 21f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(16f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(16f, 21f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(7f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(7f, 21f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+            }
+        }.also { _Skyscraper = it}

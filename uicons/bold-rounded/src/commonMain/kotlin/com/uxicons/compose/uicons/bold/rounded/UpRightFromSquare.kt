@@ -1,0 +1,52 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UpRightFromSquare: ImageVector? = null
+
+val Icons.Br.UpRightFromSquare: ImageVector
+    get() = _UpRightFromSquare ?: UXIcon(name = "UpRightFromSquare") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(24f, 2.5f)
+            verticalLineToRelative(7f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-4.38f)
+            lineToRelative(-11.44f, 11.44f)
+            curveToRelative(-0.29f, 0.29f, -0.68f, 0.44f, -1.06f, 0.44f)
+            reflectiveCurveToRelative(-0.77f, -0.15f, -1.06f, -0.44f)
+            curveToRelative(-0.59f, -0.58f, -0.59f, -1.54f, 0f, -2.12f)
+            lineTo(18.88f, 3f)
+            horizontalLineToRelative(-4.38f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(7f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            close()
+            moveTo(22.5f, 13f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(4f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            lineTo(5.5f, 21f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            lineTo(3f, 5.5f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            horizontalLineToRelative(4f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-4f)
+            curveTo(2.47f, 0f, 0f, 2.47f, 0f, 5.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+        }
+    }.also { _UpRightFromSquare = it }

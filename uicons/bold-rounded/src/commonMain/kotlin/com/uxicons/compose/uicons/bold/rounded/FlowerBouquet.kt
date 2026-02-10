@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FlowerBouquet: ImageVector? = null
+
+val Icons.Br.FlowerBouquet: ImageVector
+    get() = _FlowerBouquet ?: UXIcon(name = "FlowerBouquet", viewportWidth = 512f, viewportHeight = 512f) {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(512f, 247.47f)
+            curveToRelative(0.26f, -26.03f, -12.82f, -50.38f, -34.67f, -64.53f)
+            curveToRelative(12.13f, -34.51f, 16.61f, -71.24f, 13.12f, -107.65f)
+            curveToRelative(-0.34f, -17.17f, -8.63f, -33.21f, -22.44f, -43.41f)
+            curveTo(454.78f, 22f, 437.71f, 18.85f, 421.82f, 23.34f)
+            curveToRelative(-33.23f, 9.47f, -64.36f, 25.16f, -91.73f, 46.23f)
+            curveToRelative(-9.04f, -17.4f, -19.55f, -33.98f, -31.42f, -49.58f)
+            curveToRelative(-18.28f, -22.98f, -51.73f, -26.78f, -74.7f, -8.5f)
+            curveToRelative(-3.14f, 2.5f, -6f, 5.35f, -8.5f, 8.5f)
+            curveToRelative(-12.13f, 15.92f, -22.84f, 32.87f, -32f, 50.67f)
+            curveToRelative(-27.79f, -21.66f, -59.5f, -37.73f, -93.4f, -47.34f)
+            curveToRelative(-15.85f, -4.46f, -32.88f, -1.31f, -46.08f, 8.53f)
+            curveTo(30.17f, 42.06f, 21.87f, 58.11f, 21.55f, 75.29f)
+            curveToRelative(-3.5f, 36.41f, 0.97f, 73.14f, 13.08f, 107.65f)
+            curveTo(12.79f, 197.1f, -0.27f, 221.45f, 0f, 247.47f)
+            curveToRelative(0f, 105.24f, 156.59f, 172.07f, 213.33f, 192.83f)
+            curveToRelative(-6.24f, 5.65f, -11.69f, 12.1f, -16.21f, 19.2f)
+            curveToRelative(-6.7f, 10.56f, -6.78f, 24.02f, -0.21f, 34.67f)
+            curveToRelative(6.94f, 11.17f, 19.19f, 17.92f, 32.34f, 17.83f)
+            horizontalLineToRelative(53.5f)
+            curveToRelative(13.19f, 0.08f, 25.47f, -6.73f, 32.38f, -17.96f)
+            curveToRelative(6.57f, -10.64f, 6.49f, -24.1f, -0.21f, -34.67f)
+            curveToRelative(-2.57f, -4.03f, -5.48f, -7.84f, -8.7f, -11.37f)
+            horizontalLineTo(352f)
+            curveToRelative(17.67f, 0f, 32f, 14.33f, 32f, 32f)
+            reflectiveCurveToRelative(14.33f, 32f, 32f, 32f)
+            reflectiveCurveToRelative(32f, -14.33f, 32f, -32f)
+            curveToRelative(-0.12f, -35.83f, -20.25f, -68.6f, -52.16f, -84.91f)
+            curveTo(454.02f, 361.22f, 512f, 311.47f, 512f, 247.47f)
+            close()
+            moveTo(366.56f, 123.74f)
+            curveToRelative(0.64f, -0.95f, 2.08f, -2.67f, 2.08f, -2.67f)
+            curveToRelative(17.01f, -14.48f, 36.74f, -25.41f, 58.03f, -32.15f)
+            curveToRelative(2.08f, 23.22f, -0.74f, 46.62f, -8.26f, 68.69f)
+            curveToRelative(-4.81f, 6.78f, -12.22f, 11.24f, -20.46f, 12.33f)
+            curveToRelative(-8.35f, 1.23f, -16.83f, -1.03f, -23.47f, -6.25f)
+            curveTo(361.27f, 154.85f, 357.72f, 136.96f, 366.56f, 123.74f)
+            close()
+            moveTo(257.09f, 71.53f)
+            curveToRelative(14.6f, 20.29f, 25.44f, 43.04f, 32f, 67.16f)
+            curveToRelative(0f, 17.67f, -14.33f, 32f, -32f, 32f)
+            curveToRelative(-17.67f, 0f, -32f, -14.33f, -32f, -32f)
+            curveTo(231.66f, 114.57f, 242.5f, 91.83f, 257.09f, 71.53f)
+            close()
+            moveTo(84.66f, 88.92f)
+            curveToRelative(21.29f, 6.74f, 41.02f, 17.67f, 58.03f, 32.15f)
+            curveToRelative(0f, 0f, 1.44f, 1.72f, 2.08f, 2.67f)
+            curveToRelative(8.84f, 13.22f, 5.3f, 31.11f, -7.92f, 39.95f)
+            curveToRelative(-6.63f, 5.22f, -15.12f, 7.48f, -23.47f, 6.25f)
+            curveToRelative(-8.24f, -1.09f, -15.65f, -5.55f, -20.46f, -12.33f)
+            curveTo(85.4f, 135.54f, 82.59f, 112.14f, 84.66f, 88.92f)
+            close()
+            moveTo(448f, 247.47f)
+            curveToRelative(0f, 41.28f, -62.38f, 83.05f, -120.62f, 111.06f)
+            curveToRelative(6.24f, -14.07f, 10.78f, -28.83f, 13.52f, -43.97f)
+            curveToRelative(2.89f, -17.44f, -8.91f, -33.91f, -26.35f, -36.8f)
+            curveToRelative(-17.44f, -2.89f, -33.91f, 8.91f, -36.8f, 26.35f)
+            curveToRelative(-4.11f, 18.77f, -11.29f, 36.74f, -21.23f, 53.18f)
+            curveToRelative(-10.02f, -17.2f, -17.64f, -35.69f, -22.64f, -54.96f)
+            curveToRelative(-3.87f, -17.25f, -20.98f, -28.1f, -38.23f, -24.24f)
+            curveToRelative(-17.25f, 3.87f, -28.1f, 20.98f, -24.24f, 38.23f)
+            curveToRelative(3.47f, 14.71f, 8.35f, 29.06f, 14.57f, 42.84f)
+            curveTo(127.38f, 331.16f, 64f, 289.07f, 64f, 247.47f)
+            curveToRelative(-0.26f, -6.8f, 5.05f, -12.53f, 11.85f, -12.79f)
+            curveToRelative(0.19f, -0.01f, 0.38f, -0.01f, 0.56f, -0.01f)
+            horizontalLineToRelative(359.17f)
+            curveToRelative(6.81f, -0.05f, 12.37f, 5.43f, 12.43f, 12.24f)
+            curveTo(448.01f, 247.09f, 448.01f, 247.28f, 448f, 247.47f)
+            close()
+        }
+    }.also { _FlowerBouquet = it }

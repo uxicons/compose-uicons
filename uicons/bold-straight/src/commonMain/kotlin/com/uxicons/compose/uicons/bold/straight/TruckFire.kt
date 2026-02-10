@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckFire: ImageVector? = null
+
+val Icons.Bs.TruckFire: ImageVector
+    get() = _TruckFire ?: UXIcon(name = "TruckFire") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(14f, 3f)
+                horizontalLineToRelative(10f)
+                lineTo(24f, 0f)
+                lineTo(0f, 0f)
+                lineTo(0f, 3f)
+                lineTo(3f, 3f)
+                verticalLineToRelative(3.05f)
+                curveToRelative(-1.69f, 0.24f, -3f, 1.69f, -3f, 3.45f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -0.17f, -0.02f, -0.34f, -0.05f, -0.5f)
+                horizontalLineToRelative(1.1f)
+                curveToRelative(-0.03f, 0.16f, -0.05f, 0.33f, -0.05f, 0.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -0.17f, -0.02f, -0.34f, -0.05f, -0.5f)
+                horizontalLineToRelative(6.1f)
+                curveToRelative(-0.03f, 0.16f, -0.05f, 0.33f, -0.05f, 0.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -0.17f, -0.02f, -0.34f, -0.05f, -0.5f)
+                horizontalLineToRelative(2.05f)
+                verticalLineToRelative(-5.85f)
+                curveToRelative(0f, -0.59f, -0.1f, -1.18f, -0.28f, -1.74f)
+                lineToRelative(-1.34f, -4.02f)
+                curveToRelative(-0.48f, -1.43f, -1.81f, -2.39f, -3.32f, -2.39f)
+                horizontalLineToRelative(-0.06f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(-2f)
+                lineTo(14.0f, 3f)
+                close()
+                moveTo(11f, 6f)
+                horizontalLineToRelative(-1f)
+                lineTo(10f, 3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(7f, 3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                lineTo(6f, 3f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(3f, 17f)
+                verticalLineToRelative(-2f)
+                lineTo(15f, 15f)
+                verticalLineToRelative(2f)
+                lineTo(3f, 17f)
+                close()
+                moveTo(19.53f, 9.34f)
+                lineToRelative(1.34f, 4.02f)
+                curveToRelative(0.09f, 0.26f, 0.13f, 0.52f, 0.13f, 0.79f)
+                verticalLineToRelative(0.85f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(1.06f)
+                curveToRelative(0.21f, 0f, 0.41f, 0.14f, 0.47f, 0.34f)
+                close()
+                moveTo(15f, 12f)
+                lineTo(3f, 12f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                lineTo(15f, 9f)
+                verticalLineToRelative(3f)
+                close()
+            }
+        }.also { _TruckFire = it}

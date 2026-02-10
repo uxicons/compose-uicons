@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TruckContainer: ImageVector? = null
+
+val Icons.Rs.TruckContainer: ImageVector
+    get() = _TruckContainer ?: UXIcon(name = "TruckContainer") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(14f, 4f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3f, -3f)
+                lineTo(3f, 1f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 4f)
+                lineTo(0f, 15f)
+                lineTo(14f, 15f)
+                close()
+                moveTo(12f, 13f)
+                lineTo(2f, 13f)
+                lineTo(2f, 4f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 3f)
+                horizontalLineToRelative(8f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, 1f)
+                close()
+                moveTo(4f, 5f)
+                lineTo(6f, 5f)
+                verticalLineToRelative(6f)
+                lineTo(4f, 11f)
+                close()
+                moveTo(8f, 5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(6f)
+                lineTo(8f, 11f)
+                close()
+                moveTo(24f, 12.65f)
+                arcToRelative(4.97f, 4.97f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.26f, -1.58f)
+                lineTo(22.4f, 7.05f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 19.56f, 5f)
+                lineTo(16f, 5f)
+                lineTo(16f, 17f)
+                lineTo(0f, 17f)
+                verticalLineToRelative(2.5f)
+                arcToRelative(3.52f, 3.52f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 2.45f)
+                arcTo(3.52f, 3.52f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 19.5f)
+                lineTo(12f, 19f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(0.5f)
+                arcToRelative(3.5f, 3.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7f, 0f)
+                lineTo(23f, 19f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(18f, 17f)
+                lineTo(18f, 13f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(19.56f, 7f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.95f, 0.68f)
+                lineTo(21.61f, 11f)
+                lineTo(18f, 11f)
+                lineTo(18f, 7f)
+                close()
+                moveTo(3.5f, 21f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, 19.5f)
+                lineTo(2f, 19f)
+                lineTo(5f, 19f)
+                verticalLineToRelative(0.5f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3.5f, 21f)
+                close()
+                moveTo(10f, 19.5f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+                lineTo(7f, 19f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(21f, 19.5f)
+                arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3f, 0f)
+                lineTo(18f, 19f)
+                horizontalLineToRelative(3f)
+                close()
+            }
+        }.also { _TruckContainer = it}

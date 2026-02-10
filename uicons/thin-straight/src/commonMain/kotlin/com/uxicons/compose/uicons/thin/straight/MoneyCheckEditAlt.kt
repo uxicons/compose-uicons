@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MoneyCheckEditAlt: ImageVector? = null
+
+val Icons.Ts.MoneyCheckEditAlt: ImageVector
+    get() = _MoneyCheckEditAlt ?: UXIcon(name = "MoneyCheckEditAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 4.5f)
+                verticalLineToRelative(5.53f)
+                curveToRelative(-0.32f, -0.24f, -0.65f, -0.44f, -1f, -0.59f)
+                lineTo(23f, 4.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 3f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                lineTo(1f, 21f)
+                lineTo(9f, 21f)
+                verticalLineToRelative(1f)
+                lineTo(0f, 22f)
+                lineTo(0f, 4.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                lineTo(21.5f, 2f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(21f, 7f)
+                lineTo(13f, 7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(23.27f, 11.73f)
+                curveToRelative(0.47f, 0.47f, 0.73f, 1.1f, 0.73f, 1.77f)
+                reflectiveCurveToRelative(-0.26f, 1.3f, -0.73f, 1.77f)
+                lineToRelative(-8.73f, 8.73f)
+                horizontalLineToRelative(-3.54f)
+                verticalLineToRelative(-3.54f)
+                lineToRelative(8.73f, -8.73f)
+                curveToRelative(0.98f, -0.98f, 2.56f, -0.97f, 3.54f, 0f)
+                close()
+                moveTo(23f, 13.5f)
+                curveToRelative(0f, -0.4f, -0.16f, -0.78f, -0.44f, -1.06f)
+                curveToRelative(-0.58f, -0.58f, -1.54f, -0.58f, -2.12f, 0f)
+                lineToRelative(-8.44f, 8.44f)
+                verticalLineToRelative(2.12f)
+                horizontalLineToRelative(2.12f)
+                lineToRelative(8.44f, -8.44f)
+                curveToRelative(0.28f, -0.28f, 0.44f, -0.66f, 0.44f, -1.06f)
+                close()
+                moveTo(13f, 12f)
+                horizontalLineToRelative(3.64f)
+                lineToRelative(1f, -1f)
+                horizontalLineToRelative(-4.64f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(6.5f, 17f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+            }
+        }.also { _MoneyCheckEditAlt = it}

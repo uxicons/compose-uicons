@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BowlingPins: ImageVector? = null
+
+val Icons.Ts.BowlingPins: ImageVector
+    get() = _BowlingPins ?: UXIcon(name = "BowlingPins") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(9f, 8.5f)
+                curveToRelative(0f, -0.43f, 0.2f, -1.08f, 0.42f, -1.77f)
+                curveToRelative(0.27f, -0.87f, 0.58f, -1.85f, 0.58f, -2.73f)
+                curveTo(10f, 1.79f, 8.21f, 0f, 6f, 0f)
+                reflectiveCurveTo(2f, 1.79f, 2f, 4f)
+                curveToRelative(0f, 0.89f, 0.31f, 1.87f, 0.58f, 2.73f)
+                curveToRelative(0.21f, 0.69f, 0.42f, 1.33f, 0.42f, 1.77f)
+                curveToRelative(0f, 1.35f, -0.64f, 2.51f, -1.31f, 3.74f)
+                curveToRelative(-0.79f, 1.44f, -1.69f, 3.07f, -1.69f, 5.26f)
+                curveToRelative(0f, 4.6f, 2.31f, 6.33f, 2.41f, 6.4f)
+                lineToRelative(0.13f, 0.1f)
+                horizontalLineToRelative(6.92f)
+                lineToRelative(0.13f, -0.1f)
+                curveToRelative(0.1f, -0.07f, 2.41f, -1.8f, 2.41f, -6.4f)
+                curveToRelative(0f, -2.19f, -0.9f, -3.82f, -1.69f, -5.26f)
+                curveToRelative(-0.68f, -1.23f, -1.31f, -2.39f, -1.31f, -3.74f)
+                close()
+                moveTo(6f, 1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                curveToRelative(0f, 0.73f, -0.27f, 1.6f, -0.54f, 2.44f)
+                curveToRelative(-0.17f, 0.56f, -0.34f, 1.09f, -0.42f, 1.56f)
+                lineTo(3.95f, 8f)
+                curveToRelative(-0.08f, -0.47f, -0.24f, -1.01f, -0.42f, -1.56f)
+                curveToRelative(-0.26f, -0.84f, -0.54f, -1.7f, -0.54f, -2.44f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+                moveTo(9.12f, 23f)
+                lineTo(2.88f, 23f)
+                curveToRelative(-0.43f, -0.39f, -1.88f, -1.97f, -1.88f, -5.5f)
+                curveToRelative(0f, -1.93f, 0.79f, -3.38f, 1.56f, -4.78f)
+                curveToRelative(0.66f, -1.2f, 1.28f, -2.35f, 1.41f, -3.73f)
+                horizontalLineToRelative(4.05f)
+                curveToRelative(0.13f, 1.38f, 0.75f, 2.52f, 1.41f, 3.73f)
+                curveToRelative(0.77f, 1.4f, 1.56f, 2.84f, 1.56f, 4.78f)
+                curveToRelative(0f, 3.54f, -1.46f, 5.11f, -1.88f, 5.5f)
+                close()
+                moveTo(22.31f, 12.24f)
+                curveToRelative(-0.68f, -1.23f, -1.31f, -2.39f, -1.31f, -3.74f)
+                curveToRelative(0f, -0.43f, 0.2f, -1.08f, 0.42f, -1.77f)
+                curveToRelative(0.27f, -0.87f, 0.58f, -1.85f, 0.58f, -2.73f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                reflectiveCurveToRelative(-4f, 1.79f, -4f, 4f)
+                curveToRelative(0f, 0.89f, 0.31f, 1.87f, 0.58f, 2.73f)
+                curveToRelative(0.21f, 0.69f, 0.42f, 1.33f, 0.42f, 1.77f)
+                curveToRelative(0f, 1.35f, -0.64f, 2.51f, -1.31f, 3.74f)
+                curveToRelative(-0.79f, 1.44f, -1.69f, 3.07f, -1.69f, 5.26f)
+                curveToRelative(0f, 4.6f, 2.31f, 6.33f, 2.41f, 6.4f)
+                lineToRelative(0.13f, 0.1f)
+                horizontalLineToRelative(6.92f)
+                lineToRelative(0.13f, -0.1f)
+                curveToRelative(0.1f, -0.07f, 2.41f, -1.8f, 2.41f, -6.4f)
+                curveToRelative(0f, -2.19f, -0.9f, -3.82f, -1.69f, -5.26f)
+                close()
+                moveTo(18f, 1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                curveToRelative(0f, 0.73f, -0.27f, 1.6f, -0.54f, 2.44f)
+                curveToRelative(-0.17f, 0.56f, -0.34f, 1.09f, -0.42f, 1.56f)
+                horizontalLineToRelative(-4.09f)
+                curveToRelative(-0.08f, -0.47f, -0.24f, -1.01f, -0.42f, -1.56f)
+                curveToRelative(-0.26f, -0.84f, -0.54f, -1.7f, -0.54f, -2.44f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+                moveTo(21.12f, 23f)
+                horizontalLineToRelative(-6.24f)
+                curveToRelative(-0.43f, -0.39f, -1.88f, -1.97f, -1.88f, -5.5f)
+                curveToRelative(0f, -1.93f, 0.79f, -3.38f, 1.56f, -4.78f)
+                curveToRelative(0.66f, -1.2f, 1.28f, -2.35f, 1.41f, -3.73f)
+                horizontalLineToRelative(4.05f)
+                curveToRelative(0.13f, 1.38f, 0.75f, 2.52f, 1.41f, 3.73f)
+                curveToRelative(0.77f, 1.4f, 1.56f, 2.84f, 1.56f, 4.78f)
+                curveToRelative(0f, 3.54f, -1.46f, 5.11f, -1.88f, 5.5f)
+                close()
+            }
+        }.also { _BowlingPins = it}

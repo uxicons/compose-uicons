@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Rocks: ImageVector? = null
+
+val Icons.Rs.Rocks: ImageVector
+    get() = _Rocks ?: UXIcon(name = "Rocks") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.08f, 11.01f)
+                lineToRelative(-7.59f, -0.01f)
+                lineToRelative(-4.48f, 4.59f)
+                verticalLineToRelative(4.3f)
+                lineToRelative(3.78f, 4.11f)
+                horizontalLineToRelative(8.2f)
+                lineToRelative(3.01f, -5.4f)
+                lineToRelative(-2.91f, -7.59f)
+                close()
+                moveTo(19.8f, 22f)
+                horizontalLineToRelative(-6.14f)
+                lineToRelative(-2.66f, -2.89f)
+                verticalLineToRelative(-2.7f)
+                lineToRelative(3.33f, -3.41f)
+                lineToRelative(5.38f, 0.0f)
+                lineToRelative(2.08f, 5.44f)
+                lineToRelative(-1.98f, 3.56f)
+                close()
+                moveTo(11f, 4.18f)
+                lineTo(5.27f, 0.15f)
+                lineTo(0f, 3.44f)
+                verticalLineToRelative(6.72f)
+                lineToRelative(7.02f, 2.56f)
+                lineToRelative(3.98f, -3.31f)
+                lineTo(11f, 4.18f)
+                close()
+                moveTo(9f, 8.47f)
+                lineToRelative(-2.38f, 1.98f)
+                lineToRelative(-4.62f, -1.68f)
+                lineTo(2f, 4.55f)
+                lineToRelative(3.2f, -2.0f)
+                lineToRelative(3.8f, 2.67f)
+                verticalLineToRelative(3.25f)
+                close()
+                moveTo(20.61f, 9f)
+                lineToRelative(3.26f, -3.22f)
+                lineToRelative(-1.89f, -5.78f)
+                horizontalLineToRelative(-5.54f)
+                lineToRelative(-3.31f, 4.14f)
+                lineToRelative(3.69f, 4.86f)
+                horizontalLineToRelative(3.79f)
+                close()
+                moveTo(17.39f, 2f)
+                horizontalLineToRelative(3.13f)
+                lineToRelative(1.05f, 3.23f)
+                lineToRelative(-1.79f, 1.77f)
+                horizontalLineToRelative(-1.98f)
+                lineToRelative(-2.15f, -2.83f)
+                lineToRelative(1.74f, -2.17f)
+                close()
+                moveTo(0f, 16.66f)
+                verticalLineToRelative(3.7f)
+                lineToRelative(3.67f, 1.8f)
+                lineToRelative(3.0f, -3.6f)
+                lineToRelative(-2.56f, -3.71f)
+                lineToRelative(-4.11f, 1.81f)
+                close()
+                moveTo(3.14f, 19.67f)
+                lineToRelative(-1.14f, -0.56f)
+                verticalLineToRelative(-1.15f)
+                lineToRelative(1.4f, -0.62f)
+                lineToRelative(0.76f, 1.1f)
+                lineToRelative(-1.02f, 1.22f)
+                close()
+                moveTo(18f, 20f)
+                horizontalLineToRelative(-3.44f)
+                lineToRelative(-1.8f, -1.96f)
+                lineToRelative(1.47f, -1.35f)
+                lineToRelative(1.2f, 1.31f)
+                horizontalLineToRelative(2.56f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _Rocks = it}

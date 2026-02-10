@@ -1,0 +1,44 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleO: ImageVector? = null
+
+val Icons.Bs.CircleO: ImageVector
+    get() = _CircleO ?: UXIcon(name = "CircleO") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveTo(18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(12f, 21f)
+                curveToRelative(-4.96f, 0f, -9f, -4.04f, -9f, -9f)
+                reflectiveCurveTo(7.04f, 3f, 12f, 3f)
+                reflectiveCurveToRelative(9f, 4.04f, 9f, 9f)
+                reflectiveCurveToRelative(-4.04f, 9f, -9f, 9f)
+                close()
+                moveTo(12f, 5.75f)
+                curveToRelative(-2.76f, 0f, -5.01f, 2.18f, -5.01f, 4.86f)
+                verticalLineToRelative(2.78f)
+                curveToRelative(0f, 2.68f, 2.25f, 4.86f, 5.01f, 4.86f)
+                reflectiveCurveToRelative(4.99f, -2.18f, 4.99f, -4.86f)
+                verticalLineToRelative(-2.78f)
+                curveToRelative(0f, -2.68f, -2.24f, -4.86f, -4.99f, -4.86f)
+                close()
+                moveTo(13.99f, 13.39f)
+                curveToRelative(0f, 1.04f, -0.88f, 1.86f, -1.99f, 1.86f)
+                curveToRelative(-1.11f, 0f, -2.01f, -0.83f, -2.01f, -1.86f)
+                verticalLineToRelative(-2.78f)
+                curveToRelative(0f, -1.02f, 0.9f, -1.86f, 2.01f, -1.86f)
+                curveToRelative(1.12f, 0f, 1.99f, 0.82f, 1.99f, 1.86f)
+                verticalLineToRelative(2.78f)
+                close()
+            }
+        }.also { _CircleO = it}

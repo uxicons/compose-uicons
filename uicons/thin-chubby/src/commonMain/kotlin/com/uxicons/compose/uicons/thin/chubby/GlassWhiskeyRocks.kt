@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GlassWhiskeyRocks: ImageVector? = null
+
+val Icons.Tc.GlassWhiskeyRocks: ImageVector
+    get() = _GlassWhiskeyRocks ?: UXIcon(name = "GlassWhiskeyRocks") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.58f, 2.52f)
+                curveToRelative(-0.05f, -0.17f, -0.17f, -0.3f, -0.34f, -0.35f)
+                curveToRelative(-0.15f, -0.04f, -3.84f, -1.11f, -10.28f, -1.11f)
+                reflectiveCurveToRelative(-10.12f, 1.06f, -10.28f, 1.11f)
+                curveToRelative(-0.17f, 0.05f, -0.29f, 0.18f, -0.34f, 0.35f)
+                curveToRelative(-0.02f, 0.06f, -0.41f, 1.51f, -0.35f, 4.29f)
+                curveToRelative(0.04f, 1.78f, 0.25f, 3.7f, 0.63f, 5.71f)
+                curveToRelative(1.11f, 5.87f, 2.99f, 9.01f, 3.35f, 9.57f)
+                curveToRelative(0.07f, 0.11f, 0.18f, 0.18f, 0.3f, 0.21f)
+                curveToRelative(0.66f, 0.16f, 3.1f, 0.7f, 6.69f, 0.7f)
+                reflectiveCurveToRelative(6.03f, -0.54f, 6.69f, -0.7f)
+                curveToRelative(0.12f, -0.03f, 0.23f, -0.11f, 0.3f, -0.21f)
+                curveToRelative(0.36f, -0.57f, 2.25f, -3.71f, 3.35f, -9.57f)
+                curveToRelative(0.38f, -2.01f, 0.59f, -3.93f, 0.63f, -5.71f)
+                curveToRelative(0.06f, -2.78f, -0.33f, -4.23f, -0.35f, -4.29f)
+                close()
+                moveTo(21.93f, 6.79f)
+                curveToRelative(-0.04f, 1.72f, -0.24f, 3.59f, -0.61f, 5.55f)
+                curveToRelative(-0.99f, 5.25f, -2.59f, 8.21f, -3.11f, 9.05f)
+                curveToRelative(-0.84f, 0.19f, -3.07f, 0.62f, -6.25f, 0.62f)
+                reflectiveCurveToRelative(-5.41f, -0.43f, -6.25f, -0.62f)
+                curveToRelative(-0.51f, -0.85f, -2.12f, -3.8f, -3.11f, -9.05f)
+                curveToRelative(-0.37f, -1.96f, -0.57f, -3.82f, -0.61f, -5.55f)
+                curveToRelative(-0.04f, -1.95f, 0.15f, -3.21f, 0.25f, -3.74f)
+                curveToRelative(0.97f, -0.24f, 4.42f, -0.99f, 9.72f, -0.99f)
+                reflectiveCurveToRelative(8.75f, 0.75f, 9.72f, 0.99f)
+                curveToRelative(0.1f, 0.52f, 0.29f, 1.78f, 0.25f, 3.74f)
+                close()
+                moveTo(17.02f, 11.47f)
+                curveToRelative(-1.01f, -1.01f, -2.25f, -1.81f, -2.3f, -1.84f)
+                curveToRelative(-0.16f, -0.1f, -0.37f, -0.1f, -0.54f, 0f)
+                curveToRelative(-0.03f, 0.02f, -0.58f, 0.37f, -1.24f, 0.9f)
+                curveToRelative(-0.06f, -1.4f, -0.33f, -2.67f, -0.35f, -2.73f)
+                curveToRelative(-0.04f, -0.19f, -0.19f, -0.34f, -0.38f, -0.38f)
+                curveToRelative(-0.07f, -0.01f, -1.66f, -0.36f, -3.25f, -0.36f)
+                reflectiveCurveToRelative(-3.18f, 0.35f, -3.25f, 0.36f)
+                curveToRelative(-0.19f, 0.04f, -0.34f, 0.19f, -0.38f, 0.38f)
+                curveToRelative(-0.01f, 0.07f, -0.36f, 1.66f, -0.36f, 3.25f)
+                reflectiveCurveToRelative(0.35f, 3.18f, 0.36f, 3.25f)
+                curveToRelative(0.04f, 0.19f, 0.19f, 0.34f, 0.38f, 0.38f)
+                curveToRelative(0.07f, 0.01f, 1.66f, 0.36f, 3.25f, 0.36f)
+                curveToRelative(0.53f, 0f, 1.05f, -0.04f, 1.52f, -0.09f)
+                curveToRelative(0.33f, 0.45f, 0.83f, 1.09f, 1.4f, 1.66f)
+                curveToRelative(1.01f, 1.01f, 2.25f, 1.81f, 2.3f, 1.84f)
+                curveToRelative(0.16f, 0.1f, 0.37f, 0.1f, 0.54f, 0f)
+                curveToRelative(0.05f, -0.03f, 1.29f, -0.83f, 2.3f, -1.84f)
+                curveToRelative(1.01f, -1.01f, 1.81f, -2.25f, 1.84f, -2.3f)
+                curveToRelative(0.1f, -0.16f, 0.1f, -0.37f, 0f, -0.54f)
+                curveToRelative(-0.03f, -0.05f, -0.83f, -1.29f, -1.84f, -2.3f)
+                close()
+                moveTo(6.25f, 13.76f)
+                curveToRelative(-0.1f, -0.53f, -0.28f, -1.64f, -0.28f, -2.72f)
+                reflectiveCurveToRelative(0.18f, -2.19f, 0.28f, -2.72f)
+                curveToRelative(0.53f, -0.1f, 1.64f, -0.28f, 2.72f, -0.28f)
+                reflectiveCurveToRelative(2.19f, 0.18f, 2.72f, 0.28f)
+                curveToRelative(0.1f, 0.53f, 0.28f, 1.64f, 0.28f, 2.72f)
+                reflectiveCurveToRelative(-0.18f, 2.19f, -0.28f, 2.72f)
+                curveToRelative(-0.53f, 0.1f, -1.64f, 0.28f, -2.72f, 0.28f)
+                reflectiveCurveToRelative(-2.19f, -0.18f, -2.72f, -0.28f)
+                close()
+                moveTo(16.32f, 15.9f)
+                curveToRelative(-0.66f, 0.66f, -1.46f, 1.24f, -1.86f, 1.52f)
+                curveToRelative(-0.41f, -0.28f, -1.2f, -0.86f, -1.86f, -1.52f)
+                curveToRelative(-0.36f, -0.36f, -0.69f, -0.76f, -0.97f, -1.11f)
+                curveToRelative(0.35f, -0.06f, 0.57f, -0.11f, 0.6f, -0.11f)
+                curveToRelative(0.19f, -0.04f, 0.34f, -0.19f, 0.38f, -0.38f)
+                curveToRelative(0.01f, -0.06f, 0.26f, -1.19f, 0.33f, -2.49f)
+                curveToRelative(0.56f, -0.4f, 1.19f, -0.96f, 1.52f, -1.16f)
+                curveToRelative(0.41f, 0.28f, 1.2f, 0.86f, 1.86f, 1.52f)
+                curveToRelative(0.66f, 0.66f, 1.24f, 1.46f, 1.52f, 1.86f)
+                curveToRelative(-0.28f, 0.41f, -0.86f, 1.2f, -1.52f, 1.86f)
+                close()
+            }
+        }.also { _GlassWhiskeyRocks = it}

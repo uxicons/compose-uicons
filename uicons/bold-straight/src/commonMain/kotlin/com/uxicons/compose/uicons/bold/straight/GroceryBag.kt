@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GroceryBag: ImageVector? = null
+
+val Icons.Bs.GroceryBag: ImageVector
+    get() = _GroceryBag ?: UXIcon(name = "GroceryBag") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.99f, 8.88f)
+                curveToRelative(0f, -0.04f, 0.01f, -0.08f, 0.01f, -0.13f)
+                curveToRelative(0f, -1.61f, -0.67f, -3.06f, -1.73f, -4.11f)
+                curveToRelative(1.61f, -0.56f, 2.4f, -2.07f, 2.6f, -2.96f)
+                lineToRelative(0.13f, -0.56f)
+                reflectiveCurveToRelative(-1.23f, -0.12f, -1.53f, -0.12f)
+                curveToRelative(-1.22f, 0f, -2.22f, 0.3f, -2.97f, 0.91f)
+                curveToRelative(-0.49f, 0.39f, -0.78f, 0.85f, -0.96f, 1.24f)
+                curveToRelative(-0.41f, -0.1f, -0.84f, -0.15f, -1.28f, -0.15f)
+                curveToRelative(-1.94f, 0f, -3.65f, 0.97f, -4.7f, 2.44f)
+                lineToRelative(-0.17f, -0.39f)
+                curveToRelative(-0.25f, -0.58f, -0.38f, -1.42f, -0.38f, -2.05f)
+                horizontalLineToRelative(1f)
+                lineTo(12.0f, 0f)
+                lineTo(3f, 0f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 0.63f, -0.13f, 1.48f, -0.38f, 2.05f)
+                lineToRelative(-0.9f, 2.03f)
+                curveToRelative(-0.27f, 0.6f, -0.45f, 1.23f, -0.57f, 1.87f)
+                lineToRelative(-2.15f, -1.16f)
+                verticalLineToRelative(12.71f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(17f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                lineTo(24.0f, 7.79f)
+                lineToRelative(-2.01f, 1.08f)
+                close()
+                moveTo(5.47f, 8.29f)
+                lineToRelative(0.9f, -2.03f)
+                curveToRelative(0.42f, -0.96f, 0.64f, -2.21f, 0.64f, -3.26f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 1.05f, 0.21f, 2.3f, 0.64f, 3.26f)
+                lineToRelative(0.9f, 2.03f)
+                curveToRelative(0.18f, 0.41f, 0.3f, 0.84f, 0.38f, 1.27f)
+                lineToRelative(-0.54f, 0.35f)
+                lineToRelative(-2.63f, -1.71f)
+                lineToRelative(-1.58f, 1.03f)
+                curveToRelative(0.08f, -0.32f, 0.18f, -0.64f, 0.31f, -0.95f)
+                close()
+                moveTo(3.5f, 21f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-7.68f)
+                lineToRelative(1.18f, 0.64f)
+                lineToRelative(2.56f, -1.67f)
+                lineToRelative(2.63f, 1.71f)
+                lineToRelative(2.63f, -1.71f)
+                lineToRelative(1f, 0.65f)
+                verticalLineToRelative(8.06f)
+                curveToRelative(0f, 0.17f, 0.03f, 0.34f, 0.05f, 0.5f)
+                lineTo(3.5f, 21f)
+                close()
+                moveTo(13.55f, 9.22f)
+                curveToRelative(-0.03f, -0.16f, -0.05f, -0.31f, -0.05f, -0.47f)
+                curveToRelative(0f, -1.52f, 1.23f, -2.75f, 2.75f, -2.75f)
+                reflectiveCurveToRelative(2.75f, 1.23f, 2.75f, 2.75f)
+                curveToRelative(0f, 0.18f, -0.02f, 0.37f, -0.06f, 0.55f)
+                lineToRelative(-1.68f, -1.09f)
+                lineToRelative(-2.63f, 1.71f)
+                lineToRelative(-1.08f, -0.7f)
+                close()
+                moveTo(21f, 20.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-7.89f)
+                lineToRelative(1.26f, -0.82f)
+                lineToRelative(2.56f, 1.67f)
+                lineToRelative(1.18f, -0.64f)
+                verticalLineToRelative(7.68f)
+                close()
+            }
+        }.also { _GroceryBag = it}

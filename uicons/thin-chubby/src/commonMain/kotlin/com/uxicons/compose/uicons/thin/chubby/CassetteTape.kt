@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CassetteTape: ImageVector? = null
+
+val Icons.Tc.CassetteTape: ImageVector
+    get() = _CassetteTape ?: UXIcon(name = "CassetteTape") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.92f, 4.46f)
+                curveToRelative(-0.05f, -0.14f, -0.16f, -0.25f, -0.3f, -0.3f)
+                curveToRelative(-0.13f, -0.05f, -3.31f, -1.16f, -9.62f, -1.16f)
+                reflectiveCurveToRelative(-9.49f, 1.12f, -9.62f, 1.16f)
+                curveToRelative(-0.14f, 0.05f, -0.25f, 0.16f, -0.3f, 0.3f)
+                curveToRelative(-0.04f, 0.12f, -1.08f, 2.97f, -1.08f, 7.54f)
+                reflectiveCurveToRelative(1.04f, 7.42f, 1.08f, 7.54f)
+                curveToRelative(0.05f, 0.14f, 0.16f, 0.25f, 0.3f, 0.3f)
+                curveToRelative(0.13f, 0.05f, 3.31f, 1.16f, 9.62f, 1.16f)
+                reflectiveCurveToRelative(9.49f, -1.12f, 9.62f, -1.16f)
+                curveToRelative(0.14f, -0.05f, 0.25f, -0.16f, 0.3f, -0.3f)
+                curveToRelative(0.04f, -0.12f, 1.08f, -2.97f, 1.08f, -7.54f)
+                reflectiveCurveToRelative(-1.04f, -7.42f, -1.08f, -7.54f)
+                close()
+                moveTo(6.22f, 19.63f)
+                lineTo(7.33f, 17.24f)
+                curveToRelative(2.9f, -0.32f, 6.43f, -0.32f, 9.33f, 0f)
+                lineToRelative(1.11f, 2.39f)
+                curveToRelative(-1.47f, 0.2f, -3.38f, 0.37f, -5.78f, 0.37f)
+                reflectiveCurveToRelative(-4.3f, -0.17f, -5.78f, -0.37f)
+                close()
+                moveTo(21.06f, 18.97f)
+                curveToRelative(-0.35f, 0.1f, -1.11f, 0.3f, -2.25f, 0.5f)
+                lineToRelative(-1.35f, -2.9f)
+                curveToRelative(-0.07f, -0.16f, -0.22f, -0.27f, -0.4f, -0.28f)
+                curveToRelative(-3.13f, -0.37f, -6.99f, -0.37f, -10.12f, 0f)
+                curveToRelative(-0.17f, 0.02f, -0.32f, 0.13f, -0.4f, 0.28f)
+                lineToRelative(-1.35f, 2.9f)
+                curveToRelative(-1.14f, -0.2f, -1.91f, -0.4f, -2.25f, -0.5f)
+                curveToRelative(-0.23f, -0.75f, -0.94f, -3.3f, -0.94f, -6.97f)
+                reflectiveCurveToRelative(0.71f, -6.22f, 0.94f, -6.97f)
+                curveToRelative(0.82f, -0.24f, 3.86f, -1.03f, 9.06f, -1.03f)
+                reflectiveCurveToRelative(8.24f, 0.79f, 9.06f, 1.03f)
+                curveToRelative(0.23f, 0.75f, 0.94f, 3.3f, 0.94f, 6.97f)
+                reflectiveCurveToRelative(-0.71f, 6.22f, -0.94f, 6.97f)
+                close()
+                moveTo(17.0f, 7.0f)
+                reflectiveCurveToRelative(-0.0f, 0f, -0.0f, 0f)
+                horizontalLineToRelative(-10.0f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                reflectiveCurveToRelative(-0.0f, 0f, -0.0f, 0f)
+                curveToRelative(-1.9f, 0.01f, -2.96f, 1.07f, -3.0f, 2.99f)
+                verticalLineToRelative(0.02f)
+                curveToRelative(0.04f, 1.95f, 1.07f, 2.98f, 3.0f, 2.99f)
+                horizontalLineToRelative(0.0f)
+                horizontalLineToRelative(10.0f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(1.93f, -0.01f, 2.96f, -1.05f, 3.0f, -3.01f)
+                curveToRelative(-0.03f, -1.89f, -1.12f, -2.98f, -3.0f, -2.99f)
+                close()
+                moveTo(14.61f, 12.0f)
+                horizontalLineToRelative(-5.22f)
+                curveToRelative(0.38f, -0.49f, 0.6f, -1.16f, 0.61f, -2.01f)
+                curveToRelative(-0.01f, -0.83f, -0.24f, -1.49f, -0.64f, -1.99f)
+                horizontalLineToRelative(5.27f)
+                curveToRelative(-0.39f, 0.49f, -0.61f, 1.16f, -0.63f, 1.99f)
+                verticalLineToRelative(0.02f)
+                curveToRelative(0.01f, 0.84f, 0.23f, 1.5f, 0.61f, 1.99f)
+                close()
+                moveTo(5.0f, 10.0f)
+                curveToRelative(0.03f, -1.38f, 0.65f, -1.99f, 2.0f, -2f)
+                curveToRelative(1.34f, 0.01f, 1.98f, 0.65f, 2.0f, 1.99f)
+                curveToRelative(-0.03f, 1.4f, -0.62f, 2f, -2.0f, 2.01f)
+                curveToRelative(-1.36f, -0.01f, -1.98f, -0.62f, -2.0f, -2f)
+                close()
+                moveTo(17.0f, 12.0f)
+                curveToRelative(-1.36f, -0.01f, -1.98f, -0.62f, -2.0f, -2f)
+                curveToRelative(0.03f, -1.38f, 0.65f, -1.99f, 2.0f, -2f)
+                curveToRelative(1.34f, 0.01f, 1.98f, 0.65f, 2.0f, 1.99f)
+                curveToRelative(-0.03f, 1.4f, -0.62f, 2f, -2.0f, 2.01f)
+                close()
+            }
+        }.also { _CassetteTape = it}

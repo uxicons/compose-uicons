@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _JsonFile: ImageVector? = null
+
+val Icons.Bs.JsonFile: ImageVector
+    get() = _JsonFile ?: UXIcon(name = "JsonFile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 21f)
+                horizontalLineToRelative(17f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(-21f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(11.38f)
+                lineToRelative(5.62f, 5.67f)
+                verticalLineToRelative(3.33f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-9f)
+                close()
+                moveTo(16.58f, 11f)
+                curveToRelative(1.15f, 0f, 2.08f, 0.93f, 2.08f, 2.08f)
+                verticalLineToRelative(3.84f)
+                curveToRelative(0f, 1.15f, -0.93f, 2.08f, -2.08f, 2.08f)
+                reflectiveCurveToRelative(-2.08f, -0.93f, -2.08f, -2.08f)
+                verticalLineToRelative(-3.84f)
+                curveToRelative(0f, -1.15f, 0.93f, -2.08f, 2.08f, -2.08f)
+                close()
+                moveTo(16.58f, 12.6f)
+                curveToRelative(-0.27f, 0f, -0.48f, 0.22f, -0.48f, 0.48f)
+                verticalLineToRelative(3.84f)
+                curveToRelative(0f, 0.27f, 0.22f, 0.48f, 0.48f, 0.48f)
+                reflectiveCurveToRelative(0.48f, -0.22f, 0.48f, -0.48f)
+                verticalLineToRelative(-3.84f)
+                curveToRelative(0f, -0.27f, -0.22f, -0.48f, -0.48f, -0.48f)
+                close()
+                moveTo(3.9f, 16f)
+                verticalLineToRelative(0.7f)
+                curveToRelative(0f, 1.27f, 1.03f, 2.3f, 2.3f, 2.3f)
+                reflectiveCurveToRelative(2.3f, -1.03f, 2.3f, -2.3f)
+                verticalLineToRelative(-5.7f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(5.7f)
+                curveToRelative(0f, 0.39f, -0.31f, 0.7f, -0.7f, 0.7f)
+                reflectiveCurveToRelative(-0.7f, -0.31f, -0.7f, -0.7f)
+                verticalLineToRelative(-0.7f)
+                close()
+                moveTo(22.4f, 11f)
+                verticalLineToRelative(3.63f)
+                lineToRelative(-1.3f, -3.63f)
+                verticalLineToRelative(-0.01f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(-3.71f)
+                lineToRelative(1.3f, 3.71f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(11.55f, 17.4f)
+                curveToRelative(-0.77f, 0f, -1.26f, -0.55f, -1.28f, -0.57f)
+                lineToRelative(-1.23f, 1.02f)
+                curveToRelative(0.04f, 0.05f, 0.97f, 1.15f, 2.51f, 1.15f)
+                curveToRelative(0.94f, 0f, 2.3f, -0.85f, 2.3f, -2.38f)
+                curveToRelative(0f, -1.68f, -1.3f, -2.22f, -2.08f, -2.54f)
+                curveToRelative(-1.03f, -0.42f, -1.03f, -0.75f, -1.03f, -0.89f)
+                curveToRelative(0f, -0.36f, 0.25f, -0.59f, 0.63f, -0.59f)
+                reflectiveCurveToRelative(0.75f, 0.28f, 0.86f, 0.39f)
+                lineToRelative(1.13f, -1.13f)
+                curveToRelative(-0.09f, -0.09f, -0.88f, -0.86f, -2.0f, -0.86f)
+                curveToRelative(-1.27f, 0f, -2.23f, 0.94f, -2.23f, 2.19f)
+                curveToRelative(0f, 1.54f, 1.52f, 2.17f, 2.03f, 2.37f)
+                curveToRelative(0.9f, 0.37f, 1.09f, 0.56f, 1.09f, 1.06f)
+                curveToRelative(0f, 0.6f, -0.61f, 0.78f, -0.7f, 0.78f)
+                close()
+            }
+        }.also { _JsonFile = it}

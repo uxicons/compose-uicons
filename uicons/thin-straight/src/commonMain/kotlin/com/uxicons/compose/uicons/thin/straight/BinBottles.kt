@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BinBottles: ImageVector? = null
+
+val Icons.Ts.BinBottles: ImageVector
+    get() = _BinBottles ?: UXIcon(name = "BinBottles") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 9f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.76f, -1.31f, -3.2f, -3f, -3.45f)
+                lineTo(19f, 0f)
+                horizontalLineToRelative(-6f)
+                lineTo(13f, 2.61f)
+                curveToRelative(0.36f, 0.18f, 0.69f, 0.4f, 1f, 0.65f)
+                lineTo(14f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-3.26f)
+                curveToRelative(0.25f, 0.31f, 0.47f, 0.64f, 0.65f, 1f)
+                horizontalLineToRelative(3.11f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.76f, -1.31f, -3.2f, -3f, -3.45f)
+                lineTo(11f, 0f)
+                lineTo(5f, 0f)
+                lineTo(5f, 4.05f)
+                curveToRelative(-1.69f, 0.24f, -3f, 1.69f, -3f, 3.45f)
+                verticalLineToRelative(1.5f)
+                lineTo(0.11f, 9f)
+                lineToRelative(1.96f, 12.75f)
+                curveToRelative(0.2f, 1.3f, 1.3f, 2.25f, 2.62f, 2.25f)
+                horizontalLineToRelative(14.65f)
+                curveToRelative(1.32f, 0f, 2.42f, -0.95f, 2.62f, -2.25f)
+                lineToRelative(1.96f, -12.75f)
+                horizontalLineToRelative(-1.93f)
+                close()
+                moveTo(10f, 1f)
+                verticalLineToRelative(3f)
+                lineTo(6f, 4f)
+                lineTo(6f, 1f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(3f, 7.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                lineTo(3f, 9f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(20.98f, 21.6f)
+                curveToRelative(-0.12f, 0.81f, -0.81f, 1.4f, -1.64f, 1.4f)
+                lineTo(4.69f, 23f)
+                curveToRelative(-0.82f, 0f, -1.51f, -0.59f, -1.64f, -1.4f)
+                lineTo(1.27f, 10f)
+                lineTo(22.76f, 10f)
+                lineToRelative(-1.78f, 11.6f)
+                close()
+                moveTo(11.5f, 13f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-7f)
+                close()
+                moveTo(16.5f, 13f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-7f)
+                close()
+                moveTo(6.5f, 13f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-7f)
+                close()
+            }
+        }.also { _BinBottles = it}

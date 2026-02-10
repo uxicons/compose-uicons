@@ -1,0 +1,81 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FingerprintRemove: ImageVector? = null
+
+val Icons.Rs.FingerprintRemove: ImageVector
+    get() = _FingerprintRemove ?: UXIcon(name = "FingerprintRemove") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0f, 20f)
+                verticalLineToRelative(-2f)
+                curveToRelative(2.65f, 0f, 4f, -2.35f, 4f, -7f)
+                curveToRelative(0f, -0.39f, 0.03f, -0.79f, 0.1f, -1.17f)
+                lineToRelative(1.97f, 0.34f)
+                curveToRelative(-0.05f, 0.27f, -0.07f, 0.55f, -0.07f, 0.83f)
+                curveToRelative(0f, 5.8f, -2.13f, 9f, -6f, 9f)
+                close()
+                moveTo(2f, 11f)
+                curveTo(2f, 6.04f, 6.04f, 2f, 11f, 2f)
+                curveToRelative(1.96f, 0f, 3.83f, 0.62f, 5.4f, 1.8f)
+                lineToRelative(1.2f, -1.6f)
+                curveTo(15.68f, 0.76f, 13.4f, 0f, 11f, 0f)
+                curveTo(4.93f, 0f, 0f, 4.93f, 0f, 11f)
+                verticalLineToRelative(3f)
+                lineTo(2f, 14f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(24f, 17f)
+                curveToRelative(0f, 3.86f, -3.14f, 7f, -7f, 7f)
+                reflectiveCurveToRelative(-7f, -3.14f, -7f, -7f)
+                reflectiveCurveToRelative(3.14f, -7f, 7f, -7f)
+                reflectiveCurveToRelative(7f, 3.14f, 7f, 7f)
+                close()
+                moveTo(22f, 17f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                reflectiveCurveToRelative(-5f, 2.24f, -5f, 5f)
+                reflectiveCurveToRelative(2.24f, 5f, 5f, 5f)
+                reflectiveCurveToRelative(5f, -2.24f, 5f, -5f)
+                close()
+                moveTo(14f, 18f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(10f, 11.35f)
+                verticalLineToRelative(-0.35f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                curveToRelative(0.1f, 0f, 0.19f, 0.03f, 0.28f, 0.06f)
+                curveToRelative(0.56f, -0.46f, 1.19f, -0.85f, 1.85f, -1.17f)
+                curveToRelative(-0.54f, -0.55f, -1.3f, -0.89f, -2.13f, -0.89f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 3.73f, -1.89f, 8.05f, -7.18f, 9.02f)
+                lineToRelative(0.36f, 1.97f)
+                curveToRelative(3.48f, -0.63f, 5.75f, -2.49f, 7.12f, -4.74f)
+                curveToRelative(-0.18f, -0.72f, -0.29f, -1.47f, -0.29f, -2.24f)
+                curveToRelative(0f, -2.14f, 0.75f, -4.11f, 2f, -5.65f)
+                close()
+                moveTo(21.88f, 9.44f)
+                curveToRelative(-0.16f, -1.12f, -0.48f, -2.21f, -0.98f, -3.24f)
+                lineToRelative(-1.8f, 0.88f)
+                curveToRelative(0.21f, 0.42f, 0.36f, 0.86f, 0.5f, 1.3f)
+                curveToRelative(0.81f, 0.25f, 1.58f, 0.61f, 2.28f, 1.06f)
+                close()
+                moveTo(11f, 4f)
+                curveToRelative(-1.99f, 0f, -3.88f, 0.85f, -5.21f, 2.33f)
+                lineToRelative(1.49f, 1.33f)
+                curveToRelative(0.95f, -1.06f, 2.31f, -1.67f, 3.72f, -1.67f)
+                curveToRelative(1.72f, 0f, 3.24f, 0.87f, 4.14f, 2.2f)
+                curveToRelative(0.6f, -0.13f, 1.23f, -0.2f, 1.86f, -0.2f)
+                curveToRelative(0.11f, 0f, 0.21f, 0.01f, 0.32f, 0.02f)
+                curveToRelative(-1.12f, -2.37f, -3.53f, -4.02f, -6.32f, -4.02f)
+                close()
+            }
+        }.also { _FingerprintRemove = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Shuttlecock: ImageVector? = null
+
+val Icons.Tr.Shuttlecock: ImageVector
+    get() = _Shuttlecock ?: UXIcon(name = "Shuttlecock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.27f, 10.08f)
+                curveToRelative(-0.44f, -0.44f, -1.0f, -0.68f, -1.57f, -0.72f)
+                curveToRelative(0.53f, -1.04f, 0.36f, -2.35f, -0.49f, -3.23f)
+                lineToRelative(-0.05f, -0.05f)
+                curveToRelative(-0.68f, -0.65f, -1.6f, -0.9f, -2.47f, -0.74f)
+                curveToRelative(0.16f, -0.88f, -0.1f, -1.83f, -0.78f, -2.51f)
+                curveToRelative(-0.88f, -0.88f, -2.2f, -1.05f, -3.25f, -0.53f)
+                curveToRelative(-0.05f, -0.57f, -0.29f, -1.13f, -0.72f, -1.56f)
+                curveToRelative(-0.94f, -0.94f, -2.57f, -0.97f, -3.56f, 0.03f)
+                curveTo(5.56f, 6.34f, 4.28f, 10.55f, 3.33f, 14.7f)
+                lineToRelative(-2.16f, 2.16f)
+                curveToRelative(-1.56f, 1.56f, -1.56f, 4.1f, 0f, 5.66f)
+                lineToRelative(0.31f, 0.31f)
+                curveToRelative(0.78f, 0.78f, 1.8f, 1.17f, 2.83f, 1.17f)
+                reflectiveCurveToRelative(2.05f, -0.39f, 2.83f, -1.17f)
+                lineToRelative(2.12f, -2.12f)
+                curveToRelative(4.15f, -0.94f, 8.34f, -2.2f, 14.0f, -7.09f)
+                curveToRelative(0.47f, -0.47f, 0.73f, -1.1f, 0.73f, -1.77f)
+                reflectiveCurveToRelative(-0.26f, -1.3f, -0.73f, -1.77f)
+                close()
+                moveTo(17.91f, 6.82f)
+                curveToRelative(0.71f, -0.71f, 1.86f, -0.71f, 2.57f, -0.01f)
+                curveToRelative(0.34f, 0.34f, 0.52f, 0.8f, 0.52f, 1.28f)
+                curveToRelative(0f, 0.49f, -0.19f, 0.94f, -0.53f, 1.29f)
+                curveToRelative(-1.98f, 1.98f, -6.33f, 5.06f, -7.41f, 5.81f)
+                lineToRelative(-1.77f, -1.77f)
+                lineToRelative(6.62f, -6.6f)
+                horizontalLineToRelative(0f)
+                close()
+                moveTo(14.62f, 3.53f)
+                curveToRelative(0.72f, -0.7f, 1.87f, -0.71f, 2.58f, 0f)
+                curveToRelative(0.7f, 0.7f, 0.71f, 1.85f, 0.02f, 2.56f)
+                lineToRelative(-6.63f, 6.62f)
+                lineToRelative(-1.79f, -1.79f)
+                curveToRelative(0.67f, -0.96f, 4.25f, -5.87f, 5.83f, -7.38f)
+                close()
+                moveTo(11.11f, 1.44f)
+                curveToRelative(0.57f, -0.57f, 1.55f, -0.57f, 2.12f, 0f)
+                curveToRelative(0.54f, 0.54f, 0.58f, 1.39f, 0.12f, 1.98f)
+                curveToRelative(-1.94f, 2.12f, -4.44f, 5.61f, -5.27f, 6.78f)
+                lineToRelative(-1.69f, -1.69f)
+                curveToRelative(1.0f, -2.15f, 2.46f, -4.46f, 4.71f, -7.07f)
+                close()
+                moveTo(6.43f, 22.12f)
+                curveToRelative(-1.17f, 1.17f, -3.07f, 1.17f, -4.24f, 0f)
+                lineToRelative(-0.31f, -0.31f)
+                curveToRelative(-1.17f, -1.17f, -1.17f, -3.07f, 0f, -4.24f)
+                lineToRelative(1.91f, -1.91f)
+                lineToRelative(4.56f, 4.56f)
+                lineToRelative(-1.91f, 1.91f)
+                close()
+                moveTo(9.24f, 19.69f)
+                lineToRelative(-4.9f, -4.9f)
+                curveToRelative(0.4f, -1.72f, 0.86f, -3.45f, 1.62f, -5.29f)
+                lineToRelative(8.57f, 8.57f)
+                curveToRelative(-1.84f, 0.77f, -3.57f, 1.23f, -5.28f, 1.62f)
+                close()
+                moveTo(22.59f, 12.89f)
+                curveToRelative(-2.64f, 2.27f, -4.95f, 3.73f, -7.08f, 4.74f)
+                lineToRelative(-1.72f, -1.72f)
+                curveToRelative(1.14f, -0.8f, 4.53f, -3.21f, 6.66f, -5.11f)
+                curveToRelative(0.58f, -0.58f, 1.54f, -0.58f, 2.12f, 0f)
+                curveToRelative(0.28f, 0.28f, 0.44f, 0.66f, 0.44f, 1.06f)
+                reflectiveCurveToRelative(-0.16f, 0.78f, -0.41f, 1.04f)
+                close()
+                moveTo(20.44f, 10.79f)
+                curveToRelative(0.04f, -0.02f, -0.03f, 0.03f, 0f, 0f)
+                horizontalLineToRelative(0f)
+                close()
+            }
+        }.also { _Shuttlecock = it}

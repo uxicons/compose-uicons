@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PineappleAlt: ImageVector? = null
+
+val Icons.Rs.PineappleAlt: ImageVector
+    get() = _PineappleAlt ?: UXIcon(name = "PineappleAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(6f, 14.5f)
+                lineToRelative(3.5f, 3.5f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(-3.5f)
+                close()
+                moveTo(11f, 13f)
+                horizontalLineToRelative(3.5f)
+                lineToRelative(-3.5f, -3.5f)
+                verticalLineToRelative(3.5f)
+                close()
+                moveTo(6f, 13f)
+                horizontalLineToRelative(3.5f)
+                lineToRelative(-3.5f, -3.5f)
+                verticalLineToRelative(3.5f)
+                close()
+                moveTo(11f, 18f)
+                horizontalLineToRelative(3.5f)
+                lineToRelative(-3.5f, -3.5f)
+                verticalLineToRelative(3.5f)
+                close()
+                moveTo(22.91f, 9.17f)
+                lineToRelative(0.73f, 1.18f)
+                lineToRelative(-1.35f, 0.32f)
+                curveToRelative(-1.21f, 0.28f, -2.8f, 0.49f, -4.01f, 0.61f)
+                curveToRelative(1.85f, 3.77f, -0.23f, 6.76f, -2.73f, 9.26f)
+                curveToRelative(-1.83f, 1.83f, -3.93f, 3.45f, -6.41f, 3.45f)
+                curveToRelative(-1.8f, 0f, -3.79f, -0.85f, -6.04f, -3.09f)
+                curveToRelative(-5.32f, -5.32f, -2.81f, -9.28f, 0.35f, -12.44f)
+                curveToRelative(2.5f, -2.5f, 5.49f, -4.57f, 9.26f, -2.73f)
+                curveToRelative(0.13f, -1.22f, 0.33f, -2.82f, 0.61f, -4.01f)
+                lineToRelative(0.32f, -1.35f)
+                lineToRelative(1.18f, 0.72f)
+                curveToRelative(0.42f, 0.26f, 0.8f, 0.53f, 1.12f, 0.76f)
+                curveToRelative(0.22f, -0.34f, 0.48f, -0.71f, 0.79f, -1.04f)
+                lineToRelative(0.74f, -0.8f)
+                lineToRelative(0.73f, 0.81f)
+                curveToRelative(0.37f, 0.41f, 0.65f, 0.81f, 0.86f, 1.15f)
+                curveToRelative(0.66f, -0.3f, 1.6f, -0.66f, 2.61f, -0.8f)
+                lineToRelative(1.32f, -0.19f)
+                lineToRelative(-0.19f, 1.32f)
+                curveToRelative(-0.14f, 1.01f, -0.5f, 1.95f, -0.8f, 2.61f)
+                curveToRelative(0.34f, 0.21f, 0.74f, 0.49f, 1.15f, 0.86f)
+                lineToRelative(0.81f, 0.73f)
+                lineToRelative(-0.8f, 0.74f)
+                curveToRelative(-0.33f, 0.31f, -0.7f, 0.58f, -1.04f, 0.79f)
+                curveToRelative(0.24f, 0.32f, 0.51f, 0.71f, 0.76f, 1.12f)
+                close()
+                moveTo(14.48f, 9.52f)
+                curveToRelative(-1.76f, -1.76f, -3.23f, -2.52f, -4.62f, -2.52f)
+                curveToRelative(-1.68f, 0f, -3.22f, 1.1f, -4.99f, 2.87f)
+                curveToRelative(-3.23f, 3.23f, -4.25f, 5.72f, -0.35f, 9.61f)
+                curveToRelative(3.89f, 3.89f, 6.38f, 2.88f, 9.61f, -0.35f)
+                curveToRelative(3.23f, -3.23f, 4.25f, -5.72f, 0.35f, -9.61f)
+                close()
+                moveTo(18.98f, 7.39f)
+                reflectiveCurveToRelative(1.49f, -0.67f, 1.82f, -0.86f)
+                curveToRelative(-0.28f, -0.16f, -1.62f, -0.64f, -1.62f, -0.64f)
+                lineToRelative(0.63f, -1.05f)
+                curveToRelative(0.01f, -0.01f, 0.31f, -0.52f, 0.6f, -1.25f)
+                curveToRelative(-0.73f, 0.28f, -1.24f, 0.59f, -1.25f, 0.6f)
+                lineToRelative(-1.06f, 0.65f)
+                reflectiveCurveToRelative(-0.48f, -1.36f, -0.63f, -1.64f)
+                curveToRelative(-0.19f, 0.33f, -0.86f, 1.83f, -0.86f, 1.83f)
+                curveToRelative(0f, 0f, -1.25f, -1.1f, -1.61f, -1.38f)
+                curveToRelative(-0.17f, 1.06f, -0.3f, 2.26f, -0.39f, 3.31f)
+                curveToRelative(0.42f, 0.34f, 0.85f, 0.71f, 1.29f, 1.15f)
+                reflectiveCurveToRelative(0.81f, 0.87f, 1.15f, 1.29f)
+                curveToRelative(1.04f, -0.09f, 2.24f, -0.22f, 3.31f, -0.39f)
+                curveToRelative(-0.28f, -0.36f, -1.38f, -1.61f, -1.38f, -1.61f)
+                close()
+            }
+        }.also { _PineappleAlt = it}

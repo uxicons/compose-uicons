@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BridgeWater: ImageVector? = null
+
+val Icons.Sr.BridgeWater: ImageVector
+    get() = _BridgeWater ?: UXIcon(name = "BridgeWater") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.1f, 1.34f)
+                curveTo(18.29f, 0.56f, 15.19f, 0.01f, 12f, 0f)
+                curveTo(8.82f, 0.01f, 5.71f, 0.56f, 2.9f, 1.34f)
+                curveTo(1.19f, 1.82f, 0f, 3.4f, 0f, 5.19f)
+                lineTo(0f, 15.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(2.21f)
+                curveToRelative(1.16f, 0f, 2.15f, -0.83f, 2.39f, -2.01f)
+                curveToRelative(0.47f, -2.31f, 2.53f, -3.99f, 4.9f, -3.99f)
+                reflectiveCurveToRelative(4.42f, 1.68f, 4.9f, 3.99f)
+                curveToRelative(0.24f, 1.18f, 1.22f, 2.01f, 2.39f, 2.01f)
+                horizontalLineToRelative(2.21f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                lineTo(24.0f, 5.19f)
+                curveToRelative(0f, -1.78f, -1.19f, -3.37f, -2.9f, -3.85f)
+                close()
+                moveTo(22f, 5.19f)
+                verticalLineToRelative(1.81f)
+                curveToRelative(-0.86f, -0.33f, -2.07f, -0.75f, -3.5f, -1.12f)
+                lineTo(18.5f, 2.76f)
+                curveToRelative(0.76f, 0.17f, 1.46f, 0.34f, 2.06f, 0.51f)
+                curveToRelative(0.85f, 0.24f, 1.44f, 1.03f, 1.44f, 1.92f)
+                close()
+                moveTo(7.5f, 5.44f)
+                lineTo(7.5f, 2.38f)
+                curveToRelative(1.1f, -0.17f, 2.28f, -0.3f, 3.5f, -0.35f)
+                verticalLineToRelative(3.0f)
+                curveToRelative(-1.22f, 0.06f, -2.4f, 0.21f, -3.5f, 0.41f)
+                close()
+                moveTo(13f, 2.02f)
+                curveToRelative(1.22f, 0.05f, 2.4f, 0.18f, 3.5f, 0.35f)
+                verticalLineToRelative(3.06f)
+                curveToRelative(-1.1f, -0.2f, -2.28f, -0.35f, -3.5f, -0.41f)
+                lineTo(13f, 2.02f)
+                close()
+                moveTo(3.44f, 3.27f)
+                curveToRelative(0.6f, -0.17f, 1.3f, -0.34f, 2.06f, -0.51f)
+                verticalLineToRelative(3.12f)
+                curveToRelative(-1.43f, 0.37f, -2.64f, 0.78f, -3.5f, 1.12f)
+                verticalLineToRelative(-1.81f)
+                curveToRelative(0f, -0.89f, 0.59f, -1.68f, 1.44f, -1.92f)
+                close()
+                moveTo(23.74f, 21.57f)
+                curveToRelative(0.37f, 0.41f, 0.34f, 1.04f, -0.07f, 1.41f)
+                curveToRelative(-0.73f, 0.66f, -1.68f, 1.02f, -2.67f, 1.02f)
+                curveToRelative(-1.13f, 0f, -2.22f, -0.47f, -3f, -1.23f)
+                curveToRelative(-0.78f, 0.75f, -1.87f, 1.23f, -3f, 1.23f)
+                reflectiveCurveToRelative(-2.22f, -0.47f, -3f, -1.23f)
+                curveToRelative(-0.78f, 0.75f, -1.87f, 1.23f, -3f, 1.23f)
+                reflectiveCurveToRelative(-2.22f, -0.47f, -3f, -1.23f)
+                curveToRelative(-0.78f, 0.75f, -1.87f, 1.23f, -3f, 1.23f)
+                curveToRelative(-0.99f, 0f, -1.94f, -0.36f, -2.67f, -1.02f)
+                curveToRelative(-0.41f, -0.37f, -0.44f, -1.0f, -0.07f, -1.41f)
+                reflectiveCurveToRelative(1.0f, -0.44f, 1.41f, -0.08f)
+                curveToRelative(0.37f, 0.33f, 0.84f, 0.51f, 1.33f, 0.51f)
+                curveToRelative(0.89f, 0f, 1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.14f, -0.4f, 0.52f, -0.67f, 0.94f, -0.67f)
+                reflectiveCurveToRelative(0.8f, 0.27f, 0.94f, 0.67f)
+                curveToRelative(0.26f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                reflectiveCurveToRelative(1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.14f, -0.4f, 0.52f, -0.67f, 0.94f, -0.67f)
+                reflectiveCurveToRelative(0.8f, 0.27f, 0.94f, 0.67f)
+                curveToRelative(0.26f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                reflectiveCurveToRelative(1.79f, -0.59f, 2.06f, -1.33f)
+                curveToRelative(0.14f, -0.4f, 0.52f, -0.67f, 0.94f, -0.67f)
+                reflectiveCurveToRelative(0.8f, 0.27f, 0.94f, 0.67f)
+                curveToRelative(0.26f, 0.75f, 1.17f, 1.33f, 2.06f, 1.33f)
+                curveToRelative(0.49f, 0f, 0.96f, -0.18f, 1.33f, -0.51f)
+                curveToRelative(0.41f, -0.37f, 1.04f, -0.34f, 1.41f, 0.08f)
+                close()
+            }
+        }.also { _BridgeWater = it}

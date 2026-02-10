@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MessageAlert: ImageVector? = null
+
+val Icons.Rr.MessageAlert: ImageVector
+    get() = _MessageAlert ?: UXIcon(name = "MessageAlert") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(7f, 24f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                verticalLineToRelative(-7f)
+                curveTo(0f, 5.38f, 5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                curveToRelative(0f, 0.73f, -0.07f, 1.47f, -0.2f, 2.18f)
+                curveToRelative(-0.1f, 0.54f, -0.61f, 0.91f, -1.16f, 0.8f)
+                curveToRelative(-0.54f, -0.1f, -0.9f, -0.62f, -0.8f, -1.16f)
+                curveToRelative(0.11f, -0.6f, 0.17f, -1.21f, 0.17f, -1.82f)
+                curveToRelative(0f, -5.51f, -4.49f, -10f, -10f, -10f)
+                reflectiveCurveTo(2f, 6.49f, 2f, 12f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(17f, 8f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                lineTo(8f, 7f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(8f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(13.5f, 12f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-4.5f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(11f, 16f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(18.53f, 12.38f)
+                lineToRelative(5.23f, 8.96f)
+                curveToRelative(0.69f, 1.18f, -0.16f, 2.66f, -1.53f, 2.66f)
+                lineTo(11.77f, 24f)
+                curveToRelative(-1.37f, 0f, -2.22f, -1.48f, -1.53f, -2.66f)
+                lineToRelative(5.23f, -8.96f)
+                curveToRelative(0.68f, -1.17f, 2.38f, -1.17f, 3.06f, 0f)
+                close()
+                moveTo(18f, 22f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(17f, 20f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+            }
+        }.also { _MessageAlert = it}

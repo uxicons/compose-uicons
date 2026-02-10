@@ -1,0 +1,78 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DesktopArrowDown: ImageVector? = null
+
+val Icons.Tr.DesktopArrowDown: ImageVector
+    get() = _DesktopArrowDown ?: UXIcon(name = "DesktopArrowDown") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8.8f, 7.15f)
+                lineToRelative(2.52f, 2.57f)
+                curveToRelative(0.06f, 0.06f, 0.12f, 0.1f, 0.18f, 0.14f)
+                lineTo(11.5f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(9.36f)
+                curveToRelative(0.07f, -0.04f, 0.13f, -0.09f, 0.19f, -0.15f)
+                lineToRelative(2.51f, -2.57f)
+                curveToRelative(0.19f, -0.2f, 0.51f, -0.2f, 0.71f, -0.01f)
+                curveToRelative(0.2f, 0.19f, 0.2f, 0.51f, 0.01f, 0.71f)
+                lineToRelative(-2.52f, 2.57f)
+                curveToRelative(-0.38f, 0.38f, -0.9f, 0.57f, -1.4f, 0.58f)
+                curveToRelative(-0.5f, -0.0f, -1.01f, -0.2f, -1.39f, -0.58f)
+                lineToRelative(-2.52f, -2.57f)
+                curveToRelative(-0.19f, -0.2f, -0.19f, -0.51f, 0.01f, -0.71f)
+                curveToRelative(0.2f, -0.19f, 0.52f, -0.19f, 0.71f, 0.01f)
+                close()
+                moveTo(12f, 11f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(0.0f)
+                reflectiveCurveToRelative(0f, 0f, -0.0f, 0f)
+                curveToRelative(-0.0f, 0f, -0.0f, 0f, 0f, 0f)
+                close()
+                moveTo(24.0f, 5.5f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(6.5f, 23f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 5.5f)
+                curveTo(0f, 3.02f, 2.02f, 1f, 4.5f, 1f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(8.5f)
+                horizontalLineToRelative(22f)
+                lineTo(23f, 5.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                close()
+                moveTo(22.96f, 15f)
+                lineTo(1.04f, 15f)
+                curveToRelative(0.24f, 1.69f, 1.7f, 3f, 3.46f, 3f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.76f, 0f, 3.22f, -1.31f, 3.46f, -3f)
+                close()
+            }
+        }.also { _DesktopArrowDown = it}

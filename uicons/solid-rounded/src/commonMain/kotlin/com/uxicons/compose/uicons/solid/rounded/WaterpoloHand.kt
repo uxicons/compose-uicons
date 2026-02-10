@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WaterpoloHand: ImageVector? = null
+
+val Icons.Sr.WaterpoloHand: ImageVector
+    get() = _WaterpoloHand ?: UXIcon(name = "WaterpoloHand") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.53f, 6.67f)
+                curveToRelative(-0.77f, -2.33f, -1.99f, -4.53f, -3.68f, -6.5f)
+                curveToRelative(1.64f, 0.28f, 3.16f, 0.93f, 4.47f, 1.85f)
+                curveToRelative(-0.21f, 0.68f, -0.31f, 1.35f, -0.32f, 1.96f)
+                lineToRelative(-0.04f, 3.07f)
+                curveToRelative(-0.13f, -0.13f, -0.28f, -0.25f, -0.43f, -0.36f)
+                close()
+                moveTo(19.41f, 5.87f)
+                curveToRelative(-0.52f, 0.25f, -0.55f, 0.97f, -0.04f, 1.24f)
+                curveToRelative(0.49f, 0.26f, 1.32f, 0.7f, 2.08f, 1.45f)
+                curveToRelative(0.67f, 0.67f, 1.82f, 0.57f, 2.35f, -0.3f)
+                curveToRelative(0.39f, -0.64f, 0.19f, -1.45f, -0.36f, -1.95f)
+                curveToRelative(-1.34f, -1.23f, -3f, -0.94f, -4.02f, -0.45f)
+                close()
+                moveTo(11.47f, 7.77f)
+                curveToRelative(0.55f, -0.96f, 1.53f, -1.62f, 2.67f, -1.74f)
+                curveToRelative(-0.93f, -2.17f, -2.33f, -4.2f, -4.18f, -5.98f)
+                curveToRelative(-1.35f, 0.13f, -2.62f, 0.5f, -3.78f, 1.07f)
+                curveToRelative(2.6f, 1.65f, 4.44f, 4.01f, 5.29f, 6.65f)
+                close()
+                moveTo(19.84f, 3.46f)
+                curveToRelative(0.53f, -0.18f, 1.53f, -0.47f, 2.65f, -0.47f)
+                curveToRelative(0.95f, 0f, 1.69f, -0.88f, 1.46f, -1.87f)
+                curveToRelative(-0.17f, -0.73f, -0.89f, -1.15f, -1.64f, -1.12f)
+                curveToRelative(-1.91f, 0.08f, -2.95f, 1.58f, -3.29f, 2.7f)
+                curveToRelative(-0.15f, 0.49f, 0.33f, 0.93f, 0.82f, 0.77f)
+                close()
+                moveTo(22.43f, 12.0f)
+                curveToRelative(-0.81f, 0.04f, -1.43f, 0.73f, -1.43f, 1.54f)
+                verticalLineToRelative(2.96f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-5.96f)
+                curveToRelative(0f, -0.81f, -0.62f, -1.5f, -1.43f, -1.54f)
+                curveToRelative(-0.86f, -0.04f, -1.57f, 0.65f, -1.57f, 1.5f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-6.96f)
+                curveToRelative(0f, -0.81f, -0.62f, -1.5f, -1.43f, -1.54f)
+                curveToRelative(-0.86f, -0.04f, -1.57f, 0.65f, -1.57f, 1.5f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-4.96f)
+                curveToRelative(0f, -0.81f, -0.62f, -1.5f, -1.43f, -1.54f)
+                curveToRelative(-0.86f, -0.04f, -1.57f, 0.65f, -1.57f, 1.5f)
+                verticalLineToRelative(7.58f)
+                lineToRelative(-1.77f, -1.76f)
+                curveToRelative(-0.71f, -0.7f, -1.84f, -0.82f, -2.63f, -0.21f)
+                curveToRelative(-0.99f, 0.75f, -1.07f, 2.17f, -0.22f, 3.02f)
+                lineToRelative(3.29f, 3.29f)
+                curveToRelative(0.38f, 0.38f, 0.88f, 0.59f, 1.41f, 0.59f)
+                horizontalLineToRelative(12.92f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-8.5f)
+                curveToRelative(0f, -0.85f, -0.71f, -1.54f, -1.57f, -1.5f)
+                close()
+                moveTo(7f, 14.92f)
+                verticalLineToRelative(-3.42f)
+                curveToRelative(0f, -1.58f, 1.06f, -2.91f, 2.51f, -3.34f)
+                curveToRelative(-0.12f, -0.33f, -0.24f, -0.65f, -0.4f, -0.96f)
+                curveToRelative(-3.4f, 2.33f, -5.81f, 5.78f, -6.92f, 9.8f)
+                curveToRelative(0.19f, -0.41f, 0.44f, -0.79f, 0.77f, -1.11f)
+                curveToRelative(1.09f, -1.09f, 2.66f, -1.4f, 4.04f, -0.96f)
+                close()
+                moveTo(8.05f, 5.5f)
+                curveToRelative(-0.96f, -1.26f, -2.24f, -2.35f, -3.79f, -3.17f)
+                curveToRelative(-2.58f, 2.02f, -4.26f, 5.15f, -4.26f, 8.67f)
+                curveToRelative(0f, 1.39f, 0.27f, 2.71f, 0.74f, 3.93f)
+                curveToRelative(1.4f, -3.85f, 3.92f, -7.13f, 7.31f, -9.44f)
+                close()
+            }
+        }.also { _WaterpoloHand = it}

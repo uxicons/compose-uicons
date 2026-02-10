@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Sheep: ImageVector? = null
+
+val Icons.Rc.Sheep: ImageVector
+    get() = _Sheep ?: UXIcon(name = "Sheep") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.73f, 9.49f)
+                curveToRelative(0.18f, -0.56f, 0.27f, -1.23f, 0.27f, -1.99f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.28f, -0.03f, -0.53f, -0.05f, -0.78f)
+                curveToRelative(0.68f, -0.2f, 1.18f, -0.46f, 1.56f, -0.69f)
+                curveToRelative(0.3f, -0.18f, 0.48f, -0.51f, 0.48f, -0.86f)
+                reflectiveCurveToRelative(-0.18f, -0.68f, -0.48f, -0.86f)
+                curveToRelative(-0.64f, -0.38f, -3.36f, -1.32f, -5.52f, -1.32f)
+                curveToRelative(-0.32f, 0.02f, -0.68f, 0.02f, -1f, 0f)
+                curveToRelative(-2.16f, 0f, -4.88f, 0.94f, -5.52f, 1.32f)
+                curveToRelative(-0.3f, 0.18f, -0.48f, 0.51f, -0.48f, 0.86f)
+                reflectiveCurveToRelative(0.18f, 0.68f, 0.48f, 0.86f)
+                curveToRelative(0.39f, 0.23f, 0.88f, 0.49f, 1.56f, 0.69f)
+                curveToRelative(-0.02f, 0.25f, -0.05f, 0.5f, -0.05f, 0.78f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 3.07f, 1.43f, 4.5f, 4.5f, 4.5f)
+                curveToRelative(1.27f, 0f, 2.24f, -0.26f, 2.96f, -0.76f)
+                curveToRelative(1.06f, 0.12f, 1.53f, 0.47f, 1.53f, 2.11f)
+                curveToRelative(0f, 1.71f, -0.57f, 1.94f, -1.31f, 2.08f)
+                curveToRelative(-0.27f, 0.05f, -0.5f, 0.2f, -0.65f, 0.42f)
+                reflectiveCurveToRelative(-0.21f, 0.5f, -0.15f, 0.76f)
+                curveToRelative(0.07f, 0.35f, 0.12f, 0.71f, 0.12f, 0.9f)
+                curveToRelative(0f, 1.23f, -0.27f, 1.5f, -1.5f, 1.5f)
+                curveToRelative(-1.38f, 0f, -1.52f, -0.45f, -1.58f, -1.09f)
+                curveToRelative(-0.05f, -0.54f, -0.52f, -0.93f, -1.06f, -0.91f)
+                curveToRelative(-0.54f, 0.03f, -0.95f, 0.49f, -0.94f, 1.03f)
+                reflectiveCurveToRelative(-0.03f, 1.25f, -0.35f, 1.59f)
+                curveToRelative(-0.25f, 0.26f, -0.75f, 0.38f, -1.57f, 0.38f)
+                reflectiveCurveToRelative(-1.31f, -0.12f, -1.57f, -0.38f)
+                curveToRelative(-0.32f, -0.34f, -0.37f, -1.05f, -0.35f, -1.59f)
+                curveToRelative(0.02f, -0.54f, -0.4f, -1.0f, -0.94f, -1.03f)
+                curveToRelative(-0.53f, -0.02f, -1.01f, 0.37f, -1.06f, 0.91f)
+                curveToRelative(-0.06f, 0.64f, -0.21f, 1.09f, -1.58f, 1.09f)
+                curveToRelative(-1.23f, 0f, -1.5f, -0.27f, -1.5f, -1.5f)
+                curveToRelative(0f, -0.3f, 0.03f, -0.55f, 0.09f, -0.78f)
+                curveToRelative(0.07f, -0.29f, 0.01f, -0.59f, -0.16f, -0.83f)
+                reflectiveCurveToRelative(-0.45f, -0.39f, -0.74f, -0.41f)
+                curveToRelative(-0.82f, -0.06f, -1.19f, -0.21f, -1.19f, -1.48f)
+                curveToRelative(0f, -1.24f, 0.34f, -1.4f, 1.12f, -1.47f)
+                curveToRelative(0.55f, -0.05f, 0.95f, -0.58f, 0.9f, -1.13f)
+                curveToRelative(-0.01f, -0.13f, -0.02f, -0.25f, -0.02f, -0.4f)
+                curveToRelative(0f, -1.59f, 0.41f, -2f, 2f, -2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-2.6f, 0f, -3.9f, 1.22f, -4.0f, 3.72f)
+                curveToRelative(-1.33f, 0.43f, -2.0f, 1.53f, -2.0f, 3.28f)
+                reflectiveCurveToRelative(0.67f, 2.86f, 2.0f, 3.29f)
+                curveToRelative(-0.08f, 1.76f, 0.61f, 3.08f, 2.0f, 3.5f)
+                verticalLineToRelative(0.21f)
+                curveToRelative(0f, 1.27f, 0.73f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(1.99f, -0.72f, 2.0f, -1.99f)
+                curveToRelative(0.85f, 0.87f, 2.05f, 0.99f, 3.0f, 0.99f)
+                reflectiveCurveToRelative(2.15f, -0.11f, 3.0f, -0.99f)
+                curveToRelative(0.01f, 1.26f, 0.73f, 1.99f, 2.0f, 1.99f)
+                reflectiveCurveToRelative(2f, -0.73f, 2f, -2f)
+                verticalLineToRelative(-0.21f)
+                curveToRelative(1.43f, -0.41f, 2.14f, -1.9f, 1.98f, -3.66f)
+                curveToRelative(1.36f, -0.57f, 2.02f, -1.81f, 2.02f, -3.77f)
+                curveToRelative(0f, -2.07f, -0.75f, -3.33f, -2.27f, -3.86f)
+                close()
+                moveTo(16.5f, 10f)
+                curveToRelative(-1.94f, 0f, -2.5f, -0.56f, -2.5f, -2.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.94f, 0.56f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 0.56f, 2.5f, 2.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.94f, -0.56f, 2.5f, -2.5f, 2.5f)
+                close()
+            }
+        }.also { _Sheep = it}

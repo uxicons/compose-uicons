@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CalendarShiftSwap: ImageVector? = null
+
+val Icons.Sr.CalendarShiftSwap: ImageVector
+    get() = _CalendarShiftSwap ?: UXIcon(name = "CalendarShiftSwap") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0.31f, 6.22f)
+                curveToRelative(-0.4f, -0.38f, -0.41f, -1.02f, -0.03f, -1.41f)
+                curveToRelative(0.38f, -0.4f, 1.01f, -0.41f, 1.41f, -0.03f)
+                lineToRelative(1.31f, 1.26f)
+                verticalLineToRelative(-2.04f)
+                curveTo(3f, 1.79f, 4.79f, 0f, 7f, 0f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2.03f)
+                lineToRelative(1.31f, -1.25f)
+                curveToRelative(0.4f, -0.38f, 1.03f, -0.37f, 1.41f, 0.03f)
+                curveToRelative(0.38f, 0.4f, 0.37f, 1.03f, -0.03f, 1.41f)
+                lineToRelative(-2.3f, 2.21f)
+                curveToRelative(-0.38f, 0.38f, -0.88f, 0.57f, -1.39f, 0.57f)
+                curveToRelative(-0.51f, 0f, -1.02f, -0.19f, -1.41f, -0.58f)
+                lineTo(0.31f, 6.22f)
+                close()
+                moveTo(0f, 21f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-4f)
+                lineTo(0f, 17f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(21f, 0f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                horizontalLineToRelative(13f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(11f, 9f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                lineTo(24f, 5f)
+                lineTo(11f, 5f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(10.03f, 12.0f)
+                curveToRelative(-0.01f, 0f, -0.02f, -0.0f, -0.03f, -0.0f)
+                lineTo(3f, 12f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                lineTo(13f, 15f)
+                curveToRelative(0f, -0.42f, -0.09f, -0.81f, -0.24f, -1.17f)
+                curveToRelative(-1.11f, -0.28f, -2.06f, -0.94f, -2.73f, -1.82f)
+                close()
+                moveTo(21.41f, 15.58f)
+                curveToRelative(-0.77f, -0.77f, -2.04f, -0.78f, -2.8f, -0.01f)
+                lineToRelative(-2.3f, 2.21f)
+                curveToRelative(-0.4f, 0.38f, -0.41f, 1.02f, -0.03f, 1.41f)
+                curveToRelative(0.38f, 0.4f, 1.01f, 0.41f, 1.41f, 0.03f)
+                lineToRelative(1.31f, -1.25f)
+                verticalLineToRelative(2.03f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                verticalLineToRelative(-2.04f)
+                lineToRelative(1.31f, 1.26f)
+                curveToRelative(0.19f, 0.19f, 0.44f, 0.28f, 0.69f, 0.28f)
+                curveToRelative(0.26f, 0f, 0.52f, -0.1f, 0.72f, -0.31f)
+                curveToRelative(0.38f, -0.4f, 0.37f, -1.03f, -0.03f, -1.41f)
+                lineToRelative(-2.29f, -2.2f)
+                close()
+            }
+        }.also { _CalendarShiftSwap = it}
