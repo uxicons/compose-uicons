@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Smartwatch: ImageVector? = null
+
+val Icons.Tr.Smartwatch: ImageVector
+    get() = _Smartwatch ?: UXIcon(name = "Smartwatch") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.99f, 19.94f)
+                curveToRelative(0f, 0.01f, 0.01f, 0.02f, 0.01f, 0.02f)
+                verticalLineToRelative(3.54f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2.77f)
+                curveToRelative(-0.48f, 0.17f, -0.99f, 0.27f, -1.5f, 0.27f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-0.53f, 0f, -1.03f, -0.11f, -1.5f, -0.28f)
+                verticalLineToRelative(2.78f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-3.26f)
+                curveToRelative(-1.21f, -0.81f, -2f, -2.18f, -2f, -3.74f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -1.56f, 0.8f, -2.93f, 2f, -3.74f)
+                verticalLineToRelative(-3.26f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2.78f)
+                curveToRelative(0.47f, -0.17f, 0.97f, -0.28f, 1.5f, -0.28f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.52f, 0f, 1.02f, 0.1f, 1.5f, 0.27f)
+                verticalLineToRelative(-2.77f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.27f)
+                curveToRelative(0.2f, 0.13f, 0.4f, 0.28f, 0.57f, 0.44f)
+                curveToRelative(0.2f, 0.19f, 0.21f, 0.51f, 0.02f, 0.71f)
+                curveToRelative(-0.19f, 0.2f, -0.51f, 0.21f, -0.71f, 0.02f)
+                curveToRelative(-0.65f, -0.61f, -1.5f, -0.94f, -2.39f, -0.94f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.62f, 0f, 1.22f, -0.16f, 1.75f, -0.47f)
+                curveToRelative(0.31f, -0.17f, 0.73f, 0.04f, 0.74f, 0.41f)
+                close()
+                moveTo(21.55f, 15.19f)
+                curveToRelative(-0.41f, 0.52f, -1.04f, 0.81f, -1.72f, 0.81f)
+                horizontalLineToRelative(-0.6f)
+                curveToRelative(-0.13f, 1.12f, -1.07f, 1.99f, -2.22f, 1.99f)
+                reflectiveCurveToRelative(-2.09f, -0.88f, -2.22f, -1.99f)
+                horizontalLineToRelative(-0.6f)
+                curveToRelative(-0.68f, 0f, -1.31f, -0.3f, -1.72f, -0.81f)
+                curveToRelative(-0.39f, -0.48f, -0.54f, -1.11f, -0.41f, -1.71f)
+                curveToRelative(0.2f, -0.89f, 0.43f, -1.66f, 0.63f, -2.55f)
+                curveToRelative(0.55f, -2.46f, 2.17f, -3.93f, 4.33f, -3.93f)
+                curveToRelative(2.17f, 0f, 3.79f, 1.47f, 4.33f, 3.93f)
+                curveToRelative(0.2f, 0.9f, 0.43f, 1.66f, 0.62f, 2.55f)
+                curveToRelative(0.13f, 0.6f, -0.01f, 1.22f, -0.4f, 1.71f)
+                close()
+                moveTo(18.19f, 16f)
+                horizontalLineToRelative(-2.39f)
+                curveToRelative(0.12f, 0.56f, 0.6f, 0.99f, 1.2f, 0.99f)
+                reflectiveCurveToRelative(1.07f, -0.43f, 1.2f, -0.99f)
+                close()
+                moveTo(20.97f, 13.69f)
+                curveToRelative(-0.2f, -0.89f, -0.43f, -1.64f, -0.62f, -2.55f)
+                curveToRelative(-0.21f, -0.95f, -0.95f, -3.15f, -3.35f, -3.15f)
+                curveToRelative(-2.38f, 0f, -3.14f, 2.2f, -3.35f, 3.15f)
+                curveToRelative(-0.2f, 0.9f, -0.43f, 1.66f, -0.63f, 2.55f)
+                curveToRelative(-0.07f, 0.31f, 0.01f, 0.62f, 0.21f, 0.87f)
+                curveToRelative(0.22f, 0.28f, 0.57f, 0.44f, 0.94f, 0.44f)
+                horizontalLineToRelative(5.65f)
+                curveToRelative(0.38f, 0f, 0.72f, -0.16f, 0.94f, -0.44f)
+                curveToRelative(0.2f, -0.25f, 0.28f, -0.56f, 0.21f, -0.87f)
+                close()
+            }
+        }.also { _Smartwatch = it}

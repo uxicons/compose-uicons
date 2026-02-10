@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Age: ImageVector? = null
+
+val Icons.Ts.Age: ImageVector
+    get() = _Age ?: UXIcon(name = "Age") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(6.76f, 8f)
+                curveToRelative(-0.76f, 0f, -1.28f, 0.59f, -1.39f, 1.17f)
+                lineToRelative(-1.37f, 6.83f)
+                horizontalLineToRelative(1.01f)
+                lineToRelative(0.41f, -2f)
+                horizontalLineToRelative(2.66f)
+                lineToRelative(0.41f, 2f)
+                horizontalLineToRelative(1.01f)
+                lineToRelative(-1.4f, -6.81f)
+                curveToRelative(-0.12f, -0.67f, -0.59f, -1.19f, -1.35f, -1.19f)
+                close()
+                moveTo(5.62f, 13f)
+                lineToRelative(0.74f, -3.66f)
+                curveToRelative(0.02f, -0.11f, 0.15f, -0.34f, 0.4f, -0.34f)
+                curveToRelative(0.09f, 0f, 0.29f, 0f, 0.37f, 0.39f)
+                lineToRelative(0.74f, 3.61f)
+                horizontalLineToRelative(-2.25f)
+                close()
+                moveTo(11f, 10.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-0.06f, 1.33f, -1.15f, 2.39f, -2.49f, 2.39f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                horizontalLineToRelative(-1.0f)
+                curveToRelative(-0.0f, -0.82f, -0.67f, -1.49f, -1.5f, -1.49f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(24f, 12f)
+                curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+                reflectiveCurveTo(0f, 18.62f, 0f, 12f)
+                reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+                curveToRelative(3.49f, 0f, 6.72f, 1.49f, 9f, 4.09f)
+                lineTo(21f, 0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-4.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4.47f)
+                curveToRelative(-2.1f, -2.54f, -5.16f, -4f, -8.47f, -4f)
+                curveTo(5.93f, 1f, 1f, 5.93f, 1f, 12f)
+                reflectiveCurveToRelative(4.93f, 11f, 11f, 11f)
+                reflectiveCurveToRelative(11f, -4.93f, 11f, -11f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(17f, 9f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2.5f)
+                close()
+            }
+        }.also { _Age = it}

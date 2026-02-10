@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ChecklistTaskBudget: ImageVector? = null
+
+val Icons.Rs.ChecklistTaskBudget: ImageVector
+    get() = _ChecklistTaskBudget ?: UXIcon(name = "ChecklistTaskBudget") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15.9f, 23.9f)
+                curveTo(15.6f, 23.9f, 15.3f, 24f, 15f, 24f)
+                horizontalLineTo(3f)
+                curveToRelative(-1.7f, 0f, -3f, -1.3f, -3f, -3f)
+                verticalLineTo(2f)
+                horizontalLineToRelative(5.2f)
+                curveTo(5.6f, 0.8f, 6.7f, 0f, 8f, 0f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.3f, 0f, 2.4f, 0.8f, 2.8f, 2f)
+                horizontalLineTo(18f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineTo(4f)
+                horizontalLineToRelative(-5f)
+                verticalLineTo(3f)
+                curveToRelative(0f, -0.6f, -0.4f, -1f, -1f, -1f)
+                horizontalLineTo(8f)
+                curveTo(7.4f, 2f, 7f, 2.4f, 7f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineTo(2f)
+                verticalLineToRelative(17f)
+                curveToRelative(0f, 0.6f, 0.4f, 1f, 1f, 1f)
+                horizontalLineToRelative(11.4f)
+                curveTo(14.7f, 22.7f, 15.2f, 23.4f, 15.9f, 23.9f)
+                lineTo(15.9f, 23.9f)
+                close()
+                moveTo(21.7f, 17.3f)
+                lineToRelative(-3f, -0.5f)
+                curveTo(18.3f, 16.7f, 18f, 16.4f, 18f, 16f)
+                curveToRelative(0f, -0.6f, 0.4f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.6f, 0f, 1f, 0.4f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, -1.7f, -1.3f, -3f, -3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                curveToRelative(-1.7f, 0f, -3f, 1.3f, -3f, 3f)
+                curveToRelative(0f, 1.4f, 1f, 2.5f, 2.3f, 2.7f)
+                lineToRelative(3f, 0.5f)
+                curveToRelative(0.4f, 0.1f, 0.6f, 0.4f, 0.6f, 0.8f)
+                curveToRelative(0f, 0.6f, -0.4f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.6f, 0f, -1f, -0.4f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, 1.7f, 1.3f, 3f, 3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(1.7f, 0f, 3f, -1.3f, 3f, -3f)
+                curveTo(24f, 18.6f, 23f, 17.5f, 21.7f, 17.3f)
+                close()
+                moveTo(8.6f, 6.3f)
+                lineTo(10f, 7.7f)
+                lineToRelative(-2.8f, 2.8f)
+                curveTo(6.9f, 10.8f, 6.5f, 11f, 6.1f, 11f)
+                reflectiveCurveToRelative(-0.8f, -0.2f, -1.1f, -0.5f)
+                lineTo(3.3f, 8.9f)
+                lineToRelative(1.4f, -1.4f)
+                lineToRelative(1.4f, 1.4f)
+                curveTo(6.1f, 8.8f, 8.6f, 6.3f, 8.6f, 6.3f)
+                close()
+                moveTo(8.6f, 12.3f)
+                lineToRelative(1.4f, 1.4f)
+                lineToRelative(-2.8f, 2.8f)
+                curveTo(6.9f, 16.8f, 6.5f, 17f, 6.1f, 17f)
+                reflectiveCurveToRelative(-0.8f, -0.2f, -1.1f, -0.5f)
+                lineToRelative(-1.6f, -1.6f)
+                lineToRelative(1.4f, -1.4f)
+                lineToRelative(1.4f, 1.4f)
+                curveTo(6.1f, 14.8f, 8.6f, 12.3f, 8.6f, 12.3f)
+                close()
+            }
+        }.also { _ChecklistTaskBudget = it}

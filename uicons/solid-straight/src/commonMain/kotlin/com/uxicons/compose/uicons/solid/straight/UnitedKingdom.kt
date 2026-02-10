@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UnitedKingdom: ImageVector? = null
+
+val Icons.Ss.UnitedKingdom: ImageVector
+    get() = _UnitedKingdom ?: UXIcon(name = "UnitedKingdom") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 20f)
+                verticalLineToRelative(1.5f)
+                lineToRelative(-2.5f, 0.5f)
+                horizontalLineToRelative(-4.22f)
+                lineToRelative(-0.5f, 1f)
+                horizontalLineToRelative(-1.78f)
+                lineToRelative(-1f, 1f)
+                horizontalLineToRelative(-2f)
+                lineToRelative(-2f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(1.5f)
+                lineToRelative(0.52f, -1.01f)
+                lineToRelative(2.19f, 0.01f)
+                lineToRelative(-1.49f, -1.68f)
+                lineToRelative(-1.71f, -0.32f)
+                verticalLineToRelative(-1f)
+                lineToRelative(1.5f, -1f)
+                lineToRelative(-0.5f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                lineToRelative(-1f, -1.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-2.5f)
+                lineToRelative(-1.5f, -2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2f)
+                lineToRelative(1.13f, -1f)
+                lineToRelative(-1.13f, -1f)
+                lineToRelative(0.85f, -1.4f)
+                lineToRelative(1.15f, -0.6f)
+                lineToRelative(0.5f, -1f)
+                lineToRelative(2.12f, -1f)
+                horizontalLineToRelative(1.39f)
+                verticalLineToRelative(1f)
+                lineToRelative(-2f, 1.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1.33f)
+                lineToRelative(-2.77f, 1.85f)
+                lineToRelative(0.8f, 0.77f)
+                lineToRelative(-1.53f, 1.05f)
+                horizontalLineToRelative(3f)
+                lineToRelative(0.63f, 2.05f)
+                lineToRelative(0.62f, 0.42f)
+                lineToRelative(0.4f, 0.98f)
+                lineToRelative(0.83f, 0.48f)
+                lineToRelative(1.51f, 4.08f)
+                horizontalLineToRelative(1.5f)
+                lineToRelative(0.99f, 1.53f)
+                lineToRelative(-1.32f, 1.85f)
+                lineToRelative(1.33f, 0.61f)
+                close()
+                moveTo(3f, 11.24f)
+                verticalLineToRelative(1.75f)
+                lineToRelative(1.5f, -0.5f)
+                lineToRelative(1f, 0.5f)
+                lineToRelative(1.5f, -1f)
+                lineToRelative(-1f, -2f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(7f, 0f)
+                horizontalLineToRelative(-2f)
+                lineToRelative(-1f, 1f)
+                verticalLineToRelative(1.5f)
+                lineToRelative(-1f, 1f)
+                lineToRelative(1f, 1.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                lineToRelative(2f, -2f)
+                close()
+            }
+        }.also { _UnitedKingdom = it}

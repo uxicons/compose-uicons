@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Scarecrow: ImageVector? = null
+
+val Icons.Tr.Scarecrow: ImageVector
+    get() = _Scarecrow ?: UXIcon(name = "Scarecrow") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.5f, 9f)
+                horizontalLineToRelative(-8.56f)
+                curveToRelative(1.25f, -0.96f, 2.06f, -2.51f, 2.06f, -4.23f)
+                verticalLineToRelative(-0.77f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1.54f)
+                curveToRelative(-0.24f, -1.69f, -1.7f, -3f, -3.46f, -3f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.76f, 0f, -3.22f, 1.31f, -3.46f, 3f)
+                horizontalLineToRelative(-1.54f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.4f, 0.59f, 2.74f, 1.62f, 3.69f)
+                curveToRelative(0.12f, 0.11f, 0.25f, 0.22f, 0.38f, 0.31f)
+                lineTo(0.5f, 9f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(0.5f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-4.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(10.5f, 1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.21f, 0f, 2.22f, 0.86f, 2.45f, 2f)
+                horizontalLineToRelative(-7.9f)
+                curveToRelative(0.23f, -1.14f, 1.24f, -2f, 2.45f, -2f)
+                close()
+                moveTo(8f, 5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                reflectiveCurveToRelative(-4f, -1.79f, -4f, -4f)
+                close()
+                moveTo(21f, 12.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                lineTo(7.5f, 21f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(2.5f)
+                close()
+            }
+        }.also { _Scarecrow = it}

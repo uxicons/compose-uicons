@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GlobePointer: ImageVector? = null
+
+val Icons.Ts.GlobePointer: ImageVector
+    get() = _GlobePointer ?: UXIcon(name = "GlobePointer") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+                curveToRelative(0f, 0.21f, 0.02f, 0.41f, 0.03f, 0.62f)
+                lineToRelative(0.98f, -0.34f)
+                curveToRelative(-0.0f, -0.09f, -0.01f, -0.19f, -0.01f, -0.28f)
+                curveToRelative(0f, -1.41f, 0.28f, -2.76f, 0.76f, -4f)
+                horizontalLineToRelative(4.91f)
+                curveToRelative(-0.26f, 0.81f, -0.47f, 1.66f, -0.58f, 2.54f)
+                lineToRelative(1.07f, -0.36f)
+                curveToRelative(0.13f, -0.75f, 0.33f, -1.48f, 0.57f, -2.18f)
+                horizontalLineToRelative(8.53f)
+                curveToRelative(0.44f, 1.25f, 0.73f, 2.59f, 0.73f, 4f)
+                reflectiveCurveToRelative(-0.29f, 2.75f, -0.73f, 4f)
+                horizontalLineToRelative(-2.16f)
+                lineToRelative(-0.34f, 1f)
+                horizontalLineToRelative(2.11f)
+                curveToRelative(-1.55f, 3.57f, -4.15f, 6.07f, -4.21f, 6.13f)
+                horizontalLineToRelative(-0.01f)
+                lineToRelative(-0.28f, 0.84f)
+                curveToRelative(0.21f, 0.01f, 0.41f, 0.03f, 0.62f, 0.03f)
+                curveToRelative(6.62f, 0f, 12f, -5.38f, 12f, -12f)
+                reflectiveCurveTo(18.62f, 0f, 12f, 0f)
+                close()
+                moveTo(21.79f, 7f)
+                horizontalLineToRelative(-4.81f)
+                curveToRelative(-1.07f, -2.67f, -2.71f, -4.78f, -3.73f, -5.92f)
+                curveToRelative(3.73f, 0.42f, 6.9f, 2.72f, 8.55f, 5.92f)
+                close()
+                moveTo(2.21f, 7f)
+                curveTo(3.86f, 3.79f, 7.03f, 1.5f, 10.76f, 1.07f)
+                curveToRelative(-1.02f, 1.15f, -2.66f, 3.26f, -3.73f, 5.92f)
+                lineTo(2.21f, 7f)
+                close()
+                moveTo(8.13f, 7f)
+                curveToRelative(1.23f, -2.83f, 3.11f, -4.99f, 3.87f, -5.79f)
+                curveToRelative(0.76f, 0.8f, 2.65f, 2.95f, 3.88f, 5.79f)
+                horizontalLineToRelative(-7.75f)
+                close()
+                moveTo(17.33f, 8f)
+                horizontalLineToRelative(4.91f)
+                curveToRelative(0.49f, 1.24f, 0.76f, 2.59f, 0.76f, 4f)
+                reflectiveCurveToRelative(-0.28f, 2.76f, -0.76f, 4f)
+                horizontalLineToRelative(-4.91f)
+                curveToRelative(0.4f, -1.25f, 0.67f, -2.59f, 0.67f, -4f)
+                reflectiveCurveToRelative(-0.27f, -2.75f, -0.67f, -4f)
+                close()
+                moveTo(13.24f, 22.93f)
+                curveToRelative(1.02f, -1.14f, 2.66f, -3.26f, 3.73f, -5.92f)
+                horizontalLineToRelative(4.81f)
+                curveToRelative(-1.65f, 3.21f, -4.81f, 5.5f, -8.55f, 5.92f)
+                close()
+                moveTo(0.02f, 14.73f)
+                lineToRelative(4.97f, 1.87f)
+                lineTo(0.04f, 21.56f)
+                lineToRelative(2.4f, 2.4f)
+                lineToRelative(4.96f, -4.96f)
+                lineToRelative(1.87f, 4.97f)
+                lineToRelative(4.81f, -14.05f)
+                lineTo(0.02f, 14.73f)
+                close()
+                moveTo(9.22f, 21.02f)
+                lineToRelative(-1.44f, -3.82f)
+                lineToRelative(-5.35f, 5.35f)
+                lineToRelative(-0.99f, -0.99f)
+                lineToRelative(5.35f, -5.35f)
+                lineToRelative(-3.82f, -1.44f)
+                lineToRelative(9.49f, -3.25f)
+                lineToRelative(-3.25f, 9.49f)
+                close()
+            }
+        }.also { _GlobePointer = it}

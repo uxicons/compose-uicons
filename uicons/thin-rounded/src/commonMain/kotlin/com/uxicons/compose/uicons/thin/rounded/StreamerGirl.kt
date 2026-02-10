@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StreamerGirl: ImageVector? = null
+
+val Icons.Tr.StreamerGirl: ImageVector
+    get() = _StreamerGirl ?: UXIcon(name = "StreamerGirl") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(0.99f, 15.0f)
+                curveToRelative(0.26f, 0.06f, 0.54f, -0.11f, 0.6f, -0.38f)
+                curveToRelative(0.44f, -2.0f, 1.15f, -5.24f, 1.59f, -7.2f)
+                curveToRelative(0.64f, 2.62f, 3.0f, 4.58f, 5.82f, 4.58f)
+                curveToRelative(1.67f, 0f, 3.22f, -0.67f, 4.36f, -1.88f)
+                curveToRelative(0.19f, -0.2f, 0.18f, -0.52f, -0.02f, -0.71f)
+                curveToRelative(-0.2f, -0.19f, -0.52f, -0.18f, -0.71f, 0.02f)
+                curveToRelative(-0.95f, 1.01f, -2.25f, 1.57f, -3.64f, 1.57f)
+                curveToRelative(-2.42f, 0f, -4.43f, -1.72f, -4.9f, -4.0f)
+                horizontalLineToRelative(0.91f)
+                curveToRelative(3.16f, -0.09f, 5.87f, -2.21f, 6.8f, -5.19f)
+                curveToRelative(1.27f, 0.8f, 2.21f, 2.17f, 2.63f, 3.95f)
+                curveToRelative(0.03f, 0.13f, 0.44f, 1.97f, 0.87f, 3.94f)
+                curveToRelative(0.06f, 0.27f, 0.33f, 0.44f, 0.6f, 0.38f)
+                curveToRelative(0.27f, -0.06f, 0.44f, -0.33f, 0.38f, -0.6f)
+                curveToRelative(-0.12f, -0.54f, -0.24f, -1.07f, -0.34f, -1.56f)
+                curveToRelative(0.62f, -0.21f, 1.04f, -0.82f, 1.04f, -1.61f)
+                verticalLineToRelative(-0.6f)
+                curveToRelative(0f, -0.94f, -0.76f, -1.7f, -1.7f, -1.7f)
+                horizontalLineToRelative(-0.4f)
+                curveToRelative(-1.11f, -2.49f, -3.25f, -4.0f, -5.9f, -4.0f)
+                curveToRelative(-2.59f, 0.02f, -4.8f, 1.49f, -5.9f, 4f)
+                horizontalLineToRelative(-0.4f)
+                curveToRelative(-0.94f, 0f, -1.7f, 0.76f, -1.7f, 1.7f)
+                verticalLineToRelative(0.6f)
+                curveToRelative(0f, 0.78f, 0.42f, 1.39f, 1.05f, 1.6f)
+                curveToRelative(-0.56f, 2.55f, -1.38f, 6.27f, -1.43f, 6.5f)
+                curveToRelative(-0.06f, 0.27f, 0.11f, 0.54f, 0.38f, 0.6f)
+                close()
+                moveTo(5.0f, 6.0f)
+                horizontalLineToRelative(-1.0f)
+                curveToRelative(0f, -2.75f, 2.24f, -5.0f, 5f, -5.0f)
+                curveToRelative(0.68f, 0f, 1.32f, 0.12f, 1.92f, 0.35f)
+                curveToRelative(-0.76f, 2.67f, -3.14f, 4.57f, -5.92f, 4.65f)
+                close()
+                moveTo(23.12f, 15.02f)
+                lineTo(20.73f, 12.99f)
+                curveToRelative(0.17f, -0.29f, 0.27f, -0.63f, 0.27f, -0.99f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                curveToRelative(0.38f, 0f, 0.73f, -0.11f, 1.03f, -0.29f)
+                lineToRelative(2.44f, 2.08f)
+                curveToRelative(0.34f, 0.28f, 0.53f, 0.7f, 0.53f, 1.14f)
+                verticalLineToRelative(2.58f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                horizontalLineToRelative(-2.01f)
+                curveToRelative(0.45f, -0.61f, 0.61f, -1.38f, 0.43f, -2.13f)
+                curveToRelative(-0.99f, -4.11f, -4.58f, -6.87f, -8.93f, -6.87f)
+                reflectiveCurveToRelative(-7.94f, 2.76f, -8.93f, 6.87f)
+                curveToRelative(-0.18f, 0.77f, -0.01f, 1.56f, 0.47f, 2.18f)
+                curveToRelative(0.47f, 0.6f, 1.19f, 0.95f, 1.95f, 0.95f)
+                horizontalLineToRelative(17f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-2.58f)
+                curveToRelative(0f, -0.73f, -0.32f, -1.43f, -0.88f, -1.9f)
+                close()
+                moveTo(18f, 12f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(16.67f, 22.43f)
+                curveToRelative(-0.28f, 0.36f, -0.71f, 0.57f, -1.17f, 0.57f)
+                horizontalLineToRelative(-13f)
+                curveToRelative(-0.46f, 0f, -0.88f, -0.21f, -1.17f, -0.56f)
+                curveToRelative(-0.29f, -0.37f, -0.4f, -0.86f, -0.29f, -1.33f)
+                curveToRelative(0.88f, -3.65f, 4.07f, -6.11f, 7.95f, -6.11f)
+                reflectiveCurveToRelative(7.08f, 2.46f, 7.95f, 6.11f)
+                curveToRelative(0.11f, 0.47f, 0.01f, 0.95f, -0.29f, 1.33f)
+                close()
+            }
+        }.also { _StreamerGirl = it}

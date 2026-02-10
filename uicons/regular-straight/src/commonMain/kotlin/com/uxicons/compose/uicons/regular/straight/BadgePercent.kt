@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BadgePercent: ImageVector? = null
+
+val Icons.Rs.BadgePercent: ImageVector
+    get() = _BadgePercent ?: UXIcon(name = "BadgePercent") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 12f)
+                curveToRelative(0f, -1.62f, -0.71f, -3.14f, -1.92f, -4.17f)
+                curveToRelative(0.12f, -1.59f, -0.45f, -3.17f, -1.59f, -4.31f)
+                curveToRelative(-1.14f, -1.14f, -2.72f, -1.72f, -4.31f, -1.59f)
+                curveToRelative(-1.04f, -1.21f, -2.56f, -1.92f, -4.18f, -1.92f)
+                reflectiveCurveToRelative(-3.14f, 0.71f, -4.18f, 1.92f)
+                curveToRelative(-1.59f, -0.12f, -3.17f, 0.45f, -4.31f, 1.59f)
+                curveToRelative(-1.14f, 1.15f, -1.72f, 2.72f, -1.59f, 4.31f)
+                curveToRelative(-1.21f, 1.04f, -1.92f, 2.56f, -1.92f, 4.17f)
+                reflectiveCurveToRelative(0.71f, 3.14f, 1.92f, 4.17f)
+                curveToRelative(-0.12f, 1.59f, 0.45f, 3.17f, 1.59f, 4.31f)
+                curveToRelative(1.14f, 1.14f, 2.72f, 1.71f, 4.31f, 1.59f)
+                curveToRelative(1.04f, 1.21f, 2.56f, 1.92f, 4.18f, 1.92f)
+                reflectiveCurveToRelative(3.14f, -0.71f, 4.18f, -1.92f)
+                curveToRelative(1.59f, 0.12f, 3.17f, -0.45f, 4.31f, -1.59f)
+                curveToRelative(1.14f, -1.15f, 1.72f, -2.72f, 1.59f, -4.31f)
+                curveToRelative(1.21f, -1.04f, 1.92f, -2.56f, 1.92f, -4.17f)
+                close()
+                moveTo(20.45f, 14.9f)
+                lineToRelative(-0.55f, 0.37f)
+                lineToRelative(0.13f, 0.65f)
+                curveToRelative(0.22f, 1.15f, -0.14f, 2.32f, -0.96f, 3.15f)
+                curveToRelative(-0.82f, 0.82f, -2.0f, 1.18f, -3.15f, 0.96f)
+                lineToRelative(-0.65f, -0.13f)
+                lineToRelative(-0.37f, 0.55f)
+                curveToRelative(-0.65f, 0.97f, -1.74f, 1.55f, -2.9f, 1.55f)
+                reflectiveCurveToRelative(-2.25f, -0.58f, -2.9f, -1.55f)
+                lineToRelative(-0.37f, -0.55f)
+                lineToRelative(-0.65f, 0.13f)
+                curveToRelative(-1.15f, 0.22f, -2.32f, -0.14f, -3.15f, -0.96f)
+                curveToRelative(-0.82f, -0.82f, -1.18f, -2.0f, -0.96f, -3.15f)
+                lineToRelative(0.13f, -0.65f)
+                lineToRelative(-0.55f, -0.37f)
+                curveToRelative(-0.97f, -0.65f, -1.55f, -1.74f, -1.55f, -2.9f)
+                reflectiveCurveToRelative(0.58f, -2.25f, 1.55f, -2.9f)
+                lineToRelative(0.55f, -0.37f)
+                lineToRelative(-0.13f, -0.65f)
+                curveToRelative(-0.22f, -1.15f, 0.14f, -2.32f, 0.96f, -3.15f)
+                curveToRelative(0.82f, -0.82f, 2f, -1.18f, 3.15f, -0.96f)
+                lineToRelative(0.65f, 0.13f)
+                lineToRelative(0.37f, -0.55f)
+                curveToRelative(0.65f, -0.97f, 1.74f, -1.55f, 2.9f, -1.55f)
+                reflectiveCurveToRelative(2.25f, 0.58f, 2.9f, 1.55f)
+                lineToRelative(0.37f, 0.55f)
+                lineToRelative(0.65f, -0.13f)
+                curveToRelative(1.15f, -0.22f, 2.32f, 0.14f, 3.15f, 0.96f)
+                curveToRelative(0.82f, 0.82f, 1.18f, 2.0f, 0.96f, 3.15f)
+                lineToRelative(-0.13f, 0.65f)
+                lineToRelative(0.55f, 0.37f)
+                curveToRelative(0.97f, 0.65f, 1.55f, 1.74f, 1.55f, 2.9f)
+                reflectiveCurveToRelative(-0.58f, 2.25f, -1.55f, 2.9f)
+                close()
+                moveTo(9f, 10f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(16f, 15f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(15.57f, 8f)
+                lineToRelative(-4.8f, 8f)
+                horizontalLineToRelative(-2.33f)
+                lineToRelative(4.8f, -8f)
+                horizontalLineToRelative(2.33f)
+                close()
+            }
+        }.also { _BadgePercent = it}

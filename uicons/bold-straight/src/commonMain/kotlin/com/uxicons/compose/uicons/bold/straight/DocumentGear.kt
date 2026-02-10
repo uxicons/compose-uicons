@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DocumentGear: ImageVector? = null
+
+val Icons.Bs.DocumentGear: ImageVector
+    get() = _DocumentGear ?: UXIcon(name = "DocumentGear") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(13.63f, 11f)
+                lineTo(4.97f, 11f)
+                verticalLineToRelative(-3f)
+                lineTo(15f, 8f)
+                verticalLineToRelative(2.4f)
+                curveToRelative(-0.48f, 0.16f, -0.94f, 0.36f, -1.37f, 0.6f)
+                close()
+                moveTo(9.76f, 16f)
+                curveToRelative(0.29f, -1.11f, 0.8f, -2.13f, 1.5f, -3f)
+                lineTo(5.0f, 13f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(4.76f)
+                close()
+                moveTo(10.09f, 21f)
+                lineTo(3.5f, 21f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                lineTo(3f, 5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5.03f)
+                curveToRelative(0.17f, -0.01f, 0.33f, -0.03f, 0.5f, -0.03f)
+                curveToRelative(0.87f, 0f, 1.71f, 0.14f, 2.5f, 0.4f)
+                lineTo(20f, 2f)
+                horizontalLineToRelative(-5.34f)
+                curveToRelative(-0.56f, -1.18f, -1.77f, -2f, -3.16f, -2f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.39f, 0f, -2.6f, 0.82f, -3.16f, 2f)
+                lineTo(0f, 2f)
+                lineTo(0f, 20.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                lineTo(12.22f, 24f)
+                curveToRelative(-0.93f, -0.81f, -1.66f, -1.84f, -2.13f, -3f)
+                close()
+                moveTo(21.92f, 18.82f)
+                lineToRelative(1.53f, 0.88f)
+                lineToRelative(-1.5f, 2.6f)
+                lineToRelative(-1.54f, -0.89f)
+                curveToRelative(-0.41f, 0.35f, -0.88f, 0.63f, -1.4f, 0.81f)
+                verticalLineToRelative(1.78f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.78f)
+                curveToRelative(-0.52f, -0.19f, -0.99f, -0.46f, -1.4f, -0.81f)
+                lineToRelative(-1.54f, 0.89f)
+                lineToRelative(-1.5f, -2.6f)
+                lineToRelative(1.53f, -0.88f)
+                curveToRelative(-0.05f, -0.27f, -0.08f, -0.54f, -0.08f, -0.82f)
+                reflectiveCurveToRelative(0.03f, -0.55f, 0.08f, -0.82f)
+                lineToRelative(-1.53f, -0.88f)
+                lineToRelative(1.5f, -2.6f)
+                lineToRelative(1.54f, 0.89f)
+                curveToRelative(0.41f, -0.35f, 0.88f, -0.63f, 1.4f, -0.81f)
+                verticalLineToRelative(-1.78f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1.78f)
+                curveToRelative(0.52f, 0.19f, 0.99f, 0.46f, 1.4f, 0.81f)
+                lineToRelative(1.54f, -0.89f)
+                lineToRelative(1.5f, 2.6f)
+                lineToRelative(-1.53f, 0.88f)
+                curveToRelative(0.05f, 0.27f, 0.08f, 0.54f, 0.08f, 0.82f)
+                reflectiveCurveToRelative(-0.03f, 0.55f, -0.08f, 0.82f)
+                close()
+                moveTo(19f, 18f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+            }
+        }.also { _DocumentGear = it}

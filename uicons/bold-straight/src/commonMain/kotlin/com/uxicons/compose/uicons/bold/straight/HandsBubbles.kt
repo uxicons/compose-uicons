@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HandsBubbles: ImageVector? = null
+
+val Icons.Bs.HandsBubbles: ImageVector
+    get() = _HandsBubbles ?: UXIcon(name = "HandsBubbles") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17.62f, 14.55f)
+                lineToRelative(3.79f, -3.79f)
+                curveToRelative(0.59f, -0.59f, 1.53f, -0.59f, 2.12f, 0f)
+                curveToRelative(0.59f, 0.58f, 0.59f, 1.54f, 0f, 2.12f)
+                lineToRelative(-3.79f, 3.79f)
+                lineToRelative(-2.12f, -2.12f)
+                close()
+                moveTo(14.46f, 11.4f)
+                lineToRelative(2.12f, 2.12f)
+                lineToRelative(3.97f, -3.98f)
+                curveToRelative(0.59f, -0.58f, 0.59f, -1.54f, 0f, -2.12f)
+                curveToRelative(-0.59f, -0.59f, -1.53f, -0.59f, -2.12f, 0f)
+                lineToRelative(-3.97f, 3.97f)
+                close()
+                moveTo(23.58f, 17.01f)
+                curveToRelative(-0.58f, -0.59f, -1.53f, -0.59f, -2.12f, -0.01f)
+                lineToRelative(-2.68f, 2.66f)
+                curveToRelative(-1.78f, 1.78f, -4.69f, 1.78f, -6.48f, 0f)
+                lineToRelative(-1.8f, -1.8f)
+                curveToRelative(-1.25f, -1.25f, -1.25f, -3.3f, 0f, -4.55f)
+                lineToRelative(4.76f, -4.76f)
+                curveToRelative(0.59f, -0.58f, 0.59f, -1.54f, 0f, -2.12f)
+                curveToRelative(-0.59f, -0.59f, -1.53f, -0.59f, -2.12f, 0f)
+                lineToRelative(-3.13f, 3.13f)
+                verticalLineToRelative(-0.46f)
+                curveToRelative(0f, -1.0f, -0.68f, -1.92f, -1.66f, -2.08f)
+                curveToRelative(-1.25f, -0.2f, -2.34f, 0.76f, -2.34f, 1.97f)
+                verticalLineToRelative(5.75f)
+                curveToRelative(0f, 1.62f, 0.59f, 3.18f, 1.66f, 4.39f)
+                curveToRelative(0.21f, 0.3f, 0.45f, 0.59f, 0.71f, 0.85f)
+                lineToRelative(1.8f, 1.8f)
+                curveToRelative(1.48f, 1.48f, 3.42f, 2.22f, 5.36f, 2.22f)
+                reflectiveCurveToRelative(3.88f, -0.74f, 5.35f, -2.21f)
+                lineToRelative(2.68f, -2.66f)
+                curveToRelative(0.59f, -0.58f, 0.59f, -1.53f, 0.01f, -2.12f)
+                close()
+                moveTo(6.55f, 21.0f)
+                lineToRelative(-0.44f, -0.48f)
+                curveToRelative(-1.73f, -2.04f, -2.12f, -4.22f, -2.12f, -5.78f)
+                verticalLineToRelative(-5.64f)
+                curveToRelative(0f, -1.0f, -0.68f, -1.92f, -1.66f, -2.08f)
+                curveToRelative(-1.25f, -0.2f, -2.34f, 0.76f, -2.34f, 1.97f)
+                curveToRelative(0f, 0f, 0.0f, 5.8f, 0.0f, 5.83f)
+                lineToRelative(0.0f, 0.04f)
+                curveToRelative(0.03f, 1.72f, 0.72f, 3.36f, 1.94f, 4.57f)
+                lineToRelative(2.23f, 2.35f)
+                curveToRelative(1.48f, 1.48f, 3.42f, 2.22f, 5.36f, 2.22f)
+                curveToRelative(0.05f, 0f, 0.09f, -0.01f, 0.14f, -0.01f)
+                curveToRelative(-0.31f, -0.24f, -0.61f, -0.5f, -0.9f, -0.78f)
+                curveToRelative(-0.01f, -0.01f, -2.11f, -2.09f, -2.23f, -2.22f)
+                close()
+                moveTo(8.66f, 5.04f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.64f, 0.1f, 1.22f, 0.38f, 1.72f, 0.77f)
+                curveToRelative(0.38f, -0.5f, 0.62f, -1.13f, 0.62f, -1.81f)
+                curveToRelative(0f, -0.09f, -0.01f, -0.18f, -0.01f, -0.28f)
+                curveToRelative(0.3f, 0.17f, 0.64f, 0.28f, 1.01f, 0.28f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                curveToRelative(-1.03f, 0f, -1.88f, 0.78f, -1.99f, 1.78f)
+                curveToRelative(-0.53f, -0.48f, -1.24f, -0.78f, -2.01f, -0.78f)
+                curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+                curveToRelative(0f, 0.68f, 0.23f, 1.3f, 0.61f, 1.8f)
+                curveToRelative(0.87f, -0.65f, 1.96f, -0.94f, 3.04f, -0.76f)
+                close()
+                moveTo(17.5f, 4.0f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+            }
+        }.also { _HandsBubbles = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DumbbellHeart: ImageVector? = null
+
+val Icons.Ts.DumbbellHeart: ImageVector
+    get() = _DumbbellHeart ?: UXIcon(name = "DumbbellHeart") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11.8f, 10.81f)
+                lineToRelative(0.28f, 0.19f)
+                curveToRelative(0.47f, -0.33f, 5.86f, -3.85f, 6f, -7.48f)
+                curveToRelative(0f, -1.94f, -1.46f, -3.52f, -3.25f, -3.52f)
+                curveToRelative(-1.16f, 0f, -2.17f, 0.66f, -2.75f, 1.65f)
+                curveToRelative(-0.58f, -0.99f, -1.59f, -1.65f, -2.75f, -1.65f)
+                curveToRelative(-1.79f, 0f, -3.25f, 1.58f, -3.25f, 3.52f)
+                curveToRelative(0f, 3.4f, 5.49f, 7.13f, 5.72f, 7.29f)
+                close()
+                moveTo(9.33f, 1f)
+                curveToRelative(1.24f, 0f, 2.25f, 1.13f, 2.25f, 2.52f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -1.39f, 1.01f, -2.52f, 2.25f, -2.52f)
+                reflectiveCurveToRelative(2.25f, 1.13f, 2.25f, 2.52f)
+                curveToRelative(0f, 2.24f, -3.38f, 5.11f, -5f, 6.27f)
+                curveToRelative(-1.62f, -1.16f, -5f, -4.03f, -5f, -6.27f)
+                curveToRelative(0f, -1.39f, 1.01f, -2.52f, 2.25f, -2.52f)
+                close()
+                moveTo(24f, 17f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(6f)
+                lineTo(8f, 17f)
+                verticalLineToRelative(-6f)
+                lineTo(4f, 11f)
+                verticalLineToRelative(2f)
+                lineTo(1f, 13f)
+                verticalLineToRelative(4f)
+                lineTo(0f, 17f)
+                verticalLineToRelative(1f)
+                lineTo(1f, 18f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(2f, 21f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(7f)
+                lineTo(2f, 21f)
+                close()
+                moveTo(7f, 23f)
+                horizontalLineToRelative(-2f)
+                lineTo(5f, 12f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(11f)
+                close()
+                moveTo(19f, 23f)
+                horizontalLineToRelative(-2f)
+                lineTo(17f, 12f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(11f)
+                close()
+                moveTo(22f, 21f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(7f)
+                close()
+            }
+        }.also { _DumbbellHeart = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Sushi: ImageVector? = null
+
+val Icons.Ts.Sushi: ImageVector
+    get() = _Sushi ?: UXIcon(name = "Sushi") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 4.5f)
+                curveToRelative(0f, -2.52f, -3.73f, -4.5f, -8.5f, -4.5f)
+                reflectiveCurveTo(7f, 1.98f, 7f, 4.5f)
+                verticalLineToRelative(1.57f)
+                curveTo(2.97f, 6.43f, 0f, 8.25f, 0f, 10.5f)
+                verticalLineToRelative(8.75f)
+                curveToRelative(0f, 2.66f, 3.73f, 4.75f, 8.5f, 4.75f)
+                reflectiveCurveToRelative(8.5f, -2.09f, 8.5f, -4.75f)
+                verticalLineToRelative(-1.32f)
+                curveToRelative(4.08f, -0.39f, 7f, -2.32f, 7f, -4.68f)
+                lineTo(24f, 4.5f)
+                close()
+                moveTo(15.5f, 1f)
+                curveToRelative(4.07f, 0f, 7.5f, 1.6f, 7.5f, 3.5f)
+                curveToRelative(0f, 1.88f, -3.38f, 3.47f, -7.39f, 3.5f)
+                curveToRelative(-1.46f, -1.18f, -3.95f, -1.95f, -6.84f, -2.0f)
+                curveToRelative(-0.51f, -0.48f, -0.77f, -0.98f, -0.77f, -1.5f)
+                curveToRelative(0f, -1.9f, 3.44f, -3.5f, 7.5f, -3.5f)
+                close()
+                moveTo(8.5f, 7f)
+                curveToRelative(4.07f, 0f, 7.5f, 1.6f, 7.5f, 3.5f)
+                reflectiveCurveToRelative(-3.44f, 3.5f, -7.5f, 3.5f)
+                reflectiveCurveToRelative(-7.5f, -1.6f, -7.5f, -3.5f)
+                reflectiveCurveToRelative(3.44f, -3.5f, 7.5f, -3.5f)
+                close()
+                moveTo(8.5f, 23f)
+                curveToRelative(-4.07f, 0f, -7.5f, -1.72f, -7.5f, -3.75f)
+                verticalLineToRelative(-6.6f)
+                curveToRelative(1.42f, 1.41f, 4.21f, 2.35f, 7.5f, 2.35f)
+                reflectiveCurveToRelative(6.08f, -0.94f, 7.5f, -2.35f)
+                verticalLineToRelative(6.6f)
+                curveToRelative(0f, 2.03f, -3.44f, 3.75f, -7.5f, 3.75f)
+                close()
+                moveTo(23f, 13.25f)
+                curveToRelative(0f, 1.75f, -2.6f, 3.31f, -6f, 3.67f)
+                verticalLineToRelative(-6.42f)
+                curveToRelative(0f, -0.54f, -0.17f, -1.05f, -0.49f, -1.53f)
+                curveToRelative(2.84f, -0.17f, 5.22f, -1.06f, 6.49f, -2.32f)
+                verticalLineToRelative(6.6f)
+                close()
+                moveTo(15.5f, 6f)
+                curveToRelative(2.63f, 0f, 4.09f, -0.83f, 4.48f, -1.08f)
+                lineToRelative(0.63f, -0.42f)
+                lineToRelative(-0.63f, -0.42f)
+                curveToRelative(-0.39f, -0.25f, -1.84f, -1.08f, -4.48f, -1.08f)
+                reflectiveCurveToRelative(-4.09f, 0.83f, -4.48f, 1.08f)
+                lineToRelative(-0.63f, 0.42f)
+                lineToRelative(0.63f, 0.42f)
+                curveToRelative(0.39f, 0.25f, 1.84f, 1.08f, 4.48f, 1.08f)
+                close()
+                moveTo(15.5f, 4f)
+                curveToRelative(1.41f, 0f, 2.42f, 0.25f, 3.08f, 0.5f)
+                curveToRelative(-0.66f, 0.25f, -1.67f, 0.5f, -3.08f, 0.5f)
+                reflectiveCurveToRelative(-2.42f, -0.25f, -3.08f, -0.5f)
+                curveToRelative(0.66f, -0.25f, 1.67f, -0.5f, 3.08f, -0.5f)
+                close()
+                moveTo(8.5f, 12f)
+                curveToRelative(2.63f, 0f, 4.09f, -0.83f, 4.48f, -1.08f)
+                lineToRelative(0.63f, -0.42f)
+                lineToRelative(-0.63f, -0.42f)
+                curveToRelative(-0.39f, -0.25f, -1.84f, -1.08f, -4.48f, -1.08f)
+                reflectiveCurveToRelative(-4.09f, 0.83f, -4.48f, 1.08f)
+                lineToRelative(-0.63f, 0.42f)
+                lineToRelative(0.63f, 0.42f)
+                curveToRelative(0.39f, 0.25f, 1.84f, 1.08f, 4.48f, 1.08f)
+                close()
+                moveTo(8.5f, 10f)
+                curveToRelative(1.41f, 0f, 2.42f, 0.25f, 3.08f, 0.5f)
+                curveToRelative(-0.66f, 0.25f, -1.67f, 0.5f, -3.08f, 0.5f)
+                reflectiveCurveToRelative(-2.42f, -0.25f, -3.08f, -0.5f)
+                curveToRelative(0.66f, -0.25f, 1.67f, -0.5f, 3.08f, -0.5f)
+                close()
+            }
+        }.also { _Sushi = it}

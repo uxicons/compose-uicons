@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MobileMessage: ImageVector? = null
+
+val Icons.Br.MobileMessage: ImageVector
+    get() = _MobileMessage ?: UXIcon(name = "MobileMessage") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(8.33f, 16.69f)
+            curveToRelative(0.69f, 0.46f, 1.67f, -0.04f, 1.67f, -0.92f)
+            lineToRelative(0.0f, -6.77f)
+            curveToRelative(0f, -1.66f, -1.34f, -3f, -3.0f, -3.0f)
+            lineTo(3.0f, 6.0f)
+            reflectiveCurveToRelative(0f, -0.0f, 0f, -0.0f)
+            curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+            verticalLineToRelative(3.0f)
+            curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+            horizontalLineToRelative(2.87f)
+            lineToRelative(2.45f, 1.69f)
+            close()
+            moveTo(3.0f, 9.0f)
+            horizontalLineToRelative(0.0f)
+            reflectiveCurveToRelative(4.0f, 0f, 4.0f, 0f)
+            verticalLineToRelative(3.22f)
+            curveToRelative(-0.36f, -0.14f, -0.74f, -0.22f, -1.13f, -0.22f)
+            lineTo(3f, 12.0f)
+            lineToRelative(-0.0f, -3.0f)
+            close()
+            moveTo(21f, 0f)
+            horizontalLineToRelative(-4f)
+            curveToRelative(-1.66f, 0.0f, -3f, 1.34f, -3.0f, 3.0f)
+            lineToRelative(0.0f, 6.77f)
+            curveToRelative(-0.0f, 0.88f, 0.98f, 1.37f, 1.67f, 0.92f)
+            lineToRelative(2.45f, -1.69f)
+            horizontalLineToRelative(2.87f)
+            curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+            lineTo(24.0f, 3.0f)
+            curveTo(24f, 1.34f, 22.66f, 0f, 21f, 0f)
+            close()
+            moveTo(21f, 6.0f)
+            horizontalLineToRelative(-2.87f)
+            curveToRelative(-0.39f, 0f, -0.77f, 0.07f, -1.13f, 0.22f)
+            lineTo(17.0f, 3.0f)
+            reflectiveCurveToRelative(4.0f, -0.0f, 4.0f, -0.0f)
+            verticalLineToRelative(3.0f)
+            close()
+            moveTo(18.5f, 11.0f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(5.5f)
+            lineTo(6.91f, 18.0f)
+            curveToRelative(-0.21f, -0.58f, -0.76f, -1f, -1.41f, -1f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+            horizontalLineToRelative(6f)
+            curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+            verticalLineToRelative(-6.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(13.0f, 22.01f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+            close()
+            moveTo(5.38f, 3.49f)
+            curveToRelative(-0.55f, -0.62f, -0.49f, -1.57f, 0.13f, -2.12f)
+            curveToRelative(1.0f, -0.89f, 2.3f, -1.38f, 3.64f, -1.38f)
+            horizontalLineToRelative(1.35f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-1.35f)
+            curveToRelative(-0.61f, 0f, -1.2f, 0.22f, -1.65f, 0.62f)
+            curveToRelative(-0.62f, 0.55f, -1.57f, 0.49f, -2.12f, -0.13f)
+            close()
+        }
+    }.also { _MobileMessage = it }

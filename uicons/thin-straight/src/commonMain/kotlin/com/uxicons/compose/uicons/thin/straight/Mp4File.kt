@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Mp4File: ImageVector? = null
+
+val Icons.Ts.Mp4File: ImageVector
+    get() = _Mp4File ?: UXIcon(name = "Mp4File") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9.24f, 4.82f)
+                lineToRelative(0.45f, 6.18f)
+                horizontalLineToRelative(-1.02f)
+                lineToRelative(-0.38f, -5.53f)
+                lineToRelative(-1.69f, 3.71f)
+                lineToRelative(-1.69f, -3.71f)
+                lineToRelative(-0.42f, 5.54f)
+                horizontalLineToRelative(-0.99f)
+                lineToRelative(0.45f, -6.18f)
+                curveToRelative(0.04f, -0.62f, 0.42f, -0.88f, 0.87f, -0.88f)
+                curveToRelative(0.3f, 0f, 0.58f, 0.21f, 0.74f, 0.57f)
+                lineToRelative(1.03f, 2.26f)
+                lineToRelative(1.03f, -2.26f)
+                curveToRelative(0.16f, -0.35f, 0.44f, -0.57f, 0.74f, -0.57f)
+                curveToRelative(0.46f, 0f, 0.83f, 0.26f, 0.87f, 0.88f)
+                close()
+                moveTo(24f, 2.5f)
+                verticalLineToRelative(15.71f)
+                lineToRelative(-5.79f, 5.79f)
+                lineTo(0f, 24f)
+                lineTo(0f, 2.5f)
+                curveTo(0f, 1.12f, 1.12f, 0f, 2.5f, 0f)
+                horizontalLineToRelative(19f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(1f, 23f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(6f)
+                lineTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 1f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(20.5f)
+                close()
+                moveTo(22.79f, 18f)
+                horizontalLineToRelative(-4.79f)
+                verticalLineToRelative(4.79f)
+                lineToRelative(4.79f, -4.79f)
+                close()
+                moveTo(15f, 6f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(14f, 6f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                close()
+                moveTo(18f, 9f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                close()
+            }
+        }.also { _Mp4File = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Kaaba: ImageVector? = null
+
+val Icons.Rr.Kaaba: ImageVector
+    get() = _Kaaba ?: UXIcon(name = "Kaaba") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11f, 15.47f)
+                verticalLineToRelative(0.03f)
+                curveToRelative(0f, 0.74f, -0.79f, 1.22f, -1.45f, 0.87f)
+                lineToRelative(-2.03f, -1.07f)
+                curveToRelative(-0.32f, -0.17f, -0.53f, -0.51f, -0.53f, -0.87f)
+                verticalLineToRelative(-0.03f)
+                curveToRelative(0f, -0.74f, 0.79f, -1.22f, 1.45f, -0.87f)
+                lineToRelative(2.03f, 1.07f)
+                curveToRelative(0.32f, 0.17f, 0.53f, 0.51f, 0.53f, 0.87f)
+                close()
+                moveTo(15.56f, 13.58f)
+                lineToRelative(-2.03f, 1.03f)
+                curveToRelative(-0.33f, 0.17f, -0.54f, 0.51f, -0.54f, 0.88f)
+                verticalLineToRelative(0.05f)
+                curveToRelative(0f, 0.74f, 0.78f, 1.21f, 1.44f, 0.88f)
+                lineToRelative(2.03f, -1.03f)
+                curveToRelative(0.33f, -0.17f, 0.54f, -0.51f, 0.54f, -0.88f)
+                verticalLineToRelative(-0.05f)
+                curveToRelative(0f, -0.74f, -0.78f, -1.21f, -1.44f, -0.88f)
+                close()
+                moveTo(23f, 8.18f)
+                verticalLineToRelative(7.64f)
+                curveToRelative(0f, 1.86f, -1.02f, 3.55f, -2.66f, 4.42f)
+                lineToRelative(-6.0f, 3.18f)
+                curveToRelative(-0.73f, 0.39f, -1.54f, 0.58f, -2.34f, 0.58f)
+                reflectiveCurveToRelative(-1.61f, -0.19f, -2.34f, -0.58f)
+                lineToRelative(-6.0f, -3.18f)
+                curveToRelative(-1.64f, -0.87f, -2.66f, -2.56f, -2.66f, -4.42f)
+                verticalLineToRelative(-7.64f)
+                curveToRelative(0f, -1.86f, 1.02f, -3.55f, 2.66f, -4.42f)
+                lineTo(9.66f, 0.58f)
+                curveToRelative(1.47f, -0.78f, 3.22f, -0.78f, 4.68f, 0f)
+                lineToRelative(6.0f, 3.18f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                curveToRelative(1.64f, 0.87f, 2.66f, 2.56f, 2.66f, 4.42f)
+                close()
+                moveTo(3.34f, 6.81f)
+                lineToRelative(7.26f, 3.84f)
+                curveToRelative(0.88f, 0.47f, 1.93f, 0.47f, 2.81f, 0f)
+                lineToRelative(7.26f, -3.84f)
+                curveToRelative(-0.28f, -0.54f, -0.7f, -0.99f, -1.26f, -1.28f)
+                lineToRelative(-6.0f, -3.18f)
+                curveToRelative(-0.44f, -0.23f, -0.92f, -0.35f, -1.41f, -0.35f)
+                reflectiveCurveToRelative(-0.96f, 0.12f, -1.4f, 0.35f)
+                lineToRelative(-6.0f, 3.18f)
+                curveToRelative(-0.55f, 0.29f, -0.98f, 0.75f, -1.26f, 1.28f)
+                close()
+                moveTo(21f, 15.82f)
+                verticalLineToRelative(-2.89f)
+                lineToRelative(-0.53f, 0.3f)
+                curveToRelative(-0.66f, 0.37f, -1.47f, -0.11f, -1.47f, -0.86f)
+                curveToRelative(0f, -0.36f, 0.19f, -0.69f, 0.5f, -0.86f)
+                lineToRelative(1.5f, -0.84f)
+                verticalLineToRelative(-1.77f)
+                lineToRelative(-6.66f, 3.52f)
+                curveToRelative(-0.73f, 0.39f, -1.54f, 0.58f, -2.34f, 0.58f)
+                reflectiveCurveToRelative(-1.61f, -0.19f, -2.34f, -0.58f)
+                lineToRelative(-6.66f, -3.52f)
+                verticalLineToRelative(1.72f)
+                lineToRelative(1.48f, 0.8f)
+                curveToRelative(0.32f, 0.17f, 0.52f, 0.51f, 0.52f, 0.87f)
+                verticalLineToRelative(0.03f)
+                curveToRelative(0f, 0.75f, -0.8f, 1.22f, -1.45f, 0.87f)
+                lineToRelative(-0.55f, -0.29f)
+                verticalLineToRelative(2.94f)
+                curveToRelative(0f, 1.11f, 0.61f, 2.13f, 1.6f, 2.65f)
+                lineToRelative(6.0f, 3.18f)
+                curveToRelative(0.88f, 0.47f, 1.93f, 0.47f, 2.81f, 0f)
+                lineToRelative(6.0f, -3.18f)
+                curveToRelative(0.98f, -0.52f, 1.59f, -1.54f, 1.59f, -2.65f)
+                close()
+            }
+        }.also { _Kaaba = it}

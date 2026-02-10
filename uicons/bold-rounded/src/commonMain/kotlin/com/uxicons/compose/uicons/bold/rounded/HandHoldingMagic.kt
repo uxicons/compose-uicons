@@ -1,0 +1,64 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HandHoldingMagic: ImageVector? = null
+
+val Icons.Br.HandHoldingMagic: ImageVector
+    get() = _HandHoldingMagic ?: UXIcon(name = "HandHoldingMagic") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(3f, 4.47f)
+            curveToRelative(-0.02f, -1.63f, 1.02f, -3.33f, 3.01f, -3.94f)
+            curveToRelative(3.37f, -1.49f, 8.99f, 0.21f, 8.99f, 4.44f)
+            curveToRelative(0f, 2.38f, -1.46f, 4.01f, -3.18f, 4.68f)
+            curveToRelative(-0.29f, 0.11f, -0.53f, -0.26f, -0.3f, -0.47f)
+            curveToRelative(0.92f, -0.87f, 1.49f, -2f, 1.49f, -3.21f)
+            curveToRelative(0f, -2f, -2.05f, -2.96f, -3.5f, -2.99f)
+            curveToRelative(-1.21f, -0.03f, -3.5f, -0.01f, -3.5f, 1.99f)
+            curveToRelative(0f, 0.84f, 0.91f, 1.5f, 2f, 1.5f)
+            curveToRelative(0.58f, 0f, 1.19f, -0.14f, 1.67f, -0.47f)
+            curveToRelative(0.26f, -0.18f, 0.59f, 0.11f, 0.44f, 0.39f)
+            curveToRelative(-0.45f, 0.8f, -1.38f, 1.6f, -3.11f, 1.6f)
+            curveToRelative(-3f, 0f, -3.98f, -1.99f, -4f, -3.53f)
+            close()
+            moveTo(23.01f, 14.47f)
+            lineToRelative(-5.2f, 5.94f)
+            curveToRelative(-1.99f, 2.28f, -4.88f, 3.59f, -7.9f, 3.59f)
+            horizontalLineToRelative(-5.41f)
+            curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -2.48f, 2.02f, -4.5f, 4.5f, -4.5f)
+            horizontalLineToRelative(7.86f)
+            curveToRelative(0.94f, 0f, 1.8f, 0.36f, 2.45f, 0.95f)
+            lineToRelative(2.44f, -2.68f)
+            curveToRelative(0.7f, -0.77f, 1.65f, -1.22f, 2.69f, -1.26f)
+            curveToRelative(1.03f, -0.05f, 2.03f, 0.31f, 2.8f, 1.01f)
+            curveToRelative(1.56f, 1.43f, 1.69f, 3.88f, 0.28f, 5.46f)
+            close()
+            moveTo(20.71f, 11.23f)
+            curveToRelative(-0.17f, -0.16f, -0.4f, -0.23f, -0.64f, -0.23f)
+            curveToRelative(-0.24f, 0.01f, -0.45f, 0.11f, -0.61f, 0.29f)
+            lineToRelative(-3.5f, 3.84f)
+            curveToRelative(-0.22f, 1.58f, -1.48f, 2.88f, -3.09f, 3.12f)
+            lineToRelative(-5.16f, 0.74f)
+            curveToRelative(-0.82f, 0.12f, -1.58f, -0.45f, -1.7f, -1.27f)
+            curveToRelative(-0.12f, -0.82f, 0.45f, -1.58f, 1.27f, -1.7f)
+            lineToRelative(5.16f, -0.74f)
+            curveToRelative(0.31f, -0.04f, 0.55f, -0.32f, 0.55f, -0.64f)
+            curveToRelative(0f, -0.35f, -0.29f, -0.64f, -0.64f, -0.64f)
+            horizontalLineToRelative(-7.86f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(4f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(5.41f)
+            curveToRelative(2.16f, 0f, 4.22f, -0.94f, 5.65f, -2.56f)
+            lineToRelative(5.21f, -5.96f)
+            curveToRelative(0.33f, -0.37f, 0.3f, -0.93f, -0.06f, -1.25f)
+            close()
+        }
+    }.also { _HandHoldingMagic = it }

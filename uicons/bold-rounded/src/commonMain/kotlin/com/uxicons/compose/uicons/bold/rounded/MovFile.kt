@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MovFile: ImageVector? = null
+
+val Icons.Br.MovFile: ImageVector
+    get() = _MovFile ?: UXIcon(name = "MovFile") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(10.75f, 6.51f)
+            curveToRelative(0f, -0.05f, 0f, -1.98f, 0f, -2.02f)
+            curveToRelative(-0.0f, -0.4f, 0.34f, -0.72f, 0.75f, -0.73f)
+            curveToRelative(0.4f, 0.01f, 0.75f, 0.33f, 0.75f, 0.73f)
+            curveToRelative(0f, 0.05f, 0f, 1.98f, 0f, 2.02f)
+            curveToRelative(0.0f, 0.4f, -0.32f, 0.73f, -0.72f, 0.74f)
+            curveToRelative(-0.4f, -0.01f, -0.77f, -0.33f, -0.77f, -0.74f)
+            close()
+            moveTo(24f, 4.5f)
+            verticalLineToRelative(11.34f)
+            curveToRelative(0f, 1.47f, -0.57f, 2.85f, -1.61f, 3.89f)
+            lineToRelative(-2.66f, 2.66f)
+            curveToRelative(-1.04f, 1.04f, -2.42f, 1.61f, -3.89f, 1.61f)
+            lineTo(4.5f, 24f)
+            curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+            lineTo(0f, 4.5f)
+            curveTo(0f, 2.02f, 2.02f, 0f, 4.5f, 0f)
+            horizontalLineToRelative(15f)
+            curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+            close()
+            moveTo(14.43f, 3.29f)
+            lineToRelative(1.17f, 4.65f)
+            curveToRelative(0.09f, 0.35f, 0.4f, 0.59f, 0.76f, 0.59f)
+            curveToRelative(0.37f, 0f, 0.69f, -0.26f, 0.77f, -0.62f)
+            lineToRelative(0.97f, -4.64f)
+            curveToRelative(0.08f, -0.38f, -0.21f, -0.73f, -0.59f, -0.73f)
+            horizontalLineToRelative(-0.01f)
+            curveToRelative(-0.29f, 0f, -0.54f, 0.2f, -0.59f, 0.48f)
+            lineToRelative(-0.58f, 2.8f)
+            lineToRelative(-0.71f, -2.82f)
+            curveToRelative(-0.07f, -0.27f, -0.31f, -0.46f, -0.59f, -0.46f)
+            curveToRelative(-0.4f, 0f, -0.69f, 0.37f, -0.59f, 0.76f)
+            close()
+            moveTo(9.5f, 6.53f)
+            curveToRelative(0f, 1.09f, 0.91f, 1.97f, 2f, 1.97f)
+            reflectiveCurveToRelative(2f, -0.88f, 2f, -1.97f)
+            verticalLineToRelative(-2.07f)
+            curveToRelative(0f, -1.09f, -0.91f, -1.96f, -2f, -1.96f)
+            reflectiveCurveToRelative(-2f, 0.88f, -2f, 1.96f)
+            verticalLineToRelative(2.07f)
+            close()
+            moveTo(3.05f, 7.92f)
+            curveToRelative(-0.03f, 0.35f, 0.25f, 0.65f, 0.6f, 0.65f)
+            curveToRelative(0.32f, 0f, 0.58f, -0.25f, 0.6f, -0.56f)
+            lineToRelative(0.2f, -2.78f)
+            lineToRelative(0.64f, 1.42f)
+            curveToRelative(0.22f, 0.47f, 0.89f, 0.47f, 1.1f, 0f)
+            lineToRelative(0.64f, -1.42f)
+            lineToRelative(0.2f, 2.78f)
+            curveToRelative(0.02f, 0.32f, 0.29f, 0.56f, 0.6f, 0.56f)
+            curveToRelative(0.35f, 0f, 0.63f, -0.3f, 0.6f, -0.65f)
+            lineToRelative(-0.34f, -4.66f)
+            curveToRelative(-0.03f, -0.54f, -0.36f, -0.76f, -0.75f, -0.76f)
+            curveToRelative(-0.26f, 0f, -0.5f, 0.18f, -0.64f, 0.49f)
+            lineToRelative(-0.88f, 1.94f)
+            lineToRelative(-0.88f, -1.94f)
+            curveToRelative(-0.14f, -0.3f, -0.38f, -0.49f, -0.64f, -0.49f)
+            curveToRelative(-0.39f, 0f, -0.72f, 0.22f, -0.75f, 0.76f)
+            lineToRelative(-0.34f, 4.66f)
+            close()
+            moveTo(21f, 11f)
+            lineTo(3f, 11f)
+            verticalLineToRelative(8.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(10.5f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+            horizontalLineToRelative(4f)
+            verticalLineToRelative(-4f)
+            close()
+        }
+    }.also { _MovFile = it }

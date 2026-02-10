@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StoryFairyTale: ImageVector? = null
+
+val Icons.Bs.StoryFairyTale: ImageVector
+    get() = _StoryFairyTale ?: UXIcon(name = "StoryFairyTale") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 5.41f)
+                verticalLineToRelative(16.41f)
+                lineToRelative(-12f, 2.18f)
+                lineTo(0f, 21.82f)
+                lineTo(0f, 5.41f)
+                curveToRelative(0f, -0.94f, 0.38f, -1.82f, 1.06f, -2.47f)
+                curveToRelative(0.53f, -0.51f, 1.22f, -0.82f, 1.94f, -0.91f)
+                verticalLineToRelative(17.28f)
+                lineToRelative(7.5f, 1.36f)
+                verticalLineToRelative(-9.68f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(9.68f)
+                lineToRelative(7.5f, -1.36f)
+                lineTo(21f, 2.04f)
+                curveToRelative(0.65f, 0.08f, 1.26f, 0.32f, 1.77f, 0.75f)
+                curveToRelative(0.78f, 0.65f, 1.23f, 1.6f, 1.23f, 2.62f)
+                close()
+                moveTo(7f, 8f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                curveTo(20f, 3.59f, 16.41f, 0f, 12f, 0f)
+                reflectiveCurveTo(4f, 3.59f, 4f, 8f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(16f, 9f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                reflectiveCurveToRelative(-4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(17.3f, 18f)
+                horizontalLineToRelative(0.4f)
+                lineToRelative(0.52f, -1.78f)
+                lineToRelative(1.77f, -0.53f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.77f, -0.52f)
+                lineToRelative(-0.52f, -1.77f)
+                horizontalLineToRelative(-0.4f)
+                lineToRelative(-0.53f, 1.77f)
+                lineToRelative(-1.78f, 0.52f)
+                verticalLineToRelative(0.4f)
+                lineToRelative(1.78f, 0.53f)
+                lineToRelative(0.53f, 1.78f)
+                close()
+                moveTo(6.3f, 16f)
+                horizontalLineToRelative(0.4f)
+                lineToRelative(0.52f, -1.78f)
+                lineToRelative(1.77f, -0.53f)
+                verticalLineToRelative(-0.4f)
+                lineToRelative(-1.77f, -0.52f)
+                lineToRelative(-0.52f, -1.77f)
+                horizontalLineToRelative(-0.4f)
+                lineToRelative(-0.53f, 1.77f)
+                lineToRelative(-1.78f, 0.52f)
+                verticalLineToRelative(0.4f)
+                lineToRelative(1.78f, 0.53f)
+                lineToRelative(0.53f, 1.78f)
+                close()
+            }
+        }.also { _StoryFairyTale = it}

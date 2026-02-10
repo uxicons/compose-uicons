@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MushroomCloud: ImageVector? = null
+
+val Icons.Rs.MushroomCloud: ImageVector
+    get() = _MushroomCloud ?: UXIcon(name = "MushroomCloud") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(18.47f, 10.87f)
+                curveToRelative(0.34f, 0.08f, 0.69f, 0.13f, 1.03f, 0.13f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                reflectiveCurveToRelative(-2.02f, -4.5f, -4.5f, -4.5f)
+                curveToRelative(-0.02f, 0f, -0.03f, 0f, -0.05f, 0f)
+                curveToRelative(-1.14f, -1.28f, -2.73f, -2f, -4.45f, -2f)
+                curveToRelative(-1.06f, 0f, -2.08f, 0.28f, -3f, 0.82f)
+                curveToRelative(-0.92f, -0.54f, -1.94f, -0.82f, -3f, -0.82f)
+                curveToRelative(-1.72f, 0f, -3.31f, 0.72f, -4.45f, 2f)
+                curveToRelative(-0.01f, 0f, -0.03f, 0f, -0.05f, 0f)
+                curveTo(2.02f, 2f, 0f, 4.02f, 0f, 6.5f)
+                reflectiveCurveToRelative(2.02f, 4.5f, 4.5f, 4.5f)
+                curveToRelative(0.34f, 0f, 0.69f, -0.04f, 1.03f, -0.13f)
+                curveToRelative(0.41f, 0.3f, 0.87f, 0.53f, 1.34f, 0.7f)
+                curveToRelative(0.29f, 0.28f, 2.01f, 2.15f, 2.12f, 6.05f)
+                curveToRelative(-1.31f, -0.36f, -1.99f, -0.89f, -1.99f, -1.13f)
+                horizontalLineToRelative(-0.02f)
+                curveToRelative(-0.05f, -1.02f, -0.22f, -1.75f, -0.45f, -2.26f)
+                curveToRelative(-0.94f, 0.57f, -1.53f, 1.32f, -1.53f, 2.26f)
+                curveToRelative(0f, 1.54f, 1.57f, 2.58f, 3.66f, 3.1f)
+                curveToRelative(-1.09f, 2.34f, -4.49f, 2.4f, -4.66f, 2.4f)
+                verticalLineToRelative(2f)
+                curveToRelative(2.05f, 0f, 5.63f, -0.91f, 6.69f, -4.06f)
+                curveToRelative(0.43f, 0.04f, 0.87f, 0.06f, 1.31f, 0.06f)
+                reflectiveCurveToRelative(0.88f, -0.02f, 1.31f, -0.06f)
+                curveToRelative(1.06f, 3.15f, 4.64f, 4.06f, 6.69f, 4.06f)
+                verticalLineToRelative(-2f)
+                curveToRelative(-0.17f, 0f, -3.57f, -0.04f, -4.66f, -2.4f)
+                curveToRelative(2.08f, -0.53f, 3.66f, -1.57f, 3.66f, -3.1f)
+                curveToRelative(0f, -0.94f, -0.6f, -1.7f, -1.54f, -2.26f)
+                curveToRelative(-0.22f, 0.51f, -0.4f, 1.24f, -0.45f, 2.26f)
+                horizontalLineToRelative(-0.02f)
+                curveToRelative(0f, 0.24f, -0.68f, 0.77f, -1.99f, 1.13f)
+                curveToRelative(0.11f, -3.89f, 1.82f, -5.76f, 2.11f, -6.05f)
+                curveToRelative(0.47f, -0.18f, 0.93f, -0.41f, 1.34f, -0.71f)
+                close()
+                moveTo(5.94f, 8.62f)
+                lineToRelative(-0.56f, 0.21f)
+                curveToRelative(-1.73f, 0.66f, -3.38f, -0.66f, -3.38f, -2.33f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                curveToRelative(0.1f, 0f, 0.93f, 0.12f, 0.93f, 0.12f)
+                lineToRelative(0.35f, -0.48f)
+                curveToRelative(0.77f, -1.04f, 1.94f, -1.64f, 3.21f, -1.64f)
+                curveToRelative(0.86f, 0f, 1.69f, 0.28f, 2.4f, 0.82f)
+                lineToRelative(0.6f, 0.46f)
+                lineToRelative(0.6f, -0.46f)
+                curveToRelative(0.71f, -0.54f, 1.54f, -0.82f, 2.4f, -0.82f)
+                curveToRelative(1.27f, 0f, 2.44f, 0.6f, 3.21f, 1.64f)
+                lineToRelative(0.42f, 0.47f)
+                reflectiveCurveToRelative(0.78f, -0.12f, 0.87f, -0.12f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                curveToRelative(0f, 1.67f, -1.65f, 2.99f, -3.38f, 2.33f)
+                lineToRelative(-0.56f, -0.21f)
+                lineToRelative(-0.45f, 0.39f)
+                curveToRelative(-0.52f, 0.45f, -1.4f, 0.99f, -2.6f, 0.99f)
+                curveToRelative(-0.86f, 0f, -1.69f, -0.28f, -2.4f, -0.82f)
+                lineToRelative(-0.6f, -0.46f)
+                lineToRelative(-0.6f, 0.46f)
+                curveToRelative(-0.71f, 0.54f, -1.54f, 0.82f, -2.4f, 0.82f)
+                curveToRelative(-1.21f, 0f, -2.08f, -0.54f, -2.6f, -0.99f)
+                lineToRelative(-0.45f, -0.39f)
+                close()
+                moveTo(12.0f, 18f)
+                curveToRelative(-0.35f, 0f, -0.68f, -0.02f, -1.0f, -0.04f)
+                curveToRelative(-0.01f, -2.74f, -0.71f, -4.71f, -1.42f, -6.0f)
+                curveToRelative(0.85f, -0.08f, 1.68f, -0.34f, 2.42f, -0.78f)
+                curveToRelative(0.75f, 0.44f, 1.57f, 0.7f, 2.42f, 0.78f)
+                curveToRelative(-0.71f, 1.29f, -1.41f, 3.27f, -1.42f, 6.0f)
+                curveToRelative(-0.32f, 0.02f, -0.65f, 0.04f, -1.0f, 0.04f)
+                close()
+            }
+        }.also { _MushroomCloud = it}

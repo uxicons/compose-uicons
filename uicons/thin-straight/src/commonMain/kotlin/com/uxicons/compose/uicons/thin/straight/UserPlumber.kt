@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserPlumber: ImageVector? = null
+
+val Icons.Ts.UserPlumber: ImageVector
+    get() = _UserPlumber ?: UXIcon(name = "UserPlumber") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(13.99f, 7f)
+                horizontalLineToRelative(0.99f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1.0f)
+                lineToRelative(-0.0f, -0.55f)
+                curveToRelative(0f, -3.0f, -2.44f, -5.45f, -5.45f, -5.45f)
+                horizontalLineToRelative(-1.1f)
+                curveToRelative(-3.0f, 0f, -5.45f, 2.44f, -5.45f, 5.45f)
+                lineToRelative(0.0f, 0.55f)
+                horizontalLineToRelative(-1.0f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1.01f)
+                lineToRelative(0.01f, 2f)
+                curveToRelative(0f, 3.31f, 2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6.0f)
+                close()
+                moveTo(2.99f, 5.45f)
+                curveToRelative(0f, -1.94f, 1.26f, -3.58f, 3f, -4.19f)
+                verticalLineToRelative(2.74f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2.96f)
+                curveToRelative(0.15f, -0.01f, 0.3f, -0.04f, 0.45f, -0.04f)
+                horizontalLineToRelative(1.1f)
+                curveToRelative(0.15f, 0f, 0.3f, 0.03f, 0.45f, 0.05f)
+                verticalLineToRelative(2.95f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2.74f)
+                curveToRelative(1.74f, 0.6f, 3f, 2.24f, 3f, 4.19f)
+                lineToRelative(0.0f, 0.55f)
+                horizontalLineToRelative(-10f)
+                close()
+                moveTo(8f, 14f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5.0f)
+                lineToRelative(-0.01f, -2.0f)
+                horizontalLineToRelative(10f)
+                lineToRelative(0.01f, 2f)
+                curveToRelative(0f, 2.76f, -2.24f, 5f, -5f, 5f)
+                close()
+                moveTo(5f, 16f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                close()
+                moveTo(24f, 16.5f)
+                curveToRelative(0f, 2.07f, -1.17f, 3.96f, -3f, 4.89f)
+                verticalLineToRelative(2.61f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3.25f)
+                curveToRelative(1.78f, -0.66f, 3.01f, -2.35f, 3f, -4.25f)
+                curveToRelative(0f, -1.52f, -0.77f, -2.91f, -2f, -3.74f)
+                verticalLineToRelative(1.74f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-1.74f)
+                curveToRelative(-1.24f, 0.83f, -2f, 2.22f, -2f, 3.74f)
+                curveToRelative(-0.01f, 1.91f, 1.22f, 3.59f, 3f, 4.25f)
+                verticalLineToRelative(3.25f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2.61f)
+                curveToRelative(-1.83f, -0.94f, -3f, -2.82f, -3f, -4.89f)
+                curveToRelative(-0.03f, -2.48f, 1.69f, -4.56f, 4f, -5.34f)
+                verticalLineToRelative(3.34f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-3.34f)
+                curveToRelative(2.31f, 0.78f, 4.03f, 2.86f, 4f, 5.34f)
+                close()
+            }
+        }.also { _UserPlumber = it}

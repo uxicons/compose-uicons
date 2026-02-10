@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ChecklistTaskBudget: ImageVector? = null
+
+val Icons.Bs.ChecklistTaskBudget: ImageVector
+    get() = _ChecklistTaskBudget ?: UXIcon(name = "ChecklistTaskBudget") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.3f, 24f)
+                horizontalLineTo(3.5f)
+                curveTo(1.6f, 24f, 0f, 22.4f, 0f, 20.5f)
+                verticalLineTo(2f)
+                horizontalLineToRelative(5.3f)
+                curveToRelative(0.6f, -1.2f, 1.8f, -2f, 3.2f, -2f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.4f, 0f, 2.6f, 0.8f, 3.2f, 2f)
+                horizontalLineTo(20f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-3f)
+                verticalLineTo(5f)
+                horizontalLineToRelative(-5f)
+                verticalLineTo(3.5f)
+                curveTo(12f, 3.2f, 11.8f, 3f, 11.5f, 3f)
+                horizontalLineToRelative(-3f)
+                curveTo(8.2f, 3f, 8f, 3.2f, 8f, 3.5f)
+                verticalLineTo(5f)
+                horizontalLineTo(3f)
+                verticalLineToRelative(15.5f)
+                curveTo(3f, 20.8f, 3.2f, 21f, 3.5f, 21f)
+                horizontalLineToRelative(10.7f)
+                curveTo(14.6f, 22.2f, 15.3f, 23.3f, 16.3f, 24f)
+                close()
+                moveTo(21.7f, 17.3f)
+                lineToRelative(-3f, -0.5f)
+                curveTo(18.3f, 16.7f, 18f, 16.4f, 18f, 16f)
+                curveToRelative(0f, -0.6f, 0.4f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.6f, 0f, 1f, 0.4f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, -1.7f, -1.3f, -3f, -3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                curveToRelative(-1.7f, 0f, -3f, 1.3f, -3f, 3f)
+                curveToRelative(0f, 1.4f, 1f, 2.5f, 2.3f, 2.7f)
+                lineToRelative(3f, 0.5f)
+                curveToRelative(0.4f, 0.1f, 0.6f, 0.4f, 0.6f, 0.8f)
+                curveToRelative(0f, 0.6f, -0.4f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.6f, 0f, -1f, -0.4f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, 1.7f, 1.3f, 3f, 3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(1.7f, 0f, 3f, -1.3f, 3f, -3f)
+                curveTo(24f, 18.6f, 23f, 17.5f, 21.7f, 17.3f)
+                close()
+                moveTo(9.6f, 7.3f)
+                lineTo(11f, 8.7f)
+                lineToRelative(-2.8f, 2.8f)
+                curveTo(7.9f, 11.8f, 7.5f, 12f, 7.1f, 12f)
+                reflectiveCurveToRelative(-0.8f, -0.2f, -1.1f, -0.5f)
+                lineTo(4.3f, 9.9f)
+                lineToRelative(1.4f, -1.4f)
+                lineToRelative(1.4f, 1.4f)
+                curveTo(7.1f, 9.8f, 9.6f, 7.3f, 9.6f, 7.3f)
+                close()
+                moveTo(9.6f, 13.3f)
+                lineToRelative(1.4f, 1.4f)
+                lineToRelative(-2.8f, 2.8f)
+                curveTo(7.9f, 17.8f, 7.5f, 18f, 7.1f, 18f)
+                reflectiveCurveToRelative(-0.8f, -0.2f, -1.1f, -0.5f)
+                lineToRelative(-1.6f, -1.6f)
+                lineToRelative(1.4f, -1.4f)
+                lineToRelative(1.4f, 1.4f)
+                curveTo(7.1f, 15.8f, 9.6f, 13.3f, 9.6f, 13.3f)
+                close()
+            }
+        }.also { _ChecklistTaskBudget = it}

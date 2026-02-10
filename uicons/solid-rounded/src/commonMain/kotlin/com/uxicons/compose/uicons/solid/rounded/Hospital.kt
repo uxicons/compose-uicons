@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Hospital: ImageVector? = null
+
+val Icons.Sr.Hospital: ImageVector
+    get() = _Hospital ?: UXIcon(name = "Hospital") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15f, 0f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(16f)
+                curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                horizontalLineToRelative(10f)
+                curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+                lineTo(20f, 5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(10f, 19f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(10f, 15f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(12f, 10f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(15f, 19f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(15f, 15f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(2f, 22.97f)
+                curveToRelative(-1.21f, -0.91f, -2f, -2.35f, -2f, -3.97f)
+                verticalLineToRelative(-8f)
+                curveToRelative(0f, -1.63f, 0.79f, -3.06f, 2f, -3.97f)
+                verticalLineToRelative(15.95f)
+                close()
+                moveTo(24f, 11f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 1.63f, -0.79f, 3.06f, -2f, 3.97f)
+                lineTo(22f, 7.03f)
+                curveToRelative(1.21f, 0.91f, 2f, 2.35f, 2f, 3.97f)
+                close()
+            }
+        }.also { _Hospital = it}

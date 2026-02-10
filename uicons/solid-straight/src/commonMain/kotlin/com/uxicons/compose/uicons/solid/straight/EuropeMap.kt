@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _EuropeMap: ImageVector? = null
+
+val Icons.Ss.EuropeMap: ImageVector
+    get() = _EuropeMap ?: UXIcon(name = "EuropeMap") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.99f, 18f)
+                lineToRelative(2.01f, -0.53f)
+                verticalLineTo(2f)
+                reflectiveCurveToRelative(-2f, 0f, -2f, 0f)
+                curveToRelative(-0.94f, 0f, -1.83f, 0.45f, -2.4f, 1.2f)
+                curveToRelative(-0.37f, 0.57f, -1.1f, 1.33f, -1.6f, 1.8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                reflectiveCurveToRelative(2f, -1f, 2f, -2.49f)
+                verticalLineToRelative(-0.51f)
+                horizontalLineToRelative(-3.6f)
+                curveToRelative(-0.99f, 0f, -1.96f, 0.34f, -2.71f, 0.99f)
+                curveToRelative(-1.81f, 1.58f, -3.75f, 4.07f, -4.69f, 6.01f)
+                verticalLineToRelative(0.62f)
+                curveToRelative(0f, 0.49f, 0.41f, 0.85f, 0.85f, 0.85f)
+                curveToRelative(0.13f, 0f, 0.26f, -0.03f, 0.38f, -0.09f)
+                curveToRelative(0.43f, -0.21f, 1.33f, -0.67f, 1.77f, -0.88f)
+                verticalLineToRelative(1f)
+                reflectiveCurveToRelative(0f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -1f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                reflectiveCurveToRelative(-0.56f, -1.1f, -0.5f, -1.5f)
+                curveToRelative(0.5f, -2f, 2f, -3f, 2f, -3f)
+                lineToRelative(-0.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                reflectiveCurveToRelative(-1f, 0f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(-5f, 0f, -5f, -1f, -6f, -1f)
+                horizontalLineToRelative(-1.5f)
+                lineToRelative(-2.5f, 2.5f)
+                verticalLineToRelative(1.51f)
+                curveToRelative(0f, 0.41f, -0.33f, 0.72f, -0.71f, 0.72f)
+                curveToRelative(-0.07f, 0f, -0.15f, -0.01f, -0.23f, -0.04f)
+                lineToRelative(-2.06f, -0.69f)
+                lineToRelative(-1f, 3.31f)
+                verticalLineToRelative(1f)
+                lineToRelative(2.01f, 1.52f)
+                curveToRelative(0.18f, 0.12f, 0.37f, 0.17f, 0.57f, 0.17f)
+                curveToRelative(0.38f, 0f, 0.74f, -0.2f, 0.92f, -0.57f)
+                lineToRelative(1.5f, -3.43f)
+                horizontalLineToRelative(2.5f)
+                reflectiveCurveToRelative(1.04f, 2.4f, 1.5f, 3f)
+                curveToRelative(-0.06f, 0.24f, -0.5f, 0.7f, -0.95f, 1.11f)
+                curveToRelative(-0.35f, 0.32f, -0.12f, 0.89f, 0.34f, 0.89f)
+                horizontalLineToRelative(1.11f)
+                curveToRelative(0.93f, -0.8f, 1.5f, -1f, 1.5f, -2f)
+                lineToRelative(-1.5f, -3f)
+                reflectiveCurveToRelative(1f, 0f, 2f, 1f)
+                reflectiveCurveToRelative(1f, 1f, 1f, 2f)
+                curveToRelative(0.01f, 0.52f, 1.0f, 1.07f, 1.5f, 1f)
+                lineToRelative(0.34f, -1f)
+                reflectiveCurveToRelative(1.66f, -0.27f, 1.66f, -2.27f)
+                curveToRelative(0f, -1f, 0.72f, -1.03f, 1.39f, -1.26f)
+                curveToRelative(0.92f, -0.29f, 1.74f, -0.44f, 2.03f, -0.47f)
+                curveToRelative(0.23f, 0f, 0.58f, 0.1f, 0.57f, 0.73f)
+                curveToRelative(-0.01f, 0.32f, -0.15f, 1.06f, -0.5f, 1.77f)
+                curveToRelative(-0.22f, 0.45f, -1.49f, 0.51f, -2.13f, 0.51f)
+                curveToRelative(-0.22f, 0f, -0.37f, -0.01f, -0.37f, -0.01f)
+                lineToRelative(-1f, 1.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.88f, 0f, 1.57f, -0.26f, 2.3f, -1.05f)
+                curveToRelative(0.25f, -0.04f, 3.7f, -0.45f, 3.7f, -0.45f)
+                verticalLineToRelative(-1.5f)
+                reflectiveCurveToRelative(-1.12f, -0.6f, -2.0f, -1.05f)
+                curveToRelative(-0.0f, -0.49f, -0.01f, -0.95f, -0.01f, -0.95f)
+                close()
+            }
+        }.also { _EuropeMap = it}

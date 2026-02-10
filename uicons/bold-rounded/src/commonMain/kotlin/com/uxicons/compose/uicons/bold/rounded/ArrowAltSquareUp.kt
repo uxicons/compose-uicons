@@ -1,0 +1,49 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ArrowAltSquareUp: ImageVector? = null
+
+val Icons.Br.ArrowAltSquareUp: ImageVector
+    get() = _ArrowAltSquareUp ?: UXIcon(name = "ArrowAltSquareUp") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(16.74f, 10.47f)
+            curveToRelative(0.56f, 0.57f, 0.16f, 1.52f, -0.64f, 1.52f)
+            horizontalLineToRelative(-2.6f)
+            verticalLineToRelative(4.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-4.5f)
+            horizontalLineToRelative(-2.6f)
+            curveToRelative(-0.8f, 0f, -1.2f, -0.96f, -0.64f, -1.52f)
+            lineToRelative(4.19f, -4.24f)
+            curveToRelative(0.3f, -0.31f, 0.8f, -0.31f, 1.1f, 0f)
+            lineToRelative(4.19f, 4.24f)
+            close()
+            moveTo(24f, 5.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 3.03f, -2.47f, 5.5f, -5.5f, 5.5f)
+            lineTo(5.5f, 24f)
+            curveToRelative(-3.03f, 0f, -5.5f, -2.47f, -5.5f, -5.5f)
+            lineTo(0f, 5.5f)
+            curveTo(0f, 2.47f, 2.47f, 0f, 5.5f, 0f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, 2.47f, 5.5f, 5.5f)
+            close()
+            moveTo(21f, 5.5f)
+            curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+            lineTo(5.5f, 3f)
+            curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+            lineTo(21f, 5.5f)
+            close()
+        }
+    }.also { _ArrowAltSquareUp = it }

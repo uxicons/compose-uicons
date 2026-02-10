@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Tamale: ImageVector? = null
+
+val Icons.Tr.Tamale: ImageVector
+    get() = _Tamale ?: UXIcon(name = "Tamale") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.1f, 0.62f)
+                curveToRelative(-1.91f, -0.32f, -4.09f, -0.62f, -7.1f, -0.62f)
+                reflectiveCurveToRelative(-5.19f, 0.3f, -7.1f, 0.62f)
+                curveToRelative(-1.82f, 0.31f, -3.08f, 1.99f, -2.88f, 3.84f)
+                lineToRelative(0.97f, 8.04f)
+                lineToRelative(-0.94f, 7.01f)
+                curveToRelative(-0.23f, 1.86f, 1.03f, 3.56f, 2.88f, 3.87f)
+                curveToRelative(1.91f, 0.32f, 4.08f, 0.62f, 7.07f, 0.62f)
+                reflectiveCurveToRelative(5.16f, -0.3f, 7.07f, -0.62f)
+                curveToRelative(1.84f, -0.31f, 3.1f, -2.01f, 2.88f, -3.88f)
+                lineToRelative(-0.94f, -7.01f)
+                lineToRelative(0.97f, -8.04f)
+                curveToRelative(0.2f, -1.84f, -1.06f, -3.53f, -2.88f, -3.83f)
+                close()
+                moveTo(20.98f, 4.34f)
+                lineToRelative(-0.93f, 7.66f)
+                horizontalLineToRelative(-2.01f)
+                lineToRelative(0.9f, -10.39f)
+                curveToRelative(1.29f, 0.23f, 2.18f, 1.42f, 2.04f, 2.73f)
+                close()
+                moveTo(14.31f, 12f)
+                lineToRelative(0.42f, -10.91f)
+                curveToRelative(1.2f, 0.08f, 2.26f, 0.21f, 3.23f, 0.36f)
+                lineToRelative(-0.92f, 10.55f)
+                horizontalLineToRelative(-2.73f)
+                close()
+                moveTo(13.74f, 1.04f)
+                lineToRelative(-0.42f, 10.96f)
+                horizontalLineToRelative(-2.53f)
+                lineToRelative(-0.52f, -10.96f)
+                curveToRelative(0.55f, -0.02f, 1.12f, -0.04f, 1.73f, -0.04f)
+                reflectiveCurveToRelative(1.19f, 0.01f, 1.74f, 0.04f)
+                close()
+                moveTo(6.96f, 12f)
+                lineToRelative(-0.92f, -10.55f)
+                curveToRelative(0.97f, -0.15f, 2.03f, -0.28f, 3.23f, -0.36f)
+                lineToRelative(0.51f, 10.91f)
+                horizontalLineToRelative(-2.83f)
+                close()
+                moveTo(5.05f, 1.61f)
+                lineToRelative(0.9f, 10.39f)
+                horizontalLineToRelative(-2.01f)
+                lineToRelative(-0.93f, -7.65f)
+                curveToRelative(-0.14f, -1.31f, 0.75f, -2.51f, 2.04f, -2.73f)
+                close()
+                moveTo(18.95f, 22.39f)
+                lineToRelative(-0.6f, -6.93f)
+                curveToRelative(-0.02f, -0.28f, -0.27f, -0.48f, -0.54f, -0.46f)
+                curveToRelative(-0.28f, 0.02f, -0.48f, 0.27f, -0.46f, 0.54f)
+                lineToRelative(0.61f, 7.0f)
+                curveToRelative(-0.97f, 0.15f, -2.02f, 0.28f, -3.23f, 0.36f)
+                lineToRelative(-0.29f, -7.43f)
+                curveToRelative(-0.01f, -0.28f, -0.26f, -0.5f, -0.52f, -0.48f)
+                curveToRelative(-0.28f, 0.01f, -0.49f, 0.24f, -0.48f, 0.52f)
+                lineToRelative(0.29f, 7.44f)
+                curveToRelative(-0.55f, 0.02f, -1.12f, 0.04f, -1.74f, 0.04f)
+                reflectiveCurveToRelative(-1.18f, -0.01f, -1.73f, -0.04f)
+                lineToRelative(0.35f, -7.44f)
+                curveToRelative(0.01f, -0.28f, -0.2f, -0.51f, -0.48f, -0.52f)
+                curveToRelative(-0.29f, -0.03f, -0.51f, 0.2f, -0.52f, 0.48f)
+                lineToRelative(-0.35f, 7.43f)
+                curveToRelative(-1.2f, -0.08f, -2.26f, -0.21f, -3.23f, -0.36f)
+                lineToRelative(0.61f, -7.0f)
+                curveToRelative(0.02f, -0.28f, -0.18f, -0.52f, -0.46f, -0.54f)
+                curveToRelative(-0.27f, -0.02f, -0.52f, 0.18f, -0.54f, 0.46f)
+                lineToRelative(-0.6f, 6.93f)
+                curveToRelative(-1.29f, -0.24f, -2.16f, -1.44f, -2.0f, -2.75f)
+                lineToRelative(0.89f, -6.64f)
+                horizontalLineToRelative(16.12f)
+                lineToRelative(0.89f, 6.63f)
+                curveToRelative(0.16f, 1.31f, -0.72f, 2.51f, -2.0f, 2.75f)
+                close()
+            }
+        }.also { _Tamale = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AppNotification: ImageVector? = null
+
+val Icons.Bs.AppNotification: ImageVector
+    get() = _AppNotification ?: UXIcon(name = "AppNotification") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 8.79f)
+                verticalLineToRelative(4.21f)
+                lineTo(3f, 13f)
+                lineTo(3f, 5.5f)
+                curveToRelative(0f, -0.28f, 0.23f, -0.5f, 0.5f, -0.5f)
+                lineTo(15.21f, 5f)
+                curveToRelative(-0.14f, -0.48f, -0.21f, -0.98f, -0.21f, -1.5f)
+                reflectiveCurveToRelative(0.08f, -1.02f, 0.21f, -1.5f)
+                lineTo(3.5f, 2f)
+                curveTo(1.57f, 2f, 0f, 3.57f, 0f, 5.5f)
+                lineTo(0f, 24f)
+                lineTo(22f, 24f)
+                lineTo(22f, 8.79f)
+                curveToRelative(-0.48f, 0.14f, -0.98f, 0.21f, -1.5f, 0.21f)
+                reflectiveCurveToRelative(-1.02f, -0.08f, -1.5f, -0.21f)
+                close()
+                moveTo(14f, 15f)
+                horizontalLineToRelative(1.97f)
+                curveToRelative(1.1f, 0f, 1.99f, 0.89f, 1.99f, 1.99f)
+                reflectiveCurveToRelative(-0.89f, 1.99f, -1.99f, 1.99f)
+                horizontalLineToRelative(-0.72f)
+                verticalLineToRelative(2.03f)
+                horizontalLineToRelative(-1.25f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(9f, 15f)
+                horizontalLineToRelative(1.97f)
+                curveToRelative(1.1f, 0f, 1.99f, 0.89f, 1.99f, 1.99f)
+                reflectiveCurveToRelative(-0.89f, 1.99f, -1.99f, 1.99f)
+                horizontalLineToRelative(-0.72f)
+                verticalLineToRelative(2.03f)
+                horizontalLineToRelative(-1.25f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(4.11f, 16.19f)
+                curveToRelative(0.14f, -0.77f, 0.78f, -1.16f, 1.41f, -1.16f)
+                curveToRelative(0.64f, 0f, 1.28f, 0.4f, 1.42f, 1.19f)
+                lineToRelative(1.08f, 4.78f)
+                horizontalLineToRelative(-1.29f)
+                lineToRelative(-0.23f, -1f)
+                horizontalLineToRelative(-2.04f)
+                lineToRelative(-0.24f, 1f)
+                horizontalLineToRelative(-1.23f)
+                lineToRelative(1.1f, -4.81f)
+                close()
+                moveTo(24f, 3.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                reflectiveCurveToRelative(-3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                close()
+                moveTo(6.22f, 18.75f)
+                horizontalLineToRelative(-1.45f)
+                lineToRelative(0.55f, -2.28f)
+                curveToRelative(-0.04f, -0.24f, 0.42f, -0.25f, 0.39f, -0.0f)
+                lineToRelative(0.51f, 2.28f)
+                close()
+                moveTo(15.97f, 17.72f)
+                lineToRelative(-0.71f, 0.0f)
+                verticalLineToRelative(-1.47f)
+                horizontalLineToRelative(0.72f)
+                curveToRelative(0.41f, 0f, 0.73f, 0.33f, 0.73f, 0.73f)
+                reflectiveCurveToRelative(-0.33f, 0.73f, -0.73f, 0.73f)
+                close()
+                moveTo(10.97f, 17.72f)
+                lineToRelative(-0.71f, 0.0f)
+                verticalLineToRelative(-1.47f)
+                horizontalLineToRelative(0.72f)
+                curveToRelative(0.41f, 0f, 0.73f, 0.33f, 0.73f, 0.73f)
+                reflectiveCurveToRelative(-0.33f, 0.73f, -0.73f, 0.73f)
+                close()
+            }
+        }.also { _AppNotification = it}

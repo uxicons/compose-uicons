@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _OrderFoodMobile: ImageVector? = null
+
+val Icons.Ts.OrderFoodMobile: ImageVector
+    get() = _OrderFoodMobile ?: UXIcon(name = "OrderFoodMobile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 3f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                lineToRelative(0.0f, 7.91f)
+                curveToRelative(-0.02f, 0.86f, 0.74f, 1.6f, 1.59f, 1.59f)
+                curveToRelative(0.3f, 0f, 0.59f, -0.09f, 0.85f, -0.26f)
+                lineToRelative(2.7f, -1.75f)
+                horizontalLineToRelative(6.85f)
+                reflectiveCurveToRelative(0f, -7.5f, 0f, -7.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 12f)
+                horizontalLineToRelative(-6.15f)
+                reflectiveCurveToRelative(-2.95f, 1.91f, -2.95f, 1.91f)
+                curveToRelative(-0.18f, 0.12f, -0.41f, 0.12f, -0.6f, 0.02f)
+                curveToRelative(-0.19f, -0.1f, -0.3f, -0.3f, -0.3f, -0.51f)
+                lineToRelative(-0.0f, -7.91f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(6.5f)
+                close()
+                moveTo(19.5f, 5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(16.5f, 6f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(19.5f, 10f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                horizontalLineToRelative(1.67f)
+                lineToRelative(1.33f, 1f)
+                lineToRelative(1.33f, -1f)
+                horizontalLineToRelative(1.67f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(1f, 1f)
+                horizontalLineToRelative(15f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-16f)
+                verticalLineToRelative(21.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-4.5f)
+                horizontalLineToRelative(-15f)
+                close()
+                moveTo(15f, 18f)
+                verticalLineToRelative(3.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-11f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-3.5f)
+                close()
+                moveTo(10f, 21f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                close()
+            }
+        }.also { _OrderFoodMobile = it}

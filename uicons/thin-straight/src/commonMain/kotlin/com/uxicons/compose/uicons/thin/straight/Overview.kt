@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Overview: ImageVector? = null
+
+val Icons.Ts.Overview: ImageVector
+    get() = _Overview ?: UXIcon(name = "Overview") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17f, 15f)
+                curveToRelative(-4.19f, 0f, -6.33f, 3.5f, -6.85f, 4.5f)
+                curveToRelative(0.52f, 1.0f, 2.66f, 4.5f, 6.85f, 4.5f)
+                reflectiveCurveToRelative(6.33f, -3.5f, 6.85f, -4.5f)
+                curveToRelative(-0.52f, -1.0f, -2.66f, -4.5f, -6.85f, -4.5f)
+                close()
+                moveTo(17f, 23f)
+                curveToRelative(-3.3f, 0f, -5.03f, -2.29f, -5.72f, -3.5f)
+                curveToRelative(0.69f, -1.21f, 2.42f, -3.5f, 5.72f, -3.5f)
+                reflectiveCurveToRelative(5.03f, 2.29f, 5.72f, 3.5f)
+                curveToRelative(-0.69f, 1.21f, -2.42f, 3.5f, -5.72f, 3.5f)
+                close()
+                moveTo(9f, 10.5f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-11f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(17f, 17.5f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(17f, 20.5f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(6f, 5.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(6f, 11f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(20f, 6f)
+                horizontalLineToRelative(-11f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(6f, 16.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(24f, 2.5f)
+                verticalLineToRelative(13.68f)
+                curveToRelative(-0.29f, -0.33f, -0.62f, -0.66f, -1f, -0.98f)
+                lineTo(23f, 2.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 1f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(18.5f)
+                horizontalLineToRelative(7.69f)
+                curveToRelative(0.16f, 0.28f, 0.38f, 0.62f, 0.65f, 1f)
+                lineTo(0f, 22f)
+                lineTo(0f, 2.5f)
+                curveTo(0f, 1.12f, 1.12f, 0f, 2.5f, 0f)
+                horizontalLineToRelative(19f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+            }
+        }.also { _Overview = it}

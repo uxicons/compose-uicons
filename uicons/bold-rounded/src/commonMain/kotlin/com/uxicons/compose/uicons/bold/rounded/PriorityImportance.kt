@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PriorityImportance: ImageVector? = null
+
+val Icons.Br.PriorityImportance: ImageVector
+    get() = _PriorityImportance ?: UXIcon(name = "PriorityImportance") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(7f, 2.5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(14f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-14f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            close()
+            moveTo(8.5f, 12.99f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+            moveTo(3f, 0f)
+            horizontalLineToRelative(-1f)
+            curveTo(0.9f, 0f, 0f, 0.9f, 0f, 2f)
+            verticalLineToRelative(1f)
+            curveTo(0f, 4.11f, 0.9f, 5f, 2f, 5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+            close()
+            moveTo(3f, 9f)
+            horizontalLineToRelative(-1f)
+            curveTo(0.9f, 9f, 0f, 9.89f, 0f, 11f)
+            verticalLineToRelative(1f)
+            curveTo(0f, 13.11f, 0.9f, 14f, 2f, 14f)
+            horizontalLineToRelative(1f)
+            curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+            close()
+            moveTo(12.5f, 19f)
+            horizontalLineToRelative(-4f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(4f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(3f, 18f)
+            horizontalLineToRelative(-0.99f)
+            curveTo(0.9f, 18f, 0.01f, 18.89f, 0.01f, 20f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+            horizontalLineToRelative(0.99f)
+            curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+            close()
+            moveTo(20.31f, 6.73f)
+            curveToRelative(-0.47f, -0.47f, -1.1f, -0.73f, -1.77f, -0.73f)
+            horizontalLineToRelative(-0.0f)
+            curveToRelative(-0.67f, 0f, -1.3f, 0.26f, -1.75f, 0.71f)
+            lineToRelative(-3.34f, 3.21f)
+            curveToRelative(-0.6f, 0.57f, -0.61f, 1.52f, -0.04f, 2.12f)
+            curveToRelative(0.29f, 0.31f, 0.69f, 0.46f, 1.08f, 0.46f)
+            curveToRelative(0.37f, 0f, 0.75f, -0.14f, 1.04f, -0.42f)
+            lineToRelative(1.46f, -1.4f)
+            verticalLineToRelative(11.82f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-11.86f)
+            lineToRelative(1.45f, 1.43f)
+            curveToRelative(0.59f, 0.58f, 1.54f, 0.58f, 2.12f, -0.01f)
+            curveToRelative(0.58f, -0.59f, 0.58f, -1.54f, -0.01f, -2.12f)
+            lineToRelative(-3.24f, -3.2f)
+            close()
+        }
+    }.also { _PriorityImportance = it }

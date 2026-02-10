@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ObjFile: ImageVector? = null
+
+val Icons.Rs.ObjFile: ImageVector
+    get() = _ObjFile ?: UXIcon(name = "ObjFile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(6.5f, 14.3f)
+                verticalLineToRelative(3.4f)
+                curveToRelative(0f, 1.27f, 1.03f, 2.3f, 2.3f, 2.3f)
+                reflectiveCurveToRelative(2.3f, -1.03f, 2.3f, -2.3f)
+                verticalLineToRelative(-3.4f)
+                curveToRelative(0f, -1.27f, -1.03f, -2.3f, -2.3f, -2.3f)
+                reflectiveCurveToRelative(-2.3f, 1.03f, -2.3f, 2.3f)
+                close()
+                moveTo(9.5f, 14.3f)
+                verticalLineToRelative(3.4f)
+                curveToRelative(0f, 0.39f, -0.31f, 0.7f, -0.7f, 0.7f)
+                reflectiveCurveToRelative(-0.7f, -0.31f, -0.7f, -0.7f)
+                verticalLineToRelative(-3.4f)
+                curveToRelative(0f, -0.39f, 0.31f, -0.7f, 0.7f, -0.7f)
+                reflectiveCurveToRelative(0.7f, 0.31f, 0.7f, 0.7f)
+                close()
+                moveTo(14.76f, 12f)
+                horizontalLineToRelative(-2.26f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(2.59f)
+                curveToRelative(1.32f, 0f, 2.39f, -1.07f, 2.39f, -2.39f)
+                curveToRelative(0f, -0.71f, -0.32f, -1.35f, -0.82f, -1.79f)
+                curveToRelative(0.3f, -0.4f, 0.49f, -0.9f, 0.49f, -1.44f)
+                curveToRelative(0f, -1.32f, -1.07f, -2.39f, -2.39f, -2.39f)
+                close()
+                moveTo(14.09f, 13.59f)
+                horizontalLineToRelative(0.67f)
+                curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+                reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+                horizontalLineToRelative(-0.67f)
+                close()
+                moveTo(15.09f, 18.41f)
+                horizontalLineToRelative(-1.0f)
+                verticalLineToRelative(-1.59f)
+                horizontalLineToRelative(1.0f)
+                curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+                reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+                close()
+                moveTo(23f, 12f)
+                verticalLineToRelative(5.7f)
+                curveToRelative(0f, 1.27f, -1.03f, 2.3f, -2.3f, 2.3f)
+                reflectiveCurveToRelative(-2.3f, -1.03f, -2.3f, -2.3f)
+                verticalLineToRelative(-0.7f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(0.7f)
+                curveToRelative(0f, 0.39f, 0.31f, 0.7f, 0.7f, 0.7f)
+                reflectiveCurveToRelative(0.7f, -0.31f, 0.7f, -0.7f)
+                verticalLineToRelative(-5.7f)
+                close()
+                moveTo(3f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2.41f)
+                lineToRelative(-7.59f, -7.59f)
+                horizontalLineToRelative(-9.41f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(21f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-18f)
+                close()
+                moveTo(14f, 3.41f)
+                lineTo(17.59f, 7f)
+                horizontalLineToRelative(-3.59f)
+                close()
+            }
+        }.also { _ObjFile = it}

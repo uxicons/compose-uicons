@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TeamCheck: ImageVector? = null
+
+val Icons.Tr.TeamCheck: ImageVector
+    get() = _TeamCheck ?: UXIcon(name = "TeamCheck") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.5f, 11f)
+                curveToRelative(-3.58f, 0f, -6.5f, 2.92f, -6.5f, 6.5f)
+                reflectiveCurveToRelative(2.92f, 6.5f, 6.5f, 6.5f)
+                reflectiveCurveToRelative(6.5f, -2.92f, 6.5f, -6.5f)
+                reflectiveCurveToRelative(-2.92f, -6.5f, -6.5f, -6.5f)
+                close()
+                moveTo(17.5f, 23f)
+                curveToRelative(-3.03f, 0f, -5.5f, -2.47f, -5.5f, -5.5f)
+                reflectiveCurveToRelative(2.47f, -5.5f, 5.5f, -5.5f)
+                reflectiveCurveToRelative(5.5f, 2.47f, 5.5f, 5.5f)
+                reflectiveCurveToRelative(-2.47f, 5.5f, -5.5f, 5.5f)
+                close()
+                moveTo(20.85f, 16.14f)
+                curveToRelative(0.19f, 0.2f, 0.19f, 0.52f, -0.01f, 0.71f)
+                lineToRelative(-2.7f, 2.61f)
+                curveToRelative(-0.36f, 0.35f, -0.83f, 0.53f, -1.31f, 0.53f)
+                reflectiveCurveToRelative(-0.95f, -0.18f, -1.31f, -0.53f)
+                lineToRelative(-1.36f, -1.35f)
+                curveToRelative(-0.2f, -0.19f, -0.2f, -0.51f, -0.0f, -0.71f)
+                curveToRelative(0.19f, -0.2f, 0.51f, -0.2f, 0.71f, -0.0f)
+                lineToRelative(1.36f, 1.34f)
+                curveToRelative(0.34f, 0.33f, 0.89f, 0.33f, 1.22f, -0.0f)
+                lineToRelative(2.71f, -2.62f)
+                curveToRelative(0.2f, -0.19f, 0.52f, -0.19f, 0.71f, 0.01f)
+                close()
+                moveTo(5.5f, 10f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                close()
+                moveTo(5.5f, 5f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(9.9f, 14.2f)
+                curveToRelative(0.17f, 0.22f, 0.12f, 0.53f, -0.1f, 0.7f)
+                curveToRelative(-0.22f, 0.17f, -0.53f, 0.12f, -0.7f, -0.1f)
+                curveToRelative(-0.86f, -1.14f, -2.17f, -1.8f, -3.6f, -1.8f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                curveToRelative(0f, -3.03f, 2.47f, -5.5f, 5.5f, -5.5f)
+                curveToRelative(1.75f, 0f, 3.35f, 0.8f, 4.4f, 2.2f)
+                close()
+                moveTo(15.5f, 6f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                close()
+                moveTo(15.5f, 1f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(10.73f, 12.5f)
+                curveToRelative(-0.49f, 0f, -0.56f, -0.39f, -0.48f, -0.65f)
+                curveToRelative(0.72f, -2.3f, 2.83f, -3.85f, 5.25f, -3.85f)
+                curveToRelative(0.97f, 0f, 1.92f, 0.25f, 2.75f, 0.74f)
+                curveToRelative(0.24f, 0.14f, 0.32f, 0.44f, 0.18f, 0.68f)
+                curveToRelative(-0.14f, 0.24f, -0.45f, 0.32f, -0.68f, 0.18f)
+                curveToRelative(-0.68f, -0.39f, -1.46f, -0.6f, -2.25f, -0.6f)
+                curveToRelative(-1.98f, 0f, -3.7f, 1.27f, -4.29f, 3.15f)
+                curveToRelative(-0.07f, 0.21f, -0.26f, 0.35f, -0.48f, 0.35f)
+                close()
+            }
+        }.also { _TeamCheck = it}

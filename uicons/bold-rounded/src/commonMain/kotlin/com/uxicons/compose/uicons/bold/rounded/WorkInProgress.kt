@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WorkInProgress: ImageVector? = null
+
+val Icons.Br.WorkInProgress: ImageVector
+    get() = _WorkInProgress ?: UXIcon(name = "WorkInProgress") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.5f, 10.5f)
+            curveToRelative(0f, 0.5f, -0.4f, 0.9f, -0.9f, 0.9f)
+            horizontalLineToRelative(-0.5f)
+            verticalLineToRelative(-1.8f)
+            horizontalLineToRelative(0.5f)
+            curveToRelative(0.5f, 0f, 0.9f, 0.4f, 0.9f, 0.9f)
+            close()
+            moveTo(24f, 12f)
+            curveToRelative(0f, 1.38f, -0.54f, 2.68f, -1.51f, 3.65f)
+            lineToRelative(-6.83f, 6.83f)
+            curveToRelative(-1.01f, 1.01f, -2.33f, 1.51f, -3.65f, 1.51f)
+            reflectiveCurveToRelative(-2.65f, -0.5f, -3.65f, -1.51f)
+            lineTo(1.51f, 15.65f)
+            curveToRelative(-0.98f, -0.98f, -1.51f, -2.27f, -1.51f, -3.65f)
+            reflectiveCurveToRelative(0.54f, -2.68f, 1.51f, -3.65f)
+            lineTo(8.35f, 1.51f)
+            curveToRelative(2.02f, -2.02f, 5.29f, -2.01f, 7.31f, 0f)
+            lineToRelative(6.83f, 6.83f)
+            curveToRelative(0.98f, 0.98f, 1.51f, 2.27f, 1.51f, 3.65f)
+            close()
+            moveTo(8.1f, 6f)
+            horizontalLineToRelative(7.8f)
+            lineToRelative(-2.37f, -2.37f)
+            curveToRelative(-0.85f, -0.84f, -2.22f, -0.84f, -3.07f, 0f)
+            lineToRelative(-2.37f, 2.37f)
+            close()
+            moveTo(13.3f, 8f)
+            curveToRelative(-0.44f, 0f, -0.8f, 0.36f, -0.8f, 0.8f)
+            verticalLineToRelative(6.4f)
+            curveToRelative(0f, 0.44f, 0.36f, 0.8f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(0.8f, -0.36f, 0.8f, -0.8f)
+            verticalLineToRelative(-6.4f)
+            curveToRelative(0f, -0.44f, -0.36f, -0.8f, -0.8f, -0.8f)
+            close()
+            moveTo(7.77f, 12.8f)
+            lineToRelative(1.16f, 2.56f)
+            curveToRelative(0.18f, 0.4f, 0.5f, 0.64f, 0.84f, 0.64f)
+            curveToRelative(0.52f, 0f, 0.94f, -0.29f, 0.99f, -1f)
+            lineToRelative(0.45f, -6.14f)
+            curveToRelative(0.03f, -0.46f, -0.33f, -0.86f, -0.8f, -0.86f)
+            curveToRelative(-0.42f, 0f, -0.77f, 0.32f, -0.8f, 0.74f)
+            lineToRelative(-0.27f, 3.66f)
+            lineToRelative(-0.85f, -1.87f)
+            curveToRelative(-0.28f, -0.62f, -1.17f, -0.62f, -1.46f, 0f)
+            lineToRelative(-0.85f, 1.87f)
+            lineToRelative(-0.27f, -3.66f)
+            curveToRelative(-0.03f, -0.42f, -0.38f, -0.74f, -0.8f, -0.74f)
+            curveToRelative(-0.47f, 0f, -0.83f, 0.39f, -0.8f, 0.86f)
+            lineToRelative(0.45f, 6.14f)
+            curveToRelative(0.04f, 0.7f, 0.47f, 1f, 0.99f, 1f)
+            curveToRelative(0.34f, 0f, 0.66f, -0.24f, 0.84f, -0.64f)
+            lineToRelative(1.16f, -2.56f)
+            close()
+            moveTo(15.9f, 18f)
+            horizontalLineToRelative(-7.8f)
+            lineToRelative(2.37f, 2.37f)
+            curveToRelative(0.85f, 0.84f, 2.22f, 0.84f, 3.07f, 0f)
+            lineToRelative(2.37f, -2.37f)
+            close()
+            moveTo(20.09f, 10.24f)
+            curveToRelative(-0.13f, -1.3f, -1.32f, -2.24f, -2.63f, -2.24f)
+            horizontalLineToRelative(-1.16f)
+            curveToRelative(-0.44f, 0f, -0.8f, 0.36f, -0.8f, 0.8f)
+            verticalLineToRelative(6.4f)
+            curveToRelative(0f, 0.44f, 0.36f, 0.8f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(0.8f, -0.36f, 0.8f, -0.8f)
+            verticalLineToRelative(-2.2f)
+            horizontalLineToRelative(0.5f)
+            curveToRelative(1.47f, 0f, 2.64f, -1.26f, 2.49f, -2.76f)
+            close()
+        }
+    }.also { _WorkInProgress = it }

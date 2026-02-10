@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GunSquirt: ImageVector? = null
+
+val Icons.Sr.GunSquirt: ImageVector
+    get() = _GunSquirt ?: UXIcon(name = "GunSquirt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 6f)
+                horizontalLineToRelative(-1.1f)
+                curveToRelative(-0.47f, -2.28f, -2.48f, -4f, -4.9f, -4f)
+                lineTo(5f, 2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1.42f)
+                curveTo(1.24f, 3.2f, 0f, 4.96f, 0f, 7f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(2.41f, 0f, 4.43f, -1.72f, 4.9f, -4f)
+                horizontalLineToRelative(1.1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(23f, 6f)
+                horizontalLineToRelative(-1.1f)
+                curveToRelative(-0.47f, -2.28f, -2.48f, -4f, -4.9f, -4f)
+                lineTo(5f, 2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1.42f)
+                curveTo(1.24f, 3.2f, 0f, 4.96f, 0f, 7f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(2.41f, 0f, 4.43f, -1.72f, 4.9f, -4f)
+                horizontalLineToRelative(1.1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(12f, 8f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(12f, 8f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(10f, 15f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3.22f)
+                lineToRelative(-1.11f, 3.9f)
+                curveToRelative(-0.35f, 1.24f, -1.49f, 2.1f, -2.78f, 2.1f)
+                curveToRelative(-0.91f, 0f, -1.75f, -0.42f, -2.3f, -1.14f)
+                curveToRelative(-0.55f, -0.73f, -0.73f, -1.65f, -0.48f, -2.52f)
+                lineToRelative(2.0f, -6.97f)
+                curveToRelative(0.88f, 0.4f, 1.86f, 0.63f, 2.89f, 0.63f)
+                horizontalLineToRelative(2.92f)
+                lineToRelative(-0.57f, 2f)
+                horizontalLineToRelative(2.65f)
+                verticalLineToRelative(-1f)
+                close()
+            }
+        }.also { _GunSquirt = it}

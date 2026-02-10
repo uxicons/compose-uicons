@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Burrito: ImageVector? = null
+
+val Icons.Ts.Burrito: ImageVector
+    get() = _Burrito ?: UXIcon(name = "Burrito") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11f, 17f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(8f, 19f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(12f, 19f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(20f, 6.24f)
+                verticalLineToRelative(15.26f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                lineTo(6.5f, 24f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                lineTo(4f, 6.24f)
+                curveToRelative(-0.64f, -0.57f, -1f, -1.37f, -1f, -2.24f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                curveToRelative(0.45f, 0f, 0.9f, 0.1f, 1.3f, 0.3f)
+                curveToRelative(0.66f, -0.82f, 1.64f, -1.3f, 2.7f, -1.3f)
+                curveToRelative(0.71f, 0f, 1.41f, 0.23f, 2f, 0.64f)
+                curveToRelative(0.59f, -0.41f, 1.28f, -0.64f, 2f, -0.64f)
+                curveToRelative(1.06f, 0f, 2.04f, 0.48f, 2.7f, 1.3f)
+                curveToRelative(0.41f, -0.2f, 0.85f, -0.3f, 1.3f, -0.3f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                curveToRelative(0f, 0.87f, -0.36f, 1.67f, -1f, 2.24f)
+                close()
+                moveTo(19f, 21.5f)
+                curveToRelative(0.39f, -6.31f, -8.73f, -14.5f, -14f, -14.97f)
+                verticalLineToRelative(14.97f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(0.83f, 0f, 1.45f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(19f, 6.52f)
+                curveToRelative(-2.11f, 0.16f, -4.39f, 1.33f, -5.94f, 3.02f)
+                curveToRelative(2.46f, 2.0f, 4.7f, 4.6f, 5.94f, 7.45f)
+                lineTo(19f, 6.52f)
+                close()
+                moveTo(20f, 4f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                curveToRelative(-0.41f, 0f, -0.81f, 0.13f, -1.16f, 0.37f)
+                lineToRelative(-0.44f, 0.31f)
+                lineToRelative(-0.28f, -0.46f)
+                curveToRelative(-0.46f, -0.77f, -1.25f, -1.22f, -2.13f, -1.22f)
+                curveToRelative(-0.61f, 0f, -1.2f, 0.23f, -1.67f, 0.65f)
+                lineToRelative(-0.33f, 0.3f)
+                lineToRelative(-0.33f, -0.3f)
+                curveToRelative(-0.47f, -0.42f, -1.06f, -0.65f, -1.67f, -0.65f)
+                curveToRelative(-0.87f, 0f, -1.67f, 0.46f, -2.13f, 1.22f)
+                lineToRelative(-0.28f, 0.46f)
+                lineToRelative(-0.44f, -0.31f)
+                curveToRelative(-0.34f, -0.24f, -0.74f, -0.37f, -1.16f, -0.37f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                curveToRelative(0f, 0.58f, 0.25f, 1.12f, 0.68f, 1.5f)
+                curveToRelative(1.17f, 0.04f, 2.64f, 0.51f, 4.21f, 1.3f)
+                curveToRelative(0.81f, -1.08f, 1.71f, -2.14f, 2.8f, -2.85f)
+                lineToRelative(0.54f, 0.84f)
+                curveToRelative(-0.93f, 0.6f, -1.73f, 1.52f, -2.45f, 2.49f)
+                curveToRelative(0.82f, 0.47f, 1.66f, 1.02f, 2.49f, 1.64f)
+                curveToRelative(1.81f, -2f, 4.56f, -3.35f, 7.04f, -3.42f)
+                curveToRelative(0.43f, -0.38f, 0.68f, -0.92f, 0.68f, -1.5f)
+                close()
+            }
+        }.also { _Burrito = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Turkey: ImageVector? = null
+
+val Icons.Tr.Turkey: ImageVector
+    get() = _Turkey ?: UXIcon(name = "Turkey") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11f, 3.5f)
+                lineTo(11f, 0.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                lineTo(12f, 3.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                close()
+                moveTo(7.5f, 4f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(8f, 0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                lineTo(7f, 3.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(3.5f, 4f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(4f, 0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                lineTo(3f, 3.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(12.24f, 7.35f)
+                lineToRelative(0.01f, -0.0f)
+                curveToRelative(-0.01f, -0.01f, -0.03f, -0.01f, -0.01f, 0.0f)
+                close()
+                moveTo(24f, 18.17f)
+                curveToRelative(0f, 5.26f, -10.59f, 5.83f, -15.14f, 5.83f)
+                curveToRelative(-0.88f, 0f, -2.5f, -0.17f, -4.84f, -0.51f)
+                curveToRelative(-2.3f, -0.33f, -4.03f, -2.36f, -4.03f, -4.72f)
+                verticalLineToRelative(-2.74f)
+                curveTo(0f, 11.13f, 3.84f, 7.08f, 8.55f, 7.0f)
+                curveToRelative(1.19f, -0.02f, 2.53f, 0.13f, 3.69f, 0.34f)
+                curveToRelative(0.02f, 0.0f, 0.02f, 0f, 0.01f, -0.0f)
+                curveToRelative(2.2f, -1.12f, 4.98f, -1.89f, 6.57f, -0.86f)
+                lineToRelative(1.64f, -1.64f)
+                curveToRelative(-0.27f, -0.18f, -0.46f, -0.49f, -0.46f, -0.84f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                curveToRelative(-0.35f, 0f, -0.66f, -0.18f, -0.84f, -0.46f)
+                lineToRelative(-1.64f, 1.64f)
+                curveToRelative(0.53f, 0.83f, 0.62f, 2.08f, 0.26f, 3.61f)
+                curveToRelative(2.65f, 2.16f, 4.22f, 4.9f, 4.22f, 7.37f)
+                close()
+                moveTo(10.22f, 9.9f)
+                curveToRelative(-0.79f, 0.79f, -1.22f, 1.83f, -1.22f, 2.94f)
+                reflectiveCurveToRelative(0.43f, 2.15f, 1.22f, 2.94f)
+                curveToRelative(1.62f, 1.62f, 4.26f, 1.62f, 5.88f, 0f)
+                curveToRelative(0.89f, -0.89f, 1.89f, -2.66f, 2.44f, -4.3f)
+                curveToRelative(0.63f, -1.88f, 0.61f, -3.33f, -0.04f, -3.98f)
+                curveToRelative(-0.34f, -0.34f, -0.88f, -0.5f, -1.58f, -0.5f)
+                curveToRelative(-0.67f, 0f, -1.48f, 0.15f, -2.4f, 0.46f)
+                curveToRelative(-1.64f, 0.55f, -3.41f, 1.55f, -4.3f, 2.44f)
+                close()
+                moveTo(23f, 18.17f)
+                curveToRelative(0f, -2.07f, -1.31f, -4.4f, -3.52f, -6.32f)
+                curveToRelative(-0.6f, 1.79f, -1.68f, 3.65f, -2.67f, 4.64f)
+                curveToRelative(-1.01f, 1.0f, -2.33f, 1.51f, -3.65f, 1.51f)
+                reflectiveCurveToRelative(-2.64f, -0.5f, -3.65f, -1.51f)
+                curveToRelative(-2.01f, -2.01f, -2.01f, -5.28f, 0f, -7.29f)
+                curveToRelative(0.33f, -0.33f, 0.81f, -0.7f, 1.38f, -1.07f)
+                curveToRelative(-0.77f, -0.09f, -1.55f, -0.13f, -2.32f, -0.12f)
+                curveToRelative(-4.17f, 0.07f, -7.57f, 3.67f, -7.57f, 8.03f)
+                verticalLineToRelative(2.74f)
+                curveToRelative(0f, 1.87f, 1.36f, 3.47f, 3.17f, 3.73f)
+                curveToRelative(2.25f, 0.33f, 3.88f, 0.5f, 4.69f, 0.5f)
+                curveToRelative(6.83f, 0f, 14.14f, -1.27f, 14.14f, -4.83f)
+                close()
+            }
+        }.also { _Turkey = it}

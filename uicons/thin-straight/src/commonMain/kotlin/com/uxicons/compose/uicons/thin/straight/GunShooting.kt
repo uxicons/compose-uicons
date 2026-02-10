@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GunShooting: ImageVector? = null
+
+val Icons.Ts.GunShooting: ImageVector
+    get() = _GunShooting ?: UXIcon(name = "GunShooting") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15f, 5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                lineTo(2f, 6f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                lineTo(0f, 8f)
+                verticalLineToRelative(5f)
+                lineTo(0.5f, 13f)
+                curveToRelative(0.79f, -0.02f, 1.4f, 0.81f, 1.15f, 1.56f)
+                lineTo(0.02f, 19.85f)
+                lineToRelative(-0.02f, 1.15f)
+                lineTo(5.82f, 21f)
+                lineToRelative(1.52f, -5f)
+                horizontalLineToRelative(1.58f)
+                curveToRelative(1.11f, 0f, 2.08f, -0.72f, 2.4f, -1.78f)
+                lineToRelative(0.37f, -1.22f)
+                horizontalLineToRelative(4.18f)
+                lineToRelative(1.11f, -3.34f)
+                lineToRelative(0.03f, -3.66f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(5.08f, 20f)
+                lineTo(1.02f, 20f)
+                lineToRelative(1.58f, -5.15f)
+                curveToRelative(0.2f, -0.63f, 0.1f, -1.3f, -0.26f, -1.85f)
+                lineTo(7.2f, 13f)
+                lineToRelative(-2.12f, 7f)
+                close()
+                moveTo(10.36f, 13.93f)
+                curveToRelative(-0.19f, 0.64f, -0.77f, 1.07f, -1.44f, 1.07f)
+                horizontalLineToRelative(-1.28f)
+                lineToRelative(0.61f, -2f)
+                horizontalLineToRelative(2.39f)
+                lineToRelative(-0.28f, 0.93f)
+                close()
+                moveTo(16.0f, 9f)
+                lineTo(3.5f, 9f)
+                verticalLineToRelative(1f)
+                lineTo(15.81f, 10f)
+                lineToRelative(-0.67f, 2f)
+                lineTo(1f, 12f)
+                verticalLineToRelative(-3.05f)
+                curveToRelative(0.98f, -0.2f, 1.75f, -0.97f, 1.95f, -1.95f)
+                horizontalLineToRelative(13.05f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(24.0f, 9.5f)
+                lineToRelative(-3f, 1.5f)
+                lineToRelative(3f, 3f)
+                lineToRelative(-3f, -0.5f)
+                lineToRelative(1f, 4f)
+                lineToRelative(-4f, -4f)
+                verticalLineToRelative(-1.47f)
+                lineToRelative(2.15f, 2.21f)
+                lineToRelative(-0.49f, -1.98f)
+                lineToRelative(1.43f, 0.24f)
+                lineToRelative(-1.77f, -1.77f)
+                lineToRelative(2.45f, -1.23f)
+                lineToRelative(-2.45f, -1.23f)
+                lineToRelative(1.77f, -1.77f)
+                lineToRelative(-1.43f, 0.24f)
+                lineToRelative(0.49f, -1.98f)
+                lineToRelative(-2.15f, 2.0f)
+                verticalLineToRelative(-1.26f)
+                lineTo(22f, 1.5f)
+                lineToRelative(-1f, 4f)
+                lineToRelative(3f, -0.5f)
+                lineToRelative(-3f, 3f)
+                lineToRelative(3f, 1.5f)
+                close()
+            }
+        }.also { _GunShooting = it}

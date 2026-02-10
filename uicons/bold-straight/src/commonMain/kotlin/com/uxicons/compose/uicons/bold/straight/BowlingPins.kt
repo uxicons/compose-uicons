@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BowlingPins: ImageVector? = null
+
+val Icons.Bs.BowlingPins: ImageVector
+    get() = _BowlingPins ?: UXIcon(name = "BowlingPins") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(9f, 8.5f)
+                arcToRelative(19.11f, 19.11f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.55f, -2.38f)
+                arcTo(9.61f, 9.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 10f, 4f)
+                arcTo(3.83f, 3.83f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6f, 0f)
+                arcTo(3.83f, 3.83f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 4f)
+                arcToRelative(9.61f, 9.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.45f, 2.12f)
+                arcTo(19.14f, 19.14f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 8.5f)
+                arcToRelative(6.54f, 6.54f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.18f, 2.92f)
+                arcTo(10.43f, 10.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 16.77f)
+                arcToRelative(12.34f, 12.34f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.08f, 6.6f)
+                lineTo(2.53f, 24f)
+                lineTo(9.47f, 24f)
+                lineToRelative(0.45f, -0.62f)
+                arcTo(12.34f, 12.34f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 16.77f)
+                arcToRelative(10.43f, 10.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.82f, -5.35f)
+                arcTo(6.55f, 6.55f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9f, 8.5f)
+                close()
+                moveTo(6f, 3f)
+                curveToRelative(0.71f, 0f, 1f, 0.29f, 1f, 0.92f)
+                curveToRelative(-0.02f, 0.2f, -0.21f, 0.9f, -0.35f, 1.42f)
+                arcTo(22.62f, 22.62f, 0f, isMoreThanHalf = false, isPositiveArc = false, 6.04f, 8f)
+                lineTo(5.96f, 8f)
+                arcToRelative(22.62f, 22.62f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.61f, -2.66f)
+                curveTo(5.21f, 4.82f, 5.02f, 4.12f, 5f, 4f)
+                curveTo(5f, 3.29f, 5.29f, 3f, 6f, 3f)
+                close()
+                moveTo(7.86f, 21f)
+                lineTo(4.14f, 21f)
+                arcTo(9.18f, 9.18f, 0f, isMoreThanHalf = false, isPositiveArc = true, 3f, 16.77f)
+                arcToRelative(7.86f, 7.86f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.42f, -3.85f)
+                arcTo(18.84f, 18.84f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.43f, 11f)
+                lineTo(6.57f, 11f)
+                arcToRelative(18.84f, 18.84f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.01f, 1.92f)
+                arcTo(7.86f, 7.86f, 0f, isMoreThanHalf = false, isPositiveArc = true, 9f, 16.77f)
+                arcTo(9.18f, 9.18f, 0f, isMoreThanHalf = false, isPositiveArc = true, 7.86f, 21f)
+                close()
+                moveTo(22.18f, 11.42f)
+                arcTo(6.55f, 6.55f, 0f, isMoreThanHalf = false, isPositiveArc = true, 21f, 8.5f)
+                arcToRelative(19.11f, 19.11f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0.55f, -2.38f)
+                arcTo(9.61f, 9.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22f, 4f)
+                arcToRelative(3.83f, 3.83f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, -4f)
+                arcToRelative(3.83f, 3.83f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, 4f)
+                arcToRelative(9.61f, 9.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.45f, 2.12f)
+                arcTo(19.14f, 19.14f, 0f, isMoreThanHalf = false, isPositiveArc = true, 15f, 8.5f)
+                arcToRelative(6.54f, 6.54f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.18f, 2.92f)
+                arcTo(10.43f, 10.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 16.77f)
+                arcToRelative(12.34f, 12.34f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.08f, 6.6f)
+                lineToRelative(0.45f, 0.62f)
+                horizontalLineToRelative(6.94f)
+                lineToRelative(0.45f, -0.62f)
+                arcTo(12.34f, 12.34f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 16.77f)
+                arcTo(10.43f, 10.43f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22.18f, 11.42f)
+                close()
+                moveTo(18f, 3f)
+                curveToRelative(0.71f, 0f, 1f, 0.29f, 1f, 0.92f)
+                curveToRelative(-0.02f, 0.2f, -0.21f, 0.9f, -0.35f, 1.42f)
+                arcTo(22.62f, 22.62f, 0f, isMoreThanHalf = false, isPositiveArc = false, 18.04f, 8f)
+                horizontalLineToRelative(-0.07f)
+                arcToRelative(22.62f, 22.62f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.61f, -2.66f)
+                curveTo(17.21f, 4.82f, 17.02f, 4.12f, 17f, 4f)
+                curveTo(17f, 3.29f, 17.29f, 3f, 18f, 3f)
+                close()
+                moveTo(19.86f, 21f)
+                lineTo(16.14f, 21f)
+                arcTo(9.18f, 9.18f, 0f, isMoreThanHalf = false, isPositiveArc = true, 15f, 16.77f)
+                arcToRelative(7.86f, 7.86f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.42f, -3.85f)
+                arcTo(18.84f, 18.84f, 0f, isMoreThanHalf = false, isPositiveArc = false, 17.43f, 11f)
+                horizontalLineToRelative(1.13f)
+                arcToRelative(18.84f, 18.84f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.01f, 1.92f)
+                arcTo(7.86f, 7.86f, 0f, isMoreThanHalf = false, isPositiveArc = true, 21f, 16.77f)
+                arcTo(9.18f, 9.18f, 0f, isMoreThanHalf = false, isPositiveArc = true, 19.86f, 21f)
+                close()
+            }
+        }.also { _BowlingPins = it}

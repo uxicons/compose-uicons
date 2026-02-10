@@ -1,0 +1,40 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CoffinCross: ImageVector? = null
+
+val Icons.Ss.CoffinCross: ImageVector
+    get() = _CoffinCross ?: UXIcon(name = "CoffinCross") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18.93f, 1.89f)
+                curveToRelative(-0.46f, -1.15f, -1.55f, -1.89f, -2.79f, -1.89f)
+                lineTo(7.85f, 0f)
+                curveToRelative(-1.23f, 0f, -2.33f, 0.74f, -2.79f, 1.89f)
+                lineToRelative(-2.61f, 6.52f)
+                lineToRelative(3.23f, 15.59f)
+                horizontalLineToRelative(12.63f)
+                lineToRelative(3.23f, -15.59f)
+                lineToRelative(-2.61f, -6.52f)
+                close()
+                moveTo(16f, 11f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _CoffinCross = it}

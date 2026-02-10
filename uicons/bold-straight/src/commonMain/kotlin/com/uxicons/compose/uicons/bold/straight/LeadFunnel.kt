@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LeadFunnel: ImageVector? = null
+
+val Icons.Bs.LeadFunnel: ImageVector
+    get() = _LeadFunnel ?: UXIcon(name = "LeadFunnel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.98f, 16f)
+                lineToRelative(3.02f, -2.38f)
+                verticalLineToRelative(3.82f)
+                lineToRelative(-1f, 0.79f)
+                verticalLineToRelative(5.77f)
+                lineToRelative(-6f, -3f)
+                verticalLineToRelative(-2.77f)
+                lineTo(0f, 12.72f)
+                verticalLineToRelative(-5.73f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(0.01f, -1.1f, 0.9f, -1.99f, 2.0f, -1.99f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.76f, 0f, 1.41f, 0.43f, 1.75f, 1.05f)
+                curveToRelative(0.34f, -0.62f, 0.99f, -1.05f, 1.75f, -1.05f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.76f, 0f, 1.41f, 0.43f, 1.75f, 1.05f)
+                curveToRelative(0.34f, -0.62f, 0.99f, -1.05f, 1.75f, -1.05f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                horizontalLineToRelative(0f)
+                lineToRelative(-0.0f, 3f)
+                lineToRelative(-17.0f, -0.01f)
+                verticalLineToRelative(1.27f)
+                lineToRelative(6.02f, 4.74f)
+                horizontalLineToRelative(1.96f)
+                close()
+                moveTo(3.5f, 4f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveTo(4.61f, 0f, 3.5f, 0f)
+                reflectiveCurveTo(1.5f, 0.9f, 1.5f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(10f, 4f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(16.5f, 4f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(21.68f, 17.27f)
+                lineToRelative(-3.04f, -0.51f)
+                curveToRelative(-0.37f, -0.06f, -0.64f, -0.38f, -0.64f, -0.76f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                curveToRelative(0f, 1.36f, 0.97f, 2.51f, 2.31f, 2.73f)
+                lineToRelative(3.04f, 0.51f)
+                curveToRelative(0.37f, 0.06f, 0.64f, 0.38f, 0.64f, 0.76f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                curveToRelative(0f, -1.36f, -0.97f, -2.51f, -2.31f, -2.73f)
+                close()
+            }
+        }.also { _LeadFunnel = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ScoreBoard: ImageVector? = null
+
+val Icons.Br.ScoreBoard: ImageVector
+    get() = _ScoreBoard ?: UXIcon(name = "ScoreBoard") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.5f, 2f)
+            horizontalLineToRelative(-0.5f)
+            verticalLineToRelative(-0.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(0.5f)
+            horizontalLineToRelative(-6f)
+            verticalLineToRelative(-0.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(0.5f)
+            horizontalLineToRelative(-0.5f)
+            curveToRelative(-3.03f, 0f, -5.5f, 2.47f, -5.5f, 5.5f)
+            verticalLineToRelative(11f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            verticalLineToRelative(-11f)
+            curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+            close()
+            moveTo(3f, 18.5f)
+            verticalLineToRelative(-9.5f)
+            horizontalLineToRelative(7.5f)
+            verticalLineToRelative(12f)
+            horizontalLineToRelative(-5f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            close()
+            moveTo(18.5f, 21f)
+            horizontalLineToRelative(-5f)
+            verticalLineToRelative(-12f)
+            horizontalLineToRelative(7.5f)
+            verticalLineToRelative(9.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            close()
+            moveTo(17.25f, 11f)
+            curveToRelative(-1.24f, 0f, -2.25f, 1.01f, -2.25f, 2.25f)
+            verticalLineToRelative(3.5f)
+            curveToRelative(0f, 1.24f, 1.01f, 2.25f, 2.25f, 2.25f)
+            reflectiveCurveToRelative(2.25f, -1.01f, 2.25f, -2.25f)
+            verticalLineToRelative(-3.5f)
+            curveToRelative(0f, -1.24f, -1.01f, -2.25f, -2.25f, -2.25f)
+            close()
+            moveTo(17.9f, 16.75f)
+            curveToRelative(0f, 0.36f, -0.29f, 0.65f, -0.65f, 0.65f)
+            reflectiveCurveToRelative(-0.65f, -0.29f, -0.65f, -0.65f)
+            verticalLineToRelative(-3.5f)
+            curveToRelative(0f, -0.36f, 0.29f, -0.65f, 0.65f, -0.65f)
+            reflectiveCurveToRelative(0.65f, 0.29f, 0.65f, 0.65f)
+            close()
+            moveTo(9f, 15.75f)
+            verticalLineToRelative(1f)
+            curveToRelative(0f, 1.31f, -1.12f, 2.36f, -2.46f, 2.24f)
+            curveToRelative(-1.17f, -0.1f, -2.04f, -1.12f, -2.04f, -2.3f)
+            curveToRelative(0f, -0.38f, 0.31f, -0.69f, 0.69f, -0.69f)
+            horizontalLineToRelative(0.15f)
+            curveToRelative(0.41f, 0f, 0.75f, 0.34f, 0.75f, 0.75f)
+            curveToRelative(0f, 0.39f, 0.34f, 0.69f, 0.74f, 0.64f)
+            curveToRelative(0.33f, -0.04f, 0.56f, -0.34f, 0.56f, -0.67f)
+            verticalLineToRelative(-0.98f)
+            curveToRelative(0f, -0.36f, -0.29f, -0.65f, -0.65f, -0.65f)
+            curveToRelative(-0.12f, 0f, -0.76f, 0.0f, -1.45f, 0.0f)
+            curveToRelative(-0.44f, 0.0f, -0.8f, -0.36f, -0.8f, -0.8f)
+            verticalLineToRelative(-2.5f)
+            curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+            horizontalLineToRelative(2.9f)
+            curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+            horizontalLineToRelative(-2.1f)
+            verticalLineToRelative(0.9f)
+            horizontalLineToRelative(0.65f)
+            curveToRelative(1.24f, 0f, 2.25f, 1.01f, 2.25f, 2.25f)
+            close()
+        }
+    }.also { _ScoreBoard = it }

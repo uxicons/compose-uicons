@@ -1,0 +1,81 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AirplaneModeOn: ImageVector? = null
+
+val Icons.Sr.AirplaneModeOn: ImageVector
+    get() = _AirplaneModeOn ?: UXIcon(name = "AirplaneModeOn") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 0f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(21.68f, 5.71f)
+                lineTo(18.98f, 8.33f)
+                curveToRelative(-0.45f, 0.45f, -1.05f, 0.67f, -1.65f, 0.67f)
+                reflectiveCurveToRelative(-1.2f, -0.23f, -1.66f, -0.67f)
+                lineToRelative(-1.35f, -1.33f)
+                curveToRelative(-0.4f, -0.39f, -0.4f, -1.02f, -0.01f, -1.41f)
+                curveToRelative(0.39f, -0.4f, 1.02f, -0.4f, 1.41f, -0.01f)
+                lineToRelative(1.35f, 1.33f)
+                curveToRelative(0.14f, 0.14f, 0.38f, 0.14f, 0.52f, -0.0f)
+                lineToRelative(2.71f, -2.62f)
+                curveToRelative(0.4f, -0.38f, 1.03f, -0.37f, 1.41f, 0.03f)
+                curveToRelative(0.38f, 0.4f, 0.37f, 1.03f, -0.03f, 1.41f)
+                close()
+                moveTo(0f, 19f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-16f)
+                close()
+                moveTo(7f, 20f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(10f, 6f)
+                curveToRelative(0f, -2.26f, 0.94f, -4.3f, 2.46f, -5.76f)
+                curveToRelative(-0.46f, -0.14f, -0.95f, -0.24f, -1.46f, -0.24f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(-2.26f)
+                curveToRelative(-3.45f, -0.89f, -6f, -4.01f, -6f, -7.74f)
+                close()
+                moveTo(8f, 8.99f)
+                horizontalLineToRelative(-1f)
+                lineToRelative(-1.91f, 2.42f)
+                curveToRelative(-0.2f, 0.36f, -0.57f, 0.58f, -0.97f, 0.58f)
+                curveToRelative(-0.43f, 0.07f, -0.81f, -0.32f, -0.64f, -0.74f)
+                lineToRelative(0.88f, -2.26f)
+                horizontalLineToRelative(-1.0f)
+                curveToRelative(-0.44f, 0f, -0.86f, -0.2f, -1.15f, -0.53f)
+                lineToRelative(-1.1f, -1.3f)
+                curveToRelative(-0.3f, -0.52f, 0.08f, -1.17f, 0.68f, -1.17f)
+                curveToRelative(0.21f, 0f, 0.41f, 0.08f, 0.55f, 0.23f)
+                lineToRelative(1.11f, 0.77f)
+                horizontalLineToRelative(0.92f)
+                lineToRelative(-0.89f, -2.26f)
+                curveToRelative(-0.16f, -0.41f, 0.2f, -0.8f, 0.62f, -0.74f)
+                curveToRelative(0.41f, 0f, 0.78f, 0.22f, 0.97f, 0.58f)
+                lineToRelative(1.93f, 2.42f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _AirplaneModeOn = it}

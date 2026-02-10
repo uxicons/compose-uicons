@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SquareDashedCirclePlus: ImageVector? = null
+
+val Icons.Bs.SquareDashedCirclePlus: ImageVector
+    get() = _SquareDashedCirclePlus ?: UXIcon(name = "SquareDashedCirclePlus") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(18f, 8f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2.59f)
+                curveToRelative(-0.93f, -0.38f, -1.94f, -0.59f, -3f, -0.59f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(8f, 18f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2.59f)
+                curveToRelative(-0.38f, -0.93f, -0.59f, -1.94f, -0.59f, -3f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(0f, 3.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(3f, 6f)
+                lineTo(3f, 3.5f)
+                curveToRelative(0f, -0.28f, 0.23f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(2.5f)
+                lineTo(6f, 0f)
+                lineTo(3.5f, 0f)
+                curveTo(1.57f, 0f, 0f, 1.57f, 0f, 3.5f)
+                close()
+                moveTo(3f, 8f)
+                lineTo(0f, 8f)
+                verticalLineToRelative(5f)
+                lineTo(3f, 13f)
+                verticalLineToRelative(-5f)
+                close()
+                moveTo(3f, 15f)
+                lineTo(0f, 15f)
+                verticalLineToRelative(6f)
+                lineTo(6f, 21f)
+                verticalLineToRelative(-3f)
+                lineTo(3f, 18f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(18f, 3.5f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(3f)
+                lineTo(21f, 3.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                horizontalLineToRelative(-2.5f)
+                lineTo(15f, 3f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(13f, 0f)
+                horizontalLineToRelative(-5f)
+                lineTo(8f, 3f)
+                horizontalLineToRelative(5f)
+                lineTo(13f, 0f)
+                close()
+                moveTo(24f, 18f)
+                curveToRelative(0f, 3.31f, -2.69f, 6f, -6f, 6f)
+                reflectiveCurveToRelative(-6f, -2.69f, -6f, -6f)
+                reflectiveCurveToRelative(2.69f, -6f, 6f, -6f)
+                reflectiveCurveToRelative(6f, 2.69f, 6f, 6f)
+                close()
+                moveTo(22f, 17f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _SquareDashedCirclePlus = it}

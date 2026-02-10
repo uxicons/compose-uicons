@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _EarthAsia: ImageVector? = null
+
+val Icons.Br.EarthAsia: ImageVector
+    get() = _EarthAsia ?: UXIcon(name = "EarthAsia") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(10f, 17.19f)
+            curveToRelative(0f, 0.45f, -0.36f, 0.81f, -0.81f, 0.81f)
+            horizontalLineToRelative(-1.38f)
+            curveToRelative(-0.45f, 0f, -0.81f, -0.36f, -0.81f, -0.81f)
+            verticalLineToRelative(-0.23f)
+            curveToRelative(0f, -0.5f, 0.45f, -0.88f, 0.95f, -0.8f)
+            lineToRelative(1.38f, 0.23f)
+            curveToRelative(0.39f, 0.07f, 0.68f, 0.4f, 0.68f, 0.8f)
+            close()
+            moveTo(13.45f, 13.14f)
+            curveToRelative(-0.35f, -0.35f, -0.94f, -0.31f, -1.24f, 0.1f)
+            lineToRelative(-0.81f, 1.14f)
+            curveToRelative(-0.23f, 0.32f, -0.19f, 0.77f, 0.09f, 1.05f)
+            curveToRelative(0.32f, 0.32f, 0.83f, 0.32f, 1.15f, 0f)
+            lineToRelative(0.97f, -0.97f)
+            curveToRelative(0.32f, -0.32f, 0.32f, -0.83f, 0f, -1.15f)
+            lineToRelative(-0.16f, -0.16f)
+            close()
+            moveTo(16.16f, 8.52f)
+            lineToRelative(0.53f, -1.27f)
+            curveToRelative(0.17f, -0.41f, -0.02f, -0.89f, -0.44f, -1.06f)
+            curveToRelative(-0.37f, -0.15f, -0.79f, -0.02f, -1f, 0.32f)
+            lineToRelative(-0.74f, 1.18f)
+            curveToRelative(-0.27f, 0.42f, -0.09f, 0.99f, 0.38f, 1.18f)
+            lineToRelative(0.21f, 0.09f)
+            curveToRelative(0.41f, 0.17f, 0.89f, -0.02f, 1.06f, -0.44f)
+            close()
+            moveTo(24f, 12.0f)
+            curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+            reflectiveCurveTo(0f, 18.62f, 0f, 12f)
+            reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+            reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+            close()
+            moveTo(12f, 21.0f)
+            curveToRelative(2.02f, 0f, 3.89f, -0.67f, 5.39f, -1.8f)
+            lineToRelative(-0.7f, -0.1f)
+            curveToRelative(-0.43f, -0.06f, -0.81f, -0.33f, -1.01f, -0.73f)
+            lineToRelative(-0.39f, -0.77f)
+            curveToRelative(-0.19f, -0.38f, -0.19f, -0.82f, 0f, -1.2f)
+            lineToRelative(0.41f, -0.81f)
+            curveToRelative(0.18f, -0.37f, 0.53f, -0.63f, 0.94f, -0.71f)
+            lineToRelative(1.6f, -0.32f)
+            curveToRelative(0.17f, -0.03f, 0.32f, -0.11f, 0.43f, -0.23f)
+            lineToRelative(0.85f, -0.85f)
+            curveToRelative(0.28f, -0.28f, 0.7f, -0.33f, 1.04f, -0.13f)
+            lineToRelative(0.3f, 0.18f)
+            curveToRelative(0.09f, -0.49f, 0.13f, -1.0f, 0.13f, -1.52f)
+            curveToRelative(0f, -4.0f, -2.62f, -7.39f, -6.23f, -8.56f)
+            curveToRelative(-0.23f, 0.47f, -0.43f, 0.88f, -0.57f, 1.16f)
+            curveToRelative(-0.13f, 0.26f, -0.36f, 0.44f, -0.63f, 0.51f)
+            lineToRelative(-1.1f, 0.28f)
+            curveToRelative(-0.29f, 0.07f, -0.52f, 0.29f, -0.62f, 0.57f)
+            lineToRelative(-0.2f, 0.61f)
+            curveToRelative(-0.09f, 0.27f, -0.04f, 0.57f, 0.13f, 0.8f)
+            lineToRelative(0.7f, 0.93f)
+            curveToRelative(0.31f, 0.42f, 0.31f, 0.99f, 0f, 1.4f)
+            lineToRelative(-0.62f, 0.83f)
+            curveToRelative(-0.22f, 0.29f, -0.57f, 0.47f, -0.94f, 0.47f)
+            horizontalLineToRelative(-0.68f)
+            curveToRelative(-0.39f, 0f, -0.68f, 0.35f, -0.62f, 0.73f)
+            lineToRelative(0.28f, 1.7f)
+            curveToRelative(0.06f, 0.34f, -0.12f, 0.68f, -0.43f, 0.84f)
+            lineToRelative(-0.91f, 0.45f)
+            curveToRelative(-0.33f, 0.17f, -0.74f, 0.08f, -0.97f, -0.21f)
+            lineToRelative(-1.19f, -1.48f)
+            curveToRelative(-0.23f, -0.29f, -0.65f, -0.34f, -0.94f, -0.12f)
+            lineToRelative(-1.16f, 0.87f)
+            curveToRelative(-0.2f, 0.15f, -0.45f, 0.24f, -0.71f, 0.24f)
+            horizontalLineToRelative(-0.38f)
+            curveToRelative(0.91f, 4.0f, 4.5f, 7f, 8.78f, 7f)
+            close()
+        }
+    }.also { _EarthAsia = it }

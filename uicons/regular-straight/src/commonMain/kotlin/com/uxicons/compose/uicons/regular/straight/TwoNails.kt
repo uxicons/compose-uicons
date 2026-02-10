@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TwoNails: ImageVector? = null
+
+val Icons.Rs.TwoNails: ImageVector
+    get() = _TwoNails ?: UXIcon(name = "TwoNails") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 8.43f)
+                verticalLineToRelative(-1.43f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1.43f)
+                curveToRelative(-0.01f, 0.01f, -0.02f, 0.02f, -0.03f, 0.03f)
+                curveToRelative(-0.13f, -1.56f, -0.83f, -2.98f, -1.97f, -4.03f)
+                verticalLineToRelative(-1.43f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1.43f)
+                curveTo(0.74f, 5.6f, 0f, 7.24f, 0f, 9f)
+                verticalLineToRelative(15f)
+                lineTo(2f, 24f)
+                lineTo(2f, 9f)
+                curveToRelative(0f, -0.2f, 0.02f, -0.39f, 0.04f, -0.58f)
+                curveToRelative(0.21f, 2.01f, 1.9f, 3.58f, 3.96f, 3.58f)
+                horizontalLineToRelative(1f)
+                curveToRelative(2.06f, 0f, 3.75f, -1.58f, 3.96f, -3.58f)
+                curveToRelative(0.03f, 0.19f, 0.04f, 0.39f, 0.04f, 0.58f)
+                verticalLineToRelative(15f)
+                horizontalLineToRelative(2f)
+                lineTo(13f, 13f)
+                curveToRelative(0f, -0.2f, 0.02f, -0.39f, 0.04f, -0.58f)
+                curveToRelative(0.21f, 2.01f, 1.9f, 3.58f, 3.96f, 3.58f)
+                horizontalLineToRelative(1f)
+                curveToRelative(2.06f, 0f, 3.75f, -1.58f, 3.96f, -3.58f)
+                curveToRelative(0.03f, 0.19f, 0.04f, 0.39f, 0.04f, 0.58f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(2f)
+                lineTo(24f, 13f)
+                curveToRelative(0f, -1.76f, -0.74f, -3.4f, -2f, -4.57f)
+                close()
+                moveTo(8.25f, 9.55f)
+                curveToRelative(-0.48f, -0.34f, -1.06f, -0.55f, -1.69f, -0.55f)
+                curveToRelative(-0.66f, 0f, -1.26f, 0.23f, -1.75f, 0.59f)
+                curveToRelative(-0.49f, -0.36f, -0.81f, -0.94f, -0.81f, -1.59f)
+                verticalLineToRelative(-2.61f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(0f)
+                lineTo(4f, 3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2.39f)
+                horizontalLineToRelative(0f)
+                reflectiveCurveToRelative(0f, 0.0f, 0f, 0.0f)
+                verticalLineToRelative(2.61f)
+                curveToRelative(0f, 0.63f, -0.3f, 1.18f, -0.75f, 1.55f)
+                close()
+                moveTo(19.22f, 13.57f)
+                curveToRelative(-0.49f, -0.35f, -1.07f, -0.57f, -1.72f, -0.57f)
+                reflectiveCurveToRelative(-1.23f, 0.22f, -1.72f, 0.57f)
+                curveToRelative(-0.47f, -0.37f, -0.78f, -0.93f, -0.78f, -1.57f)
+                verticalLineToRelative(-2.61f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(0f)
+                verticalLineToRelative(-2.39f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2.39f)
+                horizontalLineToRelative(0f)
+                reflectiveCurveToRelative(0f, 0.0f, 0f, 0.0f)
+                verticalLineToRelative(2.61f)
+                curveToRelative(0f, 0.64f, -0.31f, 1.21f, -0.78f, 1.57f)
+                close()
+            }
+        }.also { _TwoNails = it}

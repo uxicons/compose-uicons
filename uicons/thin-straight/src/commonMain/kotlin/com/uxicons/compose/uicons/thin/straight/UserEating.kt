@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserEating: ImageVector? = null
+
+val Icons.Ts.UserEating: ImageVector
+    get() = _UserEating ?: UXIcon(name = "UserEating") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2f, 6f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                lineTo(0f, 0f)
+                lineTo(1f, 0f)
+                lineTo(1f, 4f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                lineTo(2f, 0f)
+                horizontalLineToRelative(1f)
+                lineTo(3f, 5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                lineTo(4f, 0f)
+                horizontalLineToRelative(1f)
+                lineTo(5f, 4f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-1f)
+                lineTo(2f, 6f)
+                close()
+                moveTo(24f, 0.6f)
+                lineTo(24f, 12f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1.69f)
+                curveToRelative(-1.7f, -1.53f, -2.54f, -3.27f, -2.5f, -5.18f)
+                curveToRelative(0.09f, -2.36f, 1.34f, -4.16f, 2.28f, -4.94f)
+                curveToRelative(0.38f, -0.37f, 1.22f, -0.15f, 1.22f, 0.41f)
+                close()
+                moveTo(23f, 8.9f)
+                lineTo(23f, 1.36f)
+                curveToRelative(-0.59f, 0.69f, -1.46f, 2.14f, -1.5f, 3.79f)
+                curveToRelative(-0.03f, 1.34f, 0.47f, 2.59f, 1.5f, 3.75f)
+                close()
+                moveTo(23f, 19.32f)
+                lineToRelative(-3.21f, -4.01f)
+                curveToRelative(-0.67f, -0.83f, -1.66f, -1.31f, -2.73f, -1.31f)
+                lineTo(8.93f, 14.0f)
+                curveToRelative(-1.06f, 0f, -2.06f, 0.47f, -2.72f, 1.3f)
+                lineToRelative(-3.21f, 3.98f)
+                verticalLineToRelative(-5.28f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(0.9f)
+                lineToRelative(4.09f, -5.07f)
+                reflectiveCurveToRelative(0.01f, -0.01f, 0.01f, -0.01f)
+                verticalLineToRelative(8.08f)
+                horizontalLineToRelative(1f)
+                lineTo(8f, 15.19f)
+                curveToRelative(0.29f, -0.12f, 0.61f, -0.19f, 0.93f, -0.19f)
+                horizontalLineToRelative(8.12f)
+                curveToRelative(0.33f, 0f, 0.65f, 0.07f, 0.94f, 0.2f)
+                verticalLineToRelative(8.8f)
+                horizontalLineToRelative(1f)
+                lineTo(19f, 15.93f)
+                reflectiveCurveToRelative(0.01f, 0.01f, 0.01f, 0.01f)
+                lineToRelative(4.05f, 5.06f)
+                horizontalLineToRelative(0.94f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(5.32f)
+                close()
+                moveTo(8.5f, 7.5f)
+                curveToRelative(0f, -2.48f, 2.02f, -4.5f, 4.5f, -4.5f)
+                reflectiveCurveToRelative(4.5f, 2.02f, 4.5f, 4.5f)
+                reflectiveCurveToRelative(-2.02f, 4.5f, -4.5f, 4.5f)
+                reflectiveCurveToRelative(-4.5f, -2.02f, -4.5f, -4.5f)
+                close()
+                moveTo(9.5f, 7.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(-1.57f, -3.5f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+                close()
+            }
+        }.also { _UserEating = it}

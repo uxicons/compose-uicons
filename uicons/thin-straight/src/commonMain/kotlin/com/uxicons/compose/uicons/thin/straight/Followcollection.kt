@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Followcollection: ImageVector? = null
+
+val Icons.Ts.Followcollection: ImageVector
+    get() = _Followcollection ?: UXIcon(name = "Followcollection") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(18.19f, 10.34f)
+                lineToRelative(0.31f, 0.24f)
+                lineToRelative(0.31f, -0.24f)
+                curveToRelative(0.21f, -0.17f, 5.19f, -4.12f, 5.19f, -7.16f)
+                curveToRelative(0f, -1.75f, -1.35f, -3.18f, -3f, -3.18f)
+                curveToRelative(-1f, 0f, -1.95f, 0.53f, -2.5f, 1.28f)
+                curveToRelative(-0.53f, -0.72f, -1.43f, -1.28f, -2.5f, -1.28f)
+                curveToRelative(-1.65f, 0f, -3f, 1.43f, -3f, 3.18f)
+                curveToRelative(0f, 3.04f, 4.98f, 6.99f, 5.19f, 7.16f)
+                close()
+                moveTo(16f, 1f)
+                curveToRelative(1.11f, 0f, 2f, 0.93f, 2f, 1.7f)
+                verticalLineToRelative(0.3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-0.3f)
+                curveToRelative(0f, -0.79f, 0.87f, -1.7f, 2f, -1.7f)
+                reflectiveCurveToRelative(2f, 0.98f, 2f, 2.18f)
+                curveToRelative(0f, 1.97f, -3f, 4.88f, -4.5f, 6.12f)
+                curveToRelative(-1.5f, -1.25f, -4.5f, -4.15f, -4.5f, -6.12f)
+                curveToRelative(0f, -1.2f, 0.9f, -2.18f, 2f, -2.18f)
+                close()
+                moveTo(8.5f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                lineTo(0f, 11f)
+                lineTo(11f, 11f)
+                lineTo(11f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(10f, 10f)
+                lineTo(1f, 10f)
+                lineTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(7.5f)
+                close()
+                moveTo(21.5f, 13f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(8.5f)
+                horizontalLineToRelative(11f)
+                lineTo(24f, 15.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 23f)
+                lineTo(14f, 23f)
+                verticalLineToRelative(-7.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(7.5f)
+                close()
+                moveTo(8.5f, 13f)
+                lineTo(2.5f, 13f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(8.5f)
+                lineTo(11f, 24f)
+                lineTo(11f, 15.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(10f, 23f)
+                lineTo(1f, 23f)
+                verticalLineToRelative(-7.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(6f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(7.5f)
+                close()
+            }
+        }.also { _Followcollection = it}

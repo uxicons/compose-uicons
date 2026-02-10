@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Atm: ImageVector? = null
+
+val Icons.Rs.Atm: ImageVector
+    get() = _Atm ?: UXIcon(name = "Atm") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 3f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-18f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(17f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(5f)
+                close()
+                moveTo(17f, 22f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(2.55f)
+                curveToRelative(-0.03f, 0.16f, -0.05f, 0.33f, -0.05f, 0.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -0.17f, -0.02f, -0.34f, -0.05f, -0.5f)
+                horizontalLineToRelative(2.55f)
+                close()
+                moveTo(22f, 18f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-14f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-15f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(18f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(4f, 12f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(-8f)
+                close()
+                moveTo(6f, 6f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(14f, 4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(18f, 4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(14f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(18f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(14f, 10f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(18f, 10f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+            }
+        }.also { _Atm = it}

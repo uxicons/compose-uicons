@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ShieldDog: ImageVector? = null
+
+val Icons.Tr.ShieldDog: ImageVector
+    get() = _ShieldDog ?: UXIcon(name = "ShieldDog") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18.92f, 2.27f)
+                lineTo(12.16f, 0.03f)
+                curveToRelative(-0.1f, -0.03f, -0.21f, -0.03f, -0.31f, 0f)
+                lineToRelative(-6.76f, 2.24f)
+                curveToRelative(-1.84f, 0.61f, -3.08f, 2.33f, -3.08f, 4.27f)
+                lineToRelative(-0.0f, 5.4f)
+                curveToRelative(0f, 6.61f, 7.16f, 10.7f, 9.35f, 11.8f)
+                curveToRelative(0f, 0f, 0.41f, 0.27f, 0.65f, 0.27f)
+                reflectiveCurveToRelative(0.63f, -0.21f, 0.63f, -0.21f)
+                curveToRelative(2.2f, -0.89f, 9.37f, -4.35f, 9.37f, -11.85f)
+                lineToRelative(0.0f, -5.4f)
+                curveToRelative(0f, -1.94f, -1.24f, -3.66f, -3.08f, -4.27f)
+                close()
+                moveTo(21.0f, 11.93f)
+                curveToRelative(0f, 6.87f, -6.69f, 10.1f, -8.74f, 10.92f)
+                lineToRelative(-0.23f, 0.09f)
+                lineToRelative(-0.22f, -0.11f)
+                curveToRelative(-2.06f, -1.03f, -8.8f, -4.87f, -8.8f, -10.91f)
+                lineToRelative(0.0f, -5.4f)
+                curveToRelative(0f, -1.51f, 0.96f, -2.85f, 2.4f, -3.32f)
+                lineToRelative(6.6f, -2.19f)
+                lineToRelative(6.6f, 2.19f)
+                curveToRelative(1.44f, 0.48f, 2.4f, 1.81f, 2.4f, 3.32f)
+                lineToRelative(-0.0f, 5.4f)
+                close()
+                moveTo(16.45f, 10.0f)
+                curveToRelative(-0.63f, 0f, -1.5f, -0.35f, -1.95f, -1.03f)
+                curveToRelative(-0.58f, -0.87f, -1.5f, -1.41f, -2.49f, -1.47f)
+                verticalLineToRelative(-1.25f)
+                curveToRelative(0f, -0.42f, -0.21f, -0.81f, -0.57f, -1.04f)
+                curveToRelative(-0.35f, -0.23f, -0.78f, -0.26f, -1.16f, -0.09f)
+                curveToRelative(-1.08f, 0.48f, -1.77f, 1.56f, -1.77f, 2.74f)
+                verticalLineToRelative(1.05f)
+                lineToRelative(-1.25f, 2.5f)
+                curveToRelative(-0.23f, 0.47f, -0.3f, 0.98f, -0.21f, 1.5f)
+                curveToRelative(0.28f, 1.62f, 1.42f, 3.5f, 2.9f, 4.8f)
+                curveToRelative(0.23f, 0.2f, 0.52f, 0.31f, 0.82f, 0.31f)
+                curveToRelative(0.12f, 0f, 0.25f, -0.02f, 0.37f, -0.06f)
+                curveToRelative(0.42f, -0.13f, 0.74f, -0.46f, 0.86f, -0.91f)
+                lineToRelative(0.42f, -2.03f)
+                horizontalLineToRelative(2.21f)
+                curveToRelative(1.76f, 0f, 3.24f, -1.33f, 3.38f, -3.03f)
+                curveToRelative(0.05f, -0.62f, -0.09f, -1.12f, -0.42f, -1.48f)
+                curveToRelative(-0.45f, -0.48f, -1.05f, -0.5f, -1.12f, -0.5f)
+                close()
+                moveTo(16.99f, 11.89f)
+                curveToRelative(-0.1f, 1.18f, -1.14f, 2.11f, -2.38f, 2.11f)
+                horizontalLineToRelative(-2.61f)
+                curveToRelative(-0.24f, 0f, -0.44f, 0.17f, -0.49f, 0.4f)
+                lineToRelative(-0.49f, 2.4f)
+                curveToRelative(-0.03f, 0.13f, -0.14f, 0.17f, -0.18f, 0.18f)
+                curveToRelative(-0.05f, 0.01f, -0.15f, 0.03f, -0.24f, -0.05f)
+                curveToRelative(-1.3f, -1.14f, -2.33f, -2.84f, -2.57f, -4.22f)
+                curveToRelative(-0.05f, -0.3f, -0.01f, -0.61f, 0.12f, -0.88f)
+                lineToRelative(1.3f, -2.6f)
+                curveToRelative(0.04f, -0.07f, 0.05f, -0.15f, 0.05f, -0.22f)
+                verticalLineToRelative(-1.16f)
+                curveToRelative(0f, -0.79f, 0.46f, -1.5f, 1.18f, -1.83f)
+                curveToRelative(0.03f, -0.01f, 0.06f, -0.02f, 0.08f, -0.02f)
+                curveToRelative(0.05f, 0f, 0.1f, 0.02f, 0.12f, 0.04f)
+                curveToRelative(0.03f, 0.02f, 0.11f, 0.08f, 0.11f, 0.21f)
+                verticalLineToRelative(1.75f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(0.3f)
+                curveToRelative(0.73f, 0f, 1.43f, 0.39f, 1.86f, 1.03f)
+                curveToRelative(0.68f, 1.02f, 1.89f, 1.48f, 2.78f, 1.48f)
+                curveToRelative(0.0f, 0f, 0.23f, 0.01f, 0.39f, 0.18f)
+                curveToRelative(0.17f, 0.18f, 0.18f, 0.49f, 0.16f, 0.72f)
+                close()
+            }
+        }.also { _ShieldDog = it}

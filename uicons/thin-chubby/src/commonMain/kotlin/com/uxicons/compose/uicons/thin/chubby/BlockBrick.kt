@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BlockBrick: ImageVector? = null
+
+val Icons.Tc.BlockBrick: ImageVector
+    get() = _BlockBrick ?: UXIcon(name = "BlockBrick") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.77f, 2.56f)
+                curveToRelative(-0.05f, -0.16f, -0.18f, -0.29f, -0.34f, -0.34f)
+                curveToRelative(-0.18f, -0.05f, -4.41f, -1.23f, -9.43f, -1.23f)
+                reflectiveCurveToRelative(-9.25f, 1.18f, -9.43f, 1.23f)
+                curveToRelative(-0.16f, 0.05f, -0.29f, 0.17f, -0.34f, 0.34f)
+                curveToRelative(-0.05f, 0.17f, -1.23f, 4.13f, -1.23f, 9.44f)
+                curveToRelative(0f, 5.35f, 1.18f, 9.27f, 1.23f, 9.44f)
+                curveToRelative(0.05f, 0.16f, 0.18f, 0.29f, 0.34f, 0.34f)
+                curveToRelative(0.18f, 0.05f, 4.41f, 1.23f, 9.43f, 1.23f)
+                reflectiveCurveToRelative(9.25f, -1.18f, 9.43f, -1.23f)
+                curveToRelative(0.16f, -0.05f, 0.29f, -0.17f, 0.34f, -0.34f)
+                curveToRelative(0.05f, -0.17f, 1.23f, -4.13f, 1.23f, -9.44f)
+                curveToRelative(0f, -5.35f, -1.18f, -9.27f, -1.23f, -9.44f)
+                close()
+                moveTo(12.5f, 16.5f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(9.5f)
+                curveToRelative(-0.02f, 1.46f, -0.13f, 2.82f, -0.28f, 4f)
+                close()
+                moveTo(2.28f, 16.5f)
+                curveToRelative(-0.15f, -1.18f, -0.26f, -2.53f, -0.28f, -4f)
+                horizontalLineToRelative(9.5f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(16f, 7.5f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(22.0f, 11.5f)
+                horizontalLineToRelative(-5.0f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4.72f)
+                curveToRelative(0.15f, 1.18f, 0.26f, 2.53f, 0.28f, 4f)
+                close()
+                moveTo(7f, 11.5f)
+                horizontalLineToRelative(-5.0f)
+                curveToRelative(0.02f, -1.46f, 0.13f, -2.82f, 0.28f, -4f)
+                horizontalLineToRelative(4.71f)
+                close()
+                moveTo(21.58f, 6.5f)
+                horizontalLineToRelative(-9.08f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(3.96f, 0.06f, 7.42f, 0.87f, 8.39f, 1.11f)
+                curveToRelative(0.14f, 0.51f, 0.44f, 1.71f, 0.69f, 3.38f)
+                close()
+                moveTo(3.11f, 3.12f)
+                curveToRelative(0.97f, -0.25f, 4.43f, -1.05f, 8.39f, -1.11f)
+                verticalLineToRelative(4.5f)
+                horizontalLineToRelative(-9.08f)
+                curveToRelative(0.25f, -1.67f, 0.55f, -2.87f, 0.69f, -3.38f)
+                close()
+                moveTo(2.42f, 17.5f)
+                horizontalLineToRelative(4.58f)
+                verticalLineToRelative(4.13f)
+                curveToRelative(-1.89f, -0.27f, -3.32f, -0.6f, -3.89f, -0.75f)
+                curveToRelative(-0.14f, -0.51f, -0.44f, -1.71f, -0.69f, -3.38f)
+                close()
+                moveTo(8f, 21.76f)
+                verticalLineToRelative(-4.26f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(4.26f)
+                curveToRelative(-1.22f, 0.14f, -2.59f, 0.24f, -4f, 0.24f)
+                reflectiveCurveToRelative(-2.78f, -0.1f, -4f, -0.24f)
+                close()
+                moveTo(20.89f, 20.88f)
+                curveToRelative(-0.57f, 0.14f, -2.0f, 0.48f, -3.89f, 0.75f)
+                verticalLineToRelative(-4.13f)
+                horizontalLineToRelative(4.58f)
+                curveToRelative(-0.25f, 1.67f, -0.55f, 2.87f, -0.69f, 3.38f)
+                close()
+            }
+        }.also { _BlockBrick = it}

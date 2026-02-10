@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ForkSpaghetti: ImageVector? = null
+
+val Icons.Ts.ForkSpaghetti: ImageVector
+    get() = _ForkSpaghetti ?: UXIcon(name = "ForkSpaghetti") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 20f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(0.97f)
+                curveToRelative(0f, 1.66f, -1.35f, 3.02f, -3.02f, 3.02f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-0.79f, 0f, -1.54f, -0.31f, -2.1f, -0.87f)
+                curveToRelative(-0.56f, -0.56f, -0.87f, -1.31f, -0.87f, -2.11f)
+                curveToRelative(0f, -1.11f, 0.43f, -2.16f, 1.22f, -2.94f)
+                lineToRelative(2.44f, -2.44f)
+                curveToRelative(1.78f, -1.78f, 1.79f, -4.68f, 0.03f, -6.48f)
+                lineTo(14.71f, 1.91f)
+                lineTo(16.64f, -0.01f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(-1.23f, 1.23f)
+                lineToRelative(2.63f, 2.73f)
+                lineToRelative(1.2f, -1.2f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(-1.22f, 1.22f)
+                lineToRelative(2.52f, 2.62f)
+                lineToRelative(1.33f, -1.33f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(-1.37f, 1.37f)
+                curveToRelative(1.89f, 2.19f, 1.82f, 5.53f, -0.26f, 7.61f)
+                lineToRelative(-2.44f, 2.44f)
+                curveToRelative(-0.6f, 0.6f, -0.93f, 1.39f, -0.93f, 2.24f)
+                curveToRelative(0f, 0.53f, 0.21f, 1.03f, 0.58f, 1.4f)
+                curveToRelative(0.37f, 0.37f, 0.87f, 0.58f, 1.4f, 0.58f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(1.11f, -0.0f, 2.02f, -0.91f, 2.02f, -2.02f)
+                verticalLineToRelative(-0.97f)
+                close()
+                moveTo(20.92f, 10.58f)
+                lineTo(13.57f, 2.98f)
+                lineToRelative(-0.72f, 0.69f)
+                lineToRelative(7.35f, 7.6f)
+                lineToRelative(0.72f, -0.69f)
+                close()
+                moveTo(18.09f, 13.27f)
+                curveToRelative(-0.93f, 0.97f, -2.6f, 0.97f, -3.54f, 0f)
+                lineToRelative(-1.56f, -1.56f)
+                lineTo(0.74f, 23.97f)
+                lineTo(0.03f, 23.26f)
+                lineTo(12.3f, 11.0f)
+                lineToRelative(-1.56f, -1.57f)
+                curveToRelative(-0.97f, -0.93f, -0.97f, -2.61f, 0f, -3.54f)
+                lineToRelative(0.41f, -0.41f)
+                lineToRelative(-2.81f, -2.9f)
+                curveToRelative(-0.72f, -0.75f, -1.89f, -0.79f, -2.66f, -0.09f)
+                curveToRelative(-0.45f, 0.41f, -0.68f, 0.94f, -0.67f, 1.49f)
+                lineToRelative(-0.01f, 1.02f)
+                lineToRelative(-1f, -0.01f)
+                lineToRelative(0.01f, -1f)
+                curveToRelative(-0.02f, -0.82f, 0.33f, -1.63f, 0.95f, -2.19f)
+                curveToRelative(1.22f, -1.11f, 3.0f, -1.05f, 4.1f, 0.09f)
+                lineToRelative(10.05f, 10.37f)
+                lineToRelative(-1.01f, 1.01f)
+                close()
+                moveTo(13.0f, 10.29f)
+                lineToRelative(1.42f, -1.42f)
+                lineToRelative(-2.58f, -2.67f)
+                lineToRelative(-0.4f, 0.4f)
+                curveToRelative(-0.58f, 0.56f, -0.58f, 1.56f, 0f, 2.12f)
+                lineToRelative(1.56f, 1.57f)
+                close()
+                moveTo(17.7f, 12.25f)
+                lineToRelative(-2.58f, -2.66f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(1.56f, 1.56f)
+                curveToRelative(0.57f, 0.57f, 1.56f, 0.57f, 2.12f, 0f)
+                lineToRelative(0.31f, -0.31f)
+                close()
+            }
+        }.also { _ForkSpaghetti = it}

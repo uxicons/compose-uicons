@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WingsBox: ImageVector? = null
+
+val Icons.Br.WingsBox: ImageVector
+    get() = _WingsBox ?: UXIcon(name = "WingsBox") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(14.5f, 11f)
+            horizontalLineToRelative(-5f)
+            curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+            verticalLineToRelative(4f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(5f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+            close()
+            moveTo(16f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-4f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(5f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(14f, 17.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(21.68f, 4f)
+            curveToRelative(-0.0f, 0.01f, -0.0f, 0.01f, -0.0f, 0.02f)
+            curveToRelative(0.78f, 0.09f, 1.38f, 0.78f, 1.32f, 1.61f)
+            curveToRelative(-0.06f, 0.8f, -0.8f, 1.38f, -1.6f, 1.38f)
+            horizontalLineToRelative(-0.83f)
+            reflectiveCurveToRelative(-0.0f, 0.0f, -0.0f, 0.01f)
+            curveToRelative(0.8f, 0.03f, 1.44f, 0.69f, 1.44f, 1.49f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-1.86f)
+            curveToRelative(-0.9f, 0f, -1.45f, -0.97f, -1f, -1.75f)
+            curveToRelative(1.06f, -1.85f, 1.94f, -3.96f, 2.26f, -5.25f)
+            horizontalLineToRelative(-1.58f)
+            curveToRelative(-1.0f, 0f, -1.89f, 0.57f, -2.27f, 1.45f)
+            curveToRelative(-0.6f, 1.39f, -1.31f, 2.61f, -2.11f, 3.62f)
+            curveToRelative(-0.47f, 0.59f, -1.18f, 0.94f, -1.94f, 0.94f)
+            reflectiveCurveToRelative(-1.47f, -0.34f, -1.94f, -0.94f)
+            curveToRelative(-0.8f, -1.01f, -1.5f, -2.23f, -2.11f, -3.62f)
+            curveToRelative(-0.38f, -0.88f, -1.27f, -1.46f, -2.27f, -1.46f)
+            horizontalLineToRelative(-1.58f)
+            curveToRelative(0.31f, 1.29f, 1.19f, 3.4f, 2.26f, 5.25f)
+            curveToRelative(0.45f, 0.78f, -0.1f, 1.75f, -1f, 1.75f)
+            horizontalLineToRelative(-1.86f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            curveToRelative(0f, -0.81f, 0.64f, -1.46f, 1.44f, -1.49f)
+            curveToRelative(0f, -0.0f, -0.0f, -0.0f, -0.0f, -0.01f)
+            horizontalLineToRelative(-0.83f)
+            curveToRelative(-0.8f, 0f, -1.54f, -0.58f, -1.6f, -1.38f)
+            curveToRelative(-0.07f, -0.82f, 0.53f, -1.51f, 1.32f, -1.61f)
+            curveToRelative(-0.0f, -0.01f, -0.0f, -0.01f, -0.0f, -0.02f)
+            horizontalLineToRelative(-0.32f)
+            curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+            reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+            horizontalLineToRelative(3.69f)
+            curveToRelative(2.2f, 0f, 4.17f, 1.28f, 5.02f, 3.27f)
+            curveToRelative(0.39f, 0.89f, 0.82f, 1.69f, 1.29f, 2.38f)
+            curveToRelative(0.47f, -0.69f, 0.9f, -1.49f, 1.29f, -2.38f)
+            curveToRelative(0.86f, -1.98f, 2.83f, -3.26f, 5.02f, -3.26f)
+            horizontalLineToRelative(3.69f)
+            curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+            reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+            horizontalLineToRelative(-0.32f)
+            close()
+        }
+    }.also { _WingsBox = it }

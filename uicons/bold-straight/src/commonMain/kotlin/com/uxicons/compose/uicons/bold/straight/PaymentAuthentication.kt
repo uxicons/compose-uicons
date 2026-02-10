@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PaymentAuthentication: ImageVector? = null
+
+val Icons.Bs.PaymentAuthentication: ImageVector
+    get() = _PaymentAuthentication ?: UXIcon(name = "PaymentAuthentication") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5.2f, 14.98f)
+                lineToRelative(-0.39f, -1.96f)
+                curveToRelative(0.54f, -0.11f, 2.2f, -0.44f, 2.2f, -3.02f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                curveToRelative(0f, 2.68f, -1.39f, 4.5f, -3.8f, 4.98f)
+                close()
+                moveTo(8f, 8f)
+                curveToRelative(0.44f, 0f, 0.85f, 0.14f, 1.2f, 0.4f)
+                lineToRelative(1.2f, -1.6f)
+                curveToRelative(-0.7f, -0.53f, -1.53f, -0.8f, -2.4f, -0.8f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(12f, 10f)
+                curveToRelative(0f, -0.61f, -0.14f, -1.2f, -0.4f, -1.74f)
+                lineToRelative(-1.8f, 0.87f)
+                curveToRelative(0.13f, 0.27f, 0.2f, 0.57f, 0.2f, 0.88f)
+                curveToRelative(0.01f, 0.56f, -0.01f, 1.23f, -0.17f, 1.93f)
+                lineToRelative(1.95f, 0.44f)
+                curveToRelative(0.2f, -0.9f, 0.22f, -1.75f, 0.22f, -2.38f)
+                close()
+                moveTo(11.37f, 13.66f)
+                lineTo(9.53f, 12.87f)
+                curveToRelative(-0.29f, 0.68f, -0.73f, 1.29f, -1.34f, 1.87f)
+                lineToRelative(1.38f, 1.45f)
+                curveToRelative(0.79f, -0.76f, 1.4f, -1.6f, 1.79f, -2.52f)
+                close()
+                moveTo(15.09f, 13.01f)
+                curveToRelative(0.31f, 0f, 0.61f, -0.05f, 0.91f, -0.14f)
+                verticalLineToRelative(8.13f)
+                curveToRelative(0f, 1.66f, -1.34f, 3f, -3f, 3f)
+                horizontalLineToRelative(-10f)
+                curveToRelative(-1.66f, 0f, -3f, -1.34f, -3f, -3f)
+                verticalLineToRelative(-21f)
+                horizontalLineToRelative(12.56f)
+                curveToRelative(-0.35f, 0.59f, -0.56f, 1.27f, -0.56f, 2.0f)
+                verticalLineToRelative(1.0f)
+                reflectiveCurveToRelative(-9f, 0f, -9f, 0f)
+                verticalLineToRelative(15f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-5.82f)
+                curveToRelative(0.55f, 0.51f, 1.28f, 0.83f, 2.09f, 0.83f)
+                close()
+                moveTo(10.0f, 20.01f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(24f, 2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-5.87f)
+                lineToRelative(-2.45f, 1.84f)
+                curveToRelative(-0.19f, 0.12f, -0.39f, 0.17f, -0.58f, 0.17f)
+                curveToRelative(-0.57f, 0f, -1.09f, -0.45f, -1.09f, -1.09f)
+                lineToRelative(-0.0f, -7.92f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2.0f, -2.0f)
+                lineToRelative(6f, -0.0f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(22.72f, 3.58f)
+                lineTo(21.32f, 2.15f)
+                lineTo(18.55f, 5.02f)
+                lineTo(16.91f, 3.29f)
+                lineTo(15.52f, 4.73f)
+                lineTo(17.12f, 6.42f)
+                curveToRelative(0.77f, 0.77f, 2.08f, 0.76f, 2.82f, 0.02f)
+                curveToRelative(0f, 0f, 2.77f, -2.86f, 2.77f, -2.86f)
+                close()
+            }
+        }.also { _PaymentAuthentication = it}

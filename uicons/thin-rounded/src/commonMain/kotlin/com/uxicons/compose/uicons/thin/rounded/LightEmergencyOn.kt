@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LightEmergencyOn: ImageVector? = null
+
+val Icons.Tr.LightEmergencyOn: ImageVector
+    get() = _LightEmergencyOn ?: UXIcon(name = "LightEmergencyOn") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 19.04f)
+                verticalLineToRelative(-6.04f)
+                curveToRelative(0f, -4.96f, -4.04f, -9f, -9f, -9f)
+                reflectiveCurveTo(3f, 8.04f, 3f, 13f)
+                verticalLineToRelative(6.04f)
+                curveToRelative(-1.69f, 0.24f, -3f, 1.7f, -3f, 3.46f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(21f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                curveToRelative(0f, -1.76f, -1.31f, -3.22f, -3f, -3.46f)
+                close()
+                moveTo(4f, 13f)
+                curveToRelative(0f, -4.41f, 3.59f, -8f, 8f, -8f)
+                reflectiveCurveToRelative(8f, 3.59f, 8f, 8f)
+                verticalLineToRelative(6f)
+                lineTo(4f, 19f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(22.5f, 23f)
+                lineTo(1.5f, 23f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(17f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                close()
+                moveTo(17.05f, 2.28f)
+                lineToRelative(1f, -2f)
+                curveToRelative(0.12f, -0.25f, 0.42f, -0.35f, 0.67f, -0.22f)
+                curveToRelative(0.25f, 0.12f, 0.35f, 0.42f, 0.22f, 0.67f)
+                lineToRelative(-1f, 2f)
+                curveToRelative(-0.09f, 0.17f, -0.27f, 0.28f, -0.45f, 0.28f)
+                curveToRelative(-0.07f, 0f, -0.15f, -0.02f, -0.22f, -0.05f)
+                curveToRelative(-0.25f, -0.12f, -0.35f, -0.42f, -0.22f, -0.67f)
+                close()
+                moveTo(21.15f, 5.85f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(2f, -2f)
+                curveToRelative(0.2f, -0.2f, 0.51f, -0.2f, 0.71f, 0f)
+                reflectiveCurveToRelative(0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(-2f, 2f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                close()
+                moveTo(5.05f, 0.72f)
+                curveToRelative(-0.12f, -0.25f, -0.02f, -0.55f, 0.22f, -0.67f)
+                reflectiveCurveToRelative(0.55f, -0.02f, 0.67f, 0.22f)
+                lineToRelative(1f, 2f)
+                curveToRelative(0.12f, 0.25f, 0.02f, 0.55f, -0.22f, 0.67f)
+                curveToRelative(-0.07f, 0.04f, -0.15f, 0.05f, -0.22f, 0.05f)
+                curveToRelative(-0.18f, 0f, -0.36f, -0.1f, -0.45f, -0.28f)
+                lineToRelative(-1f, -2f)
+                close()
+                moveTo(0.15f, 3.85f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                reflectiveCurveToRelative(0.51f, -0.2f, 0.71f, 0f)
+                lineToRelative(2f, 2f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                lineTo(0.15f, 3.85f)
+                close()
+                moveTo(12f, 9.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _LightEmergencyOn = it}

@@ -1,0 +1,84 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PeopleCarryBox: ImageVector? = null
+
+val Icons.Sr.PeopleCarryBox: ImageVector
+    get() = _PeopleCarryBox ?: UXIcon(name = "PeopleCarryBox") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(3f, 2.5f)
+                curveTo(3f, 1.12f, 4.12f, 0f, 5.5f, 0f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(18.5f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveTo(19.88f, 0f, 18.5f, 0f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(2.42f, 18.04f)
+                curveToRelative(-0.53f, -0.15f, -1.08f, 0.16f, -1.24f, 0.69f)
+                lineTo(0.04f, 22.73f)
+                curveToRelative(-0.15f, 0.53f, 0.16f, 1.08f, 0.69f, 1.24f)
+                curveToRelative(0.09f, 0.03f, 0.18f, 0.04f, 0.28f, 0.04f)
+                curveToRelative(0.43f, 0f, 0.83f, -0.29f, 0.96f, -0.73f)
+                lineToRelative(1.14f, -4f)
+                curveToRelative(0.15f, -0.53f, -0.16f, -1.08f, -0.69f, -1.24f)
+                close()
+                moveTo(23.96f, 22.73f)
+                lineToRelative(-1.14f, -4f)
+                curveToRelative(-0.15f, -0.53f, -0.7f, -0.83f, -1.24f, -0.69f)
+                curveToRelative(-0.53f, 0.15f, -0.84f, 0.7f, -0.69f, 1.24f)
+                lineToRelative(1.14f, 4f)
+                curveToRelative(0.12f, 0.44f, 0.53f, 0.73f, 0.96f, 0.73f)
+                curveToRelative(0.09f, 0f, 0.18f, -0.01f, 0.28f, -0.04f)
+                curveToRelative(0.53f, -0.15f, 0.84f, -0.7f, 0.69f, -1.24f)
+                close()
+                moveTo(22.14f, 16.01f)
+                lineToRelative(-3.14f, 2.05f)
+                verticalLineToRelative(4.94f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-5.48f)
+                curveToRelative(0f, -0.34f, 0.17f, -0.65f, 0.45f, -0.84f)
+                lineToRelative(1.5f, -0.98f)
+                lineToRelative(-1.63f, -6.12f)
+                lineToRelative(-1.32f, 2.22f)
+                verticalLineToRelative(2.69f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-2.69f)
+                lineToRelative(-1.31f, -2.21f)
+                lineToRelative(-1.59f, 6.14f)
+                lineToRelative(1.45f, 0.94f)
+                curveToRelative(0.28f, 0.18f, 0.45f, 0.5f, 0.45f, 0.84f)
+                verticalLineToRelative(5.48f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-4.94f)
+                lineToRelative(-3.15f, -2.05f)
+                curveTo(0.46f, 15.13f, -0.25f, 13.44f, 0.08f, 11.82f)
+                lineToRelative(0.75f, -2.76f)
+                curveToRelative(0.36f, -1.75f, 1.97f, -3.06f, 3.82f, -3.06f)
+                curveToRelative(1.38f, 0f, 2.67f, 0.73f, 3.37f, 1.92f)
+                lineToRelative(0.96f, 1.61f)
+                curveToRelative(0.42f, -0.33f, 0.95f, -0.53f, 1.52f, -0.53f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.58f, 0f, 1.1f, 0.2f, 1.52f, 0.53f)
+                lineToRelative(0.96f, -1.61f)
+                curveToRelative(0.7f, -1.18f, 1.99f, -1.92f, 3.37f, -1.92f)
+                curveToRelative(1.85f, 0f, 3.46f, 1.31f, 3.83f, 3.12f)
+                lineToRelative(0.72f, 2.64f)
+                curveToRelative(0.35f, 1.68f, -0.37f, 3.36f, -1.76f, 4.25f)
+                close()
+            }
+        }.also { _PeopleCarryBox = it}

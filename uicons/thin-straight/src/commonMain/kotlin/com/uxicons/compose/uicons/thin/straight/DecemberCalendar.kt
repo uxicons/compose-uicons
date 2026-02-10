@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DecemberCalendar: ImageVector? = null
+
+val Icons.Ts.DecemberCalendar: ImageVector
+    get() = _DecemberCalendar ?: UXIcon(name = "DecemberCalendar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20f, 18.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                curveToRelative(0.65f, 0f, 1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(1.04f)
+                curveToRelative(-0.23f, 1.14f, -1.24f, 2f, -2.45f, 2f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(13f, 18.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(12f, 18.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(14f, 24f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(24f, 4.5f)
+                verticalLineToRelative(10.47f)
+                curveToRelative(-0.3f, -0.24f, -0.64f, -0.44f, -1f, -0.6f)
+                verticalLineToRelative(-5.37f)
+                horizontalLineToRelative(-22f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-19.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3.5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(23f, 8f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-19f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(3.5f)
+                close()
+            }
+        }.also { _DecemberCalendar = it}

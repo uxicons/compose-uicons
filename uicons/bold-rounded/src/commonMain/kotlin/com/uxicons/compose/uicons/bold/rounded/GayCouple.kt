@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GayCouple: ImageVector? = null
+
+val Icons.Br.GayCouple: ImageVector
+    get() = _GayCouple ?: UXIcon(name = "GayCouple") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(16f, 2.5f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+            reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+            reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+            close()
+            moveTo(5.5f, 5f)
+            curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+            reflectiveCurveTo(6.88f, 0f, 5.5f, 0f)
+            reflectiveCurveTo(3f, 1.12f, 3f, 2.5f)
+            reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+            close()
+            moveTo(7.62f, 14.5f)
+            curveToRelative(-0.29f, 0.32f, -0.69f, 0.5f, -1.12f, 0.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-3f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            curveTo(2.02f, 6f, 0f, 8.02f, 0f, 10.5f)
+            verticalLineToRelative(3f)
+            curveToRelative(0f, 1.56f, 0.8f, 2.93f, 2f, 3.74f)
+            verticalLineToRelative(5.26f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-4.5f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(4.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-5.28f)
+            curveToRelative(0.31f, -0.21f, 0.6f, -0.44f, 0.85f, -0.72f)
+            curveToRelative(0.55f, -0.62f, 0.5f, -1.56f, -0.12f, -2.12f)
+            reflectiveCurveToRelative(-1.56f, -0.5f, -2.12f, 0.12f)
+            close()
+            moveTo(19.5f, 6f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(3f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.43f, 0f, -0.83f, -0.18f, -1.12f, -0.5f)
+            curveToRelative(-0.55f, -0.62f, -1.5f, -0.67f, -2.12f, -0.12f)
+            curveToRelative(-0.62f, 0.55f, -0.67f, 1.5f, -0.12f, 2.12f)
+            curveToRelative(0.25f, 0.28f, 0.55f, 0.52f, 0.85f, 0.72f)
+            verticalLineToRelative(5.28f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-4.5f)
+            horizontalLineToRelative(1f)
+            verticalLineToRelative(4.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-5.26f)
+            curveToRelative(1.21f, -0.81f, 2f, -2.18f, 2f, -3.74f)
+            verticalLineToRelative(-3f)
+            curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+            close()
+            moveTo(16f, 8.12f)
+            curveToRelative(0f, -1.22f, -0.9f, -2.2f, -2f, -2.2f)
+            reflectiveCurveToRelative(-2f, 0.98f, -2f, 2.2f)
+            curveToRelative(0f, -1.22f, -0.9f, -2.2f, -2f, -2.2f)
+            reflectiveCurveToRelative(-2f, 0.98f, -2f, 2.2f)
+            curveToRelative(0f, 1.73f, 2.26f, 3.76f, 3.38f, 4.66f)
+            curveToRelative(0.36f, 0.29f, 0.88f, 0.29f, 1.24f, 0f)
+            curveToRelative(1.12f, -0.9f, 3.38f, -2.93f, 3.38f, -4.66f)
+            close()
+        }
+    }.also { _GayCouple = it }

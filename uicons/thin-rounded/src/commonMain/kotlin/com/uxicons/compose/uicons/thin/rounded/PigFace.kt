@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PigFace: ImageVector? = null
+
+val Icons.Tr.PigFace: ImageVector
+    get() = _PigFace ?: UXIcon(name = "PigFace") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.55f, 0.62f)
+                curveToRelative(-0.35f, -0.4f, -0.85f, -0.62f, -1.37f, -0.62f)
+                horizontalLineToRelative(-0.03f)
+                curveToRelative(-2.58f, 0.04f, -5.04f, 0.27f, -6.72f, 2.55f)
+                curveToRelative(-1.08f, -0.35f, -2.23f, -0.55f, -3.42f, -0.55f)
+                reflectiveCurveToRelative(-2.35f, 0.19f, -3.42f, 0.55f)
+                curveTo(6.9f, 0.27f, 4.44f, 0.04f, 1.85f, 0f)
+                curveTo(1.33f, -0.01f, 0.81f, 0.22f, 0.45f, 0.62f)
+                curveTo(0.1f, 1.02f, -0.06f, 1.55f, 0.02f, 2.07f)
+                curveToRelative(0.1f, 0.7f, 0.62f, 3.3f, 2.18f, 5.94f)
+                curveToRelative(0.01f, 0.02f, 0.0f, 0.01f, -0.0f, 0.0f)
+                curveToRelative(-0.77f, 1.5f, -1.2f, 3.19f, -1.2f, 4.99f)
+                curveToRelative(0f, 6.07f, 4.93f, 11f, 11f, 11f)
+                reflectiveCurveToRelative(11f, -4.93f, 11f, -11f)
+                curveToRelative(0f, -1.79f, -0.43f, -3.49f, -1.2f, -4.99f)
+                curveToRelative(-0.01f, 0.01f, -0.01f, 0.01f, -0.0f, -0.0f)
+                curveToRelative(1.56f, -2.64f, 2.08f, -5.24f, 2.18f, -5.94f)
+                curveToRelative(0.07f, -0.52f, -0.09f, -1.05f, -0.44f, -1.45f)
+                close()
+                moveTo(1.01f, 1.93f)
+                curveToRelative(-0.03f, -0.23f, 0.04f, -0.47f, 0.2f, -0.65f)
+                curveToRelative(0.16f, -0.18f, 0.39f, -0.28f, 0.64f, -0.28f)
+                curveToRelative(2.73f, 0.04f, 4.49f, 0.37f, 5.76f, 1.92f)
+                curveToRelative(-1.98f, 0.87f, -3.66f, 2.31f, -4.83f, 4.11f)
+                curveTo(1.48f, 4.69f, 1.1f, 2.55f, 1.01f, 1.93f)
+                close()
+                moveTo(22f, 13f)
+                curveToRelative(0f, 5.51f, -4.49f, 10f, -10f, 10f)
+                reflectiveCurveTo(2f, 18.51f, 2f, 13f)
+                reflectiveCurveTo(6.49f, 3f, 12f, 3f)
+                reflectiveCurveToRelative(10f, 4.49f, 10f, 10f)
+                close()
+                moveTo(22.99f, 1.93f)
+                curveToRelative(-0.09f, 0.62f, -0.47f, 2.76f, -1.76f, 5.1f)
+                curveToRelative(-1.17f, -1.8f, -2.85f, -3.24f, -4.83f, -4.11f)
+                curveToRelative(1.27f, -1.55f, 3.03f, -1.88f, 5.76f, -1.92f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(0.24f, 0f, 0.47f, 0.1f, 0.62f, 0.28f)
+                curveToRelative(0.16f, 0.18f, 0.23f, 0.41f, 0.2f, 0.65f)
+                close()
+                moveTo(12f, 12f)
+                curveToRelative(-2.21f, 0f, -4f, 1.57f, -4f, 3.5f)
+                reflectiveCurveToRelative(1.79f, 3.5f, 4f, 3.5f)
+                reflectiveCurveToRelative(4f, -1.57f, 4f, -3.5f)
+                reflectiveCurveToRelative(-1.79f, -3.5f, -4f, -3.5f)
+                close()
+                moveTo(12f, 18f)
+                curveToRelative(-1.65f, 0f, -3f, -1.12f, -3f, -2.5f)
+                reflectiveCurveToRelative(1.35f, -2.5f, 3f, -2.5f)
+                reflectiveCurveToRelative(3f, 1.12f, 3f, 2.5f)
+                reflectiveCurveToRelative(-1.35f, 2.5f, -3f, 2.5f)
+                close()
+                moveTo(21.8f, 8.01f)
+                reflectiveCurveToRelative(-0.0f, -0.0f, -0.0f, -0.0f)
+                curveToRelative(0.01f, -0.01f, 0.01f, -0.01f, 0.0f, 0.0f)
+                close()
+                moveTo(2.2f, 8.01f)
+                reflectiveCurveToRelative(-0.0f, 0.0f, -0.0f, 0.0f)
+                curveToRelative(-0.01f, -0.01f, -0.01f, -0.02f, 0.0f, -0.0f)
+                close()
+                moveTo(17f, 10f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(8f, 11f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _PigFace = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TheaterMasks: ImageVector? = null
+
+val Icons.Br.TheaterMasks: ImageVector
+    get() = _TheaterMasks ?: UXIcon(name = "TheaterMasks") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(21.15f, 1.4f)
+            curveToRelative(-1.61f, -0.57f, -3.22f, -0.96f, -4.76f, -1.18f)
+            curveTo(14.85f, 0.01f, 13.2f, -0.05f, 11.49f, 0.05f)
+            curveToRelative(-2.0f, 0.12f, -3.65f, 1.62f, -3.94f, 3.57f)
+            lineToRelative(-0.21f, 1.47f)
+            curveToRelative(-1.48f, 0.22f, -3.01f, 0.61f, -4.55f, 1.15f)
+            curveTo(0.89f, 6.9f, -0.27f, 8.8f, 0.01f, 10.76f)
+            lineToRelative(0.95f, 6.56f)
+            curveToRelative(0.47f, 3.25f, 4.31f, 5.29f, 7.44f, 6.44f)
+            curveToRelative(0.44f, 0.16f, 0.9f, 0.24f, 1.35f, 0.24f)
+            curveToRelative(0.8f, 0f, 1.59f, -0.25f, 2.25f, -0.73f)
+            curveToRelative(1.48f, -1.08f, 3.48f, -2.78f, 4.57f, -4.75f)
+            curveToRelative(2.89f, -1.2f, 5.98f, -3.14f, 6.4f, -6.04f)
+            lineToRelative(0.95f, -6.56f)
+            curveToRelative(0.28f, -1.96f, -0.88f, -3.87f, -2.77f, -4.53f)
+            close()
+            moveTo(10.23f, 20.85f)
+            curveToRelative(-0.22f, 0.16f, -0.52f, 0.2f, -0.8f, 0.1f)
+            curveToRelative(-3.2f, -1.17f, -5.3f, -2.72f, -5.5f, -4.05f)
+            lineToRelative(-0.95f, -6.56f)
+            curveToRelative(-0.08f, -0.55f, 0.25f, -1.07f, 0.8f, -1.27f)
+            curveToRelative(1.03f, -0.36f, 2.09f, -0.65f, 3.1f, -0.86f)
+            lineToRelative(-0.29f, 1.97f)
+            curveToRelative(-0.02f, 0.15f, -0.04f, 0.3f, -0.04f, 0.45f)
+            curveToRelative(-0.14f, -0.03f, -0.29f, -0.04f, -0.44f, -0.02f)
+            curveToRelative(-0.69f, 0.1f, -1.19f, 0.77f, -1.37f, 1.64f)
+            curveToRelative(-0.06f, 0.29f, 0.18f, 0.55f, 0.48f, 0.51f)
+            lineToRelative(1.62f, -0.23f)
+            curveToRelative(0.24f, 0.72f, 0.63f, 1.42f, 1.1f, 2.08f)
+            curveToRelative(-1.02f, 0.53f, -1.76f, 1.51f, -2.09f, 2.68f)
+            curveToRelative(-0.12f, 0.44f, 0.38f, 0.79f, 0.76f, 0.54f)
+            curveToRelative(1.03f, -0.69f, 2.0f, -1.11f, 3.03f, -1.29f)
+            curveToRelative(0.73f, 0.7f, 1.52f, 1.34f, 2.27f, 1.89f)
+            curveToRelative(0.22f, 0.16f, 0.45f, 0.29f, 0.69f, 0.4f)
+            curveToRelative(-0.82f, 0.85f, -1.74f, 1.57f, -2.36f, 2.03f)
+            close()
+            moveTo(20.96f, 5.5f)
+            lineToRelative(-0.95f, 6.56f)
+            curveToRelative(-0.19f, 1.33f, -2.3f, 2.89f, -5.5f, 4.05f)
+            curveToRelative(-0.28f, 0.1f, -0.59f, 0.06f, -0.83f, -0.11f)
+            curveToRelative(-2.73f, -2.0f, -4.31f, -4.06f, -4.11f, -5.39f)
+            lineToRelative(0.95f, -6.56f)
+            curveToRelative(0.08f, -0.55f, 0.56f, -0.98f, 1.14f, -1.01f)
+            curveToRelative(0.48f, -0.03f, 0.95f, -0.04f, 1.42f, -0.04f)
+            curveToRelative(1.01f, 0f, 1.98f, 0.07f, 2.9f, 0.19f)
+            curveToRelative(1.33f, 0.19f, 2.78f, 0.55f, 4.18f, 1.04f)
+            curveToRelative(0.55f, 0.19f, 0.88f, 0.71f, 0.8f, 1.27f)
+            close()
+            moveTo(18.21f, 11.35f)
+            curveToRelative(-0.91f, 1.22f, -2.32f, 1.95f, -3.82f, 1.74f)
+            curveToRelative(-1.5f, -0.21f, -2.65f, -1.31f, -3.18f, -2.73f)
+            curveToRelative(-0.17f, -0.44f, 0.33f, -0.84f, 0.74f, -0.61f)
+            curveToRelative(1.93f, 1.08f, 3.57f, 1.32f, 5.73f, 0.82f)
+            curveToRelative(0.46f, -0.11f, 0.81f, 0.41f, 0.53f, 0.79f)
+            close()
+            moveTo(19.04f, 7.52f)
+            curveToRelative(0.06f, 0.29f, -0.18f, 0.55f, -0.48f, 0.51f)
+            lineToRelative(-2.36f, -0.34f)
+            curveToRelative(-0.29f, -0.04f, -0.46f, -0.36f, -0.32f, -0.62f)
+            curveToRelative(0.42f, -0.79f, 1.09f, -1.29f, 1.78f, -1.19f)
+            curveToRelative(0.69f, 0.1f, 1.19f, 0.77f, 1.37f, 1.64f)
+            close()
+            moveTo(11.44f, 6.44f)
+            curveToRelative(0.42f, -0.79f, 1.09f, -1.29f, 1.78f, -1.19f)
+            curveToRelative(0.69f, 0.1f, 1.19f, 0.77f, 1.37f, 1.64f)
+            curveToRelative(0.06f, 0.29f, -0.18f, 0.55f, -0.48f, 0.51f)
+            lineToRelative(-2.36f, -0.34f)
+            curveToRelative(-0.29f, -0.04f, -0.46f, -0.36f, -0.32f, -0.62f)
+            close()
+        }
+    }.also { _TheaterMasks = it }

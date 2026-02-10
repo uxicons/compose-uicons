@@ -1,0 +1,59 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Envelopes: ImageVector? = null
+
+val Icons.Tr.Envelopes: ImageVector
+    get() = _Envelopes ?: UXIcon(name = "Envelopes") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19.5f, 2f)
+                lineTo(7.5f, 2f)
+                curveToRelative(-2.49f, 0f, -4.5f, 2.01f, -4.5f, 4.5f)
+                lineTo(3f, 15.5f)
+                curveToRelative(0f, 2.49f, 2.01f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(2.49f, 0f, 4.5f, -2.01f, 4.5f, -4.5f)
+                lineTo(24f, 6.5f)
+                curveToRelative(0f, -2.49f, -2.01f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(19.5f, 3f)
+                curveToRelative(0.95f, 0f, 1.82f, 0.38f, 2.45f, 1f)
+                lineToRelative(-5.97f, 5.97f)
+                curveToRelative(-1.37f, 1.37f, -3.58f, 1.37f, -4.95f, 0f)
+                lineTo(5.05f, 4f)
+                curveToRelative(0.63f, -0.62f, 1.5f, -1f, 2.45f, -1f)
+                horizontalLineToRelative(12f)
+                close()
+                moveTo(23f, 15.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                lineTo(7.5f, 19f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                lineTo(4f, 6.5f)
+                curveToRelative(0f, -0.62f, 0.16f, -1.19f, 0.44f, -1.7f)
+                lineToRelative(5.88f, 5.88f)
+                curveToRelative(0.88f, 0.88f, 2.03f, 1.32f, 3.18f, 1.32f)
+                reflectiveCurveToRelative(2.3f, -0.44f, 3.18f, -1.32f)
+                lineToRelative(5.88f, -5.88f)
+                curveToRelative(0.28f, 0.5f, 0.44f, 1.08f, 0.44f, 1.7f)
+                lineTo(23f, 15.5f)
+                close()
+                moveTo(18f, 22.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(4.5f, 23f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 7.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(11f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(13f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+            }
+        }.also { _Envelopes = it}

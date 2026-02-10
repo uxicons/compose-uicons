@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MoneyBillWaveAlt: ImageVector? = null
+
+val Icons.Bs.MoneyBillWaveAlt: ImageVector
+    get() = _MoneyBillWaveAlt ?: UXIcon(name = "MoneyBillWaveAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(7f, 8.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(17f, 9.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(5.5f, 13f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(17f, 15.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(2.12f, 21.3f)
+                curveToRelative(0.03f, -0.01f, 2.89f, -1.3f, 5.38f, -1.3f)
+                curveToRelative(1.2f, 0f, 2.72f, 0.47f, 4.19f, 0.93f)
+                curveToRelative(1.68f, 0.53f, 3.42f, 1.07f, 5.08f, 1.07f)
+                curveToRelative(3.15f, 0f, 6.22f, -1.37f, 6.35f, -1.43f)
+                lineToRelative(0.88f, -0.4f)
+                lineTo(24f, 6.5f)
+                curveToRelative(0f, -1.1f, -0.53f, -2.16f, -1.41f, -2.84f)
+                curveToRelative(-0.83f, -0.64f, -1.87f, -0.86f, -2.85f, -0.6f)
+                curveToRelative(-0.31f, 0.08f, -0.65f, 0.2f, -1.02f, 0.34f)
+                curveToRelative(-0.79f, 0.29f, -1.61f, 0.59f, -2.72f, 0.59f)
+                curveToRelative(-1.19f, 0f, -2.51f, -0.45f, -3.9f, -0.92f)
+                curveToRelative(-1.57f, -0.53f, -3.19f, -1.08f, -4.87f, -1.08f)
+                curveToRelative(-2.07f, 0f, -4.07f, 0.81f, -5.39f, 1.49f)
+                curveToRelative(-1.13f, 0.58f, -1.84f, 1.75f, -1.84f, 3.03f)
+                lineToRelative(0.0f, 15.75f)
+                lineToRelative(2.12f, -0.97f)
+                close()
+                moveTo(3f, 17.78f)
+                lineTo(3f, 6.51f)
+                curveToRelative(0f, -0.15f, 0.08f, -0.29f, 0.21f, -0.36f)
+                curveToRelative(0.84f, -0.43f, 2.47f, -1.15f, 4.02f, -1.15f)
+                curveToRelative(1.19f, 0f, 2.51f, 0.45f, 3.9f, 0.92f)
+                curveToRelative(1.57f, 0.53f, 3.19f, 1.08f, 4.87f, 1.08f)
+                curveToRelative(1.65f, 0f, 2.87f, -0.45f, 3.76f, -0.78f)
+                curveToRelative(0.27f, -0.1f, 0.52f, -0.19f, 0.74f, -0.25f)
+                curveToRelative(0.1f, -0.03f, 0.19f, 0.03f, 0.26f, 0.08f)
+                curveToRelative(0.14f, 0.11f, 0.24f, 0.29f, 0.24f, 0.46f)
+                verticalLineToRelative(11.68f)
+                curveToRelative(-0.98f, 0.34f, -2.62f, 0.82f, -4.23f, 0.82f)
+                curveToRelative(-1.2f, 0f, -2.72f, -0.47f, -4.19f, -0.93f)
+                curveToRelative(-1.68f, -0.53f, -3.42f, -1.07f, -5.08f, -1.07f)
+                curveToRelative(-1.6f, 0f, -3.25f, 0.39f, -4.5f, 0.78f)
+                close()
+                moveTo(14f, 8.39f)
+                lineToRelative(-0.41f, -0.07f)
+                curveToRelative(-0.55f, -0.1f, -1.13f, -0.24f, -1.78f, -0.43f)
+                lineToRelative(-0.29f, -0.09f)
+                lineToRelative(-3.43f, 3.52f)
+                lineToRelative(2.15f, 2.09f)
+                lineToRelative(0.77f, -0.8f)
+                verticalLineToRelative(3.39f)
+                lineToRelative(1.19f, 0.33f)
+                curveToRelative(0.4f, 0.11f, 0.79f, 0.23f, 1.18f, 0.33f)
+                lineToRelative(0.62f, 0.17f)
+                lineTo(14f, 8.39f)
+                close()
+            }
+        }.also { _MoneyBillWaveAlt = it}

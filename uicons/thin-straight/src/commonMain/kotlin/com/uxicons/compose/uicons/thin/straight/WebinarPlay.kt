@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WebinarPlay: ImageVector? = null
+
+val Icons.Ts.WebinarPlay: ImageVector
+    get() = _WebinarPlay ?: UXIcon(name = "WebinarPlay") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 12.24f)
+                curveToRelative(0.36f, -0.29f, 0.69f, -0.61f, 1f, -0.96f)
+                verticalLineToRelative(8.72f)
+                lineTo(12.5f, 20.0f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(5.5f)
+                verticalLineToRelative(1f)
+                lineTo(6f, 24.0f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(5.5f)
+                verticalLineToRelative(-3f)
+                lineTo(0f, 20.0f)
+                lineTo(0f, 4f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                lineTo(11.08f, 2f)
+                curveToRelative(-0.19f, 0.32f, -0.35f, 0.65f, -0.49f, 1f)
+                lineTo(2f, 3f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(15f)
+                lineTo(23f, 19f)
+                verticalLineToRelative(-6.76f)
+                close()
+                moveTo(4.5f, 8.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(5.5f, 8.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                close()
+                moveTo(11f, 16f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                lineTo(5f, 12f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(21.53f, 6f)
+                lineToRelative(-5.53f, 3.07f)
+                lineTo(16f, 2.93f)
+                lineToRelative(5.53f, 3.07f)
+                close()
+                moveTo(17f, 7.37f)
+                lineToRelative(2.47f, -1.37f)
+                lineToRelative(-2.47f, -1.37f)
+                verticalLineToRelative(2.75f)
+                close()
+                moveTo(12f, 6f)
+                curveToRelative(0f, -3.31f, 2.69f, -6f, 6f, -6f)
+                reflectiveCurveToRelative(6f, 2.69f, 6f, 6f)
+                reflectiveCurveToRelative(-2.69f, 6f, -6f, 6f)
+                reflectiveCurveToRelative(-6f, -2.69f, -6f, -6f)
+                close()
+                moveTo(13f, 6f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                reflectiveCurveToRelative(5f, -2.24f, 5f, -5f)
+                reflectiveCurveToRelative(-2.24f, -5f, -5f, -5f)
+                reflectiveCurveToRelative(-5f, 2.24f, -5f, 5f)
+                close()
+            }
+        }.also { _WebinarPlay = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FilmSlash: ImageVector? = null
+
+val Icons.Rs.FilmSlash: ImageVector
+    get() = _FilmSlash ?: UXIcon(name = "FilmSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(8f, 20f)
+                verticalLineToRelative(-7.76f)
+                lineTo(2f, 6.24f)
+                verticalLineToRelative(15.76f)
+                lineTo(4f, 22.0f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(11.76f)
+                lineToRelative(-2f, -2f)
+                lineTo(8f, 20.0f)
+                close()
+                moveTo(6f, 11f)
+                verticalLineToRelative(2f)
+                lineTo(4f, 13f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(4f, 17f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                lineTo(4f, 17f)
+                close()
+                moveTo(22f, 20.59f)
+                lineTo(22f, 2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-2f)
+                lineTo(18f, 2f)
+                lineTo(6f, 2f)
+                verticalLineToRelative(2.59f)
+                lineTo(1.46f, 0.04f)
+                lineTo(0.04f, 1.46f)
+                lineTo(22.54f, 23.96f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-1.96f, -1.96f)
+                close()
+                moveTo(20f, 13f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(16f, 14.59f)
+                lineToRelative(-1.59f, -1.59f)
+                horizontalLineToRelative(1.59f)
+                verticalLineToRelative(1.59f)
+                close()
+                moveTo(18f, 15f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.59f)
+                lineToRelative(-0.41f, -0.41f)
+                verticalLineToRelative(-1.59f)
+                close()
+                moveTo(20f, 7f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(8f, 4f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-3.59f)
+                lineToRelative(-4.41f, -4.41f)
+                verticalLineToRelative(-2.59f)
+                close()
+            }
+        }.also { _FilmSlash = it}

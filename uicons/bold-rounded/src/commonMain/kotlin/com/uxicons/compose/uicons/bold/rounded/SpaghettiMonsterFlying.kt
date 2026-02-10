@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SpaghettiMonsterFlying: ImageVector? = null
+
+val Icons.Br.SpaghettiMonsterFlying: ImageVector
+    get() = _SpaghettiMonsterFlying ?: UXIcon(name = "SpaghettiMonsterFlying") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(22.5f, 15f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+            reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+            verticalLineToRelative(-3.48f)
+            reflectiveCurveToRelative(0f, -0.01f, 0f, -0.01f)
+            curveToRelative(0f, -0.0f, 0f, -0.01f, 0f, -0.01f)
+            curveToRelative(0f, -1.38f, 0.66f, -3.0f, 2.5f, -3.0f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            curveToRelative(-2.07f, 0f, -3.77f, 1.07f, -4.71f, 2.77f)
+            curveToRelative(-0.57f, -0.36f, -1.22f, -0.71f, -1.95f, -1.01f)
+            lineToRelative(1.56f, -2.81f)
+            curveToRelative(1.46f, -0.2f, 2.59f, -1.44f, 2.59f, -2.96f)
+            curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+            reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+            curveToRelative(0f, 0.68f, 0.23f, 1.3f, 0.62f, 1.8f)
+            lineToRelative(-1.8f, 3.25f)
+            curveToRelative(-0.27f, -0.02f, -0.53f, -0.04f, -0.81f, -0.04f)
+            reflectiveCurveToRelative(-0.55f, 0.02f, -0.81f, 0.04f)
+            lineToRelative(-1.8f, -3.25f)
+            curveToRelative(0.38f, -0.5f, 0.62f, -1.12f, 0.62f, -1.8f)
+            curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+            reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+            curveToRelative(0f, 1.52f, 1.13f, 2.76f, 2.59f, 2.96f)
+            lineToRelative(1.56f, 2.81f)
+            curveToRelative(-0.73f, 0.29f, -1.38f, 0.64f, -1.95f, 1.01f)
+            curveToRelative(-0.94f, -1.7f, -2.64f, -2.77f, -4.71f, -2.77f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            curveToRelative(1.85f, 0f, 2.5f, 1.62f, 2.5f, 3f)
+            verticalLineToRelative(3.5f)
+            curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+            reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+            curveToRelative(1.86f, 0f, 3.38f, -1.47f, 3.48f, -3.31f)
+            curveToRelative(0.46f, 0.25f, 0.97f, 0.48f, 1.52f, 0.68f)
+            verticalLineToRelative(1.13f)
+            curveToRelative(0f, 2.5f, -1.05f, 2.5f, -1.5f, 2.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            curveToRelative(2.82f, 0f, 4.5f, -2.06f, 4.5f, -5.5f)
+            verticalLineToRelative(-0.52f)
+            curveToRelative(0.17f, 0.01f, 0.33f, 0.03f, 0.5f, 0.03f)
+            reflectiveCurveToRelative(0.33f, -0.02f, 0.5f, -0.03f)
+            verticalLineToRelative(0.52f)
+            curveToRelative(0f, 3.19f, 2.1f, 5.5f, 5f, 5.5f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            curveToRelative(-1.9f, 0f, -2f, -2.08f, -2f, -2.5f)
+            verticalLineToRelative(-1.13f)
+            curveToRelative(0.55f, -0.2f, 1.06f, -0.43f, 1.52f, -0.68f)
+            curveToRelative(0.1f, 1.84f, 1.62f, 3.31f, 3.48f, 3.31f)
+            curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(12f, 15.01f)
+            curveToRelative(-2.16f, 0f, -3.88f, -1.0f, -4.94f, -1.83f)
+            horizontalLineToRelative(0f)
+            curveToRelative(-0.05f, -0.04f, -0.06f, -0.11f, -0.06f, -0.17f)
+            reflectiveCurveToRelative(0.02f, -0.13f, 0.06f, -0.17f)
+            curveToRelative(1.06f, -0.83f, 2.78f, -1.83f, 4.94f, -1.83f)
+            reflectiveCurveToRelative(3.88f, 1.0f, 4.94f, 1.83f)
+            curveToRelative(0.04f, 0.04f, 0.06f, 0.1f, 0.06f, 0.16f)
+            verticalLineToRelative(0.01f)
+            curveToRelative(-0.0f, 0.06f, -0.02f, 0.13f, -0.06f, 0.16f)
+            curveToRelative(-1.06f, 0.83f, -2.78f, 1.83f, -4.94f, 1.83f)
+            close()
+        }
+    }.also { _SpaghettiMonsterFlying = it }

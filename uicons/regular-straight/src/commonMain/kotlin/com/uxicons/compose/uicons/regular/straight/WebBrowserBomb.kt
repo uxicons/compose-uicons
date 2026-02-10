@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WebBrowserBomb: ImageVector? = null
+
+val Icons.Rs.WebBrowserBomb: ImageVector
+    get() = _WebBrowserBomb ?: UXIcon(name = "WebBrowserBomb") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18.33f, 13.33f)
+                lineToRelative(-0.83f, 1.67f)
+                lineToRelative(-0.83f, -1.67f)
+                lineToRelative(-1.67f, -0.83f)
+                lineToRelative(1.67f, -0.83f)
+                lineToRelative(0.83f, -1.67f)
+                lineToRelative(0.83f, 1.67f)
+                lineToRelative(1.67f, 0.83f)
+                close()
+                moveTo(9.89f, 13f)
+                curveToRelative(1.42f, 0f, 2.64f, 0.14f, 3.42f, 0.25f)
+                lineToRelative(0.29f, -1.98f)
+                curveToRelative(-1.23f, -0.18f, -2.48f, -0.27f, -3.71f, -0.27f)
+                curveToRelative(-1.21f, 0f, -2.09f, 0.16f, -2.97f, 0.98f)
+                curveToRelative(-0.57f, 0.53f, -0.94f, 1.4f, -0.92f, 2.16f)
+                curveToRelative(0.03f, 0.84f, 0.37f, 1.63f, 0.93f, 2.15f)
+                lineToRelative(1.36f, -1.47f)
+                curveToRelative(-0.21f, -0.19f, -0.29f, -0.52f, -0.3f, -0.75f)
+                curveToRelative(-0.01f, -0.15f, 0.1f, -0.46f, 0.28f, -0.63f)
+                curveToRelative(0.36f, -0.34f, 0.65f, -0.45f, 1.61f, -0.45f)
+                close()
+                moveTo(16f, 20f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                reflectiveCurveToRelative(-4f, -1.79f, -4f, -4f)
+                curveToRelative(0f, -0.47f, 0.1f, -0.92f, 0.25f, -1.34f)
+                lineToRelative(-1.02f, -1.02f)
+                lineToRelative(2.41f, -2.41f)
+                lineToRelative(1.02f, 1.02f)
+                curveToRelative(0.42f, -0.15f, 0.87f, -0.25f, 1.34f, -0.25f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                close()
+                moveTo(14f, 20f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                close()
+                moveTo(4.5f, 3f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(8.5f, 3f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(24f, 3f)
+                verticalLineToRelative(19f)
+                horizontalLineToRelative(-6.35f)
+                curveToRelative(0.22f, -0.63f, 0.35f, -1.3f, 0.35f, -2f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0f, 0.7f, 0.13f, 1.37f, 0.35f, 2f)
+                horizontalLineToRelative(-6.35f)
+                verticalLineToRelative(-19f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(22f, 7f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-18f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _WebBrowserBomb = it}

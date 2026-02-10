@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DecisionChoice: ImageVector? = null
+
+val Icons.Br.DecisionChoice: ImageVector
+    get() = _DecisionChoice ?: UXIcon(name = "DecisionChoice") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(21.0f, 8.83f)
+            lineToRelative(1.41f, -1.41f)
+            curveToRelative(0.78f, -0.78f, 0.78f, -2.05f, 0f, -2.83f)
+            lineToRelative(-1.41f, -1.41f)
+            curveToRelative(-0.75f, -0.75f, -1.77f, -1.17f, -2.83f, -1.17f)
+            horizontalLineToRelative(-4.67f)
+            verticalLineToRelative(-0.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(0.5f)
+            lineTo(5f, 2f)
+            curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+            verticalLineToRelative(2.0f)
+            curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+            horizontalLineToRelative(5.5f)
+            reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+            verticalLineToRelative(3f)
+            lineTo(5.83f, 13.0f)
+            curveToRelative(-1.06f, 0f, -2.08f, 0.42f, -2.83f, 1.17f)
+            lineToRelative(-1.41f, 1.41f)
+            curveToRelative(-0.78f, 0.78f, -0.78f, 2.05f, 0f, 2.83f)
+            lineToRelative(1.41f, 1.41f)
+            curveToRelative(0.75f, 0.75f, 1.77f, 1.17f, 2.83f, 1.17f)
+            horizontalLineToRelative(4.67f)
+            verticalLineToRelative(1.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-1.5f)
+            horizontalLineToRelative(5.5f)
+            curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+            horizontalLineToRelative(-5.5f)
+            verticalLineToRelative(-3f)
+            reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+            horizontalLineToRelative(4.67f)
+            curveToRelative(1.06f, 0f, 2.08f, -0.42f, 2.83f, -1.17f)
+            close()
+            moveTo(15.2f, 15.31f)
+            curveToRelative(0.38f, 0.39f, 0.38f, 1.01f, 0.0f, 1.4f)
+            lineToRelative(-2.15f, 2.24f)
+            horizontalLineToRelative(0f)
+            lineToRelative(-0.0f, 0.0f)
+            curveToRelative(-0.74f, 0.74f, -2.06f, 0.75f, -2.82f, -0.02f)
+            lineToRelative(-1.19f, -1.24f)
+            curveToRelative(-0.37f, -0.39f, -0.37f, -1.0f, 0.0f, -1.38f)
+            curveToRelative(0.39f, -0.41f, 1.05f, -0.41f, 1.44f, 0.0f)
+            lineToRelative(1.16f, 1.21f)
+            lineToRelative(2.12f, -2.21f)
+            curveToRelative(0.39f, -0.4f, 1.04f, -0.41f, 1.43f, -0.0f)
+            close()
+            moveTo(14.21f, 6.79f)
+            curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+            reflectiveCurveToRelative(-1.02f, 0.39f, -1.41f, 0f)
+            lineToRelative(-0.79f, -0.79f)
+            lineToRelative(-0.79f, 0.79f)
+            curveToRelative(-0.39f, 0.39f, -1.02f, 0.39f, -1.41f, 0f)
+            reflectiveCurveToRelative(-0.39f, -1.02f, 0f, -1.41f)
+            lineToRelative(0.79f, -0.79f)
+            lineToRelative(-0.79f, -0.79f)
+            curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+            reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+            lineToRelative(0.79f, 0.79f)
+            lineToRelative(0.79f, -0.79f)
+            curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+            reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+            lineToRelative(-0.79f, 0.79f)
+            lineToRelative(0.79f, 0.79f)
+            close()
+        }
+    }.also { _DecisionChoice = it }

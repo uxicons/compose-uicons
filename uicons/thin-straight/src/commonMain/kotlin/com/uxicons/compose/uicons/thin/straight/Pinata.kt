@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Pinata: ImageVector? = null
+
+val Icons.Ts.Pinata: ImageVector
+    get() = _Pinata ?: UXIcon(name = "Pinata") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.52f, 6.99f)
+                lineToRelative(-8.52f, 0.01f)
+                verticalLineToRelative(-1.0f)
+                curveToRelative(0f, -1.02f, -0.38f, -1.93f, -1f, -2.63f)
+                verticalLineToRelative(-0.37f)
+                curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                verticalLineToRelative(2.01f)
+                lineToRelative(-0.14f, -0.01f)
+                verticalLineToRelative(0.02f)
+                curveToRelative(-0.41f, 0.03f, -0.95f, 0.08f, -1.27f, 0.18f)
+                lineToRelative(-3.67f, 1.32f)
+                curveToRelative(-0.74f, 0.27f, -1.33f, 0.8f, -1.66f, 1.51f)
+                curveToRelative(-0.34f, 0.71f, -0.37f, 1.51f, -0.11f, 2.25f)
+                curveToRelative(0.27f, 0.74f, 0.84f, 1.34f, 1.66f, 1.73f)
+                curveToRelative(0.67f, 0.32f, 2.37f, 0.63f, 3.19f, 0.77f)
+                verticalLineToRelative(14.22f)
+                horizontalLineToRelative(6.0f)
+                lineToRelative(-0.02f, -4.99f)
+                lineToRelative(7.02f, -0.01f)
+                lineToRelative(0.02f, 4.99f)
+                lineToRelative(5.97f, 0.01f)
+                lineToRelative(0.02f, -12.51f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(2.24f, 8.11f)
+                curveToRelative(-0.4f, -0.19f, -0.92f, -0.54f, -1.14f, -1.16f)
+                curveToRelative(-0.17f, -0.49f, -0.15f, -1.01f, 0.07f, -1.48f)
+                curveToRelative(0.22f, -0.47f, 0.61f, -0.82f, 1.1f, -1.0f)
+                lineToRelative(3.65f, -1.32f)
+                curveToRelative(0.21f, -0.07f, 0.76f, -0.12f, 1.17f, -0.14f)
+                curveToRelative(1.65f, 0.11f, 2.92f, 1.38f, 2.92f, 2.99f)
+                verticalLineToRelative(2.0f)
+                reflectiveCurveToRelative(9.52f, -0.01f, 9.52f, -0.01f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                lineToRelative(-0.0f, 1.08f)
+                lineToRelative(-0.04f, -0.04f)
+                curveToRelative(-0.78f, -0.71f, -1.83f, -0.71f, -2.62f, 0f)
+                lineToRelative(-1.32f, 1.19f)
+                curveToRelative(-0.41f, 0.37f, -0.87f, 0.37f, -1.28f, 0f)
+                lineToRelative(-1.32f, -1.2f)
+                curveToRelative(-0.78f, -0.71f, -1.83f, -0.71f, -2.62f, 0f)
+                lineToRelative(-1.32f, 1.2f)
+                curveToRelative(-0.41f, 0.37f, -0.87f, 0.37f, -1.28f, 0f)
+                lineToRelative(-1.32f, -1.2f)
+                curveToRelative(-0.78f, -0.71f, -1.83f, -0.7f, -2.62f, 0.01f)
+                lineToRelative(-1.29f, 1.21f)
+                verticalLineToRelative(-4.83f)
+                lineToRelative(-0.42f, -0.07f)
+                curveToRelative(-0.72f, -0.11f, -2.74f, -0.47f, -3.34f, -0.75f)
+                close()
+                moveTo(19.02f, 22.99f)
+                lineToRelative(-0.02f, -4.99f)
+                lineToRelative(-9.02f, 0.01f)
+                lineToRelative(0.02f, 4.99f)
+                horizontalLineToRelative(-4.0f)
+                verticalLineToRelative(-7.87f)
+                lineToRelative(1.97f, -1.85f)
+                curveToRelative(0.41f, -0.37f, 0.87f, -0.37f, 1.28f, 0f)
+                lineToRelative(1.32f, 1.2f)
+                curveToRelative(0.78f, 0.71f, 1.83f, 0.71f, 2.62f, 0f)
+                lineToRelative(1.32f, -1.2f)
+                curveToRelative(0.41f, -0.37f, 0.87f, -0.37f, 1.28f, 0f)
+                lineToRelative(1.32f, 1.2f)
+                curveToRelative(0.78f, 0.71f, 1.83f, 0.71f, 2.62f, 0f)
+                lineToRelative(1.32f, -1.19f)
+                curveToRelative(0.41f, -0.37f, 0.87f, -0.37f, 1.26f, -0.02f)
+                lineToRelative(0.73f, 0.73f)
+                lineToRelative(-0.02f, 9.02f)
+                lineToRelative(-3.98f, -0.01f)
+                close()
+            }
+        }.also { _Pinata = it}

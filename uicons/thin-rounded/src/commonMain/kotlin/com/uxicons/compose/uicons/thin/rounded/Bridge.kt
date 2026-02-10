@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Bridge: ImageVector? = null
+
+val Icons.Tr.Bridge: ImageVector
+    get() = _Bridge ?: UXIcon(name = "Bridge") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20f, 0f)
+                lineTo(4f, 0f)
+                curveTo(1.79f, 0f, 0f, 1.79f, 0f, 4f)
+                verticalLineToRelative(5.8f)
+                curveToRelative(0f, 1.2f, 0.63f, 2.31f, 1.68f, 2.98f)
+                curveToRelative(1.45f, 0.92f, 2.32f, 2.5f, 2.32f, 4.22f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-5.76f)
+                curveToRelative(0f, -2.68f, 1.98f, -4.97f, 4.51f, -5.21f)
+                curveToRelative(1.43f, -0.14f, 2.8f, 0.32f, 3.85f, 1.27f)
+                curveToRelative(1.04f, 0.95f, 1.64f, 2.3f, 1.64f, 3.7f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.72f, 0.87f, -3.29f, 2.32f, -4.22f)
+                curveToRelative(1.05f, -0.67f, 1.68f, -1.78f, 1.68f, -2.98f)
+                lineTo(24f, 4f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                close()
+                moveTo(23f, 4f)
+                horizontalLineToRelative(-3f)
+                lineTo(20f, 1f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(15f, 4f)
+                lineTo(15f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(10f, 4f)
+                lineTo(10f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(5f, 4f)
+                lineTo(5f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3f)
+                lineTo(5f, 4f)
+                close()
+                moveTo(4f, 1f)
+                verticalLineToRelative(3f)
+                lineTo(1f, 4f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                close()
+                moveTo(21.79f, 11.94f)
+                curveToRelative(-1.74f, 1.11f, -2.79f, 3.0f, -2.79f, 5.06f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.69f, -0.72f, -3.31f, -1.97f, -4.44f)
+                curveToRelative(-1.12f, -1.02f, -2.53f, -1.56f, -4.03f, -1.56f)
+                curveToRelative(-0.2f, 0f, -0.4f, 0.01f, -0.6f, 0.03f)
+                curveToRelative(-3.04f, 0.29f, -5.41f, 3.02f, -5.41f, 6.21f)
+                verticalLineToRelative(5.76f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -2.06f, -1.04f, -3.95f, -2.79f, -5.06f)
+                curveToRelative(-0.76f, -0.48f, -1.22f, -1.28f, -1.22f, -2.14f)
+                lineTo(1f, 5f)
+                lineTo(23f, 5f)
+                verticalLineToRelative(4.8f)
+                curveToRelative(0f, 0.85f, -0.45f, 1.65f, -1.22f, 2.14f)
+                close()
+            }
+        }.also { _Bridge = it}

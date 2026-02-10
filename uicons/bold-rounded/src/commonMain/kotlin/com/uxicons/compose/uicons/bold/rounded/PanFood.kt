@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PanFood: ImageVector? = null
+
+val Icons.Br.PanFood: ImageVector
+    get() = _PanFood ?: UXIcon(name = "PanFood") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(10f, 15.02f)
+            verticalLineToRelative(2.25f)
+            curveToRelative(0f, 0.45f, -0.41f, 0.81f, -0.85f, 0.72f)
+            curveToRelative(-1.57f, -0.33f, -2.81f, -1.57f, -3.14f, -3.14f)
+            curveToRelative(-0.09f, -0.44f, 0.27f, -0.85f, 0.72f, -0.85f)
+            horizontalLineToRelative(2.25f)
+            curveToRelative(0.56f, 0f, 1.02f, 0.46f, 1.02f, 1.02f)
+            close()
+            moveTo(13f, 11.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            close()
+            moveTo(9.85f, 8.98f)
+            curveToRelative(1.57f, -0.33f, 2.81f, -1.57f, 3.14f, -3.14f)
+            curveToRelative(0.09f, -0.44f, -0.27f, -0.85f, -0.72f, -0.85f)
+            horizontalLineToRelative(-2.25f)
+            curveToRelative(-0.56f, 0f, -1.02f, 0.46f, -1.02f, 1.02f)
+            verticalLineToRelative(2.25f)
+            curveToRelative(0f, 0.45f, 0.41f, 0.81f, 0.85f, 0.72f)
+            close()
+            moveTo(8f, 10.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            close()
+            moveTo(13.5f, 16f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(17.27f, 11.4f)
+            lineToRelative(-1.4f, 1.4f)
+            curveToRelative(-0.56f, 0.56f, -0.55f, 1.19f, -0.16f, 1.58f)
+            lineToRelative(1.56f, 1.56f)
+            curveToRelative(0.32f, 0.32f, 0.86f, 0.27f, 1.1f, -0.11f)
+            curveToRelative(0.84f, -1.31f, 0.84f, -3.01f, 0f, -4.32f)
+            curveToRelative(-0.24f, -0.38f, -0.78f, -0.43f, -1.1f, -0.11f)
+            close()
+            moveTo(24f, 12f)
+            curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+            curveToRelative(-1.95f, 0f, -3.78f, -0.48f, -5.4f, -1.3f)
+            lineToRelative(-1.19f, 0.75f)
+            curveToRelative(-1.39f, 0.89f, -3.21f, 0.7f, -4.38f, -0.47f)
+            reflectiveCurveToRelative(-1.36f, -2.99f, -0.47f, -4.38f)
+            lineToRelative(0.78f, -1.13f)
+            curveToRelative(-0.84f, -1.64f, -1.33f, -3.5f, -1.33f, -5.47f)
+            curveTo(0f, 5.38f, 5.38f, 0f, 12f, 0f)
+            curveToRelative(1.97f, 0f, 3.83f, 0.49f, 5.47f, 1.33f)
+            lineToRelative(1.13f, -0.78f)
+            curveToRelative(1.39f, -0.89f, 3.21f, -0.7f, 4.38f, 0.47f)
+            reflectiveCurveToRelative(1.36f, 2.99f, 0.47f, 4.38f)
+            lineToRelative(-0.75f, 1.19f)
+            curveToRelative(0.83f, 1.63f, 1.3f, 3.46f, 1.3f, 5.4f)
+            close()
+            moveTo(21f, 12f)
+            curveToRelative(0f, -4.96f, -4.04f, -9f, -9f, -9f)
+            reflectiveCurveTo(3f, 7.04f, 3f, 12f)
+            reflectiveCurveToRelative(4.04f, 9f, 9f, 9f)
+            reflectiveCurveToRelative(9f, -4.04f, 9f, -9f)
+            close()
+            moveTo(16.5f, 10f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+        }
+    }.also { _PanFood = it }

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TowerControl: ImageVector? = null
+
+val Icons.Rr.TowerControl: ImageVector
+    get() = _TowerControl ?: UXIcon(name = "TowerControl") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.09f, 7.46f)
+                curveToRelative(-0.76f, -0.93f, -1.89f, -1.46f, -3.09f, -1.46f)
+                horizontalLineToRelative(-4.0f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                lineTo(13f, 1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4.0f)
+                curveToRelative(-1.2f, 0f, -2.33f, 0.53f, -3.09f, 1.46f)
+                reflectiveCurveTo(-0.16f, 9.6f, 0.08f, 10.78f)
+                lineToRelative(0.72f, 3.6f)
+                curveToRelative(0.42f, 2.1f, 2.27f, 3.62f, 4.41f, 3.62f)
+                horizontalLineToRelative(2.79f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2.79f)
+                curveToRelative(2.14f, 0f, 3.99f, -1.52f, 4.41f, -3.62f)
+                lineToRelative(0.72f, -3.6f)
+                curveToRelative(0.24f, -1.18f, -0.07f, -2.39f, -0.83f, -3.32f)
+                close()
+                moveTo(21.55f, 8.73f)
+                curveToRelative(0.38f, 0.47f, 0.53f, 1.07f, 0.41f, 1.66f)
+                lineToRelative(-0.32f, 1.61f)
+                horizontalLineToRelative(-5.64f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4.0f)
+                curveToRelative(0.6f, 0f, 1.17f, 0.27f, 1.55f, 0.73f)
+                close()
+                moveTo(10f, 12.0f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(11f, 4.0f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(2.46f, 8.73f)
+                curveToRelative(0.38f, -0.47f, 0.94f, -0.73f, 1.55f, -0.73f)
+                horizontalLineToRelative(4.0f)
+                verticalLineToRelative(4f)
+                lineTo(2.36f, 12f)
+                lineToRelative(-0.32f, -1.61f)
+                curveToRelative(-0.12f, -0.59f, 0.03f, -1.19f, 0.41f, -1.66f)
+                close()
+                moveTo(14f, 21f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(18.79f, 16f)
+                lineTo(5.21f, 16f)
+                curveToRelative(-1.18f, 0f, -2.21f, -0.84f, -2.45f, -2f)
+                lineTo(21.24f, 14f)
+                curveToRelative(-0.24f, 1.16f, -1.26f, 2f, -2.45f, 2f)
+                close()
+            }
+        }.also { _TowerControl = it}

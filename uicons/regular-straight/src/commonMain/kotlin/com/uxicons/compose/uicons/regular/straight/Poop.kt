@@ -1,0 +1,69 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Poop: ImageVector? = null
+
+val Icons.Rs.Poop: ImageVector
+    get() = _Poop ?: UXIcon(name = "Poop") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.3f, 14.58f)
+                curveToRelative(0.44f, -0.58f, 0.7f, -1.3f, 0.7f, -2.08f)
+                curveToRelative(0f, -1.5f, -0.95f, -2.77f, -2.27f, -3.27f)
+                curveToRelative(0.17f, -0.38f, 0.27f, -0.79f, 0.27f, -1.23f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-0.12f)
+                curveToRelative(-0.49f, -2.27f, -2.49f, -5f, -4.88f, -5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 2.79f, -1.71f, 3.78f, -2.19f, 4f)
+                horizontalLineToRelative(-1.81f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                curveToRelative(0f, 0.44f, 0.1f, 0.86f, 0.27f, 1.23f)
+                curveToRelative(-1.32f, 0.5f, -2.27f, 1.77f, -2.27f, 3.27f)
+                curveToRelative(0f, 0.78f, 0.27f, 1.5f, 0.7f, 2.08f)
+                curveToRelative(-1.6f, 0.83f, -2.71f, 2.49f, -2.71f, 4.42f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(14f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                curveToRelative(0f, -1.93f, -1.11f, -3.58f, -2.71f, -4.42f)
+                close()
+                moveTo(19f, 22f)
+                lineTo(5f, 22f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                reflectiveCurveToRelative(1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(-2f)
+                lineTo(5.5f, 14f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(8.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(2.16f)
+                lineToRelative(0.15f, -0.05f)
+                curveToRelative(0.14f, -0.04f, 3.01f, -1.04f, 3.58f, -4.64f)
+                curveToRelative(1.09f, 0.71f, 2.1f, 2.48f, 2.1f, 3.69f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                reflectiveCurveToRelative(-1.35f, 3f, -3f, 3f)
+                close()
+            }
+        }.also { _Poop = it}

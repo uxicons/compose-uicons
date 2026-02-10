@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Atm: ImageVector? = null
+
+val Icons.Br.Atm: ImageVector
+    get() = _Atm ?: UXIcon(name = "Atm") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.5f, 0f)
+            horizontalLineToRelative(-13f)
+            curveToRelative(-3.03f, 0f, -5.5f, 2.47f, -5.5f, 5.5f)
+            verticalLineToRelative(9f)
+            curveToRelative(0f, 2.88f, 2.23f, 5.25f, 5.05f, 5.48f)
+            curveToRelative(0.24f, 2.25f, 2.13f, 4.02f, 4.45f, 4.02f)
+            horizontalLineToRelative(5f)
+            curveToRelative(2.32f, 0f, 4.21f, -1.77f, 4.45f, -4.02f)
+            curveToRelative(2.82f, -0.23f, 5.05f, -2.6f, 5.05f, -5.48f)
+            verticalLineToRelative(-9f)
+            curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+            close()
+            moveTo(16f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-2.5f)
+            horizontalLineToRelative(1.55f)
+            curveToRelative(0.23f, 1.14f, 1.24f, 2f, 2.45f, 2f)
+            reflectiveCurveToRelative(2.22f, -0.86f, 2.45f, -2f)
+            horizontalLineToRelative(1.55f)
+            close()
+            moveTo(21f, 14.5f)
+            curveToRelative(0f, 1.21f, -0.86f, 2.22f, -2f, 2.45f)
+            verticalLineToRelative(-1.45f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-11f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(1.45f)
+            curveToRelative(-1.14f, -0.23f, -2f, -1.24f, -2f, -2.45f)
+            verticalLineToRelative(-9f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            close()
+            moveTo(10f, 6f)
+            verticalLineToRelative(5f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-5f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(15f, 6.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(19f, 6.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(15f, 10.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(19f, 10.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+        }
+    }.also { _Atm = it }

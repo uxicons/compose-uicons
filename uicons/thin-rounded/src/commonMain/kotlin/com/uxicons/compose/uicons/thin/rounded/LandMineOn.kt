@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LandMineOn: ImageVector? = null
+
+val Icons.Tr.LandMineOn: ImageVector
+    get() = _LandMineOn ?: UXIcon(name = "LandMineOn") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17.15f, 8.85f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                lineToRelative(4.5f, -4.5f)
+                curveToRelative(0.2f, -0.2f, 0.51f, -0.2f, 0.71f, 0f)
+                reflectiveCurveToRelative(0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(-4.5f, 4.5f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                close()
+                moveTo(12f, 7f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                lineTo(12.5f, 0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                lineTo(11.5f, 6.5f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(24f, 23.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(0.5f, 24f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                lineTo(1.57f, 23f)
+                lineToRelative(0.45f, -3.14f)
+                curveToRelative(0.31f, -2.2f, 2.23f, -3.86f, 4.45f, -3.86f)
+                horizontalLineToRelative(0.53f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(0.53f)
+                curveToRelative(2.23f, 0f, 4.14f, 1.66f, 4.45f, 3.86f)
+                lineToRelative(0.45f, 3.14f)
+                horizontalLineToRelative(1.07f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                close()
+                moveTo(8f, 16f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(21.42f, 23f)
+                lineToRelative(-0.43f, -3.0f)
+                reflectiveCurveToRelative(0f, -0.0f, -0.0f, -0.01f)
+                horizontalLineToRelative(-2.49f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(2.18f)
+                curveToRelative(-0.57f, -1.19f, -1.78f, -2f, -3.15f, -2f)
+                lineTo(6.47f, 17f)
+                curveToRelative(-1.37f, 0f, -2.58f, 0.81f, -3.15f, 2f)
+                lineTo(15.5f, 19f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(3.01f, 20f)
+                reflectiveCurveToRelative(0f, 0.0f, -0.0f, 0.01f)
+                lineToRelative(-0.43f, 3.0f)
+                lineTo(21.42f, 23f)
+                close()
+                moveTo(6.15f, 8.85f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                lineTo(2.35f, 3.65f)
+                curveToRelative(-0.2f, -0.2f, -0.51f, -0.2f, -0.71f, 0f)
+                reflectiveCurveToRelative(-0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(4.5f, 4.5f)
+                close()
+            }
+        }.also { _LandMineOn = it}

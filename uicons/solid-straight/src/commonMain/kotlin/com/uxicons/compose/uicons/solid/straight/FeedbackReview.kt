@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FeedbackReview: ImageVector? = null
+
+val Icons.Ss.FeedbackReview: ImageVector
+    get() = _FeedbackReview ?: UXIcon(name = "FeedbackReview") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20f, 14f)
+                verticalLineToRelative(2f)
+                lineToRelative(-1.5f, 8f)
+                horizontalLineToRelative(-9.5f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(3.03f)
+                lineToRelative(2.19f, -4.15f)
+                curveToRelative(0.18f, -0.35f, 0.43f, -0.61f, 0.68f, -0.72f)
+                curveToRelative(0.21f, -0.09f, 0.43f, -0.13f, 0.64f, -0.13f)
+                curveToRelative(0.68f, 0f, 1.24f, 0.45f, 1.43f, 1.14f)
+                curveToRelative(0.02f, 0.08f, 0.05f, 0.27f, -0.01f, 0.6f)
+                lineToRelative(-0.58f, 3.27f)
+                horizontalLineToRelative(6.61f)
+                close()
+                moveTo(12.01f, 6.24f)
+                lineToRelative(2.17f, 1.68f)
+                lineToRelative(0.5f, -0.35f)
+                lineToRelative(-0.88f, -2.69f)
+                lineToRelative(2.2f, -1.27f)
+                verticalLineToRelative(-0.61f)
+                horizontalLineToRelative(-2.88f)
+                lineToRelative(-0.78f, -3f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.78f, 3f)
+                horizontalLineToRelative(-2.9f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(2.21f, 1.23f)
+                lineToRelative(-0.87f, 2.72f)
+                lineToRelative(0.48f, 0.36f)
+                lineToRelative(2.18f, -1.69f)
+                close()
+                moveTo(4.01f, 9.24f)
+                lineToRelative(2.17f, 1.68f)
+                lineToRelative(0.5f, -0.35f)
+                lineToRelative(-0.88f, -2.69f)
+                lineToRelative(2.2f, -1.27f)
+                verticalLineToRelative(-0.61f)
+                horizontalLineToRelative(-2.88f)
+                lineToRelative(-0.78f, -3f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.78f, 3f)
+                lineTo(0.0f, 6.0f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(2.21f, 1.23f)
+                lineToRelative(-0.87f, 2.72f)
+                lineToRelative(0.48f, 0.36f)
+                lineToRelative(2.18f, -1.69f)
+                close()
+                moveTo(20.01f, 9.24f)
+                lineToRelative(2.17f, 1.68f)
+                lineToRelative(0.5f, -0.35f)
+                lineToRelative(-0.88f, -2.69f)
+                lineToRelative(2.2f, -1.27f)
+                verticalLineToRelative(-0.61f)
+                horizontalLineToRelative(-2.88f)
+                lineToRelative(-0.78f, -3f)
+                horizontalLineToRelative(-0.65f)
+                lineToRelative(-0.78f, 3f)
+                horizontalLineToRelative(-2.9f)
+                verticalLineToRelative(0.61f)
+                lineToRelative(2.21f, 1.23f)
+                lineToRelative(-0.87f, 2.72f)
+                lineToRelative(0.48f, 0.36f)
+                lineToRelative(2.18f, -1.69f)
+                close()
+            }
+        }.also { _FeedbackReview = it}

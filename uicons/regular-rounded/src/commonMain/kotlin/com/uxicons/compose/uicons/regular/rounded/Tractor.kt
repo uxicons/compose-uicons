@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Tractor: ImageVector? = null
+
+val Icons.Rr.Tractor: ImageVector
+    get() = _Tractor ?: UXIcon(name = "Tractor") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11f, 17f)
+                horizontalLineToRelative(-0.1f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, -0.73f, -1.76f)
+                lineToRelative(0.07f, -0.07f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.41f, -1.41f)
+                lineToRelative(-0.07f, 0.07f)
+                arcTo(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7f, 13.1f)
+                lineTo(7f, 13f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 0f)
+                verticalLineToRelative(0.1f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.76f, 0.73f)
+                lineToRelative(-0.07f, -0.07f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.41f, 1.41f)
+                lineToRelative(0.07f, 0.07f)
+                arcTo(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.1f, 17f)
+                lineTo(1f, 17f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                horizontalLineToRelative(0.1f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.73f, 1.76f)
+                lineToRelative(-0.07f, 0.07f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.41f, 1.41f)
+                lineToRelative(0.07f, -0.07f)
+                arcTo(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5f, 22.9f)
+                lineTo(5f, 23f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 0f)
+                verticalLineToRelative(-0.1f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.76f, -0.73f)
+                lineToRelative(0.07f, 0.07f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.41f, -1.41f)
+                lineToRelative(-0.07f, -0.07f)
+                arcTo(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 10.9f, 19f)
+                lineTo(11f, 19f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 11f, 17f)
+                close()
+                moveTo(6f, 21f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, -6f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6f, 21f)
+                close()
+                moveTo(24f, 12f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, -4f, -4f)
+                lineTo(20f, 6f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 0f)
+                lineTo(18f, 8f)
+                lineTo(15.55f, 8f)
+                lineTo(12.02f, 2.35f)
+                arcTo(4.97f, 4.97f, 0f, isMoreThanHalf = false, isPositiveArc = false, 7.78f, 0f)
+                lineTo(6f, 0f)
+                arcTo(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 3f)
+                lineTo(3f, 8f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = false, -3f, 3f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 0f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1f, -1f)
+                lineTo(20f, 10f)
+                arcToRelative(2.01f, 2.01f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.6f, 3.2f)
+                lineToRelative(-1.55f, 2.07f)
+                curveToRelative(-6.73f, -2f, -8.56f, 8.3f, -1.54f, 8.73f)
+                arcToRelative(4.52f, 4.52f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.23f, -7.63f)
+                lineTo(23.2f, 14.4f)
+                arcTo(4.02f, 4.02f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 12f)
+                close()
+                moveTo(5f, 3f)
+                arcTo(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6f, 2f)
+                lineTo(7.78f, 2f)
+                arcToRelative(2.98f, 2.98f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.54f, 1.41f)
+                lineTo(13.2f, 8f)
+                lineTo(5f, 8f)
+                close()
+                moveTo(18.5f, 22f)
+                arcToRelative(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, -5f)
+                arcTo(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 18.5f, 22f)
+                close()
+            }
+        }.also { _Tractor = it}

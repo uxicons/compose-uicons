@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WalletNft: ImageVector? = null
+
+val Icons.Rs.WalletNft: ImageVector
+    get() = _WalletNft ?: UXIcon(name = "WalletNft") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 3.75f)
+                lineTo(12.5f, 0f)
+                lineTo(6f, 3.75f)
+                verticalLineToRelative(6.25f)
+                lineTo(3f, 10f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                lineTo(24f, 24f)
+                lineTo(24f, 10f)
+                horizontalLineToRelative(-5f)
+                lineTo(19f, 3.75f)
+                close()
+                moveTo(15f, 5.01f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(3.99f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3.99f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(11.5f, 5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(1.01f)
+                lineToRelative(1.5f, 0.0f)
+                lineToRelative(-0.0f, 1f)
+                lineToRelative(-1.5f, -0.0f)
+                verticalLineToRelative(1.99f)
+                horizontalLineToRelative(-1f)
+                lineTo(11.5f, 5f)
+                close()
+                moveTo(7f, 5f)
+                horizontalLineToRelative(0.96f)
+                lineToRelative(1.54f, 2.77f)
+                verticalLineToRelative(-2.77f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-0.91f)
+                lineToRelative(-1.59f, -2.87f)
+                verticalLineToRelative(2.87f)
+                horizontalLineToRelative(-1f)
+                lineTo(7f, 5f)
+                close()
+                moveTo(22f, 12f)
+                verticalLineToRelative(10f)
+                lineTo(3f, 22f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                lineTo(2f, 11.83f)
+                curveToRelative(0.31f, 0.11f, 0.65f, 0.17f, 1f, 0.17f)
+                lineTo(22f, 12f)
+                close()
+                moveTo(24f, 6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(16f, 17f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _WalletNft = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Taco: ImageVector? = null
+
+val Icons.Ts.Taco: ImageVector
+    get() = _Taco ?: UXIcon(name = "Taco") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 16f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(16f, 18f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(19f, 19f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(23.07f, 11.41f)
+                curveToRelative(0.59f, 1.24f, 0.93f, 2.62f, 0.93f, 4.09f)
+                verticalLineToRelative(5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                lineTo(3f, 23f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -2.76f, 1.19f, -5.24f, 3.08f, -6.98f)
+                curveToRelative(0.05f, 0.4f, 0.13f, 0.8f, 0.22f, 1.19f)
+                curveToRelative(-1.42f, 1.52f, -2.29f, 3.55f, -2.29f, 5.79f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -1.46f, 0.33f, -2.85f, 0.93f, -4.09f)
+                curveToRelative(-0.27f, -0.69f, -0.93f, -2.51f, -0.93f, -3.91f)
+                curveToRelative(0f, -1.82f, 1.39f, -3.31f, 3.17f, -3.48f)
+                curveToRelative(0.51f, -1.48f, 2.21f, -2.38f, 3.75f, -1.87f)
+                curveToRelative(0.66f, -0.73f, 1.6f, -1.15f, 2.58f, -1.15f)
+                reflectiveCurveToRelative(1.92f, 0.42f, 2.58f, 1.15f)
+                curveToRelative(1.55f, -0.51f, 3.25f, 0.4f, 3.75f, 1.88f)
+                curveToRelative(1.79f, 0.18f, 3.16f, 1.67f, 3.16f, 3.48f)
+                curveToRelative(0f, 1.41f, -0.65f, 3.22f, -0.93f, 3.91f)
+                close()
+                moveTo(6.58f, 10.27f)
+                curveToRelative(1.7f, -2.57f, 4.62f, -4.27f, 7.93f, -4.27f)
+                reflectiveCurveToRelative(6.22f, 1.7f, 7.93f, 4.27f)
+                curveToRelative(0.27f, -0.79f, 0.57f, -1.9f, 0.57f, -2.77f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-0.41f)
+                lineToRelative(-0.13f, -0.4f)
+                curveToRelative(-0.24f, -1.21f, -1.62f, -1.97f, -2.82f, -1.4f)
+                lineToRelative(-0.38f, 0.18f)
+                lineToRelative(-0.24f, -0.34f)
+                curveToRelative(-0.48f, -0.66f, -1.22f, -1.04f, -2.02f, -1.04f)
+                reflectiveCurveToRelative(-1.54f, 0.38f, -2.02f, 1.04f)
+                lineToRelative(-0.24f, 0.34f)
+                lineToRelative(-0.38f, -0.18f)
+                curveToRelative(-1.2f, -0.57f, -2.57f, 0.19f, -2.82f, 1.4f)
+                lineToRelative(-0.08f, 0.4f)
+                lineToRelative(-0.51f, -0.01f)
+                curveToRelative(-1.33f, 0.0f, -2.45f, 1.12f, -2.45f, 2.5f)
+                curveToRelative(0f, 0.87f, 0.31f, 1.98f, 0.57f, 2.77f)
+                close()
+                moveTo(23.0f, 15.5f)
+                curveToRelative(0f, -4.69f, -3.81f, -8.5f, -8.5f, -8.5f)
+                reflectiveCurveTo(6f, 10.81f, 6f, 15.5f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 0.77f, -0.29f, 1.47f, -0.77f, 2f)
+                lineTo(21.5f, 22f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-5f)
+                close()
+            }
+        }.also { _Taco = it}

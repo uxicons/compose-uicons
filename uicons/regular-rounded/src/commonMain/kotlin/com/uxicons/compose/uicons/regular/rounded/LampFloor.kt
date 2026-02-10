@@ -1,0 +1,50 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LampFloor: ImageVector? = null
+
+val Icons.Rr.LampFloor: ImageVector
+    get() = _LampFloor ?: UXIcon(name = "LampFloor") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.75f, 11f)
+                curveToRelative(0.96f, 0f, 1.86f, -0.42f, 2.48f, -1.15f)
+                curveToRelative(0.62f, -0.73f, 0.88f, -1.69f, 0.73f, -2.63f)
+                lineToRelative(-0.75f, -4.5f)
+                curveToRelative(-0.26f, -1.57f, -1.61f, -2.71f, -3.21f, -2.71f)
+                horizontalLineToRelative(-8.0f)
+                curveToRelative(-1.59f, 0f, -2.94f, 1.14f, -3.21f, 2.71f)
+                lineToRelative(-0.75f, 4.5f)
+                curveToRelative(-0.16f, 0.94f, 0.11f, 1.91f, 0.73f, 2.63f)
+                curveToRelative(0.62f, 0.73f, 1.52f, 1.15f, 2.48f, 1.15f)
+                horizontalLineToRelative(3.75f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                horizontalLineToRelative(8f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(3.75f)
+                close()
+                moveTo(6.3f, 8.56f)
+                curveToRelative(-0.24f, -0.28f, -0.34f, -0.65f, -0.28f, -1.01f)
+                lineToRelative(0.75f, -4.5f)
+                curveToRelative(0.1f, -0.6f, 0.62f, -1.04f, 1.23f, -1.04f)
+                horizontalLineToRelative(8.0f)
+                curveToRelative(0.61f, 0f, 1.13f, 0.44f, 1.23f, 1.04f)
+                lineToRelative(0.75f, 4.5f)
+                curveToRelative(0.06f, 0.36f, -0.04f, 0.73f, -0.28f, 1.01f)
+                curveToRelative(-0.24f, 0.28f, -0.59f, 0.44f, -0.95f, 0.44f)
+                lineTo(7.25f, 9f)
+                curveToRelative(-0.37f, 0f, -0.71f, -0.16f, -0.95f, -0.44f)
+                close()
+            }
+        }.also { _LampFloor = it}

@@ -1,0 +1,74 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ChessRookAlt: ImageVector? = null
+
+val Icons.Ts.ChessRookAlt: ImageVector
+    get() = _ChessRookAlt ?: UXIcon(name = "ChessRookAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19.5f, 19f)
+                horizontalLineToRelative(-0.5f)
+                lineTo(19f, 8.95f)
+                curveToRelative(1.14f, -0.23f, 2f, -1.24f, 2f, -2.45f)
+                lineTo(21f, 0f)
+                lineTo(3f, 0f)
+                lineTo(3f, 6.5f)
+                curveToRelative(0f, 1.21f, 0.86f, 2.22f, 2f, 2.45f)
+                verticalLineToRelative(10.05f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(22f, 24f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(5.5f, 8f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                lineTo(4f, 1f)
+                horizontalLineToRelative(4f)
+                lineTo(8f, 5f)
+                horizontalLineToRelative(1f)
+                lineTo(9f, 1f)
+                horizontalLineToRelative(6f)
+                lineTo(15f, 5f)
+                horizontalLineToRelative(1f)
+                lineTo(16f, 1f)
+                horizontalLineToRelative(4f)
+                lineTo(20f, 6.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(11f)
+                lineTo(6f, 19f)
+                lineTo(6f, 8f)
+                horizontalLineToRelative(-0.5f)
+                close()
+                moveTo(21f, 23f)
+                lineTo(3f, 23f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                close()
+                moveTo(14f, 10f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13f, 12f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _ChessRookAlt = it}

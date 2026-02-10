@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SignalAltSlash: ImageVector? = null
+
+val Icons.Rr.SignalAltSlash: ImageVector
+    get() = _SignalAltSlash ?: UXIcon(name = "SignalAltSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.71f, 22.29f)
+                lineToRelative(-2.71f, -2.71f)
+                lineTo(21f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2.55f)
+                curveToRelative(-0.16f, -0.03f, -0.33f, -0.05f, -0.5f, -0.05f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2.09f)
+                lineTo(1.71f, 0.29f)
+                curveTo(1.32f, -0.1f, 0.68f, -0.1f, 0.29f, 0.29f)
+                reflectiveCurveTo(-0.1f, 1.32f, 0.29f, 1.71f)
+                lineToRelative(22f, 22f)
+                curveToRelative(0.2f, 0.2f, 0.45f, 0.29f, 0.71f, 0.29f)
+                reflectiveCurveToRelative(0.51f, -0.1f, 0.71f, -0.29f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                close()
+                moveTo(17f, 2.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(15.09f)
+                lineToRelative(-2f, -2f)
+                lineTo(17f, 2.5f)
+                close()
+                moveTo(13f, 7.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(6.09f)
+                lineToRelative(-2f, -2f)
+                verticalLineToRelative(-4.09f)
+                close()
+                moveTo(18f, 22f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3.05f)
+                curveToRelative(-0.16f, -0.03f, -0.33f, -0.05f, -0.5f, -0.05f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(12.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(5f, 21.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                close()
+            }
+        }.also { _SignalAltSlash = it}

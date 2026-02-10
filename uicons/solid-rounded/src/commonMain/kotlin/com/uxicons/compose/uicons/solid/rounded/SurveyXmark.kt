@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SurveyXmark: ImageVector? = null
+
+val Icons.Sr.SurveyXmark: ImageVector
+    get() = _SurveyXmark ?: UXIcon(name = "SurveyXmark") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16f, 2f)
+                horizontalLineToRelative(-0.17f)
+                curveToRelative(-0.41f, -1.16f, -1.52f, -2f, -2.83f, -2f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.3f, 0f, -2.42f, 0.84f, -2.83f, 2f)
+                horizontalLineToRelative(-0.17f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                lineTo(21f, 7f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(11.21f, 17.79f)
+                curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(-0.2f, 0.2f, -0.45f, 0.29f, -0.71f, 0.29f)
+                reflectiveCurveToRelative(-0.51f, -0.1f, -0.71f, -0.29f)
+                lineToRelative(-0.79f, -0.79f)
+                lineToRelative(-0.79f, 0.79f)
+                curveToRelative(-0.2f, 0.2f, -0.45f, 0.29f, -0.71f, 0.29f)
+                reflectiveCurveToRelative(-0.51f, -0.1f, -0.71f, -0.29f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                lineToRelative(0.79f, -0.79f)
+                lineToRelative(-0.79f, -0.79f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                lineToRelative(0.79f, 0.79f)
+                lineToRelative(0.79f, -0.79f)
+                curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+                reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+                lineToRelative(-0.79f, 0.79f)
+                lineToRelative(0.79f, 0.79f)
+                close()
+                moveTo(11.21f, 10.79f)
+                curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+                curveToRelative(-0.2f, 0.2f, -0.45f, 0.29f, -0.71f, 0.29f)
+                reflectiveCurveToRelative(-0.51f, -0.1f, -0.71f, -0.29f)
+                lineToRelative(-0.79f, -0.79f)
+                lineToRelative(-0.79f, 0.79f)
+                curveToRelative(-0.2f, 0.2f, -0.45f, 0.29f, -0.71f, 0.29f)
+                reflectiveCurveToRelative(-0.51f, -0.1f, -0.71f, -0.29f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                lineToRelative(0.79f, -0.79f)
+                lineToRelative(-0.79f, -0.79f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                lineToRelative(0.79f, 0.79f)
+                lineToRelative(0.79f, -0.79f)
+                curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+                reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+                lineToRelative(-0.79f, 0.79f)
+                lineToRelative(0.79f, 0.79f)
+                close()
+                moveTo(17f, 18f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(17f, 11f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _SurveyXmark = it}

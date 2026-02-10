@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CalendarBirhtdayCake: ImageVector? = null
+
+val Icons.Rr.CalendarBirhtdayCake: ImageVector
+    get() = _CalendarBirhtdayCake ?: UXIcon(name = "CalendarBirhtdayCake") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-8f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1f)
+                curveTo(2.24f, 2f, 0f, 4.24f, 0f, 7f)
+                verticalLineToRelative(12.13f)
+                curveToRelative(0f, 2.28f, 1.54f, 4.27f, 3.75f, 4.84f)
+                curveToRelative(0.54f, 0.14f, 1.08f, -0.19f, 1.22f, -0.72f)
+                reflectiveCurveToRelative(-0.18f, -1.08f, -0.72f, -1.22f)
+                curveToRelative(-1.32f, -0.34f, -2.25f, -1.53f, -2.25f, -2.9f)
+                verticalLineToRelative(-9.13f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(9.13f)
+                curveToRelative(0f, 1.37f, -0.93f, 2.56f, -2.25f, 2.9f)
+                curveToRelative(-0.54f, 0.14f, -0.86f, 0.68f, -0.72f, 1.22f)
+                curveToRelative(0.12f, 0.45f, 0.52f, 0.75f, 0.97f, 0.75f)
+                curveToRelative(0.08f, 0f, 0.17f, -0.01f, 0.25f, -0.03f)
+                curveToRelative(2.21f, -0.57f, 3.75f, -2.56f, 3.75f, -4.84f)
+                lineTo(24.0f, 7f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(2f, 8f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(1f)
+                lineTo(2f, 8f)
+                close()
+                moveTo(14.5f, 18f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(15f, 21.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(12f, 15f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                curveToRelative(0f, -0.78f, 0.72f, -1.96f, 1.16f, -2.37f)
+                curveToRelative(0.19f, -0.18f, 0.49f, -0.18f, 0.68f, 0f)
+                curveToRelative(0.44f, 0.41f, 1.16f, 1.59f, 1.16f, 2.37f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _CalendarBirhtdayCake = it}

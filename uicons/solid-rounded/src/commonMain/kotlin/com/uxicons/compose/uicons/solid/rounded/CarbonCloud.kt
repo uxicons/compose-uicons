@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CarbonCloud: ImageVector? = null
+
+val Icons.Sr.CarbonCloud: ImageVector
+    get() = _CarbonCloud ?: UXIcon(name = "CarbonCloud") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(14.5f, 13f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(15.4f, 18.5f)
+                curveToRelative(0f, 0.5f, -0.4f, 0.9f, -0.9f, 0.9f)
+                reflectiveCurveToRelative(-0.9f, -0.4f, -0.9f, -0.9f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.5f, 0.4f, -0.9f, 0.9f, -0.9f)
+                reflectiveCurveToRelative(0.9f, 0.4f, 0.9f, 0.9f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(7.6f, 15.53f)
+                verticalLineToRelative(2.94f)
+                curveToRelative(0f, 0.48f, 0.36f, 0.9f, 0.84f, 0.93f)
+                curveToRelative(0.37f, 0.03f, 0.7f, -0.18f, 0.86f, -0.49f)
+                curveToRelative(0.13f, -0.26f, 0.41f, -0.41f, 0.7f, -0.41f)
+                curveToRelative(0.61f, 0f, 0.99f, 0.65f, 0.7f, 1.18f)
+                curveToRelative(-0.41f, 0.77f, -1.22f, 1.3f, -2.15f, 1.32f)
+                curveToRelative(-1.4f, 0.03f, -2.55f, -1.15f, -2.55f, -2.56f)
+                verticalLineToRelative(-2.89f)
+                curveToRelative(0f, -1.4f, 1.15f, -2.58f, 2.55f, -2.56f)
+                curveToRelative(0.93f, 0.02f, 1.74f, 0.55f, 2.15f, 1.32f)
+                curveToRelative(0.29f, 0.53f, -0.1f, 1.18f, -0.7f, 1.18f)
+                curveToRelative(-0.29f, 0f, -0.57f, -0.15f, -0.7f, -0.41f)
+                curveToRelative(-0.16f, -0.31f, -0.49f, -0.51f, -0.86f, -0.49f)
+                curveToRelative(-0.48f, 0.03f, -0.84f, 0.45f, -0.84f, 0.93f)
+                close()
+                moveTo(20f, 22.67f)
+                horizontalLineToRelative(1.35f)
+                curveToRelative(0.36f, 0f, 0.65f, 0.29f, 0.65f, 0.65f)
+                verticalLineToRelative(0.03f)
+                curveToRelative(0f, 0.36f, -0.29f, 0.65f, -0.65f, 0.65f)
+                horizontalLineToRelative(-2.69f)
+                curveToRelative(-0.36f, 0f, -0.65f, -0.29f, -0.65f, -0.65f)
+                curveToRelative(0f, -1.51f, 2.67f, -2.35f, 2.67f, -3.35f)
+                curveToRelative(0f, -0.38f, -0.31f, -0.68f, -0.69f, -0.67f)
+                curveToRelative(-0.25f, 0.01f, -0.46f, 0.16f, -0.57f, 0.37f)
+                curveToRelative(-0.01f, 0.01f, -0.01f, 0.02f, -0.01f, 0.04f)
+                curveToRelative(-0.09f, 0.34f, -0.39f, 0.59f, -0.75f, 0.59f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.37f, 0f, -0.66f, -0.33f, -0.61f, -0.7f)
+                curveToRelative(0.0f, -0.01f, 0.0f, -0.02f, 0.01f, -0.03f)
+                curveToRelative(0.19f, -0.88f, 0.95f, -1.57f, 1.88f, -1.6f)
+                curveToRelative(1.14f, -0.04f, 2.07f, 0.87f, 2.07f, 2.0f)
+                curveToRelative(0f, 1.42f, -1.43f, 2.14f, -2f, 2.67f)
+                close()
+                moveTo(24f, 12.5f)
+                curveToRelative(0f, 1.64f, -0.54f, 3.18f, -1.46f, 4.43f)
+                curveToRelative(-0.75f, -0.62f, -1.68f, -0.94f, -2.68f, -0.93f)
+                curveToRelative(-0.29f, 0.01f, -0.58f, 0.07f, -0.86f, 0.14f)
+                verticalLineToRelative(-0.64f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                curveToRelative(-1.16f, 0f, -2.2f, 0.45f, -3.0f, 1.17f)
+                curveToRelative(-0.79f, -0.71f, -1.82f, -1.14f, -2.92f, -1.16f)
+                curveToRelative(-1.18f, 0.01f, -2.34f, 0.43f, -3.21f, 1.29f)
+                curveToRelative(-0.88f, 0.86f, -1.38f, 2.05f, -1.38f, 3.27f)
+                verticalLineToRelative(2.89f)
+                curveToRelative(0f, 0.48f, 0.1f, 0.95f, 0.25f, 1.41f)
+                curveToRelative(-2.43f, -0.57f, -4.25f, -2.75f, -4.25f, -5.35f)
+                curveToRelative(0f, -1.55f, 0.66f, -3.03f, 1.8f, -4.07f)
+                curveToRelative(0.27f, -0.25f, 0.41f, -0.59f, 0.35f, -0.9f)
+                curveToRelative(-0.18f, -0.95f, -0.2f, -1.92f, -0.03f, -2.89f)
+                curveTo(2.66f, 3.35f, 5.22f, 0.74f, 8.5f, 0.14f)
+                curveToRelative(3.59f, -0.66f, 7.18f, 1.17f, 8.73f, 4.44f)
+                curveToRelative(0.14f, 0.3f, 0.41f, 0.5f, 0.74f, 0.57f)
+                curveToRelative(3.49f, 0.7f, 6.03f, 3.79f, 6.03f, 7.35f)
+                close()
+            }
+        }.also { _CarbonCloud = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Stadium: ImageVector? = null
+
+val Icons.Br.Stadium: ImageVector
+    get() = _Stadium ?: UXIcon(name = "Stadium") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(21f, 7.03f)
+            verticalLineToRelative(-3.02f)
+            lineToRelative(2.63f, -1.3f)
+            curveToRelative(0.5f, -0.33f, 0.5f, -1.06f, 0f, -1.4f)
+            lineToRelative(-1.73f, -0.86f)
+            curveToRelative(-0.59f, -0.29f, -1.24f, -0.44f, -1.9f, -0.44f)
+            curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+            verticalLineToRelative(6f)
+            horizontalLineToRelative(-6f)
+            verticalLineToRelative(-3f)
+            lineToRelative(2.63f, -1.3f)
+            curveToRelative(0.5f, -0.33f, 0.5f, -1.06f, 0f, -1.4f)
+            lineToRelative(-1.73f, -0.86f)
+            curveToRelative(-0.59f, -0.29f, -1.24f, -0.44f, -1.9f, -0.44f)
+            curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+            verticalLineToRelative(6f)
+            horizontalLineToRelative(-6f)
+            verticalLineToRelative(-3f)
+            lineToRelative(2.63f, -1.3f)
+            curveToRelative(0.5f, -0.33f, 0.5f, -1.06f, 0f, -1.4f)
+            lineToRelative(-1.73f, -0.86f)
+            curveToRelative(-0.59f, -0.29f, -1.24f, -0.44f, -1.9f, -0.44f)
+            curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+            verticalLineToRelative(6.03f)
+            curveToRelative(-1.67f, 0.13f, -3f, 1.52f, -3f, 3.22f)
+            curveToRelative(0f, 0.31f, 0.04f, 0.62f, 0.13f, 0.92f)
+            lineToRelative(2.37f, 8.05f)
+            verticalLineToRelative(0.28f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            horizontalLineToRelative(10f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-0.28f)
+            lineToRelative(2.37f, -8.05f)
+            curveToRelative(0.09f, -0.3f, 0.13f, -0.6f, 0.13f, -0.91f)
+            curveToRelative(0f, -1.71f, -1.33f, -3.09f, -3f, -3.22f)
+            close()
+            moveTo(10.05f, 13f)
+            lineTo(9.71f, 10f)
+            horizontalLineToRelative(4.57f)
+            lineToRelative(-0.33f, 3f)
+            horizontalLineToRelative(-3.91f)
+            close()
+            moveTo(17.3f, 10f)
+            horizontalLineToRelative(3.45f)
+            curveToRelative(0.14f, 0f, 0.25f, 0.11f, 0.24f, 0.32f)
+            lineToRelative(-0.79f, 2.68f)
+            horizontalLineToRelative(-3.23f)
+            close()
+            moveTo(3.25f, 10f)
+            horizontalLineToRelative(3.45f)
+            lineToRelative(0.33f, 3f)
+            horizontalLineToRelative(-3.22f)
+            lineToRelative(-0.81f, -2.75f)
+            curveToRelative(0f, -0.14f, 0.11f, -0.25f, 0.25f, -0.25f)
+            close()
+            moveTo(18.5f, 19f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-3f)
+            verticalLineToRelative(-1f)
+            curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+            reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+            verticalLineToRelative(1f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-0.5f)
+            curveToRelative(0f, -0.14f, -0.02f, -0.29f, -0.06f, -0.42f)
+            lineToRelative(-0.76f, -2.58f)
+            horizontalLineToRelative(14.63f)
+            lineToRelative(-0.76f, 2.58f)
+            curveToRelative(-0.04f, 0.14f, -0.06f, 0.28f, -0.06f, 0.42f)
+            close()
+        }
+    }.also { _Stadium = it }

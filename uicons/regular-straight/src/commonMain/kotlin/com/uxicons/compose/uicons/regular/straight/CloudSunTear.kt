@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CloudSunTear: ImageVector? = null
+
+val Icons.Rs.CloudSunTear: ImageVector
+    get() = _CloudSunTear ?: UXIcon(name = "CloudSunTear") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7.69f, 14.04f)
+                lineToRelative(-5.68f, 3.35f)
+                lineToRelative(-1.01f, -1.73f)
+                lineToRelative(3.94f, -2.29f)
+                curveToRelative(-0.17f, -0.43f, -0.29f, -0.89f, -0.36f, -1.37f)
+                horizontalLineToRelative(-4.58f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(4.58f)
+                curveToRelative(0.07f, -0.48f, 0.2f, -0.94f, 0.37f, -1.37f)
+                lineToRelative(-3.96f, -2.3f)
+                lineToRelative(1.01f, -1.73f)
+                lineToRelative(3.96f, 2.3f)
+                curveToRelative(0.29f, -0.35f, 0.61f, -0.67f, 0.96f, -0.96f)
+                lineToRelative(-2.3f, -3.95f)
+                lineToRelative(1.73f, -1.01f)
+                lineToRelative(2.3f, 3.96f)
+                curveToRelative(0.43f, -0.17f, 0.88f, -0.29f, 1.34f, -0.36f)
+                verticalLineToRelative(-4.58f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4.58f)
+                curveToRelative(0.47f, 0.07f, 0.92f, 0.19f, 1.36f, 0.36f)
+                lineToRelative(2.3f, -3.96f)
+                lineToRelative(1.73f, 1.0f)
+                lineToRelative(-2.3f, 3.95f)
+                curveToRelative(0.35f, 0.28f, 0.67f, 0.61f, 0.96f, 0.96f)
+                lineToRelative(3.97f, -2.31f)
+                lineToRelative(1.01f, 1.73f)
+                lineToRelative(-3.97f, 2.31f)
+                curveToRelative(0.12f, 0.3f, 0.22f, 0.6f, 0.29f, 0.92f)
+                curveToRelative(-0.72f, -0.29f, -1.49f, -0.47f, -2.29f, -0.53f)
+                curveToRelative(-0.75f, -1.54f, -2.33f, -2.53f, -4.04f, -2.52f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                curveToRelative(0.01f, 1.17f, 0.44f, 2.23f, 1.19f, 3.04f)
+                close()
+                moveTo(19.41f, 14.02f)
+                curveToRelative(-0.93f, -1.83f, -2.82f, -3.02f, -4.91f, -3.02f)
+                curveToRelative(-2.91f, 0f, -5.29f, 2.27f, -5.49f, 5.12f)
+                curveToRelative(-1.73f, 0.44f, -3.01f, 2.01f, -3.01f, 3.88f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                horizontalLineToRelative(1.01f)
+                curveToRelative(-0.46f, -0.6f, -0.76f, -1.29f, -0.9f, -2f)
+                curveToRelative(-1.14f, 0.05f, -2.11f, -0.86f, -2.1f, -2f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2.03f, -2f)
+                horizontalLineToRelative(1.11f)
+                curveToRelative(-0.03f, -0.3f, -0.15f, -1.21f, -0.14f, -1.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                curveToRelative(1.48f, 0f, 2.81f, 0.94f, 3.3f, 2.33f)
+                lineToRelative(0.23f, 0.67f)
+                horizontalLineToRelative(0.96f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                curveToRelative(0f, 1.33f, -0.88f, 2.47f, -2.08f, 2.85f)
+                curveToRelative(-0.13f, 0.76f, -0.44f, 1.5f, -0.93f, 2.15f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                curveToRelative(0f, -2.62f, -2.02f, -4.77f, -4.59f, -4.98f)
+                close()
+                moveTo(17.11f, 18.87f)
+                curveToRelative(1.18f, 1.18f, 1.18f, 3.08f, 0.01f, 4.25f)
+                curveToRelative(-0.57f, 0.57f, -1.32f, 0.88f, -2.12f, 0.88f)
+                reflectiveCurveToRelative(-1.55f, -0.31f, -2.12f, -0.88f)
+                curveToRelative(-1.17f, -1.17f, -1.17f, -3.07f, 0f, -4.24f)
+                lineToRelative(2.12f, -2.08f)
+                close()
+                moveTo(15.71f, 20.29f)
+                lineTo(15f, 19.6f)
+                lineTo(14.29f, 20.3f)
+                curveToRelative(-0.38f, 0.38f, -0.38f, 1.02f, 0.01f, 1.41f)
+                curveToRelative(0.38f, 0.38f, 1.03f, 0.38f, 1.41f, 0f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                close()
+            }
+        }.also { _CloudSunTear = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _VolumeControl: ImageVector? = null
+
+val Icons.Br.VolumeControl: ImageVector
+    get() = _VolumeControl ?: UXIcon(name = "VolumeControl") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(22f, 8f)
+            verticalLineToRelative(-4f)
+            curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+            reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+            close()
+            moveTo(14f, 9f)
+            horizontalLineToRelative(0.85f)
+            lineToRelative(2.78f, 2.12f)
+            curveToRelative(0.97f, 0.75f, 2.37f, 0.06f, 2.37f, -1.17f)
+            verticalLineToRelative(-7.99f)
+            curveToRelative(0f, -1.22f, -1.4f, -1.91f, -2.37f, -1.17f)
+            lineToRelative(-2.9f, 2.2f)
+            horizontalLineToRelative(-0.73f)
+            curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+            close()
+            moveTo(22.5f, 11.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(5.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            horizontalLineToRelative(-13f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            verticalLineToRelative(-13f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            horizontalLineToRelative(4.5f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-4.5f)
+            curveToRelative(-3.03f, 0f, -5.5f, 2.47f, -5.5f, 5.5f)
+            verticalLineToRelative(13f)
+            curveToRelative(0f, 3.03f, 2.47f, 5.5f, 5.5f, 5.5f)
+            horizontalLineToRelative(13f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            verticalLineToRelative(-5.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(10f, 14f)
+            verticalLineToRelative(-7.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(7.5f)
+            horizontalLineToRelative(-0.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(0.5f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-0.5f)
+            horizontalLineToRelative(0.5f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            close()
+            moveTo(15.5f, 19f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+            moveTo(15.5f, 14f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.48f, 0f, 0.91f, -0.23f, 1.18f, -0.59f)
+            curveToRelative(-0.8f, 0.08f, -1.61f, -0.21f, -2.28f, -0.71f)
+            lineToRelative(-1.82f, -1.39f)
+            curveToRelative(-0.36f, 0.27f, -0.59f, 0.7f, -0.59f, 1.18f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+        }
+    }.also { _VolumeControl = it }

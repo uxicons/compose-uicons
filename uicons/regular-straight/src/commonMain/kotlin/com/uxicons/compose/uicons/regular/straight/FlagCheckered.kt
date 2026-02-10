@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FlagCheckered: ImageVector? = null
+
+val Icons.Rs.FlagCheckered: ImageVector
+    get() = _FlagCheckered ?: UXIcon(name = "FlagCheckered") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.59f, 0.73f)
+                curveToRelative(-0.03f, 0.01f, -2.83f, 1.27f, -5.59f, 1.27f)
+                curveToRelative(-1.36f, 0f, -3.07f, -0.49f, -4.73f, -0.96f)
+                curveToRelative(-1.79f, -0.51f, -3.63f, -1.04f, -5.27f, -1.04f)
+                curveTo(3.74f, 0f, 0.58f, 2.08f, 0.44f, 2.17f)
+                lineTo(0f, 2.46f)
+                lineTo(0f, 24f)
+                lineTo(2.0f, 24f)
+                lineTo(2.0f, 15.56f)
+                curveToRelative(0.89f, -0.51f, 2.98f, -1.56f, 5.0f, -1.56f)
+                curveToRelative(1.36f, 0f, 3.07f, 0.49f, 4.73f, 0.96f)
+                curveToRelative(1.79f, 0.51f, 3.63f, 1.04f, 5.27f, 1.04f)
+                curveToRelative(3.18f, 0f, 6.28f, -1.39f, 6.41f, -1.45f)
+                lineToRelative(0.59f, -0.27f)
+                lineTo(24.0f, 0.09f)
+                lineToRelative(-1.41f, 0.64f)
+                close()
+                moveTo(22.0f, 6.97f)
+                curveToRelative(-0.64f, 0.24f, -1.75f, 0.62f, -3f, 0.84f)
+                lineTo(19.0f, 3.84f)
+                curveToRelative(1.16f, -0.18f, 2.21f, -0.48f, 3f, -0.74f)
+                verticalLineToRelative(3.88f)
+                close()
+                moveTo(17.0f, 8f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-1.16f, 0f, -2.58f, -0.36f, -4f, -0.76f)
+                lineTo(13.0f, 3.32f)
+                curveToRelative(1.38f, 0.37f, 2.75f, 0.68f, 4.0f, 0.68f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(13f, 9.32f)
+                curveToRelative(1.38f, 0.37f, 2.75f, 0.68f, 4.0f, 0.68f)
+                horizontalLineToRelative(0f)
+                verticalLineToRelative(4f)
+                curveToRelative(-1.16f, 0f, -2.58f, -0.36f, -4.0f, -0.76f)
+                verticalLineToRelative(-3.92f)
+                close()
+                moveTo(11.0f, 2.75f)
+                verticalLineToRelative(3.92f)
+                curveToRelative(-1.38f, -0.37f, -2.75f, -0.68f, -4f, -0.68f)
+                horizontalLineToRelative(0f)
+                lineTo(7.0f, 2f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(1.16f, 0f, 2.58f, 0.36f, 4.0f, 0.76f)
+                close()
+                moveTo(5.0f, 2.29f)
+                verticalLineToRelative(3.94f)
+                curveToRelative(-1.15f, 0.26f, -2.2f, 0.68f, -3.0f, 1.07f)
+                lineTo(2f, 3.56f)
+                curveToRelative(0.59f, -0.34f, 1.72f, -0.92f, 3.0f, -1.27f)
+                close()
+                moveTo(2.0f, 9.56f)
+                curveToRelative(0.59f, -0.34f, 1.72f, -0.92f, 3f, -1.27f)
+                verticalLineToRelative(3.94f)
+                curveToRelative(-1.15f, 0.26f, -2.2f, 0.68f, -3f, 1.07f)
+                verticalLineToRelative(-3.74f)
+                close()
+                moveTo(7.0f, 12f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(0f)
+                curveToRelative(1.16f, 0f, 2.58f, 0.36f, 4.0f, 0.76f)
+                verticalLineToRelative(3.92f)
+                curveToRelative(-1.37f, -0.37f, -2.75f, -0.68f, -4.0f, -0.68f)
+                horizontalLineToRelative(-0.0f)
+                close()
+                moveTo(19f, 13.81f)
+                verticalLineToRelative(-3.97f)
+                curveToRelative(1.16f, -0.18f, 2.21f, -0.48f, 3.0f, -0.74f)
+                verticalLineToRelative(3.88f)
+                curveToRelative(-0.64f, 0.24f, -1.75f, 0.62f, -3.0f, 0.84f)
+                close()
+            }
+        }.also { _FlagCheckered = it}

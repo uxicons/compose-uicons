@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SplitUpRelation: ImageVector? = null
+
+val Icons.Rs.SplitUpRelation: ImageVector
+    get() = _SplitUpRelation ?: UXIcon(name = "SplitUpRelation") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(2.5f, 2.5f)
+                curveTo(2.5f, 1.12f, 3.62f, 0f, 5f, 0f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(2f, 9f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                lineTo(7f, 8f)
+                verticalLineToRelative(-2f)
+                lineTo(3f, 6f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(8f)
+                lineTo(2f, 17f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(2f)
+                lineTo(8f, 15f)
+                lineTo(2f, 15f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(19f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(22.58f, 8.63f)
+                curveToRelative(-0.19f, -1.5f, -1.47f, -2.63f, -2.98f, -2.63f)
+                horizontalLineToRelative(-2.61f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2.61f)
+                curveToRelative(0.5f, 0f, 0.93f, 0.38f, 0.99f, 0.88f)
+                lineToRelative(1.14f, 9.12f)
+                horizontalLineToRelative(-5.74f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2.0f)
+                lineToRelative(-1.42f, -11.37f)
+                close()
+                moveTo(14.74f, 15.96f)
+                lineToRelative(-2.5f, -2.7f)
+                lineToRelative(2.5f, -2.7f)
+                lineToRelative(-2.5f, -2.7f)
+                lineToRelative(2.5f, -2.7f)
+                lineToRelative(-2.49f, -2.69f)
+                lineTo(14.6f, 0f)
+                horizontalLineToRelative(-2.76f)
+                lineToRelative(-2.33f, 2.46f)
+                lineToRelative(2.51f, 2.71f)
+                lineToRelative(-2.5f, 2.7f)
+                lineToRelative(2.5f, 2.7f)
+                lineToRelative(-2.5f, 2.7f)
+                lineToRelative(2.5f, 2.7f)
+                lineToRelative(-2.5f, 2.7f)
+                lineToRelative(2.49f, 2.69f)
+                lineToRelative(-2.54f, 2.66f)
+                horizontalLineToRelative(2.77f)
+                lineToRelative(2.52f, -2.64f)
+                lineToRelative(-2.51f, -2.71f)
+                lineToRelative(2.5f, -2.7f)
+                close()
+            }
+        }.also { _SplitUpRelation = it}

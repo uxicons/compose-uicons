@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrophyAchievementSkill: ImageVector? = null
+
+val Icons.Bs.TrophyAchievementSkill: ImageVector
+    get() = _TrophyAchievementSkill ?: UXIcon(name = "TrophyAchievementSkill") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 0f)
+                horizontalLineToRelative(-12f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(12f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(9f, 3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(21f, 5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(12.95f, 12.89f)
+                curveToRelative(0.15f, -0.71f, -0.03f, -1.44f, -0.49f, -2f)
+                curveToRelative(-0.46f, -0.56f, -1.14f, -0.89f, -1.87f, -0.89f)
+                lineTo(3.41f, 10f)
+                curveToRelative(-0.73f, 0f, -1.41f, 0.32f, -1.87f, 0.89f)
+                curveToRelative(-0.46f, 0.56f, -0.64f, 1.29f, -0.49f, 2.0f)
+                curveToRelative(0.03f, 0.13f, 0.12f, 0.55f, 0.32f, 1.11f)
+                lineTo(0f, 14f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2.96f)
+                curveToRelative(0.63f, 0.82f, 1.46f, 1.58f, 2.54f, 2.1f)
+                verticalLineToRelative(0.62f)
+                curveToRelative(0f, 1.33f, -1.22f, 1.27f, -1.22f, 1.27f)
+                horizontalLineToRelative(-0.78f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-0.78f)
+                reflectiveCurveToRelative(-1.22f, 0.06f, -1.22f, -1.27f)
+                verticalLineToRelative(-0.62f)
+                curveToRelative(1.07f, -0.53f, 1.9f, -1.28f, 2.54f, -2.1f)
+                horizontalLineToRelative(2.96f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-1.37f)
+                curveToRelative(0.19f, -0.56f, 0.29f, -0.98f, 0.32f, -1.11f)
+                close()
+                moveTo(7.19f, 16.42f)
+                horizontalLineToRelative(-0.37f)
+                curveToRelative(-1.4f, -0.69f, -2.23f, -2.26f, -2.62f, -3.42f)
+                horizontalLineToRelative(5.62f)
+                curveToRelative(-0.39f, 1.15f, -1.23f, 2.73f, -2.62f, 3.42f)
+                close()
+                moveTo(21f, 10f)
+                horizontalLineToRelative(-6.75f)
+                curveToRelative(0.59f, 0.89f, 0.83f, 1.94f, 0.68f, 3f)
+                horizontalLineToRelative(1.06f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(21f, 15f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _TrophyAchievementSkill = it}

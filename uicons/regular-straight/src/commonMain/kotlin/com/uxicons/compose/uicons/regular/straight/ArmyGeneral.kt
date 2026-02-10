@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ArmyGeneral: ImageVector? = null
+
+val Icons.Rs.ArmyGeneral: ImageVector
+    get() = _ArmyGeneral ?: UXIcon(name = "ArmyGeneral") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.96f, 9.68f)
+                curveToRelative(1.23f, 0.3f, 2.71f, 0.66f, 4.04f, 0.95f)
+                verticalLineToRelative(-3.19f)
+                lineToRelative(-1.8f, -1.08f)
+                curveToRelative(-0.5f, -0.71f, -0.89f, -1.38f, -1.26f, -2.03f)
+                curveToRelative(-1.35f, -2.32f, -2.52f, -4.32f, -6.93f, -4.32f)
+                reflectiveCurveToRelative(-5.58f, 2.0f, -6.93f, 4.32f)
+                curveToRelative(-0.38f, 0.65f, -0.77f, 1.32f, -1.26f, 2.03f)
+                lineToRelative(-1.8f, 1.08f)
+                verticalLineToRelative(3.2f)
+                curveToRelative(1.23f, -0.36f, 3.06f, -0.9f, 4.03f, -1.12f)
+                curveToRelative(0.09f, 1.03f, 0.43f, 1.98f, 0.97f, 2.8f)
+                verticalLineToRelative(3.69f)
+                horizontalLineToRelative(-4.0f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4.33f)
+                lineToRelative(1.67f, 4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-4f)
+                lineToRelative(1.67f, -4f)
+                horizontalLineToRelative(4.33f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-3.69f)
+                curveToRelative(0.51f, -0.77f, 0.85f, -1.67f, 0.96f, -2.63f)
+                close()
+                moveTo(11f, 14.91f)
+                verticalLineToRelative(2.0f)
+                curveToRelative(-0.8f, -0.13f, -1.53f, -0.38f, -2f, -0.56f)
+                verticalLineToRelative(-2.15f)
+                curveToRelative(0.61f, 0.35f, 1.28f, 0.6f, 2f, 0.72f)
+                close()
+                moveTo(13f, 14.91f)
+                curveToRelative(0.72f, -0.12f, 1.39f, -0.37f, 2f, -0.72f)
+                verticalLineToRelative(2.15f)
+                curveToRelative(-0.47f, 0.19f, -1.2f, 0.43f, -2f, 0.56f)
+                close()
+                moveTo(6.8f, 5.33f)
+                curveToRelative(1.29f, -2.22f, 1.94f, -3.33f, 5.2f, -3.33f)
+                reflectiveCurveToRelative(3.91f, 1.11f, 5.2f, 3.33f)
+                curveToRelative(0.41f, 0.7f, 0.88f, 1.5f, 1.48f, 2.35f)
+                lineToRelative(0.1f, 0.14f)
+                curveToRelative(-2.12f, -0.51f, -3.58f, -0.82f, -6.79f, -0.82f)
+                reflectiveCurveToRelative(-4.42f, 0.06f, -6.64f, 0.62f)
+                curveToRelative(0.59f, -0.83f, 1.04f, -1.6f, 1.44f, -2.29f)
+                close()
+                moveTo(12f, 9f)
+                curveToRelative(1.73f, 0f, 2.9f, 0.1f, 3.97f, 0.27f)
+                curveToRelative(-0.14f, 2.08f, -1.86f, 3.73f, -3.97f, 3.73f)
+                curveToRelative(-2.16f, 0f, -3.91f, -1.72f, -3.99f, -3.86f)
+                curveToRelative(1.05f, -0.12f, 2.17f, -0.14f, 3.99f, -0.14f)
+                close()
+                moveTo(11.17f, 22f)
+                lineTo(9.79f, 18.7f)
+                curveToRelative(0.67f, 0.17f, 1.44f, 0.3f, 2.21f, 0.3f)
+                reflectiveCurveToRelative(1.54f, -0.13f, 2.21f, -0.3f)
+                lineToRelative(-1.38f, 3.31f)
+                horizontalLineToRelative(-1.67f)
+                close()
+                moveTo(12f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _ArmyGeneral = it}

@@ -1,0 +1,46 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AlignLeft: ImageVector? = null
+
+val Icons.Br.AlignLeft: ImageVector
+    get() = _AlignLeft ?: UXIcon(name = "AlignLeft") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(1.5f, 6f)
+            horizontalLineToRelative(21f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, -3f)
+            horizontalLineTo(1.5f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 3f)
+            close()
+        }
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(1.5f, 11f)
+            horizontalLineToRelative(13f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, -3f)
+            horizontalLineTo(1.5f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 3f)
+            close()
+        }
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(14.5f, 18f)
+            horizontalLineTo(1.5f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 3f)
+            horizontalLineToRelative(13f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, -3f)
+            close()
+        }
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(22.5f, 13f)
+            horizontalLineTo(1.5f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 3f)
+            horizontalLineToRelative(21f)
+            arcToRelative(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, -3f)
+            close()
+        }
+    }.also { _AlignLeft = it }

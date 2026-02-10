@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SourceDocumentAlt: ImageVector? = null
+
+val Icons.Bs.SourceDocumentAlt: ImageVector
+    get() = _SourceDocumentAlt ?: UXIcon(name = "SourceDocumentAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 20.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                reflectiveCurveToRelative(-3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                close()
+                moveTo(14.56f, 12.44f)
+                lineToRelative(1.44f, -1.44f)
+                verticalLineToRelative(3.89f)
+                curveToRelative(0f, 0.61f, -0.5f, 1.11f, -1.11f, 1.11f)
+                horizontalLineToRelative(-3.89f)
+                lineToRelative(1.44f, -1.44f)
+                lineToRelative(-4.56f, -4.56f)
+                lineTo(2f, 10f)
+                lineTo(2f, 0f)
+                horizontalLineToRelative(5.62f)
+                lineToRelative(2.38f, 2.38f)
+                verticalLineToRelative(5.5f)
+                lineToRelative(4.56f, 4.56f)
+                close()
+                moveTo(7f, 3.62f)
+                lineToRelative(-0.62f, -0.62f)
+                horizontalLineToRelative(-1.38f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3.38f)
+                close()
+                moveTo(15.7f, 19.71f)
+                curveToRelative(0.4f, 0.42f, 0.4f, 1.16f, 0f, 1.58f)
+                lineToRelative(-2.7f, 2.71f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                lineTo(2f, 24.0f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(5.62f)
+                lineToRelative(2.38f, 2.38f)
+                verticalLineToRelative(2.62f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                lineToRelative(2.7f, 2.71f)
+                close()
+                moveTo(7f, 17.62f)
+                lineToRelative(-0.62f, -0.62f)
+                horizontalLineToRelative(-1.38f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3.38f)
+                close()
+                moveTo(19f, 10f)
+                horizontalLineToRelative(-5f)
+                lineTo(14f, 0f)
+                horizontalLineToRelative(5.62f)
+                lineToRelative(2.38f, 2.38f)
+                verticalLineToRelative(10.62f)
+                horizontalLineToRelative(2f)
+                lineToRelative(-2.71f, 2.7f)
+                curveToRelative(-0.42f, 0.4f, -1.16f, 0.4f, -1.58f, 0f)
+                lineToRelative(-2.71f, -2.7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(17f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3.38f)
+                lineToRelative(-0.62f, -0.62f)
+                horizontalLineToRelative(-1.38f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _SourceDocumentAlt = it}

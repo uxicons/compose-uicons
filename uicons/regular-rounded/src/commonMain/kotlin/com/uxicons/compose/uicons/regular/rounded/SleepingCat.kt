@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SleepingCat: ImageVector? = null
+
+val Icons.Rr.SleepingCat: ImageVector
+    get() = _SleepingCat ?: UXIcon(name = "SleepingCat") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0.28f, 19.37f)
+                curveToRelative(0.03f, 0.06f, -0.04f, -0.05f, 0f, 0f)
+                lineTo(0.28f, 19.37f)
+                close()
+                moveTo(24f, 15.5f)
+                curveToRelative(0f, 4.69f, -3.81f, 8.5f, -8.5f, 8.5f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-6.11f, 0f, -10.61f, -0.16f, -13.72f, -4.63f)
+                curveToRelative(-0.34f, -0.76f, -0.37f, -1.6f, -0.07f, -2.37f)
+                curveToRelative(0.29f, -0.77f, 0.87f, -1.39f, 1.62f, -1.73f)
+                curveToRelative(0.75f, -0.34f, 1.59f, -0.37f, 2.37f, -0.07f)
+                curveToRelative(0.77f, 0.29f, 1.39f, 0.87f, 1.73f, 1.62f)
+                curveToRelative(2.75f, 4.82f, 5.45f, 5.18f, 9.58f, 5.18f)
+                curveToRelative(3.58f, 0f, 6.5f, -2.92f, 6.5f, -6.5f)
+                reflectiveCurveToRelative(-2.92f, -6.5f, -6.5f, -6.5f)
+                horizontalLineToRelative(-0.62f)
+                curveToRelative(0.06f, 0.34f, 0.1f, 0.69f, 0.1f, 1.05f)
+                curveToRelative(0f, 0.73f, -0.14f, 1.43f, -0.38f, 2.08f)
+                curveToRelative(0.46f, -0.08f, 0.93f, -0.13f, 1.41f, -0.13f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                curveToRelative(-2.42f, 0f, -4.62f, 1.33f, -5.75f, 3.47f)
+                curveToRelative(-0.18f, 0.34f, -0.53f, 0.53f, -0.89f, 0.53f)
+                curveToRelative(-0.16f, 0f, -0.32f, -0.04f, -0.47f, -0.12f)
+                curveToRelative(-0.49f, -0.26f, -0.68f, -0.86f, -0.42f, -1.35f)
+                curveToRelative(0.1f, -0.19f, 0.22f, -0.36f, 0.34f, -0.54f)
+                curveToRelative(-2.01f, -0.07f, -3.77f, -1.14f, -4.79f, -2.73f)
+                curveToRelative(-0.01f, -0.01f, -2.81f, -4.27f, -2.81f, -4.27f)
+                curveToRelative(-0.31f, -0.5f, -0.32f, -1.1f, -0.05f, -1.59f)
+                curveToRelative(0.27f, -0.49f, 0.79f, -0.79f, 1.35f, -0.79f)
+                curveToRelative(0f, 0f, 1.63f, 0.01f, 1.65f, 0.01f)
+                curveToRelative(0.9f, -1.27f, 2.28f, -2.17f, 3.88f, -2.44f)
+                lineToRelative(0.62f, -1.29f)
+                curveToRelative(0.25f, -0.51f, 0.75f, -0.84f, 1.31f, -0.87f)
+                curveToRelative(0.55f, -0.04f, 1.1f, 0.25f, 1.39f, 0.73f)
+                curveToRelative(0f, 0f, 2.73f, 4.21f, 2.75f, 4.24f)
+                horizontalLineToRelative(1.38f)
+                curveToRelative(4.69f, 0f, 8.5f, 3.81f, 8.5f, 8.5f)
+                close()
+                moveTo(13f, 10f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                reflectiveCurveToRelative(-4f, 1.79f, -4f, 4f)
+                reflectiveCurveToRelative(1.79f, 4f, 4f, 4f)
+                reflectiveCurveToRelative(4f, -1.79f, 4f, -4f)
+                close()
+                moveTo(7.2f, 21.66f)
+                curveToRelative(-1.05f, -0.91f, -2.07f, -2.18f, -3.06f, -3.94f)
+                curveToRelative(-0.16f, -0.35f, -0.38f, -0.55f, -0.65f, -0.66f)
+                curveToRelative(-0.27f, -0.1f, -0.57f, -0.09f, -0.84f, 0.03f)
+                curveToRelative(-0.27f, 0.12f, -0.47f, 0.34f, -0.57f, 0.61f)
+                curveToRelative(-0.09f, 0.25f, -0.1f, 0.52f, -0.0f, 0.77f)
+                curveToRelative(1.36f, 1.91f, 2.98f, 2.79f, 5.14f, 3.19f)
+                close()
+                moveTo(20f, 2f)
+                horizontalLineToRelative(1.09f)
+                lineToRelative(-1.68f, 1.68f)
+                curveToRelative(-0.39f, 0.39f, -0.51f, 0.97f, -0.29f, 1.48f)
+                curveToRelative(0.21f, 0.51f, 0.7f, 0.84f, 1.26f, 0.84f)
+                horizontalLineToRelative(2.63f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-1.09f)
+                lineToRelative(1.68f, -1.68f)
+                curveToRelative(0.39f, -0.39f, 0.51f, -0.97f, 0.29f, -1.48f)
+                curveToRelative(-0.21f, -0.51f, -0.7f, -0.84f, -1.26f, -0.84f)
+                horizontalLineToRelative(-2.63f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+            }
+        }.also { _SleepingCat = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UsbWifi: ImageVector? = null
+
+val Icons.Rr.UsbWifi: ImageVector
+    get() = _UsbWifi ?: UXIcon(name = "UsbWifi") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.63f, 18.1f)
+                curveToRelative(0.43f, 0.35f, 0.5f, 0.98f, 0.15f, 1.41f)
+                curveToRelative(-0.35f, 0.43f, -0.98f, 0.5f, -1.41f, 0.15f)
+                curveToRelative(-1.09f, -0.87f, -2.66f, -0.87f, -3.75f, 0f)
+                curveToRelative(-0.43f, 0.34f, -1.06f, 0.28f, -1.41f, -0.15f)
+                curveToRelative(-0.35f, -0.43f, -0.28f, -1.06f, 0.15f, -1.41f)
+                curveToRelative(1.81f, -1.45f, 4.44f, -1.45f, 6.25f, 0f)
+                close()
+                moveTo(23.69f, 15.46f)
+                curveToRelative(-3.47f, -3.29f, -8.91f, -3.29f, -12.38f, 0f)
+                curveToRelative(-0.4f, 0.38f, -0.42f, 1.01f, -0.04f, 1.41f)
+                curveToRelative(0.38f, 0.4f, 1.01f, 0.42f, 1.41f, 0.04f)
+                curveToRelative(2.7f, -2.56f, 6.93f, -2.56f, 9.62f, 0f)
+                curveToRelative(0.4f, 0.38f, 1.03f, 0.36f, 1.41f, -0.04f)
+                curveToRelative(0.38f, -0.4f, 0.36f, -1.03f, -0.04f, -1.41f)
+                close()
+                moveTo(17.5f, 21f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(7f, 6.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(11f, 6.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(12.93f, 22.04f)
+                curveToRelative(0.21f, 0.51f, -0.04f, 1.09f, -0.55f, 1.3f)
+                curveToRelative(-1.07f, 0.43f, -2.21f, 0.66f, -3.38f, 0.66f)
+                curveToRelative(-4.96f, 0f, -9f, -4.04f, -9f, -9f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.63f, 0.8f, -3.06f, 2.0f, -3.98f)
+                curveToRelative(0f, -0.01f, -0.0f, -0.01f, -0.0f, -0.02f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                horizontalLineToRelative(6f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                verticalLineToRelative(5f)
+                curveToRelative(0f, 0.01f, -0.0f, 0.01f, -0.0f, 0.02f)
+                curveToRelative(0.1f, 0.08f, 0.21f, 0.14f, 0.31f, 0.23f)
+                curveToRelative(0.41f, 0.36f, 0.45f, 1.0f, 0.09f, 1.41f)
+                curveToRelative(-0.37f, 0.42f, -1.0f, 0.46f, -1.41f, 0.09f)
+                curveToRelative(-0.55f, -0.48f, -1.25f, -0.75f, -1.98f, -0.75f)
+                horizontalLineToRelative(-8f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 3.86f, 3.14f, 7f, 7f, 7f)
+                curveToRelative(0.91f, 0f, 1.79f, -0.17f, 2.62f, -0.51f)
+                curveToRelative(0.51f, -0.21f, 1.09f, 0.04f, 1.3f, 0.55f)
+                close()
+                moveTo(4f, 8.1f)
+                curveToRelative(0.32f, -0.07f, 0.66f, -0.1f, 1f, -0.1f)
+                horizontalLineToRelative(8f)
+                curveToRelative(0.34f, 0f, 0.67f, 0.04f, 1f, 0.11f)
+                verticalLineToRelative(-4.11f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                close()
+            }
+        }.also { _UsbWifi = it}

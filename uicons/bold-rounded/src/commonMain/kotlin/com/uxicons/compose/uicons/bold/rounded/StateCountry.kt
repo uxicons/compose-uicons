@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StateCountry: ImageVector? = null
+
+val Icons.Br.StateCountry: ImageVector
+    get() = _StateCountry ?: UXIcon(name = "StateCountry") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(11f, 16.82f)
+            curveToRelative(0f, -0.49f, -0.31f, -0.94f, -0.77f, -1.1f)
+            lineToRelative(-3.92f, -1.58f)
+            curveToRelative(-0.52f, -0.19f, -1.09f, -0.19f, -1.61f, 0f)
+            lineToRelative(-3.92f, 1.58f)
+            curveToRelative(-0.47f, 0.17f, -0.77f, 0.61f, -0.77f, 1.1f)
+            curveToRelative(0f, 0.59f, 0.44f, 1.05f, 1f, 1.14f)
+            verticalLineToRelative(3.13f)
+            curveToRelative(-0.58f, 0.21f, -1f, 0.76f, -1f, 1.41f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(8f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            curveToRelative(0f, -0.65f, -0.42f, -1.2f, -1f, -1.41f)
+            verticalLineToRelative(-3.13f)
+            curveToRelative(0.56f, -0.09f, 1f, -0.55f, 1f, -1.14f)
+            close()
+            moveTo(7f, 18f)
+            verticalLineToRelative(3f)
+            horizontalLineToRelative(-3f)
+            verticalLineToRelative(-3f)
+            horizontalLineToRelative(3f)
+            close()
+            moveTo(23f, 7.09f)
+            verticalLineToRelative(-3.13f)
+            curveToRelative(0.56f, -0.09f, 1f, -0.55f, 1f, -1.14f)
+            curveToRelative(0f, -0.49f, -0.31f, -0.94f, -0.77f, -1.1f)
+            lineToRelative(-3.92f, -1.58f)
+            curveToRelative(-0.52f, -0.19f, -1.09f, -0.19f, -1.61f, 0f)
+            lineToRelative(-3.92f, 1.58f)
+            curveToRelative(-0.47f, 0.17f, -0.77f, 0.61f, -0.77f, 1.1f)
+            curveToRelative(0f, 0.59f, 0.44f, 1.05f, 1f, 1.14f)
+            verticalLineToRelative(3.13f)
+            curveToRelative(-0.58f, 0.21f, -1f, 0.76f, -1f, 1.41f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(8f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            curveToRelative(0f, -0.65f, -0.42f, -1.2f, -1f, -1.41f)
+            close()
+            moveTo(20f, 4f)
+            verticalLineToRelative(3f)
+            horizontalLineToRelative(-3f)
+            verticalLineToRelative(-3f)
+            horizontalLineToRelative(3f)
+            close()
+            moveTo(23.56f, 20.94f)
+            curveToRelative(0.59f, 0.59f, 0.59f, 1.53f, 0f, 2.12f)
+            curveToRelative(-0.29f, 0.29f, -0.68f, 0.44f, -1.06f, 0.44f)
+            reflectiveCurveToRelative(-0.77f, -0.15f, -1.06f, -0.44f)
+            lineToRelative(-2.06f, -2.06f)
+            horizontalLineToRelative(-2.88f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            verticalLineToRelative(-2.32f)
+            lineToRelative(-7.49f, -6.55f)
+            curveToRelative(-0.33f, -0.28f, -0.51f, -0.7f, -0.51f, -1.13f)
+            verticalLineToRelative(-2.5f)
+            horizontalLineToRelative(-2.5f)
+            curveToRelative(-0.46f, 0f, -0.89f, -0.21f, -1.17f, -0.56f)
+            lineTo(0.33f, 2.94f)
+            curveTo(-0.19f, 2.29f, -0.08f, 1.35f, 0.56f, 0.83f)
+            curveToRelative(0.65f, -0.52f, 1.59f, -0.41f, 2.11f, 0.23f)
+            lineToRelative(1.55f, 1.94f)
+            horizontalLineToRelative(2.28f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            verticalLineToRelative(2.32f)
+            lineToRelative(7.49f, 6.55f)
+            curveToRelative(0.33f, 0.28f, 0.51f, 0.7f, 0.51f, 1.13f)
+            verticalLineToRelative(2.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.4f, 0f, 0.78f, 0.16f, 1.06f, 0.44f)
+            lineToRelative(2.5f, 2.5f)
+            close()
+        }
+    }.also { _StateCountry = it }

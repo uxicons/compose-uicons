@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Loading: ImageVector? = null
+
+val Icons.Ts.Loading: ImageVector
+    get() = _Loading ?: UXIcon(name = "Loading") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12.5f, 4f)
+                horizontalLineToRelative(-1f)
+                lineTo(11.5f, 0f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(12.5f, 20f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(4f, 11.5f)
+                lineTo(0f, 11.5f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(24f, 11.5f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(22.62f, 17.6f)
+                lineToRelative(-3.46f, -2.01f)
+                lineToRelative(-0.5f, 0.86f)
+                lineToRelative(3.46f, 2.01f)
+                lineToRelative(0.5f, -0.86f)
+                close()
+                moveTo(18.46f, 1.88f)
+                lineToRelative(-0.86f, -0.5f)
+                lineToRelative(-2.01f, 3.46f)
+                lineToRelative(0.86f, 0.5f)
+                lineToRelative(2.01f, -3.46f)
+                close()
+                moveTo(22.63f, 6.39f)
+                lineToRelative(-0.5f, -0.86f)
+                lineToRelative(-3.46f, 2.01f)
+                lineToRelative(0.5f, 0.86f)
+                lineToRelative(3.46f, -2.01f)
+                close()
+                moveTo(18.48f, 22.12f)
+                lineToRelative(-2.01f, -3.46f)
+                lineToRelative(-0.86f, 0.5f)
+                lineToRelative(2.01f, 3.46f)
+                lineToRelative(0.86f, -0.5f)
+                close()
+                moveTo(5.35f, 16.45f)
+                lineToRelative(-0.5f, -0.86f)
+                lineToRelative(-3.46f, 2.01f)
+                lineToRelative(0.5f, 0.86f)
+                lineToRelative(3.46f, -2.01f)
+                close()
+                moveTo(8.43f, 4.83f)
+                lineToRelative(-2.01f, -3.46f)
+                lineToRelative(-0.86f, 0.5f)
+                lineToRelative(2.01f, 3.46f)
+                lineToRelative(0.86f, -0.5f)
+                close()
+                moveTo(5.34f, 7.54f)
+                lineToRelative(-3.46f, -2.01f)
+                lineToRelative(-0.5f, 0.86f)
+                lineToRelative(3.46f, 2.01f)
+                lineToRelative(0.5f, -0.86f)
+                close()
+                moveTo(8.41f, 19.16f)
+                lineToRelative(-0.86f, -0.5f)
+                lineToRelative(-2.02f, 3.46f)
+                lineToRelative(0.86f, 0.5f)
+                lineToRelative(2.02f, -3.46f)
+                close()
+            }
+        }.also { _Loading = it}

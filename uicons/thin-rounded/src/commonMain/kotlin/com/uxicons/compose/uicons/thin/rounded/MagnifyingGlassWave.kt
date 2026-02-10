@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MagnifyingGlassWave: ImageVector? = null
+
+val Icons.Tr.MagnifyingGlassWave: ImageVector
+    get() = _MagnifyingGlassWave ?: UXIcon(name = "MagnifyingGlassWave") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.85f, 23.15f)
+                lineToRelative(-6.45f, -6.45f)
+                curveToRelative(1.61f, -1.77f, 2.6f, -4.12f, 2.6f, -6.7f)
+                curveTo(20f, 4.49f, 15.51f, 0f, 10f, 0f)
+                reflectiveCurveTo(0f, 4.49f, 0f, 10f)
+                reflectiveCurveToRelative(4.49f, 10f, 10f, 10f)
+                curveToRelative(2.58f, 0f, 4.92f, -0.99f, 6.7f, -2.6f)
+                lineToRelative(6.45f, 6.45f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                close()
+                moveTo(1f, 10f)
+                curveTo(1f, 5.04f, 5.04f, 1f, 10f, 1f)
+                reflectiveCurveToRelative(9f, 4.04f, 9f, 9f)
+                reflectiveCurveToRelative(-4.04f, 9f, -9f, 9f)
+                reflectiveCurveTo(1f, 14.96f, 1f, 10f)
+                close()
+                moveTo(10f, 4f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.49f)
+                lineToRelative(-0.01f, 9.01f)
+                curveToRelative(0f, 0.4f, 0.16f, 0.78f, 0.44f, 1.06f)
+                curveToRelative(0.28f, 0.28f, 0.66f, 0.44f, 1.06f, 0.44f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                lineToRelative(0.01f, -9.01f)
+                curveToRelative(0f, -0.4f, -0.16f, -0.78f, -0.44f, -1.06f)
+                curveToRelative(-0.28f, -0.28f, -0.66f, -0.44f, -1.06f, -0.44f)
+                close()
+                moveTo(10.49f, 14.5f)
+                curveToRelative(0f, 0.41f, -0.57f, 0.64f, -0.85f, 0.35f)
+                curveToRelative(-0.09f, -0.09f, -0.15f, -0.22f, -0.15f, -0.35f)
+                lineToRelative(0.01f, -9.01f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.49f, 0.5f, -0.49f)
+                curveToRelative(0.14f, 0f, 0.26f, 0.05f, 0.35f, 0.15f)
+                curveToRelative(0.09f, 0.09f, 0.14f, 0.22f, 0.14f, 0.35f)
+                lineToRelative(-0.01f, 9.01f)
+                close()
+                moveTo(14.5f, 6f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                lineToRelative(-0.0f, 4.99f)
+                curveToRelative(0f, 0.4f, 0.16f, 0.78f, 0.44f, 1.06f)
+                curveToRelative(0.28f, 0.28f, 0.66f, 0.44f, 1.06f, 0.44f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                lineToRelative(0.0f, -4.99f)
+                curveToRelative(0f, -0.4f, -0.15f, -0.78f, -0.44f, -1.06f)
+                curveToRelative(-0.28f, -0.28f, -0.66f, -0.44f, -1.06f, -0.44f)
+                close()
+                moveTo(14.99f, 12.49f)
+                curveToRelative(0f, 0.41f, -0.56f, 0.65f, -0.85f, 0.35f)
+                curveToRelative(-0.1f, -0.1f, -0.15f, -0.22f, -0.15f, -0.35f)
+                lineToRelative(0.0f, -4.99f)
+                curveToRelative(0f, -0.28f, 0.23f, -0.5f, 0.5f, -0.5f)
+                curveToRelative(0.13f, 0f, 0.26f, 0.05f, 0.35f, 0.15f)
+                curveToRelative(0.1f, 0.1f, 0.15f, 0.22f, 0.15f, 0.35f)
+                lineToRelative(-0.0f, 4.99f)
+                close()
+                moveTo(5.5f, 7f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+                moveTo(6f, 11.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.23f, 0.5f, 0.5f)
+                verticalLineToRelative(3f)
+                close()
+            }
+        }.also { _MagnifyingGlassWave = it}

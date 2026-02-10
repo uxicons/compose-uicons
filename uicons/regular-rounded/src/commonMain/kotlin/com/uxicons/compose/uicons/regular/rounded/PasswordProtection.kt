@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PasswordProtection: ImageVector? = null
+
+val Icons.Rr.PasswordProtection: ImageVector
+    get() = _PasswordProtection ?: UXIcon(name = "PasswordProtection") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8.71f, 6.71f)
+                lineToRelative(-0.79f, 0.79f)
+                lineToRelative(0.79f, 0.79f)
+                curveToRelative(0.39f, 0.39f, 0.39f, 1.02f, 0f, 1.41f)
+                reflectiveCurveToRelative(-1.02f, 0.39f, -1.41f, 0f)
+                lineToRelative(-0.79f, -0.79f)
+                lineToRelative(-0.79f, 0.79f)
+                curveToRelative(-0.39f, 0.39f, -1.02f, 0.39f, -1.41f, 0f)
+                reflectiveCurveToRelative(-0.39f, -1.02f, 0f, -1.41f)
+                lineToRelative(0.79f, -0.79f)
+                lineToRelative(-0.79f, -0.79f)
+                curveToRelative(-0.39f, -0.39f, -0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(1.02f, -0.39f, 1.41f, 0f)
+                lineToRelative(0.79f, 0.79f)
+                lineToRelative(0.79f, -0.79f)
+                curveToRelative(0.39f, -0.39f, 1.02f, -0.39f, 1.41f, 0f)
+                reflectiveCurveToRelative(0.39f, 1.02f, 0f, 1.41f)
+                close()
+                moveTo(14.71f, 6.71f)
+                curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                reflectiveCurveToRelative(-1.02f, -0.39f, -1.41f, 0f)
+                lineToRelative(-0.79f, 0.79f)
+                lineToRelative(-0.79f, -0.79f)
+                curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                reflectiveCurveToRelative(-0.39f, 1.02f, 0f, 1.41f)
+                lineToRelative(0.79f, 0.79f)
+                lineToRelative(-0.79f, 0.79f)
+                curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0f, 1.41f)
+                reflectiveCurveToRelative(1.02f, 0.39f, 1.41f, 0f)
+                close()
+                moveTo(9f, 12f)
+                horizontalLineToRelative(-4.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                horizontalLineToRelative(-15f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(24f, 13.34f)
+                verticalLineToRelative(2.57f)
+                curveToRelative(0f, 3.42f, -1.95f, 5.5f, -5.62f, 7.01f)
+                curveToRelative(-0.27f, 0.11f, -0.57f, 0.1f, -0.83f, -0.03f)
+                curveToRelative(-3.62f, -1.85f, -5.49f, -4.19f, -5.55f, -6.96f)
+                verticalLineToRelative(-2.6f)
+                curveToRelative(0f, -1.39f, 0.89f, -2.62f, 2.21f, -3.06f)
+                lineToRelative(3.48f, -1.15f)
+                curveToRelative(0.2f, -0.07f, 0.43f, -0.07f, 0.63f, 0f)
+                lineToRelative(3.48f, 1.15f)
+                curveToRelative(1.32f, 0.44f, 2.21f, 1.67f, 2.21f, 3.06f)
+                close()
+                moveTo(22.0f, 13.34f)
+                curveToRelative(0f, -0.53f, -0.34f, -0.99f, -0.84f, -1.16f)
+                lineToRelative(-3.16f, -1.05f)
+                lineToRelative(-3.16f, 1.05f)
+                curveToRelative(-0.5f, 0.17f, -0.84f, 0.63f, -0.84f, 1.16f)
+                verticalLineToRelative(2.57f)
+                curveToRelative(0.04f, 1.89f, 1.36f, 3.53f, 4.04f, 4.98f)
+                curveToRelative(2.62f, -1.18f, 3.91f, -2.82f, 3.96f, -5.0f)
+                verticalLineToRelative(-2.56f)
+                close()
+            }
+        }.also { _PasswordProtection = it}

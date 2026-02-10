@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GrinStars: ImageVector? = null
+
+val Icons.Sc.GrinStars: ImageVector
+    get() = _GrinStars ?: UXIcon(name = "GrinStars") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(11.99f, 1f)
+                curveTo(4.82f, 1f, 1f, 5.11f, 1f, 12.02f)
+                curveToRelative(0f, 6.86f, 3.85f, 10.98f, 11.01f, 10.98f)
+                reflectiveCurveToRelative(10.86f, -3.74f, 10.99f, -11.02f)
+                curveToRelative(-0.12f, -7.04f, -4.03f, -10.98f, -11.01f, -10.98f)
+                close()
+                moveTo(6.19f, 11.57f)
+                curveToRelative(-0.18f, -0.21f, -0.25f, -0.48f, -0.2f, -0.76f)
+                lineToRelative(0.07f, -0.4f)
+                curveToRelative(0.03f, -0.17f, -0.03f, -0.35f, -0.15f, -0.47f)
+                lineToRelative(-0.29f, -0.28f)
+                curveToRelative(-0.26f, -0.25f, -0.35f, -0.62f, -0.24f, -0.96f)
+                curveToRelative(0.11f, -0.34f, 0.4f, -0.58f, 0.75f, -0.64f)
+                lineToRelative(0.4f, -0.06f)
+                curveToRelative(0.17f, -0.03f, 0.33f, -0.14f, 0.4f, -0.29f)
+                lineToRelative(0.18f, -0.37f)
+                curveToRelative(0.32f, -0.65f, 1.36f, -0.64f, 1.68f, 0.0f)
+                lineToRelative(0.18f, 0.36f)
+                curveToRelative(0.08f, 0.16f, 0.23f, 0.27f, 0.4f, 0.29f)
+                lineToRelative(0.4f, 0.06f)
+                curveToRelative(0.35f, 0.05f, 0.64f, 0.29f, 0.76f, 0.64f)
+                curveToRelative(0.11f, 0.34f, 0.02f, 0.71f, -0.23f, 0.96f)
+                lineToRelative(-0.29f, 0.29f)
+                curveToRelative(-0.13f, 0.12f, -0.18f, 0.3f, -0.15f, 0.47f)
+                lineToRelative(0.07f, 0.4f)
+                curveToRelative(0.05f, 0.27f, -0.03f, 0.55f, -0.2f, 0.76f)
+                curveToRelative(-0.18f, 0.21f, -0.44f, 0.34f, -0.72f, 0.34f)
+                curveToRelative(-0.15f, 0f, -0.3f, -0.04f, -0.44f, -0.11f)
+                lineToRelative(-0.36f, -0.19f)
+                curveToRelative(-0.15f, -0.08f, -0.35f, -0.08f, -0.5f, 0f)
+                lineToRelative(-0.36f, 0.19f)
+                curveToRelative(-0.4f, 0.21f, -0.88f, 0.1f, -1.15f, -0.23f)
+                close()
+                moveTo(16.15f, 17.55f)
+                curveToRelative(-1.3f, 1.07f, -2.73f, 1.65f, -4.15f, 1.65f)
+                curveToRelative(-1.42f, -0.01f, -2.85f, -0.58f, -4.15f, -1.65f)
+                curveToRelative(-0.21f, -0.17f, -0.56f, -0.58f, -0.51f, -1.32f)
+                curveToRelative(0.03f, -0.43f, 0.26f, -0.82f, 0.64f, -1.07f)
+                curveToRelative(0.4f, -0.26f, 0.89f, -0.31f, 1.35f, -0.14f)
+                curveToRelative(1.05f, 0.39f, 1.91f, 0.6f, 2.69f, 0.65f)
+                curveToRelative(0.75f, -0.05f, 1.47f, -0.21f, 2.65f, -0.65f)
+                curveToRelative(0.71f, -0.26f, 1.1f, -0.02f, 1.35f, 0.14f)
+                curveToRelative(0.38f, 0.24f, 0.61f, 0.64f, 0.64f, 1.07f)
+                curveToRelative(0.05f, 0.74f, -0.3f, 1.14f, -0.51f, 1.32f)
+                close()
+                moveTo(18.39f, 9.65f)
+                lineToRelative(-0.29f, 0.29f)
+                curveToRelative(-0.13f, 0.12f, -0.18f, 0.3f, -0.15f, 0.47f)
+                lineToRelative(0.07f, 0.4f)
+                curveToRelative(0.05f, 0.27f, -0.03f, 0.55f, -0.21f, 0.76f)
+                curveToRelative(-0.18f, 0.21f, -0.44f, 0.34f, -0.72f, 0.34f)
+                curveToRelative(-0.15f, 0f, -0.3f, -0.04f, -0.43f, -0.11f)
+                lineToRelative(-0.36f, -0.19f)
+                curveToRelative(-0.15f, -0.08f, -0.35f, -0.08f, -0.5f, 0f)
+                lineToRelative(-0.36f, 0.19f)
+                curveToRelative(-0.38f, 0.2f, -0.87f, 0.1f, -1.15f, -0.23f)
+                curveToRelative(-0.18f, -0.21f, -0.25f, -0.49f, -0.2f, -0.76f)
+                lineToRelative(0.07f, -0.4f)
+                curveToRelative(0.03f, -0.17f, -0.03f, -0.35f, -0.15f, -0.47f)
+                lineToRelative(-0.29f, -0.28f)
+                curveToRelative(-0.26f, -0.25f, -0.35f, -0.62f, -0.24f, -0.96f)
+                curveToRelative(0.11f, -0.34f, 0.4f, -0.59f, 0.76f, -0.64f)
+                lineToRelative(0.4f, -0.06f)
+                curveToRelative(0.17f, -0.03f, 0.32f, -0.13f, 0.4f, -0.29f)
+                lineToRelative(0.18f, -0.37f)
+                curveToRelative(0.32f, -0.65f, 1.36f, -0.64f, 1.68f, 0.0f)
+                lineToRelative(0.18f, 0.36f)
+                curveToRelative(0.08f, 0.16f, 0.23f, 0.27f, 0.4f, 0.29f)
+                lineToRelative(0.41f, 0.06f)
+                curveToRelative(0.35f, 0.05f, 0.64f, 0.29f, 0.75f, 0.64f)
+                curveToRelative(0.11f, 0.34f, 0.02f, 0.71f, -0.23f, 0.96f)
+                close()
+            }
+        }.also { _GrinStars = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FlatbreadStuffed: ImageVector? = null
+
+val Icons.Ts.FlatbreadStuffed: ImageVector
+    get() = _FlatbreadStuffed ?: UXIcon(name = "FlatbreadStuffed") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.5f, 3.52f)
+                lineToRelative(-0.35f, -0.35f)
+                lineToRelative(-0.76f, 0.76f)
+                curveToRelative(-0.56f, -1.08f, -1.2f, -1.99f, -1.91f, -2.7f)
+                curveToRelative(-1.48f, -1.49f, -3.97f, -1.64f, -5.64f, -0.22f)
+                curveToRelative(-1.36f, -0.7f, -3.04f, -0.45f, -4.14f, 0.65f)
+                curveToRelative(-0.28f, 0.28f, -0.5f, 0.6f, -0.67f, 0.96f)
+                curveToRelative(-1.19f, -0.08f, -2.37f, 0.36f, -3.21f, 1.21f)
+                curveToRelative(-0.84f, 0.85f, -1.28f, 2.03f, -1.2f, 3.22f)
+                curveToRelative(-0.36f, 0.17f, -0.68f, 0.4f, -0.96f, 0.68f)
+                curveToRelative(-1.09f, 1.1f, -1.34f, 2.78f, -0.65f, 4.14f)
+                curveToRelative(-1.4f, 1.64f, -1.32f, 4.12f, 0.22f, 5.67f)
+                curveToRelative(0.71f, 0.71f, 1.61f, 1.36f, 2.69f, 1.92f)
+                lineToRelative(-0.67f, 0.68f)
+                lineToRelative(0.35f, 0.35f)
+                curveToRelative(2.26f, 2.27f, 5.26f, 3.52f, 8.45f, 3.52f)
+                reflectiveCurveToRelative(6.2f, -1.25f, 8.46f, -3.52f)
+                curveToRelative(4.66f, -4.68f, 4.66f, -12.29f, 0f, -16.97f)
+                close()
+                moveTo(1.93f, 16.83f)
+                curveToRelative(-1.23f, -1.24f, -1.23f, -3.26f, -0.03f, -4.47f)
+                lineToRelative(0.36f, -0.35f)
+                lineToRelative(-0.23f, -0.34f)
+                curveToRelative(-0.67f, -1.01f, -0.54f, -2.37f, 0.32f, -3.23f)
+                curveToRelative(0.26f, -0.26f, 0.58f, -0.46f, 0.95f, -0.59f)
+                lineToRelative(0.39f, -0.14f)
+                lineToRelative(-0.07f, -0.41f)
+                curveToRelative(-0.16f, -1.01f, 0.17f, -2.04f, 0.88f, -2.76f)
+                curveToRelative(0.71f, -0.71f, 1.74f, -1.04f, 2.74f, -0.88f)
+                lineToRelative(0.41f, 0.07f)
+                lineToRelative(0.14f, -0.4f)
+                curveToRelative(0.13f, -0.37f, 0.33f, -0.7f, 0.59f, -0.96f)
+                curveToRelative(0.86f, -0.86f, 2.21f, -1.0f, 3.22f, -0.32f)
+                lineToRelative(0.38f, 0.21f)
+                lineToRelative(0.29f, -0.32f)
+                curveToRelative(1.19f, -1.2f, 3.28f, -1.2f, 4.47f, 0f)
+                curveToRelative(0.7f, 0.7f, 1.33f, 1.62f, 1.88f, 2.74f)
+                lineToRelative(-1.64f, 1.64f)
+                curveToRelative(-0.99f, -0.85f, -2.23f, -1.31f, -3.54f, -1.31f)
+                curveToRelative(-1.46f, 0f, -2.83f, 0.57f, -3.86f, 1.6f)
+                curveToRelative(-1.2f, 1.2f, -1.72f, 2.83f, -1.57f, 4.41f)
+                curveToRelative(-2.28f, -0.13f, -4.13f, 0.59f, -4.21f, 0.62f)
+                lineToRelative(-0.4f, 0.16f)
+                lineToRelative(0.1f, 0.42f)
+                curveToRelative(0.02f, 0.1f, 0.59f, 2.35f, 3.0f, 4.62f)
+                lineToRelative(-1.86f, 1.86f)
+                curveToRelative(-1.11f, -0.55f, -2.03f, -1.18f, -2.73f, -1.88f)
+                close()
+                moveTo(7.22f, 16.14f)
+                curveToRelative(-1.59f, -1.5f, -2.31f, -3.0f, -2.58f, -3.72f)
+                curveToRelative(0.68f, -0.2f, 2.06f, -0.52f, 3.59f, -0.39f)
+                curveToRelative(0.21f, 0.72f, 0.57f, 1.41f, 1.08f, 2.01f)
+                lineToRelative(-2.09f, 2.1f)
+                close()
+                moveTo(10.02f, 13.33f)
+                curveToRelative(-1.45f, -1.76f, -1.35f, -4.37f, 0.29f, -6.01f)
+                curveToRelative(0.84f, -0.85f, 1.96f, -1.31f, 3.15f, -1.31f)
+                curveToRelative(1.05f, 0f, 2.04f, 0.36f, 2.84f, 1.02f)
+                lineToRelative(-6.28f, 6.3f)
+                close()
+                moveTo(19.79f, 19.78f)
+                curveToRelative(-2.07f, 2.08f, -4.82f, 3.22f, -7.75f, 3.22f)
+                curveToRelative(-2.76f, 0f, -5.36f, -1.02f, -7.39f, -2.88f)
+                lineToRelative(15.48f, -15.54f)
+                curveToRelative(3.92f, 4.31f, 3.81f, 11.02f, -0.35f, 15.2f)
+                close()
+                moveTo(18.44f, 12.17f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(-6.27f, 6.27f)
+                lineToRelative(-0.71f, -0.71f)
+                lineToRelative(6.27f, -6.27f)
+                close()
+            }
+        }.also { _FlatbreadStuffed = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserShakespeare: ImageVector? = null
+
+val Icons.Rs.UserShakespeare: ImageVector
+    get() = _UserShakespeare ?: UXIcon(name = "UserShakespeare") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(6.2f, 12.0f)
+                horizontalLineToRelative(0.08f)
+                curveToRelative(1.29f, -0.03f, 2.22f, -0.34f, 2.89f, -0.71f)
+                curveToRelative(0.84f, 0.45f, 1.81f, 0.71f, 2.83f, 0.71f)
+                reflectiveCurveToRelative(1.99f, -0.26f, 2.83f, -0.71f)
+                curveToRelative(0.66f, 0.37f, 1.6f, 0.68f, 2.89f, 0.71f)
+                horizontalLineToRelative(0.08f)
+                curveToRelative(1.53f, 0f, 2.84f, -1.01f, 3.13f, -2.44f)
+                curveToRelative(0.28f, -1.34f, -0.33f, -2.68f, -1.52f, -3.34f)
+                curveToRelative(-0.41f, -0.23f, -1.47f, -1.12f, -1.59f, -1.66f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-0.65f, -2.61f, -3.01f, -4.56f, -5.82f, -4.56f)
+                reflectiveCurveToRelative(-5.17f, 1.95f, -5.82f, 4.56f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-0.12f, 0.54f, -1.18f, 1.43f, -1.59f, 1.66f)
+                curveToRelative(-1.18f, 0.66f, -1.79f, 2.0f, -1.52f, 3.34f)
+                curveToRelative(0.29f, 1.42f, 1.6f, 2.44f, 3.13f, 2.44f)
+                close()
+                moveTo(18.97f, 9.16f)
+                curveToRelative(-0.1f, 0.49f, -0.62f, 0.84f, -1.21f, 0.84f)
+                curveToRelative(-0.46f, -0.01f, -0.85f, -0.07f, -1.17f, -0.15f)
+                curveToRelative(0.56f, -0.67f, 0.97f, -1.46f, 1.2f, -2.33f)
+                curveToRelative(0.36f, 0.28f, 0.64f, 0.45f, 0.65f, 0.45f)
+                curveToRelative(0.32f, 0.18f, 0.65f, 0.6f, 0.53f, 1.19f)
+                close()
+                moveTo(12f, 2f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                reflectiveCurveToRelative(-1.79f, 4f, -4f, 4f)
+                reflectiveCurveToRelative(-4f, -1.79f, -4f, -4f)
+                reflectiveCurveToRelative(1.79f, -4f, 4f, -4f)
+                close()
+                moveTo(5.56f, 7.97f)
+                curveToRelative(0.01f, -0.0f, 0.28f, -0.17f, 0.65f, -0.45f)
+                curveToRelative(0.23f, 0.87f, 0.64f, 1.66f, 1.2f, 2.33f)
+                curveToRelative(-0.32f, 0.08f, -0.71f, 0.14f, -1.17f, 0.15f)
+                horizontalLineToRelative(-0.03f)
+                curveToRelative(-0.57f, 0f, -1.08f, -0.36f, -1.18f, -0.84f)
+                curveToRelative(-0.12f, -0.59f, 0.21f, -1.01f, 0.53f, -1.19f)
+                close()
+                moveTo(16.0f, 14f)
+                horizontalLineToRelative(-8.0f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.3f, 0.84f, -2.4f, 2f, -2.82f)
+                verticalLineToRelative(5.87f)
+                lineToRelative(5f, -3.75f)
+                lineToRelative(5f, 3.75f)
+                verticalLineToRelative(-5.87f)
+                curveToRelative(1.16f, 0.41f, 2f, 1.51f, 2f, 2.82f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(9.0f, 16f)
+                horizontalLineToRelative(2.73f)
+                lineToRelative(-2.73f, 2.05f)
+                close()
+                moveTo(12.26f, 16f)
+                horizontalLineToRelative(2.73f)
+                verticalLineToRelative(2.05f)
+                close()
+                moveTo(12.0f, 20.8f)
+                lineTo(13.0f, 21.55f)
+                verticalLineToRelative(2.45f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.45f)
+                close()
+            }
+        }.also { _UserShakespeare = it}

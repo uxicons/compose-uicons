@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BrowserLockAlert: ImageVector? = null
+
+val Icons.Br.BrowserLockAlert: ImageVector
+    get() = _BrowserLockAlert ?: UXIcon(name = "BrowserLockAlert") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.5f, 0f)
+            horizontalLineToRelative(-13f)
+            curveToRelative(-3.03f, 0f, -5.5f, 2.47f, -5.5f, 5.5f)
+            verticalLineToRelative(14f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-12.5f)
+            horizontalLineToRelative(18f)
+            verticalLineToRelative(6.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-8f)
+            curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+            close()
+            moveTo(4.5f, 5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            close()
+            moveTo(9.5f, 5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            close()
+            moveTo(19.31f, 14.25f)
+            curveToRelative(-0.59f, -1.0f, -2.04f, -1.0f, -2.62f, 0f)
+            lineToRelative(-4.48f, 7.46f)
+            curveToRelative(-0.59f, 1.01f, 0.14f, 2.28f, 1.31f, 2.28f)
+            horizontalLineToRelative(8.96f)
+            curveToRelative(1.17f, 0f, 1.9f, -1.27f, 1.31f, -2.28f)
+            close()
+            moveTo(18f, 23f)
+            curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+            reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+            close()
+            moveTo(19f, 19f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+            verticalLineToRelative(-1.5f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            close()
+            moveTo(13.5f, 13.42f)
+            verticalLineToRelative(-1.82f)
+            curveToRelative(0f, -1.67f, -1.13f, -3.19f, -2.77f, -3.52f)
+            curveToRelative(-2.25f, -0.46f, -4.24f, 1.25f, -4.24f, 3.42f)
+            verticalLineToRelative(1.92f)
+            curveToRelative(-0.89f, 0.52f, -1.5f, 1.48f, -1.5f, 2.58f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+            horizontalLineToRelative(2.34f)
+            curveToRelative(0.05f, -0.1f, 0.09f, -0.2f, 0.14f, -0.29f)
+            lineToRelative(3.91f, -6.51f)
+            curveToRelative(-0.24f, -0.32f, -0.54f, -0.58f, -0.89f, -0.79f)
+            close()
+            moveTo(9f, 11.5f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(1.5f)
+            horizontalLineToRelative(-2f)
+            close()
+            moveTo(10f, 18.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+            close()
+        }
+    }.also { _BrowserLockAlert = it }

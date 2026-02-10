@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SignalAltSlash: ImageVector? = null
+
+val Icons.Ts.SignalAltSlash: ImageVector
+    get() = _SignalAltSlash ?: UXIcon(name = "SignalAltSlash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10f, 13.55f)
+                lineToRelative(1f, 1.0f)
+                verticalLineToRelative(9.45f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-11.5f)
+                curveToRelative(0f, -0.53f, 0.27f, -0.99f, 0.68f, -1.26f)
+                lineToRelative(0.76f, 0.76f)
+                curveToRelative(-0.25f, 0.03f, -0.45f, 0.24f, -0.45f, 0.5f)
+                verticalLineToRelative(10.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-9.45f)
+                close()
+                moveTo(16f, 23f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5.45f)
+                lineToRelative(-1f, -1.0f)
+                verticalLineToRelative(7.45f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-3.46f)
+                lineToRelative(-1f, -1.0f)
+                verticalLineToRelative(3.46f)
+                close()
+                moveTo(24.03f, 23.32f)
+                lineToRelative(-0.71f, 0.71f)
+                lineTo(-0.02f, 0.73f)
+                lineTo(0.69f, 0.02f)
+                lineToRelative(12.31f, 12.29f)
+                verticalLineToRelative(-5.81f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(9.8f)
+                lineToRelative(2f, 2.0f)
+                lineTo(19f, 1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(20.79f)
+                lineToRelative(1.03f, 1.03f)
+                close()
+                moveTo(14f, 13.31f)
+                lineToRelative(2f, 2.0f)
+                lineTo(16f, 6.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(6.81f)
+                close()
+                moveTo(22f, 1.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(17.8f)
+                lineToRelative(2f, 2.0f)
+                lineTo(22f, 1.5f)
+                close()
+                moveTo(5f, 18.5f)
+                verticalLineToRelative(5.5f)
+                lineTo(1f, 24f)
+                verticalLineToRelative(-5.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(4f, 18.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(4.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-4.5f)
+                close()
+            }
+        }.also { _SignalAltSlash = it}

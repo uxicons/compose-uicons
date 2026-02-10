@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FlagCheckered: ImageVector? = null
+
+val Icons.Rc.FlagCheckered: ImageVector
+    get() = _FlagCheckered ?: UXIcon(name = "FlagCheckered") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.16f, 3.32f)
+                lineToRelative(-0.13f, -0.58f)
+                curveToRelative(-0.07f, -0.3f, -0.27f, -0.55f, -0.54f, -0.68f)
+                curveToRelative(-0.18f, -0.09f, -4.49f, -2.12f, -8.93f, -0.33f)
+                curveToRelative(-3.32f, 1.34f, -7.28f, 0.28f, -7.32f, 0.27f)
+                curveToRelative(-0.26f, -0.07f, -0.54f, -0.04f, -0.77f, 0.1f)
+                curveToRelative(-0.23f, 0.14f, -0.4f, 0.36f, -0.47f, 0.62f)
+                curveToRelative(-0.44f, 1.77f, -0.88f, 3.82f, -0.99f, 7.28f)
+                curveToRelative(-0.22f, 6.79f, 1.99f, 12.17f, 2.09f, 12.39f)
+                curveToRelative(0.16f, 0.38f, 0.53f, 0.61f, 0.92f, 0.61f)
+                curveToRelative(0.13f, 0f, 0.26f, -0.03f, 0.39f, -0.08f)
+                curveToRelative(0.51f, -0.21f, 0.75f, -0.8f, 0.53f, -1.31f)
+                curveToRelative(-0.01f, -0.03f, -0.93f, -2.24f, -1.49f, -5.55f)
+                curveToRelative(1.83f, 0.28f, 5.16f, 0.56f, 7.85f, -0.49f)
+                curveToRelative(3.63f, -1.42f, 7.31f, 0.18f, 7.34f, 0.2f)
+                curveToRelative(0.28f, 0.12f, 0.59f, 0.12f, 0.86f, -0.02f)
+                curveToRelative(0.27f, -0.14f, 0.46f, -0.39f, 0.53f, -0.69f)
+                curveToRelative(0.06f, -0.29f, 0.14f, -0.61f, 0.22f, -0.96f)
+                curveToRelative(0.34f, -1.44f, 0.75f, -3.39f, 0.75f, -5.11f)
+                curveToRelative(0f, -2.28f, -0.5f, -4.27f, -0.84f, -5.68f)
+                close()
+                moveTo(19.22f, 3.78f)
+                curveToRelative(0.23f, 0.97f, 0.54f, 2.29f, 0.69f, 3.73f)
+                curveToRelative(-0.64f, -0.19f, -1.47f, -0.39f, -2.43f, -0.47f)
+                curveToRelative(-0.07f, -1.47f, -0.27f, -2.9f, -0.44f, -3.91f)
+                curveToRelative(0.95f, 0.15f, 1.72f, 0.4f, 2.16f, 0.56f)
+                close()
+                moveTo(13.02f, 13.27f)
+                verticalLineToRelative(-3.86f)
+                curveToRelative(0.84f, -0.31f, 1.6f, -0.38f, 2.46f, -0.4f)
+                curveToRelative(-0.09f, 1.6f, -0.35f, 3.14f, -0.52f, 3.99f)
+                curveToRelative(-0.62f, 0.03f, -1.28f, 0.12f, -1.95f, 0.27f)
+                close()
+                moveTo(9.0f, 14.27f)
+                curveToRelative(-0.16f, -0.84f, -0.39f, -2.29f, -0.47f, -3.81f)
+                curveToRelative(0.83f, -0.06f, 1.67f, -0.2f, 2.48f, -0.4f)
+                verticalLineToRelative(3.84f)
+                curveToRelative(-0.65f, 0.19f, -1.33f, 0.31f, -2.02f, 0.37f)
+                close()
+                moveTo(11.02f, 4.01f)
+                verticalLineToRelative(3.98f)
+                curveToRelative(-0.8f, 0.23f, -1.64f, 0.39f, -2.48f, 0.46f)
+                curveToRelative(0.09f, -1.62f, 0.35f, -3.22f, 0.52f, -4.1f)
+                curveToRelative(0.64f, -0.06f, 1.3f, -0.17f, 1.96f, -0.34f)
+                close()
+                moveTo(14.99f, 3.02f)
+                curveToRelative(0.17f, 0.88f, 0.41f, 2.42f, 0.49f, 3.99f)
+                curveToRelative(-0.83f, 0.02f, -1.61f, 0.07f, -2.46f, 0.3f)
+                verticalLineToRelative(-3.97f)
+                curveToRelative(0.67f, -0.2f, 1.34f, -0.3f, 1.97f, -0.33f)
+                close()
+                moveTo(4.72f, 4.15f)
+                curveToRelative(0.58f, 0.1f, 1.38f, 0.21f, 2.29f, 0.25f)
+                curveToRelative(-0.18f, 1.0f, -0.4f, 2.52f, -0.48f, 4.07f)
+                curveToRelative(-1.02f, -0.07f, -1.88f, -0.23f, -2.4f, -0.34f)
+                curveToRelative(0.13f, -1.64f, 0.35f, -2.89f, 0.58f, -3.98f)
+                close()
+                moveTo(4.17f, 13.99f)
+                curveToRelative(-0.12f, -1.2f, -0.18f, -2.49f, -0.14f, -3.84f)
+                curveToRelative(0.62f, 0.12f, 1.5f, 0.27f, 2.51f, 0.33f)
+                curveToRelative(0.07f, 1.46f, 0.27f, 2.86f, 0.44f, 3.84f)
+                curveToRelative(-1.17f, -0.05f, -2.19f, -0.21f, -2.81f, -0.32f)
+                close()
+                moveTo(19.33f, 13.54f)
+                curveToRelative(-0.6f, -0.18f, -1.41f, -0.37f, -2.35f, -0.48f)
+                curveToRelative(0.18f, -0.96f, 0.41f, -2.45f, 0.49f, -4.01f)
+                curveToRelative(1.13f, 0.12f, 2.03f, 0.41f, 2.51f, 0.6f)
+                curveToRelative(-0.07f, 1.31f, -0.39f, 2.72f, -0.66f, 3.89f)
+                close()
+            }
+        }.also { _FlagCheckered = it}

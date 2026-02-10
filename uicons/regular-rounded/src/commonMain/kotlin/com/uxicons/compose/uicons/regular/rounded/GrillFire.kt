@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GrillFire: ImageVector? = null
+
+val Icons.Rr.GrillFire: ImageVector
+    get() = _GrillFire ?: UXIcon(name = "GrillFire") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11f, 3f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(16f, 4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(8f, 4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(23.12f, 20.92f)
+                curveToRelative(-1.15f, 1.9f, -3.1f, 3.04f, -5.16f, 3.04f)
+                curveToRelative(-3.28f, -0.0f, -5.98f, -2.71f, -5.97f, -6.0f)
+                curveToRelative(0f, -1.2f, 0.74f, -3.27f, 1.25f, -4.17f)
+                curveToRelative(0.61f, -1.19f, 2.21f, -1.06f, 2.68f, 0.19f)
+                curveToRelative(0.08f, 0.2f, 0.15f, 0.43f, 0.25f, 0.68f)
+                curveToRelative(0.35f, -1.19f, 0.39f, -2.49f, 0.91f, -3.67f)
+                curveToRelative(0.3f, -0.7f, 0.8f, -0.9f, 1.07f, -0.96f)
+                curveToRelative(0.28f, -0.06f, 0.83f, -0.09f, 1.41f, 0.43f)
+                curveToRelative(4.27f, 3.78f, 5.47f, 7.3f, 3.56f, 10.46f)
+                close()
+                moveTo(18.71f, 12.39f)
+                curveToRelative(-0.11f, 0.41f, -0.19f, 0.86f, -0.27f, 1.29f)
+                curveToRelative(-0.25f, 1.39f, -0.6f, 3.29f, -2.42f, 3.29f)
+                curveToRelative(-0.76f, 0f, -1.22f, -0.54f, -1.51f, -1.11f)
+                curveToRelative(-0.28f, 0.77f, -0.52f, 1.64f, -0.52f, 2.11f)
+                curveToRelative(0f, 1.53f, 0.87f, 2.86f, 2.14f, 3.53f)
+                curveToRelative(-0.26f, -0.74f, -0.05f, -1.62f, 0.53f, -2.2f)
+                lineToRelative(0.77f, -1.1f)
+                curveToRelative(0.31f, -0.31f, 0.81f, -0.31f, 1.11f, 0f)
+                lineToRelative(0.77f, 1.1f)
+                curveToRelative(0.56f, 0.56f, 0.78f, 1.39f, 0.57f, 2.1f)
+                curveToRelative(0.6f, -0.36f, 1.13f, -0.87f, 1.52f, -1.51f)
+                curveToRelative(1.31f, -2.17f, 0.46f, -4.56f, -2.7f, -7.5f)
+                close()
+                moveTo(9f, 16f)
+                horizontalLineToRelative(-1.49f)
+                curveToRelative(-0.8f, -0.39f, -4.23f, -2.25f, -5.44f, -6.06f)
+                curveToRelative(-0.33f, -0.92f, 0.47f, -1.97f, 1.44f, -1.94f)
+                horizontalLineToRelative(16.98f)
+                curveToRelative(0.91f, -0.03f, 1.69f, 0.9f, 1.48f, 1.79f)
+                curveToRelative(-0.11f, 0.54f, 0.23f, 1.07f, 0.77f, 1.19f)
+                curveToRelative(0.54f, 0.12f, 1.07f, -0.23f, 1.19f, -0.77f)
+                curveToRelative(0.5f, -2.09f, -1.29f, -4.27f, -3.44f, -4.21f)
+                horizontalLineToRelative(-16.98f)
+                curveToRelative(-2.29f, -0.07f, -4.11f, 2.38f, -3.35f, 4.54f)
+                curveToRelative(1.27f, 3.99f, 4.42f, 6.14f, 5.92f, 6.97f)
+                lineToRelative(-0.75f, 1.5f)
+                curveToRelative(-1.3f, 0.09f, -2.33f, 1.16f, -2.33f, 2.48f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                curveToRelative(0f, -0.71f, -0.3f, -1.34f, -0.77f, -1.8f)
+                lineToRelative(0.85f, -1.7f)
+                horizontalLineToRelative(0.92f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+            }
+        }.also { _GrillFire = it}

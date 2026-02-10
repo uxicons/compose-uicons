@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _YogaBallMat: ImageVector? = null
+
+val Icons.Ts.YogaBallMat: ImageVector
+    get() = _YogaBallMat ?: UXIcon(name = "YogaBallMat") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3.55f, 13.08f)
+                curveToRelative(-0.35f, -0.96f, -0.55f, -2.0f, -0.55f, -3.08f)
+                curveToRelative(0f, -2.18f, 0.78f, -4.17f, 2.07f, -5.73f)
+                curveToRelative(-0.04f, 0.4f, -0.07f, 0.8f, -0.07f, 1.21f)
+                curveToRelative(0f, 2.88f, 1.07f, 5.5f, 2.82f, 7.53f)
+                horizontalLineToRelative(1.37f)
+                curveToRelative(-1.96f, -1.91f, -3.18f, -4.58f, -3.18f, -7.53f)
+                curveToRelative(0f, -0.8f, 0.09f, -1.59f, 0.27f, -2.36f)
+                lineToRelative(-0.04f, -0.01f)
+                curveToRelative(0.95f, -0.8f, 2.08f, -1.4f, 3.3f, -1.75f)
+                curveToRelative(-0.35f, 0.95f, -0.53f, 1.94f, -0.53f, 2.97f)
+                curveToRelative(0f, 4.79f, 3.9f, 8.68f, 8.68f, 8.68f)
+                curveToRelative(1.02f, 0f, 2.01f, -0.18f, 2.96f, -0.53f)
+                curveToRelative(-0.06f, 0.2f, -0.12f, 0.41f, -0.19f, 0.6f)
+                curveToRelative(0.34f, 0.05f, 0.67f, 0.12f, 0.98f, 0.22f)
+                curveToRelative(0.36f, -1.03f, 0.57f, -2.14f, 0.57f, -3.29f)
+                curveToRelative(0f, -5.52f, -4.49f, -10.0f, -10f, -10.0f)
+                reflectiveCurveToRelative(-10f, 4.49f, -10f, 10f)
+                curveToRelative(0f, 1.16f, 0.21f, 2.26f, 0.57f, 3.29f)
+                curveToRelative(0.32f, -0.1f, 0.65f, -0.17f, 0.98f, -0.22f)
+                close()
+                moveTo(14.37f, 1.33f)
+                curveToRelative(3.06f, 0.84f, 5.46f, 3.24f, 6.3f, 6.3f)
+                curveToRelative(-0.58f, 0.24f, -1.2f, 0.37f, -1.84f, 0.37f)
+                curveToRelative(-2.67f, 0f, -4.84f, -2.17f, -4.84f, -4.84f)
+                curveToRelative(0f, -0.64f, 0.13f, -1.25f, 0.37f, -1.84f)
+                close()
+                moveTo(10.77f, 1.1f)
+                curveToRelative(0.4f, -0.06f, 0.81f, -0.1f, 1.23f, -0.1f)
+                curveToRelative(0.47f, 0f, 0.93f, 0.05f, 1.38f, 0.12f)
+                curveToRelative(-0.24f, 0.65f, -0.38f, 1.34f, -0.38f, 2.05f)
+                curveToRelative(0f, 3.22f, 2.62f, 5.84f, 5.84f, 5.84f)
+                curveToRelative(0.71f, 0f, 1.39f, -0.13f, 2.05f, -0.38f)
+                curveToRelative(0.07f, 0.45f, 0.12f, 0.91f, 0.12f, 1.38f)
+                curveToRelative(0f, 0.43f, -0.04f, 0.86f, -0.1f, 1.27f)
+                curveToRelative(-1.02f, 0.52f, -2.23f, 0.72f, -3.21f, 0.72f)
+                curveToRelative(-4.24f, 0f, -7.68f, -3.45f, -7.68f, -7.68f)
+                curveToRelative(0f, -1.01f, 0.28f, -2.13f, 0.77f, -3.22f)
+                close()
+                moveTo(19.5f, 15f)
+                horizontalLineToRelative(-15f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                reflectiveCurveToRelative(2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                reflectiveCurveToRelative(-2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(4.5f, 23f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(1.57f, -3.5f, 3.5f, -3.5f)
+                reflectiveCurveToRelative(3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(11.5f, 23f)
+                horizontalLineToRelative(-4.21f)
+                curveToRelative(1.03f, -0.82f, 1.71f, -2.08f, 1.71f, -3.5f)
+                reflectiveCurveToRelative(-0.68f, -2.67f, -1.71f, -3.5f)
+                horizontalLineToRelative(4.21f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(19.5f, 23f)
+                horizontalLineToRelative(-5.21f)
+                curveToRelative(1.03f, -0.82f, 1.71f, -2.08f, 1.71f, -3.5f)
+                reflectiveCurveToRelative(-0.68f, -2.67f, -1.71f, -3.5f)
+                horizontalLineToRelative(5.21f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+            }
+        }.also { _YogaBallMat = it}

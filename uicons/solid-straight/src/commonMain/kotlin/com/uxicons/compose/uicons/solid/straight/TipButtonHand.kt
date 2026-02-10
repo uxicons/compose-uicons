@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TipButtonHand: ImageVector? = null
+
+val Icons.Ss.TipButtonHand: ImageVector
+    get() = _TipButtonHand ?: UXIcon(name = "TipButtonHand") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(14.4f, 5.25f)
+                curveToRelative(0f, 0.36f, -0.29f, 0.65f, -0.65f, 0.65f)
+                horizontalLineToRelative(-0.65f)
+                verticalLineToRelative(-1.3f)
+                horizontalLineToRelative(0.65f)
+                curveToRelative(0.36f, 0f, 0.65f, 0.29f, 0.65f, 0.65f)
+                close()
+                moveTo(11f, 12.11f)
+                curveToRelative(0f, -1.0f, -0.68f, -1.92f, -1.66f, -2.08f)
+                curveToRelative(-1.25f, -0.2f, -2.34f, 0.76f, -2.34f, 1.97f)
+                verticalLineToRelative(8.82f)
+                curveToRelative(-1.08f, -0.89f, -2.11f, -1.75f, -2.15f, -1.78f)
+                curveToRelative(-0.92f, -0.86f, -2.37f, -0.81f, -3.23f, 0.11f)
+                curveToRelative(-0.86f, 0.92f, -0.82f, 2.37f, 0.1f, 3.23f)
+                lineToRelative(1.82f, 1.63f)
+                lineTo(20f, 24f)
+                verticalLineToRelative(-4f)
+                lineToRelative(-9f, -3.54f)
+                verticalLineToRelative(-4.36f)
+                close()
+                moveTo(24f, 3f)
+                lineTo(24f, 13f)
+                lineTo(13f, 13f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.73f, -0.21f, -1.41f, -0.56f, -2f)
+                horizontalLineToRelative(0.65f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(0.65f)
+                curveToRelative(1.24f, 0f, 2.25f, -1.01f, 2.25f, -2.25f)
+                reflectiveCurveToRelative(-1.01f, -2.25f, -2.25f, -2.25f)
+                horizontalLineToRelative(-2.25f)
+                verticalLineToRelative(5.9f)
+                curveToRelative(-0.41f, -0.33f, -0.88f, -0.58f, -1.4f, -0.73f)
+                lineTo(10.1f, 3f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(5.05f)
+                curveToRelative(-0.84f, 0.11f, -1.6f, 0.47f, -2.2f, 1.01f)
+                lineTo(6.3f, 4.6f)
+                horizontalLineToRelative(1.2f)
+                verticalLineToRelative(-1.6f)
+                lineTo(3.5f, 3f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(1.2f)
+                verticalLineToRelative(5.4f)
+                horizontalLineToRelative(0.85f)
+                curveToRelative(-0.34f, 0.59f, -0.56f, 1.27f, -0.56f, 2f)
+                verticalLineToRelative(1f)
+                lineTo(0f, 13f)
+                lineTo(0f, 3f)
+                curveTo(0f, 1.35f, 1.35f, 0f, 3f, 0f)
+                lineTo(21f, 0f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(21f, 7.92f)
+                curveToRelative(0f, -1.3f, -1.13f, -1.84f, -1.95f, -2.23f)
+                curveToRelative(-0.62f, -0.3f, -1.02f, -0.51f, -1.02f, -0.77f)
+                curveToRelative(0f, -0.44f, 0.53f, -0.46f, 0.58f, -0.46f)
+                curveToRelative(0.23f, 0f, 0.72f, 0.28f, 1.02f, 0.53f)
+                lineToRelative(1.03f, -1.22f)
+                curveToRelative(-0.18f, -0.15f, -1.12f, -0.91f, -2.06f, -0.91f)
+                curveToRelative(-1.25f, 0f, -2.19f, 0.88f, -2.19f, 2.06f)
+                curveToRelative(0f, 1.28f, 1.12f, 1.82f, 1.93f, 2.21f)
+                curveToRelative(0.73f, 0.35f, 1.04f, 0.54f, 1.04f, 0.79f)
+                curveToRelative(0f, 0.52f, -0.66f, 0.53f, -0.74f, 0.53f)
+                curveToRelative(-0.42f, 0f, -1.02f, -0.38f, -1.29f, -0.62f)
+                lineToRelative(-1.06f, 1.2f)
+                curveToRelative(0.12f, 0.1f, 1.19f, 1.02f, 2.35f, 1.02f)
+                curveToRelative(1.13f, 0f, 2.34f, -0.75f, 2.34f, -2.13f)
+                close()
+            }
+        }.also { _TipButtonHand = it}

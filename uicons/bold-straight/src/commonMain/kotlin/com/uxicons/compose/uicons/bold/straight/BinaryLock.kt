@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BinaryLock: ImageVector? = null
+
+val Icons.Bs.BinaryLock: ImageVector
+    get() = _BinaryLock ?: UXIcon(name = "BinaryLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(4.5f, 11f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-2f)
+                curveTo(9f, 2.02f, 6.98f, 0f, 4.5f, 0f)
+                reflectiveCurveTo(0f, 2.02f, 0f, 4.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                close()
+                moveTo(3f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(5f, 13f)
+                verticalLineToRelative(11f)
+                lineTo(2f, 24f)
+                verticalLineToRelative(-6.44f)
+                lineTo(0.12f, 15.72f)
+                lineToRelative(2.66f, -2.72f)
+                horizontalLineToRelative(2.22f)
+                close()
+                moveTo(23f, 15f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                reflectiveCurveToRelative(-4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(17f, 13.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(20f, 21f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(11f, 21f)
+                curveToRelative(0f, 1.11f, 0.37f, 2.12f, 0.99f, 2.95f)
+                curveToRelative(-0.16f, 0.02f, -0.32f, 0.05f, -0.49f, 0.05f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -2.31f, 1.76f, -4.2f, 4f, -4.45f)
+                verticalLineToRelative(3.04f)
+                curveToRelative(-0.58f, 0.21f, -1f, 0.76f, -1f, 1.41f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.65f, 0.42f, 1.2f, 1f, 1.41f)
+                verticalLineToRelative(0.09f)
+                close()
+                moveTo(12.5f, 11f)
+                horizontalLineToRelative(-0.5f)
+                lineTo(12f, 4.56f)
+                lineToRelative(-1.88f, -1.83f)
+                lineTo(12.78f, 0f)
+                horizontalLineToRelative(2.22f)
+                lineTo(15f, 8.03f)
+                curveToRelative(-1.11f, 0.71f, -1.99f, 1.74f, -2.5f, 2.97f)
+                close()
+            }
+        }.also { _BinaryLock = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Cystitis: ImageVector? = null
+
+val Icons.Sr.Cystitis: ImageVector
+    get() = _Cystitis ?: UXIcon(name = "Cystitis") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.36f, 6.5f)
+                curveToRelative(-0.09f, 0.36f, -0.24f, 0.7f, -0.42f, 1.02f)
+                lineToRelative(0.49f, 0.49f)
+                curveToRelative(0.41f, -0.02f, 0.82f, 0.11f, 1.13f, 0.42f)
+                curveToRelative(0.59f, 0.59f, 0.59f, 1.54f, 0f, 2.12f)
+                curveToRelative(-0.59f, 0.59f, -1.54f, 0.59f, -2.12f, 0f)
+                curveToRelative(-0.31f, -0.31f, -0.45f, -0.72f, -0.42f, -1.13f)
+                lineToRelative(-0.49f, -0.49f)
+                curveToRelative(-0.32f, 0.19f, -0.66f, 0.33f, -1.02f, 0.42f)
+                verticalLineToRelative(0.64f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-0.64f)
+                curveToRelative(-0.36f, -0.09f, -0.7f, -0.24f, -1.02f, -0.42f)
+                lineToRelative(-0.49f, 0.49f)
+                curveToRelative(0.02f, 0.41f, -0.11f, 0.82f, -0.42f, 1.13f)
+                curveToRelative(-0.59f, 0.59f, -1.54f, 0.59f, -2.12f, 0f)
+                curveToRelative(-0.59f, -0.59f, -0.59f, -1.54f, 0f, -2.12f)
+                curveToRelative(0.31f, -0.31f, 0.72f, -0.45f, 1.13f, -0.42f)
+                lineToRelative(0.49f, -0.49f)
+                curveToRelative(-0.19f, -0.32f, -0.33f, -0.66f, -0.42f, -1.02f)
+                horizontalLineToRelative(-0.64f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(0.64f)
+                curveToRelative(0.09f, -0.36f, 0.24f, -0.7f, 0.42f, -1.02f)
+                lineToRelative(-0.49f, -0.49f)
+                curveToRelative(-0.41f, 0.02f, -0.82f, -0.11f, -1.13f, -0.42f)
+                curveToRelative(-0.59f, -0.59f, -0.59f, -1.54f, 0f, -2.12f)
+                reflectiveCurveToRelative(1.54f, -0.59f, 2.12f, 0f)
+                curveToRelative(0.31f, 0.31f, 0.45f, 0.72f, 0.42f, 1.13f)
+                lineToRelative(0.49f, 0.49f)
+                curveToRelative(0.32f, -0.19f, 0.66f, -0.33f, 1.02f, -0.42f)
+                verticalLineToRelative(-0.64f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(0.64f)
+                curveToRelative(0.36f, 0.09f, 0.7f, 0.24f, 1.02f, 0.42f)
+                lineToRelative(0.49f, -0.49f)
+                curveToRelative(-0.02f, -0.41f, 0.11f, -0.82f, 0.42f, -1.13f)
+                curveToRelative(0.59f, -0.59f, 1.54f, -0.59f, 2.12f, 0f)
+                reflectiveCurveToRelative(0.59f, 1.54f, 0f, 2.12f)
+                curveToRelative(-0.31f, 0.31f, -0.72f, 0.45f, -1.13f, 0.42f)
+                lineToRelative(-0.49f, 0.49f)
+                curveToRelative(0.19f, 0.32f, 0.33f, 0.66f, 0.42f, 1.02f)
+                horizontalLineToRelative(0.64f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(16.09f, 12.6f)
+                curveToRelative(-0.48f, 0.25f, -1.02f, 0.4f, -1.59f, 0.4f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                curveToRelative(0f, -0.58f, 0.15f, -1.11f, 0.4f, -1.59f)
+                curveToRelative(-0.26f, -0.76f, -0.4f, -1.56f, -0.4f, -2.4f)
+                curveToRelative(0f, -0.87f, 0.16f, -1.71f, 0.43f, -2.49f)
+                curveToRelative(-4.2f, 0.1f, -6.89f, 1.32f, -7.93f, 3.58f)
+                curveToRelative(-0.91f, -0.53f, -1.5f, -1.5f, -1.5f, -2.59f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 2.02f, 1.21f, 3.81f, 3.02f, 4.59f)
+                curveToRelative(-0.01f, 0.14f, -0.02f, 0.27f, -0.02f, 0.41f)
+                curveToRelative(0f, 4.22f, 3.49f, 9.26f, 8f, 9.92f)
+                verticalLineToRelative(4.08f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-4.08f)
+                curveToRelative(3.18f, -0.47f, 5.84f, -3.11f, 7.14f, -6.11f)
+                curveToRelative(-0.53f, 0.12f, -1.08f, 0.19f, -1.64f, 0.19f)
+                curveToRelative(-0.84f, 0f, -1.65f, -0.14f, -2.4f, -0.4f)
+                close()
+            }
+        }.also { _Cystitis = it}

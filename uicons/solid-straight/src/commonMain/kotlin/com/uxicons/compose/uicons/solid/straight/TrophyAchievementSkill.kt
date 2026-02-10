@@ -1,0 +1,76 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrophyAchievementSkill: ImageVector? = null
+
+val Icons.Ss.TrophyAchievementSkill: ImageVector
+    get() = _TrophyAchievementSkill ?: UXIcon(name = "TrophyAchievementSkill") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11.66f, 15f)
+                horizontalLineToRelative(2.34f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.43f)
+                curveToRelative(0.28f, -0.78f, 0.43f, -1.46f, 0.43f, -1.92f)
+                curveToRelative(0f, -1.19f, -0.81f, -2.08f, -1.89f, -2.08f)
+                lineTo(2.89f, 9f)
+                curveToRelative(-1.08f, 0f, -1.89f, 0.9f, -1.89f, 2.08f)
+                curveToRelative(0f, 0.46f, 0.15f, 1.14f, 0.43f, 1.92f)
+                lineTo(0f, 13f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2.34f)
+                curveToRelative(0.89f, 1.63f, 2.17f, 3.22f, 3.66f, 3.87f)
+                verticalLineToRelative(1.85f)
+                curveToRelative(0f, 1.33f, -1.22f, 1.27f, -1.22f, 1.27f)
+                horizontalLineToRelative(-1.78f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.8f)
+                curveToRelative(-0.13f, 0.0f, -1.2f, -0.03f, -1.2f, -1.27f)
+                verticalLineToRelative(-1.86f)
+                curveToRelative(1.49f, -0.66f, 2.77f, -2.24f, 3.66f, -3.87f)
+                close()
+                moveTo(21.5f, 0f)
+                horizontalLineToRelative(-13f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(13f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(22f, 4.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-7.5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(21.5f, 9f)
+                horizontalLineToRelative(-7.0f)
+                curveToRelative(0.35f, 0.61f, 0.52f, 1.3f, 0.5f, 2f)
+                horizontalLineToRelative(1.0f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(5.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(22f, 13.5f)
+                curveToRelative(0f, 0.28f, -0.23f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _TrophyAchievementSkill = it}

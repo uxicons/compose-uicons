@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MembershipVip: ImageVector? = null
+
+val Icons.Ts.MembershipVip: ImageVector
+    get() = _MembershipVip ?: UXIcon(name = "MembershipVip") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 3f)
+                lineTo(2f, 3f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(16f)
+                horizontalLineToRelative(24f)
+                lineTo(24f, 5f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(23f, 20f)
+                lineTo(1f, 20f)
+                lineTo(1f, 5f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(20f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(15f)
+                close()
+                moveTo(15f, 7f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(15f, 10f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(15f, 13f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(15f, 16f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(8.76f, 6.62f)
+                horizontalLineToRelative(-1.5f)
+                lineToRelative(-0.88f, 3.38f)
+                horizontalLineToRelative(-3.38f)
+                verticalLineToRelative(1.49f)
+                lineToRelative(2.39f, 1.33f)
+                lineToRelative(-0.96f, 3.0f)
+                lineToRelative(1.13f, 0.85f)
+                lineToRelative(2.45f, -1.9f)
+                lineToRelative(2.43f, 1.88f)
+                lineToRelative(1.17f, -0.81f)
+                lineToRelative(-0.98f, -2.99f)
+                lineToRelative(2.37f, -1.37f)
+                verticalLineToRelative(-1.48f)
+                horizontalLineToRelative(-3.36f)
+                lineToRelative(-0.88f, -3.38f)
+                close()
+                moveTo(9.42f, 12.39f)
+                lineToRelative(0.98f, 2.97f)
+                lineToRelative(-2.39f, -1.85f)
+                lineToRelative(-2.38f, 1.84f)
+                lineToRelative(0.96f, -3.01f)
+                lineToRelative(-2.41f, -1.34f)
+                horizontalLineToRelative(2.96f)
+                lineToRelative(0.86f, -3.29f)
+                lineToRelative(0.86f, 3.29f)
+                horizontalLineToRelative(2.96f)
+                lineToRelative(-2.4f, 1.39f)
+                close()
+            }
+        }.also { _MembershipVip = it}

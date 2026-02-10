@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DollyFlatbedAlt: ImageVector? = null
+
+val Icons.Sc.DollyFlatbedAlt: ImageVector
+    get() = _DollyFlatbedAlt ?: UXIcon(name = "DollyFlatbedAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 19.2f)
+                verticalLineToRelative(0.8f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                reflectiveCurveToRelative(-3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-0.05f)
+                curveToRelative(-0.63f, 0.03f, -1.29f, 0.05f, -2f, 0.05f)
+                curveToRelative(-0.68f, 0f, -1.35f, -0.02f, -2f, -0.06f)
+                verticalLineToRelative(0.06f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                reflectiveCurveToRelative(-3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-0.85f)
+                curveToRelative(-0.51f, -0.11f, -0.82f, -0.18f, -0.86f, -0.19f)
+                curveToRelative(-0.54f, -0.13f, -0.96f, -0.55f, -1.09f, -1.09f)
+                curveToRelative(-0.04f, -0.17f, -1.04f, -4.23f, -1.04f, -8.36f)
+                curveToRelative(0f, -2.26f, 0.15f, -4.2f, 0.29f, -5.5f)
+                horizontalLineToRelative(-0.79f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.44f, 0f, 0.86f, 0.19f, 1.14f, 0.53f)
+                reflectiveCurveToRelative(0.41f, 0.78f, 0.34f, 1.22f)
+                curveToRelative(-0.01f, 0.03f, -0.48f, 2.94f, -0.48f, 6.75f)
+                curveToRelative(0f, 2.68f, 0.48f, 5.38f, 0.76f, 6.74f)
+                curveToRelative(1.39f, 0.28f, 4.21f, 0.76f, 7.24f, 0.76f)
+                curveToRelative(4.25f, 0f, 7.13f, -0.66f, 7.16f, -0.67f)
+                curveToRelative(0.8f, -0.19f, 1.61f, 0.31f, 1.8f, 1.12f)
+                curveToRelative(0.18f, 0.75f, -0.25f, 1.5f, -0.96f, 1.75f)
+                close()
+                moveTo(9.09f, 14.74f)
+                curveToRelative(0.1f, 0.01f, 2.4f, 0.26f, 5.91f, 0.26f)
+                reflectiveCurveToRelative(5.81f, -0.25f, 5.91f, -0.26f)
+                curveToRelative(0.44f, -0.05f, 0.8f, -0.38f, 0.88f, -0.82f)
+                curveToRelative(0.01f, -0.05f, 0.21f, -1.24f, 0.21f, -2.42f)
+                reflectiveCurveToRelative(-0.21f, -2.37f, -0.21f, -2.42f)
+                curveToRelative(-0.08f, -0.44f, -0.43f, -0.77f, -0.88f, -0.82f)
+                curveToRelative(-0.1f, -0.01f, -2.4f, -0.26f, -5.91f, -0.26f)
+                reflectiveCurveToRelative(-5.81f, 0.25f, -5.91f, 0.26f)
+                curveToRelative(-0.44f, 0.05f, -0.8f, 0.38f, -0.88f, 0.82f)
+                curveToRelative(-0.01f, 0.05f, -0.21f, 1.24f, -0.21f, 2.42f)
+                reflectiveCurveToRelative(0.21f, 2.37f, 0.21f, 2.42f)
+                curveToRelative(0.08f, 0.44f, 0.43f, 0.77f, 0.88f, 0.82f)
+                close()
+                moveTo(16.98f, 6.78f)
+                curveToRelative(0.04f, 0.01f, 1.03f, 0.22f, 2.02f, 0.22f)
+                reflectiveCurveToRelative(1.97f, -0.21f, 2.02f, -0.22f)
+                curveToRelative(0.38f, -0.08f, 0.68f, -0.38f, 0.76f, -0.76f)
+                curveToRelative(0.01f, -0.04f, 0.22f, -1.03f, 0.22f, -2.02f)
+                reflectiveCurveToRelative(-0.21f, -1.97f, -0.22f, -2.02f)
+                curveToRelative(-0.08f, -0.38f, -0.38f, -0.68f, -0.76f, -0.76f)
+                curveToRelative(-0.04f, -0.01f, -1.03f, -0.22f, -2.02f, -0.22f)
+                reflectiveCurveToRelative(-1.97f, 0.21f, -2.02f, 0.22f)
+                curveToRelative(-0.38f, 0.08f, -0.68f, 0.38f, -0.76f, 0.76f)
+                curveToRelative(-0.01f, 0.04f, -0.22f, 1.03f, -0.22f, 2.02f)
+                reflectiveCurveToRelative(0.21f, 1.97f, 0.22f, 2.02f)
+                curveToRelative(0.08f, 0.38f, 0.38f, 0.68f, 0.76f, 0.76f)
+                close()
+                moveTo(9.08f, 6.79f)
+                curveToRelative(0.05f, 0.01f, 1.24f, 0.21f, 2.42f, 0.21f)
+                reflectiveCurveToRelative(2.37f, -0.21f, 2.42f, -0.21f)
+                curveToRelative(0.38f, -0.07f, 0.69f, -0.35f, 0.79f, -0.72f)
+                curveToRelative(0.01f, -0.04f, 0.28f, -1.05f, 0.28f, -2.06f)
+                reflectiveCurveToRelative(-0.27f, -2.02f, -0.28f, -2.06f)
+                curveToRelative(-0.1f, -0.37f, -0.41f, -0.65f, -0.79f, -0.72f)
+                curveToRelative(-0.05f, -0.01f, -1.24f, -0.21f, -2.42f, -0.21f)
+                reflectiveCurveToRelative(-2.37f, 0.21f, -2.42f, 0.21f)
+                curveToRelative(-0.38f, 0.07f, -0.69f, 0.35f, -0.79f, 0.72f)
+                curveToRelative(-0.01f, 0.04f, -0.28f, 1.05f, -0.28f, 2.06f)
+                reflectiveCurveToRelative(0.27f, 2.02f, 0.28f, 2.06f)
+                curveToRelative(0.1f, 0.37f, 0.41f, 0.65f, 0.79f, 0.72f)
+                close()
+            }
+        }.also { _DollyFlatbedAlt = it}

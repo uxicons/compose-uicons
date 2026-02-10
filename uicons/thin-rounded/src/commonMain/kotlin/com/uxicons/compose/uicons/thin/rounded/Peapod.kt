@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Peapod: ImageVector? = null
+
+val Icons.Tr.Peapod: ImageVector
+    get() = _Peapod ?: UXIcon(name = "Peapod") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.16f, 0.82f)
+                curveToRelative(-0.66f, -0.66f, -1.6f, -0.95f, -2.52f, -0.77f)
+                curveToRelative(-4.07f, 0.77f, -9.81f, 2.99f, -13.7f, 6.88f)
+                reflectiveCurveTo(0.82f, 16.56f, 0.05f, 20.64f)
+                curveToRelative(-0.17f, 0.92f, 0.11f, 1.86f, 0.77f, 2.53f)
+                curveToRelative(0.54f, 0.54f, 1.26f, 0.84f, 2.01f, 0.84f)
+                curveToRelative(0.17f, 0f, 0.33f, -0.01f, 0.5f, -0.04f)
+                curveToRelative(4.04f, -0.72f, 9.76f, -2.91f, 13.74f, -6.89f)
+                curveToRelative(3.98f, -3.98f, 6.17f, -9.7f, 6.89f, -13.74f)
+                curveToRelative(0.16f, -0.92f, -0.13f, -1.85f, -0.79f, -2.51f)
+                close()
+                moveTo(22.97f, 3.15f)
+                curveToRelative(-0.69f, 3.88f, -2.8f, 9.39f, -6.61f, 13.21f)
+                curveToRelative(-3.81f, 3.81f, -9.32f, 5.91f, -13.21f, 6.61f)
+                curveToRelative(-0.61f, 0.11f, -1.19f, -0.08f, -1.62f, -0.51f)
+                curveToRelative(-0.43f, -0.44f, -0.61f, -1.03f, -0.5f, -1.64f)
+                curveToRelative(0.74f, -3.92f, 2.87f, -9.45f, 6.61f, -13.18f)
+                curveToRelative(3.73f, -3.73f, 9.26f, -5.86f, 13.18f, -6.61f)
+                curveToRelative(0.12f, -0.02f, 0.24f, -0.03f, 0.35f, -0.03f)
+                curveToRelative(0.48f, 0f, 0.93f, 0.19f, 1.28f, 0.53f)
+                curveToRelative(0.43f, 0.43f, 0.62f, 1.02f, 0.51f, 1.62f)
+                close()
+                moveTo(10f, 12f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(10f, 15f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(14f, 8f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(14f, 11f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(6f, 16f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(6f, 19f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(18f, 4f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(18f, 7f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _Peapod = it}

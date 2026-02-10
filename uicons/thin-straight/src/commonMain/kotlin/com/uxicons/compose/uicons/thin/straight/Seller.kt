@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Seller: ImageVector? = null
+
+val Icons.Ts.Seller: ImageVector
+    get() = _Seller ?: UXIcon(name = "Seller") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 16.93f)
+                lineToRelative(-1.64f, -4.93f)
+                horizontalLineToRelative(-9.72f)
+                lineToRelative(-1.64f, 4.93f)
+                curveToRelative(0f, 0.75f, 0.4f, 1.4f, 1f, 1.76f)
+                verticalLineToRelative(5.3f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(-5.3f)
+                curveToRelative(0.6f, -0.36f, 1f, -1.01f, 1f, -1.76f)
+                close()
+                moveTo(13.36f, 13f)
+                horizontalLineToRelative(1.64f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1.64f)
+                lineToRelative(1.35f, 4.01f)
+                curveToRelative(-0.04f, 0.55f, -0.5f, 0.99f, -1.06f, 0.99f)
+                horizontalLineToRelative(-0.87f)
+                curveToRelative(-0.61f, 0f, -1.06f, -0.43f, -1.06f, -1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, 0.57f, -0.46f, 1f, -1.06f, 1f)
+                horizontalLineToRelative(-0.87f)
+                curveToRelative(-0.61f, 0f, -1.06f, -0.43f, -1.06f, -1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, 0.57f, -0.46f, 1f, -1.06f, 1f)
+                horizontalLineToRelative(-0.87f)
+                curveToRelative(-0.56f, 0f, -1.02f, -0.44f, -1.06f, -0.99f)
+                lineToRelative(1.35f, -4.01f)
+                close()
+                moveTo(22f, 23f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(-4.01f)
+                curveToRelative(0.02f, 0f, 0.04f, 0.01f, 0.07f, 0.01f)
+                horizontalLineToRelative(0.87f)
+                curveToRelative(0.64f, 0f, 1.19f, -0.27f, 1.56f, -0.69f)
+                curveToRelative(0.38f, 0.42f, 0.93f, 0.69f, 1.56f, 0.69f)
+                horizontalLineToRelative(0.87f)
+                curveToRelative(0.64f, 0f, 1.19f, -0.27f, 1.56f, -0.69f)
+                curveToRelative(0.38f, 0.42f, 0.93f, 0.69f, 1.56f, 0.69f)
+                horizontalLineToRelative(0.87f)
+                curveToRelative(0.02f, 0f, 0.04f, -0.01f, 0.07f, -0.01f)
+                verticalLineToRelative(4.01f)
+                close()
+                moveTo(8f, 12f)
+                curveToRelative(3.31f, 0f, 6f, -2.69f, 6f, -6f)
+                reflectiveCurveTo(11.31f, 0f, 8f, 0f)
+                reflectiveCurveTo(2f, 2.69f, 2f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                close()
+                moveTo(8f, 1f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                reflectiveCurveToRelative(-2.24f, 5f, -5f, 5f)
+                reflectiveCurveToRelative(-5f, -2.24f, -5f, -5f)
+                reflectiveCurveTo(5.24f, 1f, 8f, 1f)
+                close()
+                moveTo(9.85f, 14f)
+                lineToRelative(-0.34f, 1f)
+                horizontalLineToRelative(-4.52f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(5f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                horizontalLineToRelative(4.85f)
+                close()
+            }
+        }.also { _Seller = it}

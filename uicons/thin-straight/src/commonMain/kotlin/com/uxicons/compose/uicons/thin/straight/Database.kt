@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Database: ImageVector? = null
+
+val Icons.Ts.Database: ImageVector
+    get() = _Database ?: UXIcon(name = "Database") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23f, 6.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                lineTo(3.5f, 1f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.82f, 0.39f, 1.54f, 1.0f, 2f)
+                curveToRelative(-0.61f, 0.46f, -1.0f, 1.18f, -1.0f, 2f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.82f, 0.39f, 1.54f, 1.0f, 2f)
+                curveToRelative(-0.61f, 0.46f, -1.0f, 1.18f, -1.0f, 2f)
+                verticalLineToRelative(5.5f)
+                horizontalLineToRelative(22f)
+                verticalLineToRelative(-5.5f)
+                curveToRelative(0f, -0.82f, -0.39f, -1.54f, -1.0f, -2f)
+                curveToRelative(0.61f, -0.46f, 1.0f, -1.18f, 1.0f, -2f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.82f, -0.39f, -1.54f, -1.0f, -2f)
+                curveToRelative(0.61f, -0.46f, 1.0f, -1.18f, 1.0f, -2f)
+                close()
+                moveTo(22f, 17.5f)
+                verticalLineToRelative(4.5f)
+                lineTo(2f, 22f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(22f, 10.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                lineTo(3.5f, 15f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(22f, 6.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                lineTo(3.5f, 8f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1.5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3f)
+                close()
+            }
+        }.also { _Database = it}

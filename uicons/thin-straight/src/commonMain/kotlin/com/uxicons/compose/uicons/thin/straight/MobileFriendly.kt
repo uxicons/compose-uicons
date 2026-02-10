@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MobileFriendly: ImageVector? = null
+
+val Icons.Ts.MobileFriendly: ImageVector
+    get() = _MobileFriendly ?: UXIcon(name = "MobileFriendly") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.5f, 7f)
+                curveToRelative(-1.06f, 0f, -2.02f, 0.38f, -2.79f, 1f)
+                horizontalLineToRelative(-7.71f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(6f, 11f)
+                horizontalLineToRelative(6.05f)
+                curveToRelative(0.04f, -0.35f, 0.11f, -0.68f, 0.23f, -1f)
+                horizontalLineToRelative(-6.28f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(8.71f, 13f)
+                horizontalLineToRelative(-5.71f)
+                verticalLineToRelative(-12f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(13f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(9.5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-9.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(7.29f)
+                lineToRelative(1f, 1f)
+                horizontalLineToRelative(2.71f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2.29f)
+                close()
+                moveTo(24f, 11.5f)
+                verticalLineToRelative(12.5f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(-12.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(23f, 11.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(11.5f)
+                horizontalLineToRelative(8f)
+                close()
+                moveTo(18f, 5f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(17f, 13f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(17f, 16f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(17f, 19f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-4f)
+                close()
+            }
+        }.also { _MobileFriendly = it}

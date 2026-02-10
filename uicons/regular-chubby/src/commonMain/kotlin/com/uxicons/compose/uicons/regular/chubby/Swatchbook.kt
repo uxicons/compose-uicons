@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Swatchbook: ImageVector? = null
+
+val Icons.Rc.Swatchbook: ImageVector
+    get() = _Swatchbook ?: UXIcon(name = "Swatchbook") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5.66f, 22.98f)
+                curveToRelative(0.13f, 0.06f, -0.15f, 0f, 0f, 0f)
+                close()
+                moveTo(23.08f, 18.08f)
+                curveToRelative(0f, 2.1f, -0.47f, 3.97f, -0.49f, 4.05f)
+                curveToRelative(-0.11f, 0.44f, -0.5f, 0.74f, -0.95f, 0.76f)
+                curveToRelative(-0.09f, 0.0f, -9.05f, 0.09f, -15.99f, 0.09f)
+                curveToRelative(-3.16f, -0.11f, -4.66f, -1.69f, -4.66f, -4.98f)
+                curveToRelative(0f, -6.93f, 0.2f, -15.49f, 0.2f, -15.57f)
+                curveToRelative(0.01f, -0.45f, 0.32f, -0.84f, 0.76f, -0.95f)
+                curveToRelative(0.08f, -0.02f, 1.94f, -0.48f, 4.04f, -0.48f)
+                reflectiveCurveToRelative(3.97f, 0.47f, 4.05f, 0.48f)
+                curveToRelative(0.44f, 0.11f, 0.75f, 0.5f, 0.76f, 0.95f)
+                curveToRelative(0f, 0.04f, 0.03f, 1.56f, 0.07f, 3.83f)
+                curveToRelative(1.62f, -1.56f, 2.71f, -2.6f, 2.71f, -2.6f)
+                curveToRelative(0.33f, -0.31f, 0.82f, -0.36f, 1.2f, -0.14f)
+                curveToRelative(0.07f, 0.04f, 1.71f, 1.03f, 3.2f, 2.52f)
+                reflectiveCurveToRelative(2.48f, 3.14f, 2.52f, 3.21f)
+                curveToRelative(0.23f, 0.39f, 0.17f, 0.88f, -0.14f, 1.2f)
+                curveToRelative(-0.02f, 0.02f, -1.08f, 1.13f, -2.65f, 2.75f)
+                curveToRelative(2.34f, 0.04f, 3.91f, 0.08f, 3.91f, 0.08f)
+                curveToRelative(0.45f, 0.01f, 0.84f, 0.32f, 0.95f, 0.76f)
+                curveToRelative(0.02f, 0.08f, 0.48f, 1.94f, 0.48f, 4.04f)
+                close()
+                moveTo(3.13f, 6.26f)
+                curveToRelative(0.8f, -0.13f, 1.83f, -0.26f, 2.87f, -0.26f)
+                reflectiveCurveToRelative(2.08f, 0.12f, 2.88f, 0.26f)
+                curveToRelative(-0.02f, -1.28f, -0.04f, -2.33f, -0.06f, -2.99f)
+                curveToRelative(-0.67f, -0.12f, -1.73f, -0.27f, -2.83f, -0.27f)
+                reflectiveCurveToRelative(-2.15f, 0.15f, -2.81f, 0.27f)
+                curveToRelative(-0.01f, 0.66f, -0.04f, 1.71f, -0.06f, 2.99f)
+                close()
+                moveTo(3.05f, 11.27f)
+                curveToRelative(0.81f, -0.14f, 1.88f, -0.27f, 2.95f, -0.27f)
+                curveToRelative(1.08f, 0f, 2.16f, 0.14f, 2.96f, 0.27f)
+                curveToRelative(-0.01f, -1.04f, -0.03f, -2.04f, -0.04f, -2.98f)
+                curveToRelative(-0.72f, -0.13f, -1.83f, -0.29f, -2.92f, -0.29f)
+                reflectiveCurveToRelative(-2.19f, 0.16f, -2.91f, 0.29f)
+                curveToRelative(-0.01f, 0.94f, -0.03f, 1.94f, -0.04f, 2.98f)
+                close()
+                moveTo(9f, 18f)
+                curveToRelative(0f, -1.52f, -0.01f, -3.12f, -0.02f, -4.7f)
+                curveToRelative(-0.72f, -0.14f, -1.85f, -0.3f, -2.98f, -0.3f)
+                reflectiveCurveToRelative(-2.26f, 0.17f, -2.98f, 0.31f)
+                curveToRelative(-0.01f, 1.57f, -0.03f, 3.17f, -0.03f, 4.69f)
+                curveToRelative(0f, 2.3f, 0.7f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -0.7f, 3f, -3f)
+                close()
+                moveTo(10.93f, 9.0f)
+                curveToRelative(0.04f, 2.54f, 0.07f, 5.49f, 0.07f, 8.25f)
+                curveToRelative(3.15f, -3.2f, 6.18f, -6.35f, 7.39f, -7.61f)
+                curveToRelative(-0.39f, -0.56f, -1.03f, -1.41f, -1.81f, -2.19f)
+                curveToRelative(-0.78f, -0.78f, -1.62f, -1.41f, -2.18f, -1.8f)
+                curveToRelative(-0.69f, 0.66f, -1.95f, 1.87f, -3.48f, 3.35f)
+                close()
+                moveTo(21.08f, 18.08f)
+                curveToRelative(0f, -1.1f, -0.15f, -2.15f, -0.27f, -2.81f)
+                curveToRelative(-0.98f, -0.02f, -2.79f, -0.06f, -4.98f, -0.09f)
+                curveToRelative(-1.62f, 1.62f, -3.42f, 3.58f, -5.24f, 5.3f)
+                curveToRelative(-0.08f, 0.2f, -0.16f, 0.41f, -0.26f, 0.59f)
+                curveToRelative(4.45f, -0.04f, 8.75f, -0.12f, 10.48f, -0.15f)
+                curveToRelative(0.12f, -0.67f, 0.27f, -1.72f, 0.27f, -2.83f)
+                close()
+                moveTo(6f, 16.5f)
+                curveToRelative(-1.07f, 0f, -1.5f, 0.43f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.43f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.43f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.43f, -1.5f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _Swatchbook = it}

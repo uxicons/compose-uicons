@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TabletRugged: ImageVector? = null
+
+val Icons.Sc.TabletRugged: ImageVector
+    get() = _TabletRugged ?: UXIcon(name = "TabletRugged") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.69f, 6.12f)
+                curveToRelative(0.21f, 1.19f, 0.46f, 3.17f, 0.46f, 5.88f)
+                reflectiveCurveToRelative(-0.25f, 4.7f, -0.46f, 5.88f)
+                curveToRelative(-0.91f, 0.18f, -2.17f, 0.35f, -3.69f, 0.35f)
+                reflectiveCurveToRelative(-2.78f, -0.17f, -3.69f, -0.35f)
+                curveToRelative(-0.21f, -1.19f, -0.46f, -3.17f, -0.46f, -5.88f)
+                reflectiveCurveToRelative(0.25f, -4.7f, 0.46f, -5.88f)
+                curveToRelative(0.91f, -0.18f, 2.17f, -0.35f, 3.69f, -0.35f)
+                reflectiveCurveToRelative(2.78f, 0.17f, 3.69f, 0.35f)
+                close()
+                moveTo(21.35f, 12.0f)
+                curveToRelative(0f, 0.88f, -0.02f, 1.75f, -0.07f, 2.65f)
+                curveToRelative(-0.03f, 0.58f, -0.54f, 1.02f, -1.11f, 0.98f)
+                curveToRelative(-0.06f, 0.68f, -0.12f, 1.28f, -0.2f, 1.82f)
+                lineToRelative(0.56f, 0.56f)
+                curveToRelative(0.24f, 0.24f, 0.35f, 0.58f, 0.29f, 0.91f)
+                curveToRelative(-0.3f, 1.79f, -0.63f, 2.72f, -0.64f, 2.76f)
+                curveToRelative(-0.1f, 0.29f, -0.33f, 0.52f, -0.61f, 0.63f)
+                curveToRelative(-0.04f, 0.01f, -0.98f, 0.36f, -2.61f, 0.66f)
+                curveToRelative(-0.33f, 0.06f, -0.68f, -0.04f, -0.92f, -0.29f)
+                lineToRelative(-0.57f, -0.57f)
+                curveToRelative(-0.98f, 0.14f, -2.13f, 0.25f, -3.47f, 0.25f)
+                reflectiveCurveToRelative(-2.49f, -0.11f, -3.47f, -0.25f)
+                lineToRelative(-0.56f, 0.56f)
+                curveToRelative(-0.24f, 0.24f, -0.59f, 0.35f, -0.92f, 0.29f)
+                curveToRelative(-1.63f, -0.3f, -2.57f, -0.65f, -2.61f, -0.66f)
+                curveToRelative(-0.29f, -0.11f, -0.51f, -0.34f, -0.61f, -0.63f)
+                curveToRelative(-0.01f, -0.04f, -0.34f, -0.97f, -0.64f, -2.76f)
+                curveToRelative(-0.06f, -0.33f, 0.05f, -0.67f, 0.29f, -0.91f)
+                lineToRelative(0.56f, -0.57f)
+                curveToRelative(-0.07f, -0.54f, -0.14f, -1.15f, -0.2f, -1.82f)
+                curveToRelative(-0.58f, 0.04f, -1.08f, -0.4f, -1.11f, -0.98f)
+                curveToRelative(-0.05f, -0.9f, -0.07f, -1.77f, -0.07f, -2.65f)
+                reflectiveCurveToRelative(0.02f, -1.75f, 0.07f, -2.65f)
+                curveToRelative(0.03f, -0.58f, 0.54f, -1.02f, 1.11f, -0.98f)
+                curveToRelative(0.06f, -0.68f, 0.12f, -1.28f, 0.2f, -1.82f)
+                lineToRelative(-0.56f, -0.57f)
+                curveToRelative(-0.24f, -0.24f, -0.34f, -0.58f, -0.29f, -0.91f)
+                curveToRelative(0.3f, -1.79f, 0.63f, -2.72f, 0.64f, -2.76f)
+                curveToRelative(0.1f, -0.29f, 0.33f, -0.52f, 0.61f, -0.63f)
+                curveToRelative(0.04f, -0.01f, 0.98f, -0.36f, 2.61f, -0.66f)
+                curveToRelative(0.34f, -0.06f, 0.68f, 0.04f, 0.92f, 0.29f)
+                lineToRelative(0.56f, 0.56f)
+                curveToRelative(0.98f, -0.14f, 2.13f, -0.25f, 3.47f, -0.25f)
+                reflectiveCurveToRelative(2.49f, 0.11f, 3.47f, 0.25f)
+                lineToRelative(0.56f, -0.56f)
+                curveToRelative(0.24f, -0.24f, 0.59f, -0.35f, 0.92f, -0.29f)
+                curveToRelative(1.63f, 0.3f, 2.57f, 0.65f, 2.61f, 0.66f)
+                curveToRelative(0.29f, 0.11f, 0.51f, 0.34f, 0.61f, 0.63f)
+                curveToRelative(0.01f, 0.04f, 0.34f, 0.97f, 0.64f, 2.76f)
+                curveToRelative(0.06f, 0.33f, -0.05f, 0.67f, -0.29f, 0.91f)
+                lineToRelative(-0.56f, 0.57f)
+                curveToRelative(0.07f, 0.54f, 0.14f, 1.15f, 0.2f, 1.82f)
+                curveToRelative(0.58f, -0.04f, 1.08f, 0.4f, 1.11f, 0.98f)
+                curveToRelative(0.05f, 0.9f, 0.07f, 1.77f, 0.07f, 2.65f)
+                close()
+                moveTo(18.23f, 12.0f)
+                curveToRelative(0f, -3.31f, -0.34f, -5.61f, -0.63f, -6.97f)
+                curveToRelative(-0.08f, -0.39f, -0.38f, -0.7f, -0.77f, -0.79f)
+                curveToRelative(-1.03f, -0.25f, -2.7f, -0.55f, -4.83f, -0.55f)
+                reflectiveCurveToRelative(-3.8f, 0.3f, -4.83f, 0.55f)
+                curveToRelative(-0.39f, 0.09f, -0.69f, 0.4f, -0.77f, 0.79f)
+                curveToRelative(-0.29f, 1.35f, -0.63f, 3.66f, -0.63f, 6.97f)
+                reflectiveCurveToRelative(0.34f, 5.61f, 0.63f, 6.97f)
+                curveToRelative(0.08f, 0.39f, 0.38f, 0.7f, 0.77f, 0.79f)
+                curveToRelative(1.03f, 0.25f, 2.7f, 0.55f, 4.83f, 0.55f)
+                reflectiveCurveToRelative(3.8f, -0.3f, 4.83f, -0.55f)
+                curveToRelative(0.39f, -0.09f, 0.69f, -0.4f, 0.77f, -0.79f)
+                curveToRelative(0.29f, -1.35f, 0.63f, -3.66f, 0.63f, -6.97f)
+                close()
+            }
+        }.also { _TabletRugged = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SkullHeart: ImageVector? = null
+
+val Icons.Br.SkullHeart: ImageVector
+    get() = _SkullHeart ?: UXIcon(name = "SkullHeart") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(21.01f, 18.74f)
+            lineToRelative(-4.18f, 1.27f)
+            lineToRelative(4.18f, 1.27f)
+            curveToRelative(0.74f, 0.22f, 1.16f, 1.0f, 0.94f, 1.75f)
+            curveToRelative(-0.18f, 0.6f, -0.74f, 0.99f, -1.34f, 0.99f)
+            curveToRelative(-0.14f, 0f, -0.27f, -0.02f, -0.41f, -0.06f)
+            lineToRelative(-8.2f, -2.48f)
+            lineToRelative(-8.2f, 2.48f)
+            curveToRelative(-0.14f, 0.04f, -0.27f, 0.06f, -0.41f, 0.06f)
+            curveToRelative(-0.6f, 0f, -1.16f, -0.39f, -1.34f, -0.99f)
+            curveToRelative(-0.23f, -0.74f, 0.19f, -1.52f, 0.94f, -1.75f)
+            lineToRelative(4.18f, -1.27f)
+            lineToRelative(-4.18f, -1.27f)
+            curveToRelative(-0.74f, -0.22f, -1.16f, -1.0f, -0.94f, -1.75f)
+            curveToRelative(0.22f, -0.74f, 1.01f, -1.16f, 1.75f, -0.93f)
+            lineToRelative(8.2f, 2.48f)
+            lineToRelative(8.2f, -2.48f)
+            curveToRelative(0.73f, -0.22f, 1.52f, 0.19f, 1.75f, 0.93f)
+            curveToRelative(0.23f, 0.74f, -0.19f, 1.52f, -0.94f, 1.75f)
+            close()
+            moveTo(9f, 15.5f)
+            verticalLineToRelative(-0.5f)
+            horizontalLineToRelative(-0.5f)
+            curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+            verticalLineToRelative(-1.29f)
+            curveToRelative(0f, -3.05f, 2.19f, -5.77f, 5.21f, -6.16f)
+            curveToRelative(3.66f, -0.47f, 6.79f, 2.38f, 6.79f, 5.95f)
+            verticalLineToRelative(1.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            horizontalLineToRelative(-0.5f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-3f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            close()
+            moveTo(13f, 11.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            close()
+            moveTo(9.5f, 13f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            close()
+            moveTo(4.0f, 13.08f)
+            curveToRelative(0f, -0.46f, 0.03f, -1.72f, 0.02f, -1.87f)
+            curveToRelative(0f, 0f, -0.14f, -1.14f, -0.33f, -1.56f)
+            curveToRelative(-0.82f, -1.84f, -1.01f, -3.64f, -0.04f, -5.09f)
+            curveToRelative(0.33f, -0.49f, 1.34f, -1.57f, 3.15f, -1.57f)
+            curveToRelative(0.82f, 0f, 1.62f, 0.23f, 2.33f, 0.55f)
+            curveToRelative(0.58f, -0.23f, 1.18f, -0.39f, 1.82f, -0.47f)
+            curveToRelative(1.34f, -0.17f, 2.67f, 0.0f, 3.9f, 0.47f)
+            curveToRelative(0.71f, -0.32f, 1.65f, -0.54f, 2.56f, -0.54f)
+            curveToRelative(1.58f, 0f, 2.6f, 1.07f, 2.93f, 1.56f)
+            curveToRelative(0.97f, 1.45f, 0.78f, 3.25f, -0.04f, 5.09f)
+            curveToRelative(-0.18f, 0.4f, -0.3f, 1.32f, -0.3f, 1.35f)
+            curveToRelative(0f, 0f, -0.0f, 1.62f, -0.0f, 2.08f)
+            curveToRelative(0f, 1.96f, 1.21f, 0.96f, 1.21f, 0.96f)
+            curveToRelative(2.66f, -3.78f, 3.84f, -7.82f, 1.63f, -11.14f)
+            curveToRelative(-0.62f, -0.94f, -1.5f, -1.7f, -2.54f, -2.2f)
+            curveTo(19.45f, 0.29f, 18.53f, 0.05f, 17.58f, 0.0f)
+            curveToRelative(-2.2f, -0.11f, -4.23f, 0.82f, -5.58f, 1.68f)
+            curveTo(10.65f, 0.82f, 8.62f, -0.11f, 6.42f, 0.0f)
+            curveToRelative(-0.95f, 0.05f, -1.87f, 0.28f, -2.72f, 0.69f)
+            curveToRelative(-1.04f, 0.5f, -1.92f, 1.26f, -2.54f, 2.2f)
+            curveTo(-1.05f, 6.22f, 0.13f, 10.26f, 2.79f, 14.04f)
+            curveToRelative(0f, 0f, 1.21f, 1f, 1.21f, -0.96f)
+            close()
+        }
+    }.also { _SkullHeart = it }

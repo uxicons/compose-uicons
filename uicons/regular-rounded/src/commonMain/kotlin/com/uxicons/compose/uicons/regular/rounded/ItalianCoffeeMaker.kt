@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ItalianCoffeeMaker: ImageVector? = null
+
+val Icons.Rr.ItalianCoffeeMaker: ImageVector
+    get() = _ItalianCoffeeMaker ?: UXIcon(name = "ItalianCoffeeMaker") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 15.33f)
+                verticalLineToRelative(-0.71f)
+                lineToRelative(1.05f, -4.18f)
+                curveToRelative(2.95f, -3.14f, 2.95f, -3.46f, 2.95f, -3.85f)
+                curveToRelative(0f, -0.87f, -0.71f, -1.58f, -1.58f, -1.58f)
+                horizontalLineToRelative(-1.02f)
+                curveToRelative(-0.87f, -0.8f, -3.49f, -2.97f, -6.4f, -3.41f)
+                verticalLineToRelative(-0.59f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(0.59f)
+                curveToRelative(-2.96f, 0.45f, -5.62f, 2.7f, -6.45f, 3.46f)
+                curveToRelative(-2.55f, 0.23f, -4.55f, 2.35f, -4.55f, 4.96f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.35f, 0.9f, -2.48f, 2.13f, -2.86f)
+                lineToRelative(1.87f, 7.48f)
+                verticalLineToRelative(0.71f)
+                lineToRelative(-1.83f, 5.19f)
+                curveToRelative(-0.67f, 1.63f, 0.62f, 3.51f, 2.38f, 3.48f)
+                horizontalLineToRelative(10.89f)
+                curveToRelative(1.75f, 0.04f, 3.04f, -1.84f, 2.39f, -3.45f)
+                lineToRelative(-1.84f, -5.22f)
+                close()
+                moveTo(15.62f, 14f)
+                lineToRelative(0.78f, -7f)
+                horizontalLineToRelative(2.45f)
+                lineToRelative(-1.75f, 7f)
+                horizontalLineToRelative(-1.48f)
+                close()
+                moveTo(8.91f, 14f)
+                lineToRelative(-1.75f, -7f)
+                horizontalLineToRelative(2.45f)
+                lineToRelative(0.78f, 7f)
+                horizontalLineToRelative(-1.48f)
+                close()
+                moveTo(13.61f, 14f)
+                horizontalLineToRelative(-1.21f)
+                lineToRelative(-0.78f, -7f)
+                horizontalLineToRelative(2.77f)
+                lineToRelative(-0.78f, 7f)
+                close()
+                moveTo(12.38f, 16f)
+                horizontalLineToRelative(1.23f)
+                lineToRelative(0.75f, 6f)
+                horizontalLineToRelative(-2.73f)
+                lineToRelative(0.75f, -6f)
+                close()
+                moveTo(8.88f, 5f)
+                curveToRelative(1.17f, -0.77f, 2.66f, -1.5f, 4.12f, -1.5f)
+                reflectiveCurveToRelative(2.95f, 0.73f, 4.12f, 1.5f)
+                lineTo(8.88f, 5f)
+                close()
+                moveTo(7f, 21.45f)
+                curveToRelative(0f, -0.07f, 0.01f, -0.14f, 0.05f, -0.23f)
+                lineToRelative(1.83f, -5.21f)
+                horizontalLineToRelative(1.48f)
+                lineToRelative(-0.75f, 6f)
+                horizontalLineToRelative(-2.06f)
+                curveToRelative(-0.31f, 0f, -0.56f, -0.25f, -0.56f, -0.56f)
+                close()
+                moveTo(18.45f, 22f)
+                horizontalLineToRelative(-2.06f)
+                lineToRelative(-0.75f, -6f)
+                horizontalLineToRelative(1.48f)
+                lineToRelative(1.85f, 5.25f)
+                curveToRelative(0.14f, 0.35f, -0.14f, 0.76f, -0.52f, 0.76f)
+                close()
+            }
+        }.also { _ItalianCoffeeMaker = it}

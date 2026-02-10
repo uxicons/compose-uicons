@@ -1,0 +1,78 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _70SMusicDisc: ImageVector? = null
+
+val Icons.Bs.SeventySMusicDisc: ImageVector
+    get() = _70SMusicDisc ?: UXIcon(name = "70SMusicDisc") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(0f, 12f)
+            curveToRelative(0f, 6.62f, 5.38f, 12f, 12f, 12f)
+            reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+            verticalLineToRelative(-2f)
+            lineTo(0f, 10f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(8.14f, 13f)
+            curveToRelative(0.45f, 1.72f, 2.0f, 3f, 3.86f, 3f)
+            reflectiveCurveToRelative(3.41f, -1.28f, 3.86f, -3f)
+            horizontalLineToRelative(5.09f)
+            curveToRelative(-0.5f, 4.49f, -4.32f, 8f, -8.95f, 8f)
+            reflectiveCurveTo(3.55f, 17.49f, 3.06f, 13f)
+            horizontalLineToRelative(5.09f)
+            close()
+            moveTo(8.35f, 2f)
+            horizontalLineToRelative(-3.35f)
+            lineTo(5f, 0f)
+            horizontalLineToRelative(6f)
+            lineTo(11f, 1.36f)
+            lineToRelative(-4.13f, 7.42f)
+            lineToRelative(-1.75f, -0.97f)
+            lineToRelative(3.23f, -5.8f)
+            close()
+            moveTo(22.65f, 7.26f)
+            curveToRelative(0.06f, -0.34f, -0.45f, -0.56f, -0.61f, -0.62f)
+            curveToRelative(-0.75f, -0.28f, -1.43f, -0.58f, -1.43f, -0.58f)
+            curveToRelative(-0.6f, -0.38f, -0.86f, -0.97f, -0.78f, -1.58f)
+            curveToRelative(0.09f, -0.65f, 0.57f, -1.18f, 1.24f, -1.38f)
+            curveToRelative(1.32f, -0.4f, 2.41f, 0.5f, 2.45f, 0.54f)
+            lineToRelative(0.48f, 0.4f)
+            lineToRelative(-0.81f, 0.96f)
+            lineToRelative(-0.48f, -0.4f)
+            curveToRelative(-0.03f, -0.02f, -0.63f, -0.49f, -1.29f, -0.3f)
+            curveToRelative(-0.29f, 0.09f, -0.35f, 0.28f, -0.36f, 0.36f)
+            curveToRelative(-0.01f, 0.06f, -0.01f, 0.21f, 0.13f, 0.3f)
+            curveToRelative(0.02f, 0f, 0.61f, 0.26f, 1.27f, 0.51f)
+            curveToRelative(1.22f, 0.45f, 1.53f, 1.34f, 1.41f, 2.01f)
+            curveToRelative(-0.16f, 0.9f, -1.02f, 1.55f, -2.04f, 1.55f)
+            curveToRelative(-0.83f, 0f, -1.6f, -0.33f, -2.13f, -0.91f)
+            lineToRelative(-0.42f, -0.46f)
+            lineToRelative(0.93f, -0.84f)
+            lineToRelative(0.42f, 0.46f)
+            curveToRelative(0.29f, 0.32f, 0.74f, 0.5f, 1.2f, 0.5f)
+            curveToRelative(0.45f, 0f, 0.76f, -0.27f, 0.81f, -0.52f)
+            close()
+            moveTo(15f, 9f)
+            curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+            lineTo(18f, 3f)
+            curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+            reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+            verticalLineToRelative(3f)
+            curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+            close()
+            moveTo(14f, 3f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+            verticalLineToRelative(3f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+            lineTo(14f, 3f)
+            close()
+        }
+    }.also { _70SMusicDisc = it }

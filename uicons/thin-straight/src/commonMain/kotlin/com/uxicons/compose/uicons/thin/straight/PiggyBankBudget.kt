@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PiggyBankBudget: ImageVector? = null
+
+val Icons.Ts.PiggyBankBudget: ImageVector
+    get() = _PiggyBankBudget ?: UXIcon(name = "PiggyBankBudget") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 14f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(22.85f, 13f)
+                curveToRelative(-0.52f, -2.57f, -2.37f, -4.7f, -4.85f, -5.57f)
+                verticalLineToRelative(-3.43f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-1.87f, 0f, -3.44f, 1.24f, -3.88f, 3.0f)
+                horizontalLineToRelative(-2.62f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3.47f)
+                lineToRelative(0.06f, -0.43f)
+                curveToRelative(0.18f, -1.32f, 1.19f, -2.32f, 2.47f, -2.53f)
+                verticalLineToRelative(3.12f)
+                lineToRelative(0.36f, 0.11f)
+                curveToRelative(2.42f, 0.72f, 4.22f, 2.8f, 4.58f, 5.3f)
+                lineToRelative(0.06f, 0.43f)
+                horizontalLineToRelative(1.0f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1.49f)
+                lineToRelative(-0.14f, 0.28f)
+                curveToRelative(-0.94f, 1.98f, -2.79f, 3.34f, -4.95f, 3.65f)
+                lineToRelative(-0.43f, 0.06f)
+                verticalLineToRelative(2.0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.16f)
+                lineToRelative(-0.36f, -0.11f)
+                curveToRelative(-2.73f, -0.81f, -4.64f, -3.38f, -4.64f, -6.23f)
+                curveToRelative(0f, -3.07f, 2.14f, -5.64f, 5f, -6.32f)
+                verticalLineToRelative(-1.03f)
+                curveToRelative(-1.75f, 0.36f, -3.29f, 1.33f, -4.36f, 2.68f)
+                curveToRelative(-0.42f, -0.73f, -0.64f, -1.67f, -0.64f, -2.83f)
+                lineTo(0f, 7.0f)
+                curveToRelative(0f, 1.55f, 0.35f, 2.78f, 1.03f, 3.72f)
+                curveToRelative(-0.65f, 1.11f, -1.03f, 2.4f, -1.03f, 3.78f)
+                curveToRelative(0f, 3.17f, 2.04f, 6.02f, 5f, 7.07f)
+                verticalLineToRelative(2.43f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2.15f)
+                curveToRelative(2.2f, -0.45f, 4.08f, -1.85f, 5.13f, -3.85f)
+                horizontalLineToRelative(1.86f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-1.15f)
+                close()
+                moveTo(8f, 7f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                lineTo(9f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+            }
+        }.also { _PiggyBankBudget = it}

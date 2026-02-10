@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HomeWifiPhone: ImageVector? = null
+
+val Icons.Ts.HomeWifiPhone: ImageVector
+    get() = _HomeWifiPhone ?: UXIcon(name = "HomeWifiPhone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(4f, 0f)
+                verticalLineToRelative(21.5f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-21.5f)
+                close()
+                moveTo(19f, 1f)
+                verticalLineToRelative(16f)
+                horizontalLineToRelative(-14f)
+                verticalLineToRelative(-16f)
+                close()
+                moveTo(17.5f, 23f)
+                horizontalLineToRelative(-11f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-3.5f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(3.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(10f, 20f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(13f, 15f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(15.54f, 11.46f)
+                lineTo(14.83f, 12.17f)
+                curveToRelative(-1.56f, -1.56f, -4.1f, -1.56f, -5.66f, 0f)
+                lineToRelative(-0.71f, -0.71f)
+                curveToRelative(1.95f, -1.95f, 5.12f, -1.95f, 7.07f, 0f)
+                close()
+                moveTo(14.12f, 12.88f)
+                lineTo(13.41f, 13.59f)
+                curveToRelative(-0.76f, -0.76f, -2.07f, -0.76f, -2.83f, 0f)
+                lineToRelative(-0.71f, -0.71f)
+                curveToRelative(1.13f, -1.13f, 3.11f, -1.13f, 4.24f, 0f)
+                close()
+                moveTo(7.76f, 10.76f)
+                lineTo(7.05f, 10.05f)
+                curveToRelative(1.32f, -1.32f, 3.08f, -2.05f, 4.95f, -2.05f)
+                reflectiveCurveToRelative(3.63f, 0.73f, 4.95f, 2.05f)
+                lineToRelative(-0.71f, 0.71f)
+                curveToRelative(-2.34f, -2.34f, -6.15f, -2.34f, -8.48f, 0f)
+                close()
+                moveTo(9f, 7.58f)
+                curveToRelative(-0.34f, 0.14f, -0.68f, 0.31f, -1f, 0.5f)
+                verticalLineToRelative(-2.6f)
+                curveToRelative(0f, -0.52f, 0.23f, -0.99f, 0.64f, -1.31f)
+                lineToRelative(2.33f, -1.82f)
+                curveToRelative(0.58f, -0.46f, 1.47f, -0.46f, 2.05f, 0f)
+                lineToRelative(2.33f, 1.82f)
+                curveToRelative(0.41f, 0.32f, 0.64f, 0.8f, 0.64f, 1.31f)
+                verticalLineToRelative(2.6f)
+                curveToRelative(-0.32f, -0.19f, -0.66f, -0.36f, -1f, -0.5f)
+                verticalLineToRelative(-2.1f)
+                curveToRelative(0f, -0.21f, -0.09f, -0.4f, -0.26f, -0.53f)
+                lineToRelative(-2.33f, -1.83f)
+                curveToRelative(-0.24f, -0.19f, -0.58f, -0.19f, -0.82f, 0f)
+                lineToRelative(-2.33f, 1.83f)
+                curveToRelative(-0.16f, 0.13f, -0.26f, 0.32f, -0.26f, 0.53f)
+                close()
+                moveTo(11f, 5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+            }
+        }.also { _HomeWifiPhone = it}

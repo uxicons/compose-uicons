@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BagsShopping: ImageVector? = null
+
+val Icons.Rr.BagsShopping: ImageVector
+    get() = _BagsShopping ?: UXIcon(name = "BagsShopping") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20f, 10f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                horizontalLineToRelative(-1.03f)
+                curveToRelative(-0.25f, -2.25f, -2.16f, -4f, -4.47f, -4f)
+                reflectiveCurveTo(5.28f, 1.75f, 5.03f, 4f)
+                horizontalLineToRelative(-1.03f)
+                curveTo(1.79f, 4f, 0f, 5.79f, 0f, 8f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                close()
+                moveTo(9.5f, 2f)
+                curveToRelative(1.21f, 0f, 2.22f, 0.86f, 2.45f, 2f)
+                lineTo(7.05f, 4f)
+                curveToRelative(0.23f, -1.14f, 1.24f, -2f, 2.45f, -2f)
+                close()
+                moveTo(5f, 17f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(22f, 19f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                lineTo(11f, 22f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(10f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(19f, 15f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                reflectiveCurveToRelative(-4f, -1.79f, -4f, -4f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _BagsShopping = it}

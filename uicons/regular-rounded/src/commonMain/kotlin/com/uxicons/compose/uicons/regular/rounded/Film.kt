@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Film: ImageVector? = null
+
+val Icons.Rr.Film: ImageVector
+    get() = _Film ?: UXIcon(name = "Film") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 0f)
+                horizontalLineToRelative(-14f)
+                arcToRelative(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, -5f, 5f)
+                verticalLineToRelative(14f)
+                arcToRelative(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5f, 5f)
+                horizontalLineToRelative(14f)
+                arcToRelative(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5f, -5f)
+                verticalLineToRelative(-14f)
+                arcToRelative(5.01f, 5.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, -5f, -5f)
+                close()
+                moveTo(20f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(20f, 9f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(18f, 11f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(-9f)
+                horizontalLineToRelative(12f)
+                close()
+                moveTo(4f, 13f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(4f, 9f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(2f, 15f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(6f, 13f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(-12f)
+                close()
+                moveTo(20f, 15f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(22f, 5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.82f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, 2.82f)
+                close()
+                moveTo(4f, 2.18f)
+                verticalLineToRelative(2.82f)
+                horizontalLineToRelative(-2f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, -2.82f)
+                close()
+                moveTo(2f, 19f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2.82f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2f, -2.82f)
+                close()
+                moveTo(20f, 21.82f)
+                verticalLineToRelative(-2.82f)
+                horizontalLineToRelative(2f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = false, isPositiveArc = true, -2f, 2.82f)
+                close()
+            }
+        }.also { _Film = it}

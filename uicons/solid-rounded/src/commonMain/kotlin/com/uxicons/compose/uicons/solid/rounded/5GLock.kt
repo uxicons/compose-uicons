@@ -1,0 +1,76 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Sr5GLock: ImageVector? = null
+
+val Icons.Sr.Sr5GLock: ImageVector
+    get() = _Sr5GLock ?: UXIcon(name = "Sr5GLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19f, 8.42f)
+                verticalLineToRelative(-1.42f)
+                curveToRelative(0f, -3.86f, -3.14f, -7f, -7f, -7f)
+                reflectiveCurveToRelative(-7f, 3.14f, -7f, 7f)
+                verticalLineToRelative(1.42f)
+                curveToRelative(-1.76f, 0.77f, -3f, 2.53f, -3f, 4.58f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(10f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -2.04f, -1.24f, -3.8f, -3f, -4.58f)
+                close()
+                moveTo(9f, 20f)
+                horizontalLineToRelative(-1.2f)
+                curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+                reflectiveCurveToRelative(0.36f, -0.8f, 0.8f, -0.8f)
+                horizontalLineToRelative(1.2f)
+                curveToRelative(0.5f, 0f, 0.9f, -0.4f, 0.9f, -0.9f)
+                reflectiveCurveToRelative(-0.4f, -0.9f, -0.9f, -0.9f)
+                horizontalLineToRelative(-1.2f)
+                curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+                horizontalLineToRelative(2.4f)
+                curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+                reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(1.4f)
+                horizontalLineToRelative(0.26f)
+                curveToRelative(1.31f, 0f, 2.5f, 0.94f, 2.63f, 2.24f)
+                curveToRelative(0.15f, 1.5f, -1.02f, 2.76f, -2.49f, 2.76f)
+                close()
+                moveTo(17f, 17.5f)
+                curveToRelative(0f, 1.36f, -1.09f, 2.47f, -2.45f, 2.5f)
+                curveToRelative(-1.4f, 0.03f, -2.55f, -1.15f, -2.55f, -2.56f)
+                verticalLineToRelative(-2.89f)
+                curveToRelative(0f, -1.4f, 1.15f, -2.58f, 2.55f, -2.56f)
+                curveToRelative(0.93f, 0.02f, 1.74f, 0.55f, 2.15f, 1.32f)
+                curveToRelative(0.29f, 0.53f, -0.1f, 1.18f, -0.7f, 1.18f)
+                curveToRelative(-0.29f, 0f, -0.57f, -0.15f, -0.7f, -0.41f)
+                curveToRelative(-0.16f, -0.31f, -0.49f, -0.51f, -0.86f, -0.49f)
+                curveToRelative(-0.48f, 0.03f, -0.84f, 0.45f, -0.84f, 0.93f)
+                verticalLineToRelative(2.97f)
+                curveToRelative(0f, 0.52f, 0.44f, 0.93f, 0.96f, 0.9f)
+                curveToRelative(0.48f, -0.03f, 0.84f, -0.45f, 0.84f, -0.93f)
+                verticalLineToRelative(-0.37f)
+                horizontalLineToRelative(-0.1f)
+                curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+                reflectiveCurveToRelative(0.36f, -0.8f, 0.8f, -0.8f)
+                horizontalLineToRelative(0.9f)
+                curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+                verticalLineToRelative(1.2f)
+                close()
+                moveTo(17f, 8f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                close()
+            }
+        }.also { _Sr5GLock = it}

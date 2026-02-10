@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AnalyticsMagnifyingGlass: ImageVector? = null
+
+val Icons.Ts.AnalyticsMagnifyingGlass: ImageVector
+    get() = _AnalyticsMagnifyingGlass ?: UXIcon(name = "AnalyticsMagnifyingGlass") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 19f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(7f, 19f)
+                verticalLineToRelative(-9f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(9f)
+                close()
+                moveTo(20f, 19.29f)
+                lineTo(23.61f, 22.9f)
+                lineTo(22.9f, 23.61f)
+                lineTo(19.29f, 20f)
+                curveToRelative(-0.77f, 0.62f, -1.73f, 1f, -2.79f, 1f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                reflectiveCurveToRelative(2.02f, -4.5f, 4.5f, -4.5f)
+                reflectiveCurveToRelative(4.5f, 2.02f, 4.5f, 4.5f)
+                curveToRelative(0f, 1.06f, -0.38f, 2.02f, -1f, 2.79f)
+                close()
+                moveTo(20f, 16.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+                reflectiveCurveToRelative(1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                close()
+                moveTo(24f, 2.5f)
+                verticalLineToRelative(17.96f)
+                lineToRelative(-1f, -1f)
+                verticalLineToRelative(-11.46f)
+                horizontalLineToRelative(-22f)
+                verticalLineToRelative(13f)
+                horizontalLineToRelative(10.82f)
+                curveToRelative(0.37f, 0.38f, 0.78f, 0.72f, 1.23f, 1f)
+                horizontalLineToRelative(-13.05f)
+                verticalLineToRelative(-19.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(19f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(23f, 7f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-19f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(4.5f)
+                close()
+                moveTo(4f, 3f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(7f, 3f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(10f, 3f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(10f, 19f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(7f)
+                close()
+            }
+        }.also { _AnalyticsMagnifyingGlass = it}

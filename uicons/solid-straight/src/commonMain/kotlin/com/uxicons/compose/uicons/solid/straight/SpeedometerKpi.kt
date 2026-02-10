@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SpeedometerKpi: ImageVector? = null
+
+val Icons.Ss.SpeedometerKpi: ImageVector
+    get() = _SpeedometerKpi ?: UXIcon(name = "SpeedometerKpi") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8.57f, 19.43f)
+                lineToRelative(2.0f, 4.57f)
+                horizontalLineToRelative(-1.76f)
+                lineToRelative(-1.59f, -3.53f)
+                horizontalLineToRelative(-0.61f)
+                verticalLineToRelative(3.53f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(2.87f)
+                horizontalLineToRelative(0.35f)
+                lineToRelative(1.69f, -2.87f)
+                horizontalLineToRelative(1.86f)
+                lineToRelative(-1.93f, 3.44f)
+                close()
+                moveTo(21f, 19.92f)
+                verticalLineToRelative(-5.92f)
+                horizontalLineToRelative(-9f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                curveToRelative(0f, -0.18f, -0.03f, -0.35f, -0.07f, -0.51f)
+                lineToRelative(4.78f, -4.78f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(-4.78f, 4.78f)
+                curveToRelative(-0.16f, -0.04f, -0.33f, -0.07f, -0.51f, -0.07f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                lineTo(3f, 14f)
+                verticalLineToRelative(5.92f)
+                curveToRelative(-1.91f, -2.17f, -3f, -4.98f, -3f, -7.92f)
+                curveTo(0f, 5.38f, 5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                curveToRelative(0f, 2.94f, -1.09f, 5.75f, -3f, 7.92f)
+                close()
+                moveTo(15.87f, 3.89f)
+                curveToRelative(-1.17f, -0.56f, -2.48f, -0.89f, -3.87f, -0.89f)
+                curveTo(7.38f, 3f, 3.56f, 6.51f, 3.06f, 11f)
+                horizontalLineToRelative(2.02f)
+                curveToRelative(0.49f, -3.39f, 3.4f, -6f, 6.92f, -6f)
+                curveToRelative(0.82f, 0f, 1.61f, 0.15f, 2.35f, 0.41f)
+                lineToRelative(1.53f, -1.53f)
+                close()
+                moveTo(18.59f, 9.65f)
+                curveToRelative(0.15f, 0.43f, 0.25f, 0.88f, 0.32f, 1.34f)
+                horizontalLineToRelative(2.03f)
+                curveToRelative(-0.12f, -1.02f, -0.4f, -1.98f, -0.83f, -2.87f)
+                lineToRelative(-1.53f, 1.53f)
+                close()
+                moveTo(17.0f, 24f)
+                horizontalLineToRelative(1.6f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(8f)
+                close()
+                moveTo(16.0f, 18.5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2.1f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(14.4f, 18.5f)
+                curveToRelative(0f, -0.5f, -0.4f, -0.9f, -0.9f, -0.9f)
+                horizontalLineToRelative(-0.5f)
+                verticalLineToRelative(1.8f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(0.5f, 0f, 0.9f, -0.4f, 0.9f, -0.9f)
+                close()
+            }
+        }.also { _SpeedometerKpi = it}

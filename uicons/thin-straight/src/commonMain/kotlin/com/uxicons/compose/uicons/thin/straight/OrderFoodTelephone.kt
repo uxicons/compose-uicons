@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _OrderFoodTelephone: ImageVector? = null
+
+val Icons.Ts.OrderFoodTelephone: ImageVector
+    get() = _OrderFoodTelephone ?: UXIcon(name = "OrderFoodTelephone") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(14.15f, 17.21f)
+                curveToRelative(-3.4f, -1.38f, -5.87f, -3.86f, -7.36f, -7.37f)
+                lineToRelative(3.37f, -3.37f)
+                lineToRelative(-5.68f, -5.68f)
+                lineToRelative(-2.88f, 2.88f)
+                curveToRelative(-1.03f, 1.03f, -1.6f, 2.43f, -1.6f, 3.94f)
+                curveToRelative(0f, 7.2f, 9.19f, 16.39f, 16.39f, 16.39f)
+                curveToRelative(1.51f, 0f, 2.91f, -0.57f, 3.94f, -1.6f)
+                lineToRelative(2.88f, -2.88f)
+                lineToRelative(-5.68f, -5.68f)
+                lineToRelative(-3.38f, 3.38f)
+                close()
+                moveTo(19.62f, 21.69f)
+                curveToRelative(-0.84f, 0.85f, -1.99f, 1.31f, -3.23f, 1.31f)
+                curveToRelative(-6.62f, 0f, -15.39f, -8.77f, -15.39f, -15.39f)
+                curveToRelative(0f, -1.24f, 0.47f, -2.39f, 1.31f, -3.23f)
+                lineToRelative(2.17f, -2.17f)
+                lineToRelative(4.26f, 4.26f)
+                lineToRelative(-3.13f, 3.13f)
+                curveToRelative(1.61f, 4.27f, 4.63f, 7.29f, 8.78f, 8.77f)
+                lineToRelative(3.13f, -3.13f)
+                lineToRelative(4.26f, 4.26f)
+                close()
+                moveTo(21.5f, 0f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                lineToRelative(0.0f, 7.91f)
+                curveToRelative(-0.02f, 0.86f, 0.74f, 1.6f, 1.59f, 1.59f)
+                curveToRelative(0.3f, 0f, 0.59f, -0.09f, 0.85f, -0.26f)
+                lineToRelative(2.7f, -1.75f)
+                horizontalLineToRelative(6.85f)
+                reflectiveCurveToRelative(0f, -7.5f, 0f, -7.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 9f)
+                horizontalLineToRelative(-6.15f)
+                reflectiveCurveToRelative(-2.95f, 1.91f, -2.95f, 1.91f)
+                curveToRelative(-0.18f, 0.12f, -0.41f, 0.12f, -0.6f, 0.02f)
+                curveToRelative(-0.19f, -0.1f, -0.31f, -0.3f, -0.31f, -0.51f)
+                lineToRelative(-0.0f, -7.91f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(19.5f, 2f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(16.5f, 3f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(19.5f, 7f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                horizontalLineToRelative(1.67f)
+                lineToRelative(1.33f, 1f)
+                lineToRelative(1.33f, -1f)
+                horizontalLineToRelative(1.67f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _OrderFoodTelephone = it}

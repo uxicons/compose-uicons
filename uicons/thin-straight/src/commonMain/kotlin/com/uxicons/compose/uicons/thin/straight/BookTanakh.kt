@@ -1,0 +1,95 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BookTanakh: ImageVector? = null
+
+val Icons.Ts.BookTanakh: ImageVector
+    get() = _BookTanakh ?: UXIcon(name = "BookTanakh") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.5f, 0f)
+                lineTo(3.5f, 0f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(22.5f)
+                horizontalLineToRelative(17.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                lineTo(22f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(3.5f, 1f)
+                horizontalLineToRelative(16f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(17.01f)
+                curveToRelative(-0.42f, -0.32f, -0.94f, -0.51f, -1.5f, -0.51f)
+                lineTo(3f, 19f)
+                lineTo(3f, 1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                close()
+                moveTo(19.5f, 23f)
+                lineTo(3f, 23f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(16.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7.76f, 9.99f)
+                lineToRelative(-2.13f, 3.5f)
+                horizontalLineToRelative(4.27f)
+                lineToRelative(2.11f, 3.46f)
+                lineToRelative(2.11f, -3.46f)
+                horizontalLineToRelative(4.27f)
+                lineToRelative(-2.13f, -3.5f)
+                lineToRelative(2.13f, -3.5f)
+                horizontalLineToRelative(-4.26f)
+                lineToRelative(-2.11f, -3.47f)
+                lineToRelative(-2.11f, 3.47f)
+                horizontalLineToRelative(-4.26f)
+                lineToRelative(2.13f, 3.5f)
+                close()
+                moveTo(7.41f, 12.49f)
+                lineToRelative(0.94f, -1.54f)
+                lineToRelative(0.94f, 1.54f)
+                horizontalLineToRelative(-1.88f)
+                close()
+                moveTo(8.93f, 9.99f)
+                lineToRelative(1.52f, -2.5f)
+                horizontalLineToRelative(3.1f)
+                lineToRelative(1.52f, 2.5f)
+                lineToRelative(-1.53f, 2.5f)
+                horizontalLineToRelative(-3.09f)
+                lineToRelative(-1.53f, -2.5f)
+                close()
+                moveTo(12.0f, 15.03f)
+                lineToRelative(-0.94f, -1.53f)
+                horizontalLineToRelative(1.87f)
+                lineToRelative(-0.94f, 1.53f)
+                close()
+                moveTo(16.6f, 12.49f)
+                horizontalLineToRelative(-1.88f)
+                lineToRelative(0.94f, -1.54f)
+                lineToRelative(0.94f, 1.54f)
+                close()
+                moveTo(16.6f, 7.5f)
+                lineToRelative(-0.94f, 1.54f)
+                lineToRelative(-0.94f, -1.54f)
+                horizontalLineToRelative(1.87f)
+                close()
+                moveTo(12.0f, 4.95f)
+                lineToRelative(0.94f, 1.54f)
+                horizontalLineToRelative(-1.88f)
+                lineToRelative(0.94f, -1.54f)
+                close()
+                moveTo(8.35f, 9.03f)
+                lineToRelative(-0.94f, -1.54f)
+                horizontalLineToRelative(1.87f)
+                lineToRelative(-0.94f, 1.54f)
+                close()
+            }
+        }.also { _BookTanakh = it}

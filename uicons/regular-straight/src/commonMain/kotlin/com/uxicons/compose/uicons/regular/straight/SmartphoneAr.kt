@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SmartphoneAr: ImageVector? = null
+
+val Icons.Rs.SmartphoneAr: ImageVector
+    get() = _SmartphoneAr ?: UXIcon(name = "SmartphoneAr") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.02f, 4.06f)
+                verticalLineToRelative(-4.06f)
+                horizontalLineToRelative(-16f)
+                verticalLineToRelative(4.06f)
+                lineToRelative(-4.03f, 2.44f)
+                verticalLineToRelative(1.24f)
+                lineToRelative(4.03f, 2.49f)
+                verticalLineToRelative(10.77f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(10f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-10.77f)
+                lineToRelative(3.98f, -2.46f)
+                verticalLineToRelative(-1.26f)
+                lineToRelative(-3.98f, -2.46f)
+                close()
+                moveTo(4.03f, 7.88f)
+                lineTo(2.84f, 7.15f)
+                lineTo(4.03f, 6.41f)
+                close()
+                moveTo(18.02f, 21f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-10f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(12f)
+                close()
+                moveTo(18.02f, 16f)
+                horizontalLineToRelative(-12f)
+                verticalLineToRelative(-4.53f)
+                lineToRelative(6.0f, 3.71f)
+                lineToRelative(6.0f, -3.71f)
+                verticalLineToRelative(4.53f)
+                close()
+                moveTo(18.02f, 9.12f)
+                lineTo(12.03f, 12.82f)
+                lineTo(6.03f, 9.12f)
+                verticalLineToRelative(-7.12f)
+                horizontalLineToRelative(12f)
+                close()
+                moveTo(20.02f, 7.88f)
+                verticalLineToRelative(-1.47f)
+                lineToRelative(1.19f, 0.74f)
+                close()
+                moveTo(12.03f, 10.5f)
+                curveToRelative(0.35f, 0f, 0.71f, -0.09f, 1.02f, -0.28f)
+                lineToRelative(2.48f, -1.46f)
+                verticalLineToRelative(-4.04f)
+                lineToRelative(-2.48f, -1.46f)
+                curveToRelative(-0.63f, -0.37f, -1.41f, -0.37f, -2.04f, 0f)
+                lineToRelative(-2.48f, 1.46f)
+                verticalLineToRelative(4.04f)
+                lineToRelative(2.48f, 1.46f)
+                curveToRelative(0.31f, 0.18f, 0.67f, 0.28f, 1.02f, 0.28f)
+                close()
+                moveTo(10.53f, 5.8f)
+                lineTo(11.51f, 6.34f)
+                curveToRelative(0.32f, 0.19f, 0.71f, 0.19f, 1.03f, 0f)
+                lineToRelative(0.99f, -0.54f)
+                verticalLineToRelative(1.82f)
+                lineToRelative(-1.51f, 0.88f)
+                lineToRelative(-1.49f, -0.88f)
+                verticalLineToRelative(-1.82f)
+                close()
+                moveTo(14.03f, 21f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(4f)
+                close()
+            }
+        }.also { _SmartphoneAr = it}

@@ -1,0 +1,63 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _IndustrialPollution: ImageVector? = null
+
+val Icons.Bs.IndustrialPollution: ImageVector
+    get() = _IndustrialPollution ?: UXIcon(name = "IndustrialPollution") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17f, 8.15f)
+                lineToRelative(-8f, 5.5f)
+                verticalLineToRelative(-5.65f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(12.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(16f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-12.41f)
+                lineToRelative(-7f, 5f)
+                close()
+                moveTo(21f, 13.91f)
+                verticalLineToRelative(6.58f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-16f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.23f, -0.5f, -0.5f)
+                verticalLineToRelative(-12.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1.71f)
+                lineToRelative(5f, -3.44f)
+                verticalLineToRelative(5.06f)
+                lineToRelative(7f, -5f)
+                close()
+                moveTo(9.5f, 3f)
+                horizontalLineToRelative(-3.5f)
+                curveToRelative(1f, -2f, 3.35f, -3f, 5f, -3f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.64f, 0f, 1.22f, 0.25f, 1.66f, 0.65f)
+                curveToRelative(0.51f, -0.4f, 1.14f, -0.65f, 1.84f, -0.65f)
+                curveToRelative(0.73f, 0f, 1.39f, 0.27f, 1.91f, 0.71f)
+                curveToRelative(0.58f, -0.44f, 1.3f, -0.71f, 2.09f, -0.71f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(-1.57f, 3.5f, -3.5f, 3.5f)
+                curveToRelative(-1.1f, 0f, -2.06f, -0.52f, -2.71f, -1.3f)
+                curveToRelative(-0.39f, 0.19f, -0.83f, 0.3f, -1.29f, 0.3f)
+                curveToRelative(-1.0f, 0f, -1.88f, -0.5f, -2.43f, -1.25f)
+                curveToRelative(-0.33f, 0.16f, -0.69f, 0.25f, -1.07f, 0.25f)
+                curveToRelative(-0.81f, 0f, -1.53f, -0.4f, -1.99f, -1f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-0.28f, -0.44f, -0.65f, -0.96f, -1.5f, -1f)
+                close()
+            }
+        }.also { _IndustrialPollution = it}

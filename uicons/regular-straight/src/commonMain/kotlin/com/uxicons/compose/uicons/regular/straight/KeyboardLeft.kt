@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _KeyboardLeft: ImageVector? = null
+
+val Icons.Rs.KeyboardLeft: ImageVector
+    get() = _KeyboardLeft ?: UXIcon(name = "KeyboardLeft") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-14.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(13.5f)
+                horizontalLineToRelative(15f)
+                verticalLineToRelative(2f)
+                lineTo(7f, 21f)
+                lineTo(7f, 5.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(14.5f)
+                close()
+                moveTo(14.01f, 11.04f)
+                lineToRelative(-3f, -0.04f)
+                lineToRelative(-0.02f, 2f)
+                lineToRelative(3f, 0.04f)
+                lineToRelative(0.02f, -2f)
+                close()
+                moveTo(16f, 13f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(21f, 13f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13.99f, 6.96f)
+                lineToRelative(-3f, 0.04f)
+                lineToRelative(0.02f, 2f)
+                lineToRelative(3f, -0.04f)
+                lineToRelative(-0.02f, -2f)
+                close()
+                moveTo(19f, 7f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(21f, 9f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(15f, 17f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(13f, 17f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(3.88f, 7.29f)
+                lineToRelative(-3.29f, 3.29f)
+                curveToRelative(-0.78f, 0.78f, -0.78f, 2.05f, 0f, 2.83f)
+                lineToRelative(3.29f, 3.29f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-3.29f, -3.29f)
+                lineToRelative(3.29f, -3.29f)
+                lineToRelative(-1.41f, -1.41f)
+                close()
+            }
+        }.also { _KeyboardLeft = it}

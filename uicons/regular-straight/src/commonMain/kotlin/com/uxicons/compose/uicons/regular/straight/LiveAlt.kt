@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LiveAlt: ImageVector? = null
+
+val Icons.Rs.LiveAlt: ImageVector
+    get() = _LiveAlt ?: UXIcon(name = "LiveAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 4f)
+                curveToRelative(1.87f, 0f, 3.63f, 0.73f, 4.95f, 2.05f)
+                lineToRelative(-1.41f, 1.41f)
+                curveToRelative(-0.94f, -0.94f, -2.2f, -1.46f, -3.54f, -1.46f)
+                reflectiveCurveToRelative(-2.59f, 0.52f, -3.54f, 1.46f)
+                lineToRelative(-1.41f, -1.41f)
+                curveToRelative(1.32f, -1.32f, 3.08f, -2.05f, 4.95f, -2.05f)
+                close()
+                moveTo(18.36f, 4.64f)
+                lineToRelative(1.41f, -1.41f)
+                curveTo(15.49f, -1.07f, 8.51f, -1.07f, 4.22f, 3.22f)
+                lineToRelative(1.41f, 1.41f)
+                curveToRelative(3.51f, -3.51f, 9.22f, -3.51f, 12.73f, 0f)
+                close()
+                moveTo(24f, 13f)
+                verticalLineToRelative(11f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-11f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(22f, 13f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                lineTo(3f, 12f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(-9f)
+                close()
+                moveTo(5f, 13f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-6f)
+                close()
+                moveTo(17f, 21f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(8f)
+                close()
+                moveTo(7f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(8f)
+                close()
+                moveTo(14f, 13.36f)
+                lineToRelative(-1f, 3.5f)
+                lineToRelative(-1f, -3.5f)
+                verticalLineToRelative(-0.36f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(0.5f)
+                lineToRelative(2.12f, 7.5f)
+                horizontalLineToRelative(1.78f)
+                lineToRelative(2.06f, -7.22f)
+                lineToRelative(0.04f, -0.78f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(0.36f)
+                close()
+            }
+        }.also { _LiveAlt = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ScannerKeyboard: ImageVector? = null
+
+val Icons.Bs.ScannerKeyboard: ImageVector
+    get() = _ScannerKeyboard ?: UXIcon(name = "ScannerKeyboard") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11.5f, 7f)
+                lineTo(3.5f, 7f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(10f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                verticalLineToRelative(-10f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                close()
+                moveTo(12f, 20.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(3.5f, 21f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-10f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(8f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(10f)
+                close()
+                moveTo(5f, 17f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(8f, 17f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(5f, 12f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(10f, 5f)
+                horizontalLineToRelative(-3f)
+                lineTo(7f, 0f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(11.5f, 5f)
+                horizontalLineToRelative(-0.5f)
+                lineTo(11f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(5.21f)
+                curveToRelative(-0.48f, -0.14f, -0.98f, -0.21f, -1.5f, -0.21f)
+                close()
+                moveTo(18f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(-2f)
+                lineTo(18f, 0f)
+                close()
+                moveTo(24f, 0f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(-3f)
+                lineTo(21f, 0f)
+                horizontalLineToRelative(3f)
+                close()
+                moveTo(15f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(10.5f)
+                curveToRelative(0f, -1.7f, -0.78f, -3.23f, -2f, -4.24f)
+                lineTo(15f, 0f)
+                close()
+            }
+        }.also { _ScannerKeyboard = it}

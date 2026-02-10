@@ -1,0 +1,48 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TemperatureDown: ImageVector? = null
+
+val Icons.Bs.TemperatureDown: ImageVector
+    get() = _TemperatureDown ?: UXIcon(name = "TemperatureDown") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.5f, 8f)
+                lineToRelative(-3.29f, 3.29f)
+                arcToRelative(1f, 1f, 0f, isMoreThanHalf = false, isPositiveArc = true, -1.41f, 0f)
+                lineTo(15.5f, 8f)
+                lineTo(18f, 8f)
+                lineTo(18f, 0f)
+                horizontalLineToRelative(3f)
+                lineTo(21f, 8f)
+                close()
+                moveTo(9.5f, 13.44f)
+                lineTo(9.5f, 11f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2.44f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = true, isPositiveArc = false, 3f, 0f)
+                close()
+                moveTo(14f, 10.73f)
+                arcTo(7.91f, 7.91f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 16f)
+                arcTo(8f, 8f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 16f)
+                arcToRelative(7.91f, 7.91f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2f, -5.27f)
+                lineTo(2f, 6.04f)
+                arcToRelative(6f, 6f, 0f, isMoreThanHalf = false, isPositiveArc = true, 12f, 0f)
+                close()
+                moveTo(13f, 16f)
+                arcToRelative(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.54f, -3.59f)
+                lineTo(11f, 11.97f)
+                lineTo(11f, 6.04f)
+                arcToRelative(3f, 3f, 0f, isMoreThanHalf = true, isPositiveArc = false, -6f, 0f)
+                verticalLineToRelative(5.93f)
+                lineToRelative(-0.46f, 0.44f)
+                arcTo(4.95f, 4.95f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 16f)
+                arcToRelative(5f, 5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 10f, 0f)
+                close()
+            }
+        }.also { _TemperatureDown = it}

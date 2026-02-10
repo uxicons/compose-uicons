@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _HauteCuisine: ImageVector? = null
+
+val Icons.Tr.HauteCuisine: ImageVector
+    get() = _HauteCuisine ?: UXIcon(name = "HauteCuisine") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.5f, 15f)
+                horizontalLineToRelative(-23f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(5.28f)
+                curveToRelative(-2.08f, 1.11f, -3.66f, 3.07f, -4.25f, 5.49f)
+                lineToRelative(-0.48f, 1.89f)
+                curveToRelative(-0.08f, 0.31f, 0.17f, 0.62f, 0.49f, 0.62f)
+                curveToRelative(0.23f, 0f, 0.43f, -0.15f, 0.49f, -0.38f)
+                lineToRelative(0.48f, -1.89f)
+                curveToRelative(0.82f, -3.37f, 3.82f, -5.73f, 7.29f, -5.73f)
+                horizontalLineToRelative(3.71f)
+                curveToRelative(0.91f, 0f, 1.64f, 0.74f, 1.64f, 1.64f)
+                curveToRelative(0f, 0.81f, -0.61f, 1.51f, -1.41f, 1.62f)
+                lineToRelative(-5.16f, 0.74f)
+                curveToRelative(-0.27f, 0.04f, -0.46f, 0.29f, -0.42f, 0.57f)
+                reflectiveCurveToRelative(0.3f, 0.46f, 0.56f, 0.42f)
+                lineToRelative(5.16f, -0.74f)
+                curveToRelative(0.49f, -0.07f, 0.93f, -0.28f, 1.3f, -0.57f)
+                curveToRelative(0.03f, -0.02f, 3.81f, -3.31f, 3.81f, -3.31f)
+                curveToRelative(0.3f, -0.27f, 0.69f, -0.4f, 1.1f, -0.37f)
+                curveToRelative(0.4f, 0.03f, 0.77f, 0.21f, 1.03f, 0.52f)
+                curveToRelative(0.54f, 0.62f, 0.48f, 1.57f, -0.15f, 2.13f)
+                lineToRelative(-4.81f, 4.48f)
+                curveToRelative(-0.2f, 0.19f, -0.21f, 0.51f, -0.03f, 0.71f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.16f, 0.37f, 0.16f)
+                curveToRelative(0.12f, 0f, 0.24f, -0.04f, 0.34f, -0.13f)
+                lineToRelative(4.8f, -4.47f)
+                curveToRelative(0.98f, -0.87f, 1.11f, -2.36f, 0.33f, -3.39f)
+                horizontalLineToRelative(1.52f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(16.14f, 17.53f)
+                curveToRelative(-0.02f, -0.58f, -0.23f, -1.11f, -0.57f, -1.53f)
+                horizontalLineToRelative(2.33f)
+                close()
+                moveTo(14.05f, 8f)
+                horizontalLineToRelative(6.45f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-6.45f)
+                curveToRelative(0.23f, 1.14f, 1.24f, 2f, 2.45f, 2f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.76f, 0f, -3.22f, -1.31f, -3.46f, -3f)
+                horizontalLineToRelative(-9.54f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(9.54f)
+                curveToRelative(0.24f, -1.69f, 1.7f, -3f, 3.46f, -3f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.21f, 0f, -2.22f, 0.86f, -2.45f, 2f)
+                close()
+                moveTo(3.22f, 1.39f)
+                curveToRelative(1.01f, 1.15f, 3.37f, 2.61f, 6.29f, 2.61f)
+                curveToRelative(2.32f, 0f, 4.45f, -1.01f, 6.34f, -3f)
+                horizontalLineToRelative(4.65f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-16.76f)
+                curveToRelative(-0.69f, 0f, -0.97f, 0.88f, -0.51f, 1.39f)
+                close()
+                moveTo(14.42f, 1f)
+                curveToRelative(-1.55f, 1.37f, -3.27f, 2.03f, -5.05f, 2.0f)
+                curveToRelative(-2.43f, -0.1f, -4.24f, -1.2f, -5.11f, -2.0f)
+                close()
+            }
+        }.also { _HauteCuisine = it}

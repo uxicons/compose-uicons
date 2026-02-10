@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MosqueAlt: ImageVector? = null
+
+val Icons.Ts.MosqueAlt: ImageVector
+    get() = _MosqueAlt ?: UXIcon(name = "MosqueAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 21f)
+                lineTo(22f, 7f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.21f, -0.86f, -2.22f, -2f, -2.45f)
+                lineTo(20f, 0f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2.05f)
+                curveToRelative(-1.14f, 0.23f, -2f, 1.24f, -2f, 2.45f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-3.94f)
+                curveToRelative(1.23f, -1.15f, 2f, -2.58f, 2f, -3.85f)
+                curveToRelative(0f, -3.16f, -2.8f, -4.57f, -4.84f, -5.6f)
+                curveToRelative(-0.78f, -0.39f, -1.57f, -0.79f, -1.94f, -1.18f)
+                curveToRelative(-0.06f, -0.12f, -0.12f, -0.28f, -0.17f, -0.5f)
+                curveToRelative(0.66f, -0.16f, 1.2f, -0.63f, 1.44f, -1.25f)
+                curveToRelative(-0.23f, 0.09f, -0.48f, 0.14f, -0.74f, 0.14f)
+                curveToRelative(-1.14f, 0f, -2.07f, -0.93f, -2.07f, -2.07f)
+                curveToRelative(0f, -0.26f, 0.05f, -0.51f, 0.14f, -0.74f)
+                curveToRelative(-0.78f, 0.3f, -1.33f, 1.05f, -1.33f, 1.93f)
+                curveToRelative(0f, 0.91f, 0.59f, 1.68f, 1.41f, 1.95f)
+                curveToRelative(-0.06f, 0.31f, -0.14f, 0.5f, -0.21f, 0.62f)
+                curveToRelative(-0.4f, 0.36f, -1.13f, 0.73f, -1.85f, 1.1f)
+                curveToRelative(-2.04f, 1.03f, -4.84f, 2.44f, -4.84f, 5.6f)
+                curveToRelative(0f, 1.27f, 0.78f, 2.72f, 2f, 3.86f)
+                verticalLineToRelative(3.93f)
+                lineTo(0f, 21f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(22f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(18f, 4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(18f, 7f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(-3f)
+                lineTo(18f, 7f)
+                close()
+                moveTo(1f, 13.21f)
+                curveToRelative(0f, -2.55f, 2.28f, -3.7f, 4.29f, -4.71f)
+                curveToRelative(0.89f, -0.45f, 1.71f, -0.86f, 2.21f, -1.38f)
+                curveToRelative(0.5f, 0.51f, 1.32f, 0.93f, 2.21f, 1.38f)
+                curveToRelative(2.01f, 1.01f, 4.29f, 2.17f, 4.29f, 4.71f)
+                curveToRelative(0f, 1.22f, -1.05f, 2.79f, -2.52f, 3.79f)
+                lineTo(3.51f, 17f)
+                curveToRelative(-1.46f, -1.0f, -2.51f, -2.57f, -2.51f, -3.79f)
+                close()
+                moveTo(3f, 18f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(3f)
+                lineTo(3f, 21f)
+                verticalLineToRelative(-3f)
+                close()
+            }
+        }.also { _MosqueAlt = it}

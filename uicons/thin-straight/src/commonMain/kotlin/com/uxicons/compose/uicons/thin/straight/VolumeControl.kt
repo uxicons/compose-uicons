@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _VolumeControl: ImageVector? = null
+
+val Icons.Ts.VolumeControl: ImageVector
+    get() = _VolumeControl ?: UXIcon(name = "VolumeControl") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.78f, 12f)
+                lineToRelative(1.22f, 1f)
+                horizontalLineToRelative(-5.0f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(3.78f)
+                close()
+                moveTo(14f, 19f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(20f, 15f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(6f)
+                close()
+                moveTo(24f, 6f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                verticalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                verticalLineToRelative(1f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                close()
+                moveTo(8f, 19f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(10f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(23f, 23f)
+                horizontalLineToRelative(-22f)
+                verticalLineToRelative(-20.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(14.06f)
+                lineToRelative(1.22f, -1f)
+                horizontalLineToRelative(-15.28f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(21.5f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-14.56f)
+                curveToRelative(-0.31f, 0.18f, -0.65f, 0.32f, -1f, 0.42f)
+                verticalLineToRelative(13.14f)
+                close()
+                moveTo(21f, 12f)
+                lineTo(17.28f, 9f)
+                horizontalLineToRelative(-1.78f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(1.78f)
+                lineToRelative(3.72f, -3f)
+                close()
+                moveTo(20f, 2.12f)
+                lineTo(17.63f, 4f)
+                horizontalLineToRelative(-2.13f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(2.13f)
+                lineToRelative(2.37f, 1.89f)
+                close()
+            }
+        }.also { _VolumeControl = it}

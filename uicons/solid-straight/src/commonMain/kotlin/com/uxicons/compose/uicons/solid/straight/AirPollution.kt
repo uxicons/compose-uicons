@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AirPollution: ImageVector? = null
+
+val Icons.Ss.AirPollution: ImageVector
+    get() = _AirPollution ?: UXIcon(name = "AirPollution") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.07f, 17.49f)
+                lineToRelative(1.93f, 4.82f)
+                verticalLineToRelative(1.69f)
+                lineTo(0f, 24.0f)
+                verticalLineToRelative(-1.69f)
+                lineToRelative(1.93f, -4.82f)
+                curveToRelative(0.33f, -0.81f, 0.57f, -1.65f, 0.74f, -2.49f)
+                horizontalLineToRelative(11.66f)
+                curveToRelative(0.18f, 0.85f, 0.42f, 1.68f, 0.74f, 2.49f)
+                close()
+                moveTo(14f, 11.92f)
+                verticalLineToRelative(-4.92f)
+                lineTo(3f, 7f)
+                verticalLineToRelative(4.92f)
+                curveToRelative(0f, 0.36f, -0.03f, 0.72f, -0.05f, 1.08f)
+                horizontalLineToRelative(11.1f)
+                curveToRelative(-0.03f, -0.36f, -0.05f, -0.72f, -0.05f, -1.08f)
+                close()
+                moveTo(16f, 7f)
+                verticalLineToRelative(4.92f)
+                curveToRelative(0f, 0.32f, 0.02f, 0.63f, 0.05f, 0.94f)
+                lineToRelative(0.01f, 0.14f)
+                horizontalLineToRelative(5.0f)
+                curveToRelative(-0.03f, -0.36f, -0.05f, -0.72f, -0.05f, -1.08f)
+                verticalLineToRelative(-4.92f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(21.33f, 15f)
+                horizontalLineToRelative(-4.94f)
+                curveToRelative(0.15f, 0.61f, 0.32f, 1.2f, 0.54f, 1.75f)
+                lineToRelative(2.07f, 5.17f)
+                verticalLineToRelative(2.08f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-1.69f)
+                lineToRelative(-1.93f, -4.82f)
+                curveToRelative(-0.32f, -0.81f, -0.57f, -1.65f, -0.74f, -2.49f)
+                close()
+                moveTo(16f, 3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                curveToRelative(0.4f, 0f, 0.71f, 0.17f, 0.9f, 0.31f)
+                lineToRelative(0.5f, 0.38f)
+                lineToRelative(0.56f, -0.28f)
+                curveToRelative(0.22f, -0.11f, 0.94f, -0.4f, 1.55f, -0.4f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                curveToRelative(-0.74f, 0f, -1.45f, 0.21f, -1.92f, 0.39f)
+                curveToRelative(-0.49f, -0.25f, -1.03f, -0.39f, -1.58f, -0.39f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(7f, 3.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                curveToRelative(0.4f, 0f, 0.71f, 0.17f, 0.9f, 0.31f)
+                lineToRelative(0.6f, 0.46f)
+                lineToRelative(0.6f, -0.46f)
+                curveToRelative(0.19f, -0.14f, 0.49f, -0.31f, 0.9f, -0.31f)
+                curveToRelative(0.27f, 0f, 0.49f, 0.08f, 0.67f, 0.17f)
+                curveToRelative(0.17f, -0.67f, 0.45f, -1.28f, 0.83f, -1.83f)
+                curveToRelative(-0.0f, 0f, -0.0f, 0f, -0.0f, 0.0f)
+                curveToRelative(-0.94f, -0.45f, -2.06f, -0.45f, -3f, 0f)
+                curveToRelative(-0.47f, -0.23f, -0.98f, -0.34f, -1.5f, -0.34f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1.5f)
+                close()
+            }
+        }.also { _AirPollution = it}

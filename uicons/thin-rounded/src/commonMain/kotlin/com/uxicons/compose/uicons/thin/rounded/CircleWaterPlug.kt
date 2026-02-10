@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CircleWaterPlug: ImageVector? = null
+
+val Icons.Tr.CircleWaterPlug: ImageVector
+    get() = _CircleWaterPlug ?: UXIcon(name = "CircleWaterPlug") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.46f, 10.54f)
+                curveToRelative(0.94f, 0.94f, 2.2f, 1.46f, 3.54f, 1.46f)
+                reflectiveCurveToRelative(2.59f, -0.52f, 3.54f, -1.46f)
+                curveToRelative(1.92f, -1.92f, 1.96f, -5.05f, 0.08f, -7.27f)
+                curveToRelative(-0.0f, -0.0f, -0.01f, -0.01f, -0.01f, -0.01f)
+                lineToRelative(-2.55f, -2.82f)
+                curveToRelative(-0.23f, -0.22f, -0.5f, -0.43f, -1.05f, -0.43f)
+                curveToRelative(-0.5f, 0f, -0.83f, 0.21f, -1.08f, 0.46f)
+                lineToRelative(-2.54f, 2.81f)
+                curveToRelative(-1.88f, 2.22f, -1.85f, 5.35f, 0.08f, 7.27f)
+                close()
+                moveTo(16.14f, 3.92f)
+                lineTo(18.6f, 1.21f)
+                curveToRelative(0.15f, -0.17f, 0.3f, -0.22f, 0.42f, -0.22f)
+                reflectiveCurveToRelative(0.24f, 0.07f, 0.38f, 0.21f)
+                lineToRelative(2.45f, 2.72f)
+                curveToRelative(1.54f, 1.82f, 1.52f, 4.36f, -0.03f, 5.91f)
+                curveToRelative(-1.51f, 1.51f, -4.15f, 1.51f, -5.66f, 0f)
+                curveToRelative(-1.55f, -1.55f, -1.56f, -4.09f, -0.03f, -5.9f)
+                close()
+                moveTo(12.5f, 17.95f)
+                verticalLineToRelative(3.21f)
+                curveToRelative(0f, 0.88f, -0.4f, 1.7f, -1.1f, 2.24f)
+                curveToRelative(-0.5f, 0.39f, -1.1f, 0.59f, -1.72f, 0.59f)
+                curveToRelative(-0.24f, 0f, -0.47f, -0.03f, -0.71f, -0.09f)
+                curveToRelative(-5.28f, -1.37f, -8.97f, -6.22f, -8.97f, -11.91f)
+                curveToRelative(0f, -0.45f, 0.03f, -0.91f, 0.07f, -1.36f)
+                curveToRelative(0.61f, -5.51f, 5.05f, -9.95f, 10.56f, -10.56f)
+                curveToRelative(0.46f, -0.05f, 0.92f, -0.07f, 1.36f, -0.07f)
+                curveToRelative(1.1f, 0f, 1.84f, 0.11f, 2.61f, 0.28f)
+                curveToRelative(0.27f, 0.06f, 0.44f, 0.33f, 0.38f, 0.6f)
+                reflectiveCurveToRelative(-0.31f, 0.44f, -0.6f, 0.38f)
+                curveToRelative(-0.73f, -0.16f, -1.38f, -0.26f, -2.39f, -0.26f)
+                curveToRelative(-0.41f, 0f, -0.83f, 0.02f, -1.25f, 0.07f)
+                curveToRelative(-5.05f, 0.56f, -9.12f, 4.63f, -9.68f, 9.68f)
+                curveToRelative(-0.05f, 0.42f, -0.07f, 0.84f, -0.07f, 1.25f)
+                curveToRelative(0f, 5.18f, 3.38f, 9.68f, 8.22f, 10.94f)
+                curveToRelative(0.55f, 0.14f, 1.11f, 0.02f, 1.56f, -0.32f)
+                curveToRelative(0.45f, -0.35f, 0.71f, -0.88f, 0.71f, -1.45f)
+                verticalLineToRelative(-3.22f)
+                curveToRelative(-2.52f, -0.26f, -4.5f, -2.36f, -4.5f, -4.95f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, -0.22f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(0.22f, -0.5f, 0.5f, -0.5f)
+                horizontalLineToRelative(2.5f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                horizontalLineToRelative(-4.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                curveToRelative(2.04f, 0f, 3.75f, -1.53f, 3.98f, -3.56f)
+                curveToRelative(0.03f, -0.27f, 0.28f, -0.47f, 0.55f, -0.44f)
+                curveToRelative(0.27f, 0.03f, 0.47f, 0.28f, 0.44f, 0.55f)
+                curveToRelative(-0.26f, 2.36f, -2.15f, 4.17f, -4.47f, 4.4f)
+                close()
+                moveTo(23.9f, 13.56f)
+                curveToRelative(-0.6f, 4.59f, -3.84f, 8.46f, -8.25f, 9.87f)
+                curveToRelative(-0.26f, 0.08f, -0.55f, -0.06f, -0.63f, -0.33f)
+                curveToRelative(-0.08f, -0.26f, 0.06f, -0.54f, 0.32f, -0.63f)
+                curveToRelative(4.04f, -1.29f, 7.01f, -4.84f, 7.56f, -9.04f)
+                curveToRelative(0.04f, -0.27f, 0.29f, -0.47f, 0.56f, -0.43f)
+                curveToRelative(0.27f, 0.04f, 0.47f, 0.29f, 0.43f, 0.56f)
+                close()
+            }
+        }.also { _CircleWaterPlug = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TwoSwords: ImageVector? = null
+
+val Icons.Ts.TwoSwords: ImageVector
+    get() = _TwoSwords ?: UXIcon(name = "TwoSwords") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 14f)
+                curveToRelative(-0.53f, 0f, -2.31f, 0.26f, -4.25f, 1.3f)
+                lineToRelative(-3.31f, -3.31f)
+                lineToRelative(6.26f, -6.26f)
+                lineToRelative(1.26f, -3.85f)
+                curveToRelative(0.26f, -1.09f, -0.78f, -2.13f, -1.9f, -1.84f)
+                lineToRelative(-3.8f, 1.25f)
+                lineToRelative(-6.26f, 6.26f)
+                lineTo(5.74f, 1.3f)
+                lineTo(1.89f, 0.04f)
+                curveTo(0.8f, -0.22f, -0.24f, 0.82f, 0.05f, 1.94f)
+                lineToRelative(1.25f, 3.8f)
+                lineToRelative(6.26f, 6.26f)
+                lineToRelative(-3.31f, 3.31f)
+                curveToRelative(-1.93f, -1.04f, -3.72f, -1.3f, -4.24f, -1.3f)
+                verticalLineToRelative(1f)
+                curveToRelative(0.53f, 0f, 2.78f, 0.37f, 4.9f, 1.9f)
+                lineTo(0.46f, 21.34f)
+                curveToRelative(-0.61f, 0.61f, -0.61f, 1.6f, 0f, 2.21f)
+                curveToRelative(0.61f, 0.61f, 1.6f, 0.61f, 2.21f, 0f)
+                lineToRelative(4.44f, -4.44f)
+                curveToRelative(1.73f, 2.4f, 1.9f, 4.87f, 1.9f, 4.9f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -0.53f, -0.26f, -2.32f, -1.31f, -4.26f)
+                lineToRelative(3.31f, -3.31f)
+                lineToRelative(3.31f, 3.31f)
+                curveToRelative(-1.05f, 1.94f, -1.31f, 3.73f, -1.31f, 4.26f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -0.03f, 0.16f, -2.5f, 1.9f, -4.9f)
+                lineToRelative(4.44f, 4.44f)
+                curveToRelative(0.61f, 0.61f, 1.6f, 0.61f, 2.21f, 0f)
+                curveToRelative(0.61f, -0.61f, 0.61f, -1.6f, 0f, -2.21f)
+                lineToRelative(-4.44f, -4.44f)
+                curveToRelative(2.12f, -1.53f, 4.37f, -1.9f, 4.9f, -1.9f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(2.17f, 5.2f)
+                lineTo(1.01f, 1.68f)
+                curveToRelative(-0.11f, -0.36f, 0.28f, -0.75f, 0.61f, -0.68f)
+                lineToRelative(3.57f, 1.17f)
+                lineToRelative(6.09f, 6.09f)
+                lineToRelative(-3.03f, 3.03f)
+                lineTo(2.17f, 5.2f)
+                close()
+                moveTo(1.96f, 22.84f)
+                curveToRelative(-0.22f, 0.22f, -0.57f, 0.22f, -0.79f, 0f)
+                reflectiveCurveToRelative(-0.22f, -0.57f, 0f, -0.79f)
+                lineToRelative(4.54f, -4.54f)
+                curveToRelative(0.28f, 0.24f, 0.55f, 0.52f, 0.79f, 0.79f)
+                lineTo(1.96f, 22.84f)
+                close()
+                moveTo(8.15f, 18.86f)
+                curveToRelative(-0.73f, -1.13f, -1.9f, -2.3f, -3.03f, -3.03f)
+                lineTo(18.8f, 2.17f)
+                lineToRelative(3.52f, -1.16f)
+                curveToRelative(0.36f, -0.1f, 0.75f, 0.28f, 0.68f, 0.61f)
+                lineToRelative(-1.17f, 3.57f)
+                lineToRelative(-13.67f, 13.66f)
+                close()
+                moveTo(15.84f, 18.86f)
+                lineToRelative(-3.14f, -3.13f)
+                lineToRelative(3.03f, -3.03f)
+                lineToRelative(3.14f, 3.13f)
+                curveToRelative(-1.13f, 0.73f, -2.3f, 1.89f, -3.03f, 3.03f)
+                close()
+                moveTo(22.84f, 22.04f)
+                curveToRelative(0.22f, 0.22f, 0.22f, 0.57f, 0f, 0.79f)
+                reflectiveCurveToRelative(-0.57f, 0.22f, -0.79f, 0f)
+                lineToRelative(-4.52f, -4.52f)
+                curveToRelative(0.24f, -0.28f, 0.52f, -0.55f, 0.79f, -0.79f)
+                lineToRelative(4.52f, 4.52f)
+                close()
+            }
+        }.also { _TwoSwords = it}

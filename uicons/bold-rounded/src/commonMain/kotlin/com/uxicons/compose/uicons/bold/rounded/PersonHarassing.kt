@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PersonHarassing: ImageVector? = null
+
+val Icons.Br.PersonHarassing: ImageVector
+    get() = _PersonHarassing ?: UXIcon(name = "PersonHarassing") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(16f, 11.5f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+            reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+            reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+            close()
+            moveTo(12f, 3f)
+            horizontalLineToRelative(1f)
+            curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+            reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+            horizontalLineToRelative(-1f)
+            curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+            reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+            close()
+            moveTo(10.47f, 5.85f)
+            lineToRelative(1f, 0.62f)
+            curveToRelative(0.46f, 0.29f, 1.08f, 0.15f, 1.38f, -0.32f)
+            curveToRelative(0.29f, -0.47f, 0.15f, -1.09f, -0.32f, -1.38f)
+            lineToRelative(-1f, -0.62f)
+            curveToRelative(-0.47f, -0.29f, -1.09f, -0.15f, -1.38f, 0.32f)
+            curveToRelative(-0.29f, 0.47f, -0.15f, 1.09f, 0.32f, 1.38f)
+            close()
+            moveTo(6.5f, 5f)
+            curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+            reflectiveCurveTo(7.88f, 0f, 6.5f, 0f)
+            reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+            reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+            close()
+            moveTo(9f, 16.24f)
+            verticalLineToRelative(6.26f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-5.5f)
+            horizontalLineToRelative(-1f)
+            verticalLineToRelative(5.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-6.26f)
+            curveToRelative(-1.21f, -0.81f, -2f, -2.18f, -2f, -3.74f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -2.48f, 2.02f, -4.5f, 4.5f, -4.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+            verticalLineToRelative(2f)
+            curveToRelative(0f, 1.56f, -0.8f, 2.93f, -2f, 3.74f)
+            close()
+            moveTo(3f, 12.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(2f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            verticalLineToRelative(-2f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(22.31f, 14.13f)
+            curveToRelative(-1.31f, -0.45f, -2.73f, 0.25f, -3.17f, 1.56f)
+            lineToRelative(-1.36f, 3.99f)
+            lineToRelative(-3.4f, -2.41f)
+            curveToRelative(-0.38f, -0.27f, -0.86f, -0.35f, -1.31f, -0.21f)
+            curveToRelative(-0.44f, 0.14f, -0.8f, 0.47f, -0.96f, 0.91f)
+            lineToRelative(-1.5f, 4f)
+            curveToRelative(-0.29f, 0.78f, 0.1f, 1.64f, 0.88f, 1.93f)
+            curveToRelative(0.78f, 0.29f, 1.64f, -0.1f, 1.93f, -0.88f)
+            lineToRelative(0.82f, -2.18f)
+            lineToRelative(3.71f, 2.63f)
+            curveToRelative(0.5f, 0.35f, 1.09f, 0.53f, 1.68f, 0.53f)
+            curveToRelative(1.26f, 0.0f, 2.41f, -0.81f, 2.82f, -2.05f)
+            lineToRelative(1.43f, -4.65f)
+            curveToRelative(0.45f, -1.3f, -0.25f, -2.73f, -1.55f, -3.18f)
+            close()
+        }
+    }.also { _PersonHarassing = it }

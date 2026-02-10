@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _KPop: ImageVector? = null
+
+val Icons.Ts.KPop: ImageVector
+    get() = _KPop ?: UXIcon(name = "KPop") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.27f, 14.28f)
+                lineToRelative(-2.5f, -4.64f)
+                lineToRelative(2.28f, -4.26f)
+                curveToRelative(0.54f, -1.01f, 0.29f, -2.26f, -0.56f, -2.92f)
+                curveToRelative(-1.06f, -0.85f, -2.74f, -0.48f, -3.35f, 0.72f)
+                lineToRelative(-0.92f, 1.71f)
+                lineToRelative(-0.92f, -1.71f)
+                curveToRelative(-0.61f, -1.21f, -2.29f, -1.57f, -3.35f, -0.72f)
+                curveToRelative(-0.86f, 0.66f, -1.1f, 1.91f, -0.56f, 2.92f)
+                lineToRelative(1.62f, 3.04f)
+                curveToRelative(-0.55f, -0.04f, -1.11f, 0.11f, -1.56f, 0.46f)
+                curveToRelative(-0.55f, 0.42f, -0.84f, 1.09f, -0.85f, 1.78f)
+                curveToRelative(-0.66f, -0.2f, -1.39f, -0.04f, -1.95f, 0.38f)
+                curveToRelative(-0.63f, 0.48f, -0.93f, 1.29f, -0.84f, 2.06f)
+                curveToRelative(-0.63f, -0.12f, -1.28f, 0.03f, -1.79f, 0.42f)
+                curveToRelative(-0.86f, 0.66f, -1.1f, 1.91f, -0.57f, 2.92f)
+                lineToRelative(2.06f, 3.91f)
+                curveToRelative(0.87f, 1.62f, 2.31f, 2.81f, 4.08f, 3.35f)
+                curveToRelative(0.66f, 0.2f, 1.34f, 0.3f, 2.01f, 0.3f)
+                curveToRelative(1.12f, 0f, 2.23f, -0.28f, 3.26f, -0.82f)
+                lineToRelative(2.1f, -1.23f)
+                curveToRelative(2.76f, -1.47f, 3.81f, -4.91f, 2.33f, -7.67f)
+                close()
+                moveTo(20.01f, 3.66f)
+                curveToRelative(0.34f, -0.67f, 1.28f, -0.87f, 1.86f, -0.4f)
+                curveToRelative(0.47f, 0.36f, 0.6f, 1.07f, 0.29f, 1.65f)
+                lineToRelative(-1.97f, 3.67f)
+                lineToRelative(-1.42f, -2.64f)
+                lineToRelative(1.24f, -2.29f)
+                close()
+                moveTo(20.45f, 21.08f)
+                lineTo(18.35f, 22.3f)
+                curveToRelative(-1.39f, 0.74f, -2.98f, 0.9f, -4.49f, 0.44f)
+                reflectiveCurveToRelative(-2.74f, -1.48f, -3.48f, -2.86f)
+                lineToRelative(-2.06f, -3.91f)
+                curveToRelative(-0.31f, -0.58f, -0.19f, -1.29f, 0.29f, -1.65f)
+                curveToRelative(0.59f, -0.47f, 1.52f, -0.27f, 1.86f, 0.39f)
+                lineToRelative(1.54f, 2.95f)
+                lineToRelative(0.89f, -0.46f)
+                lineToRelative(-1.95f, -3.71f)
+                curveToRelative(-0.31f, -0.58f, -0.18f, -1.29f, 0.29f, -1.65f)
+                curveToRelative(0.56f, -0.45f, 1.44f, -0.29f, 1.81f, 0.32f)
+                lineToRelative(2.04f, 3.87f)
+                lineToRelative(0.89f, -0.47f)
+                lineToRelative(-2.24f, -4.23f)
+                curveToRelative(-0.31f, -0.58f, -0.19f, -1.29f, 0.29f, -1.65f)
+                curveToRelative(0.52f, -0.42f, 1.37f, -0.35f, 1.82f, 0.37f)
+                lineToRelative(2.32f, 4.34f)
+                lineToRelative(0.88f, -0.47f)
+                lineToRelative(-4.81f, -9f)
+                curveToRelative(-0.31f, -0.58f, -0.19f, -1.29f, 0.29f, -1.65f)
+                curveToRelative(0.59f, -0.47f, 1.52f, -0.27f, 1.87f, 0.4f)
+                lineToRelative(5.99f, 11.09f)
+                curveToRelative(1.21f, 2.27f, 0.35f, 5.11f, -1.94f, 6.33f)
+                close()
+                moveTo(11.06f, 3.27f)
+                curveToRelative(0f, -1.93f, -1.23f, -3.27f, -3f, -3.27f)
+                curveToRelative(-1.04f, 0f, -1.98f, 0.56f, -2.52f, 1.4f)
+                curveToRelative(-0.53f, -0.79f, -1.42f, -1.4f, -2.48f, -1.4f)
+                curveToRelative(-1.77f, 0f, -3f, 1.35f, -3f, 3.27f)
+                curveToRelative(0.12f, 3.37f, 5.09f, 6.68f, 5.5f, 7.0f)
+                curveToRelative(0.41f, -0.32f, 5.39f, -3.64f, 5.5f, -7.0f)
+                close()
+                moveTo(5.56f, 9.05f)
+                curveToRelative(-1.48f, -1.1f, -4.5f, -3.75f, -4.5f, -5.78f)
+                curveToRelative(0f, -1.36f, 0.8f, -2.27f, 2f, -2.27f)
+                curveToRelative(1.13f, 0f, 2f, 1.07f, 2f, 2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0f, -1.08f, 0.92f, -2f, 2f, -2f)
+                curveToRelative(1.2f, 0f, 2f, 0.91f, 2f, 2.27f)
+                curveToRelative(0f, 2.02f, -3.02f, 4.68f, -4.5f, 5.78f)
+                close()
+            }
+        }.also { _KPop = it}

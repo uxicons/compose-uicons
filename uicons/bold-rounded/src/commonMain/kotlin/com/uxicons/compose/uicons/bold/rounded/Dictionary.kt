@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Dictionary: ImageVector? = null
+
+val Icons.Br.Dictionary: ImageVector
+    get() = _Dictionary ?: UXIcon(name = "Dictionary") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(6.32f, 12.99f)
+            curveToRelative(0.36f, 0f, 0.67f, -0.24f, 0.75f, -0.59f)
+            lineToRelative(0.1f, -0.4f)
+            horizontalLineToRelative(2.15f)
+            lineToRelative(0.08f, 0.36f)
+            curveToRelative(0.08f, 0.37f, 0.41f, 0.64f, 0.79f, 0.64f)
+            curveToRelative(0.52f, 0f, 0.91f, -0.48f, 0.79f, -0.99f)
+            lineToRelative(-1.04f, -4.58f)
+            curveToRelative(-0.31f, -1.85f, -2.97f, -1.84f, -3.3f, -0.04f)
+            lineToRelative(-1.07f, 4.66f)
+            curveToRelative(-0.11f, 0.48f, 0.26f, 0.95f, 0.76f, 0.95f)
+            close()
+            moveTo(8.2f, 7.72f)
+            curveToRelative(0.02f, -0.07f, 0.05f, -0.12f, 0.1f, -0.12f)
+            curveToRelative(0.01f, 0.01f, 0.06f, 0.06f, 0.08f, 0.18f)
+            lineToRelative(0.58f, 2.62f)
+            horizontalLineToRelative(-1.41f)
+            lineToRelative(0.65f, -2.68f)
+            close()
+            moveTo(11.5f, 9.2f)
+            curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+            horizontalLineToRelative(0.4f)
+            curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+            horizontalLineToRelative(-0.4f)
+            curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+            close()
+            moveTo(14.18f, 10.95f)
+            lineToRelative(2.33f, -3.35f)
+            horizontalLineToRelative(-1.76f)
+            curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+            reflectiveCurveToRelative(0.36f, -0.8f, 0.8f, -0.8f)
+            horizontalLineToRelative(2.44f)
+            curveToRelative(0.72f, 0f, 1.31f, 0.58f, 1.31f, 1.31f)
+            curveToRelative(0f, 0.27f, -0.08f, 0.53f, -0.23f, 0.74f)
+            lineToRelative(-2.33f, 3.35f)
+            horizontalLineToRelative(1.76f)
+            curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(-0.36f, 0.8f, -0.8f, 0.8f)
+            horizontalLineToRelative(-2.44f)
+            curveToRelative(-0.72f, 0f, -1.31f, -0.58f, -1.31f, -1.31f)
+            curveToRelative(0f, -0.27f, 0.08f, -0.53f, 0.23f, -0.74f)
+            close()
+            moveTo(17.5f, 0f)
+            lineTo(6.5f, 0f)
+            curveTo(3.47f, 0f, 1f, 2.47f, 1f, 5.5f)
+            verticalLineToRelative(14f)
+            curveToRelative(0f, 0.1f, 0.01f, 0.2f, 0.03f, 0.3f)
+            curveToRelative(0.16f, 2.34f, 2.09f, 4.2f, 4.47f, 4.2f)
+            horizontalLineToRelative(12f)
+            curveToRelative(3.03f, 0f, 5.5f, -2.47f, 5.5f, -5.5f)
+            lineTo(23f, 5.5f)
+            curveToRelative(0f, -3.03f, -2.47f, -5.5f, -5.5f, -5.5f)
+            close()
+            moveTo(6.5f, 3f)
+            horizontalLineToRelative(11f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            lineTo(20f, 15f)
+            lineTo(5.5f, 15f)
+            curveToRelative(-0.53f, 0f, -1.03f, 0.11f, -1.5f, 0.28f)
+            lineTo(4f, 5.5f)
+            curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+            close()
+            moveTo(17.5f, 21f)
+            lineTo(5.5f, 21f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(14.5f)
+            verticalLineToRelative(0.5f)
+            curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+            close()
+        }
+    }.also { _Dictionary = it }

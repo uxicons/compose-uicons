@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PuzzleAlt: ImageVector? = null
+
+val Icons.Br.PuzzleAlt: ImageVector
+    get() = _PuzzleAlt ?: UXIcon(name = "PuzzleAlt") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(15.5f, 13f)
+            horizontalLineToRelative(-4.5f)
+            verticalLineToRelative(-4.5f)
+            curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+            horizontalLineToRelative(-3f)
+            curveTo(2.02f, 5f, 0f, 7.02f, 0f, 9.5f)
+            verticalLineToRelative(10f)
+            curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+            lineTo(14.5f, 24f)
+            curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+            verticalLineToRelative(-3f)
+            curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+            close()
+            moveTo(3f, 9.5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+            verticalLineToRelative(4.5f)
+            horizontalLineToRelative(-1.28f)
+            curveToRelative(0.18f, -0.59f, 0.28f, -1.17f, 0.28f, -1.5f)
+            curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+            curveToRelative(0f, 0.33f, 0.11f, 0.91f, 0.28f, 1.5f)
+            horizontalLineToRelative(-1.28f)
+            verticalLineToRelative(-3.5f)
+            close()
+            moveTo(8f, 21f)
+            horizontalLineToRelative(-3.5f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-3.5f)
+            horizontalLineToRelative(5f)
+            verticalLineToRelative(1.28f)
+            curveToRelative(-0.59f, -0.18f, -1.17f, -0.28f, -1.5f, -0.28f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            curveToRelative(0.33f, 0f, 0.91f, -0.11f, 1.5f, -0.28f)
+            verticalLineToRelative(1.28f)
+            close()
+            moveTo(16f, 19.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-3.5f)
+            verticalLineToRelative(-5f)
+            horizontalLineToRelative(1.28f)
+            curveToRelative(-0.18f, 0.59f, -0.28f, 1.17f, -0.28f, 1.5f)
+            curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+            reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+            curveToRelative(0f, -0.33f, -0.11f, -0.91f, -0.28f, -1.5f)
+            horizontalLineToRelative(0.79f)
+            curveToRelative(0.28f, 0f, 0.5f, 0.23f, 0.5f, 0.5f)
+            verticalLineToRelative(3f)
+            close()
+            moveTo(24f, 4f)
+            verticalLineToRelative(3.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-1.78f)
+            curveToRelative(0.18f, 0.59f, 0.28f, 1.17f, 0.28f, 1.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+            curveToRelative(0f, -0.33f, 0.11f, -0.91f, 0.28f, -1.5f)
+            horizontalLineToRelative(-1.78f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            verticalLineToRelative(-1.78f)
+            curveToRelative(0.59f, 0.18f, 1.17f, 0.28f, 1.5f, 0.28f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            curveToRelative(-0.33f, 0f, -0.91f, 0.11f, -1.5f, 0.28f)
+            lineTo(15f, 1.5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(3.5f)
+            curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+            close()
+        }
+    }.also { _PuzzleAlt = it }

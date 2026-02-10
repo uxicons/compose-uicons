@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _NfcTrash: ImageVector? = null
+
+val Icons.Rs.NfcTrash: ImageVector
+    get() = _NfcTrash ?: UXIcon(name = "NfcTrash") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 12f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(17f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(21f, 21f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(7f)
+                close()
+                moveTo(16f, 7.14f)
+                verticalLineToRelative(-1.14f)
+                horizontalLineToRelative(-3.59f)
+                lineToRelative(-2.41f, 2.41f)
+                verticalLineToRelative(5.59f)
+                horizontalLineToRelative(-2f)
+                lineTo(8f, 7.59f)
+                lineToRelative(3.59f, -3.59f)
+                horizontalLineToRelative(6.41f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.35f, 0f, -0.68f, 0.06f, -1f, 0.14f)
+                close()
+                moveTo(11f, 21f)
+                curveToRelative(0f, 0.34f, 0.04f, 0.68f, 0.1f, 1f)
+                lineTo(0f, 22f)
+                lineTo(0f, 3f)
+                curveTo(0f, 1.35f, 1.35f, 0f, 3f, 0f)
+                lineTo(19f, 0f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(5.38f)
+                curveToRelative(-0.52f, -0.6f, -1.21f, -1.04f, -2f, -1.24f)
+                lineTo(20f, 3f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                lineTo(3f, 2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                lineTo(2f, 20f)
+                lineTo(11f, 20f)
+                verticalLineToRelative(1f)
+                close()
+                moveTo(6f, 7.09f)
+                verticalLineToRelative(8.91f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                lineTo(4f, 18f)
+                lineTo(4f, 4f)
+                horizontalLineToRelative(5.23f)
+                lineToRelative(-3.23f, 3.09f)
+                close()
+            }
+        }.also { _NfcTrash = it}

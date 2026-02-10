@@ -1,0 +1,44 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FolderUpload: ImageVector? = null
+
+val Icons.Ss.FolderUpload: ImageVector
+    get() = _FolderUpload ?: UXIcon(name = "FolderUpload") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(0f, 23f)
+                lineTo(24f, 23f)
+                lineTo(24f, 9f)
+                lineTo(0f, 9f)
+                verticalLineToRelative(14f)
+                close()
+                moveTo(10.59f, 11.58f)
+                curveToRelative(0.78f, -0.78f, 2.04f, -0.77f, 2.81f, 0f)
+                lineToRelative(3.3f, 3.3f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-2.29f, -2.29f)
+                verticalLineToRelative(7.0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-7.01f)
+                lineToRelative(-2.29f, 2.3f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(3.3f, -3.3f)
+                close()
+                moveTo(24f, 6f)
+                verticalLineToRelative(1f)
+                lineTo(0f, 7f)
+                verticalLineToRelative(-3f)
+                curveTo(0f, 2.35f, 1.35f, 1f, 3f, 1f)
+                horizontalLineToRelative(5.24f)
+                lineToRelative(4f, 2f)
+                horizontalLineToRelative(8.76f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+            }
+        }.also { _FolderUpload = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FaceTongueSweat: ImageVector? = null
+
+val Icons.Ts.FaceTongueSweat: ImageVector
+    get() = _FaceTongueSweat ?: UXIcon(name = "FaceTongueSweat") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(7f, 10f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(15f, 10f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(4.64f, 8.28f)
+                lineToRelative(0.39f, 0.92f)
+                curveToRelative(1.75f, -0.75f, 3.18f, -1.94f, 4.13f, -3.43f)
+                lineToRelative(-0.84f, -0.54f)
+                curveToRelative(-0.84f, 1.33f, -2.11f, 2.38f, -3.68f, 3.05f)
+                close()
+                moveTo(19.42f, 8.28f)
+                curveToRelative(-1.58f, -0.67f, -2.88f, -1.73f, -3.76f, -3.06f)
+                lineToRelative(-0.83f, 0.55f)
+                curveToRelative(0.98f, 1.49f, 2.44f, 2.67f, 4.2f, 3.43f)
+                lineToRelative(0.39f, -0.92f)
+                close()
+                moveTo(24f, 12f)
+                curveTo(24f, 5.38f, 18.62f, 0f, 12f, 0f)
+                horizontalLineToRelative(0f)
+                curveTo(6.17f, 0f, 1.3f, 4.18f, 0.23f, 9.7f)
+                curveToRelative(0.21f, -0.24f, 0.41f, -0.45f, 0.54f, -0.57f)
+                lineToRelative(0.92f, -0.91f)
+                curveTo(3.23f, 4.01f, 7.27f, 1f, 12f, 1f)
+                curveToRelative(6.07f, 0f, 11f, 4.93f, 11f, 11f)
+                reflectiveCurveToRelative(-4.93f, 11f, -11f, 11f)
+                curveToRelative(-3.45f, 0f, -6.54f, -1.6f, -8.55f, -4.1f)
+                curveToRelative(-0.3f, 0.06f, -0.61f, 0.1f, -0.93f, 0.1f)
+                curveToRelative(-0.09f, 0f, -0.18f, -0.02f, -0.27f, -0.03f)
+                curveToRelative(2.18f, 3.04f, 5.73f, 5.03f, 9.75f, 5.03f)
+                horizontalLineToRelative(0f)
+                curveToRelative(6.62f, 0f, 12f, -5.38f, 12f, -12f)
+                close()
+                moveTo(2.52f, 17f)
+                curveTo(1.14f, 17f, 0.02f, 15.88f, 0.02f, 14.5f)
+                curveToRelative(0f, -1.82f, 2.06f, -3.87f, 2.15f, -3.96f)
+                lineToRelative(0.35f, -0.35f)
+                lineToRelative(0.35f, 0.35f)
+                curveToRelative(0.22f, 0.22f, 2.15f, 2.21f, 2.15f, 3.95f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                close()
+                moveTo(2.52f, 16f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                curveToRelative(0f, -0.93f, -0.9f, -2.16f, -1.5f, -2.87f)
+                curveToRelative(-0.61f, 0.69f, -1.5f, 1.92f, -1.5f, 2.87f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                close()
+                moveTo(12f, 13f)
+                curveToRelative(2.54f, 0f, 4.66f, 1.91f, 4.95f, 4.44f)
+                lineToRelative(0.06f, 0.56f)
+                horizontalLineToRelative(-2.04f)
+                curveToRelative(-0.2f, 1.52f, -1.3f, 3f, -2.97f, 3f)
+                reflectiveCurveToRelative(-2.77f, -1.48f, -2.97f, -3f)
+                horizontalLineToRelative(-2.04f)
+                lineToRelative(0.06f, -0.56f)
+                curveToRelative(0.28f, -2.53f, 2.41f, -4.44f, 4.95f, -4.44f)
+                close()
+                moveTo(14f, 17.5f)
+                verticalLineToRelative(-2.96f)
+                curveToRelative(-0.59f, -0.34f, -1.27f, -0.54f, -2f, -0.54f)
+                reflectiveCurveToRelative(-1.41f, 0.2f, -2f, 0.54f)
+                verticalLineToRelative(2.96f)
+                curveToRelative(0f, 1.2f, 0.77f, 2.5f, 2f, 2.5f)
+                reflectiveCurveToRelative(2f, -1.3f, 2f, -2.5f)
+                close()
+            }
+        }.also { _FaceTongueSweat = it}

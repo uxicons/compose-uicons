@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _VectorPolygon: ImageVector? = null
+
+val Icons.Ts.VectorPolygon: ImageVector
+    get() = _VectorPolygon ?: UXIcon(name = "VectorPolygon") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16f, 9.21f)
+                lineToRelative(3.21f, -3.21f)
+                horizontalLineToRelative(4.79f)
+                lineTo(24f, 0f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(2f)
+                lineTo(6f, 2f)
+                lineTo(6f, 0f)
+                lineTo(0f, 0f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                lineTo(0f, 18f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-4.79f)
+                lineToRelative(-3.21f, -3.21f)
+                verticalLineToRelative(-5.59f)
+                close()
+                moveTo(15f, 10f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(19f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                lineTo(19f, 1f)
+                close()
+                moveTo(1f, 1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                lineTo(1f, 5f)
+                lineTo(1f, 1f)
+                close()
+                moveTo(5f, 23f)
+                lineTo(1f, 23f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(6f, 21f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                lineTo(3f, 6f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(2.79f)
+                lineToRelative(-3.21f, 3.21f)
+                horizontalLineToRelative(-4.79f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(4.79f)
+                lineToRelative(3.21f, 3.21f)
+                verticalLineToRelative(2.79f)
+                lineTo(6f, 21f)
+                close()
+                moveTo(23f, 23f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(4f)
+                close()
+            }
+        }.also { _VectorPolygon = it}

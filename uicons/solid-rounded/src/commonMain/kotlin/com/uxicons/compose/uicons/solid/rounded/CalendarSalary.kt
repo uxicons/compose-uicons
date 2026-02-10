@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CalendarSalary: ImageVector? = null
+
+val Icons.Sr.CalendarSalary: ImageVector
+    get() = _CalendarSalary ?: UXIcon(name = "CalendarSalary") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 9f)
+                curveToRelative(-4.14f, 0f, -7.5f, 3.36f, -7.5f, 7.5f)
+                reflectiveCurveToRelative(3.36f, 7.5f, 7.5f, 7.5f)
+                reflectiveCurveToRelative(7.5f, -3.36f, 7.5f, -7.5f)
+                reflectiveCurveToRelative(-3.36f, -7.5f, -7.5f, -7.5f)
+                close()
+                moveTo(13.38f, 21f)
+                horizontalLineToRelative(-0.38f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                horizontalLineToRelative(-0.27f)
+                curveToRelative(-1.07f, 0f, -2.06f, -0.57f, -2.6f, -1.5f)
+                curveToRelative(-0.28f, -0.48f, -0.11f, -1.09f, 0.36f, -1.37f)
+                curveToRelative(0.48f, -0.28f, 1.09f, -0.11f, 1.37f, 0.36f)
+                curveToRelative(0.18f, 0.31f, 0.51f, 0.5f, 0.87f, 0.5f)
+                horizontalLineToRelative(2.64f)
+                curveToRelative(0.34f, 0f, 0.62f, -0.28f, 0.62f, -0.62f)
+                curveToRelative(0f, -0.31f, -0.22f, -0.56f, -0.52f, -0.62f)
+                lineToRelative(-3.29f, -0.55f)
+                curveToRelative(-1.27f, -0.21f, -2.19f, -1.3f, -2.19f, -2.59f)
+                curveToRelative(0f, -1.45f, 1.18f, -2.62f, 2.62f, -2.62f)
+                horizontalLineToRelative(0.38f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                horizontalLineToRelative(0.27f)
+                curveToRelative(1.07f, 0f, 2.06f, 0.57f, 2.6f, 1.5f)
+                curveToRelative(0.28f, 0.48f, 0.11f, 1.09f, -0.36f, 1.37f)
+                curveToRelative(-0.48f, 0.28f, -1.09f, 0.11f, -1.37f, -0.36f)
+                curveToRelative(-0.18f, -0.31f, -0.51f, -0.5f, -0.87f, -0.5f)
+                horizontalLineToRelative(-2.64f)
+                curveToRelative(-0.34f, 0f, -0.62f, 0.28f, -0.62f, 0.62f)
+                curveToRelative(0f, 0.31f, 0.22f, 0.56f, 0.52f, 0.62f)
+                lineToRelative(3.29f, 0.55f)
+                curveToRelative(1.27f, 0.21f, 2.19f, 1.3f, 2.19f, 2.59f)
+                curveToRelative(0f, 1.45f, -1.18f, 2.62f, -2.62f, 2.62f)
+                close()
+                moveTo(24f, 7f)
+                verticalLineToRelative(1f)
+                lineTo(0f, 8f)
+                verticalLineToRelative(-1f)
+                curveTo(0f, 4.24f, 2.24f, 2f, 5f, 2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                close()
+                moveTo(6.19f, 24f)
+                horizontalLineToRelative(-1.19f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                verticalLineToRelative(-9f)
+                horizontalLineToRelative(5.09f)
+                curveToRelative(-1.6f, 1.7f, -2.59f, 3.98f, -2.59f, 6.5f)
+                curveToRelative(0f, 3.05f, 1.45f, 5.76f, 3.69f, 7.5f)
+                close()
+                moveTo(18.91f, 10f)
+                horizontalLineToRelative(5.09f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 2.76f, -2.24f, 5f, -5f, 5f)
+                horizontalLineToRelative(-1.19f)
+                curveToRelative(2.24f, -1.74f, 3.69f, -4.45f, 3.69f, -7.5f)
+                curveToRelative(0f, -2.52f, -0.99f, -4.8f, -2.59f, -6.5f)
+                close()
+            }
+        }.also { _CalendarSalary = it}

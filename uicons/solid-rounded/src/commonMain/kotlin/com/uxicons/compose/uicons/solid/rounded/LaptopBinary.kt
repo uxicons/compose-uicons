@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LaptopBinary: ImageVector? = null
+
+val Icons.Sr.LaptopBinary: ImageVector
+    get() = _LaptopBinary ?: UXIcon(name = "LaptopBinary") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.1f, 10.5f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.5f, 0.4f, -0.9f, 0.9f, -0.9f)
+                reflectiveCurveToRelative(0.9f, 0.4f, 0.9f, 0.9f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.5f, -0.4f, 0.9f, -0.9f, 0.9f)
+                reflectiveCurveToRelative(-0.9f, -0.4f, -0.9f, -0.9f)
+                close()
+                moveTo(7f, 11.4f)
+                curveToRelative(0.5f, 0f, 0.9f, -0.4f, 0.9f, -0.9f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.5f, -0.4f, -0.9f, -0.9f, -0.9f)
+                reflectiveCurveToRelative(-0.9f, 0.4f, -0.9f, 0.9f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.5f, 0.4f, 0.9f, 0.9f, 0.9f)
+                close()
+                moveTo(22f, 17f)
+                horizontalLineToRelative(-6.92f)
+                curveToRelative(-0.47f, 0f, -0.92f, 0.21f, -1.22f, 0.57f)
+                lineToRelative(-0.2f, 0.23f)
+                horizontalLineToRelative(-3.32f)
+                lineToRelative(-0.2f, -0.23f)
+                curveToRelative(-0.3f, -0.36f, -0.75f, -0.57f, -1.22f, -0.57f)
+                lineTo(2f, 17f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                lineTo(22f, 21f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(22f, 7.5f)
+                verticalLineToRelative(7.61f)
+                curveToRelative(-0.32f, -0.07f, -0.66f, -0.11f, -1f, -0.11f)
+                horizontalLineToRelative(-5.15f)
+                curveToRelative(-0.98f, 0f, -1.92f, 0.36f, -2.65f, 1f)
+                horizontalLineToRelative(-2.4f)
+                curveToRelative(-0.73f, -0.64f, -1.66f, -1f, -2.65f, -1f)
+                lineTo(3f, 15f)
+                curveToRelative(-0.34f, 0f, -0.68f, 0.04f, -1f, 0.11f)
+                lineTo(2f, 7.5f)
+                curveToRelative(0f, -2.48f, 2.02f, -4.5f, 4.5f, -4.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                close()
+                moveTo(9.5f, 7.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13.3f, 5.8f)
+                curveToRelative(0f, -0.44f, -0.36f, -0.8f, -0.8f, -0.8f)
+                curveToRelative(-0.26f, 0f, -0.48f, 0.13f, -0.62f, 0.32f)
+                lineToRelative(-1.37f, 1.49f)
+                curveToRelative(-0.32f, 0.35f, -0.29f, 0.9f, 0.06f, 1.22f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.33f, 0.3f, 0.81f, 0.28f, 1.14f, -0.0f)
+                verticalLineToRelative(4.17f)
+                curveToRelative(0f, 0.44f, 0.36f, 0.8f, 0.8f, 0.8f)
+                reflectiveCurveToRelative(0.8f, -0.36f, 0.8f, -0.8f)
+                lineTo(13.3f, 5.8f)
+                close()
+                moveTo(19.5f, 7.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.38f, 1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-3f)
+                close()
+            }
+        }.also { _LaptopBinary = it}

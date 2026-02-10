@@ -1,0 +1,33 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _F: ImageVector? = null
+
+val Icons.Sr.F: ImageVector
+    get() = _F ?: UXIcon(name = "F") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21f, 0f)
+                horizontalLineTo(7f)
+                curveTo(4.24f, 0f, 2f, 2.24f, 2f, 5f)
+                verticalLineTo(23f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineTo(13f)
+                horizontalLineToRelative(13f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineTo(4f)
+                verticalLineTo(5f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+            }
+        }.also { _F = it}

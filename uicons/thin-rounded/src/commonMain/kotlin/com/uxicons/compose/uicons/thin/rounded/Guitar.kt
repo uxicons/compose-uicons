@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Guitar: ImageVector? = null
+
+val Icons.Tr.Guitar: ImageVector
+    get() = _Guitar ?: UXIcon(name = "Guitar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9.5f, 12f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(9.5f, 16f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(6.85f, 19.15f)
+                curveToRelative(0.2f, 0.2f, 0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(-0.1f, 0.1f, -0.23f, 0.15f, -0.35f, 0.15f)
+                reflectiveCurveToRelative(-0.26f, -0.05f, -0.35f, -0.15f)
+                lineToRelative(-2f, -2f)
+                curveToRelative(-0.2f, -0.2f, -0.2f, -0.51f, 0f, -0.71f)
+                reflectiveCurveToRelative(0.51f, -0.2f, 0.71f, 0f)
+                lineToRelative(2f, 2f)
+                close()
+                moveTo(23.34f, 0.66f)
+                curveToRelative(-0.89f, -0.89f, -2.32f, -0.89f, -3.21f, 0f)
+                lineToRelative(-0.21f, 0.21f)
+                curveToRelative(-1.19f, 1.19f, -1.86f, 2.74f, -1.91f, 4.41f)
+                lineToRelative(-2.19f, 2.19f)
+                curveToRelative(-2.25f, -1.93f, -5.48f, -1.99f, -7.4f, -0.07f)
+                curveToRelative(-0.15f, 0.15f, -0.28f, 0.3f, -0.4f, 0.46f)
+                curveToRelative(-0.52f, 0.69f, -1.2f, 1.1f, -1.91f, 1.16f)
+                curveToRelative(-1.63f, 0.13f, -3.07f, 0.78f, -4.18f, 1.89f)
+                curveToRelative(-2.76f, 2.76f, -2.5f, 7.51f, 0.57f, 10.59f)
+                curveToRelative(1.65f, 1.65f, 3.78f, 2.49f, 5.82f, 2.49f)
+                curveToRelative(1.77f, 0f, 3.48f, -0.63f, 4.77f, -1.91f)
+                curveToRelative(1.11f, -1.11f, 1.76f, -2.56f, 1.89f, -4.18f)
+                curveToRelative(0.06f, -0.71f, 0.47f, -1.39f, 1.16f, -1.91f)
+                curveToRelative(0.16f, -0.12f, 0.31f, -0.25f, 0.46f, -0.4f)
+                curveToRelative(1.92f, -1.92f, 1.86f, -5.15f, -0.07f, -7.4f)
+                lineToRelative(2.19f, -2.19f)
+                curveToRelative(1.67f, -0.05f, 3.23f, -0.73f, 4.41f, -1.91f)
+                lineToRelative(0.21f, -0.21f)
+                curveToRelative(0.88f, -0.88f, 0.88f, -2.32f, 0f, -3.21f)
+                close()
+                moveTo(15.88f, 14.88f)
+                curveToRelative(-0.11f, 0.11f, -0.23f, 0.22f, -0.35f, 0.31f)
+                curveToRelative(-0.92f, 0.7f, -1.47f, 1.63f, -1.55f, 2.63f)
+                curveToRelative(-0.11f, 1.39f, -0.67f, 2.62f, -1.6f, 3.55f)
+                curveToRelative(-2.37f, 2.37f, -6.49f, 2.11f, -9.18f, -0.57f)
+                curveToRelative(-2.69f, -2.69f, -2.94f, -6.8f, -0.57f, -9.18f)
+                curveToRelative(0.94f, -0.94f, 2.17f, -1.49f, 3.55f, -1.6f)
+                curveToRelative(1f, -0.08f, 1.94f, -0.63f, 2.63f, -1.55f)
+                curveToRelative(0.09f, -0.12f, 0.2f, -0.24f, 0.31f, -0.35f)
+                curveToRelative(0.75f, -0.75f, 1.75f, -1.12f, 2.8f, -1.12f)
+                curveToRelative(1.09f, 0f, 2.23f, 0.4f, 3.18f, 1.19f)
+                lineToRelative(-1.95f, 1.95f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                curveToRelative(0.1f, 0.1f, 0.23f, 0.15f, 0.35f, 0.15f)
+                reflectiveCurveToRelative(0.26f, -0.05f, 0.35f, -0.15f)
+                lineToRelative(1.96f, -1.96f)
+                curveToRelative(1.54f, 1.85f, 1.61f, 4.45f, 0.07f, 5.98f)
+                close()
+                moveTo(22.63f, 3.16f)
+                lineToRelative(-0.21f, 0.21f)
+                curveToRelative(-0.92f, 0.92f, -2.11f, 1.48f, -3.39f, 1.6f)
+                curveToRelative(0.12f, -1.28f, 0.68f, -2.47f, 1.6f, -3.39f)
+                lineToRelative(0.21f, -0.21f)
+                curveToRelative(0.25f, -0.25f, 0.57f, -0.37f, 0.9f, -0.37f)
+                reflectiveCurveToRelative(0.65f, 0.12f, 0.9f, 0.37f)
+                curveToRelative(0.49f, 0.49f, 0.49f, 1.3f, 0f, 1.79f)
+                close()
+            }
+        }.also { _Guitar = it}

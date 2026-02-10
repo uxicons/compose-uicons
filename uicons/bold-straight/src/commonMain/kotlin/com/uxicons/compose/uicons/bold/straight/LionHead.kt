@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LionHead: ImageVector? = null
+
+val Icons.Bs.LionHead: ImageVector
+    get() = _LionHead ?: UXIcon(name = "LionHead") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16f, 5f)
+                reflectiveCurveToRelative(-2f, 0f, -4f, 1.5f)
+                curveToRelative(-2f, -1.5f, -4f, -1.5f, -4f, -1.5f)
+                curveToRelative(0f, 0f, -2f, 2.5f, -2f, 3.5f)
+                curveToRelative(0f, 1.3f, 0.94f, 3.18f, 1.5f, 4f)
+                lineToRelative(-0.75f, 2.02f)
+                lineToRelative(3.73f, 2.98f)
+                horizontalLineToRelative(0.53f)
+                verticalLineToRelative(-2.5f)
+                lineToRelative(-1f, -1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1f)
+                lineToRelative(-1f, 1f)
+                verticalLineToRelative(2.5f)
+                horizontalLineToRelative(0.53f)
+                lineToRelative(3.73f, -2.98f)
+                lineToRelative(-0.75f, -2.02f)
+                curveToRelative(0.56f, -0.82f, 1.5f, -2.7f, 1.5f, -4f)
+                curveToRelative(0f, -1f, -2f, -3.5f, -2f, -3.5f)
+                close()
+                moveTo(9.25f, 11f)
+                curveToRelative(-0.69f, 0f, -1.25f, -0.56f, -1.25f, -1.25f)
+                reflectiveCurveToRelative(0.56f, -1.25f, 1.25f, -1.25f)
+                reflectiveCurveToRelative(1.25f, 0.56f, 1.25f, 1.25f)
+                reflectiveCurveToRelative(-0.56f, 1.25f, -1.25f, 1.25f)
+                close()
+                moveTo(14.75f, 11f)
+                curveToRelative(-0.69f, 0f, -1.25f, -0.56f, -1.25f, -1.25f)
+                reflectiveCurveToRelative(0.56f, -1.25f, 1.25f, -1.25f)
+                reflectiveCurveToRelative(1.25f, 0.56f, 1.25f, 1.25f)
+                reflectiveCurveToRelative(-0.56f, 1.25f, -1.25f, 1.25f)
+                close()
+                moveTo(24f, 6.5f)
+                reflectiveCurveTo(20.5f, 0f, 14f, 0f)
+                lineToRelative(-2f, 1f)
+                lineToRelative(-2f, -1f)
+                curveTo(3.5f, 0f, 0f, 6.5f, 0f, 6.5f)
+                lineToRelative(1.47f, -0.24f)
+                curveToRelative(-0.75f, 1.62f, -1.47f, 3.81f, -1.47f, 6.24f)
+                verticalLineToRelative(3.5f)
+                lineToRelative(1.49f, -1.36f)
+                curveToRelative(0.71f, 2.73f, 1.32f, 4.45f, 1.51f, 4.87f)
+                lineToRelative(1.34f, 2.95f)
+                lineToRelative(1.14f, -2.09f)
+                curveToRelative(2.62f, 1.81f, 6.37f, 3.6f, 6.52f, 3.64f)
+                curveToRelative(0.14f, -0.04f, 3.9f, -1.83f, 6.52f, -3.64f)
+                lineToRelative(1.14f, 2.09f)
+                lineToRelative(1.34f, -2.95f)
+                curveToRelative(0.19f, -0.42f, 0.8f, -2.14f, 1.51f, -4.87f)
+                lineToRelative(1.49f, 1.36f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -2.44f, -0.72f, -4.62f, -1.47f, -6.24f)
+                lineToRelative(1.47f, 0.24f)
+                close()
+                moveTo(19.61f, 13.88f)
+                curveToRelative(-0.27f, 1.05f, -0.52f, 1.91f, -0.73f, 2.58f)
+                lineToRelative(-2.07f, 1.43f)
+                curveToRelative(-1.52f, 1.05f, -3.54f, 2.14f, -4.81f, 2.78f)
+                curveToRelative(-1.27f, -0.64f, -3.3f, -1.73f, -4.81f, -2.78f)
+                lineToRelative(-2.07f, -1.43f)
+                curveToRelative(-0.21f, -0.68f, -0.46f, -1.54f, -0.73f, -2.58f)
+                lineToRelative(-1.04f, -4.0f)
+                curveToRelative(0.23f, -0.92f, 0.55f, -1.73f, 0.84f, -2.36f)
+                lineToRelative(1.38f, -2.99f)
+                curveToRelative(1.21f, -0.85f, 2.83f, -1.53f, 4.93f, -1.53f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(2.38f, 0f, 4.24f, 0.87f, 5.59f, 1.88f)
+                lineToRelative(1.22f, 2.64f)
+                curveToRelative(0.29f, 0.63f, 0.61f, 1.44f, 0.84f, 2.36f)
+                lineToRelative(-1.04f, 4.0f)
+                close()
+            }
+        }.also { _LionHead = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Bugs: ImageVector? = null
+
+val Icons.Ss.Bugs: ImageVector
+    get() = _Bugs ?: UXIcon(name = "Bugs") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 14f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.71f)
+                curveToRelative(-0.64f, -1.21f, -1.9f, -2f, -3.29f, -2f)
+                curveToRelative(-1.54f, 0f, -2.95f, 0.97f, -3.51f, 2.49f)
+                lineToRelative(-1.04f, 3.51f)
+                horizontalLineToRelative(-2.45f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, 0.71f, 0.15f, 1.39f, 0.42f, 2f)
+                horizontalLineToRelative(-0.42f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-0.03f)
+                curveToRelative(0.84f, 0.64f, 1.87f, 1.03f, 3f, 1.03f)
+                curveToRelative(1.12f, 0f, 2.14f, -0.38f, 2.97f, -1f)
+                horizontalLineToRelative(2.03f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-0.42f)
+                curveToRelative(0.27f, -0.61f, 0.42f, -1.29f, 0.42f, -2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2.46f)
+                lineToRelative(-0.59f, -2f)
+                horizontalLineToRelative(1.05f)
+                close()
+                moveTo(12f, 8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2.46f)
+                lineToRelative(-0.59f, -2f)
+                horizontalLineToRelative(1.05f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                lineTo(14f, 0f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.71f)
+                curveToRelative(-0.64f, -1.21f, -1.9f, -2f, -3.29f, -2f)
+                curveToRelative(-1.37f, 0f, -2.62f, 0.77f, -3.28f, 2f)
+                horizontalLineToRelative(-1.72f)
+                lineTo(2f, 0f)
+                lineTo(0f, 0f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                horizontalLineToRelative(1.04f)
+                lineToRelative(-0.59f, 2f)
+                lineTo(0f, 6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0f, 0.71f, 0.15f, 1.39f, 0.42f, 2f)
+                horizontalLineToRelative(-0.42f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-0.03f)
+                curveToRelative(0.84f, 0.64f, 1.87f, 1.03f, 3f, 1.03f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                close()
+            }
+        }.also { _Bugs = it}

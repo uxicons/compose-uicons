@@ -1,0 +1,84 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StoreLock: ImageVector? = null
+
+val Icons.Bs.StoreLock: ImageVector
+    get() = _StoreLock ?: UXIcon(name = "StoreLock") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23f, 15f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                reflectiveCurveToRelative(-4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(5f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(17f, 13.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(20f, 21f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(12.46f, 10f)
+                curveToRelative(0.1f, 0f, 0.2f, -0.01f, 0.29f, -0.03f)
+                curveToRelative(-0.48f, 0.91f, -0.75f, 1.94f, -0.75f, 3.03f)
+                horizontalLineToRelative(-0.54f)
+                curveToRelative(-1.15f, 0f, -2.2f, -0.43f, -3f, -1.15f)
+                curveToRelative(-0.8f, 0.71f, -1.85f, 1.15f, -3f, 1.15f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.17f, 0f, -0.34f, -0.01f, -0.5f, -0.03f)
+                verticalLineToRelative(7.53f)
+                curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(6.54f)
+                curveToRelative(0f, 1.1f, 0.37f, 2.12f, 0.98f, 2.95f)
+                curveToRelative(-0.17f, 0.03f, -0.34f, 0.05f, -0.52f, 0.05f)
+                lineTo(4.46f, 24f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                lineTo(0.96f, 11.32f)
+                curveTo(0.34f, 10.55f, -0.04f, 9.57f, -0.04f, 8.5f)
+                lineTo(2.33f, 0f)
+                lineTo(21.59f, 0f)
+                lineToRelative(2.37f, 8.5f)
+                curveToRelative(0f, 0.29f, -0.03f, 0.57f, -0.09f, 0.85f)
+                curveToRelative(-0.82f, -1.21f, -2.04f, -2.12f, -3.46f, -2.56f)
+                lineToRelative(-1.08f, -3.79f)
+                horizontalLineToRelative(-2.37f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                lineTo(13.96f, 3f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                lineTo(6.96f, 3f)
+                horizontalLineToRelative(-2.37f)
+                lineToRelative(-1.62f, 5.67f)
+                curveToRelative(0.09f, 0.74f, 0.72f, 1.32f, 1.49f, 1.32f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(1f)
+                close()
+            }
+        }.also { _StoreLock = it}

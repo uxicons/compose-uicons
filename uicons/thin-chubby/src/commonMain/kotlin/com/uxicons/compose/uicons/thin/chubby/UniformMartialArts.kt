@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UniformMartialArts: ImageVector? = null
+
+val Icons.Tc.UniformMartialArts: ImageVector
+    get() = _UniformMartialArts ?: UXIcon(name = "UniformMartialArts") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.45f, 3.92f)
+                curveToRelative(-0.02f, -0.14f, -0.11f, -0.26f, -0.23f, -0.34f)
+                curveToRelative(-0.17f, -0.1f, -4.15f, -2.58f, -10.22f, -2.58f)
+                reflectiveCurveToRelative(-10.06f, 2.47f, -10.22f, 2.58f)
+                curveToRelative(-0.12f, 0.08f, -0.2f, 0.2f, -0.23f, 0.34f)
+                curveToRelative(-0.27f, 1.54f, -0.55f, 4.47f, -0.55f, 8.09f)
+                curveToRelative(0f, 2.46f, 0.14f, 5.14f, 0.36f, 6.84f)
+                curveToRelative(0.03f, 0.2f, 0.18f, 0.37f, 0.38f, 0.42f)
+                curveToRelative(1.21f, 0.3f, 2.51f, 0.53f, 3.86f, 0.69f)
+                curveToRelative(0.21f, 1.33f, 0.4f, 2.1f, 0.42f, 2.17f)
+                curveToRelative(0.04f, 0.18f, 0.18f, 0.32f, 0.36f, 0.36f)
+                curveToRelative(0.08f, 0.02f, 2.1f, 0.52f, 5.62f, 0.52f)
+                reflectiveCurveToRelative(5.54f, -0.49f, 5.62f, -0.52f)
+                curveToRelative(0.18f, -0.04f, 0.32f, -0.18f, 0.36f, -0.36f)
+                curveToRelative(0.02f, -0.07f, 0.21f, -0.84f, 0.42f, -2.17f)
+                curveToRelative(1.35f, -0.16f, 2.66f, -0.39f, 3.86f, -0.69f)
+                curveToRelative(0.2f, -0.05f, 0.35f, -0.22f, 0.38f, -0.42f)
+                curveToRelative(0.22f, -1.7f, 0.36f, -4.38f, 0.36f, -6.84f)
+                curveToRelative(0f, -3.61f, -0.28f, -6.54f, -0.55f, -8.09f)
+                close()
+                moveTo(14.2f, 2.12f)
+                curveToRelative(-0.55f, 1.73f, -1.29f, 3.29f, -2.11f, 4.66f)
+                curveToRelative(-0.53f, -0.75f, -1.62f, -2.49f, -2.3f, -4.66f)
+                curveToRelative(0.7f, -0.07f, 1.44f, -0.12f, 2.21f, -0.12f)
+                reflectiveCurveToRelative(1.5f, 0.05f, 2.2f, 0.12f)
+                close()
+                moveTo(2.31f, 18.37f)
+                curveToRelative(-0.19f, -1.67f, -0.31f, -4.11f, -0.31f, -6.37f)
+                curveToRelative(0f, -3.37f, 0.26f, -6.19f, 0.5f, -7.69f)
+                curveToRelative(0.65f, -0.36f, 2.95f, -1.54f, 6.28f, -2.06f)
+                curveToRelative(0.85f, 2.84f, 2.36f, 4.95f, 2.74f, 5.44f)
+                curveToRelative(-2.07f, 3.13f, -4.44f, 5.17f, -5.49f, 5.98f)
+                curveToRelative(-0.02f, -0.54f, -0.03f, -1.1f, -0.03f, -1.67f)
+                curveToRelative(0f, -1.12f, 0.04f, -2.45f, 0.11f, -3.47f)
+                curveToRelative(0.02f, -0.28f, -0.19f, -0.51f, -0.47f, -0.53f)
+                curveToRelative(-0.27f, -0.03f, -0.51f, 0.19f, -0.53f, 0.47f)
+                curveToRelative(-0.07f, 1.04f, -0.11f, 2.39f, -0.11f, 3.53f)
+                curveToRelative(0f, 2.82f, 0.22f, 5.18f, 0.45f, 6.92f)
+                curveToRelative(-1.09f, -0.14f, -2.15f, -0.32f, -3.14f, -0.55f)
+                close()
+                moveTo(12f, 22f)
+                curveToRelative(-2.63f, 0f, -4.41f, -0.29f, -5.08f, -0.42f)
+                curveToRelative(-0.17f, -0.81f, -0.64f, -3.2f, -0.83f, -6.58f)
+                horizontalLineToRelative(4.66f)
+                curveToRelative(-0.46f, 0.55f, -0.97f, 1.33f, -1.23f, 2.38f)
+                curveToRelative(-0.07f, 0.27f, 0.1f, 0.54f, 0.36f, 0.61f)
+                curveToRelative(0.26f, 0.07f, 0.54f, -0.09f, 0.61f, -0.36f)
+                curveToRelative(0.32f, -1.28f, 1.1f, -2.11f, 1.51f, -2.48f)
+                curveToRelative(0.42f, 0.37f, 1.2f, 1.2f, 1.51f, 2.48f)
+                curveToRelative(0.07f, 0.27f, 0.34f, 0.43f, 0.61f, 0.36f)
+                curveToRelative(0.27f, -0.07f, 0.43f, -0.34f, 0.36f, -0.61f)
+                curveToRelative(-0.26f, -1.04f, -0.77f, -1.83f, -1.23f, -2.38f)
+                horizontalLineToRelative(4.66f)
+                curveToRelative(-0.19f, 3.38f, -0.66f, 5.77f, -0.83f, 6.58f)
+                curveToRelative(-0.67f, 0.13f, -2.45f, 0.42f, -5.08f, 0.42f)
+                close()
+                moveTo(21.69f, 18.37f)
+                curveToRelative(-0.99f, 0.23f, -2.05f, 0.41f, -3.14f, 0.55f)
+                curveToRelative(0.23f, -1.74f, 0.45f, -4.1f, 0.45f, -6.92f)
+                curveToRelative(0f, -1.14f, -0.04f, -2.5f, -0.11f, -3.53f)
+                curveToRelative(-0.02f, -0.28f, -0.25f, -0.49f, -0.53f, -0.47f)
+                curveToRelative(-0.28f, 0.02f, -0.48f, 0.26f, -0.47f, 0.53f)
+                curveToRelative(0.07f, 1.02f, 0.11f, 2.35f, 0.11f, 3.47f)
+                curveToRelative(0f, 0.69f, -0.01f, 1.36f, -0.04f, 2f)
+                horizontalLineToRelative(-10.73f)
+                curveToRelative(2.04f, -1.68f, 6.1f, -5.65f, 7.98f, -11.75f)
+                curveToRelative(3.34f, 0.52f, 5.64f, 1.7f, 6.29f, 2.06f)
+                curveToRelative(0.24f, 1.5f, 0.5f, 4.32f, 0.5f, 7.69f)
+                curveToRelative(0f, 2.26f, -0.12f, 4.71f, -0.31f, 6.37f)
+                close()
+            }
+        }.also { _UniformMartialArts = it}

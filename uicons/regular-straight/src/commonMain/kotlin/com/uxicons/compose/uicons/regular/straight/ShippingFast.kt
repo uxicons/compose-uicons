@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ShippingFast: ImageVector? = null
+
+val Icons.Rs.ShippingFast: ImageVector
+    get() = _ShippingFast ?: UXIcon(name = "ShippingFast") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 10f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(13f)
+                lineTo(2f, 17f)
+                verticalLineToRelative(-4f)
+                lineTo(0f, 13f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(2.04f)
+                curveToRelative(-0.02f, 0.17f, -0.04f, 0.33f, -0.04f, 0.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                curveToRelative(0f, -0.17f, -0.01f, -0.34f, -0.04f, -0.5f)
+                horizontalLineToRelative(6.07f)
+                curveToRelative(-0.02f, 0.17f, -0.04f, 0.33f, -0.04f, 0.5f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                reflectiveCurveToRelative(3.5f, -1.57f, 3.5f, -3.5f)
+                curveToRelative(0f, -0.17f, -0.01f, -0.34f, -0.04f, -0.5f)
+                horizontalLineToRelative(2.04f)
+                verticalLineToRelative(-9f)
+                close()
+                moveTo(7f, 19.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                curveToRelative(0f, -0.19f, 0.04f, -0.36f, 0.09f, -0.5f)
+                horizontalLineToRelative(2.82f)
+                curveToRelative(0.05f, 0.14f, 0.09f, 0.31f, 0.09f, 0.5f)
+                close()
+                moveTo(19f, 7f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(20f, 19.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                curveToRelative(0f, -0.19f, 0.04f, -0.36f, 0.09f, -0.5f)
+                horizontalLineToRelative(2.82f)
+                curveToRelative(0.05f, 0.14f, 0.09f, 0.31f, 0.09f, 0.5f)
+                close()
+                moveTo(17f, 17f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(10f, 3f)
+                lineTo(0f, 3f)
+                lineTo(0f, 1f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(8f, 7f)
+                lineTo(0f, 7f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(6f, 11f)
+                lineTo(0f, 11f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _ShippingFast = it}

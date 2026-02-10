@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Videoconference: ImageVector? = null
+
+val Icons.Bs.Videoconference: ImageVector
+    get() = _Videoconference ?: UXIcon(name = "Videoconference") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 16.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                lineTo(6f, 18f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(9f, 14f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(15f, 14f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(22f, 10.4f)
+                lineToRelative(-0.67f, 0.72f)
+                curveToRelative(-0.64f, 0.57f, -1.47f, 0.88f, -2.33f, 0.88f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-3.31f)
+                lineToRelative(-0.92f, 1f)
+                horizontalLineToRelative(-5.54f)
+                lineToRelative(-0.92f, -1f)
+                horizontalLineToRelative(-3.31f)
+                verticalLineToRelative(-10f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-3f)
+                lineTo(2f, 6f)
+                verticalLineToRelative(13f)
+                lineTo(0f, 19f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                horizontalLineToRelative(18f)
+                curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8.6f)
+                close()
+                moveTo(24f, 2f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-2.34f)
+                lineToRelative(-1.27f, 1.39f)
+                curveToRelative(-0.36f, 0.39f, -0.87f, 0.61f, -1.39f, 0.61f)
+                horizontalLineToRelative(-0.0f)
+                curveToRelative(-0.53f, -0.0f, -1.03f, -0.22f, -1.39f, -0.61f)
+                lineToRelative(-1.27f, -1.39f)
+                horizontalLineToRelative(-2.34f)
+                lineTo(14f, 2f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(6f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(21f, 3f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(0.66f)
+                lineToRelative(1.34f, 1.47f)
+                lineToRelative(1.34f, -1.47f)
+                horizontalLineToRelative(0.66f)
+                verticalLineToRelative(-2f)
+                close()
+            }
+        }.also { _Videoconference = it}

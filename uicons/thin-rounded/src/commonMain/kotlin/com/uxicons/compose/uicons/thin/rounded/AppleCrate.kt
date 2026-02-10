@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AppleCrate: ImageVector? = null
+
+val Icons.Tr.AppleCrate: ImageVector
+    get() = _AppleCrate ?: UXIcon(name = "AppleCrate") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.02f, 11.06f)
+                curveToRelative(0.63f, -0.87f, 0.98f, -1.94f, 0.98f, -3.06f)
+                curveToRelative(0f, -2.55f, -1.87f, -4.73f, -4.16f, -4.98f)
+                curveToRelative(0.09f, -0.07f, 0.18f, -0.15f, 0.27f, -0.23f)
+                curveToRelative(0.63f, -0.63f, 0.83f, -1.51f, 0.89f, -2.12f)
+                curveToRelative(0.04f, -0.38f, -0.29f, -0.71f, -0.67f, -0.67f)
+                curveToRelative(-0.61f, 0.06f, -1.49f, 0.27f, -2.12f, 0.89f)
+                curveToRelative(-0.28f, 0.28f, -0.48f, 0.62f, -0.62f, 0.96f)
+                curveTo(15.95f, 0.68f, 14.79f, 0.09f, 14.72f, 0.05f)
+                curveToRelative(-0.24f, -0.12f, -0.54f, -0.02f, -0.67f, 0.22f)
+                curveToRelative(-0.12f, 0.25f, -0.03f, 0.55f, 0.22f, 0.67f)
+                curveToRelative(0.01f, 0f, 1.38f, 0.72f, 1.67f, 2.05f)
+                horizontalLineToRelative(-1.36f)
+                curveToRelative(-0.92f, 0f, -1.83f, 0.32f, -2.6f, 0.9f)
+                curveToRelative(-0.63f, -0.48f, -1.37f, -0.79f, -2.16f, -0.87f)
+                curveToRelative(0.09f, -0.07f, 0.18f, -0.15f, 0.27f, -0.23f)
+                curveToRelative(0.63f, -0.63f, 0.83f, -1.51f, 0.89f, -2.12f)
+                curveToRelative(0.04f, -0.38f, -0.29f, -0.71f, -0.67f, -0.67f)
+                curveToRelative(-0.61f, 0.06f, -1.49f, 0.27f, -2.12f, 0.89f)
+                curveToRelative(-0.28f, 0.28f, -0.48f, 0.62f, -0.62f, 0.96f)
+                curveTo(6.95f, 0.68f, 5.79f, 0.09f, 5.72f, 0.05f)
+                curveToRelative(-0.24f, -0.12f, -0.54f, -0.02f, -0.67f, 0.22f)
+                curveToRelative(-0.12f, 0.25f, -0.03f, 0.55f, 0.22f, 0.67f)
+                curveToRelative(0.01f, 0f, 1.38f, 0.72f, 1.67f, 2.05f)
+                horizontalLineToRelative(-1.36f)
+                curveTo(3.1f, 3f, 1f, 5.29f, 1f, 8f)
+                curveToRelative(0f, 1.11f, 0.35f, 2.18f, 0.98f, 3.06f)
+                curveToRelative(-1.13f, 0.24f, -1.98f, 1.25f, -1.98f, 2.44f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -1.2f, -0.85f, -2.2f, -1.98f, -2.44f)
+                close()
+                moveTo(18.41f, 4f)
+                curveToRelative(1.95f, 0f, 3.59f, 1.83f, 3.59f, 4f)
+                curveToRelative(0f, 1.13f, -0.46f, 2.23f, -1.24f, 3f)
+                horizontalLineToRelative(-7.69f)
+                curveToRelative(0.6f, -0.86f, 0.94f, -1.91f, 0.94f, -3f)
+                curveToRelative(0f, -1.3f, -0.49f, -2.51f, -1.26f, -3.41f)
+                curveToRelative(0.56f, -0.39f, 1.2f, -0.59f, 1.86f, -0.59f)
+                horizontalLineToRelative(3.82f)
+                close()
+                moveTo(5.59f, 4f)
+                horizontalLineToRelative(3.82f)
+                curveToRelative(1.95f, 0f, 3.59f, 1.83f, 3.59f, 4f)
+                curveToRelative(0f, 1.14f, -0.45f, 2.23f, -1.24f, 3f)
+                lineTo(3.24f, 11f)
+                curveToRelative(-0.79f, -0.77f, -1.24f, -1.86f, -1.24f, -3f)
+                curveToRelative(0f, -2.17f, 1.64f, -4f, 3.59f, -4f)
+                close()
+                moveTo(23f, 19.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                lineTo(4.5f, 23f)
+                curveToRelative(-1.76f, 0f, -3.22f, -1.31f, -3.46f, -3f)
+                lineTo(19.5f, 20f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                lineTo(1f, 19f)
+                verticalLineToRelative(-3f)
+                lineTo(19.5f, 16f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                lineTo(1f, 15f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                lineTo(21.5f, 12f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(6f)
+                close()
+            }
+        }.also { _AppleCrate = it}

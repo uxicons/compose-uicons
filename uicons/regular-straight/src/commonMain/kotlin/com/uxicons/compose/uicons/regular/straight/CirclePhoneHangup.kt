@@ -1,0 +1,42 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CirclePhoneHangup: ImageVector? = null
+
+val Icons.Rs.CirclePhoneHangup: ImageVector
+    get() = _CirclePhoneHangup ?: UXIcon(name = "CirclePhoneHangup") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12f, 24f)
+                curveTo(5.38f, 24f, 0f, 18.62f, 0f, 12f)
+                reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                reflectiveCurveToRelative(-5.38f, 12f, -12f, 12f)
+                close()
+                moveTo(12f, 2f)
+                curveTo(6.49f, 2f, 2f, 6.49f, 2f, 12f)
+                reflectiveCurveToRelative(4.49f, 10f, 10f, 10f)
+                reflectiveCurveToRelative(10f, -4.49f, 10f, -10f)
+                reflectiveCurveTo(17.51f, 2f, 12f, 2f)
+                close()
+                moveTo(9f, 14f)
+                verticalLineToRelative(-2.59f)
+                curveToRelative(1.02f, -0.46f, 2.0f, -0.69f, 3f, -0.69f)
+                curveToRelative(0.95f, 0.01f, 1.93f, 0.23f, 3f, 0.69f)
+                verticalLineToRelative(2.59f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2.02f)
+                curveToRelative(0f, -0.77f, -0.32f, -1.46f, -0.83f, -1.96f)
+                curveToRelative(-1.38f, -1.38f, -3.78f, -2.03f, -6.17f, -2.02f)
+                curveToRelative(-2.44f, 0.01f, -4.87f, 0.71f, -6.17f, 2.02f)
+                curveToRelative(-0.5f, 0.5f, -0.83f, 1.19f, -0.83f, 1.96f)
+                verticalLineToRelative(2.02f)
+                horizontalLineToRelative(4f)
+                close()
+            }
+        }.also { _CirclePhoneHangup = it}

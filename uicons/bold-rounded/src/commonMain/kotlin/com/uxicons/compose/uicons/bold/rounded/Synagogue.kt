@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Synagogue: ImageVector? = null
+
+val Icons.Br.Synagogue: ImageVector
+    get() = _Synagogue ?: UXIcon(name = "Synagogue") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(22.64f, 10.2f)
+            lineToRelative(-0.86f, -0.62f)
+            curveToRelative(-0.82f, -0.6f, -1.86f, -0.73f, -2.78f, -0.4f)
+            verticalLineToRelative(-3.11f)
+            curveToRelative(0f, -1.06f, -0.51f, -2.06f, -1.36f, -2.68f)
+            lineToRelative(-3.86f, -2.81f)
+            curveToRelative(-1.06f, -0.77f, -2.49f, -0.77f, -3.56f, 0f)
+            lineToRelative(-3.86f, 2.81f)
+            curveToRelative(-0.85f, 0.62f, -1.36f, 1.62f, -1.36f, 2.68f)
+            verticalLineToRelative(3.11f)
+            curveToRelative(-0.92f, -0.32f, -1.96f, -0.19f, -2.78f, 0.4f)
+            lineToRelative(-0.86f, 0.62f)
+            curveToRelative(-0.85f, 0.62f, -1.36f, 1.62f, -1.36f, 2.68f)
+            verticalLineToRelative(6.12f)
+            curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+            horizontalLineToRelative(14f)
+            curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+            verticalLineToRelative(-6.12f)
+            curveToRelative(0f, -1.05f, -0.51f, -2.06f, -1.36f, -2.68f)
+            close()
+            moveTo(8.13f, 5.81f)
+            lineToRelative(3.89f, -2.81f)
+            lineToRelative(3.86f, 2.81f)
+            curveToRelative(0.08f, 0.06f, 0.13f, 0.15f, 0.13f, 0.25f)
+            verticalLineToRelative(14.94f)
+            horizontalLineToRelative(-2f)
+            verticalLineToRelative(-3f)
+            curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+            reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+            verticalLineToRelative(3f)
+            horizontalLineToRelative(-2f)
+            lineTo(8.0f, 6.06f)
+            curveToRelative(0f, -0.1f, 0.05f, -0.19f, 0.13f, -0.25f)
+            close()
+            moveTo(3.0f, 19.0f)
+            verticalLineToRelative(-6.12f)
+            curveToRelative(0f, -0.1f, 0.05f, -0.19f, 0.13f, -0.25f)
+            lineToRelative(0.89f, -0.62f)
+            lineToRelative(0.99f, 0.72f)
+            verticalLineToRelative(8.28f)
+            curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+            close()
+            moveTo(21.0f, 19.0f)
+            curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+            verticalLineToRelative(-8.27f)
+            lineToRelative(1.01f, -0.72f)
+            lineToRelative(0.86f, 0.62f)
+            curveToRelative(0.08f, 0.06f, 0.13f, 0.15f, 0.13f, 0.25f)
+            verticalLineToRelative(6.12f)
+            close()
+            moveTo(9.18f, 11.09f)
+            lineToRelative(0.65f, -1.09f)
+            lineToRelative(-0.65f, -1.09f)
+            curveToRelative(-0.21f, -0.35f, 0.04f, -0.81f, 0.46f, -0.81f)
+            horizontalLineToRelative(1.34f)
+            lineToRelative(0.57f, -0.95f)
+            curveToRelative(0.21f, -0.34f, 0.71f, -0.34f, 0.91f, 0f)
+            lineToRelative(0.57f, 0.95f)
+            horizontalLineToRelative(1.34f)
+            curveToRelative(0.41f, 0f, 0.67f, 0.45f, 0.46f, 0.81f)
+            lineToRelative(-0.65f, 1.09f)
+            lineToRelative(0.65f, 1.09f)
+            curveToRelative(0.21f, 0.35f, -0.04f, 0.81f, -0.46f, 0.81f)
+            horizontalLineToRelative(-1.34f)
+            lineToRelative(-0.57f, 0.95f)
+            curveToRelative(-0.21f, 0.34f, -0.71f, 0.34f, -0.91f, 0f)
+            lineToRelative(-0.57f, -0.95f)
+            horizontalLineToRelative(-1.34f)
+            curveToRelative(-0.41f, 0f, -0.67f, -0.45f, -0.46f, -0.81f)
+            close()
+        }
+    }.also { _Synagogue = it }

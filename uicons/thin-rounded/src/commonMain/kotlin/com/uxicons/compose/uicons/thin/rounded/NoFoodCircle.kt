@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _NoFoodCircle: ImageVector? = null
+
+val Icons.Tr.NoFoodCircle: ImageVector
+    get() = _NoFoodCircle ?: UXIcon(name = "NoFoodCircle") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 0f)
+                curveToRelative(-6.62f, 0f, -12f, 5.38f, -12f, 12f)
+                reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+                reflectiveCurveToRelative(12f, -5.38f, 12f, -12f)
+                reflectiveCurveToRelative(-5.38f, -12f, -12f, -12f)
+                close()
+                moveTo(23f, 12f)
+                curveToRelative(0f, 2.85f, -1.1f, 5.45f, -2.89f, 7.4f)
+                lineToRelative(-1.53f, -1.53f)
+                curveToRelative(0.27f, -0.41f, 0.42f, -0.88f, 0.42f, -1.37f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                horizontalLineToRelative(-1.91f)
+                lineToRelative(0.26f, -2.82f)
+                curveToRelative(0.05f, -0.56f, -0.14f, -1.12f, -0.52f, -1.53f)
+                reflectiveCurveToRelative(-0.92f, -0.65f, -1.48f, -0.65f)
+                horizontalLineToRelative(-1.67f)
+                lineToRelative(0.2f, -1.56f)
+                curveToRelative(0.03f, -0.25f, 0.24f, -0.44f, 0.5f, -0.44f)
+                horizontalLineToRelative(1.62f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1.62f)
+                curveToRelative(-0.76f, 0f, -1.4f, 0.56f, -1.49f, 1.31f)
+                lineToRelative(-0.21f, 1.69f)
+                horizontalLineToRelative(-2.48f)
+                lineToRelative(-3.11f, -3.11f)
+                curveToRelative(1.96f, -1.79f, 4.55f, -2.89f, 7.4f, -2.89f)
+                curveToRelative(6.07f, 0f, 11f, 4.93f, 11f, 11f)
+                close()
+                moveTo(12.86f, 8f)
+                curveToRelative(0.28f, 0f, 0.55f, 0.12f, 0.74f, 0.33f)
+                curveToRelative(0.19f, 0.21f, 0.28f, 0.48f, 0.26f, 0.77f)
+                lineToRelative(-0.26f, 2.91f)
+                horizontalLineToRelative(-0.88f)
+                lineToRelative(-4f, -4f)
+                horizontalLineToRelative(4.15f)
+                close()
+                moveTo(16.5f, 13f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(-2.29f)
+                lineToRelative(-2f, -2f)
+                close()
+                moveTo(18f, 16f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.23f, -0.07f, 0.44f, -0.16f, 0.63f)
+                lineToRelative(-1.13f, -1.13f)
+                close()
+                moveTo(1f, 12f)
+                curveToRelative(0f, -2.85f, 1.1f, -5.45f, 2.89f, -7.4f)
+                lineToRelative(15.52f, 15.52f)
+                curveToRelative(-1.96f, 1.79f, -4.55f, 2.89f, -7.4f, 2.89f)
+                curveToRelative(-6.07f, 0f, -11f, -4.93f, -11f, -11f)
+                close()
+                moveTo(15.46f, 19f)
+                horizontalLineToRelative(-6.68f)
+                curveToRelative(-1.56f, 0f, -2.85f, -1.17f, -2.99f, -2.73f)
+                lineToRelative(-0.65f, -7.09f)
+                curveToRelative(-0.01f, -0.16f, -0.0f, -0.32f, 0.02f, -0.48f)
+                lineToRelative(1.04f, 1.04f)
+                lineToRelative(0.58f, 6.44f)
+                curveToRelative(0.09f, 1.04f, 0.95f, 1.82f, 1.99f, 1.82f)
+                horizontalLineToRelative(1.73f)
+                curveToRelative(-0.32f, -0.42f, -0.51f, -0.94f, -0.51f, -1.5f)
+                verticalLineToRelative(-2.96f)
+                lineToRelative(1f, 1f)
+                verticalLineToRelative(1.97f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                horizontalLineToRelative(1.97f)
+                lineToRelative(1f, 1f)
+                close()
+            }
+        }.also { _NoFoodCircle = it}

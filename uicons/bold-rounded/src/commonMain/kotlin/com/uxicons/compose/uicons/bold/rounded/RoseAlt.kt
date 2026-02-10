@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RoseAlt: ImageVector? = null
+
+val Icons.Br.RoseAlt: ImageVector
+    get() = _RoseAlt ?: UXIcon(name = "RoseAlt") {
+        path(fill = SolidColor(Color.Black)) {
+            moveTo(23f, 7.7f)
+            curveTo(22f, 6.3f, 20.7f, 5.4f, 19f, 5.1f)
+            curveTo(18.8f, 5f, 18.5f, 5f, 18.3f, 5f)
+            curveToRelative(-0.6f, -1.7f, -1.7f, -3f, -2.6f, -3.7f)
+            curveToRelative(-1.3f, -1f, -2.8f, -1.4f, -4.2f, -1.2f)
+            curveToRelative(-1.6f, 0.3f, -3f, 1.1f, -4f, 2.5f)
+            curveTo(7.1f, 3f, 6.8f, 3.6f, 6.6f, 4.3f)
+            curveTo(5.1f, 4.4f, 3.8f, 4.7f, 2.8f, 5.3f)
+            curveTo(1.5f, 6.1f, 0.5f, 7.5f, 0.3f, 9f)
+            curveToRelative(-0.3f, 1.6f, 0.1f, 3.3f, 1f, 4.6f)
+            curveToRelative(0.3f, 0.5f, 0.7f, 0.9f, 1.2f, 1.3f)
+            curveToRelative(-0.6f, 1.8f, -0.7f, 3.6f, -0.3f, 5f)
+            curveToRelative(0.5f, 1.6f, 1.5f, 2.8f, 2.8f, 3.5f)
+            curveToRelative(1.5f, 0.7f, 3.2f, 0.8f, 4.7f, 0.3f)
+            curveToRelative(0.6f, -0.2f, 1.3f, -0.6f, 1.9f, -1.1f)
+            curveToRelative(1.6f, 0.9f, 3.1f, 1.4f, 4.4f, 1.4f)
+            curveToRelative(1.6f, 0f, 3.1f, -0.6f, 4.1f, -1.6f)
+            curveToRelative(1.2f, -1.2f, 1.8f, -2.7f, 1.8f, -4.4f)
+            curveToRelative(0f, -0.7f, -0.1f, -1.4f, -0.4f, -2.1f)
+            curveToRelative(1.3f, -1.3f, 2f, -2.7f, 2.2f, -3.8f)
+            curveTo(24f, 10.4f, 23.7f, 8.9f, 23f, 7.7f)
+            lineTo(23f, 7.7f)
+            close()
+            moveTo(11.9f, 3f)
+            curveToRelative(1.7f, -0.1f, 2.8f, 1.2f, 3.6f, 3.1f)
+            curveToRelative(0f, 0.1f, -0.1f, 0.2f, -0.1f, 0.4f)
+            curveToRelative(-1.8f, -1f, -3.8f, -1.7f, -5.7f, -2f)
+            curveTo(10.2f, 3.6f, 11f, 3.1f, 11.9f, 3f)
+            lineTo(11.9f, 3f)
+            close()
+            moveTo(3.2f, 9.5f)
+            curveToRelative(0.4f, -1.9f, 2.4f, -2.4f, 4.4f, -2.3f)
+            curveTo(6.1f, 8.6f, 4.7f, 10.3f, 3.8f, 12f)
+            curveTo(3.3f, 11.3f, 3.1f, 10.4f, 3.2f, 9.5f)
+            lineTo(3.2f, 9.5f)
+            close()
+            moveTo(8.8f, 20.9f)
+            curveToRelative(-1.5f, 0.5f, -3.2f, -0.1f, -3.7f, -1.8f)
+            curveToRelative(-0.3f, -0.9f, -0.1f, -2.3f, 0.5f, -3.9f)
+            curveToRelative(0.8f, 2.3f, 2f, 4.1f, 3.5f, 5.5f)
+            curveTo(9f, 20.8f, 8.9f, 20.8f, 8.8f, 20.9f)
+            close()
+            moveTo(9.4f, 14f)
+            curveToRelative(-0.6f, 0f, -1.1f, -0.4f, -1.2f, -0.9f)
+            curveTo(7.7f, 10.7f, 9.7f, 8.4f, 12f, 8.5f)
+            curveToRelative(0.2f, 0f, 0.4f, 0f, 0.6f, 0.1f)
+            curveToRelative(-1.5f, 0.8f, -2.3f, 2.5f, -2.1f, 4.2f)
+            curveTo(10.5f, 13.4f, 10f, 14f, 9.4f, 14f)
+            close()
+            moveTo(11.2f, 16.5f)
+            curveToRelative(1.6f, -0.8f, 2.4f, -2.5f, 2.3f, -4.3f)
+            curveToRelative(0f, -0.7f, 0.5f, -1.2f, 1.2f, -1.2f)
+            curveToRelative(1.3f, 0f, 1.3f, 1.4f, 1.3f, 1.6f)
+            curveToRelative(0f, 2.2f, -1.8f, 4f, -3.9f, 4f)
+            curveTo(11.7f, 16.5f, 11.4f, 16.5f, 11.2f, 16.5f)
+            close()
+            moveTo(17.9f, 20.3f)
+            curveToRelative(-1.7f, 1.3f, -3.4f, 0.6f, -5.7f, -0.9f)
+            curveToRelative(0.2f, 0f, 0.4f, 0f, 0.6f, 0f)
+            curveToRelative(2.5f, -0.1f, 4.5f, -0.7f, 6.1f, -1.6f)
+            curveTo(19f, 18.8f, 18.6f, 19.7f, 17.9f, 20.3f)
+            close()
+            moveTo(20.8f, 11.5f)
+            curveToRelative(-0.1f, 0.6f, -0.8f, 1.9f, -2.2f, 3f)
+            curveToRelative(0.4f, -1.2f, 0.4f, -2.6f, 0f, -3.9f)
+            curveToRelative(0.2f, -0.9f, 0.3f, -1.7f, 0.3f, -2.6f)
+            curveToRelative(0.7f, 0.2f, 1.2f, 0.7f, 1.6f, 1.3f)
+            curveTo(20.8f, 9.8f, 20.9f, 10.6f, 20.8f, 11.5f)
+            lineTo(20.8f, 11.5f)
+            close()
+        }
+    }.also { _RoseAlt = it }

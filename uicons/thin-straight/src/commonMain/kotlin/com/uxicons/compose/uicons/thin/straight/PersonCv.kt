@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PersonCv: ImageVector? = null
+
+val Icons.Ts.PersonCv: ImageVector
+    get() = _PersonCv ?: UXIcon(name = "PersonCv") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 13f)
+                horizontalLineToRelative(-10f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(8.5f)
+                horizontalLineToRelative(15f)
+                verticalLineToRelative(-8.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(23f, 23f)
+                horizontalLineToRelative(-13f)
+                verticalLineToRelative(-7.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(10f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(7.5f)
+                close()
+                moveTo(16f, 17f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(14f, 6f)
+                curveToRelative(0f, -3.31f, -2.69f, -6f, -6f, -6f)
+                reflectiveCurveTo(2f, 2.69f, 2f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                close()
+                moveTo(8f, 11f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                reflectiveCurveTo(5.24f, 1f, 8f, 1f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                reflectiveCurveToRelative(-2.24f, 5f, -5f, 5f)
+                close()
+                moveTo(4f, 14f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(6f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                close()
+                moveTo(20.41f, 15.26f)
+                horizontalLineToRelative(1.0f)
+                lineToRelative(-1.15f, 5.63f)
+                curveToRelative(-0.09f, 0.44f, -0.41f, 1.11f, -1.22f, 1.11f)
+                reflectiveCurveToRelative(-1.14f, -0.7f, -1.22f, -1.1f)
+                lineToRelative(-1.23f, -5.65f)
+                horizontalLineToRelative(1.03f)
+                lineToRelative(1.17f, 5.45f)
+                curveToRelative(0.02f, 0.13f, 0.08f, 0.23f, 0.16f, 0.27f)
+                curveToRelative(0.05f, 0.03f, 0.09f, 0.03f, 0.14f, 0.01f)
+                curveToRelative(0.06f, -0.03f, 0.14f, -0.13f, 0.17f, -0.29f)
+                lineToRelative(1.13f, -5.44f)
+                close()
+            }
+        }.also { _PersonCv = it}

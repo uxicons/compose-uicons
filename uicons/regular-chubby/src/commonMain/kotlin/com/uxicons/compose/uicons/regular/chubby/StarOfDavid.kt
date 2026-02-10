@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _StarOfDavid: ImageVector? = null
+
+val Icons.Rc.StarOfDavid: ImageVector
+    get() = _StarOfDavid ?: UXIcon(name = "StarOfDavid") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.34f, 12f)
+                curveToRelative(1.5f, -2.98f, 1.9f, -4.72f, 1.92f, -4.82f)
+                curveToRelative(0.11f, -0.51f, -0.18f, -1.01f, -0.68f, -1.17f)
+                curveToRelative(-0.1f, -0.03f, -1.92f, -0.59f, -5.47f, -0.86f)
+                curveToRelative(-1.9f, -2.55f, -3.26f, -3.75f, -3.45f, -3.91f)
+                curveToRelative(-0.37f, -0.32f, -0.92f, -0.32f, -1.3f, 0f)
+                curveToRelative(-0.2f, 0.17f, -1.55f, 1.36f, -3.45f, 3.91f)
+                curveToRelative(-3.56f, 0.28f, -5.38f, 0.83f, -5.47f, 0.86f)
+                curveToRelative(-0.49f, 0.15f, -0.79f, 0.66f, -0.68f, 1.17f)
+                curveToRelative(0.02f, 0.1f, 0.42f, 1.83f, 1.92f, 4.82f)
+                curveToRelative(-1.5f, 2.98f, -1.9f, 4.72f, -1.92f, 4.82f)
+                curveToRelative(-0.11f, 0.51f, 0.18f, 1.01f, 0.68f, 1.17f)
+                curveToRelative(0.1f, 0.03f, 1.92f, 0.59f, 5.48f, 0.86f)
+                curveToRelative(1.9f, 2.55f, 3.26f, 3.75f, 3.45f, 3.91f)
+                curveToRelative(0.37f, 0.32f, 0.92f, 0.32f, 1.3f, 0f)
+                curveToRelative(0.2f, -0.17f, 1.55f, -1.36f, 3.45f, -3.91f)
+                curveToRelative(3.56f, -0.28f, 5.38f, -0.83f, 5.47f, -0.86f)
+                curveToRelative(0.49f, -0.15f, 0.79f, -0.66f, 0.68f, -1.17f)
+                curveToRelative(-0.02f, -0.1f, -0.42f, -1.83f, -1.92f, -4.82f)
+                close()
+                moveTo(20.02f, 7.69f)
+                curveToRelative(-0.18f, 0.51f, -0.46f, 1.24f, -0.86f, 2.13f)
+                curveToRelative(-0.25f, -0.43f, -0.51f, -0.87f, -0.79f, -1.33f)
+                curveToRelative(-0.26f, -0.41f, -0.51f, -0.8f, -0.75f, -1.18f)
+                curveToRelative(1.03f, 0.12f, 1.85f, 0.26f, 2.4f, 0.38f)
+                close()
+                moveTo(16.66f, 14.46f)
+                curveToRelative(-0.57f, 0.92f, -1.12f, 1.73f, -1.63f, 2.45f)
+                curveToRelative(-0.91f, 0.05f, -1.92f, 0.09f, -3.04f, 0.09f)
+                reflectiveCurveToRelative(-2.12f, -0.04f, -3.03f, -0.09f)
+                curveToRelative(-0.51f, -0.72f, -1.06f, -1.53f, -1.63f, -2.45f)
+                curveToRelative(-0.55f, -0.89f, -1.01f, -1.71f, -1.42f, -2.46f)
+                curveToRelative(0.4f, -0.75f, 0.87f, -1.57f, 1.42f, -2.46f)
+                curveToRelative(0.57f, -0.92f, 1.12f, -1.73f, 1.63f, -2.45f)
+                curveToRelative(0.91f, -0.05f, 1.92f, -0.09f, 3.04f, -0.09f)
+                reflectiveCurveToRelative(2.12f, 0.04f, 3.04f, 0.09f)
+                curveToRelative(0.51f, 0.72f, 1.06f, 1.53f, 1.63f, 2.45f)
+                curveToRelative(0.55f, 0.89f, 1.01f, 1.71f, 1.42f, 2.46f)
+                curveToRelative(-0.4f, 0.75f, -0.87f, 1.57f, -1.42f, 2.46f)
+                close()
+                moveTo(12f, 3.38f)
+                curveToRelative(0.36f, 0.37f, 0.86f, 0.91f, 1.46f, 1.64f)
+                curveToRelative(-0.47f, -0.01f, -0.95f, -0.02f, -1.46f, -0.02f)
+                reflectiveCurveToRelative(-0.99f, 0.01f, -1.46f, 0.02f)
+                curveToRelative(0.6f, -0.72f, 1.1f, -1.27f, 1.46f, -1.64f)
+                close()
+                moveTo(3.98f, 7.69f)
+                curveToRelative(0.56f, -0.12f, 1.37f, -0.25f, 2.4f, -0.38f)
+                curveToRelative(-0.25f, 0.38f, -0.5f, 0.76f, -0.75f, 1.18f)
+                curveToRelative(-0.29f, 0.46f, -0.55f, 0.9f, -0.79f, 1.33f)
+                curveToRelative(-0.4f, -0.89f, -0.68f, -1.62f, -0.86f, -2.13f)
+                close()
+                moveTo(3.98f, 16.31f)
+                curveToRelative(0.18f, -0.51f, 0.46f, -1.24f, 0.86f, -2.13f)
+                curveToRelative(0.25f, 0.43f, 0.51f, 0.87f, 0.79f, 1.33f)
+                curveToRelative(0.26f, 0.41f, 0.51f, 0.8f, 0.75f, 1.18f)
+                curveToRelative(-1.03f, -0.12f, -1.85f, -0.26f, -2.4f, -0.38f)
+                close()
+                moveTo(12f, 20.62f)
+                curveToRelative(-0.36f, -0.37f, -0.86f, -0.91f, -1.46f, -1.64f)
+                curveToRelative(0.47f, 0.01f, 0.95f, 0.02f, 1.46f, 0.02f)
+                reflectiveCurveToRelative(0.99f, -0.01f, 1.46f, -0.02f)
+                curveToRelative(-0.6f, 0.72f, -1.1f, 1.27f, -1.46f, 1.64f)
+                close()
+                moveTo(17.61f, 16.69f)
+                curveToRelative(0.25f, -0.38f, 0.5f, -0.76f, 0.75f, -1.18f)
+                curveToRelative(0.29f, -0.46f, 0.55f, -0.9f, 0.79f, -1.33f)
+                curveToRelative(0.4f, 0.89f, 0.68f, 1.62f, 0.86f, 2.13f)
+                curveToRelative(-0.56f, 0.12f, -1.37f, 0.25f, -2.4f, 0.38f)
+                close()
+            }
+        }.also { _StarOfDavid = it}

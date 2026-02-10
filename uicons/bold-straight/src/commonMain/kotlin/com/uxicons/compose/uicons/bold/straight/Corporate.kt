@@ -1,0 +1,82 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Corporate: ImageVector? = null
+
+val Icons.Bs.Corporate: ImageVector
+    get() = _Corporate ?: UXIcon(name = "Corporate") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 21f)
+                horizontalLineToRelative(9f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 24f)
+                lineTo(0f, 3.5f)
+                curveTo(0f, 1.57f, 1.57f, 0f, 3.5f, 0f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(6.6f)
+                curveToRelative(-1.23f, 0.25f, -2.28f, 0.96f, -3f, 1.93f)
+                lineTo(15f, 3.5f)
+                curveToRelative(0f, -0.28f, -0.23f, -0.5f, -0.5f, -0.5f)
+                lineTo(3.5f, 3f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(17.5f)
+                close()
+                moveTo(5f, 18f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(10f, 18f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(8f, 10f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(10f, 13f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(8f, 5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(10f, 8f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(21f, 19f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(16f, 15f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                reflectiveCurveToRelative(-1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                close()
+            }
+        }.also { _Corporate = it}

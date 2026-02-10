@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PeopleDress: ImageVector? = null
+
+val Icons.Ts.PeopleDress: ImageVector
+    get() = _PeopleDress ?: UXIcon(name = "PeopleDress") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(5.5f, 5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveTo(6.88f, 0f, 5.5f, 0f)
+                reflectiveCurveTo(3f, 1.12f, 3f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(5.5f, 1f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(8.79f, 8.05f)
+                curveToRelative(-0.22f, -1.19f, -1.25f, -2.05f, -2.46f, -2.05f)
+                horizontalLineToRelative(-1.7f)
+                curveToRelative(-1.21f, 0f, -2.25f, 0.87f, -2.46f, 2.06f)
+                lineTo(0.04f, 20f)
+                lineTo(3f, 20f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2.95f)
+                lineToRelative(-2.16f, -11.95f)
+                close()
+                moveTo(3.16f, 8.23f)
+                curveToRelative(0.13f, -0.72f, 0.75f, -1.24f, 1.48f, -1.24f)
+                horizontalLineToRelative(1.7f)
+                curveToRelative(0.73f, 0f, 1.35f, 0.52f, 1.48f, 1.23f)
+                lineToRelative(1.95f, 10.77f)
+                lineTo(1.23f, 18.99f)
+                lineToRelative(1.92f, -10.76f)
+                close()
+                moveTo(18.51f, 4.99f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(-2.5f, 1.12f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(1.12f, 2.5f, 2.5f, 2.5f)
+                close()
+                moveTo(18.51f, 0.99f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(23.98f, 19.99f)
+                lineToRelative(-2.18f, -11.95f)
+                curveToRelative(-0.22f, -1.19f, -1.25f, -2.05f, -2.46f, -2.05f)
+                horizontalLineToRelative(-1.66f)
+                curveToRelative(-1.21f, 0f, -2.25f, 0.87f, -2.46f, 2.06f)
+                lineToRelative(-2.14f, 11.94f)
+                horizontalLineToRelative(2.93f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(2.97f)
+                close()
+                moveTo(16.21f, 8.23f)
+                curveToRelative(0.13f, -0.72f, 0.75f, -1.24f, 1.48f, -1.24f)
+                horizontalLineToRelative(1.66f)
+                curveToRelative(0.73f, 0f, 1.35f, 0.52f, 1.48f, 1.23f)
+                lineToRelative(1.96f, 10.77f)
+                lineTo(14.27f, 18.99f)
+                lineToRelative(1.93f, -10.76f)
+                close()
+            }
+        }.also { _PeopleDress = it}

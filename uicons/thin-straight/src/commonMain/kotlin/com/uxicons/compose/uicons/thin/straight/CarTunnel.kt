@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CarTunnel: ImageVector? = null
+
+val Icons.Ts.CarTunnel: ImageVector
+    get() = _CarTunnel ?: UXIcon(name = "CarTunnel") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 11.98f)
+                verticalLineToRelative(12.02f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-12.02f)
+                curveTo(23f, 5.91f, 18.07f, 0.98f, 12f, 0.98f)
+                reflectiveCurveTo(1f, 5.91f, 1f, 11.98f)
+                verticalLineToRelative(12.02f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-12.02f)
+                curveTo(0f, 5.36f, 5.38f, -0.02f, 12f, -0.02f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                close()
+                moveTo(20.01f, 22f)
+                horizontalLineToRelative(-2.01f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-1.99f)
+                lineToRelative(-0.1f, -3.75f)
+                curveToRelative(0f, -1.22f, 0.21f, -2.41f, 0.61f, -3.54f)
+                lineToRelative(1.44f, -4.04f)
+                curveToRelative(0.35f, -0.99f, 1.3f, -1.66f, 2.35f, -1.66f)
+                horizontalLineToRelative(7.18f)
+                curveToRelative(1.05f, 0f, 2f, 0.67f, 2.35f, 1.66f)
+                lineToRelative(1.44f, 4.04f)
+                curveToRelative(0.41f, 1.14f, 0.61f, 2.33f, 0.61f, 3.53f)
+                lineToRelative(0.1f, 3.77f)
+                close()
+                moveTo(5.48f, 15f)
+                horizontalLineToRelative(12.87f)
+                lineToRelative(-1.43f, -4.0f)
+                curveToRelative(-0.21f, -0.59f, -0.78f, -0.99f, -1.41f, -0.99f)
+                horizontalLineToRelative(-7.18f)
+                curveToRelative(-0.63f, 0f, -1.2f, 0.4f, -1.41f, 0.99f)
+                lineToRelative(-1.43f, 4.0f)
+                close()
+                moveTo(8f, 22f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(17f, 22f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                close()
+                moveTo(18.99f, 21f)
+                lineToRelative(-0.08f, -2.75f)
+                curveToRelative(0f, -0.77f, -0.1f, -1.51f, -0.27f, -2.25f)
+                horizontalLineToRelative(-2.73f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-2.73f)
+                curveToRelative(-0.18f, 0.73f, -0.27f, 1.48f, -0.27f, 2.23f)
+                lineToRelative(0.08f, 2.77f)
+                horizontalLineToRelative(14f)
+                close()
+            }
+        }.also { _CarTunnel = it}

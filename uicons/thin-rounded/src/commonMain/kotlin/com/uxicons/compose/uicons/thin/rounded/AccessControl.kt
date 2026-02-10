@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AccessControl: ImageVector? = null
+
+val Icons.Tr.AccessControl: ImageVector
+    get() = _AccessControl ?: UXIcon(name = "AccessControl") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 12f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(16f, 22.58f)
+                verticalLineToRelative(-0.58f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(0.58f)
+                curveToRelative(-0.61f, 0.27f, -1.29f, 0.42f, -2f, 0.42f)
+                reflectiveCurveToRelative(-1.39f, -0.15f, -2f, -0.42f)
+                close()
+                moveTo(21.0f, 21.98f)
+                curveToRelative(-0.01f, -1.64f, -1.35f, -2.98f, -3.0f, -2.98f)
+                reflectiveCurveToRelative(-2.98f, 1.33f, -3.0f, 2.98f)
+                curveToRelative(-1.21f, -0.91f, -2.0f, -2.35f, -2.0f, -3.98f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                reflectiveCurveToRelative(5f, 2.24f, 5f, 5f)
+                curveToRelative(0f, 1.63f, -0.79f, 3.06f, -2.0f, 3.98f)
+                close()
+                moveTo(18f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(18f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(11.5f, 23f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-7f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(10f)
+                curveToRelative(0.9f, 0f, 1.75f, 0.34f, 2.4f, 0.95f)
+                curveToRelative(0.2f, 0.19f, 0.52f, 0.18f, 0.71f, -0.02f)
+                reflectiveCurveToRelative(0.18f, -0.52f, -0.02f, -0.71f)
+                curveToRelative(-0.46f, -0.43f, -1f, -0.74f, -1.58f, -0.95f)
+                verticalLineToRelative(-1.77f)
+                curveToRelative(0f, -3.58f, -2.92f, -6.5f, -6.5f, -6.5f)
+                reflectiveCurveToRelative(-6.5f, 2.92f, -6.5f, 6.5f)
+                verticalLineToRelative(1.78f)
+                curveToRelative(-1.74f, 0.62f, -3f, 2.27f, -3f, 4.22f)
+                verticalLineToRelative(7f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(7f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(4f, 6.5f)
+                curveToRelative(0f, -3.03f, 2.47f, -5.5f, 5.5f, -5.5f)
+                reflectiveCurveToRelative(5.5f, 2.47f, 5.5f, 5.5f)
+                verticalLineToRelative(1.55f)
+                curveToRelative(-0.17f, -0.02f, -0.33f, -0.05f, -0.5f, -0.05f)
+                horizontalLineToRelative(-10f)
+                curveToRelative(-0.17f, 0f, -0.33f, 0.03f, -0.5f, 0.05f)
+                close()
+                moveTo(9.5f, 15f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                close()
+            }
+        }.also { _AccessControl = it}

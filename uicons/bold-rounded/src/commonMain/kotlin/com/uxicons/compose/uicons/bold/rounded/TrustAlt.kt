@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrustAlt: ImageVector? = null
+
+val Icons.Br.TrustAlt: ImageVector
+    get() = _TrustAlt ?: UXIcon(name = "TrustAlt") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(10.71f, 20.17f)
+            curveToRelative(-0.29f, 0.4f, -0.75f, 0.61f, -1.21f, 0.61f)
+            curveToRelative(-0.31f, 0f, -0.62f, -0.1f, -0.89f, -0.29f)
+            lineToRelative(-5.44f, -4f)
+            curveToRelative(-0.43f, -0.32f, -0.94f, -0.49f, -1.48f, -0.49f)
+            horizontalLineToRelative(-0.19f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(0.19f)
+            curveToRelative(1.18f, 0f, 2.31f, 0.37f, 3.26f, 1.07f)
+            lineToRelative(5.44f, 4.0f)
+            curveToRelative(0.67f, 0.49f, 0.81f, 1.43f, 0.32f, 2.1f)
+            close()
+            moveTo(16.48f, 10.91f)
+            curveToRelative(0.5f, -0.66f, 0.38f, -1.6f, -0.28f, -2.1f)
+            lineToRelative(-3.29f, -2.51f)
+            curveToRelative(-0.4f, -0.31f, -0.91f, -0.38f, -1.37f, -0.24f)
+            lineToRelative(2.82f, -2.38f)
+            curveToRelative(0.74f, -0.7f, 1.9f, -0.87f, 2.81f, -0.41f)
+            lineToRelative(2.1f, 1.05f)
+            curveToRelative(0.9f, 0.45f, 1.9f, 0.69f, 2.91f, 0.69f)
+            horizontalLineToRelative(0.32f)
+            curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+            horizontalLineToRelative(-0.32f)
+            curveToRelative(-0.54f, 0f, -1.08f, -0.13f, -1.56f, -0.37f)
+            lineToRelative(-2.1f, -1.05f)
+            curveTo(16.5f, -0.43f, 13.9f, -0.02f, 12.37f, 1.44f)
+            lineToRelative(-0.36f, 0.3f)
+            lineToRelative(-0.34f, -0.31f)
+            curveToRelative(-1.01f, -0.92f, -2.32f, -1.43f, -3.73f, -1.43f)
+            curveToRelative(-0.84f, 0f, -1.69f, 0.2f, -2.45f, 0.58f)
+            lineToRelative(-2.1f, 1.05f)
+            curveToRelative(-0.48f, 0.24f, -1.02f, 0.37f, -1.56f, 0.37f)
+            horizontalLineToRelative(-0.32f)
+            curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+            reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+            horizontalLineToRelative(0.32f)
+            curveToRelative(1.0f, 0f, 2.01f, -0.24f, 2.91f, -0.69f)
+            lineToRelative(2.1f, -1.05f)
+            curveToRelative(0.85f, -0.42f, 2.05f, -0.32f, 2.82f, 0.38f)
+            lineToRelative(0.05f, 0.05f)
+            lineToRelative(-3.69f, 3.12f)
+            curveToRelative(-0.03f, 0.03f, -0.06f, 0.06f, -0.09f, 0.08f)
+            curveToRelative(-1.04f, 1.04f, -1.21f, 2.71f, -0.37f, 3.87f)
+            curveToRelative(0.51f, 0.71f, 1.3f, 1.16f, 2.17f, 1.23f)
+            curveToRelative(0.08f, 0.01f, 0.16f, 0.01f, 0.24f, 0.01f)
+            curveToRelative(0.76f, 0f, 1.49f, -0.29f, 2.04f, -0.82f)
+            lineToRelative(2.07f, -1.77f)
+            lineToRelative(2.33f, 1.78f)
+            curveToRelative(0.66f, 0.5f, 1.6f, 0.38f, 2.1f, -0.28f)
+            close()
+            moveTo(24.0f, 18.5f)
+            curveToRelative(0f, 3.04f, -2.46f, 5.5f, -5.5f, 5.5f)
+            reflectiveCurveToRelative(-5.5f, -2.46f, -5.5f, -5.5f)
+            reflectiveCurveToRelative(2.46f, -5.5f, 5.5f, -5.5f)
+            reflectiveCurveToRelative(5.5f, 2.46f, 5.5f, 5.5f)
+            close()
+            moveTo(21.71f, 16.3f)
+            horizontalLineToRelative(0f)
+            curveToRelative(-0.39f, -0.4f, -1.04f, -0.4f, -1.43f, 0.0f)
+            lineToRelative(-2.61f, 2.71f)
+            lineToRelative(-0.95f, -0.99f)
+            curveToRelative(-0.39f, -0.41f, -1.05f, -0.41f, -1.44f, -0.0f)
+            curveToRelative(-0.37f, 0.39f, -0.37f, 0.99f, -0.0f, 1.38f)
+            lineToRelative(0.97f, 1.02f)
+            curveToRelative(0.77f, 0.77f, 2.08f, 0.76f, 2.82f, 0.02f)
+            lineToRelative(0.0f, -0.0f)
+            lineToRelative(2.64f, -2.74f)
+            curveToRelative(0.38f, -0.39f, 0.38f, -1.01f, -0.0f, -1.4f)
+            close()
+        }
+    }.also { _TrustAlt = it }

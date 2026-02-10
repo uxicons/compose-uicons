@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MoneyTransferAlt: ImageVector? = null
+
+val Icons.Ss.MoneyTransferAlt: ImageVector
+    get() = _MoneyTransferAlt ?: UXIcon(name = "MoneyTransferAlt") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(2f, 18f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(2f)
+                lineTo(0f, 20f)
+                verticalLineToRelative(-11f)
+                curveToRelative(0f, -1.3f, 0.84f, -2.4f, 2f, -2.82f)
+                verticalLineToRelative(11.82f)
+                close()
+                moveTo(12f, 20f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(20.79f, 15.02f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(1.57f, 1.57f)
+                horizontalLineToRelative(-3.95f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(3.95f)
+                lineToRelative(-1.57f, 1.57f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(2.66f, -2.66f)
+                curveToRelative(0.73f, -0.73f, 0.73f, -1.92f, 0f, -2.65f)
+                lineToRelative(-2.66f, -2.66f)
+                close()
+                moveTo(14f, 6f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(24f, 3f)
+                verticalLineToRelative(11f)
+                lineTo(4f, 14f)
+                lineTo(4f, 3f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                close()
+                moveTo(9f, 10.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(9f, 3.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(17f, 7f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                reflectiveCurveToRelative(1.35f, 3f, 3f, 3f)
+                reflectiveCurveToRelative(3f, -1.35f, 3f, -3f)
+                close()
+                moveTo(22f, 10.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(22f, 3.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+            }
+        }.also { _MoneyTransferAlt = it}

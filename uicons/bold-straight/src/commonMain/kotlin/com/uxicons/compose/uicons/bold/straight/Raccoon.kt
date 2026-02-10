@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Raccoon: ImageVector? = null
+
+val Icons.Bs.Raccoon: ImageVector
+    get() = _Raccoon ?: UXIcon(name = "Raccoon") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 12.8f)
+                curveToRelative(-0.42f, 0.2f, -2.17f, 0.94f, -2.5f, 1.13f)
+                curveToRelative(-0.16f, 0.1f, -0.33f, 0.18f, -0.5f, 0.25f)
+                verticalLineToRelative(6.82f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(5f)
+                lineTo(6.53f, 21f)
+                curveToRelative(0.01f, -0.15f, 0.31f, -1.66f, 0.42f, -2.24f)
+                curveToRelative(0.71f, -2.44f, 2.53f, -5.81f, 7.15f, -7.22f)
+                curveToRelative(0.52f, 0.22f, 1.0f, 0.43f, 1.4f, 0.66f)
+                curveToRelative(0.46f, 0.27f, 0.98f, 0.41f, 1.49f, 0.41f)
+                reflectiveCurveToRelative(1.03f, -0.14f, 1.49f, -0.41f)
+                curveToRelative(0.44f, -0.26f, 0.99f, -0.49f, 1.56f, -0.73f)
+                curveToRelative(1.66f, -0.7f, 3.94f, -1.66f, 3.94f, -4.04f)
+                curveToRelative(0f, -0.95f, -0.37f, -1.95f, -0.97f, -2.86f)
+                lineTo(23.03f, 2.5f)
+                curveToRelative(0f, -0.97f, -0.54f, -1.83f, -1.41f, -2.25f)
+                curveToRelative(-0.87f, -0.42f, -1.88f, -0.31f, -2.64f, 0.29f)
+                lineToRelative(-0.71f, 0.56f)
+                curveToRelative(-0.42f, -0.1f, -0.85f, -0.16f, -1.27f, -0.16f)
+                reflectiveCurveToRelative(-0.85f, 0.06f, -1.27f, 0.16f)
+                lineToRelative(-0.71f, -0.56f)
+                curveToRelative(-0.76f, -0.6f, -1.77f, -0.71f, -2.64f, -0.29f)
+                curveToRelative(-0.87f, 0.42f, -1.41f, 1.28f, -1.41f, 2.25f)
+                verticalLineToRelative(2.08f)
+                curveToRelative(-0.6f, 0.91f, -0.97f, 1.91f, -0.97f, 2.86f)
+                curveToRelative(0f, 0.91f, 0.34f, 1.62f, 0.85f, 2.18f)
+                curveToRelative(-1.17f, 0.59f, -2.16f, 1.32f, -3.01f, 2.11f)
+                curveToRelative(0.25f, -3.43f, 0.22f, -6.32f, 0.21f, -7.74f)
+                curveToRelative(-0.02f, -2.2f, -1.83f, -3.98f, -4.03f, -3.98f)
+                reflectiveCurveTo(0.02f, 1.78f, 0f, 3.98f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.02f, 2.57f, -0.02f, 8.78f, -0.01f, 13.53f)
+                curveToRelative(0.01f, 3.58f, 2.92f, 6.49f, 6.5f, 6.49f)
+                lineTo(24f, 24.0f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                lineTo(22f, 12.8f)
+                close()
+                moveTo(21f, 7.44f)
+                curveToRelative(0f, 0.38f, -1.32f, 0.94f, -2.11f, 1.27f)
+                curveToRelative(-0.64f, 0.27f, -1.31f, 0.55f, -1.87f, 0.91f)
+                curveToRelative(-0.61f, -0.36f, -1.27f, -0.64f, -1.92f, -0.91f)
+                curveToRelative(-0.79f, -0.33f, -2.11f, -0.89f, -2.11f, -1.27f)
+                curveToRelative(0f, -1.27f, 2.31f, -3.5f, 4f, -3.5f)
+                reflectiveCurveToRelative(4f, 2.23f, 4f, 3.5f)
+                close()
+                moveTo(2.98f, 9f)
+                horizontalLineToRelative(2.0f)
+                curveToRelative(-0.03f, 0.64f, -0.06f, 1.3f, -0.1f, 2f)
+                horizontalLineToRelative(-1.9f)
+                curveToRelative(0f, -0.68f, 0f, -1.35f, 0f, -2f)
+                close()
+                moveTo(4.03f, 3f)
+                curveToRelative(0.56f, 0f, 1.02f, 0.45f, 1.02f, 1.01f)
+                curveToRelative(0.01f, 0.49f, 0.01f, 1.17f, 0.01f, 1.99f)
+                lineTo(2.99f, 6f)
+                curveToRelative(0.0f, -0.78f, 0.01f, -1.45f, 0.01f, -1.98f)
+                curveToRelative(0f, -0.56f, 0.46f, -1.02f, 1.02f, -1.02f)
+                close()
+                moveTo(2.98f, 14f)
+                horizontalLineToRelative(1.64f)
+                curveToRelative(-0.14f, 1.32f, -0.34f, 2.69f, -0.59f, 4.04f)
+                curveToRelative(-0.15f, 0.54f, -0.27f, 1.05f, -0.35f, 1.54f)
+                curveToRelative(-0.43f, -0.58f, -0.69f, -1.3f, -0.69f, -2.07f)
+                curveToRelative(-0.0f, -1.11f, -0.0f, -2.3f, -0.01f, -3.51f)
+                close()
+            }
+        }.also { _Raccoon = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _GovernmentFlag: ImageVector? = null
+
+val Icons.Ts.GovernmentFlag: ImageVector
+    get() = _GovernmentFlag ?: UXIcon(name = "GovernmentFlag") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 13f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.81f, -0.44f, -1.56f, -1.16f, -1.96f)
+                lineToRelative(-7.77f, -4.24f)
+                curveToRelative(-0.18f, -0.1f, -0.37f, -0.17f, -0.57f, -0.21f)
+                verticalLineToRelative(-0.75f)
+                lineToRelative(3.96f, -2.39f)
+                lineToRelative(-3.97f, -2.46f)
+                horizontalLineToRelative(-0.99f)
+                verticalLineToRelative(5.59f)
+                curveToRelative(-0.2f, 0.04f, -0.39f, 0.11f, -0.57f, 0.21f)
+                lineToRelative(-7.77f, 4.24f)
+                curveToRelative(-0.72f, 0.39f, -1.16f, 1.14f, -1.16f, 1.96f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(12.5f, 1.18f)
+                lineToRelative(2.04f, 1.27f)
+                lineToRelative(-2.04f, 1.23f)
+                lineTo(12.5f, 1.18f)
+                close()
+                moveTo(3.64f, 10.92f)
+                lineToRelative(7.77f, -4.24f)
+                curveToRelative(0.37f, -0.2f, 0.81f, -0.2f, 1.18f, 0f)
+                lineToRelative(7.77f, 4.24f)
+                curveToRelative(0.4f, 0.22f, 0.64f, 0.63f, 0.64f, 1.08f)
+                lineTo(3f, 12f)
+                curveToRelative(0f, -0.45f, 0.24f, -0.86f, 0.64f, -1.08f)
+                close()
+                moveTo(10f, 13f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(11f, 13f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(14f, 13f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(5f, 13f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(19f, 21f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                close()
+            }
+        }.also { _GovernmentFlag = it}

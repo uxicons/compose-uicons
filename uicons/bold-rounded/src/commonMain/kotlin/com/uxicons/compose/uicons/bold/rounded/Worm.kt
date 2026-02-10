@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Worm: ImageVector? = null
+
+val Icons.Br.Worm: ImageVector
+    get() = _Worm ?: UXIcon(name = "Worm") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(18.5f, 0f)
+            horizontalLineToRelative(-10f)
+            curveTo(2.23f, 0.0f, 0f, 3.62f, 0f, 7.0f)
+            curveToRelative(0f, 4.41f, 3.21f, 6.31f, 5.8f, 7.83f)
+            curveToRelative(0.33f, 0.19f, 1.64f, 0.98f, 1.97f, 1.17f)
+            lineToRelative(-3.84f, 0.0f)
+            curveToRelative(-2.17f, 0f, -3.93f, 1.76f, -3.93f, 3.99f)
+            curveToRelative(0f, 1.07f, 0.42f, 2.08f, 1.17f, 2.84f)
+            curveToRelative(0.75f, 0.76f, 1.76f, 1.17f, 2.83f, 1.17f)
+            horizontalLineToRelative(6.0f)
+            curveToRelative(7.18f, 0f, 7.73f, -5.36f, 7.73f, -7.0f)
+            curveToRelative(0f, -4.24f, -3.78f, -6.57f, -6.54f, -8.27f)
+            curveToRelative(0f, 0f, -0.91f, -0.55f, -1.26f, -0.74f)
+            curveToRelative(0.97f, -0.01f, 1.91f, -0.01f, 2.83f, -0.01f)
+            horizontalLineToRelative(0.0f)
+            curveToRelative(0.49f, 0f, 0.94f, 0.21f, 1.17f, 0.56f)
+            curveToRelative(1.02f, 1.53f, 2.73f, 2.45f, 4.56f, 2.45f)
+            horizontalLineToRelative(2f)
+            curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+            verticalLineToRelative(-2f)
+            curveTo(24f, 2.47f, 21.53f, 0f, 18.5f, 0f)
+            close()
+            moveTo(5.14f, 6.44f)
+            curveToRelative(-0.32f, 0.8f, -0.15f, 1.68f, 0.44f, 2.31f)
+            curveToRelative(0.05f, 0.05f, 0.1f, 0.1f, 0.15f, 0.14f)
+            lineToRelative(-1.24f, 1.42f)
+            curveToRelative(-0.96f, -0.88f, -1.49f, -1.87f, -1.49f, -3.31f)
+            curveToRelative(0f, -1.75f, 0.88f, -3.83f, 5f, -3.99f)
+            verticalLineToRelative(2.02f)
+            curveToRelative(-0.3f, 0.01f, -0.63f, 0.03f, -0.94f, 0.04f)
+            curveToRelative(-0.85f, 0.04f, -1.6f, 0.58f, -1.92f, 1.37f)
+            close()
+            moveTo(8f, 21.0f)
+            lineTo(4f, 21.0f)
+            reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+            curveToRelative(-0.27f, 0f, -0.52f, -0.1f, -0.7f, -0.29f)
+            curveToRelative(-0.19f, -0.19f, -0.29f, -0.45f, -0.29f, -0.78f)
+            curveToRelative(0f, -0.51f, 0.42f, -0.93f, 0.93f, -0.93f)
+            lineToRelative(4.07f, -0.0f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(12.58f, 15.73f)
+            curveToRelative(-0.04f, -0.06f, -0.09f, -0.11f, -0.14f, -0.17f)
+            lineToRelative(1.15f, -1.32f)
+            curveToRelative(0.7f, 0.8f, 1.14f, 1.69f, 1.14f, 2.75f)
+            curveToRelative(0f, 2.39f, -1.22f, 3.69f, -3.73f, 3.95f)
+            verticalLineToRelative(-1.93f)
+            curveToRelative(-0.01f, 0f, -0.01f, 0f, 0f, 0f)
+            curveToRelative(0.76f, -0.04f, 1.5f, -0.51f, 1.81f, -1.2f)
+            curveToRelative(0.31f, -0.69f, 0.22f, -1.49f, -0.24f, -2.09f)
+            close()
+            moveTo(11.28f, 12.34f)
+            lineToRelative(-1.29f, 1.48f)
+            curveToRelative(-0.13f, -0.07f, -2.9f, -1.71f, -3.02f, -1.78f)
+            lineToRelative(1.32f, -1.51f)
+            curveToRelative(0.37f, 0.2f, 2.45f, 1.46f, 2.98f, 1.82f)
+            close()
+            moveTo(21f, 7.5f)
+            curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+            horizontalLineToRelative(-2f)
+            curveToRelative(-0.83f, 0f, -1.6f, -0.42f, -2.07f, -1.11f)
+            curveToRelative(-0.79f, -1.19f, -2.16f, -1.9f, -3.66f, -1.9f)
+            curveToRelative(0f, 0f, -1.17f, 0f, -1.77f, 0.0f)
+            verticalLineToRelative(-1.99f)
+            horizontalLineToRelative(7.5f)
+            curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+            verticalLineToRelative(2f)
+            close()
+            moveTo(11f, 19.02f)
+            horizontalLineToRelative(0f)
+            curveToRelative(0.01f, 0f, 0.01f, 0f, 0f, 0f)
+            close()
+        }
+    }.also { _Worm = it }

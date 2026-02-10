@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BadgeCheck: ImageVector? = null
+
+val Icons.Bs.BadgeCheck: ImageVector
+    get() = _BadgeCheck ?: UXIcon(name = "BadgeCheck") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12f, 24f)
+                curveToRelative(-1.61f, 0f, -3.13f, -0.67f, -4.22f, -1.82f)
+                curveToRelative(-1.58f, 0.04f, -3.13f, -0.56f, -4.27f, -1.69f)
+                curveToRelative(-1.14f, -1.14f, -1.74f, -2.69f, -1.7f, -4.27f)
+                curveToRelative(-1.15f, -1.09f, -1.82f, -2.6f, -1.82f, -4.22f)
+                reflectiveCurveToRelative(0.67f, -3.13f, 1.82f, -4.22f)
+                curveToRelative(-0.05f, -1.58f, 0.56f, -3.13f, 1.7f, -4.27f)
+                curveToRelative(1.14f, -1.14f, 2.69f, -1.75f, 4.27f, -1.7f)
+                curveToRelative(1.09f, -1.15f, 2.6f, -1.82f, 4.22f, -1.82f)
+                reflectiveCurveToRelative(3.13f, 0.67f, 4.22f, 1.82f)
+                curveToRelative(1.57f, -0.06f, 3.13f, 0.56f, 4.27f, 1.69f)
+                curveToRelative(1.14f, 1.14f, 1.74f, 2.69f, 1.7f, 4.27f)
+                curveToRelative(1.15f, 1.09f, 1.82f, 2.6f, 1.82f, 4.22f)
+                reflectiveCurveToRelative(-0.67f, 3.13f, -1.82f, 4.22f)
+                curveToRelative(0.05f, 1.58f, -0.56f, 3.13f, -1.7f, 4.27f)
+                curveToRelative(-1.14f, 1.14f, -2.7f, 1.74f, -4.27f, 1.7f)
+                curveToRelative(-1.09f, 1.15f, -2.6f, 1.82f, -4.22f, 1.82f)
+                close()
+                moveTo(9.12f, 18.94f)
+                lineToRelative(0.56f, 0.82f)
+                curveToRelative(0.52f, 0.77f, 1.39f, 1.24f, 2.32f, 1.24f)
+                reflectiveCurveToRelative(1.8f, -0.46f, 2.32f, -1.24f)
+                lineToRelative(0.56f, -0.82f)
+                lineToRelative(0.97f, 0.19f)
+                curveToRelative(0.92f, 0.18f, 1.86f, -0.11f, 2.52f, -0.77f)
+                curveToRelative(0.66f, -0.66f, 0.94f, -1.6f, 0.77f, -2.52f)
+                lineToRelative(-0.19f, -0.97f)
+                lineToRelative(0.82f, -0.56f)
+                curveToRelative(0.77f, -0.52f, 1.24f, -1.39f, 1.24f, -2.32f)
+                reflectiveCurveToRelative(-0.46f, -1.8f, -1.24f, -2.32f)
+                lineToRelative(-0.82f, -0.56f)
+                lineToRelative(0.19f, -0.97f)
+                curveToRelative(0.18f, -0.92f, -0.11f, -1.86f, -0.77f, -2.52f)
+                curveToRelative(-0.66f, -0.66f, -1.59f, -0.94f, -2.52f, -0.77f)
+                lineToRelative(-0.97f, 0.19f)
+                lineToRelative(-0.56f, -0.82f)
+                curveToRelative(-0.52f, -0.77f, -1.39f, -1.24f, -2.32f, -1.24f)
+                reflectiveCurveToRelative(-1.8f, 0.46f, -2.32f, 1.24f)
+                lineToRelative(-0.56f, 0.82f)
+                lineToRelative(-0.97f, -0.19f)
+                curveToRelative(-0.92f, -0.18f, -1.86f, 0.11f, -2.52f, 0.77f)
+                curveToRelative(-0.66f, 0.66f, -0.94f, 1.6f, -0.77f, 2.52f)
+                lineToRelative(0.19f, 0.97f)
+                lineToRelative(-0.82f, 0.56f)
+                curveToRelative(-0.77f, 0.52f, -1.24f, 1.39f, -1.24f, 2.32f)
+                reflectiveCurveToRelative(0.46f, 1.8f, 1.24f, 2.32f)
+                lineToRelative(0.82f, 0.56f)
+                lineToRelative(-0.19f, 0.97f)
+                curveToRelative(-0.18f, 0.92f, 0.11f, 1.86f, 0.77f, 2.52f)
+                curveToRelative(0.66f, 0.66f, 1.6f, 0.94f, 2.52f, 0.77f)
+                lineToRelative(0.97f, -0.19f)
+                close()
+                moveTo(10.5f, 16f)
+                curveToRelative(-0.64f, 0f, -1.28f, -0.24f, -1.77f, -0.73f)
+                lineToRelative(-2.78f, -2.69f)
+                lineToRelative(2.09f, -2.15f)
+                lineToRelative(2.45f, 2.38f)
+                lineToRelative(4.95f, -4.87f)
+                lineToRelative(2.1f, 2.14f)
+                lineToRelative(-5.29f, 5.21f)
+                curveToRelative(-0.48f, 0.48f, -1.12f, 0.72f, -1.76f, 0.72f)
+                close()
+                moveTo(10.15f, 13.14f)
+                lineToRelative(-0.01f, 0.01f)
+                lineToRelative(0.01f, -0.01f)
+                close()
+                moveTo(10.83f, 13.12f)
+                lineToRelative(0.01f, 0.01f)
+                lineToRelative(-0.01f, -0.01f)
+                close()
+            }
+        }.also { _BadgeCheck = it}

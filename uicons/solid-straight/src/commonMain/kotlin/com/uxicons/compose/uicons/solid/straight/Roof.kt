@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Roof: ImageVector? = null
+
+val Icons.Ss.Roof: ImageVector
+    get() = _Roof ?: UXIcon(name = "Roof") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 6f)
+                curveToRelative(-1.13f, 0f, -2.16f, 0.39f, -3f, 1.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.66f, 1.34f, -3f, 3f, -3f)
+                reflectiveCurveToRelative(3f, 1.34f, 3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(-0.84f, -0.64f, -1.87f, -1.03f, -3f, -1.03f)
+                close()
+                moveTo(23f, 15.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(0.84f, -0.64f, 1.87f, -1.03f, 3f, -1.03f)
+                reflectiveCurveToRelative(2.16f, 0.39f, 3f, 1.03f)
+                close()
+                moveTo(15f, 15.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(0.84f, -0.64f, 1.87f, -1.03f, 3f, -1.03f)
+                reflectiveCurveToRelative(2.16f, 0.39f, 3f, 1.03f)
+                close()
+                moveTo(23f, 7.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(0.84f, -0.64f, 1.87f, -1.03f, 3f, -1.03f)
+                reflectiveCurveToRelative(2.16f, 0.39f, 3f, 1.03f)
+                close()
+                moveTo(17f, 24f)
+                curveToRelative(0.41f, -1.16f, 1.7f, -2f, 3f, -2f)
+                reflectiveCurveToRelative(2.59f, 0.84f, 3f, 2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                close()
+                moveTo(7f, 15.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(0.84f, -0.64f, 1.87f, -1.03f, 3f, -1.03f)
+                reflectiveCurveToRelative(2.16f, 0.39f, 3f, 1.03f)
+                close()
+                moveTo(9f, 24f)
+                curveToRelative(0.41f, -1.16f, 1.7f, -2f, 3f, -2f)
+                reflectiveCurveToRelative(2.59f, 0.84f, 3f, 2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                close()
+                moveTo(1f, 24f)
+                curveToRelative(0.41f, -1.16f, 1.7f, -2f, 3f, -2f)
+                reflectiveCurveToRelative(2.59f, 0.84f, 3f, 2f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                close()
+                moveTo(7f, 7.03f)
+                verticalLineToRelative(-4.03f)
+                curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+                verticalLineToRelative(4.03f)
+                curveToRelative(0.84f, -0.64f, 1.87f, -1.03f, 3f, -1.03f)
+                reflectiveCurveToRelative(2.16f, 0.39f, 3f, 1.03f)
+                close()
+            }
+        }.also { _Roof = it}

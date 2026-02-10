@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Percent25: ImageVector? = null
+
+val Icons.Br.Percent25: ImageVector
+    get() = _Percent25 ?: UXIcon(name = "Percent25") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(24f, 14.73f)
+            curveToRelative(0f, 0.69f, -0.56f, 1.25f, -1.25f, 1.25f)
+            reflectiveCurveToRelative(-1.25f, -0.56f, -1.25f, -1.25f)
+            reflectiveCurveToRelative(0.56f, -1.25f, 1.25f, -1.25f)
+            reflectiveCurveToRelative(1.25f, 0.56f, 1.25f, 1.25f)
+            close()
+            moveTo(19.5f, 9.23f)
+            curveToRelative(0f, -0.69f, -0.56f, -1.25f, -1.25f, -1.25f)
+            reflectiveCurveToRelative(-1.25f, 0.56f, -1.25f, 1.25f)
+            reflectiveCurveToRelative(0.56f, 1.25f, 1.25f, 1.25f)
+            reflectiveCurveToRelative(1.25f, -0.56f, 1.25f, -1.25f)
+            close()
+            moveTo(18.34f, 15.98f)
+            curveToRelative(0.27f, 0f, 0.52f, -0.14f, 0.67f, -0.36f)
+            lineToRelative(4.18f, -6.4f)
+            curveToRelative(0.35f, -0.53f, -0.03f, -1.24f, -0.67f, -1.24f)
+            curveToRelative(-0.27f, 0f, -0.52f, 0.14f, -0.67f, 0.36f)
+            lineToRelative(-4.18f, 6.4f)
+            curveToRelative(-0.35f, 0.53f, 0.03f, 1.24f, 0.67f, 1.24f)
+            close()
+            moveTo(18.29f, 18.43f)
+            curveToRelative(-1.69f, 1.66f, -3.93f, 2.57f, -6.29f, 2.57f)
+            curveToRelative(-4.96f, 0f, -9f, -4.04f, -9f, -9f)
+            reflectiveCurveTo(7.04f, 3f, 12f, 3f)
+            curveToRelative(2.36f, 0f, 4.6f, 0.91f, 6.29f, 2.57f)
+            curveToRelative(0.59f, 0.58f, 1.54f, 0.57f, 2.12f, -0.02f)
+            curveToRelative(0.58f, -0.59f, 0.57f, -1.54f, -0.02f, -2.12f)
+            curveTo(18.13f, 1.22f, 15.15f, 0f, 12f, 0f)
+            curveTo(5.38f, 0f, 0f, 5.38f, 0f, 12f)
+            reflectiveCurveToRelative(5.38f, 12f, 12f, 12f)
+            curveToRelative(3.15f, 0f, 6.13f, -1.22f, 8.39f, -3.43f)
+            curveToRelative(0.59f, -0.58f, 0.6f, -1.53f, 0.02f, -2.12f)
+            curveToRelative(-0.58f, -0.59f, -1.53f, -0.6f, -2.12f, -0.02f)
+            close()
+            moveTo(10.01f, 10.6f)
+            curveToRelative(0f, -1.43f, -1.13f, -2.6f, -2.51f, -2.6f)
+            reflectiveCurveToRelative(-2.51f, 1.17f, -2.51f, 2.6f)
+            curveToRelative(0f, 0.44f, 0.36f, 0.8f, 0.8f, 0.8f)
+            reflectiveCurveToRelative(0.8f, -0.36f, 0.8f, -0.8f)
+            curveToRelative(0f, -0.55f, 0.41f, -1f, 0.92f, -1f)
+            reflectiveCurveToRelative(0.92f, 0.45f, 0.92f, 1f)
+            curveToRelative(0f, 0.56f, -0.84f, 1.19f, -1.58f, 1.74f)
+            curveToRelative(-0.91f, 0.68f, -1.86f, 1.38f, -1.86f, 2.41f)
+            curveToRelative(0f, 0.61f, 0.43f, 1.25f, 1.23f, 1.25f)
+            horizontalLineToRelative(3f)
+            curveToRelative(0.44f, 0f, 0.8f, -0.36f, 0.8f, -0.8f)
+            reflectiveCurveToRelative(-0.36f, -0.8f, -0.8f, -0.8f)
+            horizontalLineToRelative(-2.38f)
+            curveToRelative(0.27f, -0.26f, 0.69f, -0.57f, 0.96f, -0.78f)
+            curveToRelative(0.99f, -0.74f, 2.23f, -1.66f, 2.23f, -3.02f)
+            close()
+            moveTo(13.5f, 14.4f)
+            horizontalLineToRelative(-1.7f)
+            curveToRelative(-0.44f, 0f, -0.8f, 0.36f, -0.8f, 0.8f)
+            reflectiveCurveToRelative(0.36f, 0.8f, 0.8f, 0.8f)
+            horizontalLineToRelative(1.7f)
+            curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+            reflectiveCurveToRelative(-1.12f, -2.5f, -2.5f, -2.5f)
+            horizontalLineToRelative(-0.9f)
+            verticalLineToRelative(-1.2f)
+            curveToRelative(0f, -0.11f, 0.09f, -0.2f, 0.2f, -0.2f)
+            horizontalLineToRelative(1.9f)
+            curveToRelative(0.44f, 0f, 0.8f, -0.36f, 0.8f, -0.8f)
+            reflectiveCurveToRelative(-0.36f, -0.8f, -0.8f, -0.8f)
+            horizontalLineToRelative(-1.9f)
+            curveToRelative(-0.99f, 0f, -1.8f, 0.81f, -1.8f, 1.8f)
+            verticalLineToRelative(1.5f)
+            curveToRelative(0f, 0.72f, 0.58f, 1.3f, 1.3f, 1.3f)
+            horizontalLineToRelative(1.2f)
+            curveToRelative(0.5f, 0f, 0.9f, 0.4f, 0.9f, 0.9f)
+            reflectiveCurveToRelative(-0.4f, 0.9f, -0.9f, 0.9f)
+            close()
+        }
+    }.also { _Percent25 = it }

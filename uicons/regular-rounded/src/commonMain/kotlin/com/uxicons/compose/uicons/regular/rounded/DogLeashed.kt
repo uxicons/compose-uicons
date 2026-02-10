@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DogLeashed: ImageVector? = null
+
+val Icons.Rr.DogLeashed: ImageVector
+    get() = _DogLeashed ?: UXIcon(name = "DogLeashed") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.62f, 5.0f)
+                curveToRelative(-0.31f, 0f, -0.59f, -0.17f, -0.72f, -0.45f)
+                curveToRelative(-0.48f, -0.96f, -1.44f, -1.55f, -2.51f, -1.55f)
+                horizontalLineToRelative(-1.38f)
+                lineTo(17.0f, 0.77f)
+                curveToRelative(0f, -0.52f, -0.52f, -0.9f, -1.01f, -0.73f)
+                curveToRelative(-1.16f, 0.42f, -1.99f, 1.52f, -1.99f, 2.82f)
+                verticalLineToRelative(1.8f)
+                lineToRelative(-0.96f, 2.67f)
+                curveToRelative(-0.03f, 0.08f, -0.08f, 0.16f, -0.12f, 0.23f)
+                lineTo(2.58f, 0.19f)
+                curveToRelative(-0.45f, -0.32f, -1.07f, -0.22f, -1.4f, 0.23f)
+                curveToRelative(-0.32f, 0.45f, -0.22f, 1.07f, 0.23f, 1.4f)
+                lineToRelative(8.66f, 6.18f)
+                lineToRelative(-3.08f, 0.0f)
+                curveToRelative(-1.09f, 0f, -2.09f, 0.36f, -2.91f, 0.95f)
+                curveToRelative(-0.58f, -0.26f, -2.09f, -1.11f, -2.09f, -2.96f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveTo(-0.0f, 5.44f, -0.0f, 6.0f)
+                curveTo(-0.0f, 8.48f, 1.61f, 9.84f, 2.71f, 10.48f)
+                curveToRelative(-0.44f, 0.74f, -0.71f, 1.6f, -0.7f, 2.52f)
+                lineToRelative(0.0f, 8.0f)
+                curveToRelative(0f, 1.65f, 1.35f, 3.0f, 3.0f, 3.0f)
+                reflectiveCurveToRelative(3.0f, -1.34f, 3.0f, -3.0f)
+                verticalLineToRelative(-2.0f)
+                lineToRelative(5f, -0.0f)
+                verticalLineToRelative(2.0f)
+                curveToRelative(0f, 1.65f, 1.34f, 3.0f, 3.0f, 3.0f)
+                reflectiveCurveToRelative(3.0f, -1.34f, 3.0f, -3.0f)
+                verticalLineToRelative(-2.77f)
+                curveToRelative(0f, -0.42f, 0.04f, -0.84f, 0.13f, -1.25f)
+                lineToRelative(1.06f, -4.99f)
+                curveToRelative(2.12f, -0.1f, 3.8f, -1.85f, 3.8f, -4.0f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -1.83f, -1.42f, -2.5f, -2.38f, -2.5f)
+                close()
+                moveTo(7.0f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(3.0f)
+                curveToRelative(0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f)
+                reflectiveCurveToRelative(-1.0f, -0.45f, -1.0f, -1.0f)
+                lineToRelative(-0.0f, -8.0f)
+                curveToRelative(0f, -1.65f, 1.34f, -3f, 3.0f, -3.0f)
+                lineToRelative(4.0f, -0.0f)
+                verticalLineToRelative(7.0f)
+                lineToRelative(-4.0f, 0.0f)
+                close()
+                moveTo(17.0f, 18.23f)
+                verticalLineToRelative(2.77f)
+                curveToRelative(0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f)
+                curveToRelative(-0.55f, 0f, -1.0f, -0.45f, -1.0f, -1.0f)
+                verticalLineToRelative(-3.0f)
+                curveToRelative(0f, -0.27f, -0.1f, -0.52f, -0.29f, -0.71f)
+                curveToRelative(-0.19f, -0.19f, -0.44f, -0.29f, -0.71f, -0.29f)
+                horizontalLineToRelative(-1.0f)
+                reflectiveCurveToRelative(0f, -6.86f, 0f, -6.86f)
+                lineToRelative(4.97f, 2.71f)
+                lineToRelative(-0.79f, 3.72f)
+                curveToRelative(-0.12f, 0.55f, -0.17f, 1.1f, -0.17f, 1.66f)
+                close()
+                moveTo(22.0f, 8.0f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                curveToRelative(-0.63f, 0f, -1.2f, 0.34f, -1.51f, 0.86f)
+                lineToRelative(-3.94f, -2.15f)
+                curveToRelative(0.15f, -0.21f, 0.28f, -0.44f, 0.37f, -0.69f)
+                lineToRelative(1.09f, -3.02f)
+                horizontalLineToRelative(2.38f)
+                curveToRelative(0.31f, 0f, 0.59f, 0.17f, 0.72f, 0.45f)
+                curveToRelative(0.48f, 0.96f, 1.44f, 1.55f, 2.51f, 1.55f)
+                curveToRelative(0.38f, 0f, 0.38f, 0.36f, 0.38f, 0.5f)
+                verticalLineToRelative(0.5f)
+                close()
+            }
+        }.also { _DogLeashed = it}

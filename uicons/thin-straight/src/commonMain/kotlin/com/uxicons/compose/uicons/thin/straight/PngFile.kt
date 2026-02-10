@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PngFile: ImageVector? = null
+
+val Icons.Ts.PngFile: ImageVector
+    get() = _PngFile ?: UXIcon(name = "PngFile") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21.5f, 0f)
+                lineTo(2.5f, 0f)
+                curveTo(1.12f, 0f, 0f, 1.12f, 0f, 2.5f)
+                verticalLineToRelative(21.5f)
+                horizontalLineToRelative(18.21f)
+                lineToRelative(5.79f, -5.79f)
+                lineTo(24f, 2.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(1f, 2.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                horizontalLineToRelative(19f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(14.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(6f)
+                lineTo(1f, 23f)
+                lineTo(1f, 2.5f)
+                close()
+                moveTo(18f, 22.79f)
+                verticalLineToRelative(-4.79f)
+                horizontalLineToRelative(4.79f)
+                lineToRelative(-4.79f, 4.79f)
+                close()
+                moveTo(6f, 4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(6f, 7f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(12f, 4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(-0.81f)
+                lineToRelative(-0.19f, -0.28f)
+                lineToRelative(-1.99f, -4.15f)
+                verticalLineToRelative(4.44f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-7f)
+                horizontalLineToRelative(0.81f)
+                lineToRelative(0.2f, 0.28f)
+                lineToRelative(1.99f, 4.14f)
+                verticalLineToRelative(-4.42f)
+                close()
+                moveTo(16f, 10.97f)
+                curveToRelative(-1.1f, 0f, -2f, -0.89f, -2f, -1.98f)
+                verticalLineToRelative(-3.05f)
+                curveToRelative(0f, -1.09f, 0.9f, -1.97f, 2f, -1.97f)
+                curveToRelative(1.08f, 0f, 2f, 0.93f, 2f, 2.02f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.47f, -1.02f, -1f, -1.02f)
+                curveToRelative(-0.54f, 0f, -1f, 0.45f, -1f, 0.97f)
+                verticalLineToRelative(3.05f)
+                curveToRelative(0f, 0.53f, 0.46f, 0.97f, 1f, 0.97f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -0.97f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.09f, -0.9f, 1.98f, -2f, 1.98f)
+                close()
+            }
+        }.also { _PngFile = it}

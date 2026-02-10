@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _WifiPassword: ImageVector? = null
+
+val Icons.Rs.WifiPassword: ImageVector
+    get() = _WifiPassword ?: UXIcon(name = "WifiPassword") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(21f, 11f)
+                horizontalLineToRelative(-18f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(10f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-10f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(22f, 22f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(-8f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(18f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(8.96f, 16.46f)
+                lineTo(7.91f, 17.5f)
+                lineTo(8.96f, 18.54f)
+                lineTo(7.54f, 19.96f)
+                lineTo(6.5f, 18.91f)
+                lineTo(5.46f, 19.96f)
+                lineTo(4.04f, 18.54f)
+                lineTo(5.09f, 17.5f)
+                lineTo(4.04f, 16.46f)
+                lineTo(5.46f, 15.04f)
+                lineTo(6.5f, 16.09f)
+                lineTo(7.54f, 15.04f)
+                close()
+                moveTo(14.46f, 16.46f)
+                lineTo(13.41f, 17.5f)
+                lineTo(14.46f, 18.54f)
+                lineTo(13.04f, 19.96f)
+                lineTo(12f, 18.91f)
+                lineTo(10.96f, 19.96f)
+                lineTo(9.54f, 18.54f)
+                lineTo(10.59f, 17.5f)
+                lineTo(9.54f, 16.46f)
+                lineTo(10.96f, 15.04f)
+                lineTo(12f, 16.09f)
+                lineTo(13.04f, 15.04f)
+                close()
+                moveTo(19.96f, 16.46f)
+                lineTo(18.91f, 17.5f)
+                lineTo(19.96f, 18.54f)
+                lineTo(18.54f, 19.96f)
+                lineTo(17.5f, 18.91f)
+                lineTo(16.46f, 19.96f)
+                lineTo(15.04f, 18.54f)
+                lineTo(16.09f, 17.5f)
+                lineTo(15.04f, 16.46f)
+                lineTo(16.46f, 15.04f)
+                lineTo(17.5f, 16.09f)
+                lineTo(18.54f, 15.04f)
+                close()
+                moveTo(6.34f, 4.34f)
+                lineTo(4.93f, 2.93f)
+                curveToRelative(1.89f, -1.89f, 4.4f, -2.93f, 7.07f, -2.93f)
+                reflectiveCurveToRelative(5.18f, 1.04f, 7.07f, 2.93f)
+                lineToRelative(-1.41f, 1.41f)
+                curveToRelative(-1.51f, -1.51f, -3.52f, -2.34f, -5.66f, -2.34f)
+                reflectiveCurveToRelative(-4.15f, 0.83f, -5.66f, 2.34f)
+                close()
+                moveTo(14.83f, 7.17f)
+                curveToRelative(-1.51f, -1.51f, -4.15f, -1.51f, -5.66f, 0f)
+                lineToRelative(-1.41f, -1.41f)
+                curveToRelative(1.13f, -1.13f, 2.64f, -1.76f, 4.24f, -1.76f)
+                reflectiveCurveToRelative(3.11f, 0.62f, 4.24f, 1.76f)
+                close()
+                moveTo(10.59f, 8.59f)
+                curveToRelative(0.78f, -0.78f, 2.05f, -0.78f, 2.83f, 0f)
+                lineToRelative(-1.41f, 1.41f)
+                close()
+            }
+        }.also { _WifiPassword = it}

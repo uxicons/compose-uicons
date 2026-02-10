@@ -1,0 +1,167 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Grid: ImageVector? = null
+
+val Icons.Rr.Grid: ImageVector
+    get() = _Grid ?: UXIcon(name = "Grid") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(4.5f, 17.5f)
+                lineTo(2f, 17.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                lineTo(0f, 22f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                lineTo(4.5f, 24f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                lineTo(6.5f, 19.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4.5f, 17.5f)
+                close()
+                moveTo(4.5f, 22f)
+                lineTo(2f, 22f)
+                lineTo(2f, 19.5f)
+                lineTo(4.5f, 19.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 17.5f)
+                horizontalLineTo(19.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                verticalLineTo(22f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                horizontalLineTo(22f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                verticalLineTo(19.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22f, 17.5f)
+                close()
+                moveTo(22f, 22f)
+                horizontalLineTo(19.5f)
+                verticalLineTo(19.5f)
+                horizontalLineTo(22f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(4.5f, 8.75f)
+                lineTo(2f, 8.75f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                verticalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                lineTo(4.5f, 15.25f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                verticalLineToRelative(-2.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4.5f, 8.75f)
+                close()
+                moveTo(4.5f, 13.25f)
+                lineTo(2f, 13.25f)
+                verticalLineToRelative(-2.5f)
+                lineTo(4.5f, 10.75f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 8.75f)
+                lineTo(19.5f, 8.75f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                verticalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                lineTo(22f, 15.25f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                verticalLineToRelative(-2.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22f, 8.75f)
+                close()
+                moveTo(22f, 13.25f)
+                lineTo(19.5f, 13.25f)
+                verticalLineToRelative(-2.5f)
+                lineTo(22f, 10.75f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(4.5f, 0f)
+                lineTo(2f, 0f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0f, 2f)
+                lineTo(0f, 4.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                lineTo(4.5f, 6.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                lineTo(6.5f, 2f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 4.5f, 0f)
+                close()
+                moveTo(4.5f, 4.5f)
+                lineTo(2f, 4.5f)
+                lineTo(2f, 2f)
+                lineTo(4.5f, 2f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(13.25f, 17.5f)
+                horizontalLineToRelative(-2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                lineTo(8.75f, 22f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                horizontalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                lineTo(15.25f, 19.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 13.25f, 17.5f)
+                close()
+                moveTo(13.25f, 22f)
+                horizontalLineToRelative(-2.5f)
+                lineTo(10.75f, 19.5f)
+                horizontalLineToRelative(2.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(13.25f, 8.75f)
+                horizontalLineToRelative(-2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                verticalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                horizontalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                verticalLineToRelative(-2.5f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 13.25f, 8.75f)
+                close()
+                moveTo(13.25f, 13.25f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(2.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(13.25f, 0f)
+                horizontalLineToRelative(-2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                lineTo(8.75f, 4.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                horizontalLineToRelative(2.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                lineTo(15.25f, 2f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 13.25f, 0f)
+                close()
+                moveTo(13.25f, 4.5f)
+                horizontalLineToRelative(-2.5f)
+                lineTo(10.75f, 2f)
+                horizontalLineToRelative(2.5f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 0f)
+                lineTo(19.5f, 0f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2f, 2f)
+                lineTo(17.5f, 4.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, 2f)
+                lineTo(22f, 6.5f)
+                arcToRelative(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2f, -2f)
+                lineTo(24f, 2f)
+                arcTo(2f, 2f, 0f, isMoreThanHalf = false, isPositiveArc = false, 22f, 0f)
+                close()
+                moveTo(22f, 4.5f)
+                lineTo(19.5f, 4.5f)
+                lineTo(19.5f, 2f)
+                lineTo(22f, 2f)
+                close()
+            }
+        }.also { _Grid = it}

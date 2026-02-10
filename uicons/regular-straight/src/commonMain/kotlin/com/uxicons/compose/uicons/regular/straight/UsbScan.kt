@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UsbScan: ImageVector? = null
+
+val Icons.Rs.UsbScan: ImageVector
+    get() = _UsbScan ?: UXIcon(name = "UsbScan") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(2f, 7f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                close()
+                moveTo(21f, 0f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+                moveTo(22f, 21f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(2f, 21f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(16f, 15f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                reflectiveCurveToRelative(-4f, -1.79f, -4f, -4f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, 3.31f, 2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                close()
+                moveTo(18f, 11f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-24f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -1.3f, 0.84f, -2.4f, 2f, -2.82f)
+                verticalLineToRelative(-4.18f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(4.18f)
+                curveToRelative(1.16f, 0.41f, 2f, 1.51f, 2f, 2.82f)
+                close()
+                moveTo(10f, 7f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-4f)
+                close()
+                moveTo(8f, 11f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(-1f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                close()
+            }
+        }.also { _UsbScan = it}

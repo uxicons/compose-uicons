@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TrainStation: ImageVector? = null
+
+val Icons.Rs.TrainStation: ImageVector
+    get() = _TrainStation ?: UXIcon(name = "TrainStation") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 20f)
+                verticalLineToRelative(-10.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                horizontalLineToRelative(-8f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(10.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(15f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2.5f)
+                close()
+                moveTo(11f, 18f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-11f)
+                close()
+                moveTo(17.5f, 9f)
+                horizontalLineToRelative(4.41f)
+                curveToRelative(0.06f, 0.16f, 0.09f, 0.33f, 0.09f, 0.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-4.5f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(11.09f, 9f)
+                horizontalLineToRelative(4.41f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4.5f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -0.17f, 0.03f, -0.34f, 0.09f, -0.5f)
+                close()
+                moveTo(19.5f, 22f)
+                horizontalLineToRelative(-6.5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6.5f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(2f, 18f)
+                lineTo(2f, 2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(8f)
+                lineTo(13f, 0f)
+                lineTo(0f, 0f)
+                verticalLineToRelative(24f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-2f)
+                lineTo(2f, 18f)
+                close()
+                moveTo(4f, 22f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                close()
+            }
+        }.also { _TrainStation = it}

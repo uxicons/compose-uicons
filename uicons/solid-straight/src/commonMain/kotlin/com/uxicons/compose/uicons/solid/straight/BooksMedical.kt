@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BooksMedical: ImageVector? = null
+
+val Icons.Ss.BooksMedical: ImageVector
+    get() = _BooksMedical ?: UXIcon(name = "BooksMedical") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5f, 11f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3f)
+                lineTo(0f, 13f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(3f, 24f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-5f)
+                lineTo(3f, 19f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(3f, 2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(5f)
+                lineTo(8f, 0f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                close()
+                moveTo(10f, 17f)
+                horizontalLineToRelative(5f)
+                lineTo(15f, 7f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(10f)
+                close()
+                moveTo(10f, 24f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(5f)
+                close()
+                moveTo(20.66f, 6.17f)
+                lineToRelative(-4.93f, 0.85f)
+                lineToRelative(1.79f, 10.44f)
+                lineToRelative(4.93f, -0.85f)
+                lineToRelative(-1.79f, -10.44f)
+                close()
+                moveTo(22.79f, 18.58f)
+                lineToRelative(-4.93f, 0.85f)
+                lineToRelative(0.76f, 4.59f)
+                lineToRelative(4.93f, -0.85f)
+                lineToRelative(-0.76f, -4.59f)
+                close()
+                moveTo(19.89f, 1.69f)
+                curveToRelative(-0.19f, -1.09f, -1.22f, -1.82f, -2.31f, -1.63f)
+                lineToRelative(-0.98f, 0.17f)
+                curveToRelative(-0.83f, 0.14f, -1.45f, 0.78f, -1.61f, 1.55f)
+                curveToRelative(-0.11f, -1.0f, -0.95f, -1.78f, -1.98f, -1.78f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(-2.23f)
+                lineToRelative(0.39f, 2.28f)
+                lineToRelative(4.93f, -0.85f)
+                lineToRelative(-0.43f, -2.51f)
+                close()
+                moveTo(15.39f, 5.04f)
+                horizontalLineToRelative(0f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(0f)
+                close()
+            }
+        }.also { _BooksMedical = it}

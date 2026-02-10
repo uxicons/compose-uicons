@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Plagiarism: ImageVector? = null
+
+val Icons.Ss.Plagiarism: ImageVector
+    get() = _Plagiarism ?: UXIcon(name = "Plagiarism") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 0f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                lineTo(13f, 10.07f)
+                curveToRelative(1.08f, 0.14f, 2.1f, 0.49f, 3f, 1.01f)
+                verticalLineToRelative(-0.08f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2.76f)
+                curveToRelative(0.7f, 0.87f, 1.21f, 1.89f, 1.5f, 3f)
+                horizontalLineToRelative(4.26f)
+                lineTo(24f, 2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(21f, 9f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(21f, 5f)
+                horizontalLineToRelative(-5f)
+                lineTo(16f, 3f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(5.76f, 13f)
+                lineTo(3f, 13f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(0.08f)
+                curveToRelative(0.9f, -0.52f, 1.92f, -0.88f, 3f, -1.01f)
+                lineTo(11f, 2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                lineTo(2f, 0f)
+                curveTo(0.9f, 0f, 0f, 0.9f, 0f, 2f)
+                verticalLineToRelative(14f)
+                lineTo(4.26f, 16f)
+                curveToRelative(0.29f, -1.11f, 0.8f, -2.13f, 1.5f, -3f)
+                close()
+                moveTo(3f, 3f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                lineTo(3f, 5f)
+                lineTo(3f, 3f)
+                close()
+                moveTo(3f, 7f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(2f)
+                lineTo(3f, 9f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(12f, 12f)
+                curveToRelative(-3.31f, 0f, -6f, 2.69f, -6f, 6f)
+                reflectiveCurveToRelative(2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                reflectiveCurveToRelative(-2.69f, -6f, -6f, -6f)
+                close()
+                moveTo(14.12f, 21.54f)
+                lineToRelative(-2.12f, -2.12f)
+                lineToRelative(-2.12f, 2.12f)
+                lineToRelative(-1.41f, -1.41f)
+                lineToRelative(2.12f, -2.12f)
+                lineToRelative(-2.12f, -2.12f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(2.12f, 2.12f)
+                lineToRelative(2.12f, -2.12f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-2.12f, 2.12f)
+                lineToRelative(2.12f, 2.12f)
+                lineToRelative(-1.41f, 1.41f)
+                close()
+            }
+        }.also { _Plagiarism = it}

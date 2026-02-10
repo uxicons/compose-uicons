@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _LegalFees: ImageVector? = null
+
+val Icons.Br.LegalFees: ImageVector
+    get() = _LegalFees ?: UXIcon(name = "LegalFees") {
+        path(fill = SolidColor(Color.Black)) {
+            moveToRelative(20f, 22.5f)
+            curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+            horizontalLineToRelative(-13f)
+            curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+            reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+            horizontalLineToRelative(5f)
+            verticalLineToRelative(-5.5f)
+            curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+            reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+            verticalLineToRelative(5.5f)
+            horizontalLineToRelative(5f)
+            curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+            close()
+            moveTo(24f, 14.5f)
+            curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+            reflectiveCurveToRelative(-4.5f, -2.02f, -4.5f, -4.5f)
+            curveToRelative(0f, -0.16f, 0.03f, -0.32f, 0.08f, -0.47f)
+            lineToRelative(3f, -9f)
+            curveToRelative(0.2f, -0.61f, 0.78f, -1.03f, 1.42f, -1.03f)
+            reflectiveCurveToRelative(1.22f, 0.41f, 1.42f, 1.03f)
+            lineToRelative(3f, 9f)
+            curveToRelative(0.05f, 0.15f, 0.08f, 0.31f, 0.08f, 0.47f)
+            close()
+            moveTo(18.25f, 14f)
+            horizontalLineToRelative(2.5f)
+            lineToRelative(-1.25f, -3.76f)
+            close()
+            moveTo(4.5f, 19f)
+            curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+            curveToRelative(0f, -0.16f, 0.03f, -0.32f, 0.08f, -0.47f)
+            lineToRelative(3f, -9f)
+            curveToRelative(0.2f, -0.61f, 0.78f, -1.03f, 1.42f, -1.03f)
+            reflectiveCurveToRelative(1.22f, 0.41f, 1.42f, 1.03f)
+            lineToRelative(3f, 9f)
+            curveToRelative(0.05f, 0.15f, 0.08f, 0.31f, 0.08f, 0.47f)
+            curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+            close()
+            moveTo(3.25f, 14f)
+            horizontalLineToRelative(2.5f)
+            lineToRelative(-1.25f, -3.76f)
+            close()
+            moveTo(10.31f, 6.73f)
+            lineTo(13.36f, 7.24f)
+            curveToRelative(0.37f, 0.06f, 0.64f, 0.38f, 0.64f, 0.76f)
+            curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+            horizontalLineToRelative(-2.27f)
+            curveToRelative(-0.36f, 0f, -0.69f, -0.19f, -0.87f, -0.5f)
+            curveToRelative(-0.28f, -0.48f, -0.89f, -0.64f, -1.37f, -0.36f)
+            curveToRelative(-0.48f, 0.28f, -0.64f, 0.89f, -0.36f, 1.37f)
+            curveToRelative(0.54f, 0.93f, 1.53f, 1.5f, 2.6f, 1.5f)
+            horizontalLineToRelative(0.27f)
+            curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+            reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+            curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+            curveToRelative(0f, -1.36f, -0.97f, -2.51f, -2.31f, -2.73f)
+            lineToRelative(-3.04f, -0.51f)
+            curveToRelative(-0.37f, -0.06f, -0.64f, -0.38f, -0.64f, -0.76f)
+            curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+            horizontalLineToRelative(2.27f)
+            curveToRelative(0.36f, 0f, 0.69f, 0.19f, 0.87f, 0.5f)
+            curveToRelative(0.28f, 0.48f, 0.89f, 0.64f, 1.37f, 0.36f)
+            curveToRelative(0.48f, -0.28f, 0.64f, -0.89f, 0.36f, -1.37f)
+            curveToRelative(-0.54f, -0.93f, -1.53f, -1.5f, -2.6f, -1.5f)
+            horizontalLineToRelative(-0.27f)
+            curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+            reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+            curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+            curveToRelative(0f, 1.36f, 0.97f, 2.51f, 2.31f, 2.73f)
+            close()
+        }
+    }.also { _LegalFees = it }

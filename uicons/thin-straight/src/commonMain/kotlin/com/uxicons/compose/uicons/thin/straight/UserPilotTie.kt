@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserPilotTie: ImageVector? = null
+
+val Icons.Ts.UserPilotTie: ImageVector
+    get() = _UserPilotTie ?: UXIcon(name = "UserPilotTie") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5.99f, 9.01f)
+                curveToRelative(0f, 3.31f, 2.69f, 6f, 6f, 6f)
+                reflectiveCurveToRelative(6f, -2.69f, 6f, -6f)
+                verticalLineToRelative(-2.75f)
+                lineToRelative(2f, -1.5f)
+                verticalLineToRelative(-2.62f)
+                lineTo(13.84f, 0.24f)
+                lineToRelative(-0.03f, -0.01f)
+                curveToRelative(-1.19f, -0.3f, -2.45f, -0.3f, -3.66f, 0.01f)
+                lineToRelative(-6.15f, 1.9f)
+                verticalLineToRelative(2.62f)
+                lineToRelative(2f, 1.5f)
+                verticalLineToRelative(2.75f)
+                close()
+                moveTo(11.99f, 14.01f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                verticalLineToRelative(-0.72f)
+                curveToRelative(0.85f, 0.32f, 2.44f, 0.72f, 5f, 0.72f)
+                reflectiveCurveToRelative(4.15f, -0.41f, 5f, -0.72f)
+                verticalLineToRelative(0.72f)
+                curveToRelative(0f, 2.76f, -2.24f, 5f, -5f, 5f)
+                close()
+                moveTo(4.99f, 4.26f)
+                verticalLineToRelative(-1.38f)
+                lineToRelative(5.42f, -1.68f)
+                curveToRelative(1.03f, -0.26f, 2.11f, -0.26f, 3.14f, -0.0f)
+                lineToRelative(5.44f, 1.68f)
+                verticalLineToRelative(1.38f)
+                lineToRelative(-2f, 1.5f)
+                verticalLineToRelative(1.45f)
+                curveToRelative(-0.54f, 0.25f, -2.07f, 0.8f, -5f, 0.8f)
+                reflectiveCurveToRelative(-4.47f, -0.56f, -5f, -0.8f)
+                verticalLineToRelative(-1.45f)
+                lineToRelative(-2f, -1.5f)
+                close()
+                moveTo(11.99f, 6.09f)
+                lineToRelative(-3.27f, -1.96f)
+                lineToRelative(0.51f, -0.86f)
+                lineToRelative(2.76f, 1.65f)
+                lineToRelative(2.76f, -1.65f)
+                lineToRelative(0.51f, 0.86f)
+                lineToRelative(-3.27f, 1.96f)
+                close()
+                moveTo(15.99f, 15.99f)
+                horizontalLineToRelative(-2.28f)
+                lineToRelative(-1.72f, 2.86f)
+                lineToRelative(-1.72f, -2.86f)
+                horizontalLineToRelative(-2.27f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.21f, 1.79f, -4f, 4f, -4f)
+                horizontalLineToRelative(1.7f)
+                lineToRelative(1.24f, 2.06f)
+                lineToRelative(-1.65f, 4.94f)
+                horizontalLineToRelative(5.39f)
+                lineToRelative(-1.65f, -4.94f)
+                lineToRelative(1.24f, -2.06f)
+                horizontalLineToRelative(1.72f)
+                curveToRelative(2.21f, 0f, 4f, 1.79f, 4f, 4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(13.3f, 22.99f)
+                horizontalLineToRelative(-2.61f)
+                lineToRelative(1.31f, -3.92f)
+                lineToRelative(1.31f, 3.92f)
+                close()
+            }
+        }.also { _UserPilotTie = it}

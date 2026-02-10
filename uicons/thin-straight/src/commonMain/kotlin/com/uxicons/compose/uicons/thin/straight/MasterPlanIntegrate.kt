@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _MasterPlanIntegrate: ImageVector? = null
+
+val Icons.Ts.MasterPlanIntegrate: ImageVector
+    get() = _MasterPlanIntegrate ?: UXIcon(name = "MasterPlanIntegrate") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 17.5f)
+                verticalLineToRelative(6.5f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-6.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(2.58f)
+                lineToRelative(1f, 1f)
+                lineTo(2.5f, 16f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(5.5f)
+                lineTo(23f, 23f)
+                verticalLineToRelative(-5.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-3.58f)
+                lineToRelative(1f, -1f)
+                horizontalLineToRelative(2.58f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(24f, 2f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-5f)
+                lineToRelative(0.0f, 5.18f)
+                lineToRelative(2.9f, -2.9f)
+                lineToRelative(0.71f, 0.71f)
+                lineToRelative(-3.09f, 3.09f)
+                curveToRelative(-1.59f, 1.74f, -4.03f, -2.4f, -5.11f, -3.09f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(2.9f, 2.9f)
+                lineToRelative(-0.0f, -5.18f)
+                lineTo(6.5f, 12.0f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                verticalLineToRelative(-2.5f)
+                lineTo(0f, 8.0f)
+                lineTo(0f, 2f)
+                curveTo(0f, 0.9f, 0.9f, 0f, 2f, 0f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                verticalLineToRelative(6f)
+                lineTo(6f, 8f)
+                verticalLineToRelative(2.5f)
+                curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-2.5f)
+                horizontalLineToRelative(-5f)
+                lineTo(13f, 2f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(7f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+                moveTo(1f, 7f)
+                lineTo(10f, 7f)
+                lineTo(10f, 2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                lineTo(2f, 1f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                lineTo(1f, 7f)
+                close()
+                moveTo(23f, 2f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-7f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                lineTo(14f, 7f)
+                horizontalLineToRelative(9f)
+                lineTo(23f, 2f)
+                close()
+            }
+        }.also { _MasterPlanIntegrate = it}

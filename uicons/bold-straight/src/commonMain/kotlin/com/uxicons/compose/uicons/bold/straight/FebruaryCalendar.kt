@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FebruaryCalendar: ImageVector? = null
+
+val Icons.Bs.FebruaryCalendar: ImageVector
+    get() = _FebruaryCalendar ?: UXIcon(name = "FebruaryCalendar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9f, 16f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(-2.4f)
+                verticalLineToRelative(1.8f)
+                horizontalLineToRelative(2.4f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(-2.4f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1.6f)
+                verticalLineToRelative(-8f)
+                close()
+                moveTo(14f, 24f)
+                horizontalLineToRelative(3.5f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-1.9f)
+                verticalLineToRelative(-1.55f)
+                horizontalLineToRelative(1.9f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-1.9f)
+                verticalLineToRelative(-1.65f)
+                horizontalLineToRelative(1.9f)
+                verticalLineToRelative(-1.6f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(8f)
+                close()
+                moveTo(23.18f, 19.81f)
+                curveToRelative(0.5f, 0.44f, 0.82f, 1.08f, 0.82f, 1.79f)
+                curveToRelative(0f, 1.32f, -1.07f, 2.4f, -2.4f, 2.4f)
+                horizontalLineToRelative(-2.6f)
+                verticalLineToRelative(-8.04f)
+                horizontalLineToRelative(2.27f)
+                curveToRelative(1.32f, 0f, 2.4f, 1.07f, 2.4f, 2.4f)
+                curveToRelative(0f, 0.55f, -0.19f, 1.04f, -0.49f, 1.45f)
+                close()
+                moveTo(20.6f, 19.16f)
+                horizontalLineToRelative(0.67f)
+                curveToRelative(0.44f, 0f, 0.8f, -0.36f, 0.8f, -0.8f)
+                reflectiveCurveToRelative(-0.36f, -0.8f, -0.8f, -0.8f)
+                horizontalLineToRelative(-0.67f)
+                verticalLineToRelative(1.6f)
+                close()
+                moveTo(22.4f, 21.6f)
+                curveToRelative(0f, -0.44f, -0.36f, -0.8f, -0.8f, -0.8f)
+                horizontalLineToRelative(-1.0f)
+                verticalLineToRelative(1.6f)
+                horizontalLineToRelative(1.0f)
+                curveToRelative(0.44f, 0f, 0.8f, -0.36f, 0.8f, -0.8f)
+                close()
+                moveTo(21.0f, 2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-3.0f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(19f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(18f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(0.27f)
+                curveToRelative(1.03f, 0f, 1.97f, 0.37f, 2.73f, 0.97f)
+                verticalLineToRelative(-9.97f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                close()
+            }
+        }.also { _FebruaryCalendar = it}

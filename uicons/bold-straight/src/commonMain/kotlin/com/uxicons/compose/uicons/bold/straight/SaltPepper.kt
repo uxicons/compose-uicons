@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SaltPepper: ImageVector? = null
+
+val Icons.Bs.SaltPepper: ImageVector
+    get() = _SaltPepper ?: UXIcon(name = "SaltPepper") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.75f, 11.17f)
+                curveTo(20.81f, 9.76f, 20f, 8.55f, 20f, 7f)
+                lineTo(20f, 5f)
+                horizontalLineToRelative(1f)
+                lineTo(21f, 2f)
+                lineTo(19.95f, 2f)
+                arcTo(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, 17.5f, 0f)
+                horizontalLineToRelative(-3f)
+                arcToRelative(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = false, -2.45f, 2f)
+                lineTo(11f, 2f)
+                lineTo(11f, 5f)
+                horizontalLineToRelative(1f)
+                lineTo(12f, 7f)
+                curveToRelative(0f, 1.55f, -0.81f, 2.76f, -1.75f, 4.17f)
+                arcTo(10.25f, 10.25f, 0f, isMoreThanHalf = false, isPositiveArc = false, 8f, 17f)
+                arcToRelative(12.73f, 12.73f, 0f, isMoreThanHalf = false, isPositiveArc = false, 2.28f, 6.37f)
+                lineToRelative(0.45f, 0.63f)
+                lineTo(21.27f, 24f)
+                lineToRelative(0.45f, -0.63f)
+                arcTo(12.73f, 12.73f, 0f, isMoreThanHalf = false, isPositiveArc = false, 24f, 17f)
+                arcTo(10.25f, 10.25f, 0f, isMoreThanHalf = false, isPositiveArc = false, 21.75f, 11.17f)
+                close()
+                moveTo(17f, 5f)
+                lineTo(17f, 7f)
+                arcToRelative(7.61f, 7.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 0.63f, 3f)
+                lineTo(14.37f, 10f)
+                arcTo(7.61f, 7.61f, 0f, isMoreThanHalf = false, isPositiveArc = false, 15f, 7f)
+                lineTo(15f, 5f)
+                close()
+                moveTo(19.68f, 21f)
+                lineTo(12.32f, 21f)
+                arcTo(8.9f, 8.9f, 0f, isMoreThanHalf = false, isPositiveArc = true, 11f, 17f)
+                arcToRelative(7.25f, 7.25f, 0f, isMoreThanHalf = false, isPositiveArc = true, 1.64f, -4f)
+                horizontalLineToRelative(6.73f)
+                arcTo(7.25f, 7.25f, 0f, isMoreThanHalf = false, isPositiveArc = true, 21f, 17f)
+                arcTo(8.9f, 8.9f, 0f, isMoreThanHalf = false, isPositiveArc = true, 19.68f, 21f)
+                close()
+                moveTo(16f, 18.5f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = true, isPositiveArc = true, 14.5f, 17f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 16f, 18.5f)
+                close()
+                moveTo(19f, 15.5f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = true, isPositiveArc = true, 17.5f, 14f)
+                arcTo(1.5f, 1.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 19f, 15.5f)
+                close()
+                moveTo(6.8f, 21f)
+                arcToRelative(17.01f, 17.01f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.5f, 3f)
+                lineTo(2.73f, 24f)
+                lineToRelative(-0.45f, -0.63f)
+                arcTo(12.73f, 12.73f, 0f, isMoreThanHalf = false, isPositiveArc = true, 0f, 17f)
+                arcToRelative(10.25f, 10.25f, 0f, isMoreThanHalf = false, isPositiveArc = true, 2.25f, -5.83f)
+                curveTo(3.19f, 9.76f, 4f, 8.55f, 4f, 7f)
+                lineTo(4f, 5f)
+                lineTo(3f, 5f)
+                lineTo(3f, 2f)
+                lineTo(4.05f, 2f)
+                arcTo(2.5f, 2.5f, 0f, isMoreThanHalf = false, isPositiveArc = true, 6.5f, 0f)
+                lineTo(9.8f, 0f)
+                reflectiveCurveToRelative(-0.04f, 0.05f, -0.18f, 0.27f)
+                arcTo(4.45f, 4.45f, 0f, isMoreThanHalf = false, isPositiveArc = false, 9f, 2.5f)
+                lineTo(9f, 5f)
+                lineTo(7f, 5f)
+                lineTo(7f, 7f)
+                arcToRelative(7.61f, 7.61f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.63f, 3f)
+                lineTo(8.63f, 10f)
+                arcToRelative(27.9f, 27.9f, 0f, isMoreThanHalf = false, isPositiveArc = false, -1.75f, 3f)
+                lineTo(4.64f, 13f)
+                arcTo(7.25f, 7.25f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3f, 17f)
+                arcToRelative(8.9f, 8.9f, 0f, isMoreThanHalf = false, isPositiveArc = false, 1.32f, 4f)
+                close()
+            }
+        }.also { _SaltPepper = it}

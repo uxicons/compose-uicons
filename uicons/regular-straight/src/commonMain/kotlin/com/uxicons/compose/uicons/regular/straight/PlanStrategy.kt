@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PlanStrategy: ImageVector? = null
+
+val Icons.Rs.PlanStrategy: ImageVector
+    get() = _PlanStrategy ?: UXIcon(name = "PlanStrategy") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(8.04f, 9.54f)
+                lineToRelative(2.04f, -2.04f)
+                lineToRelative(-2.04f, -2.04f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(2.04f, 2.04f)
+                lineToRelative(2.04f, -2.04f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(-2.04f, 2.04f)
+                lineToRelative(2.04f, 2.04f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(-2.04f, -2.04f)
+                lineToRelative(-2.04f, 2.04f)
+                lineToRelative(-1.41f, -1.41f)
+                close()
+                moveTo(1.46f, 6.96f)
+                lineToRelative(2.04f, -2.04f)
+                lineToRelative(2.04f, 2.04f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-2.04f, -2.04f)
+                lineToRelative(2.04f, -2.04f)
+                lineTo(5.54f, 0.04f)
+                lineToRelative(-2.04f, 2.04f)
+                lineTo(1.46f, 0.04f)
+                lineTo(0.04f, 1.46f)
+                lineToRelative(2.04f, 2.04f)
+                lineTo(0.04f, 5.54f)
+                lineToRelative(1.41f, 1.41f)
+                close()
+                moveTo(19.54f, 17.04f)
+                lineToRelative(-2.04f, 2.04f)
+                lineToRelative(-2.04f, -2.04f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(2.04f, 2.04f)
+                lineToRelative(-2.04f, 2.04f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(2.04f, -2.04f)
+                lineToRelative(2.04f, 2.04f)
+                lineToRelative(1.41f, -1.41f)
+                lineToRelative(-2.04f, -2.04f)
+                lineToRelative(2.04f, -2.04f)
+                lineToRelative(-1.41f, -1.41f)
+                close()
+                moveTo(23.99f, 3.16f)
+                lineToRelative(-1.41f, 1.42f)
+                lineToRelative(-1.58f, -1.57f)
+                verticalLineToRelative(9.0f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                lineTo(5.51f, 15f)
+                curveToRelative(-0.55f, 0f, -1.0f, 0.45f, -1f, 1.0f)
+                lineToRelative(-0.01f, 1.17f)
+                curveToRelative(1.44f, 0.43f, 2.5f, 1.76f, 2.5f, 3.34f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                reflectiveCurveToRelative(-3.5f, -1.57f, -3.5f, -3.5f)
+                curveToRelative(0f, -1.58f, 1.06f, -2.9f, 2.5f, -3.34f)
+                lineToRelative(0.01f, -1.17f)
+                curveToRelative(0.0f, -1.65f, 1.35f, -2.99f, 3f, -2.99f)
+                horizontalLineToRelative(12.49f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                lineTo(19f, 2.99f)
+                lineToRelative(-1.58f, 1.58f)
+                lineToRelative(-1.41f, -1.42f)
+                lineToRelative(2.58f, -2.58f)
+                curveToRelative(0.78f, -0.77f, 2.04f, -0.77f, 2.81f, 0f)
+                lineToRelative(2.58f, 2.58f)
+                close()
+                moveTo(3.5f, 19f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _PlanStrategy = it}

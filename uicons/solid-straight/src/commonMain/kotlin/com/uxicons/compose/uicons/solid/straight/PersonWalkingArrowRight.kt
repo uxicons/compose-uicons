@@ -1,0 +1,64 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PersonWalkingArrowRight: ImageVector? = null
+
+val Icons.Ss.PersonWalkingArrowRight: ImageVector
+    get() = _PersonWalkingArrowRight ?: UXIcon(name = "PersonWalkingArrowRight") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(7f, 2.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                reflectiveCurveToRelative(2.5f, 1.12f, 2.5f, 2.5f)
+                reflectiveCurveToRelative(-1.12f, 2.5f, -2.5f, 2.5f)
+                reflectiveCurveToRelative(-2.5f, -1.12f, -2.5f, -2.5f)
+                close()
+                moveTo(12.81f, 11.31f)
+                lineToRelative(3.19f, 1.82f)
+                lineToRelative(-0.99f, 1.74f)
+                lineToRelative(-3.81f, -2.18f)
+                lineToRelative(-1.38f, -3.73f)
+                lineToRelative(-1.66f, 7.0f)
+                lineToRelative(1.86f, 1.58f)
+                verticalLineToRelative(6.46f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-5.54f)
+                lineToRelative(-2.92f, -2.48f)
+                curveToRelative(-0.87f, -0.72f, -1.25f, -1.87f, -0.99f, -2.98f)
+                lineToRelative(0.9f, -4.26f)
+                lineToRelative(-2.13f, 0.97f)
+                lineToRelative(-0.88f, 3.53f)
+                lineTo(0.03f, 12.76f)
+                lineToRelative(1.12f, -4.47f)
+                lineToRelative(4.31f, -1.96f)
+                curveToRelative(0.66f, -0.22f, 1.35f, -0.33f, 2.04f, -0.33f)
+                horizontalLineToRelative(1.58f)
+                curveToRelative(0.93f, 0f, 1.79f, 0.51f, 2.25f, 1.32f)
+                lineToRelative(1.49f, 3.99f)
+                close()
+                moveTo(3.39f, 17.13f)
+                lineToRelative(-1.62f, 6.87f)
+                horizontalLineToRelative(2.25f)
+                lineToRelative(1.15f, -5.32f)
+                lineToRelative(-1.39f, -1.18f)
+                curveToRelative(-0.14f, -0.12f, -0.27f, -0.25f, -0.39f, -0.38f)
+                close()
+                moveTo(23.43f, 10.65f)
+                lineToRelative(-2.72f, -2.72f)
+                lineToRelative(-1.41f, 1.41f)
+                lineToRelative(1.69f, 1.66f)
+                horizontalLineToRelative(-3.98f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(4.02f)
+                lineToRelative(-1.73f, 1.73f)
+                lineToRelative(1.41f, 1.41f)
+                lineToRelative(2.72f, -2.72f)
+                curveToRelative(0.76f, -0.76f, 0.76f, -2.01f, 0f, -2.77f)
+                close()
+            }
+        }.also { _PersonWalkingArrowRight = it}

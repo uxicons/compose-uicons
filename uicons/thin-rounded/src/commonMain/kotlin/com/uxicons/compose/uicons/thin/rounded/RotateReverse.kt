@@ -1,0 +1,51 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RotateReverse: ImageVector? = null
+
+val Icons.Tr.RotateReverse: ImageVector
+    get() = _RotateReverse ?: UXIcon(name = "RotateReverse") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(23.99f, 11.48f)
+                curveToRelative(0.01f, 0.28f, -0.2f, 0.51f, -0.48f, 0.52f)
+                curveToRelative(-0.01f, 0f, -0.01f, 0f, -0.02f, 0f)
+                curveToRelative(-0.27f, 0f, -0.49f, -0.21f, -0.5f, -0.48f)
+                curveToRelative(-0.25f, -5.9f, -5.08f, -10.52f, -10.99f, -10.52f)
+                curveToRelative(-3.71f, 0f, -7.17f, 1.91f, -9.19f, 5f)
+                horizontalLineToRelative(3.69f)
+                curveToRelative(0.28f, 0f, 0.5f, 0.22f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.22f, 0.5f, -0.5f, 0.5f)
+                lineTo(2.5f, 7f)
+                curveToRelative(-0.83f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                lineTo(1f, 1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(3.91f)
+                curveTo(4.21f, 2.07f, 7.97f, 0f, 12f, 0f)
+                curveToRelative(6.45f, 0f, 11.71f, 5.04f, 11.99f, 11.48f)
+                close()
+                moveTo(21.5f, 17f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(3.69f)
+                curveToRelative(-2.02f, 3.09f, -5.48f, 5f, -9.19f, 5f)
+                curveToRelative(-5.91f, 0f, -10.74f, -4.62f, -10.99f, -10.52f)
+                curveToRelative(-0.01f, -0.28f, -0.22f, -0.51f, -0.52f, -0.48f)
+                curveToRelative(-0.28f, 0.01f, -0.49f, 0.24f, -0.48f, 0.52f)
+                curveToRelative(0.28f, 6.44f, 5.54f, 11.48f, 11.99f, 11.48f)
+                curveToRelative(4.03f, 0f, 7.79f, -2.07f, 10f, -5.41f)
+                verticalLineToRelative(3.91f)
+                curveToRelative(0f, 0.28f, 0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                close()
+            }
+        }.also { _RotateReverse = it}

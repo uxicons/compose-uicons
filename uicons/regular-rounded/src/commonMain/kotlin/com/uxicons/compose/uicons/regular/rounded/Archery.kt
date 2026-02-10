@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Archery: ImageVector? = null
+
+val Icons.Rr.Archery: ImageVector
+    get() = _Archery ?: UXIcon(name = "Archery") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(7f, 11f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                reflectiveCurveToRelative(5f, -2.24f, 5f, -5f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                curveToRelative(0f, 3.86f, -3.14f, 7f, -7f, 7f)
+                reflectiveCurveToRelative(-7f, -3.14f, -7f, -7f)
+                reflectiveCurveToRelative(3.14f, -7f, 7f, -7f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                close()
+                moveTo(12f, 12f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                curveToRelative(0f, -0.28f, 0.11f, -0.53f, 0.29f, -0.71f)
+                lineToRelative(1.98f, -1.98f)
+                curveToRelative(-1.11f, -0.5f, -2.51f, -0.32f, -3.4f, 0.57f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                curveToRelative(-0.57f, 0.57f, -0.88f, 1.32f, -0.88f, 2.12f)
+                reflectiveCurveToRelative(0.31f, 1.55f, 0.88f, 2.12f)
+                reflectiveCurveToRelative(1.32f, 0.88f, 2.12f, 0.88f)
+                reflectiveCurveToRelative(1.55f, -0.31f, 2.12f, -0.88f)
+                reflectiveCurveToRelative(0.88f, -1.32f, 0.88f, -2.12f)
+                curveToRelative(0f, -0.45f, -0.11f, -0.89f, -0.3f, -1.29f)
+                lineToRelative(-1.99f, 1.99f)
+                curveToRelative(-0.18f, 0.18f, -0.43f, 0.29f, -0.71f, 0.29f)
+                close()
+                moveTo(13.28f, 8.31f)
+                curveToRelative(0.31f, 0.14f, 0.6f, 0.32f, 0.85f, 0.57f)
+                reflectiveCurveToRelative(0.43f, 0.53f, 0.58f, 0.83f)
+                lineToRelative(1.71f, -1.71f)
+                horizontalLineToRelative(2.59f)
+                curveToRelative(0.27f, 0f, 0.52f, -0.1f, 0.71f, -0.29f)
+                lineToRelative(2f, -2f)
+                curveToRelative(0.29f, -0.29f, 0.37f, -0.72f, 0.22f, -1.09f)
+                reflectiveCurveToRelative(-0.52f, -0.62f, -0.92f, -0.62f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-2.0f)
+                curveToRelative(0f, -0.4f, -0.24f, -0.77f, -0.62f, -0.92f)
+                curveToRelative(-0.38f, -0.15f, -0.8f, -0.07f, -1.09f, 0.22f)
+                lineToRelative(-2f, 2f)
+                curveToRelative(-0.19f, 0.19f, -0.29f, 0.44f, -0.29f, 0.71f)
+                verticalLineToRelative(2.59f)
+                lineToRelative(-1.73f, 1.73f)
+                close()
+                moveTo(19.3f, 19.21f)
+                curveToRelative(2.27f, -2.02f, 3.71f, -4.95f, 3.71f, -8.21f)
+                curveToRelative(0f, -0.37f, -0.02f, -0.74f, -0.05f, -1.1f)
+                curveToRelative(-0.06f, -0.55f, -0.54f, -0.95f, -1.09f, -0.9f)
+                curveToRelative(-0.55f, 0.06f, -0.95f, 0.54f, -0.9f, 1.09f)
+                curveToRelative(0.03f, 0.3f, 0.04f, 0.6f, 0.04f, 0.9f)
+                curveToRelative(0f, 4.96f, -4.04f, 9f, -9f, 9f)
+                reflectiveCurveToRelative(-9f, -4.04f, -9f, -9f)
+                reflectiveCurveToRelative(4.04f, -9f, 9f, -9f)
+                curveToRelative(0.3f, 0f, 0.6f, 0.01f, 0.9f, 0.04f)
+                curveToRelative(0.56f, 0.06f, 1.04f, -0.35f, 1.09f, -0.9f)
+                curveToRelative(0.06f, -0.55f, -0.35f, -1.04f, -0.9f, -1.09f)
+                curveToRelative(-0.36f, -0.04f, -0.73f, -0.05f, -1.1f, -0.05f)
+                curveToRelative(-6.07f, 0f, -11f, 4.93f, -11f, 11f)
+                curveToRelative(0f, 3.27f, 1.44f, 6.19f, 3.71f, 8.21f)
+                lineToRelative(-2.05f, 3.26f)
+                curveToRelative(-0.29f, 0.47f, -0.15f, 1.08f, 0.31f, 1.38f)
+                curveToRelative(0.46f, 0.29f, 1.08f, 0.16f, 1.38f, -0.31f)
+                lineToRelative(1.97f, -3.13f)
+                curveToRelative(1.66f, 1.01f, 3.6f, 1.6f, 5.68f, 1.6f)
+                reflectiveCurveToRelative(4.02f, -0.59f, 5.68f, -1.6f)
+                lineToRelative(1.97f, 3.13f)
+                curveToRelative(0.3f, 0.47f, 0.92f, 0.6f, 1.38f, 0.31f)
+                curveToRelative(0.47f, -0.29f, 0.61f, -0.91f, 0.31f, -1.38f)
+                close()
+            }
+        }.also { _Archery = it}

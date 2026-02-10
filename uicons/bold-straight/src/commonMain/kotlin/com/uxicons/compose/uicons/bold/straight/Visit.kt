@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Visit: ImageVector? = null
+
+val Icons.Bs.Visit: ImageVector
+    get() = _Visit ?: UXIcon(name = "Visit") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(14.08f, 21.98f)
+                lineToRelative(2.07f, 2.02f)
+                lineTo(0f, 24f)
+                lineTo(0f, 3.5f)
+                curveTo(0f, 1.57f, 1.57f, 0f, 3.5f, 0f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(6.58f)
+                curveToRelative(-1.08f, 0.15f, -2.11f, 0.56f, -3f, 1.18f)
+                lineTo(15f, 3.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                lineTo(3.5f, 3f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(17.5f)
+                horizontalLineToRelative(10.26f)
+                curveToRelative(0.24f, 0.34f, 0.51f, 0.67f, 0.81f, 0.98f)
+                close()
+                moveTo(10f, 15f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2.08f)
+                curveToRelative(-0.05f, -0.33f, -0.08f, -0.66f, -0.08f, -1f)
+                curveToRelative(0f, -0.69f, 0.1f, -1.36f, 0.29f, -2f)
+                horizontalLineToRelative(-2.29f)
+                close()
+                moveTo(5f, 18f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(8f, 10f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13f, 10f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(8f, 5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(13f, 5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(24f, 17f)
+                curveToRelative(0f, 1.33f, -0.52f, 2.59f, -1.47f, 3.54f)
+                lineToRelative(-3.54f, 3.46f)
+                lineToRelative(-3.52f, -3.45f)
+                curveToRelative(-0.96f, -0.96f, -1.48f, -2.21f, -1.48f, -3.55f)
+                reflectiveCurveToRelative(0.52f, -2.59f, 1.47f, -3.54f)
+                curveToRelative(0.94f, -0.94f, 2.2f, -1.46f, 3.54f, -1.46f)
+                reflectiveCurveToRelative(2.59f, 0.52f, 3.54f, 1.46f)
+                curveToRelative(0.94f, 0.94f, 1.47f, 2.2f, 1.47f, 3.54f)
+                close()
+                moveTo(21f, 17f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                reflectiveCurveToRelative(2f, -0.9f, 2f, -2f)
+                close()
+            }
+        }.also { _Visit = it}

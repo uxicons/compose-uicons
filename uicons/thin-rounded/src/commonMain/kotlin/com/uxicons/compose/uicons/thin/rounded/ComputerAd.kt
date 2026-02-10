@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ComputerAd: ImageVector? = null
+
+val Icons.Tr.ComputerAd: ImageVector
+    get() = _ComputerAd ?: UXIcon(name = "ComputerAd") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(19.5f, 1f)
+                horizontalLineToRelative(-15f)
+                curveToRelative(-2.48f, 0f, -4.5f, 2.02f, -4.5f, 4.5f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                horizontalLineToRelative(7f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(7f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-9f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(4.5f, 2f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(8.5f)
+                horizontalLineToRelative(-22f)
+                verticalLineToRelative(-8.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                close()
+                moveTo(19.5f, 18f)
+                horizontalLineToRelative(-15f)
+                curveToRelative(-1.76f, 0f, -3.2f, -1.31f, -3.45f, -3f)
+                horizontalLineToRelative(21.9f)
+                curveToRelative(-0.24f, 1.69f, -1.69f, 3f, -3.45f, 3f)
+                close()
+                moveTo(14f, 11.99f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(1.38f, 0f, 2.5f, -1.12f, 2.5f, -2.5f)
+                verticalLineToRelative(-2.99f)
+                curveToRelative(0f, -1.39f, -1.13f, -2.51f, -2.51f, -2.51f)
+                horizontalLineToRelative(-1.49f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(6f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                close()
+                moveTo(14f, 4.99f)
+                horizontalLineToRelative(1.49f)
+                curveToRelative(0.83f, 0f, 1.51f, 0.68f, 1.51f, 1.51f)
+                verticalLineToRelative(2.99f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                horizontalLineToRelative(-1.5f)
+                close()
+                moveTo(7.02f, 11.98f)
+                curveToRelative(0.24f, 0.0f, 0.44f, -0.17f, 0.49f, -0.4f)
+                lineToRelative(0.32f, -1.58f)
+                horizontalLineToRelative(2.36f)
+                lineToRelative(0.33f, 1.61f)
+                curveToRelative(0.05f, 0.23f, 0.24f, 0.39f, 0.48f, 0.39f)
+                curveToRelative(0.31f, 0.0f, 0.54f, -0.28f, 0.48f, -0.58f)
+                lineToRelative(-1.27f, -6.3f)
+                curveToRelative(-0.13f, -0.64f, -0.59f, -1.11f, -1.21f, -1.12f)
+                curveToRelative(-0.6f, 0f, -1.08f, 0.49f, -1.2f, 1.09f)
+                lineToRelative(-1.27f, 6.3f)
+                curveToRelative(-0.06f, 0.31f, 0.17f, 0.59f, 0.48f, 0.6f)
+                close()
+                moveTo(8.78f, 5.28f)
+                curveToRelative(0.03f, -0.13f, 0.11f, -0.27f, 0.22f, -0.28f)
+                curveToRelative(0.11f, 0.02f, 0.17f, 0.09f, 0.23f, 0.32f)
+                lineToRelative(0.76f, 3.68f)
+                horizontalLineToRelative(-1.95f)
+                close()
+            }
+        }.also { _ComputerAd = it}

@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Tubes: ImageVector? = null
+
+val Icons.Tc.Tubes: ImageVector
+    get() = _Tubes ?: UXIcon(name = "Tubes") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.35f, 1.02f)
+                curveToRelative(-0.02f, 0.01f, -1.77f, 0.54f, -4.35f, 0.54f)
+                reflectiveCurveToRelative(-4.33f, -0.53f, -4.35f, -0.54f)
+                curveToRelative(-0.26f, -0.09f, -0.54f, 0.07f, -0.62f, 0.33f)
+                curveToRelative(-0.08f, 0.26f, 0.06f, 0.54f, 0.33f, 0.63f)
+                curveToRelative(0.03f, 0.01f, 0.26f, 0.08f, 0.65f, 0.17f)
+                verticalLineToRelative(8.69f)
+                curveToRelative(0f, 4.58f, 0.26f, 7.77f, 0.48f, 9.64f)
+                curveToRelative(0.15f, 1.28f, 1.13f, 2.29f, 2.38f, 2.46f)
+                curveToRelative(0.37f, 0.05f, 0.75f, 0.07f, 1.14f, 0.07f)
+                reflectiveCurveToRelative(0.77f, -0.02f, 1.14f, -0.07f)
+                curveToRelative(1.25f, -0.16f, 2.23f, -1.17f, 2.38f, -2.46f)
+                curveToRelative(0.22f, -1.87f, 0.48f, -5.06f, 0.48f, -9.64f)
+                verticalLineToRelative(-8.69f)
+                curveToRelative(0.39f, -0.09f, 0.62f, -0.16f, 0.65f, -0.17f)
+                curveToRelative(0.26f, -0.08f, 0.41f, -0.36f, 0.33f, -0.63f)
+                curveToRelative(-0.08f, -0.26f, -0.36f, -0.41f, -0.62f, -0.33f)
+                close()
+                moveTo(9f, 10.83f)
+                curveToRelative(0f, 4.54f, -0.26f, 7.68f, -0.48f, 9.52f)
+                curveToRelative(-0.1f, 0.83f, -0.72f, 1.48f, -1.52f, 1.58f)
+                curveToRelative(-0.65f, 0.09f, -1.36f, 0.09f, -2.01f, 0f)
+                curveToRelative(-0.8f, -0.1f, -1.42f, -0.75f, -1.52f, -1.58f)
+                curveToRelative(-0.22f, -1.84f, -0.48f, -4.99f, -0.48f, -9.52f)
+                verticalLineToRelative(-1.83f)
+                horizontalLineToRelative(6f)
+                close()
+                moveTo(9f, 8f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-5.67f)
+                curveToRelative(0.78f, 0.12f, 1.79f, 0.23f, 3f, 0.23f)
+                reflectiveCurveToRelative(2.22f, -0.11f, 3f, -0.23f)
+                close()
+                moveTo(22.98f, 1.35f)
+                curveToRelative(-0.08f, -0.26f, -0.37f, -0.41f, -0.63f, -0.33f)
+                curveToRelative(-0.02f, 0.01f, -1.77f, 0.54f, -4.35f, 0.54f)
+                reflectiveCurveToRelative(-4.33f, -0.53f, -4.35f, -0.54f)
+                curveToRelative(-0.26f, -0.08f, -0.54f, 0.07f, -0.63f, 0.33f)
+                curveToRelative(-0.08f, 0.26f, 0.07f, 0.54f, 0.33f, 0.63f)
+                curveToRelative(0.03f, 0.01f, 0.26f, 0.08f, 0.65f, 0.17f)
+                verticalLineToRelative(8.69f)
+                curveToRelative(0f, 4.58f, 0.26f, 7.77f, 0.48f, 9.64f)
+                curveToRelative(0.15f, 1.28f, 1.13f, 2.29f, 2.38f, 2.46f)
+                curveToRelative(0.37f, 0.05f, 0.75f, 0.07f, 1.14f, 0.07f)
+                reflectiveCurveToRelative(0.77f, -0.02f, 1.14f, -0.07f)
+                curveToRelative(1.25f, -0.16f, 2.23f, -1.17f, 2.38f, -2.46f)
+                curveToRelative(0.21f, -1.77f, 0.45f, -4.74f, 0.48f, -8.95f)
+                curveToRelative(0f, -0.01f, 0.01f, -0.47f, 0.01f, -0.69f)
+                verticalLineToRelative(-8.69f)
+                curveToRelative(0.39f, -0.09f, 0.62f, -0.16f, 0.65f, -0.17f)
+                curveToRelative(0.26f, -0.08f, 0.41f, -0.36f, 0.33f, -0.63f)
+                close()
+                moveTo(20.52f, 20.36f)
+                curveToRelative(-0.1f, 0.83f, -0.72f, 1.48f, -1.52f, 1.58f)
+                curveToRelative(-0.65f, 0.09f, -1.36f, 0.09f, -2.01f, 0f)
+                curveToRelative(-0.8f, -0.1f, -1.42f, -0.75f, -1.52f, -1.58f)
+                curveToRelative(-0.2f, -1.68f, -0.43f, -4.45f, -0.47f, -8.36f)
+                horizontalLineToRelative(5.98f)
+                curveToRelative(-0.04f, 3.91f, -0.27f, 6.68f, -0.47f, 8.36f)
+                close()
+                moveTo(21.0f, 10.83f)
+                curveToRelative(0f, 0.06f, -0.0f, 0.11f, -0.0f, 0.17f)
+                horizontalLineToRelative(-6.0f)
+                curveToRelative(0f, -0.06f, -0.0f, -0.11f, -0.0f, -0.17f)
+                verticalLineToRelative(-8.5f)
+                curveToRelative(0.78f, 0.12f, 1.79f, 0.23f, 3f, 0.23f)
+                reflectiveCurveToRelative(2.22f, -0.11f, 3f, -0.23f)
+                verticalLineToRelative(8.5f)
+                close()
+            }
+        }.also { _Tubes = it}

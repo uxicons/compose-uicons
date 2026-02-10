@@ -1,0 +1,44 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SortCircle: ImageVector? = null
+
+val Icons.Rr.SortCircle: ImageVector
+    get() = _SortCircle ?: UXIcon(name = "SortCircle") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.76f, 14.52f)
+                lineToRelative(-4.61f, 4.5f)
+                curveToRelative(-0.64f, 0.64f, -1.66f, 0.64f, -2.3f, 0f)
+                lineToRelative(-4.61f, -4.5f)
+                curveToRelative(-0.57f, -0.56f, -0.17f, -1.52f, 0.62f, -1.52f)
+                horizontalLineToRelative(10.27f)
+                curveToRelative(0.8f, 0f, 1.19f, 0.97f, 0.62f, 1.52f)
+                close()
+                moveTo(13.15f, 4.98f)
+                curveToRelative(-0.64f, -0.64f, -1.66f, -0.64f, -2.3f, 0f)
+                lineToRelative(-4.61f, 4.5f)
+                curveToRelative(-0.57f, 0.56f, -0.17f, 1.52f, 0.62f, 1.52f)
+                horizontalLineToRelative(10.27f)
+                curveToRelative(0.8f, 0f, 1.19f, -0.97f, 0.62f, -1.52f)
+                lineToRelative(-4.61f, -4.5f)
+                close()
+                moveTo(24f, 12f)
+                curveToRelative(0f, 6.62f, -5.38f, 12f, -12f, 12f)
+                reflectiveCurveTo(0f, 18.62f, 0f, 12f)
+                reflectiveCurveTo(5.38f, 0f, 12f, 0f)
+                reflectiveCurveToRelative(12f, 5.38f, 12f, 12f)
+                close()
+                moveTo(22f, 12f)
+                curveToRelative(0f, -5.51f, -4.49f, -10f, -10f, -10f)
+                reflectiveCurveTo(2f, 6.49f, 2f, 12f)
+                reflectiveCurveToRelative(4.49f, 10f, 10f, 10f)
+                reflectiveCurveToRelative(10f, -4.49f, 10f, -10f)
+                close()
+            }
+        }.also { _SortCircle = it}

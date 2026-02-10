@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FireHydrant: ImageVector? = null
+
+val Icons.Ts.FireHydrant: ImageVector
+    get() = _FireHydrant ?: UXIcon(name = "FireHydrant") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(12f, 15f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(12f, 12f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(20f, 15f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -2.61f, -1.67f, -4.83f, -4f, -5.66f)
+                lineTo(14f, 0f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2.34f)
+                curveToRelative(-2.33f, 0.82f, -4f, 3.05f, -4f, 5.66f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(16f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(19f, 12f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                close()
+                moveTo(17f, 20f)
+                lineTo(7f, 20f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(11f)
+                close()
+                moveTo(11f, 1f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1.08f)
+                curveToRelative(-0.33f, -0.06f, -0.66f, -0.08f, -1f, -0.08f)
+                reflectiveCurveToRelative(-0.68f, 0.03f, -1f, 0.08f)
+                verticalLineToRelative(-1.08f)
+                close()
+                moveTo(12f, 3f)
+                curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                lineTo(7f, 8f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                close()
+                moveTo(5f, 14f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(7f, 23f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(2f)
+                lineTo(7f, 23f)
+                close()
+            }
+        }.also { _FireHydrant = it}

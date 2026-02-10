@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _VpnShield: ImageVector? = null
+
+val Icons.Rr.VpnShield: ImageVector
+    get() = _VpnShield ?: UXIcon(name = "VpnShield") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(18.57f, 2.13f)
+                lineTo(12.31f, 0.05f)
+                curveToRelative(-0.2f, -0.07f, -0.42f, -0.07f, -0.63f, 0f)
+                lineTo(5.43f, 2.13f)
+                curveToRelative(-2.05f, 0.68f, -3.43f, 2.59f, -3.43f, 4.75f)
+                verticalLineToRelative(5.17f)
+                curveToRelative(0f, 6.56f, 7.0f, 10.58f, 9.15f, 11.65f)
+                curveToRelative(0.51f, 0.35f, 1.11f, 0.38f, 1.64f, 0.07f)
+                curveToRelative(2.16f, -0.87f, 9.21f, -4.28f, 9.21f, -11.72f)
+                lineTo(22.0f, 6.87f)
+                curveToRelative(0f, -2.16f, -1.38f, -4.07f, -3.43f, -4.75f)
+                close()
+                moveTo(20f, 12.04f)
+                curveToRelative(0f, 6.18f, -6.09f, 9.11f, -7.95f, 9.86f)
+                curveToRelative(-1.89f, -0.94f, -8.05f, -4.45f, -8.05f, -9.86f)
+                lineTo(4f, 6.87f)
+                curveToRelative(0f, -1.3f, 0.83f, -2.44f, 2.06f, -2.85f)
+                lineToRelative(5.94f, -1.97f)
+                lineToRelative(5.94f, 1.97f)
+                curveToRelative(1.23f, 0.41f, 2.06f, 1.55f, 2.06f, 2.85f)
+                verticalLineToRelative(5.17f)
+                close()
+                moveTo(18.2f, 8.64f)
+                verticalLineToRelative(4.58f)
+                curveToRelative(0f, 0.43f, -0.35f, 0.78f, -0.78f, 0.78f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.3f, 0f, -0.58f, -0.17f, -0.71f, -0.45f)
+                lineToRelative(-1.23f, -2.59f)
+                verticalLineToRelative(2.4f)
+                curveToRelative(0f, 0.35f, -0.29f, 0.64f, -0.64f, 0.64f)
+                reflectiveCurveToRelative(-0.64f, -0.29f, -0.64f, -0.64f)
+                verticalLineToRelative(-4.58f)
+                curveToRelative(0f, -0.43f, 0.35f, -0.78f, 0.78f, -0.78f)
+                curveToRelative(0.3f, 0f, 0.58f, 0.17f, 0.71f, 0.45f)
+                lineToRelative(1.23f, 2.6f)
+                verticalLineToRelative(-2.41f)
+                curveToRelative(0f, -0.35f, 0.29f, -0.64f, 0.64f, -0.64f)
+                reflectiveCurveToRelative(0.64f, 0.29f, 0.64f, 0.64f)
+                close()
+                moveTo(11.67f, 8f)
+                horizontalLineToRelative(-0.84f)
+                curveToRelative(-0.34f, 0f, -0.62f, 0.28f, -0.62f, 0.62f)
+                verticalLineToRelative(4.75f)
+                curveToRelative(0f, 0.34f, 0.28f, 0.62f, 0.62f, 0.62f)
+                reflectiveCurveToRelative(0.62f, -0.28f, 0.62f, -0.62f)
+                verticalLineToRelative(-1.4f)
+                lineToRelative(0.22f, -0.0f)
+                curveToRelative(1.11f, 0f, 2.01f, -0.89f, 2.01f, -1.99f)
+                reflectiveCurveToRelative(-0.9f, -1.99f, -2.01f, -1.99f)
+                close()
+                moveTo(11.67f, 10.72f)
+                lineToRelative(-0.21f, 0.0f)
+                lineToRelative(-0.01f, -1.47f)
+                horizontalLineToRelative(0.21f)
+                curveToRelative(0.41f, 0f, 0.76f, 0.34f, 0.76f, 0.73f)
+                reflectiveCurveToRelative(-0.35f, 0.73f, -0.76f, 0.73f)
+                close()
+                moveTo(9.51f, 8.74f)
+                lineToRelative(-0.83f, 4.08f)
+                curveToRelative(-0.2f, 1.53f, -2.21f, 1.52f, -2.44f, 0.03f)
+                lineToRelative(-0.88f, -4.1f)
+                curveToRelative(-0.08f, -0.39f, 0.21f, -0.75f, 0.6f, -0.75f)
+                horizontalLineToRelative(0.04f)
+                curveToRelative(0.29f, 0f, 0.55f, 0.21f, 0.61f, 0.49f)
+                lineToRelative(0.84f, 4.06f)
+                lineToRelative(0.84f, -4.06f)
+                curveToRelative(0.06f, -0.29f, 0.31f, -0.49f, 0.61f, -0.49f)
+                curveToRelative(0.39f, 0f, 0.68f, 0.36f, 0.61f, 0.74f)
+                close()
+            }
+        }.also { _VpnShield = it}

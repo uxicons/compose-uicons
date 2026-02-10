@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Nfc: ImageVector? = null
+
+val Icons.Tc.Nfc: ImageVector
+    get() = _Nfc ?: UXIcon(name = "Nfc") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.92f, 5.65f)
+                curveToRelative(-0.33f, -0.09f, -1.98f, -0.49f, -3.95f, -0.65f)
+                curveToRelative(-0.11f, -0.01f, -0.22f, 0.02f, -0.32f, 0.08f)
+                curveToRelative(-1.64f, 1.09f, -3.1f, 2.6f, -4.34f, 4.48f)
+                curveToRelative(-0.18f, 0.47f, -0.28f, 1.29f, -0.31f, 2.43f)
+                curveToRelative(0f, 1.15f, 0.25f, 2.31f, 0.26f, 2.36f)
+                curveToRelative(0.04f, 0.19f, 0.19f, 0.34f, 0.38f, 0.38f)
+                curveToRelative(0.05f, 0.01f, 1.21f, 0.26f, 2.36f, 0.26f)
+                reflectiveCurveToRelative(2.31f, -0.25f, 2.36f, -0.26f)
+                curveToRelative(0.19f, -0.04f, 0.34f, -0.19f, 0.38f, -0.38f)
+                curveToRelative(0.01f, -0.05f, 0.26f, -1.21f, 0.26f, -2.36f)
+                reflectiveCurveToRelative(-0.25f, -2.31f, -0.26f, -2.36f)
+                curveToRelative(-0.06f, -0.27f, -0.33f, -0.44f, -0.59f, -0.38f)
+                curveToRelative(-0.27f, 0.06f, -0.44f, 0.33f, -0.38f, 0.6f)
+                curveToRelative(0.0f, 0.01f, 0.24f, 1.1f, 0.24f, 2.14f)
+                curveToRelative(0f, 0.7f, -0.11f, 1.42f, -0.18f, 1.82f)
+                curveToRelative(-0.4f, 0.07f, -1.12f, 0.18f, -1.82f, 0.18f)
+                reflectiveCurveToRelative(-1.42f, -0.11f, -1.82f, -0.18f)
+                curveToRelative(-0.07f, -0.4f, -0.18f, -1.12f, -0.18f, -1.82f)
+                curveToRelative(0f, -0.8f, 0.14f, -1.62f, 0.2f, -1.97f)
+                curveToRelative(1.11f, -1.68f, 2.41f, -3.03f, 3.85f, -4.02f)
+                curveToRelative(1.5f, 0.14f, 2.8f, 0.41f, 3.37f, 0.55f)
+                curveToRelative(0.16f, 0.82f, 0.58f, 3.17f, 0.58f, 5.43f)
+                reflectiveCurveToRelative(-0.41f, 4.59f, -0.57f, 5.43f)
+                curveToRelative(-0.83f, 0.16f, -3.17f, 0.57f, -5.43f, 0.57f)
+                reflectiveCurveToRelative(-4.59f, -0.41f, -5.43f, -0.57f)
+                curveToRelative(-0.16f, -0.83f, -0.57f, -3.17f, -0.57f, -5.43f)
+                curveToRelative(0f, -0.43f, 0.01f, -0.86f, 0.04f, -1.29f)
+                curveToRelative(0.82f, -1.39f, 2.45f, -3.46f, 4.17f, -4.82f)
+                curveToRelative(0.17f, -0.14f, 0.24f, -0.37f, 0.15f, -0.58f)
+                reflectiveCurveToRelative(-0.29f, -0.33f, -0.51f, -0.31f)
+                curveToRelative(-1.86f, 0.16f, -3.4f, 0.55f, -3.76f, 0.65f)
+                curveToRelative(-0.21f, 0.02f, -0.39f, 0.18f, -0.43f, 0.39f)
+                curveToRelative(-0.03f, 0.12f, -0.66f, 3.05f, -0.66f, 5.96f)
+                reflectiveCurveToRelative(0.63f, 5.83f, 0.66f, 5.96f)
+                curveToRelative(0.04f, 0.19f, 0.19f, 0.34f, 0.38f, 0.38f)
+                curveToRelative(0.12f, 0.03f, 3.05f, 0.66f, 5.96f, 0.66f)
+                reflectiveCurveToRelative(5.83f, -0.64f, 5.96f, -0.66f)
+                curveToRelative(0.19f, -0.04f, 0.34f, -0.19f, 0.38f, -0.38f)
+                curveToRelative(0.03f, -0.12f, 0.66f, -3.05f, 0.66f, -5.96f)
+                reflectiveCurveToRelative(-0.63f, -5.83f, -0.66f, -5.96f)
+                curveToRelative(-0.04f, -0.21f, -0.21f, -0.36f, -0.42f, -0.39f)
+                close()
+                moveTo(6.58f, 6.56f)
+                curveToRelative(0.35f, -0.09f, 0.98f, -0.23f, 1.78f, -0.36f)
+                curveToRelative(-0.78f, 0.77f, -1.51f, 1.61f, -2.11f, 2.42f)
+                curveToRelative(0.12f, -0.92f, 0.26f, -1.67f, 0.33f, -2.06f)
+                close()
+                moveTo(21.94f, 2.44f)
+                curveToRelative(-0.04f, -0.19f, -0.19f, -0.34f, -0.38f, -0.38f)
+                curveToRelative(-0.05f, -0.01f, -4.89f, -1.06f, -9.56f, -1.06f)
+                reflectiveCurveToRelative(-9.51f, 1.05f, -9.56f, 1.06f)
+                curveToRelative(-0.19f, 0.04f, -0.34f, 0.19f, -0.38f, 0.38f)
+                curveToRelative(-0.01f, 0.05f, -1.06f, 4.89f, -1.06f, 9.56f)
+                reflectiveCurveToRelative(1.05f, 9.51f, 1.06f, 9.56f)
+                curveToRelative(0.04f, 0.19f, 0.19f, 0.34f, 0.38f, 0.38f)
+                curveToRelative(0.05f, 0.01f, 4.89f, 1.06f, 9.56f, 1.06f)
+                reflectiveCurveToRelative(9.51f, -1.05f, 9.56f, -1.06f)
+                curveToRelative(0.19f, -0.04f, 0.34f, -0.19f, 0.38f, -0.38f)
+                curveToRelative(0.01f, -0.05f, 1.06f, -4.89f, 1.06f, -9.56f)
+                reflectiveCurveToRelative(-1.05f, -9.51f, -1.06f, -9.56f)
+                close()
+                moveTo(21.03f, 21.03f)
+                curveToRelative(-1.14f, 0.23f, -5.15f, 0.97f, -9.03f, 0.97f)
+                reflectiveCurveToRelative(-7.89f, -0.74f, -9.03f, -0.97f)
+                curveToRelative(-0.23f, -1.14f, -0.97f, -5.15f, -0.97f, -9.03f)
+                reflectiveCurveToRelative(0.74f, -7.89f, 0.97f, -9.03f)
+                curveToRelative(1.14f, -0.23f, 5.15f, -0.97f, 9.03f, -0.97f)
+                reflectiveCurveToRelative(7.89f, 0.74f, 9.03f, 0.97f)
+                curveToRelative(0.23f, 1.14f, 0.97f, 5.15f, 0.97f, 9.03f)
+                reflectiveCurveToRelative(-0.74f, 7.89f, -0.97f, 9.03f)
+                close()
+            }
+        }.also { _Nfc = it}

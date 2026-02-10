@@ -1,0 +1,61 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _ToiletPaperBlankUnder: ImageVector? = null
+
+val Icons.Tr.ToiletPaperBlankUnder: ImageVector
+    get() = _ToiletPaperBlankUnder ?: UXIcon(name = "ToiletPaperBlankUnder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 6.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.67f, 1f, 1.5f)
+                reflectiveCurveToRelative(-0.45f, 1.5f, -1f, 1.5f)
+                reflectiveCurveToRelative(-1f, -0.67f, -1f, -1.5f)
+                reflectiveCurveToRelative(0.45f, -1.5f, 1f, -1.5f)
+                close()
+                moveTo(24f, 21.85f)
+                curveToRelative(0f, 1.19f, -0.97f, 2.15f, -2.15f, 2.15f)
+                horizontalLineToRelative(-10.85f)
+                curveToRelative(-2.21f, 0f, -4f, -1.79f, -4f, -4f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(-2.5f)
+                curveToRelative(-2.52f, 0f, -4.5f, -3.51f, -4.5f, -8f)
+                reflectiveCurveTo(1.98f, 0f, 4.5f, 0f)
+                horizontalLineToRelative(13.5f)
+                curveToRelative(2.24f, 0f, 4f, 3.51f, 4f, 8f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.23f, 0f, 1.79f, 0.85f, 2.65f)
+                curveToRelative(0.77f, 0.77f, 1.15f, 1.49f, 1.15f, 2.2f)
+                close()
+                moveTo(18f, 1f)
+                curveToRelative(-1.42f, 0f, -3f, 2.88f, -3f, 7f)
+                reflectiveCurveToRelative(1.58f, 7f, 3f, 7f)
+                reflectiveCurveToRelative(3f, -2.88f, 3f, -7f)
+                reflectiveCurveToRelative(-1.58f, -7f, -3f, -7f)
+                close()
+                moveTo(4.5f, 15f)
+                horizontalLineToRelative(11.54f)
+                curveToRelative(-1.22f, -1.35f, -2.04f, -3.95f, -2.04f, -7f)
+                reflectiveCurveToRelative(0.81f, -5.65f, 2.04f, -7f)
+                lineTo(4.5f, 1f)
+                curveToRelative(-1.9f, 0f, -3.5f, 3.21f, -3.5f, 7f)
+                reflectiveCurveToRelative(1.6f, 7f, 3.5f, 7f)
+                close()
+                moveTo(23f, 21.85f)
+                curveToRelative(0f, -0.43f, -0.28f, -0.92f, -0.85f, -1.49f)
+                curveToRelative(-1.15f, -1.15f, -1.15f, -2.07f, -1.15f, -3.35f)
+                verticalLineToRelative(-3.66f)
+                curveToRelative(-0.73f, 1.64f, -1.79f, 2.66f, -3f, 2.66f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(10.85f)
+                curveToRelative(0.64f, 0f, 1.15f, -0.52f, 1.15f, -1.15f)
+                close()
+            }
+        }.also { _ToiletPaperBlankUnder = it}

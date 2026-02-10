@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _UserPermissions: ImageVector? = null
+
+val Icons.Ss.UserPermissions: ImageVector
+    get() = _UserPermissions ?: UXIcon(name = "UserPermissions") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.36f, 1.26f)
+                lineToRelative(-3.86f, -1.26f)
+                lineToRelative(-3.86f, 1.26f)
+                curveToRelative(-0.98f, 0.32f, -1.64f, 1.23f, -1.64f, 2.27f)
+                verticalLineToRelative(3.48f)
+                curveToRelative(0f, 3.52f, 3.56f, 5.58f, 4.65f, 6.12f)
+                lineToRelative(0.78f, 0.39f)
+                lineToRelative(0.81f, -0.33f)
+                curveToRelative(1.11f, -0.45f, 4.75f, -2.22f, 4.75f, -6.19f)
+                verticalLineToRelative(-3.48f)
+                curveToRelative(0f, -1.03f, -0.66f, -1.94f, -1.64f, -2.27f)
+                close()
+                moveTo(19f, 6.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-4f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(1f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(20f, 4.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-1f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(24f, 19f)
+                verticalLineToRelative(-6.73f)
+                curveToRelative(-1.42f, 1.61f, -3.22f, 2.46f, -4.01f, 2.77f)
+                lineToRelative(-1.65f, 0.66f)
+                lineToRelative(-1.59f, -0.8f)
+                curveToRelative(-1.35f, -0.68f, -5.76f, -3.24f, -5.76f, -7.91f)
+                verticalLineToRelative(-3.48f)
+                curveToRelative(0f, -1.42f, 0.68f, -2.71f, 1.77f, -3.52f)
+                horizontalLineToRelative(-9.77f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(16f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(7f, 7f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveToRelative(-2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                close()
+                moveTo(11f, 16f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.28f, -0.23f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+            }
+        }.also { _UserPermissions = it}

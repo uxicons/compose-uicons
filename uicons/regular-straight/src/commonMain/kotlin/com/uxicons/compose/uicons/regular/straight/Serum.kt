@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Serum: ImageVector? = null
+
+val Icons.Rs.Serum: ImageVector
+    get() = _Serum ?: UXIcon(name = "Serum") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(11f, 7.5f)
+                lineToRelative(-1f, -0.75f)
+                verticalLineToRelative(-1.75f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(1.75f)
+                lineToRelative(-1f, 0.75f)
+                curveToRelative(-1.25f, 0.94f, -2f, 2.44f, -2f, 4f)
+                verticalLineToRelative(12.5f)
+                horizontalLineToRelative(13f)
+                verticalLineToRelative(-12.5f)
+                curveToRelative(0f, -1.56f, -0.75f, -3.06f, -2f, -4f)
+                close()
+                moveTo(11f, 17f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(4f)
+                close()
+                moveTo(5f, 12f)
+                verticalLineToRelative(7f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(-10.5f)
+                curveToRelative(0f, -0.94f, 0.45f, -1.84f, 1.2f, -2.4f)
+                lineToRelative(1.8f, -1.35f)
+                verticalLineToRelative(-0.75f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(0.75f)
+                lineToRelative(1.8f, 1.35f)
+                curveToRelative(0.75f, 0.56f, 1.2f, 1.46f, 1.2f, 2.4f)
+                verticalLineToRelative(0.5f)
+                close()
+                moveTo(20.41f, 20.59f)
+                curveToRelative(0.78f, 0.78f, 0.78f, 2.05f, 0f, 2.83f)
+                curveToRelative(-0.39f, 0.39f, -0.9f, 0.59f, -1.41f, 0.59f)
+                reflectiveCurveToRelative(-1.02f, -0.2f, -1.41f, -0.59f)
+                curveToRelative(-0.78f, -0.78f, -0.78f, -2.05f, 0f, -2.83f)
+                lineToRelative(1.41f, -1.38f)
+                close()
+                moveTo(24f, 7f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, -1.35f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 1.3f, 0.84f, 2.4f, 2f, 2.82f)
+                verticalLineToRelative(1.68f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-1.68f)
+                curveToRelative(1.16f, -0.41f, 2f, -1.51f, 2f, -2.82f)
+                verticalLineToRelative(-4.5f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(18f, 5f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.73f, 0.2f, 1.41f, 0.54f, 2f)
+                horizontalLineToRelative(-3.07f)
+                curveToRelative(0.34f, -0.59f, 0.54f, -1.27f, 0.54f, -2f)
+                close()
+                moveTo(20f, 13.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-4.5f)
+                horizontalLineToRelative(2f)
+                close()
+            }
+        }.also { _Serum = it}

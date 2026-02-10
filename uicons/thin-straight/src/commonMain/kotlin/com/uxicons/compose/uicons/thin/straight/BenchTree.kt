@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BenchTree: ImageVector? = null
+
+val Icons.Ts.BenchTree: ImageVector
+    get() = _BenchTree ?: UXIcon(name = "BenchTree") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.46f, 10f)
+                curveToRelative(0.35f, 0.61f, 0.54f, 1.29f, 0.54f, 2f)
+                curveToRelative(0f, 2.21f, -1.79f, 4f, -4f, 4f)
+                curveToRelative(-0.71f, 0f, -1.4f, -0.19f, -2f, -0.55f)
+                verticalLineToRelative(8.58f)
+                horizontalLineToRelative(-1f)
+                lineTo(17f, 13.2f)
+                lineToRelative(0.86f, 0.88f)
+                curveToRelative(0.58f, 0.59f, 1.34f, 0.92f, 2.14f, 0.92f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                curveToRelative(0f, -0.61f, -0.19f, -1.21f, -0.54f, -1.71f)
+                lineToRelative(-0.2f, -0.29f)
+                lineToRelative(0.2f, -0.29f)
+                curveToRelative(0.35f, -0.51f, 0.54f, -1.1f, 0.54f, -1.71f)
+                curveToRelative(0f, -1.16f, -0.69f, -2.23f, -1.74f, -2.72f)
+                lineToRelative(-0.32f, -0.15f)
+                reflectiveCurveToRelative(0.06f, -0.59f, 0.06f, -0.64f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                reflectiveCurveToRelative(-3.5f, 1.57f, -3.5f, 3.5f)
+                curveToRelative(0f, 0.05f, 0.06f, 0.64f, 0.06f, 0.64f)
+                lineToRelative(-0.32f, 0.15f)
+                curveToRelative(-1.06f, 0.49f, -1.74f, 1.56f, -1.74f, 2.72f)
+                curveToRelative(0f, 0.35f, 0.07f, 0.69f, 0.18f, 1f)
+                horizontalLineToRelative(-1.04f)
+                curveToRelative(-0.08f, -0.32f, -0.14f, -0.65f, -0.14f, -1f)
+                curveToRelative(0f, -1.43f, 0.77f, -2.75f, 2.0f, -3.46f)
+                curveToRelative(0f, -2.48f, 2.02f, -4.54f, 4.5f, -4.54f)
+                reflectiveCurveToRelative(4.5f, 2.06f, 4.5f, 4.54f)
+                curveToRelative(1.23f, 0.71f, 2.0f, 2.03f, 2.0f, 3.46f)
+                curveToRelative(0f, 0.71f, -0.19f, 1.39f, -0.54f, 2f)
+                close()
+                moveTo(15f, 13.5f)
+                verticalLineToRelative(3.5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                lineTo(3f, 21f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-3f)
+                lineTo(0f, 21f)
+                verticalLineToRelative(-1f)
+                lineTo(2f, 20f)
+                verticalLineToRelative(-3f)
+                lineTo(0f, 17f)
+                verticalLineToRelative(-3.5f)
+                curveToRelative(0f, -1.38f, 1.12f, -2.5f, 2.5f, -2.5f)
+                lineTo(12.5f, 11f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(12f, 17f)
+                lineTo(3f, 17f)
+                verticalLineToRelative(3f)
+                lineTo(12f, 20f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(14f, 13.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                lineTo(2.5f, 12f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(14f, 16f)
+                verticalLineToRelative(-2.5f)
+                close()
+            }
+        }.also { _BenchTree = it}

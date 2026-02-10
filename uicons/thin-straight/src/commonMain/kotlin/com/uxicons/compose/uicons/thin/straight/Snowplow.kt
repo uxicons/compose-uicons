@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Snowplow: ImageVector? = null
+
+val Icons.Ts.Snowplow: ImageVector
+    get() = _Snowplow ?: UXIcon(name = "Snowplow") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22f, 16.98f)
+                lineTo(22f, 8f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -1.26f, -0.94f, -2.31f, -2.17f, -2.48f)
+                lineToRelative(-2.92f, -6.54f)
+                curveToRelative(-0.4f, -0.9f, -1.3f, -1.48f, -2.28f, -1.48f)
+                lineTo(5f, 1f)
+                lineTo(5f, 6.01f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(6.85f)
+                curveToRelative(-0.62f, 0.7f, -1f, 1.63f, -1f, 2.64f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                lineTo(14f, 22.0f)
+                curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                curveToRelative(0f, -1.01f, -0.38f, -1.94f, -1f, -2.64f)
+                verticalLineToRelative(-2.36f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(3.98f)
+                curveToRelative(0f, 2.07f, 0.81f, 4.02f, 2.27f, 5.49f)
+                lineToRelative(0.71f, -0.71f)
+                curveToRelative(-1.28f, -1.28f, -1.98f, -2.98f, -1.98f, -4.78f)
+                close()
+                moveTo(6f, 2f)
+                horizontalLineToRelative(3.63f)
+                curveToRelative(0.59f, 0f, 1.13f, 0.35f, 1.37f, 0.89f)
+                lineToRelative(2.73f, 6.11f)
+                lineTo(6f, 9f)
+                lineTo(6f, 2f)
+                close()
+                moveTo(3.5f, 7.01f)
+                horizontalLineToRelative(1.5f)
+                lineToRelative(0.01f, 2.99f)
+                lineTo(14.5f, 10f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                verticalLineToRelative(3.04f)
+                curveToRelative(-0.59f, -0.34f, -1.27f, -0.54f, -2f, -0.54f)
+                lineTo(4f, 14f)
+                curveToRelative(-0.73f, 0f, -1.41f, 0.2f, -2f, 0.54f)
+                verticalLineToRelative(-6.03f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(14f, 21f)
+                lineTo(4f, 21f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                reflectiveCurveToRelative(1.35f, -3f, 3f, -3f)
+                lineTo(14f, 15f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                reflectiveCurveToRelative(-1.35f, 3f, -3f, 3f)
+                close()
+                moveTo(6f, 18f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(14f, 18f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(10f, 18f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _Snowplow = it}

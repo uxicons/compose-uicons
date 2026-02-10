@@ -1,0 +1,96 @@
+package com.uxicons.compose.uicons.solid.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TireRugged: ImageVector? = null
+
+val Icons.Sc.TireRugged: ImageVector
+    get() = _TireRugged ?: UXIcon(name = "TireRugged") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(22.27f, 9.51f)
+                curveToRelative(-0.16f, -0.25f, -0.42f, -0.42f, -0.71f, -0.46f)
+                lineToRelative(-0.71f, -1.72f)
+                curveToRelative(0.18f, -0.23f, 0.24f, -0.54f, 0.18f, -0.82f)
+                curveToRelative(-0.03f, -0.14f, -0.32f, -1.35f, -1.25f, -2.28f)
+                curveToRelative(-0.92f, -0.92f, -2.14f, -1.22f, -2.28f, -1.25f)
+                curveToRelative(-0.29f, -0.07f, -0.59f, 0f, -0.82f, 0.18f)
+                lineToRelative(-1.72f, -0.71f)
+                curveToRelative(-0.04f, -0.29f, -0.21f, -0.55f, -0.46f, -0.71f)
+                curveToRelative(-0.12f, -0.07f, -1.19f, -0.73f, -2.5f, -0.73f)
+                reflectiveCurveToRelative(-2.38f, 0.65f, -2.5f, 0.73f)
+                curveToRelative(-0.25f, 0.16f, -0.42f, 0.42f, -0.46f, 0.71f)
+                lineToRelative(-1.72f, 0.71f)
+                curveToRelative(-0.23f, -0.18f, -0.54f, -0.25f, -0.82f, -0.18f)
+                curveToRelative(-0.14f, 0.03f, -1.36f, 0.32f, -2.28f, 1.25f)
+                reflectiveCurveToRelative(-1.22f, 2.14f, -1.25f, 2.28f)
+                curveToRelative(-0.07f, 0.29f, 0.0f, 0.59f, 0.18f, 0.83f)
+                lineToRelative(-0.72f, 1.72f)
+                curveToRelative(-0.29f, 0.04f, -0.55f, 0.21f, -0.71f, 0.45f)
+                curveToRelative(-0.07f, 0.12f, -0.73f, 1.19f, -0.73f, 2.5f)
+                reflectiveCurveToRelative(0.66f, 2.38f, 0.73f, 2.49f)
+                curveToRelative(0.16f, 0.25f, 0.42f, 0.42f, 0.71f, 0.46f)
+                lineToRelative(0.71f, 1.72f)
+                curveToRelative(-0.18f, 0.23f, -0.24f, 0.54f, -0.18f, 0.82f)
+                curveToRelative(0.03f, 0.14f, 0.32f, 1.35f, 1.25f, 2.28f)
+                curveToRelative(0.92f, 0.92f, 2.14f, 1.22f, 2.28f, 1.25f)
+                curveToRelative(0.29f, 0.07f, 0.59f, -0.0f, 0.82f, -0.18f)
+                lineToRelative(1.72f, 0.71f)
+                curveToRelative(0.04f, 0.29f, 0.21f, 0.55f, 0.46f, 0.71f)
+                curveToRelative(0.12f, 0.07f, 1.19f, 0.73f, 2.5f, 0.73f)
+                reflectiveCurveToRelative(2.38f, -0.65f, 2.5f, -0.73f)
+                curveToRelative(0.25f, -0.16f, 0.42f, -0.42f, 0.46f, -0.71f)
+                lineToRelative(1.72f, -0.71f)
+                curveToRelative(0.23f, 0.18f, 0.54f, 0.25f, 0.82f, 0.18f)
+                curveToRelative(0.14f, -0.03f, 1.36f, -0.32f, 2.28f, -1.25f)
+                reflectiveCurveToRelative(1.22f, -2.14f, 1.25f, -2.28f)
+                curveToRelative(0.07f, -0.29f, -0.0f, -0.59f, -0.18f, -0.83f)
+                lineToRelative(0.72f, -1.72f)
+                curveToRelative(0.29f, -0.04f, 0.55f, -0.21f, 0.71f, -0.45f)
+                curveToRelative(0.07f, -0.12f, 0.73f, -1.19f, 0.73f, -2.5f)
+                reflectiveCurveToRelative(-0.66f, -2.38f, -0.73f, -2.49f)
+                close()
+                moveTo(12f, 19.92f)
+                curveToRelative(-3.4f, 0f, -7.92f, -0.82f, -7.92f, -7.92f)
+                reflectiveCurveToRelative(4.52f, -7.92f, 7.92f, -7.92f)
+                reflectiveCurveToRelative(7.92f, 0.82f, 7.92f, 7.92f)
+                reflectiveCurveToRelative(-4.52f, 7.92f, -7.92f, 7.92f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(12f, 6.08f)
+                curveToRelative(-3.66f, 0f, -5.92f, 0.99f, -5.92f, 5.92f)
+                reflectiveCurveToRelative(2.27f, 5.92f, 5.92f, 5.92f)
+                reflectiveCurveToRelative(5.92f, -0.99f, 5.92f, -5.92f)
+                reflectiveCurveToRelative(-2.27f, -5.92f, -5.92f, -5.92f)
+                close()
+                moveTo(12f, 7.75f)
+                curveToRelative(0.82f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(9.24f, 13.49f)
+                curveToRelative(-0.82f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(12f, 16.26f)
+                curveToRelative(-0.82f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+                moveTo(14.76f, 13.49f)
+                curveToRelative(-0.82f, 0f, -1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(-0.67f, 1.5f, -1.5f, 1.5f)
+                close()
+            }
+        }.also { _TireRugged = it}

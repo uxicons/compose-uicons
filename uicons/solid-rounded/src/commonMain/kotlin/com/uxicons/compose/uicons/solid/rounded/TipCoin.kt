@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _TipCoin: ImageVector? = null
+
+val Icons.Sr.TipCoin: ImageVector
+    get() = _TipCoin ?: UXIcon(name = "TipCoin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.6f, 16.8f)
+                verticalLineToRelative(6.4f)
+                curveToRelative(0f, 0.44f, -0.36f, 0.8f, -0.8f, 0.8f)
+                horizontalLineToRelative(0f)
+                curveToRelative(-0.44f, 0f, -0.8f, -0.36f, -0.8f, -0.8f)
+                verticalLineToRelative(-6.4f)
+                curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.44f, 0f, 0.8f, 0.36f, 0.8f, 0.8f)
+                close()
+                moveTo(14.3f, 16f)
+                horizontalLineToRelative(-4.5f)
+                curveToRelative(-0.44f, 0f, -0.8f, 0.36f, -0.8f, 0.8f)
+                reflectiveCurveToRelative(0.36f, 0.8f, 0.8f, 0.8f)
+                horizontalLineToRelative(1.4f)
+                verticalLineToRelative(5.61f)
+                curveToRelative(0f, 0.44f, 0.36f, 0.8f, 0.8f, 0.8f)
+                reflectiveCurveToRelative(0.8f, -0.36f, 0.8f, -0.8f)
+                verticalLineToRelative(-5.61f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.44f, 0f, 0.8f, -0.36f, 0.8f, -0.8f)
+                reflectiveCurveToRelative(-0.36f, -0.8f, -0.8f, -0.8f)
+                close()
+                moveTo(24f, 18.5f)
+                curveToRelative(0f, 1.38f, -1.12f, 2.5f, -2.5f, 2.5f)
+                horizontalLineToRelative(-0.9f)
+                verticalLineToRelative(2.2f)
+                curveToRelative(0f, 0.44f, -0.36f, 0.8f, -0.8f, 0.8f)
+                reflectiveCurveToRelative(-0.8f, -0.36f, -0.8f, -0.8f)
+                verticalLineToRelative(-6.4f)
+                curveToRelative(0f, -0.44f, 0.36f, -0.8f, 0.8f, -0.8f)
+                horizontalLineToRelative(1.7f)
+                curveToRelative(1.38f, 0f, 2.5f, 1.12f, 2.5f, 2.5f)
+                close()
+                moveTo(22.4f, 18.5f)
+                curveToRelative(0f, -0.5f, -0.4f, -0.9f, -0.9f, -0.9f)
+                horizontalLineToRelative(-0.9f)
+                verticalLineToRelative(1.8f)
+                horizontalLineToRelative(0.9f)
+                curveToRelative(0.5f, 0f, 0.9f, -0.4f, 0.9f, -0.9f)
+                close()
+                moveTo(12.96f, 12f)
+                lineTo(2.03f, 12f)
+                curveToRelative(-1.23f, 0.91f, -2.03f, 2.36f, -2.03f, 4f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 2.21f, 1.79f, 4f, 4f, 4f)
+                horizontalLineToRelative(5.2f)
+                verticalLineToRelative(-4.47f)
+                curveToRelative(-1.41f, -0.31f, -2.43f, -1.69f, -2.15f, -3.24f)
+                curveToRelative(0.24f, -1.35f, 1.5f, -2.29f, 2.87f, -2.29f)
+                horizontalLineToRelative(3.55f)
+                curveToRelative(0.53f, 0f, 0.81f, -0.6f, 0.49f, -1.02f)
+                curveToRelative(-0.28f, -0.37f, -0.62f, -0.7f, -1.0f, -0.98f)
+                close()
+                moveTo(13.0f, 8.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                reflectiveCurveToRelative(-3f, 1.34f, -3f, 3f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.83f, 0f, -1.5f, 0.67f, -1.5f, 1.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(-1.5f)
+                close()
+                moveTo(15.03f, 0.05f)
+                curveToRelative(-1.64f, 0f, -2.98f, 1.33f, -2.98f, 2.98f)
+                reflectiveCurveToRelative(1.33f, 2.98f, 2.98f, 2.98f)
+                reflectiveCurveToRelative(2.98f, -1.33f, 2.98f, -2.98f)
+                reflectiveCurveTo(16.67f, 0.05f, 15.03f, 0.05f)
+                close()
+            }
+        }.also { _TipCoin = it}

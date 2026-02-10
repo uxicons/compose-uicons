@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Flooding: ImageVector? = null
+
+val Icons.Bs.Flooding: ImageVector
+    get() = _Flooding ?: UXIcon(name = "Flooding") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(24f, 21f)
+                verticalLineToRelative(3f)
+                curveToRelative(-1.16f, 0f, -2.2f, -0.45f, -3f, -1.17f)
+                curveToRelative(-0.8f, 0.72f, -1.84f, 1.17f, -3f, 1.17f)
+                reflectiveCurveToRelative(-2.2f, -0.45f, -3f, -1.17f)
+                curveToRelative(-0.8f, 0.72f, -1.84f, 1.17f, -3f, 1.17f)
+                reflectiveCurveToRelative(-2.2f, -0.45f, -3f, -1.17f)
+                curveToRelative(-0.8f, 0.72f, -1.84f, 1.17f, -3f, 1.17f)
+                reflectiveCurveToRelative(-2.2f, -0.45f, -3f, -1.17f)
+                curveToRelative(-0.8f, 0.72f, -1.84f, 1.17f, -3f, 1.17f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0.65f, 0f, 1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(3.18f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                reflectiveCurveToRelative(1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(3.18f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                reflectiveCurveToRelative(1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(3.18f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                reflectiveCurveToRelative(1.2f, -0.42f, 1.41f, -1f)
+                horizontalLineToRelative(3.18f)
+                curveToRelative(0.21f, 0.58f, 0.76f, 1f, 1.41f, 1f)
+                close()
+                moveTo(24f, 13.1f)
+                verticalLineToRelative(4.9f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-4.9f)
+                lineToRelative(-6.49f, -5.09f)
+                lineToRelative(-6.5f, 5.07f)
+                lineToRelative(-0.01f, 4.92f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.03f)
+                curveToRelative(-0.16f, 0.01f, -0.32f, 0.03f, -0.5f, 0.03f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                curveToRelative(0f, -0.7f, 0.17f, -1.38f, 0.48f, -2f)
+                curveToRelative(-0.31f, -0.62f, -0.48f, -1.3f, -0.48f, -2f)
+                curveToRelative(0f, -1.53f, 0.78f, -2.92f, 2.01f, -3.73f)
+                curveToRelative(-0.16f, -2.57f, 1.92f, -4.78f, 4.49f, -4.77f)
+                curveToRelative(2.57f, -0.01f, 4.65f, 2.2f, 4.49f, 4.77f)
+                curveToRelative(0.48f, 0.32f, 0.9f, 0.74f, 1.22f, 1.21f)
+                lineToRelative(0.42f, -0.33f)
+                curveToRelative(1.1f, -0.86f, 2.63f, -0.86f, 3.73f, 0f)
+                lineToRelative(6.48f, 5.07f)
+                curveToRelative(0.74f, 0.58f, 1.16f, 1.45f, 1.16f, 2.38f)
+                close()
+                moveTo(9.83f, 7.85f)
+                curveToRelative(-0.19f, -0.37f, -0.51f, -0.67f, -0.94f, -0.79f)
+                lineToRelative(-1.63f, -0.44f)
+                lineToRelative(0.63f, -1.57f)
+                curveToRelative(0.07f, -0.18f, 0.11f, -0.37f, 0.11f, -0.56f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                curveToRelative(-0.04f, 0.41f, 0.61f, 1.73f, 0.74f, 2.12f)
+                lineToRelative(-1.63f, 0.44f)
+                curveToRelative(-0.65f, 0.18f, -1.11f, 0.77f, -1.11f, 1.44f)
+                curveToRelative(0f, 0.46f, 0.21f, 0.8f, 0.39f, 1.0f)
+                lineToRelative(0.91f, 1.0f)
+                lineToRelative(-0.91f, 1.0f)
+                curveToRelative(-0.18f, 0.2f, -0.39f, 0.53f, -0.39f, 1.0f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                curveToRelative(0.2f, 0f, 0.36f, -0.03f, 0.5f, -0.06f)
+                verticalLineToRelative(-0.84f)
+                curveToRelative(0f, -0.94f, 0.42f, -1.8f, 1.16f, -2.38f)
+                lineToRelative(3.67f, -2.87f)
+                close()
+                moveTo(17f, 13f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(5f)
+                close()
+            }
+        }.also { _Flooding = it}

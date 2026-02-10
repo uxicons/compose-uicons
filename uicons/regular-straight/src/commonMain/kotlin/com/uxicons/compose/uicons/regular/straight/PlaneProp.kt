@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PlaneProp: ImageVector? = null
+
+val Icons.Rs.PlaneProp: ImageVector
+    get() = _PlaneProp ?: UXIcon(name = "PlaneProp") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(23.95f, 11.5f)
+                curveToRelative(-0.23f, -1.43f, -1.55f, -2.5f, -3.07f, -2.5f)
+                lineToRelative(-5.14f, 0.01f)
+                lineToRelative(-0.89f, -4.01f)
+                horizontalLineToRelative(1.15f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                lineTo(18f, 1f)
+                horizontalLineToRelative(-2f)
+                lineTo(16f, 3f)
+                horizontalLineToRelative(-1.59f)
+                lineToRelative(-0.14f, -0.63f)
+                curveTo(13.96f, 0.98f, 12.76f, 0.01f, 11.35f, 0.01f)
+                lineToRelative(-2.35f, -0.03f)
+                lineTo(9f, 3f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-3.46f)
+                lineToRelative(-1.1f, -1.66f)
+                curveToRelative(-0.56f, -0.84f, -1.49f, -1.34f, -2.5f, -1.34f)
+                lineTo(0f, 6f)
+                verticalLineToRelative(12f)
+                lineTo(1.95f, 18f)
+                curveToRelative(1.01f, 0f, 1.95f, -0.51f, 2.51f, -1.35f)
+                lineToRelative(1.08f, -1.65f)
+                horizontalLineToRelative(3.46f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(2.99f)
+                lineToRelative(2.34f, 0.03f)
+                curveToRelative(1.4f, 0f, 2.63f, -0.99f, 2.93f, -2.35f)
+                lineToRelative(0.15f, -0.66f)
+                horizontalLineToRelative(1.58f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-1.14f)
+                lineToRelative(0.88f, -3.99f)
+                lineToRelative(5.25f, -0.01f)
+                curveToRelative(0.88f, 0f, 1.71f, -0.39f, 2.29f, -1.06f)
+                curveToRelative(0.57f, -0.67f, 0.82f, -1.56f, 0.67f, -2.44f)
+                close()
+                moveTo(21.75f, 12.65f)
+                curveToRelative(-0.19f, 0.22f, -0.47f, 0.35f, -0.77f, 0.35f)
+                lineToRelative(-6.86f, 0.02f)
+                lineToRelative(-1.81f, 8.21f)
+                curveToRelative(-0.1f, 0.46f, -0.5f, 0.78f, -0.96f, 0.78f)
+                lineToRelative(-0.35f, -0.0f)
+                lineTo(11.0f, 13f)
+                lineTo(4.46f, 13f)
+                lineToRelative(-1.67f, 2.55f)
+                curveToRelative(-0.18f, 0.27f, -0.47f, 0.43f, -0.79f, 0.45f)
+                verticalLineToRelative(-8.0f)
+                curveToRelative(0.31f, 0.02f, 0.6f, 0.18f, 0.77f, 0.45f)
+                lineToRelative(1.69f, 2.55f)
+                horizontalLineToRelative(6.54f)
+                lineTo(11.0f, 2.01f)
+                lineToRelative(0.34f, 0.0f)
+                curveToRelative(0.47f, 0f, 0.87f, 0.32f, 0.98f, 0.79f)
+                lineToRelative(1.81f, 8.22f)
+                lineToRelative(6.75f, -0.02f)
+                curveToRelative(0.54f, 0f, 1.02f, 0.36f, 1.09f, 0.82f)
+                curveToRelative(0.05f, 0.3f, -0.03f, 0.59f, -0.22f, 0.82f)
+                close()
+            }
+        }.also { _PlaneProp = it}

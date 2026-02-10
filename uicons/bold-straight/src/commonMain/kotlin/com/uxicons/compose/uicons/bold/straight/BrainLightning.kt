@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BrainLightning: ImageVector? = null
+
+val Icons.Bs.BrainLightning: ImageVector
+    get() = _BrainLightning ?: UXIcon(name = "BrainLightning") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(15.86f, 11.25f)
+                lineToRelative(-4.3f, 5.75f)
+                horizontalLineToRelative(-1.07f)
+                lineToRelative(1.06f, -4f)
+                horizontalLineToRelative(-2.73f)
+                curveToRelative(-0.55f, 0f, -0.94f, -0.53f, -0.79f, -1.06f)
+                lineToRelative(2.14f, -5.94f)
+                horizontalLineToRelative(3.83f)
+                lineToRelative(-1.52f, 4f)
+                horizontalLineToRelative(2.72f)
+                curveToRelative(0.64f, 0f, 1.02f, 0.71f, 0.67f, 1.25f)
+                close()
+                moveTo(23.38f, 13.6f)
+                curveToRelative(0.4f, 0.73f, 0.62f, 1.55f, 0.62f, 2.4f)
+                curveToRelative(0f, 1.83f, -1.03f, 3.52f, -2.62f, 4.38f)
+                curveToRelative(-1.14f, 2.4f, -2.95f, 3.61f, -5.38f, 3.61f)
+                curveToRelative(-1.42f, 0f, -2.92f, -0.61f, -4f, -1.65f)
+                curveToRelative(-1.08f, 1.03f, -2.58f, 1.65f, -4f, 1.65f)
+                curveToRelative(-2.43f, 0f, -4.24f, -1.22f, -5.38f, -3.61f)
+                curveToRelative(-1.59f, -0.86f, -2.62f, -2.55f, -2.62f, -4.38f)
+                curveToRelative(0f, -0.85f, 0.21f, -1.67f, 0.62f, -2.4f)
+                curveTo(0.18f, 12.81f, -0.05f, 11.95f, -0.05f, 11.04f)
+                curveToRelative(0f, -1.12f, 0.37f, -2.63f, 2f, -3.86f)
+                verticalLineToRelative(-0.19f)
+                curveToRelative(0f, -1.87f, 1.3f, -3.36f, 3.18f, -3.84f)
+                curveToRelative(0.51f, -1.85f, 2.07f, -3.16f, 3.96f, -3.16f)
+                curveToRelative(1.12f, 0f, 2.13f, 0.39f, 2.91f, 1.02f)
+                curveToRelative(0.78f, -0.63f, 1.79f, -1.02f, 2.91f, -1.02f)
+                curveToRelative(1.89f, 0f, 3.44f, 1.31f, 3.96f, 3.16f)
+                curveToRelative(1.88f, 0.48f, 3.18f, 1.97f, 3.18f, 3.84f)
+                verticalLineToRelative(0.19f)
+                curveToRelative(1.63f, 1.22f, 2f, 2.74f, 2f, 3.86f)
+                curveToRelative(0f, 0.9f, -0.23f, 1.77f, -0.67f, 2.55f)
+                close()
+                moveTo(19.38f, 13.51f)
+                lineToRelative(1.21f, -1.1f)
+                curveToRelative(0.23f, -0.3f, 0.46f, -0.76f, 0.46f, -1.36f)
+                curveToRelative(0f, -0.49f, -0.14f, -1.12f, -1.23f, -1.74f)
+                lineToRelative(-0.77f, -0.43f)
+                verticalLineToRelative(-1.88f)
+                curveToRelative(0f, -0.79f, -0.98f, -1f, -1.5f, -1f)
+                horizontalLineToRelative(-1.5f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.73f, -0.4f, -1.5f, -1.14f, -1.5f)
+                curveToRelative(-0.67f, 0f, -1.41f, 0.41f, -1.41f, 1f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(0f, -0.59f, -0.74f, -1f, -1.41f, -1f)
+                curveToRelative(-0.74f, 0f, -1.14f, 0.77f, -1.14f, 1.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(-1.5f)
+                curveToRelative(-0.52f, 0f, -1.5f, 0.21f, -1.5f, 1f)
+                verticalLineToRelative(1.88f)
+                lineToRelative(-0.77f, 0.43f)
+                curveToRelative(-1.09f, 0.61f, -1.24f, 1.25f, -1.24f, 1.74f)
+                curveToRelative(0f, 0.6f, 0.24f, 1.06f, 0.46f, 1.36f)
+                lineToRelative(1.21f, 1.1f)
+                lineToRelative(-1.06f, 1.11f)
+                curveToRelative(-0.36f, 0.38f, -0.56f, 0.87f, -0.56f, 1.38f)
+                curveToRelative(0f, 0.83f, 0.51f, 1.56f, 1.3f, 1.86f)
+                lineToRelative(0.61f, 0.23f)
+                lineToRelative(0.25f, 0.61f)
+                curveToRelative(0.66f, 1.63f, 1.48f, 2.29f, 2.84f, 2.29f)
+                curveToRelative(1.22f, 0f, 2.5f, -1.03f, 2.5f, -2.0f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0f, 0.97f, 1.28f, 2.0f, 2.5f, 2.0f)
+                curveToRelative(1.36f, 0f, 2.19f, -0.67f, 2.84f, -2.29f)
+                lineToRelative(0.25f, -0.61f)
+                lineToRelative(0.61f, -0.23f)
+                curveToRelative(0.79f, -0.3f, 1.3f, -1.03f, 1.3f, -1.86f)
+                curveToRelative(0f, -0.51f, -0.2f, -1.0f, -0.56f, -1.38f)
+                lineToRelative(-1.06f, -1.11f)
+                close()
+            }
+        }.also { _BrainLightning = it}

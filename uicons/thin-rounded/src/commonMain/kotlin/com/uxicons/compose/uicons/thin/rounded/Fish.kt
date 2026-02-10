@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Fish: ImageVector? = null
+
+val Icons.Tr.Fish: ImageVector
+    get() = _Fish ?: UXIcon(name = "Fish") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(5f, 19f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(23.79f, 6.9f)
+                curveToRelative(-0.34f, 0.68f, -1.02f, 1.1f, -1.78f, 1.1f)
+                horizontalLineToRelative(-5.0f)
+                curveToRelative(-0.01f, 1.86f, -0.12f, 3.52f, -0.32f, 5f)
+                horizontalLineToRelative(1.03f)
+                curveToRelative(0.7f, 0f, 1.32f, 0.28f, 1.75f, 0.77f)
+                curveToRelative(0.43f, 0.5f, 0.62f, 1.15f, 0.52f, 1.84f)
+                curveToRelative(-0.19f, 1.36f, -1.37f, 2.38f, -2.75f, 2.38f)
+                horizontalLineToRelative(-1.73f)
+                curveToRelative(-0.07f, 0f, -0.13f, -0.01f, -0.18f, -0.04f)
+                curveToRelative(-1.84f, 3.89f, -5.33f, 5.6f, -11.18f, 6.03f)
+                curveToRelative(-0.1f, 0.01f, -0.19f, 0.01f, -0.28f, 0.01f)
+                curveToRelative(-1.01f, 0f, -2.0f, -0.41f, -2.73f, -1.14f)
+                curveToRelative(-0.8f, -0.8f, -1.21f, -1.89f, -1.12f, -3.01f)
+                curveToRelative(0.24f, -3.18f, 0.85f, -5.67f, 1.99f, -7.57f)
+                verticalLineToRelative(-0.37f)
+                curveToRelative(0f, -3.88f, 2.86f, -7.21f, 6.59f, -7.88f)
+                curveToRelative(0.83f, -0.15f, 1.68f, 0.09f, 2.34f, 0.64f)
+                curveToRelative(0.68f, 0.57f, 1.07f, 1.41f, 1.07f, 2.29f)
+                verticalLineToRelative(0.23f)
+                curveToRelative(1.22f, -0.12f, 2.55f, -0.19f, 4.0f, -0.2f)
+                lineTo(16.0f, 2f)
+                curveToRelative(0f, -0.76f, 0.42f, -1.44f, 1.1f, -1.78f)
+                curveToRelative(0.68f, -0.34f, 1.49f, -0.27f, 2.11f, 0.18f)
+                curveToRelative(0.9f, 0.67f, 1.46f, 1.54f, 1.72f, 2.67f)
+                curveToRelative(1.13f, 0.26f, 2.0f, 0.82f, 2.67f, 1.72f)
+                curveToRelative(0.46f, 0.62f, 0.53f, 1.42f, 0.18f, 2.11f)
+                close()
+                moveTo(3.08f, 10.83f)
+                curveToRelative(1.74f, -1.91f, 4.29f, -3.01f, 7.92f, -3.51f)
+                verticalLineToRelative(-0.35f)
+                curveToRelative(0f, -0.59f, -0.26f, -1.15f, -0.71f, -1.53f)
+                curveToRelative(-0.43f, -0.37f, -0.97f, -0.51f, -1.53f, -0.42f)
+                curveToRelative(-2.92f, 0.53f, -5.23f, 2.9f, -5.68f, 5.81f)
+                close()
+                moveTo(9.37f, 22.02f)
+                curveToRelative(-0.78f, -3.67f, -3.72f, -6.61f, -7.38f, -7.39f)
+                curveToRelative(-0.52f, 1.47f, -0.82f, 3.22f, -0.98f, 5.3f)
+                curveToRelative(-0.06f, 0.82f, 0.24f, 1.64f, 0.83f, 2.23f)
+                curveToRelative(0.59f, 0.59f, 1.41f, 0.89f, 2.23f, 0.83f)
+                curveToRelative(2.08f, -0.15f, 3.84f, -0.46f, 5.3f, -0.98f)
+                close()
+                moveTo(16.0f, 8.0f)
+                curveToRelative(-7.74f, 0.06f, -11.74f, 1.54f, -13.63f, 5.69f)
+                curveToRelative(3.91f, 0.9f, 7.05f, 4.03f, 7.95f, 7.95f)
+                curveToRelative(4.15f, -1.89f, 5.63f, -5.9f, 5.69f, -13.64f)
+                close()
+                moveTo(16.52f, 14f)
+                curveToRelative(-0.2f, 1.11f, -0.46f, 2.1f, -0.8f, 3f)
+                horizontalLineToRelative(1.51f)
+                curveToRelative(0.88f, 0f, 1.63f, -0.66f, 1.76f, -1.52f)
+                curveToRelative(0.06f, -0.4f, -0.04f, -0.77f, -0.28f, -1.05f)
+                curveToRelative(-0.24f, -0.28f, -0.59f, -0.43f, -1.0f, -0.43f)
+                horizontalLineToRelative(-1.19f)
+                close()
+                moveTo(22.8f, 5.39f)
+                curveToRelative(-0.58f, -0.78f, -1.34f, -1.22f, -2.38f, -1.4f)
+                curveToRelative(-0.21f, -0.04f, -0.38f, -0.2f, -0.41f, -0.41f)
+                curveToRelative(-0.17f, -1.04f, -0.62f, -1.8f, -1.4f, -2.38f)
+                curveToRelative(-0.32f, -0.23f, -0.71f, -0.27f, -1.06f, -0.09f)
+                curveToRelative(-0.34f, 0.17f, -0.55f, 0.51f, -0.55f, 0.89f)
+                verticalLineToRelative(5.0f)
+                horizontalLineToRelative(5.0f)
+                curveToRelative(0.39f, 0f, 0.72f, -0.2f, 0.89f, -0.55f)
+                curveToRelative(0.17f, -0.35f, 0.14f, -0.75f, -0.09f, -1.06f)
+                close()
+            }
+        }.also { _Fish = it}

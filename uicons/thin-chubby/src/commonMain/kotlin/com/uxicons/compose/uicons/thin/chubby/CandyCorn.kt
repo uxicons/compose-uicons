@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.chubby
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CandyCorn: ImageVector? = null
+
+val Icons.Tc.CandyCorn: ImageVector
+    get() = _CandyCorn ?: UXIcon(name = "CandyCorn") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10.77f, 8.1f)
+                curveToRelative(-0.1f, -0.07f, -0.23f, -0.11f, -0.36f, -0.09f)
+                curveToRelative(-0.14f, 0.02f, -3.33f, 0.49f, -6.12f, 3.29f)
+                curveToRelative(-2.79f, 2.8f, -3.27f, 6.0f, -3.29f, 6.13f)
+                curveToRelative(-0.02f, 0.13f, 0.01f, 0.26f, 0.09f, 0.36f)
+                curveToRelative(3.27f, 4.59f, 9.38f, 5.22f, 12.48f, 5.22f)
+                curveToRelative(1.08f, 0f, 1.8f, -0.08f, 1.9f, -0.09f)
+                curveToRelative(0.23f, -0.03f, 0.41f, -0.21f, 0.44f, -0.44f)
+                curveToRelative(0.04f, -0.41f, 1.04f, -9.98f, -5.15f, -14.38f)
+                close()
+                moveTo(2.03f, 17.38f)
+                curveToRelative(0.14f, -0.7f, 0.78f, -3.19f, 2.97f, -5.37f)
+                curveToRelative(2.17f, -2.18f, 4.67f, -2.83f, 5.36f, -2.97f)
+                curveToRelative(0.95f, 0.71f, 1.7f, 1.56f, 2.3f, 2.5f)
+                curveToRelative(-0.68f, 0.13f, -3.1f, 0.73f, -5.25f, 2.88f)
+                curveToRelative(-2.16f, 2.17f, -2.76f, 4.61f, -2.89f, 5.27f)
+                curveToRelative(-0.93f, -0.6f, -1.79f, -1.35f, -2.5f, -2.3f)
+                close()
+                moveTo(14.32f, 15.37f)
+                curveToRelative(-0.32f, 0.05f, -2.19f, 0.42f, -3.86f, 2.09f)
+                curveToRelative(-1.68f, 1.68f, -2.04f, 3.58f, -2.09f, 3.87f)
+                curveToRelative(-1.0f, -0.27f, -2.01f, -0.63f, -2.96f, -1.14f)
+                curveToRelative(0.19f, -0.27f, 0.32f, -2.65f, 2.72f, -5.08f)
+                curveToRelative(2.41f, -2.38f, 4.81f, -2.54f, 5.06f, -2.71f)
+                curveToRelative(0.51f, 0.96f, 0.87f, 1.96f, 1.14f, 2.96f)
+                close()
+                moveTo(14.96f, 21.96f)
+                curveToRelative(-0.89f, 0.05f, -3.14f, 0.12f, -5.62f, -0.4f)
+                curveToRelative(0.0f, -0.01f, 0.01f, -0.02f, 0.01f, -0.03f)
+                curveToRelative(0.0f, -0.02f, 0.28f, -1.82f, 1.82f, -3.36f)
+                reflectiveCurveToRelative(3.34f, -1.82f, 3.36f, -1.82f)
+                curveToRelative(0.01f, -0.0f, 0.02f, -0.01f, 0.03f, -0.01f)
+                curveToRelative(0.52f, 2.48f, 0.46f, 4.73f, 0.41f, 5.62f)
+                close()
+                moveTo(17.85f, 15.85f)
+                curveToRelative(-0.2f, 0.2f, -0.51f, 0.2f, -0.71f, 0f)
+                reflectiveCurveToRelative(-0.2f, -0.51f, 0f, -0.71f)
+                curveToRelative(0.64f, -0.64f, 1.94f, -2.06f, 3.03f, -3.96f)
+                curveToRelative(-0.46f, -0.3f, -2.02f, -1.19f, -4.18f, -1.19f)
+                curveToRelative(-0.33f, 0f, -0.64f, 0.02f, -0.94f, 0.06f)
+                curveToRelative(-0.27f, 0.03f, -0.52f, -0.16f, -0.56f, -0.44f)
+                reflectiveCurveToRelative(0.16f, -0.52f, 0.44f, -0.56f)
+                curveToRelative(0.34f, -0.04f, 0.69f, -0.06f, 1.06f, -0.06f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(2.34f, 0f, 4.02f, 0.91f, 4.65f, 1.3f)
+                curveToRelative(0.43f, -0.86f, 0.79f, -1.79f, 1.03f, -2.78f)
+                curveToRelative(-0.99f, -0.58f, -3f, -1.52f, -5.68f, -1.52f)
+                horizontalLineToRelative(-0.0f)
+                curveToRelative(-1.3f, 0f, -2.59f, 0.23f, -3.83f, 0.67f)
+                curveToRelative(-0.26f, 0.09f, -0.55f, -0.04f, -0.64f, -0.3f)
+                curveToRelative(-0.09f, -0.26f, 0.04f, -0.55f, 0.3f, -0.64f)
+                curveToRelative(1.35f, -0.48f, 2.75f, -0.72f, 4.17f, -0.72f)
+                horizontalLineToRelative(0.0f)
+                curveToRelative(2.66f, 0f, 4.72f, 0.85f, 5.88f, 1.48f)
+                curveToRelative(0.13f, -0.9f, 0.15f, -1.83f, 0.01f, -2.79f)
+                curveToRelative(-0.6f, -0.39f, -2.81f, -1.69f, -5.89f, -1.69f)
+                horizontalLineToRelative(-0.01f)
+                curveToRelative(-3.08f, 0.0f, -5.3f, 1.31f, -5.9f, 1.7f)
+                curveToRelative(-0.09f, 0.58f, -0.11f, 1.18f, -0.09f, 1.77f)
+                curveToRelative(0.01f, 0.28f, -0.2f, 0.51f, -0.47f, 0.52f)
+                curveToRelative(-0.3f, 0.01f, -0.51f, -0.2f, -0.52f, -0.47f)
+                curveToRelative(-0.04f, -0.74f, 0.01f, -1.48f, 0.13f, -2.2f)
+                curveToRelative(0.02f, -0.13f, 0.09f, -0.24f, 0.19f, -0.32f)
+                curveToRelative(0.11f, -0.08f, 2.71f, -2.01f, 6.66f, -2.01f)
+                horizontalLineToRelative(0.01f)
+                curveToRelative(3.95f, 0f, 6.54f, 1.92f, 6.65f, 2.0f)
+                curveToRelative(0.1f, 0.08f, 0.17f, 0.19f, 0.19f, 0.32f)
+                curveToRelative(1.01f, 5.99f, -3.57f, 11.11f, -5.0f, 12.53f)
+                close()
+            }
+        }.also { _CandyCorn = it}

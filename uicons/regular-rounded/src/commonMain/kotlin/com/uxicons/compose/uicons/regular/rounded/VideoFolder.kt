@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _VideoFolder: ImageVector? = null
+
+val Icons.Rr.VideoFolder: ImageVector
+    get() = _VideoFolder ?: UXIcon(name = "VideoFolder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(10f, 12f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(3f)
+                curveToRelative(1.42f, 0f, 2.61f, -0.99f, 2.92f, -2.32f)
+                lineToRelative(1.46f, 1.12f)
+                curveToRelative(0.67f, 0.5f, 1.62f, 0.02f, 1.62f, -0.81f)
+                verticalLineToRelative(-3.94f)
+                curveToRelative(0f, -0.84f, -0.96f, -1.31f, -1.62f, -0.81f)
+                lineToRelative(-1.46f, 1.09f)
+                curveToRelative(-0.31f, -1.33f, -1.5f, -2.33f, -2.92f, -2.33f)
+                close()
+                moveTo(11f, 17f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-3f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(15.22f, 10.66f)
+                curveToRelative(0.77f, 0.45f, 1.68f, 0.45f, 2.46f, 0.01f)
+                lineToRelative(5.07f, -3.03f)
+                curveToRelative(0.78f, -0.44f, 1.25f, -1.24f, 1.25f, -2.14f)
+                reflectiveCurveToRelative(-0.47f, -1.7f, -1.23f, -2.13f)
+                lineToRelative(-5.11f, -3.06f)
+                curveToRelative(-0.77f, -0.43f, -1.68f, -0.42f, -2.44f, 0.02f)
+                curveToRelative(-0.76f, 0.45f, -1.22f, 1.24f, -1.22f, 2.12f)
+                verticalLineToRelative(6.09f)
+                curveToRelative(0f, 0.88f, 0.45f, 1.67f, 1.22f, 2.12f)
+                close()
+                moveTo(16f, 2.46f)
+                curveToRelative(0f, -0.38f, 0.33f, -0.59f, 0.65f, -0.41f)
+                lineToRelative(5.11f, 3.06f)
+                curveToRelative(0.33f, 0.26f, 0.33f, 0.54f, -0.02f, 0.81f)
+                lineToRelative(-5.07f, 3.03f)
+                curveToRelative(-0.38f, 0.15f, -0.68f, 0.01f, -0.68f, -0.4f)
+                close()
+                moveTo(24f, 11f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 2.76f, -2.24f, 5f, -5f, 5f)
+                horizontalLineToRelative(-14f)
+                curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                verticalLineToRelative(-12f)
+                curveToRelative(0f, -2.76f, 2.24f, -5f, 5f, -5f)
+                horizontalLineToRelative(2.53f)
+                curveToRelative(0.46f, 0f, 0.93f, 0.11f, 1.34f, 0.32f)
+                lineToRelative(2.58f, 1.29f)
+                curveToRelative(0.49f, 0.25f, 0.69f, 0.85f, 0.45f, 1.34f)
+                reflectiveCurveToRelative(-0.85f, 0.7f, -1.34f, 0.45f)
+                lineToRelative(-2.58f, -1.29f)
+                curveToRelative(-0.14f, -0.07f, -0.29f, -0.1f, -0.45f, -0.1f)
+                horizontalLineToRelative(-2.53f)
+                curveToRelative(-1.65f, 0f, -3f, 1.35f, -3f, 3f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(9.0f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(9f)
+                curveToRelative(0f, 1.65f, 1.35f, 3f, 3f, 3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, -1.35f, 3f, -3f)
+                verticalLineToRelative(-8f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                close()
+            }
+        }.also { _VideoFolder = it}

@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CourtOrder: ImageVector? = null
+
+val Icons.Ts.CourtOrder: ImageVector
+    get() = _CourtOrder ?: UXIcon(name = "CourtOrder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(9f, 12f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(10f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(-11f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-10f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-9f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(9f)
+                close()
+                moveTo(10f, 4f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-6f)
+                close()
+                moveTo(10f, 12f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(16f, 1f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-2f)
+                close()
+                moveTo(19f, 22f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-8f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(8f, 22f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(8f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-10f)
+                close()
+                moveTo(19.83f, 15.57f)
+                lineTo(19.55f, 14.61f)
+                lineTo(23.55f, 13.43f)
+                lineTo(23.83f, 14.39f)
+                close()
+                moveTo(19.83f, 17.93f)
+                lineTo(23.83f, 19.11f)
+                lineTo(23.55f, 20.07f)
+                lineTo(19.55f, 18.89f)
+                close()
+                moveTo(2.17f, 14.39f)
+                lineTo(2.45f, 13.43f)
+                lineTo(6.45f, 14.61f)
+                lineTo(6.17f, 15.57f)
+                close()
+                moveTo(6.45f, 18.89f)
+                lineTo(2.45f, 20.07f)
+                lineTo(2.17f, 19.11f)
+                lineTo(6.17f, 17.93f)
+                close()
+            }
+        }.also { _CourtOrder = it}

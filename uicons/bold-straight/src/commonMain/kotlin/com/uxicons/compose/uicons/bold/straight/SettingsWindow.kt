@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SettingsWindow: ImageVector? = null
+
+val Icons.Bs.SettingsWindow: ImageVector
+    get() = _SettingsWindow ?: UXIcon(name = "SettingsWindow") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.45f, 24f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(-0.0f)
+                close()
+                moveTo(11f, 11f)
+                lineTo(15.45f, 24.0f)
+                lineTo(17.5f, 19.63f)
+                lineTo(21.79f, 23.91f)
+                lineTo(23.91f, 21.79f)
+                lineTo(19.63f, 17.5f)
+                lineTo(24f, 15.45f)
+                close()
+                moveTo(11.02f, 17.05f)
+                lineTo(9.45f, 17.96f)
+                curveToRelative(0.02f, 0.18f, 0.06f, 0.36f, 0.06f, 0.54f)
+                reflectiveCurveToRelative(-0.03f, 0.36f, -0.06f, 0.54f)
+                lineToRelative(1.57f, 0.9f)
+                lineToRelative(-1.5f, 2.6f)
+                lineToRelative(-1.57f, -0.9f)
+                curveToRelative(-0.29f, 0.23f, -0.6f, 0.42f, -0.95f, 0.56f)
+                verticalLineToRelative(1.8f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-1.8f)
+                curveToRelative(-0.34f, -0.14f, -0.66f, -0.34f, -0.95f, -0.56f)
+                lineToRelative(-1.57f, 0.9f)
+                lineToRelative(-1.5f, -2.6f)
+                lineToRelative(1.57f, -0.9f)
+                curveToRelative(-0.02f, -0.18f, -0.06f, -0.36f, -0.06f, -0.54f)
+                reflectiveCurveToRelative(0.03f, -0.36f, 0.06f, -0.54f)
+                lineToRelative(-1.57f, -0.9f)
+                lineToRelative(1.5f, -2.6f)
+                lineToRelative(1.57f, 0.9f)
+                curveToRelative(0.29f, -0.23f, 0.6f, -0.42f, 0.95f, -0.56f)
+                verticalLineToRelative(-1.8f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(1.8f)
+                curveToRelative(0.34f, 0.14f, 0.66f, 0.34f, 0.95f, 0.56f)
+                lineToRelative(1.57f, -0.9f)
+                close()
+                moveTo(7f, 18.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(24f, 3.5f)
+                verticalLineToRelative(9.83f)
+                lineToRelative(-3f, -1.03f)
+                verticalLineToRelative(-5.31f)
+                horizontalLineToRelative(-18f)
+                verticalLineToRelative(3.81f)
+                curveToRelative(-1.2f, 0.58f, -2.23f, 1.46f, -3f, 2.53f)
+                verticalLineToRelative(-9.85f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(17f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                close()
+                moveTo(6f, 3.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+                moveTo(11f, 3.5f)
+                curveToRelative(0f, -0.83f, -0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                close()
+            }
+        }.also { _SettingsWindow = it}

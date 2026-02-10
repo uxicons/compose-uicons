@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _FishCooked: ImageVector? = null
+
+val Icons.Ts.FishCooked: ImageVector
+    get() = _FishCooked ?: UXIcon(name = "FishCooked") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20.98f, 3.03f)
+                curveTo(20.73f, 0.97f, 18.82f, 0.0f, 17.51f, 0.0f)
+                curveToRelative(-0.91f, 0f, -1.5f, 0.55f, -1.5f, 1.4f)
+                verticalLineToRelative(5.6f)
+                curveToRelative(-1.45f, 0.01f, -2.78f, 0.07f, -4f, 0.19f)
+                verticalLineToRelative(-3.2f)
+                horizontalLineToRelative(-0.5f)
+                curveToRelative(-3.06f, 0f, -6.27f, 1.11f, -8.09f, 2.06f)
+                curveToRelative(-0.86f, 0.45f, -1.4f, 1.33f, -1.4f, 2.3f)
+                verticalLineToRelative(4.0f)
+                curveTo(0.57f, 14.91f, 0.01f, 18.52f, 0.01f, 23.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(8.21f, 0f, 12.68f, -1.52f, 14.83f, -6f)
+                horizontalLineToRelative(2.37f)
+                curveToRelative(0.99f, 0f, 1.84f, -0.7f, 2.03f, -1.65f)
+                curveToRelative(0.19f, -0.98f, 0.28f, -1.85f, 0.28f, -2.85f)
+                verticalLineToRelative(-0.5f)
+                horizontalLineToRelative(-3.31f)
+                curveToRelative(0.2f, -1.48f, 0.29f, -3.14f, 0.31f, -5f)
+                horizontalLineToRelative(5.6f)
+                curveToRelative(0.85f, 0f, 1.4f, -0.59f, 1.4f, -1.5f)
+                curveToRelative(0f, -1.31f, -0.97f, -3.22f, -3.03f, -3.47f)
+                close()
+                moveTo(3.01f, 8.37f)
+                curveToRelative(0f, -0.59f, 0.33f, -1.14f, 0.86f, -1.42f)
+                curveToRelative(0.36f, -0.19f, 3.54f, -1.8f, 7.13f, -1.94f)
+                verticalLineToRelative(2.3f)
+                curveToRelative(-3.7f, 0.49f, -6.27f, 1.61f, -8.0f, 3.62f)
+                verticalLineToRelative(-2.57f)
+                close()
+                moveTo(1.01f, 23.0f)
+                curveToRelative(0.09f, -11.73f, 3.26f, -14.91f, 15.0f, -15.0f)
+                curveToRelative(-0.09f, 11.73f, -3.26f, 14.91f, -15.0f, 15.0f)
+                close()
+                moveTo(19.0f, 14.0f)
+                curveToRelative(-0.02f, 0.73f, -0.1f, 1.41f, -0.25f, 2.15f)
+                curveToRelative(-0.1f, 0.49f, -0.54f, 0.85f, -1.05f, 0.85f)
+                horizontalLineToRelative(-1.94f)
+                curveToRelative(0.33f, -0.9f, 0.59f, -1.89f, 0.79f, -3f)
+                horizontalLineToRelative(2.46f)
+                close()
+                moveTo(22.61f, 7.0f)
+                horizontalLineToRelative(-5.6f)
+                lineTo(17.01f, 1.4f)
+                curveToRelative(0f, -0.15f, 0f, -0.4f, 0.5f, -0.4f)
+                curveToRelative(0.78f, 0f, 2.5f, 0.63f, 2.5f, 2.5f)
+                verticalLineToRelative(0.5f)
+                horizontalLineToRelative(0.5f)
+                curveToRelative(1.87f, 0f, 2.5f, 1.72f, 2.5f, 2.5f)
+                curveToRelative(0f, 0.5f, -0.25f, 0.5f, -0.4f, 0.5f)
+                close()
+                moveTo(6.36f, 12.65f)
+                lineToRelative(5.0f, 5f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(-5.0f, -5f)
+                lineToRelative(0.71f, -0.71f)
+                close()
+                moveTo(13.36f, 13.65f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(-3f, -3f)
+                lineToRelative(0.71f, -0.71f)
+                lineToRelative(3f, 3f)
+                close()
+                moveTo(4.36f, 16.65f)
+                lineToRelative(3f, 3f)
+                lineToRelative(-0.71f, 0.71f)
+                lineToRelative(-3f, -3f)
+                lineToRelative(0.71f, -0.71f)
+                close()
+            }
+        }.also { _FishCooked = it}

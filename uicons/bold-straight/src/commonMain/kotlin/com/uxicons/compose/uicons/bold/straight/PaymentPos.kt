@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _PaymentPos: ImageVector? = null
+
+val Icons.Bs.PaymentPos: ImageVector
+    get() = _PaymentPos ?: UXIcon(name = "PaymentPos") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 21f)
+                horizontalLineToRelative(5.98f)
+                verticalLineToRelative(3f)
+                lineTo(0f, 24f)
+                lineTo(0f, 3.5f)
+                curveTo(0f, 1.57f, 1.57f, 0f, 3.5f, 0f)
+                horizontalLineToRelative(9.04f)
+                curveToRelative(-0.34f, 0.59f, -0.56f, 1.27f, -0.56f, 2f)
+                verticalLineToRelative(1f)
+                lineTo(3.5f, 3f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.23f, -0.5f, 0.5f)
+                verticalLineToRelative(17.5f)
+                close()
+                moveTo(11.98f, 5f)
+                horizontalLineToRelative(-6.99f)
+                verticalLineToRelative(4f)
+                horizontalLineToRelative(6.99f)
+                verticalLineToRelative(-4f)
+                close()
+                moveTo(8f, 11f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(12f, 11f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(5f, 19f)
+                horizontalLineToRelative(3f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(17f, 11.06f)
+                lineTo(17f, 3f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(9.59f)
+                curveToRelative(0.34f, 0.42f, 0.6f, 0.89f, 0.77f, 1.41f)
+                horizontalLineToRelative(0.22f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                lineTo(23.98f, 2f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-6f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(10.86f)
+                lineToRelative(0.52f, -0.52f)
+                curveToRelative(0.71f, -0.71f, 1.59f, -1.13f, 2.5f, -1.27f)
+                close()
+                moveTo(21.98f, 16f)
+                horizontalLineToRelative(-1f)
+                lineToRelative(0.01f, 2f)
+                lineToRelative(-3.04f, 3.04f)
+                lineToRelative(-1.35f, -1.42f)
+                lineToRelative(2.9f, -2.91f)
+                curveToRelative(0.78f, -1.03f, 0.57f, -2.53f, -0.53f, -3.31f)
+                curveToRelative(-0.94f, -0.67f, -2.25f, -0.47f, -3.07f, 0.34f)
+                lineToRelative(-3.25f, 3.29f)
+                curveToRelative(-0.75f, 0.75f, -1.17f, 1.77f, -1.17f, 2.83f)
+                verticalLineToRelative(4.12f)
+                lineToRelative(-0.01f, 0.02f)
+                horizontalLineToRelative(10.14f)
+                lineToRelative(2.38f, -2.38f)
+                verticalLineToRelative(-6.19f)
+                curveToRelative(-0.59f, 0.35f, -1.28f, 0.56f, -2.02f, 0.56f)
+                close()
+            }
+        }.also { _PaymentPos = it}

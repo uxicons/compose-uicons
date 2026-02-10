@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _AuctionPaddle: ImageVector? = null
+
+val Icons.Bs.AuctionPaddle: ImageVector
+    get() = _AuctionPaddle ?: UXIcon(name = "AuctionPaddle") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(14.05f, 13f)
+                horizontalLineToRelative(-1.05f)
+                verticalLineToRelative(-2.21f)
+                curveToRelative(2.31f, -0.65f, 4f, -2.77f, 4f, -5.29f)
+                curveToRelative(0f, -3.04f, -2.46f, -5.5f, -5.5f, -5.5f)
+                reflectiveCurveToRelative(-5.5f, 2.46f, -5.5f, 5.5f)
+                curveToRelative(0f, 2.52f, 1.69f, 4.63f, 4f, 5.29f)
+                verticalLineToRelative(1.68f)
+                lineToRelative(-0.69f, -0.69f)
+                curveToRelative(-1.04f, -1.04f, -2.72f, -1.04f, -3.76f, 0f)
+                lineToRelative(-1.78f, 2.22f)
+                horizontalLineToRelative(-3.78f)
+                verticalLineToRelative(9f)
+                horizontalLineToRelative(4.26f)
+                lineToRelative(3f, 1f)
+                horizontalLineToRelative(8.37f)
+                curveToRelative(0.39f, -2.07f, 1.32f, -6.88f, 1.37f, -8.16f)
+                curveToRelative(0f, -1.59f, -1.29f, -2.84f, -2.95f, -2.84f)
+                close()
+                moveTo(8.47f, 7.07f)
+                horizontalLineToRelative(1.49f)
+                curveToRelative(0.08f, 0.27f, 0.33f, 0.46f, 0.62f, 0.46f)
+                horizontalLineToRelative(1.96f)
+                curveToRelative(0.29f, 0f, 0.53f, -0.24f, 0.53f, -0.53f)
+                curveToRelative(0f, -0.25f, -0.18f, -0.47f, -0.42f, -0.52f)
+                lineToRelative(-2.57f, -0.52f)
+                curveToRelative(-0.93f, -0.19f, -1.61f, -1.01f, -1.61f, -1.96f)
+                curveToRelative(0f, -1.1f, 0.9f, -2.0f, 2.0f, -2.0f)
+                horizontalLineToRelative(0.32f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(1.44f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(0.2f)
+                curveToRelative(1.11f, 0f, 2.02f, 0.85f, 2.11f, 1.93f)
+                horizontalLineToRelative(-1.49f)
+                curveToRelative(-0.08f, -0.27f, -0.33f, -0.46f, -0.62f, -0.46f)
+                horizontalLineToRelative(-1.96f)
+                curveToRelative(-0.29f, 0f, -0.53f, 0.24f, -0.53f, 0.53f)
+                curveToRelative(0f, 0.25f, 0.18f, 0.47f, 0.42f, 0.52f)
+                lineToRelative(2.57f, 0.52f)
+                curveToRelative(0.93f, 0.19f, 1.61f, 1.01f, 1.61f, 1.96f)
+                curveToRelative(0f, 1.1f, -0.9f, 2.0f, -2.0f, 2.0f)
+                horizontalLineToRelative(-0.32f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(-1.44f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-0.2f)
+                curveToRelative(-1.11f, 0f, -2.02f, -0.85f, -2.11f, -1.93f)
+                close()
+                moveTo(13.14f, 21f)
+                horizontalLineToRelative(-5.4f)
+                lineToRelative(-3f, -1f)
+                horizontalLineToRelative(-1.74f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(2.22f)
+                lineToRelative(2.25f, -2.82f)
+                lineToRelative(1.82f, 1.82f)
+                lineToRelative(4.69f, 0.01f)
+                curveToRelative(-0.08f, 0.71f, -0.44f, 2.84f, -0.84f, 4.99f)
+                close()
+                moveTo(21.5f, 11f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-5f)
+                horizontalLineToRelative(-2.5f)
+                lineToRelative(3.2f, -3.2f)
+                curveToRelative(0.44f, -0.44f, 1.16f, -0.44f, 1.6f, 0f)
+                lineToRelative(3.2f, 3.2f)
+                close()
+            }
+        }.also { _AuctionPaddle = it}

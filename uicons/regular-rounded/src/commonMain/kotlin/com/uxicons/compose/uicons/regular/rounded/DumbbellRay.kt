@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DumbbellRay: ImageVector? = null
+
+val Icons.Rr.DumbbellRay: ImageVector
+    get() = _DumbbellRay ?: UXIcon(name = "DumbbellRay") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(24f, 18f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                close()
+                moveTo(19f, 12f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(4f)
+                lineTo(6f, 17f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(10f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-4f)
+                horizontalLineToRelative(12f)
+                verticalLineToRelative(4f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                lineTo(20f, 13f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(2f, 14f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                verticalLineToRelative(2f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-6f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(6.88f, 9.22f)
+                curveToRelative(-0.37f, -0.49f, -0.47f, -1.11f, -0.3f, -1.7f)
+                lineTo(8.71f, 1.35f)
+                curveToRelative(0.28f, -0.81f, 1.04f, -1.35f, 1.89f, -1.35f)
+                horizontalLineToRelative(1.89f)
+                curveToRelative(0.66f, 0f, 1.27f, 0.32f, 1.65f, 0.87f)
+                reflectiveCurveToRelative(0.46f, 1.23f, 0.22f, 1.85f)
+                lineToRelative(-0.45f, 1.28f)
+                horizontalLineToRelative(1.68f)
+                curveToRelative(0.7f, 0f, 1.35f, 0.39f, 1.68f, 1.0f)
+                reflectiveCurveToRelative(0.3f, 1.37f, -0.09f, 1.95f)
+                lineToRelative(-4.26f, 6.24f)
+                curveToRelative(-0.37f, 0.53f, -0.93f, 0.82f, -1.53f, 0.82f)
+                curveToRelative(-0.27f, 0f, -0.55f, -0.06f, -0.81f, -0.19f)
+                curveToRelative(-0.85f, -0.4f, -1.26f, -1.31f, -1.0f, -2.21f)
+                lineToRelative(0.54f, -1.62f)
+                horizontalLineToRelative(-1.69f)
+                curveToRelative(-0.61f, 0f, -1.18f, -0.28f, -1.54f, -0.78f)
+                close()
+                moveTo(8.52f, 8.03f)
+                lineToRelative(2.98f, -0.03f)
+                curveToRelative(0.32f, 0f, 0.62f, 0.15f, 0.81f, 0.41f)
+                reflectiveCurveToRelative(0.24f, 0.6f, 0.14f, 0.9f)
+                lineToRelative(-0.66f, 1.99f)
+                lineToRelative(3.66f, -5.35f)
+                lineToRelative(-2.95f, 0.05f)
+                curveToRelative(-0.33f, 0f, -0.63f, -0.16f, -0.82f, -0.42f)
+                curveToRelative(-0.19f, -0.27f, -0.23f, -0.6f, -0.13f, -0.91f)
+                lineToRelative(0.93f, -2.64f)
+                lineToRelative(-1.89f, -0.03f)
+                lineToRelative(-2.08f, 6.03f)
+                close()
+            }
+        }.also { _DumbbellRay = it}

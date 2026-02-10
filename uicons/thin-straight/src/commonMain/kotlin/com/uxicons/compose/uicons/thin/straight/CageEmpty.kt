@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CageEmpty: ImageVector? = null
+
+val Icons.Ts.CageEmpty: ImageVector
+    get() = _CageEmpty ?: UXIcon(name = "CageEmpty") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(20f, 23f)
+                lineTo(20f, 10f)
+                curveToRelative(0f, -4.41f, -3.59f, -8f, -8f, -8f)
+                reflectiveCurveTo(4f, 5.59f, 4f, 10f)
+                verticalLineToRelative(13f)
+                lineTo(2f, 23f)
+                verticalLineToRelative(1f)
+                lineTo(22f, 24f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(15.96f, 10f)
+                horizontalLineToRelative(-1.98f)
+                curveToRelative(-0.04f, -1.74f, -0.2f, -4.84f, -0.82f, -6.63f)
+                curveToRelative(1.46f, 0.93f, 2.59f, 3.54f, 2.79f, 6.63f)
+                close()
+                moveTo(12.98f, 10f)
+                horizontalLineToRelative(-1.97f)
+                curveToRelative(0.08f, -3.98f, 0.62f, -6.32f, 0.98f, -6.9f)
+                curveToRelative(0.36f, 0.58f, 0.9f, 2.92f, 0.98f, 6.9f)
+                close()
+                moveTo(10.83f, 3.37f)
+                curveToRelative(-0.62f, 1.79f, -0.78f, 4.9f, -0.82f, 6.63f)
+                horizontalLineToRelative(-1.98f)
+                curveToRelative(0.2f, -3.1f, 1.33f, -5.71f, 2.79f, -6.63f)
+                close()
+                moveTo(10f, 11f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(8f, 11f)
+                horizontalLineToRelative(2f)
+                close()
+                moveTo(11f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(11f, 11f)
+                close()
+                moveTo(14f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(14f, 11f)
+                close()
+                moveTo(17f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(17f, 11f)
+                close()
+                moveTo(19f, 10f)
+                horizontalLineToRelative(-2.03f)
+                curveToRelative(-0.16f, -2.65f, -0.93f, -4.92f, -2.06f, -6.36f)
+                curveToRelative(2.41f, 1.11f, 4.09f, 3.54f, 4.09f, 6.36f)
+                close()
+                moveTo(9.09f, 3.64f)
+                curveToRelative(-1.13f, 1.44f, -1.91f, 3.71f, -2.06f, 6.36f)
+                horizontalLineToRelative(-2.03f)
+                curveToRelative(0f, -2.82f, 1.68f, -5.25f, 4.09f, -6.36f)
+                close()
+                moveTo(5f, 11f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(12f)
+                horizontalLineToRelative(-2f)
+                lineTo(5f, 11f)
+                close()
+                moveTo(12f, 2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+            }
+        }.also { _CageEmpty = it}

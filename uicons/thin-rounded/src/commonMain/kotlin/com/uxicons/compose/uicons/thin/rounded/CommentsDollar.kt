@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CommentsDollar: ImageVector? = null
+
+val Icons.Tr.CommentsDollar: ImageVector
+    get() = _CommentsDollar ?: UXIcon(name = "CommentsDollar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(17.98f, 9.67f)
+                curveToRelative(0.18f, -2.62f, -0.77f, -5.18f, -2.62f, -7.04f)
+                reflectiveCurveTo(10.96f, -0.16f, 8.35f, 0.02f)
+                curveTo(3.82f, 0.34f, 0f, 4.6f, 0f, 9.31f)
+                verticalLineToRelative(5.19f)
+                curveToRelative(0f, 2.29f, 1.21f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(5.18f)
+                curveToRelative(4.72f, 0f, 8.97f, -3.81f, 9.29f, -8.33f)
+                close()
+                moveTo(8.69f, 17.0f)
+                lineTo(3.5f, 17.0f)
+                curveToRelative(-1.73f, 0f, -2.5f, -0.77f, -2.5f, -2.5f)
+                verticalLineToRelative(-5.19f)
+                curveTo(1f, 5.1f, 4.4f, 1.3f, 8.42f, 1.02f)
+                curveToRelative(0.19f, -0.01f, 0.38f, -0.02f, 0.57f, -0.02f)
+                curveToRelative(2.12f, 0f, 4.16f, 0.84f, 5.66f, 2.34f)
+                curveToRelative(1.65f, 1.65f, 2.5f, 3.93f, 2.33f, 6.26f)
+                curveToRelative(-0.28f, 4.01f, -4.08f, 7.4f, -8.29f, 7.4f)
+                close()
+                moveTo(24f, 16.27f)
+                verticalLineToRelative(4.73f)
+                curveToRelative(0f, 1.85f, -1.15f, 3.0f, -3f, 3.0f)
+                horizontalLineToRelative(-4.72f)
+                curveToRelative(-2.7f, 0f, -5.35f, -1.42f, -6.93f, -3.72f)
+                curveToRelative(-0.16f, -0.23f, -0.1f, -0.54f, 0.13f, -0.69f)
+                curveToRelative(0.23f, -0.16f, 0.54f, -0.1f, 0.7f, 0.13f)
+                curveToRelative(1.39f, 2.02f, 3.73f, 3.28f, 6.11f, 3.28f)
+                horizontalLineToRelative(4.72f)
+                curveToRelative(0.91f, 0f, 2f, -0.35f, 2f, -2.0f)
+                verticalLineToRelative(-4.73f)
+                curveToRelative(0f, -2.37f, -1.26f, -4.71f, -3.28f, -6.11f)
+                curveToRelative(-0.23f, -0.16f, -0.28f, -0.47f, -0.13f, -0.69f)
+                curveToRelative(0.16f, -0.23f, 0.47f, -0.28f, 0.69f, -0.13f)
+                curveToRelative(2.29f, 1.58f, 3.72f, 4.23f, 3.72f, 6.93f)
+                close()
+                moveTo(13f, 11.37f)
+                curveToRelative(0f, 1.45f, -1.18f, 2.63f, -2.63f, 2.63f)
+                horizontalLineToRelative(-0.87f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.28f, -0.22f, 0.5f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(-0.5f, -0.22f, -0.5f, -0.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(-0.93f)
+                curveToRelative(-0.98f, 0f, -1.89f, -0.53f, -2.38f, -1.37f)
+                curveToRelative(-0.14f, -0.24f, -0.06f, -0.55f, 0.18f, -0.68f)
+                curveToRelative(0.24f, -0.14f, 0.54f, -0.06f, 0.68f, 0.18f)
+                curveToRelative(0.31f, 0.54f, 0.89f, 0.88f, 1.52f, 0.88f)
+                horizontalLineToRelative(2.8f)
+                curveToRelative(0.9f, 0f, 1.63f, -0.73f, 1.63f, -1.63f)
+                curveToRelative(0f, -0.8f, -0.57f, -1.48f, -1.37f, -1.6f)
+                lineToRelative(-3.42f, -0.55f)
+                curveToRelative(-1.28f, -0.21f, -2.21f, -1.3f, -2.21f, -2.59f)
+                curveToRelative(0f, -1.45f, 1.18f, -2.63f, 2.63f, -2.63f)
+                horizontalLineToRelative(0.87f)
+                verticalLineToRelative(-1.5f)
+                curveToRelative(0f, -0.28f, 0.22f, -0.5f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(0.5f, 0.22f, 0.5f, 0.5f)
+                verticalLineToRelative(1.5f)
+                horizontalLineToRelative(0.93f)
+                curveToRelative(0.98f, 0f, 1.89f, 0.53f, 2.38f, 1.38f)
+                curveToRelative(0.14f, 0.24f, 0.06f, 0.55f, -0.18f, 0.68f)
+                curveToRelative(-0.24f, 0.14f, -0.55f, 0.06f, -0.68f, -0.18f)
+                curveToRelative(-0.31f, -0.54f, -0.89f, -0.88f, -1.52f, -0.88f)
+                horizontalLineToRelative(-2.8f)
+                curveToRelative(-0.9f, 0f, -1.63f, 0.73f, -1.63f, 1.63f)
+                curveToRelative(0f, 0.8f, 0.57f, 1.48f, 1.37f, 1.6f)
+                lineToRelative(3.42f, 0.55f)
+                curveToRelative(1.28f, 0.21f, 2.21f, 1.3f, 2.21f, 2.59f)
+                close()
+            }
+        }.also { _CommentsDollar = it}

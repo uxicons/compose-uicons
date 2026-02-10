@@ -1,0 +1,77 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _SquareStar: ImageVector? = null
+
+val Icons.Tr.SquareStar: ImageVector
+    get() = _SquareStar ?: UXIcon(name = "SquareStar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19.5f, 24f)
+                lineTo(4.5f, 24f)
+                curveToRelative(-2.48f, 0f, -4.5f, -2.02f, -4.5f, -4.5f)
+                lineTo(0f, 4.5f)
+                curveTo(0f, 2.02f, 2.02f, 0f, 4.5f, 0f)
+                horizontalLineToRelative(15f)
+                curveToRelative(2.48f, 0f, 4.5f, 2.02f, 4.5f, 4.5f)
+                verticalLineToRelative(15f)
+                curveToRelative(0f, 2.48f, -2.02f, 4.5f, -4.5f, 4.5f)
+                close()
+                moveTo(4.5f, 1f)
+                curveToRelative(-1.93f, 0f, -3.5f, 1.57f, -3.5f, 3.5f)
+                verticalLineToRelative(15f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(15f)
+                curveToRelative(1.93f, 0f, 3.5f, -1.57f, 3.5f, -3.5f)
+                lineTo(23f, 4.5f)
+                curveToRelative(0f, -1.93f, -1.57f, -3.5f, -3.5f, -3.5f)
+                lineTo(4.5f, 1f)
+                close()
+                moveTo(8.74f, 17f)
+                curveToRelative(-0.21f, 0f, -0.42f, -0.07f, -0.6f, -0.2f)
+                curveToRelative(-0.34f, -0.25f, -0.48f, -0.7f, -0.35f, -1.1f)
+                lineToRelative(0.94f, -3.01f)
+                lineToRelative(-2.37f, -1.93f)
+                curveToRelative(-0.33f, -0.28f, -0.44f, -0.72f, -0.3f, -1.11f)
+                curveToRelative(0.14f, -0.39f, 0.52f, -0.65f, 0.94f, -0.65f)
+                horizontalLineToRelative(3f)
+                lineToRelative(1.06f, -2.85f)
+                curveToRelative(0.14f, -0.37f, 0.51f, -0.62f, 0.94f, -0.62f)
+                reflectiveCurveToRelative(0.8f, 0.24f, 0.94f, 0.62f)
+                lineToRelative(1.06f, 2.85f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.42f, 0f, 0.8f, 0.26f, 0.94f, 0.66f)
+                curveToRelative(0.14f, 0.39f, 0.03f, 0.84f, -0.29f, 1.1f)
+                lineToRelative(-2.37f, 1.93f)
+                lineToRelative(0.98f, 2.98f)
+                curveToRelative(0.13f, 0.4f, 0f, 0.85f, -0.34f, 1.11f)
+                curveToRelative(-0.34f, 0.26f, -0.8f, 0.28f, -1.16f, 0.05f)
+                lineToRelative(-2.75f, -1.79f)
+                lineToRelative(-2.71f, 1.81f)
+                curveToRelative(-0.17f, 0.11f, -0.37f, 0.17f, -0.56f, 0.17f)
+                close()
+                moveTo(7f, 9.99f)
+                lineToRelative(2.62f, 2.14f)
+                curveToRelative(0.16f, 0.13f, 0.22f, 0.34f, 0.16f, 0.54f)
+                lineToRelative(-1.04f, 3.34f)
+                lineToRelative(2.98f, -1.99f)
+                curveToRelative(0.17f, -0.11f, 0.38f, -0.11f, 0.55f, 0f)
+                lineToRelative(3.03f, 1.97f)
+                lineToRelative(-1.09f, -3.31f)
+                curveToRelative(-0.06f, -0.2f, 0f, -0.41f, 0.16f, -0.54f)
+                lineToRelative(2.62f, -2.13f)
+                reflectiveCurveToRelative(0f, 0f, 0f, 0f)
+                horizontalLineToRelative(-3.35f)
+                curveToRelative(-0.21f, 0f, -0.4f, -0.13f, -0.47f, -0.33f)
+                lineToRelative(-1.18f, -3.18f)
+                lineToRelative(-1.18f, 3.18f)
+                curveToRelative(-0.07f, 0.2f, -0.26f, 0.33f, -0.47f, 0.33f)
+                horizontalLineToRelative(-3.35f)
+                close()
+            }
+        }.also { _SquareStar = it}

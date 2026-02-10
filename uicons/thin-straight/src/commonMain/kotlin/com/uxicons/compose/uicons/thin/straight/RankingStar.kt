@@ -1,0 +1,85 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _RankingStar: ImageVector? = null
+
+val Icons.Ts.RankingStar: ImageVector
+    get() = _RankingStar ?: UXIcon(name = "RankingStar") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22f, 17f)
+                horizontalLineToRelative(-4.5f)
+                curveToRelative(-0.36f, 0f, -0.71f, 0.1f, -1f, 0.27f)
+                verticalLineToRelative(-5.27f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                horizontalLineToRelative(-5f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(2.27f)
+                curveToRelative(-0.29f, -0.17f, -0.64f, -0.27f, -1f, -0.27f)
+                lineTo(2f, 14f)
+                curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(8f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveTo(8.5f, 12f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(11f)
+                horizontalLineToRelative(-7f)
+                verticalLineToRelative(-11f)
+                close()
+                moveTo(1f, 16f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(7f)
+                lineTo(1f, 23f)
+                verticalLineToRelative(-7f)
+                close()
+                moveTo(23f, 23f)
+                horizontalLineToRelative(-6.5f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                close()
+                moveTo(9.15f, 7.67f)
+                lineToRelative(0.63f, 0.47f)
+                lineToRelative(2.22f, -1.44f)
+                lineToRelative(2.22f, 1.44f)
+                lineToRelative(0.62f, -0.48f)
+                lineToRelative(-0.71f, -2.36f)
+                lineToRelative(1.86f, -1.5f)
+                verticalLineToRelative(-0.8f)
+                horizontalLineToRelative(-2.68f)
+                lineToRelative(-0.92f, -2.63f)
+                horizontalLineToRelative(-0.79f)
+                lineToRelative(-0.92f, 2.63f)
+                horizontalLineToRelative(-2.68f)
+                verticalLineToRelative(0.8f)
+                lineToRelative(1.86f, 1.5f)
+                lineToRelative(-0.71f, 2.37f)
+                close()
+                moveTo(9.85f, 4f)
+                horizontalLineToRelative(1.54f)
+                lineToRelative(0.61f, -1.74f)
+                lineToRelative(0.61f, 1.74f)
+                horizontalLineToRelative(1.54f)
+                lineToRelative(-1.16f, 0.94f)
+                lineToRelative(0.45f, 1.5f)
+                lineToRelative(-1.44f, -0.93f)
+                lineToRelative(-1.44f, 0.93f)
+                lineToRelative(0.45f, -1.5f)
+                lineToRelative(-1.16f, -0.94f)
+                close()
+            }
+        }.also { _RankingStar = it}

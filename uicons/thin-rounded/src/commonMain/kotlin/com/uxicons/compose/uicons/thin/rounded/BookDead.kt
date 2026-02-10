@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _BookDead: ImageVector? = null
+
+val Icons.Tr.BookDead: ImageVector
+    get() = _BookDead ?: UXIcon(name = "BookDead") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(17.5f, 0f)
+                lineTo(6.5f, 0f)
+                curveTo(4.02f, 0f, 2f, 2.02f, 2f, 4.5f)
+                verticalLineToRelative(16f)
+                curveToRelative(0f, 1.93f, 1.57f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(12f)
+                curveToRelative(2.48f, 0f, 4.5f, -2.02f, 4.5f, -4.5f)
+                lineTo(22f, 4.5f)
+                curveToRelative(0f, -2.48f, -2.02f, -4.5f, -4.5f, -4.5f)
+                close()
+                moveTo(3f, 4.5f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(11f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                verticalLineToRelative(12.5f)
+                lineTo(5.5f, 17f)
+                curveToRelative(-0.98f, 0f, -1.86f, 0.4f, -2.5f, 1.05f)
+                lineTo(3f, 4.5f)
+                close()
+                moveTo(17.5f, 23f)
+                lineTo(5.5f, 23f)
+                curveToRelative(-1.38f, 0f, -2.5f, -1.12f, -2.5f, -2.5f)
+                reflectiveCurveToRelative(1.12f, -2.5f, 2.5f, -2.5f)
+                horizontalLineToRelative(15.5f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 1.93f, -1.57f, 3.5f, -3.5f, 3.5f)
+                close()
+                moveTo(9.09f, 12.94f)
+                curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                horizontalLineToRelative(0f)
+                curveToRelative(0.53f, -0.01f, 1.02f, -0.22f, 1.4f, -0.6f)
+                curveToRelative(0.38f, -0.39f, 0.58f, -0.9f, 0.57f, -1.44f)
+                curveToRelative(-0.01f, -0.65f, -0.02f, -1.4f, -0.02f, -1.97f)
+                curveToRelative(0f, -2.73f, -2.22f, -4.94f, -4.94f, -4.94f)
+                reflectiveCurveToRelative(-4.94f, 2.22f, -4.94f, 4.94f)
+                lineToRelative(-0.03f, 1.98f)
+                curveToRelative(-0.01f, 0.54f, 0.2f, 1.05f, 0.57f, 1.44f)
+                curveToRelative(0.37f, 0.38f, 0.87f, 0.59f, 1.4f, 0.6f)
+                close()
+                moveTo(8.15f, 8.94f)
+                curveToRelative(0f, -2.17f, 1.77f, -3.94f, 3.94f, -3.94f)
+                reflectiveCurveToRelative(3.94f, 1.77f, 3.94f, 3.94f)
+                curveToRelative(0f, 0.57f, 0.01f, 1.32f, 0.02f, 1.99f)
+                curveToRelative(0.01f, 0.27f, -0.1f, 0.52f, -0.28f, 0.72f)
+                curveToRelative(-0.19f, 0.19f, -0.44f, 0.3f, -0.71f, 0.3f)
+                horizontalLineToRelative(-0.47f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(0.5f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-0.5f)
+                curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-0.48f)
+                curveToRelative(-0.27f, 0f, -0.52f, -0.11f, -0.71f, -0.3f)
+                curveToRelative(-0.19f, -0.19f, -0.29f, -0.45f, -0.29f, -0.72f)
+                lineToRelative(0.03f, -1.98f)
+                close()
+                moveTo(9.09f, 8.94f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+                moveTo(13.09f, 8.94f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                close()
+            }
+        }.also { _BookDead = it}

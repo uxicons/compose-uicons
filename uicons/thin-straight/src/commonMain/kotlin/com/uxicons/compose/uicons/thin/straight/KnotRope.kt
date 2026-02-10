@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _KnotRope: ImageVector? = null
+
+val Icons.Ts.KnotRope: ImageVector
+    get() = _KnotRope ?: UXIcon(name = "KnotRope") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(16.98f, 11.39f)
+                lineToRelative(-0.78f, -0.78f)
+                curveToRelative(1.31f, -0.46f, 2.46f, -0.96f, 2.91f, -1.41f)
+                curveToRelative(1.19f, -1.19f, 1.19f, -3.12f, 0f, -4.31f)
+                curveToRelative(-1.19f, -1.19f, -3.12f, -1.19f, -4.31f, 0f)
+                curveToRelative(-0.45f, 0.45f, -0.95f, 1.6f, -1.41f, 2.91f)
+                lineToRelative(-0.78f, -0.78f)
+                curveToRelative(0.46f, -1.23f, 0.97f, -2.33f, 1.49f, -2.84f)
+                curveToRelative(1.58f, -1.58f, 4.14f, -1.58f, 5.72f, 0f)
+                curveToRelative(1.58f, 1.58f, 1.58f, 4.14f, 0f, 5.72f)
+                curveToRelative(-0.51f, 0.51f, -1.61f, 1.03f, -2.84f, 1.49f)
+                close()
+                moveTo(4.18f, 14.09f)
+                curveToRelative(-1.58f, 1.58f, -1.58f, 4.14f, 0f, 5.72f)
+                curveToRelative(1.58f, 1.58f, 4.14f, 1.58f, 5.72f, 0f)
+                curveToRelative(0.51f, -0.51f, 1.03f, -1.61f, 1.49f, -2.84f)
+                lineToRelative(-0.78f, -0.78f)
+                curveToRelative(-0.46f, 1.31f, -0.96f, 2.46f, -1.41f, 2.91f)
+                curveToRelative(-1.19f, 1.19f, -3.12f, 1.19f, -4.31f, 0f)
+                curveToRelative(-1.19f, -1.19f, -1.19f, -3.12f, 0f, -4.31f)
+                curveToRelative(0.45f, -0.45f, 1.6f, -0.95f, 2.91f, -1.41f)
+                lineToRelative(-0.78f, -0.78f)
+                curveToRelative(-1.23f, 0.46f, -2.33f, 0.97f, -2.84f, 1.49f)
+                close()
+                moveTo(11.24f, 21.24f)
+                curveToRelative(-2.23f, 2.33f, -6.25f, 2.33f, -8.48f, 0f)
+                curveTo(0.43f, 19.01f, 0.43f, 14.99f, 2.76f, 12.76f)
+                curveToRelative(0.54f, -0.54f, 1.55f, -1.09f, 2.79f, -1.63f)
+                lineToRelative(-0.75f, -0.75f)
+                curveToRelative(-1.19f, 0.55f, -2.19f, 1.11f, -2.74f, 1.67f)
+                curveToRelative(-2.72f, 2.61f, -2.72f, 7.29f, 0f, 9.9f)
+                curveToRelative(2.61f, 2.72f, 7.29f, 2.72f, 9.9f, 0f)
+                curveToRelative(0.56f, -0.56f, 1.12f, -1.55f, 1.67f, -2.74f)
+                lineToRelative(-0.75f, -0.75f)
+                curveToRelative(-0.54f, 1.23f, -1.09f, 2.25f, -1.63f, 2.78f)
+                close()
+                moveTo(21.95f, 2.05f)
+                curveToRelative(-2.61f, -2.72f, -7.29f, -2.72f, -9.9f, 0f)
+                curveToRelative(-0.56f, 0.56f, -1.12f, 1.55f, -1.67f, 2.74f)
+                lineToRelative(0.75f, 0.75f)
+                curveToRelative(0.54f, -1.23f, 1.09f, -2.25f, 1.63f, -2.79f)
+                curveToRelative(2.23f, -2.33f, 6.25f, -2.33f, 8.48f, 0f)
+                curveToRelative(2.33f, 2.23f, 2.33f, 6.25f, 0f, 8.48f)
+                curveToRelative(-0.53f, 0.54f, -1.55f, 1.09f, -2.78f, 1.63f)
+                lineToRelative(0.75f, 0.75f)
+                curveToRelative(1.19f, -0.55f, 2.19f, -1.11f, 2.74f, -1.67f)
+                curveToRelative(2.72f, -2.61f, 2.72f, -7.29f, 0f, -9.9f)
+                close()
+                moveTo(6.31f, 9.07f)
+                lineToRelative(8.63f, 8.63f)
+                lineToRelative(0.71f, -0.71f)
+                lineTo(7.02f, 8.36f)
+                lineToRelative(-0.71f, 0.71f)
+                close()
+                moveTo(8.36f, 7.02f)
+                lineToRelative(8.63f, 8.63f)
+                lineToRelative(0.71f, -0.71f)
+                lineTo(9.07f, 6.31f)
+                lineToRelative(-0.71f, 0.71f)
+                close()
+                moveTo(17.66f, 6.34f)
+                curveToRelative(-0.44f, -0.44f, -1.2f, -0.44f, -1.63f, 0f)
+                curveToRelative(-0.5f, 0.6f, -0.68f, 1.78f, -0.88f, 2.51f)
+                curveToRelative(0.73f, -0.19f, 1.9f, -0.38f, 2.51f, -0.88f)
+                curveToRelative(0.45f, -0.45f, 0.45f, -1.18f, 0f, -1.63f)
+                close()
+                moveTo(6.33f, 17.66f)
+                curveToRelative(0.45f, 0.45f, 1.18f, 0.45f, 1.63f, 0f)
+                curveToRelative(0.5f, -0.6f, 0.68f, -1.78f, 0.88f, -2.51f)
+                curveToRelative(-0.73f, 0.19f, -1.9f, 0.38f, -2.51f, 0.88f)
+                curveToRelative(-0.43f, 0.43f, -0.44f, 1.2f, 0f, 1.63f)
+                close()
+            }
+        }.also { _KnotRope = it}

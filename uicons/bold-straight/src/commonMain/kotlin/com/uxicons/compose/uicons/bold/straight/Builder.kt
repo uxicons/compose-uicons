@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Builder: ImageVector? = null
+
+val Icons.Bs.Builder: ImageVector
+    get() = _Builder ?: UXIcon(name = "Builder") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(3f, 8.98f)
+                curveToRelative(0f, 3.31f, 2.69f, 6f, 6f, 6f)
+                curveToRelative(3.25f, 0f, 6f, -2.75f, 6f, -6f)
+                verticalLineToRelative(-0.98f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(0f, -1.85f, -1.01f, -3.44f, -2.5f, -4.31f)
+                verticalLineToRelative(3.31f)
+                horizontalLineToRelative(-2f)
+                lineTo(10.5f, 0.05f)
+                curveToRelative(-0.17f, -0.02f, -0.33f, -0.05f, -0.5f, -0.05f)
+                horizontalLineToRelative(-2f)
+                curveToRelative(-0.17f, 0f, -0.33f, 0.03f, -0.5f, 0.05f)
+                verticalLineToRelative(3.95f)
+                horizontalLineToRelative(-2f)
+                lineTo(5.5f, 0.69f)
+                curveToRelative(-1.49f, 0.87f, -2.5f, 2.46f, -2.5f, 4.31f)
+                lineTo(1f, 5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(0.98f)
+                close()
+                moveTo(12f, 8.98f)
+                curveToRelative(0f, 1.63f, -1.37f, 3f, -3f, 3f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-0.98f)
+                horizontalLineToRelative(6f)
+                verticalLineToRelative(0.98f)
+                close()
+                moveTo(13f, 19f)
+                horizontalLineToRelative(-7.5f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(2.5f)
+                lineTo(0f, 24f)
+                verticalLineToRelative(-2.5f)
+                curveToRelative(0f, -3.03f, 2.47f, -5.5f, 5.5f, -5.5f)
+                horizontalLineToRelative(7.5f)
+                verticalLineToRelative(3f)
+                close()
+                moveTo(19f, 21f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(24f, 11f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(5f)
+                close()
+                moveTo(12f, 21f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(15f, 16f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-3f)
+                close()
+                moveTo(22f, 16f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(-3f)
+                close()
+            }
+        }.also { _Builder = it}

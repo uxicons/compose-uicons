@@ -1,0 +1,86 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _DigitalCertificate: ImageVector? = null
+
+val Icons.Rr.DigitalCertificate: ImageVector
+    get() = _DigitalCertificate ?: UXIcon(name = "DigitalCertificate") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20f, 12f)
+                curveToRelative(-2.21f, 0f, -4f, 1.79f, -4f, 4f)
+                curveToRelative(0f, 1.47f, 0.81f, 2.75f, 2f, 3.44f)
+                verticalLineToRelative(3.93f)
+                curveToRelative(0f, 0.56f, 0.68f, 0.84f, 1.07f, 0.44f)
+                lineToRelative(0.93f, -0.93f)
+                lineToRelative(0.93f, 0.93f)
+                curveToRelative(0.4f, 0.4f, 1.07f, 0.12f, 1.07f, -0.44f)
+                verticalLineToRelative(-3.93f)
+                curveToRelative(1.19f, -0.69f, 2f, -1.97f, 2f, -3.44f)
+                curveToRelative(0f, -2.21f, -1.79f, -4f, -4f, -4f)
+                close()
+                moveTo(20f, 18f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+                moveTo(6f, 4.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(10f, 4.5f)
+                curveToRelative(0f, 0.83f, -0.67f, 1.5f, -1.5f, 1.5f)
+                reflectiveCurveToRelative(-1.5f, -0.67f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(0.67f, -1.5f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(19f, 0f)
+                horizontalLineToRelative(-14f)
+                curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(10f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                horizontalLineToRelative(-10f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                verticalLineToRelative(-8f)
+                horizontalLineToRelative(20f)
+                verticalLineToRelative(1f)
+                curveToRelative(0f, 0.55f, 0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(2f, 7f)
+                verticalLineToRelative(-2f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(2f)
+                close()
+                moveTo(4.58f, 16.26f)
+                curveToRelative(0.88f, -0.8f, 2.13f, -1.26f, 3.42f, -1.26f)
+                reflectiveCurveToRelative(2.54f, 0.46f, 3.42f, 1.26f)
+                curveToRelative(0.41f, 0.37f, 0.44f, 1.0f, 0.07f, 1.41f)
+                curveToRelative(-0.37f, 0.41f, -1.0f, 0.44f, -1.41f, 0.07f)
+                curveToRelative(-1.04f, -0.94f, -3.12f, -0.94f, -4.16f, 0f)
+                curveToRelative(-0.41f, 0.37f, -1.04f, 0.34f, -1.41f, -0.07f)
+                curveToRelative(-0.37f, -0.41f, -0.34f, -1.04f, 0.07f, -1.41f)
+                close()
+                moveTo(8f, 14.0f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                reflectiveCurveToRelative(0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                close()
+            }
+        }.also { _DigitalCertificate = it}

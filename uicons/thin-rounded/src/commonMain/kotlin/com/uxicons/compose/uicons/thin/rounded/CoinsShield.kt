@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.thin.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CoinsShield: ImageVector? = null
+
+val Icons.Tr.CoinsShield: ImageVector
+    get() = _CoinsShield ?: UXIcon(name = "CoinsShield") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(22.12f, 13.81f)
+                curveToRelative(-0.18f, 0.21f, -0.15f, 0.53f, 0.06f, 0.7f)
+                curveToRelative(0.38f, 0.32f, 0.82f, 0.84f, 0.82f, 1.49f)
+                curveToRelative(0f, 1.63f, -2.75f, 3f, -6f, 3f)
+                reflectiveCurveToRelative(-6f, -1.37f, -6f, -3f)
+                curveToRelative(0f, -1.06f, 1.23f, -2.09f, 3.13f, -2.62f)
+                curveToRelative(0.27f, -0.07f, 0.42f, -0.35f, 0.35f, -0.62f)
+                reflectiveCurveToRelative(-0.35f, -0.42f, -0.62f, -0.35f)
+                curveToRelative(-1.5f, 0.42f, -2.64f, 1.12f, -3.28f, 1.97f)
+                curveToRelative(-1.05f, 0.4f, -2.28f, 0.62f, -3.58f, 0.62f)
+                curveToRelative(-3.25f, 0f, -6f, -1.37f, -6f, -3f)
+                verticalLineToRelative(-1.92f)
+                curveToRelative(1.21f, 1.16f, 3.42f, 1.92f, 6f, 1.92f)
+                curveToRelative(1.76f, 0f, 3.44f, -0.37f, 4.73f, -1.03f)
+                curveToRelative(0.25f, -0.13f, 0.34f, -0.43f, 0.21f, -0.67f)
+                curveToRelative(-0.13f, -0.24f, -0.43f, -0.34f, -0.67f, -0.21f)
+                curveToRelative(-1.15f, 0.59f, -2.66f, 0.92f, -4.27f, 0.92f)
+                curveToRelative(-3.25f, 0f, -6f, -1.37f, -6f, -3f)
+                reflectiveCurveToRelative(2.75f, -3f, 6f, -3f)
+                curveToRelative(1.19f, 0f, 2.34f, 0.18f, 3.34f, 0.52f)
+                curveToRelative(0.26f, 0.09f, 0.55f, -0.05f, 0.64f, -0.31f)
+                curveToRelative(0.09f, -0.26f, -0.05f, -0.55f, -0.31f, -0.64f)
+                curveToRelative(-1.1f, -0.38f, -2.36f, -0.58f, -3.66f, -0.58f)
+                curveToRelative(-3.92f, 0.0f, -7.0f, 1.76f, -7.0f, 4.0f)
+                verticalLineToRelative(8f)
+                curveToRelative(0f, 2.24f, 3.08f, 4f, 7f, 4f)
+                curveToRelative(1.04f, 0f, 2.07f, -0.14f, 3f, -0.39f)
+                verticalLineToRelative(0.39f)
+                curveToRelative(0f, 2.24f, 3.08f, 4f, 7f, 4f)
+                reflectiveCurveToRelative(7f, -1.76f, 7f, -4f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.81f, -0.41f, -1.59f, -1.18f, -2.25f)
+                curveToRelative(-0.21f, -0.18f, -0.53f, -0.15f, -0.7f, 0.06f)
+                close()
+                moveTo(7f, 19f)
+                curveToRelative(-3.25f, 0f, -6f, -1.37f, -6f, -3f)
+                verticalLineToRelative(-1.92f)
+                curveToRelative(1.21f, 1.16f, 3.42f, 1.92f, 6f, 1.92f)
+                curveToRelative(1.07f, 0f, 2.1f, -0.14f, 3.05f, -0.39f)
+                curveToRelative(-0.02f, 0.13f, -0.05f, 0.26f, -0.05f, 0.39f)
+                verticalLineToRelative(2.58f)
+                curveToRelative(-0.91f, 0.27f, -1.94f, 0.42f, -3f, 0.42f)
+                close()
+                moveTo(17f, 23f)
+                curveToRelative(-3.25f, 0f, -6f, -1.37f, -6f, -3f)
+                verticalLineToRelative(-1.92f)
+                curveToRelative(1.21f, 1.16f, 3.42f, 1.92f, 6f, 1.92f)
+                reflectiveCurveToRelative(4.79f, -0.76f, 6f, -1.92f)
+                verticalLineToRelative(1.92f)
+                curveToRelative(0f, 1.63f, -2.75f, 3f, -6f, 3f)
+                close()
+                moveTo(22.13f, 1.18f)
+                lineTo(18.66f, 0.03f)
+                curveToRelative(-0.1f, -0.03f, -0.21f, -0.03f, -0.31f, 0f)
+                lineToRelative(-3.48f, 1.15f)
+                curveToRelative(-1.12f, 0.37f, -1.87f, 1.41f, -1.87f, 2.58f)
+                verticalLineToRelative(2.77f)
+                curveToRelative(0.06f, 2.57f, 1.83f, 4.77f, 5.27f, 6.52f)
+                curveToRelative(0.13f, 0.07f, 0.28f, 0.07f, 0.42f, 0.02f)
+                curveToRelative(3.46f, -1.43f, 5.25f, -3.63f, 5.31f, -6.55f)
+                verticalLineToRelative(-2.76f)
+                curveToRelative(0f, -1.18f, -0.75f, -2.21f, -1.87f, -2.58f)
+                close()
+                moveTo(23f, 6.51f)
+                curveToRelative(-0.05f, 2.46f, -1.51f, 4.27f, -4.48f, 5.54f)
+                curveToRelative(-2.96f, -1.55f, -4.48f, -3.42f, -4.52f, -5.54f)
+                verticalLineToRelative(-2.76f)
+                curveToRelative(0f, -0.74f, 0.47f, -1.4f, 1.18f, -1.64f)
+                lineToRelative(3.32f, -1.1f)
+                lineToRelative(3.32f, 1.1f)
+                curveToRelative(0.71f, 0.23f, 1.18f, 0.89f, 1.18f, 1.63f)
+                close()
+            }
+        }.also { _CoinsShield = it}

@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.bold.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _QrcodeTicket: ImageVector? = null
+
+val Icons.Bs.QrcodeTicket: ImageVector
+    get() = _QrcodeTicket ?: UXIcon(name = "QrcodeTicket") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(18f, 3.5f)
+                verticalLineToRelative(7.5f)
+                horizontalLineToRelative(-3f)
+                verticalLineToRelative(-7.5f)
+                curveToRelative(0f, -0.28f, -0.23f, -0.5f, -0.5f, -0.5f)
+                horizontalLineToRelative(-1.26f)
+                curveToRelative(-0.62f, 1.75f, -2.29f, 3f, -4.24f, 3f)
+                reflectiveCurveToRelative(-3.62f, -1.25f, -4.24f, -3f)
+                horizontalLineToRelative(-1.26f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                verticalLineToRelative(17f)
+                curveToRelative(0f, 0.28f, 0.23f, 0.5f, 0.5f, 0.5f)
+                horizontalLineToRelative(7.5f)
+                verticalLineToRelative(3f)
+                horizontalLineToRelative(-7.5f)
+                curveToRelative(-1.93f, 0f, -3.5f, -1.57f, -3.5f, -3.5f)
+                verticalLineToRelative(-17f)
+                curveToRelative(0f, -1.93f, 1.57f, -3.5f, 3.5f, -3.5f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(1.5f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                reflectiveCurveToRelative(1.5f, -0.67f, 1.5f, -1.5f)
+                verticalLineToRelative(-1.5f)
+                horizontalLineToRelative(4f)
+                curveToRelative(1.93f, 0f, 3.5f, 1.57f, 3.5f, 3.5f)
+                close()
+                moveTo(19f, 24f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(22f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(19f, 21f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(13f, 13f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 16f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(13f, 19f)
+                horizontalLineToRelative(5f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                close()
+                moveTo(15f, 22f)
+                horizontalLineToRelative(1f)
+                verticalLineToRelative(-1f)
+                horizontalLineToRelative(-1f)
+                close()
+                moveTo(24f, 13f)
+                verticalLineToRelative(5f)
+                horizontalLineToRelative(-5f)
+                verticalLineToRelative(-5f)
+                close()
+                moveTo(22f, 15f)
+                horizontalLineToRelative(-1f)
+                verticalLineToRelative(1f)
+                horizontalLineToRelative(1f)
+                close()
+            }
+        }.also { _QrcodeTicket = it}

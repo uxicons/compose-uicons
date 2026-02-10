@@ -1,0 +1,56 @@
+package com.uxicons.compose.uicons.solid.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Cumin: ImageVector? = null
+
+val Icons.Sr.Cumin: ImageVector
+    get() = _Cumin ?: UXIcon(name = "Cumin") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(20f, 4.96f)
+                curveToRelative(-1.22f, 0f, -4f, 4.25f, -4f, 9.5f)
+                reflectiveCurveToRelative(2.47f, 9.5f, 4f, 9.5f)
+                reflectiveCurveToRelative(4f, -4.22f, 4f, -9.46f)
+                reflectiveCurveToRelative(-2.78f, -9.54f, -4f, -9.54f)
+                close()
+                moveTo(20f, 21.75f)
+                reflectiveCurveToRelative(-0.93f, -3.23f, -0.93f, -7.23f)
+                reflectiveCurveToRelative(0.93f, -7.23f, 0.93f, -7.23f)
+                reflectiveCurveToRelative(0.93f, 3.23f, 0.93f, 7.23f)
+                reflectiveCurveToRelative(-0.93f, 7.23f, -0.93f, 7.23f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(16.93f, 0.86f)
+                curveToRelative(-0.54f, -1.05f, -5.52f, -1.52f, -10.17f, 0.85f)
+                reflectiveCurveToRelative(-7.33f, 6.43f, -6.66f, 7.75f)
+                reflectiveCurveToRelative(5.52f, 1.52f, 10.17f, -0.85f)
+                curveToRelative(4.65f, -2.38f, 7.19f, -6.7f, 6.66f, -7.75f)
+                close()
+                moveTo(8.87f, 6.0f)
+                curveToRelative(-3.53f, 1.81f, -6.81f, 2.47f, -6.81f, 2.47f)
+                reflectiveCurveToRelative(2.46f, -2.27f, 5.99f, -4.07f)
+                reflectiveCurveToRelative(6.81f, -2.47f, 6.81f, -2.47f)
+                reflectiveCurveToRelative(-2.46f, 2.27f, -5.99f, 4.07f)
+                close()
+            }
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(4.3f, 14.22f)
+                curveToRelative(-3.7f, 3.7f, -5.0f, 8.39f, -3.96f, 9.43f)
+                reflectiveCurveToRelative(5.74f, -0.26f, 9.43f, -3.96f)
+                reflectiveCurveToRelative(4.79f, -8.59f, 3.96f, -9.43f)
+                reflectiveCurveToRelative(-5.74f, 0.26f, -9.43f, 3.96f)
+                close()
+                moveTo(7.64f, 17.64f)
+                curveToRelative(-2.81f, 2.81f, -5.73f, 4.46f, -5.73f, 4.46f)
+                reflectiveCurveToRelative(1.64f, -2.92f, 4.46f, -5.73f)
+                curveToRelative(2.81f, -2.81f, 5.73f, -4.46f, 5.73f, -4.46f)
+                reflectiveCurveToRelative(-1.64f, 2.92f, -4.46f, 5.73f)
+                close()
+            }
+        }.also { _Cumin = it}

@@ -1,0 +1,70 @@
+package com.uxicons.compose.uicons.regular.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Nfc: ImageVector? = null
+
+val Icons.Rr.Nfc: ImageVector
+    get() = _Nfc ?: UXIcon(name = "Nfc") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(19f, 0f)
+                lineTo(5f, 0f)
+                curveTo(2.24f, 0f, 0f, 2.24f, 0f, 5f)
+                verticalLineToRelative(14f)
+                curveToRelative(0f, 2.76f, 2.24f, 5f, 5f, 5f)
+                horizontalLineToRelative(14f)
+                curveToRelative(2.76f, 0f, 5f, -2.24f, 5f, -5f)
+                lineTo(24f, 5f)
+                curveToRelative(0f, -2.76f, -2.24f, -5f, -5f, -5f)
+                close()
+                moveTo(22f, 19f)
+                curveToRelative(0f, 1.65f, -1.35f, 3f, -3f, 3f)
+                lineTo(5f, 22f)
+                curveToRelative(-1.65f, 0f, -3f, -1.35f, -3f, -3f)
+                lineTo(2f, 5f)
+                curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                verticalLineToRelative(14f)
+                close()
+                moveTo(20f, 6f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                lineTo(6f, 20f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                lineTo(4f, 6f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                horizontalLineToRelative(2f)
+                curveToRelative(0.4f, 0f, 0.77f, 0.24f, 0.92f, 0.62f)
+                curveToRelative(0.16f, 0.37f, 0.07f, 0.8f, -0.22f, 1.09f)
+                lineToRelative(-2.71f, 2.71f)
+                verticalLineToRelative(9.59f)
+                horizontalLineToRelative(12f)
+                lineTo(17.99f, 6f)
+                horizontalLineToRelative(-3.67f)
+                curveToRelative(-0.26f, 0f, -0.52f, 0.11f, -0.71f, 0.29f)
+                lineToRelative(-3.33f, 3.33f)
+                curveToRelative(-0.19f, 0.19f, -0.29f, 0.44f, -0.29f, 0.71f)
+                verticalLineToRelative(3.67f)
+                horizontalLineToRelative(4f)
+                verticalLineToRelative(-3f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(3f)
+                curveToRelative(0f, 1.1f, -0.9f, 2f, -2f, 2f)
+                horizontalLineToRelative(-4f)
+                curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                verticalLineToRelative(-3.67f)
+                curveToRelative(0f, -0.8f, 0.31f, -1.56f, 0.88f, -2.12f)
+                lineToRelative(3.33f, -3.33f)
+                curveToRelative(0.57f, -0.57f, 1.32f, -0.88f, 2.12f, -0.88f)
+                horizontalLineToRelative(3.67f)
+                curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                close()
+            }
+        }.also { _Nfc = it}

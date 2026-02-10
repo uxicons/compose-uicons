@@ -1,0 +1,87 @@
+package com.uxicons.compose.uicons.thin.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _Tram: ImageVector? = null
+
+val Icons.Ts.Tram: ImageVector
+    get() = _Tram ?: UXIcon(name = "Tram") {
+            path(fill = SolidColor(Color.Black)) {
+                moveTo(21.5f, 9f)
+                lineTo(12f, 9f)
+                lineTo(12f, 3f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                curveToRelative(0.36f, 0f, 0.71f, -0.1f, 1f, -0.27f)
+                verticalLineToRelative(4.27f)
+                lineTo(2.5f, 9f)
+                curveToRelative(-1.38f, 0f, -2.5f, 1.12f, -2.5f, 2.5f)
+                verticalLineToRelative(12.5f)
+                lineTo(24f, 24f)
+                lineTo(24f, 11.5f)
+                curveToRelative(0f, -1.38f, -1.12f, -2.5f, -2.5f, -2.5f)
+                close()
+                moveTo(10f, 4f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                reflectiveCurveToRelative(1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                close()
+                moveTo(23f, 11.5f)
+                verticalLineToRelative(4.5f)
+                horizontalLineToRelative(-6f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(4.5f)
+                curveToRelative(0.83f, 0f, 1.5f, 0.67f, 1.5f, 1.5f)
+                close()
+                moveTo(8f, 16f)
+                verticalLineToRelative(-6f)
+                horizontalLineToRelative(8f)
+                verticalLineToRelative(6f)
+                lineTo(8f, 16f)
+                close()
+                moveTo(2.5f, 10f)
+                lineTo(7f, 10f)
+                verticalLineToRelative(6f)
+                lineTo(1f, 16f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -0.83f, 0.67f, -1.5f, 1.5f, -1.5f)
+                close()
+                moveTo(1f, 23f)
+                verticalLineToRelative(-6f)
+                lineTo(23f, 17f)
+                verticalLineToRelative(6f)
+                lineTo(1f, 23f)
+                close()
+                moveTo(15f, 4f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                reflectiveCurveToRelative(-0.9f, -2f, -2f, -2f)
+                reflectiveCurveToRelative(-2f, 0.9f, -2f, 2f)
+                reflectiveCurveToRelative(0.9f, 2f, 2f, 2f)
+                close()
+                moveTo(15f, 1f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                reflectiveCurveToRelative(-0.45f, 1f, -1f, 1f)
+                reflectiveCurveToRelative(-1f, -0.45f, -1f, -1f)
+                reflectiveCurveToRelative(0.45f, -1f, 1f, -1f)
+                close()
+                moveTo(6.28f, 4.43f)
+                lineTo(0f, 5.63f)
+                verticalLineToRelative(-1.02f)
+                lineToRelative(6.05f, -1.16f)
+                curveToRelative(0.04f, 0.34f, 0.11f, 0.67f, 0.23f, 0.97f)
+                close()
+                moveTo(24f, 0f)
+                lineTo(24f, 1.02f)
+                lineToRelative(-5.0f, 0.96f)
+                curveToRelative(-0.0f, -0.34f, -0.06f, -0.67f, -0.14f, -0.99f)
+                lineToRelative(5.14f, -0.99f)
+                close()
+            }
+        }.also { _Tram = it}

@@ -1,0 +1,88 @@
+package com.uxicons.compose.uicons.regular.straight
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import com.uxicons.compose.uicons.Icons
+import com.uxicons.compose.uicons.core.UXIcon
+
+private var _CivilLaw: ImageVector? = null
+
+val Icons.Rs.CivilLaw: ImageVector
+    get() = _CivilLaw ?: UXIcon(name = "CivilLaw") {
+            path(fill = SolidColor(Color.Black)) {
+                moveToRelative(15.21f, 6.74f)
+                curveToRelative(0.78f, -0.78f, 1.27f, -1.87f, 1.27f, -3.06f)
+                verticalLineToRelative(-2.83f)
+                curveToRelative(0f, -0.46f, -0.37f, -0.83f, -0.83f, -0.83f)
+                reflectiveCurveToRelative(-0.83f, 0.37f, -0.83f, 0.83f)
+                verticalLineToRelative(0.68f)
+                horizontalLineToRelative(-1.39f)
+                verticalLineToRelative(-0.68f)
+                curveToRelative(0f, -0.46f, -0.37f, -0.83f, -0.83f, -0.83f)
+                reflectiveCurveToRelative(-0.83f, 0.37f, -0.83f, 0.83f)
+                verticalLineToRelative(0.67f)
+                horizontalLineToRelative(-1.42f)
+                verticalLineToRelative(-0.67f)
+                curveToRelative(0f, -0.46f, -0.37f, -0.83f, -0.83f, -0.83f)
+                reflectiveCurveToRelative(-0.83f, 0.37f, -0.83f, 0.83f)
+                verticalLineToRelative(2.69f)
+                lineToRelative(-1.01f, -0.93f)
+                curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                reflectiveCurveToRelative(-0.39f, 1.02f, 0f, 1.41f)
+                lineToRelative(2.75f, 2.67f)
+                curveToRelative(0.55f, 0.55f, 1.21f, 0.97f, 1.96f, 1.17f)
+                verticalLineToRelative(16.14f)
+                horizontalLineToRelative(2.0f)
+                verticalLineToRelative(-16.07f)
+                curveToRelative(0.86f, -0.17f, 1.63f, -0.59f, 2.23f, -1.19f)
+                close()
+                moveTo(10.71f, 3.51f)
+                horizontalLineToRelative(3.78f)
+                verticalLineToRelative(0.17f)
+                curveToRelative(0.03f, 1.25f, -1.0f, 2.33f, -2.33f, 2.33f)
+                curveToRelative(-0.54f, 0f, -1.0f, -0.14f, -1.45f, -0.51f)
+                verticalLineToRelative(-1.99f)
+                close()
+                moveTo(0.02f, 5.01f)
+                verticalLineToRelative(2.0f)
+                horizontalLineToRelative(3.06f)
+                lineToRelative(-3.09f, 8.82f)
+                verticalLineToRelative(0.67f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                reflectiveCurveToRelative(4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-0.67f)
+                lineToRelative(-3.76f, -10.82f)
+                close()
+                moveTo(6.59f, 15.0f)
+                horizontalLineToRelative(-4.18f)
+                lineToRelative(2.1f, -5.99f)
+                close()
+                moveTo(4.5f, 18.99f)
+                curveToRelative(-1.21f, 0f, -2.21f, -0.86f, -2.45f, -2.0f)
+                horizontalLineToRelative(4.89f)
+                curveToRelative(-0.23f, 1.14f, -1.24f, 2.0f, -2.45f, 2.0f)
+                close()
+                moveTo(20.91f, 7.0f)
+                horizontalLineToRelative(3.06f)
+                verticalLineToRelative(-2.0f)
+                horizontalLineToRelative(-5.21f)
+                lineToRelative(-3.76f, 10.82f)
+                verticalLineToRelative(0.67f)
+                curveToRelative(0f, 2.48f, 2.02f, 4.5f, 4.5f, 4.5f)
+                reflectiveCurveToRelative(4.5f, -2.02f, 4.5f, -4.5f)
+                verticalLineToRelative(-0.67f)
+                lineToRelative(-3.09f, -8.82f)
+                close()
+                moveTo(19.5f, 9.01f)
+                lineTo(21.59f, 15.0f)
+                horizontalLineToRelative(-4.18f)
+                close()
+                moveTo(19.5f, 18.99f)
+                curveToRelative(-1.21f, 0f, -2.21f, -0.86f, -2.45f, -2.0f)
+                horizontalLineToRelative(4.89f)
+                curveToRelative(-0.23f, 1.14f, -1.24f, 2.0f, -2.45f, 2.0f)
+                close()
+            }
+        }.also { _CivilLaw = it}
